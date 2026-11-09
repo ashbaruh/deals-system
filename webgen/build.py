@@ -6,6 +6,7 @@ import json
 import os
 import re
 import shutil
+from datetime import date
 from pathlib import Path
 
 from engine.core import DATA, LANGS, ROOT, SETTINGS
@@ -145,11 +146,29 @@ def build():
         (root / "deal").mkdir(parents=True)
         (root / "niche").mkdir()
 
+        today = date.today().isoformat()
+        banner = ""
+        for ev in SETTINGS.get("events", []):
+            ev_deals = [d for d in live if ev["start"] <= d.get("day", "") <= ev["end"]]
+            if not (ev["start"] <= today <= ev["end"] or ev_deals):
+                continue
+            (root / "event").mkdir(exist_ok=True)
+            t = ev["title"][lang]
+            g = "".join(card(d) for d in sorted(ev_deals, key=lambda d: d["heat"], reverse=True)[:60]) \
+                or f'<p class="empty">{esc(s["no_deals"])}</p>'
+            (root / "event" / f"{ev['key']}.html").write_text(page(
+                lang, f"/{lang}/event/{ev['key']}.html", f"{t} | {c['site_title']}", t,
+                f'<section class="hero"><h1>{esc(t)}</h1><p>{esc(c["site_tagline"])}</p></section><section class="grid">{g}</section>'),
+                encoding="utf-8")
+            urls.append(f"/{lang}/event/{ev['key']}.html")
+            if ev["start"] <= today <= ev["end"]:
+                banner += f'<a class="cta" style="margin-inline-start:8px" href="/{lang}/event/{ev["key"]}.html">🎯 {esc(t)}</a>'
+        bot = f'<a class="cta" style="margin-inline-start:8px" href="https://t.me/{SETTINGS.get("bot_username","dilim_deals_bot")}">🔔 {esc(s.get("alert_cta","Alerts"))}</a>'
         niche_links = "".join(f'<a href="/{lang}/niche/{k}.html">{esc(n["title"])}</a>'
                               for k, n in c["niches"].items())
         grid = "".join(card(d) for d in deals[:60]) or f'<p class="empty">{esc(s["no_deals"])}</p>'
         body = f"""<section class="hero"><h1>{esc(s['latest'])}</h1><p>{esc(c['site_tagline'])}</p>
-<a class="cta" href="{c['channel_url']}">✈ {esc(s['join_channel'])}</a></section>
+<a class="cta" href="{c['channel_url']}">✈ {esc(s['join_channel'])}</a>{bot}{banner}</section>
 <nav class="niches">{niche_links}</nav><section class="grid">{grid}</section>"""
         (root / "index.html").write_text(
             page(lang, f"/{lang}/", c["site_title"], c["meta_description"], body), encoding="utf-8")

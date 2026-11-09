@@ -14,6 +14,7 @@ import traceback
 from .core import DATA, LANGS, ROOT, SETTINGS, History, parse_feed, read_feed_text, select_deals, today_iso
 from .telegram import notify_owner, post_deal
 from .translate import localize
+from . import bot
 
 ARCHIVE_MAX = 300
 
@@ -97,6 +98,9 @@ def main() -> int:
     hist = History()
     posted_total = 0
     base = os.environ.get("SITE_BASE_URL", SETTINGS["site_base_url"]).rstrip("/")
+    bot.ensure_owner()
+    print("bot commands handled:", bot.process_commands(hist))
+    bot.ensure_welcome(hist)
 
     for lang in LANGS:
         try:
@@ -109,12 +113,16 @@ def main() -> int:
             localize(deals, lang, hist)
             archive = update_archive(lang, deals, products, today)
             by_pid = {a["pid"]: a for a in archive}
+            from webgen.build import click_url
+            links, posted = {}, []
             for deal in deals:
                 a = by_pid[deal.product.pid]
-                from webgen.build import click_url
-                if post_deal(deal, click_url(a), f"{base}/{lang}/deal/{a['slug']}.html"):
+                links[deal.product.pid] = click_url(a)
+                if post_deal(deal, links[deal.product.pid], f"{base}/{lang}/deal/{a['slug']}.html"):
                     hist.mark_posted(deal.product.pid, lang, today)
                     posted_total += 1
+                    posted.append(deal)
+            print(f"{lang}: alerts sent", bot.send_alerts(hist, lang, posted, links))
             print(f"{lang}: {len(products)} products, {len(deals)} deals posted")
         except Exception:
             errors.append(f"{lang}: crashed\n{traceback.format_exc(limit=3)}")
@@ -125,6 +133,10 @@ def main() -> int:
     except Exception:
         errors.append("site build failed – previous version stays online\n" + traceback.format_exc(limit=3))
 
+    try:
+        bot.weekly(hist, today)
+    except Exception:
+        errors.append("weekly summary failed\n" + traceback.format_exc(limit=2))
     hist.prune(SETTINGS["history_retention_days"], today)
     if errors:
         notify_owner("⚠️ Deals run issues:\n" + "\n".join(errors))

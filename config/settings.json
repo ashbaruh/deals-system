@@ -32,5 +32,28 @@
     "trend": 10
   },
   "paused": false,
-  "bootstrap_post": false
+  "bootstrap_post": false,
+  "bot_username": "dilim_deals_bot",
+  "events": [
+    {
+      "key": "black-friday",
+      "start": "2026-11-20",
+      "end": "2026-12-02",
+      "title": {
+        "he": "בלאק פריידיי 2026: הדילים שבאמת ירדו במחיר",
+        "es": "Black Friday 2026: ofertas con bajada real de precio",
+        "en": "Black Friday 2026: deals with a real price drop"
+      }
+    },
+    {
+      "key": "singles-day",
+      "start": "2026-11-10",
+      "end": "2026-11-13",
+      "title": {
+        "he": "11.11 יום הרווקים: הנחות אמיתיות בלבד",
+        "es": "11.11 Singles Day: solo descuentos reales",
+        "en": "11.11 Singles Day: real discounts only"
+      }
+    }
+  ]
 }
