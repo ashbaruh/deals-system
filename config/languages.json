@@ -63,7 +63,6 @@
           "dress",
           "hoodie",
           "jacket",
-          "sneakers",
           "t-shirt",
           "jeans"
         ]
@@ -85,8 +84,7 @@
           "led",
           "organizer",
           "kitchen",
-          "smart plug",
-          "vacuum"
+          "smart plug"
         ]
       },
       "tech": {
@@ -142,6 +140,32 @@
           "rc car",
           "kids",
           "baby"
+        ]
+      },
+      "shoes": {
+        "title": "נעליים",
+        "keywords": [
+          "shoes",
+          "sneakers",
+          "boots",
+          "sandals",
+          "slippers",
+          "running shoes",
+          "loafers"
+        ]
+      },
+      "appliances": {
+        "title": "מוצרי חשמל לבית",
+        "keywords": [
+          "air fryer",
+          "robot vacuum",
+          "vacuum cleaner",
+          "cordless vacuum",
+          "blender",
+          "electric kettle",
+          "hair dryer",
+          "humidifier",
+          "juicer"
         ]
       }
     }
@@ -210,7 +234,6 @@
           "dress",
           "hoodie",
           "jacket",
-          "sneakers",
           "t-shirt",
           "jeans"
         ]
@@ -232,8 +255,7 @@
           "led",
           "organizer",
           "kitchen",
-          "smart plug",
-          "vacuum"
+          "smart plug"
         ]
       },
       "tech": {
@@ -289,6 +311,32 @@
           "rc car",
           "kids",
           "baby"
+        ]
+      },
+      "shoes": {
+        "title": "Calzado",
+        "keywords": [
+          "shoes",
+          "sneakers",
+          "boots",
+          "sandals",
+          "slippers",
+          "running shoes",
+          "loafers"
+        ]
+      },
+      "appliances": {
+        "title": "Pequeño electrodoméstico",
+        "keywords": [
+          "air fryer",
+          "robot vacuum",
+          "vacuum cleaner",
+          "cordless vacuum",
+          "blender",
+          "electric kettle",
+          "hair dryer",
+          "humidifier",
+          "juicer"
         ]
       }
     }
@@ -357,7 +405,6 @@
           "dress",
           "hoodie",
           "jacket",
-          "sneakers",
           "t-shirt",
           "jeans"
         ]
@@ -379,8 +426,7 @@
           "led",
           "organizer",
           "kitchen",
-          "smart plug",
-          "vacuum"
+          "smart plug"
         ]
       },
       "tech": {
@@ -436,6 +482,32 @@
           "rc car",
           "kids",
           "baby"
+        ]
+      },
+      "shoes": {
+        "title": "Shoes",
+        "keywords": [
+          "shoes",
+          "sneakers",
+          "boots",
+          "sandals",
+          "slippers",
+          "running shoes",
+          "loafers"
+        ]
+      },
+      "appliances": {
+        "title": "Home Appliances",
+        "keywords": [
+          "air fryer",
+          "robot vacuum",
+          "vacuum cleaner",
+          "cordless vacuum",
+          "blender",
+          "electric kettle",
+          "hair dryer",
+          "humidifier",
+          "juicer"
         ]
       }
     }

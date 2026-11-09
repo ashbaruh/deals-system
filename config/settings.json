@@ -21,7 +21,9 @@
     "tools": 0.054,
     "car": 0.054,
     "sports": 0.054,
-    "kids": 0.054
+    "kids": 0.054,
+    "shoes": 0.069,
+    "appliances": 0.054
   },
   "store_commission_override": {
     "banggood": {
