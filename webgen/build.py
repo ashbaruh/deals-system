@@ -211,7 +211,7 @@ def card(d: dict) -> str:
     lang = d["lang"]
     cls = "hcard expired" if d.get("expired") else "hcard"
     return f"""<a class="{cls}" href="/{lang}/deal/{d['slug']}.html"><span class="deg"><bdi>{round(d['heat'])}°</bdi></span>
-<img src="{esc(d['image'])}" alt="{esc(title_of(d)[:80])}" loading="lazy" width="200" height="200">
+<img src="{esc(d['image'])}" alt="{esc(title_of(d)[:80])}" loading="lazy" referrerpolicy="no-referrer" width="200" height="200">
 <div class="in"><div class="t">{esc(title_of(d))}</div>
 <div class="prices"><span class="price">{money(d['price_usd'], lang)}</span><span class="pct"><bdi>-{round(d['discount'] * 100)}%</bdi></span></div></div></a>"""
 
@@ -225,7 +225,7 @@ def row(d: dict) -> str:
     exp = d.get("expired")
     tag = f'<span class="badge">{esc(s["expired"])}</span>' if exp else ""
     return f"""<article class="deal-row{' expired' if exp else ''}" data-s="{search}" data-heat="{d['heat']}" data-new="{d.get('day', '').replace('-', '')}" data-off="{d['discount']}">
-<a class="pic" href="{href}"><img src="{esc(d['image'])}" alt="{esc(title_of(d)[:80])}" loading="lazy" width="150" height="150"></a>
+<a class="pic" href="{href}"><img src="{esc(d['image'])}" alt="{esc(title_of(d)[:80])}" loading="lazy" referrerpolicy="no-referrer" width="150" height="150"></a>
 <div><div class="meta"><span class="temp"><bdi>{round(d['heat'])}°</bdi></span><span>{esc(when(d, lang))}</span>{tag}</div>
 <a class="t" href="{href}">{esc(title_of(d))}</a>
 <div class="prices"><span class="price">{money(d['price_usd'], lang)}</span><span class="was">{money(d['median_30d'], lang)}</span><span class="pct"><bdi>-{round(d['discount'] * 100)}%</bdi></span></div>
@@ -348,7 +348,7 @@ def build():
                                              "reviewCount": max(d.get("orders") or 1, 1)}
             meta = f"⭐ {d['rating']:.1f} · {d.get('orders') or 0:,} {esc(s['orders'])}" if d.get("rating") else ""
             go = "" if d.get("expired") else f'<a class="go" rel="sponsored nofollow" href="{esc(click_url(d))}">🛒 {esc(s["go"])}</a>'
-            b = f"""<article class="deal"><img src="{esc(d['image'])}" alt="{esc(d['title'][:80])}">
+            b = f"""<article class="deal"><img referrerpolicy="no-referrer" src="{esc(d['image'])}" alt="{esc(d['title'][:80])}">
 <div><h1>{esc(d.get('title_local') or d['title'])}</h1>
 <div><span class="price">{money(d['price_usd'], lang)}</span><span class="was">{money(d['median_30d'], lang)}</span></div>
 <div class="badges" style="margin:8px 0"><span class="badge off">-{pct}%</span><span class="badge heat">{esc(s['heat'])} {round(d['heat'])}/100</span></div>

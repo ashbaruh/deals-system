@@ -63,5 +63,42 @@
       }
     }
   ],
-  "per_niche_max": 3
+  "per_niche_max": 3,
+  "min_price_usd": 4,
+  "bootstrap_max_discount": 0.7,
+  "exclude_keywords": [
+    "pin",
+    "pins",
+    "brooch",
+    "badge",
+    "badges",
+    "sticker",
+    "stickers",
+    "patch",
+    "keychain",
+    "bolt",
+    "bolts",
+    "screw",
+    "screws",
+    "nut",
+    "nuts",
+    "washer",
+    "bead",
+    "beads",
+    "spare part",
+    "replacement part",
+    "3d printed",
+    "drill bit",
+    "drill bits",
+    "wall art",
+    "poster",
+    "sample"
+  ],
+  "exclude_categories": [
+    "Parts",
+    "Components",
+    "Fastener",
+    "Hardware",
+    "Home Decor"
+  ]
 }

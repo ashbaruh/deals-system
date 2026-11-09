@@ -48,6 +48,7 @@ class Product:
     niche: str = ""
     ships_to: list[str] = field(default_factory=list)
     title_local: str = ""
+    commission: float | None = None
 
 
 @dataclass
@@ -127,15 +128,25 @@ def _merge_param(row: dict) -> None:
     """Admitad puts extra attributes in 'param' (e.g. 'rating:4.8|orders:1200').
     Copy any rating/orders values found there into the row."""
     raw = row.get("param") or ""
-    for part in raw.replace(";", "|").split("|"):
-        k, sep, v = part.partition(":")
-        if not sep:
-            k, sep, v = part.partition("=")
+    pairs = []
+    for seg in raw.split(";"):                 # Admitad format: key|value|;key|value|;
+        bits = seg.split("|")
+        if len(bits) >= 2 and ":" not in bits[0] and "=" not in bits[0]:
+            pairs.append((bits[0], "|", bits[1]))
+        else:
+            for part in bits:
+                k, sep, v = part.partition(":")
+                if not sep:
+                    k, sep, v = part.partition("=")
+                pairs.append((k, sep, v))
+    for k, sep, v in pairs:
         k = k.strip().lower()
         if not sep or not v.strip():
             continue
         if any(x in k for x in ("rating", "evaluat", "score")) and "rating" not in row:
             row["rating"] = v.strip()
+        elif k == "commissionrate" or "commission" in k:
+            row["_commission"] = v.strip().strip("|")
         elif any(x in k for x in ("order", "sold", "sales", "volume")) and "orders" not in row:
             row["orders"] = v.strip()
 
@@ -166,12 +177,15 @@ def parse_feed(text: str, store: str) -> list[Product]:
             old_price_usd=_num(_pick(row, "old_price")), url=url, image=image or "",
             rating=rating, orders=int(orders) if orders is not None else None,
             category=_pick(row, "category") or "",
+            commission=(_num(row.get("_commission")) or 0) / 100 or None,
             ships_to=[c.strip().upper() for c in ships.split("|")] if ships else [],
         ))
     return out
 
 
 _NICHE_RE: dict[str, list] = {}
+import re as _re
+_EXCL_RE = _re.compile(r"\b(" + "|".join(_re.escape(k) for k in SETTINGS.get("exclude_keywords", ["~none~"])) + r")\b", _re.I)
 
 
 def assign_niche(p: Product, lang: str) -> str:
@@ -179,6 +193,8 @@ def assign_niche(p: Product, lang: str) -> str:
     if lang not in _NICHE_RE:
         _NICHE_RE[lang] = [(key, re.compile(r"\b(" + "|".join(re.escape(k) for k in n["keywords"]) + r")s?\b", re.I))
                            for key, n in LANGS[lang]["niches"].items()]
+    if _EXCL_RE.search(p.title) or any(x.lower() in p.category.lower() for x in SETTINGS.get("exclude_categories", [])):
+        return ""
     for key, rx in _NICHE_RE[lang]:
         if rx.search(p.title):
             return key
@@ -242,6 +258,8 @@ def _clip(x: float) -> float:
 
 
 def commission_rate(p: Product) -> float:
+    if p.commission:
+        return p.commission
     s = SETTINGS
     over = s.get("store_commission_override", {}).get(p.store, {})
     return over.get(p.niche, s["commission_by_category"].get(p.niche, 0.04))
@@ -255,6 +273,8 @@ def evaluate(p: Product, lang: str, hist: History, today: str,
     if p.ships_to and country not in p.ships_to:
         return None
     if not p.niche:
+        return None
+    if p.price_usd < s.get("min_price_usd", 0):
         return None
     if p.rating is not None and p.rating < s["min_rating"]:
         return None
@@ -274,6 +294,8 @@ def evaluate(p: Product, lang: str, hist: History, today: str,
         if not p.old_price_usd or p.old_price_usd <= p.price_usd:
             return None
         ref = p.old_price_usd
+        if 1 - p.price_usd / ref > s.get("bootstrap_max_discount", 1):   # shop's "old price" likely inflated
+            return None
     else:
         ref = statistics.median(past)
 
