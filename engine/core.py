@@ -100,7 +100,7 @@ def _num(v):
         return None
 
 
-def read_feed_text(source: str, deadline_s: int = 900) -> str:
+def read_feed_text(source: str, deadline_s: int = 1800) -> str:
     """source = local path or http(s) URL. Streams in chunks with an overall
     deadline, so a throttled/slow feed fails cleanly instead of hanging the run."""
     import time
@@ -116,6 +116,8 @@ def read_feed_text(source: str, deadline_s: int = 900) -> str:
             if not block:
                 break
             chunks.append(block)
+            if len(chunks) % 50 == 0:
+                print(f"[feed] {len(chunks)} MB after {time.monotonic() - start:.0f}s", flush=True)
     data = b"".join(chunks)
     print(f"[feed] downloaded {len(data) / 1e6:.1f} MB in {time.monotonic() - start:.0f}s", flush=True)
     return data.decode("utf-8", errors="replace")

@@ -57,14 +57,16 @@ def load_products(lang: str, errors: list[str]):
         if src in _FEED_CACHE:                  # same feed shared by several languages
             products += _FEED_CACHE[src]
             continue
-        for attempt in range(3):
+        print(f"[feed:{store}] downloading...", flush=True)
+        for attempt in range(2):
             try:
                 items = _relevant(parse_feed(read_feed_text(src), store))
                 _FEED_CACHE[src] = items
                 products += items
                 break
             except Exception as e:  # network or format problem: retry, then report
-                if attempt == 2:
+                print(f"[feed:{store}] attempt {attempt + 1} failed: {e}", flush=True)
+                if attempt == 1:
                     errors.append(f"{lang}/{store}: feed failed ({e.__class__.__name__})")
     return products
 
