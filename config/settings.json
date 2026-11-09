@@ -100,5 +100,6 @@
     "Fastener",
     "Hardware",
     "Home Decor"
-  ]
+  ],
+  "max_price_usd": 150
 }

@@ -101,7 +101,7 @@ def _num(v):
         return None
 
 
-def read_feed_text(source: str, deadline_s: int = 1800) -> str:
+def read_feed_text(source: str, deadline_s: int = 1200) -> str:
     """source = local path or http(s) URL. Streams in chunks with an overall
     deadline, so a throttled/slow feed fails cleanly instead of hanging the run."""
     import time
@@ -202,8 +202,10 @@ def assign_niche(p: Product, lang: str) -> str:
                            for key, n in LANGS[lang]["niches"].items()]
     if _EXCL_RE.search(p.title) or any(x.lower() in p.category.lower() for x in SETTINGS.get("exclude_categories", [])):
         return ""
+    cat = p.category.lower()
     for key, rx in _NICHE_RE[lang]:
-        if rx.search(p.title):
+        hints = LANGS[lang]["niches"][key].get("categories")
+        if rx.search(p.title) and (not hints or not cat or any(h.lower() in cat for h in hints)):
             return key
     return ""
 
@@ -281,7 +283,7 @@ def evaluate(p: Product, lang: str, hist: History, today: str,
         return None
     if not p.niche:
         return None
-    if p.price_usd < s.get("min_price_usd", 0):
+    if p.price_usd < s.get("min_price_usd", 0) or p.price_usd > s.get("max_price_usd", 1e9):
         return None
     if p.rating is not None and p.rating < s["min_rating"]:
         return None

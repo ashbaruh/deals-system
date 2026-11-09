@@ -113,9 +113,23 @@ def main() -> int:
     print("bot commands handled:", bot.process_commands(hist))
     bot.ensure_welcome(hist)
 
+    loaded = {}
     for lang in LANGS:
         try:
-            products = load_products(lang, errors)
+            loaded[lang] = load_products(lang, errors)
+        except Exception:
+            loaded[lang] = []
+    fallback = next((p for p in loaded.values() if p), [])
+    for lang in LANGS:
+        if not loaded[lang] and fallback:
+            # Same AliExpress catalogue and same affiliate account: if this language's
+            # feed URL failed, use another language's download rather than post nothing.
+            loaded[lang] = fallback
+            errors.append(f"{lang}: own feed failed, used another language's feed")
+
+    for lang in LANGS:
+        try:
+            products = loaded[lang]
             if not products:
                 errors.append(f"{lang}: no products loaded – skipped (nothing posted)")
                 continue
