@@ -34,16 +34,32 @@ def feed_sources(lang: str) -> list[tuple[str, str]]:
     return out
 
 
+_FEED_CACHE: dict[str, list] = {}
+
+
+def _relevant(products):
+    """Keep only products that match a niche: the feed has ~500k items,
+    storing all of them daily would bloat the history to gigabytes."""
+    from .core import Product, assign_niche
+    lang0 = next(iter(LANGS))
+    return [p for p in products if assign_niche(p, lang0)]
+
+
 def load_products(lang: str, errors: list[str]):
     products = []
     for store, src in feed_sources(lang):
+        if src in _FEED_CACHE:                  # same feed shared by several languages
+            products += _FEED_CACHE[src]
+            continue
         for attempt in range(3):
             try:
-                products += parse_feed(read_feed_text(src), store)
+                items = _relevant(parse_feed(read_feed_text(src), store))
+                _FEED_CACHE[src] = items
+                products += items
                 break
             except Exception as e:  # network or format problem: retry, then report
                 if attempt == 2:
-                    errors.append(f"{lang}/{store}: feed failed ({e.__class__.__name__}: {e})")
+                    errors.append(f"{lang}/{store}: feed failed ({e.__class__.__name__})")
     return products
 
 

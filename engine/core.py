@@ -128,10 +128,16 @@ def parse_feed(text: str, store: str) -> list[Product]:
     return out
 
 
+_NICHE_RE: dict[str, list] = {}
+
+
 def assign_niche(p: Product, lang: str) -> str:
-    t = p.title.lower()
-    for key, niche in LANGS[lang]["niches"].items():
-        if any(k in t for k in niche["keywords"]):
+    import re
+    if lang not in _NICHE_RE:
+        _NICHE_RE[lang] = [(key, re.compile(r"\b(" + "|".join(re.escape(k) for k in n["keywords"]) + r")s?\b", re.I))
+                           for key, n in LANGS[lang]["niches"].items()]
+    for key, rx in _NICHE_RE[lang]:
+        if rx.search(p.title):
             return key
     return ""
 
@@ -252,6 +258,7 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str) 
     deals = []
     for p in products:
         p.niche = assign_niche(p, lang)
+        p.title_local = ""          # titles are per language; never carry one over
         d = evaluate(p, lang, hist, today, trend)
         if d:
             deals.append(d)
