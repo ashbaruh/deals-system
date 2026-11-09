@@ -28,8 +28,13 @@ def feed_sources(lang: str) -> list[tuple[str, str]]:
         return []
     out = []
     for part in raw.split(","):
+        part = part.strip()
+        if part.startswith("http"):             # bare link pasted without "store=" prefix
+            store = "banggood" if "banggood" in part.lower() else "aliexpress"
+            out.append((store, part))
+            continue
         store, _, url = part.partition("=")
-        if url:
+        if url.startswith("http"):
             out.append((store.strip(), url.strip()))
     return out
 
