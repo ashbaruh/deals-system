@@ -18,12 +18,18 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+      - name: Restore price history
+        uses: actions/cache/restore@v4
+        with:
+          path: data/history.sqlite
+          key: history-${{ github.run_id }}
+          restore-keys: history-
       - name: Run engine
         env:
           PYTHONUNBUFFERED: "1"
@@ -39,7 +45,13 @@ jobs:
           SITE_BASE_URL: ${{ vars.SITE_BASE_URL }}
           CLICK_BASE_URL: ${{ vars.CLICK_BASE_URL }}
         run: python -m engine.run
-      - name: Save history and site
+      - name: Save price history
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/history.sqlite
+          key: history-${{ github.run_id }}
+      - name: Commit site
         run: |
           git config user.name "deals-bot"
           git config user.email "deals-bot@users.noreply.github.com"

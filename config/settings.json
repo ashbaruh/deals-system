@@ -1,6 +1,6 @@
 {
   "site_base_url": "https://dealim.pages.dev",
-  "min_discount": 0.30,
+  "min_discount": 0.3,
   "min_rating": 4.7,
   "min_orders": 500,
   "heat_threshold": 55,
@@ -9,7 +9,7 @@
   "history_window_days": 30,
   "repost_block_days": 14,
   "max_posts_per_run": 5,
-  "suspicious_drop": 0.90,
+  "suspicious_drop": 0.9,
   "history_retention_days": 180,
   "commission_by_category": {
     "fashion": 0.069,
@@ -19,8 +19,18 @@
     "audio": 0.023
   },
   "store_commission_override": {
-    "banggood": {"audio": 0.09, "home": 0.09}
+    "banggood": {
+      "audio": 0.09,
+      "home": 0.09
+    }
   },
-  "weights": {"discount": 40, "rating": 20, "orders": 15, "commission": 15, "trend": 10},
-  "paused": false
+  "weights": {
+    "discount": 40,
+    "rating": 20,
+    "orders": 15,
+    "commission": 15,
+    "trend": 10
+  },
+  "paused": false,
+  "bootstrap_post": false
 }

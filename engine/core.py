@@ -95,7 +95,7 @@ def _num(v):
         return None
 
 
-def read_feed_text(source: str, deadline_s: int = 480) -> str:
+def read_feed_text(source: str, deadline_s: int = 900) -> str:
     """source = local path or http(s) URL. Streams in chunks with an overall
     deadline, so a throttled/slow feed fails cleanly instead of hanging the run."""
     import time
@@ -116,13 +116,35 @@ def read_feed_text(source: str, deadline_s: int = 480) -> str:
     return data.decode("utf-8", errors="replace")
 
 
+def _merge_param(row: dict) -> None:
+    """Admitad puts extra attributes in 'param' (e.g. 'rating:4.8|orders:1200').
+    Copy any rating/orders values found there into the row."""
+    raw = row.get("param") or ""
+    for part in raw.replace(";", "|").split("|"):
+        k, sep, v = part.partition(":")
+        if not sep:
+            k, sep, v = part.partition("=")
+        k = k.strip().lower()
+        if not sep or not v.strip():
+            continue
+        if any(x in k for x in ("rating", "evaluat", "score")) and "rating" not in row:
+            row["rating"] = v.strip()
+        elif any(x in k for x in ("order", "sold", "sales", "volume")) and "orders" not in row:
+            row["orders"] = v.strip()
+
+
 def parse_feed(text: str, store: str) -> list[Product]:
     sample = text[:4096]
     delim = ";" if sample.count(";") > sample.count(",") else ","
     out: list[Product] = []
     reader = csv.DictReader(io.StringIO(text), delimiter=delim)
     print(f"[feed:{store}] columns: {reader.fieldnames}")
+    shown = 0
     for row in reader:
+        if shown < 3 and row.get("param"):
+            print(f"[feed:{store}] param sample: {row['param'][:300]}", flush=True)
+            shown += 1
+        _merge_param(row)
         pid, title, price = _pick(row, "pid"), _pick(row, "title"), _num(_pick(row, "price"))
         url, image = _pick(row, "url"), _pick(row, "image")
         if not (pid and title and price and url):
@@ -237,6 +259,8 @@ def evaluate(p: Product, lang: str, hist: History, today: str,
     series = hist.series(p.pid, s["history_window_days"], today)
     past = [price for d, price in series if d < today]
     bootstrap = len(past) < s["bootstrap_min_history_days"]
+    if bootstrap and not s.get("bootstrap_post", False):
+        return None                       # first days: only collect real price history
     if bootstrap:
         # Not enough of our own history yet: fall back to the shop's old price,
         # but demand a higher heat score to compensate.
@@ -258,7 +282,14 @@ def evaluate(p: Product, lang: str, hist: History, today: str,
     O = _clip((math.log10(max(p.orders or 500, 1)) - math.log10(500)) / 2)
     C = _clip((commission_rate(p) - 0.023) / (0.09 - 0.023))
     T = trend.get(p.niche, 0.5)
-    heat = w["discount"] * D + w["rating"] * R + w["orders"] * O + w["commission"] * C + w["trend"] * T
+    parts = [(w["discount"], D), (w["commission"], C), (w["trend"], T)]
+    if p.rating is not None:
+        parts.append((w["rating"], R))
+    if p.orders is not None:
+        parts.append((w["orders"], O))
+    # Re-weight over the signals the feed actually provides, so a missing column
+    # neither blocks every deal nor inflates scores.
+    heat = 100 * sum(wt * v for wt, v in parts) / sum(wt for wt, _ in parts)
 
     threshold = s["heat_threshold_bootstrap"] if bootstrap else s["heat_threshold"]
     if heat < threshold:

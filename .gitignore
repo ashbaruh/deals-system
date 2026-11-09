@@ -1,3 +1,4 @@
 mock/feed.csv
 __pycache__/
 *.pyc
+data/history.sqlite
