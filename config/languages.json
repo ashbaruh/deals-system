@@ -88,6 +88,61 @@
           "smart plug",
           "vacuum"
         ]
+      },
+      "tech": {
+        "title": "סמארטפון ואביזרים",
+        "keywords": [
+          "phone case",
+          "charger",
+          "power bank",
+          "usb c cable",
+          "smartwatch",
+          "smart watch",
+          "wireless charger"
+        ]
+      },
+      "tools": {
+        "title": "כלי עבודה",
+        "keywords": [
+          "drill",
+          "screwdriver set",
+          "multimeter",
+          "tool set",
+          "soldering iron",
+          "tool kit"
+        ]
+      },
+      "car": {
+        "title": "לרכב",
+        "keywords": [
+          "car charger",
+          "dash cam",
+          "car vacuum",
+          "car holder",
+          "car phone holder",
+          "tire inflator"
+        ]
+      },
+      "sports": {
+        "title": "ספורט וטיולים",
+        "keywords": [
+          "yoga mat",
+          "resistance band",
+          "dumbbell",
+          "cycling",
+          "camping",
+          "hiking"
+        ]
+      },
+      "kids": {
+        "title": "ילדים וצעצועים",
+        "keywords": [
+          "toy",
+          "building blocks",
+          "rc car",
+          "kids",
+          "baby"
+        ]
       }
     }
   },
@@ -180,6 +235,61 @@
           "smart plug",
           "vacuum"
         ]
+      },
+      "tech": {
+        "title": "Móvil y accesorios",
+        "keywords": [
+          "phone case",
+          "charger",
+          "power bank",
+          "usb c cable",
+          "smartwatch",
+          "smart watch",
+          "wireless charger"
+        ]
+      },
+      "tools": {
+        "title": "Herramientas",
+        "keywords": [
+          "drill",
+          "screwdriver set",
+          "multimeter",
+          "tool set",
+          "soldering iron",
+          "tool kit"
+        ]
+      },
+      "car": {
+        "title": "Coche",
+        "keywords": [
+          "car charger",
+          "dash cam",
+          "car vacuum",
+          "car holder",
+          "car phone holder",
+          "tire inflator"
+        ]
+      },
+      "sports": {
+        "title": "Deporte y aire libre",
+        "keywords": [
+          "yoga mat",
+          "resistance band",
+          "dumbbell",
+          "cycling",
+          "camping",
+          "hiking"
+        ]
+      },
+      "kids": {
+        "title": "Niños y juguetes",
+        "keywords": [
+          "toy",
+          "building blocks",
+          "rc car",
+          "kids",
+          "baby"
+        ]
       }
     }
   },
@@ -271,6 +381,61 @@
           "kitchen",
           "smart plug",
           "vacuum"
+        ]
+      },
+      "tech": {
+        "title": "Phone & Accessories",
+        "keywords": [
+          "phone case",
+          "charger",
+          "power bank",
+          "usb c cable",
+          "smartwatch",
+          "smart watch",
+          "wireless charger"
+        ]
+      },
+      "tools": {
+        "title": "Tools",
+        "keywords": [
+          "drill",
+          "screwdriver set",
+          "multimeter",
+          "tool set",
+          "soldering iron",
+          "tool kit"
+        ]
+      },
+      "car": {
+        "title": "Car",
+        "keywords": [
+          "car charger",
+          "dash cam",
+          "car vacuum",
+          "car holder",
+          "car phone holder",
+          "tire inflator"
+        ]
+      },
+      "sports": {
+        "title": "Sports & Outdoors",
+        "keywords": [
+          "yoga mat",
+          "resistance band",
+          "dumbbell",
+          "cycling",
+          "camping",
+          "hiking"
+        ]
+      },
+      "kids": {
+        "title": "Kids & Toys",
+        "keywords": [
+          "toy",
+          "building blocks",
+          "rc car",
+          "kids",
+          "baby"
         ]
       }
     }
