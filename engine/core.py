@@ -108,7 +108,9 @@ def parse_feed(text: str, store: str) -> list[Product]:
     sample = text[:4096]
     delim = ";" if sample.count(";") > sample.count(",") else ","
     out: list[Product] = []
-    for row in csv.DictReader(io.StringIO(text), delimiter=delim):
+    reader = csv.DictReader(io.StringIO(text), delimiter=delim)
+    print(f"[feed:{store}] columns: {reader.fieldnames}")
+    for row in reader:
         pid, title, price = _pick(row, "pid"), _pick(row, "title"), _num(_pick(row, "price"))
         url, image = _pick(row, "url"), _pick(row, "image")
         if not (pid and title and price and url):
