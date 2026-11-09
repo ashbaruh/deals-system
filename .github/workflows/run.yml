@@ -12,6 +12,10 @@ on:
         description: "One-time fill: post up to 20 deals per channel"
         type: boolean
         default: false
+      cleanup:
+        description: "Delete the bot's channel posts after the welcome message (48h limit) and reset the archive"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -39,6 +43,7 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"
           SEED: ${{ inputs.seed && '1' || '0' }}
+          CLEANUP: ${{ inputs.cleanup && '1' || '0' }}
           FEEDS_HE: ${{ secrets.FEEDS_HE }}
           FEEDS_ES: ${{ secrets.FEEDS_ES }}
           FEEDS_EN: ${{ secrets.FEEDS_EN }}

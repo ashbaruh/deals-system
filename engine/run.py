@@ -101,6 +101,12 @@ def main() -> int:
     posted_total = 0
     base = os.environ.get("SITE_BASE_URL", SETTINGS["site_base_url"]).rstrip("/")
     bot.ensure_owner()
+    if os.environ.get("CLEANUP") == "1":
+        bot.cleanup(hist)
+        hist.db.execute("DELETE FROM posted")
+        hist.db.commit()
+        for l in LANGS:
+            (DATA / f"deals_{l}.json").write_text("[]", encoding="utf-8")
     print("bot commands handled:", bot.process_commands(hist))
     bot.ensure_welcome(hist)
 

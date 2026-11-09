@@ -225,3 +225,27 @@ def weekly(hist: History, today: str):
         report.append(f"{lang}: {members} subscribers · {len(week)} deals this week · {alerts} alert users")
     notify_owner("\n".join(report))
     _set(hist, "weekly_done", today)
+
+
+def cleanup(hist: History) -> int:
+    """One-time: delete the bot's posts that came after each channel's welcome message
+    (Telegram allows bots to delete their own channel posts for 48 hours)."""
+    import urllib.parse, urllib.request
+    if not _token():
+        return 0
+    _setup(hist)
+    deleted = 0
+    for lang in LANGS:
+        wid, ch = _get(hist, f"welcome_{lang}"), _channel(lang)
+        if not wid or not ch:
+            continue
+        for mid in range(int(wid) + 1, int(wid) + 90):
+            data = urllib.parse.urlencode({"chat_id": ch, "message_id": mid}).encode()
+            try:
+                with urllib.request.urlopen(urllib.request.Request(
+                        f"https://api.telegram.org/bot{_token()}/deleteMessage", data=data), timeout=15) as r:
+                    deleted += bool(json.loads(r.read()).get("ok"))
+            except Exception:
+                pass
+    print(f"[bot] cleanup deleted {deleted} messages", flush=True)
+    return deleted
