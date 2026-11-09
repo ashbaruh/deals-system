@@ -25,6 +25,11 @@ def load_json(path: Path) -> dict:
 
 
 SETTINGS = load_json(CONFIG / "settings.json")
+import os as _os
+if _os.environ.get("SEED") == "1":
+    # One-time manual fill: allow the shop's old price as reference (strict heat
+    # threshold still applies) and post more per run.
+    SETTINGS.update(bootstrap_post=True, max_posts_per_run=20, per_niche_max=5)
 LANGS = load_json(CONFIG / "languages.json")
 
 
@@ -312,7 +317,7 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str) 
     picked, per_niche = [], {}
     for d in deals:
         n = d.product.niche
-        if per_niche.get(n, 0) >= 2:
+        if per_niche.get(n, 0) >= SETTINGS.get("per_niche_max", 2):
             continue
         per_niche[n] = per_niche.get(n, 0) + 1
         picked.append(d)
