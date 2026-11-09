@@ -95,13 +95,25 @@ def _num(v):
         return None
 
 
-def read_feed_text(source: str) -> str:
-    """source = local path or http(s) URL (Admitad feed URL from a secret)."""
-    if source.startswith("http"):
-        req = urllib.request.Request(source, headers={"User-Agent": "deals-bot/1.0"})
-        with urllib.request.urlopen(req, timeout=120) as r:
-            return r.read().decode("utf-8", errors="replace")
-    return Path(source).read_text(encoding="utf-8")
+def read_feed_text(source: str, deadline_s: int = 480) -> str:
+    """source = local path or http(s) URL. Streams in chunks with an overall
+    deadline, so a throttled/slow feed fails cleanly instead of hanging the run."""
+    import time
+    if not source.startswith("http"):
+        return Path(source).read_text(encoding="utf-8")
+    req = urllib.request.Request(source, headers={"User-Agent": "deals-bot/1.0"})
+    start, chunks = time.monotonic(), []
+    with urllib.request.urlopen(req, timeout=60) as r:
+        while True:
+            if time.monotonic() - start > deadline_s:
+                raise TimeoutError(f"feed download exceeded {deadline_s}s")
+            block = r.read(1 << 20)
+            if not block:
+                break
+            chunks.append(block)
+    data = b"".join(chunks)
+    print(f"[feed] downloaded {len(data) / 1e6:.1f} MB in {time.monotonic() - start:.0f}s", flush=True)
+    return data.decode("utf-8", errors="replace")
 
 
 def parse_feed(text: str, store: str) -> list[Product]:

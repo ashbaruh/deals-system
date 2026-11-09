@@ -26,6 +26,7 @@ jobs:
           python-version: "3.12"
       - name: Run engine
         env:
+          PYTHONUNBUFFERED: "1"
           FEEDS_HE: ${{ secrets.FEEDS_HE }}
           FEEDS_ES: ${{ secrets.FEEDS_ES }}
           FEEDS_EN: ${{ secrets.FEEDS_EN }}
