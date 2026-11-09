@@ -67,7 +67,10 @@ def load_products(lang: str, errors: list[str]):
             except Exception as e:  # network or format problem: retry, then report
                 print(f"[feed:{store}] attempt {attempt + 1} failed: {e}", flush=True)
                 if attempt == 1:
-                    errors.append(f"{lang}/{store}: feed failed ({e.__class__.__name__})")
+                    errors.append(f"{lang}/{store}: feed failed ({e.__class__.__name__}: {str(e)[:120]})")
+                else:
+                    import time
+                    time.sleep(180)          # give the feed server a breather before retrying
     return products
 
 

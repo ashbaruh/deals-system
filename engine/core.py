@@ -120,6 +120,13 @@ def read_feed_text(source: str, deadline_s: int = 1800) -> str:
             if len(chunks) % 50 == 0:
                 print(f"[feed] {len(chunks)} MB after {time.monotonic() - start:.0f}s", flush=True)
     data = b"".join(chunks)
+    expected = int(r.headers.get("Content-Length") or 0)
+    if expected and len(data) < expected:
+        raise IOError(f"feed cut off: {len(data)} of {expected} bytes")
+    if len(data) < 200_000_000:
+        # The full AliExpress feed is several hundred MB and sorted by category;
+        # a short file means the network cut it off, which would skew every niche.
+        raise IOError(f"feed suspiciously small: {len(data) / 1e6:.0f} MB")
     print(f"[feed] downloaded {len(data) / 1e6:.1f} MB in {time.monotonic() - start:.0f}s", flush=True)
     return data.decode("utf-8", errors="replace")
 
