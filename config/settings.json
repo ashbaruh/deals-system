@@ -39,7 +39,7 @@
     "trend": 10
   },
   "paused": false,
-  "bootstrap_post": false,
+  "bootstrap_post": true,
   "bot_username": "dilim_deals_bot",
   "events": [
     {
