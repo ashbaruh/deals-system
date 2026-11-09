@@ -1,0 +1,47 @@
+# Deals run: twice a day (≈08:13 and 19:13 Israel time in winter).
+# Fetches feeds, picks deals, posts to Telegram, rebuilds the site and commits it.
+# Cloudflare Pages is connected to this repo and redeploys the public/ folder on every commit.
+name: Deals run
+
+on:
+  schedule:
+    - cron: "13 6,17 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deals-run
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Run engine
+        env:
+          FEEDS_HE: ${{ secrets.FEEDS_HE }}
+          FEEDS_ES: ${{ secrets.FEEDS_ES }}
+          FEEDS_EN: ${{ secrets.FEEDS_EN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_HE: "@mivtzaim_kuponim"
+          TELEGRAM_CHANNEL_ES: "@ofertas_descuentos_es"
+          TELEGRAM_CHANNEL_EN: "@discount_deals_promo"
+          TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SITE_BASE_URL: ${{ vars.SITE_BASE_URL }}
+          CLICK_BASE_URL: ${{ vars.CLICK_BASE_URL }}
+        run: python -m engine.run
+      - name: Save history and site
+        run: |
+          git config user.name "deals-bot"
+          git config user.email "deals-bot@users.noreply.github.com"
+          git add data public
+          git diff --cached --quiet || git commit -m "Deals run $(date -u +%F_%H%M)"
+          git push
