@@ -101,5 +101,6 @@
     "Hardware",
     "Home Decor"
   ],
-  "max_price_usd": 150
+  "max_price_usd": 150,
+  "preview_only": true
 }

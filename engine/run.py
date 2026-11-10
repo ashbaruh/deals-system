@@ -136,6 +136,15 @@ def main() -> int:
             hist.record(products, today)
             deals = select_deals(products, lang, hist, today)
             localize(deals, lang, hist)
+            if SETTINGS.get("preview_only"):
+                # Review mode: nothing goes public. The owner gets the picks privately
+                # and they are saved for inspection; channels and site stay untouched.
+                (DATA / f"preview_{lang}.json").write_text(
+                    json.dumps([d.to_dict() for d in deals], ensure_ascii=False, indent=1), encoding="utf-8")
+                lines = [f"{round(d.heat)}° -{round(d.discount * 100)}% ${d.product.price_usd:.2f} [{d.product.niche}] {d.product.title[:60]}" for d in deals]
+                notify_owner(f"👀 Preview {lang} ({len(deals)}):\n" + "\n".join(lines))
+                print(f"{lang}: {len(products)} products, {len(deals)} deals PREVIEW only")
+                continue
             archive = update_archive(lang, deals, products, today)
             by_pid = {a["pid"]: a for a in archive}
             from webgen.build import click_url
