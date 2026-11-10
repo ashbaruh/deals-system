@@ -37,25 +37,6 @@
       "alert_cta": "התראה על מוצר"
     },
     "niches": {
-      "nails": {
-        "title": "ציפורניים ויופי",
-        "keywords": [
-          "nail polish",
-          "gel polish",
-          "manicure",
-          "uv lamp",
-          "nail art",
-          "press on nails",
-          "false nails",
-          "nail drill"
-        ],
-        "categories": [
-          "nail",
-          "manicure",
-          "beauty",
-          "makeup"
-        ]
-      },
       "coffee": {
         "title": "קפה",
         "keywords": [
@@ -63,233 +44,269 @@
           "espresso",
           "coffee grinder",
           "milk frother",
-          "moka"
+          "moka",
+          "french press",
+          "pour over",
+          "cold brew",
+          "latte"
         ],
-        "categories": [
-          "coffee",
-          "kitchen",
-          "drinkware",
-          "tea",
-          "bar"
-        ]
-      },
-      "fashion": {
-        "title": "ביגוד ואופנה",
-        "keywords": [
-          "dress",
-          "hoodie",
-          "jacket",
-          "t-shirt",
-          "jeans"
-        ],
-        "categories": [
-          "clothing",
-          "apparel",
-          "dress",
-          "women",
-          "men",
-          "coat",
-          "jacket",
-          "hoodie",
-          "sweater",
-          "pants",
-          "shirt",
-          "jewelry",
-          "watch",
-          "bag",
-          "underwear",
-          "sleep"
+        "categories_exact": [
+          "Kitchen,Dining & Bar",
+          "Kitchen Appliances",
+          "Household Merchandises"
         ]
       },
       "audio": {
         "title": "אודיו",
         "keywords": [
           "earbuds",
+          "earphone",
+          "earphones",
+          "headphone",
           "headphones",
+          "headset",
           "speaker",
+          "speakers",
+          "soundbar",
+          "microphone",
           "amplifier",
           "dac",
-          "bluetooth audio"
+          "tws",
+          "bluetooth audio",
+          "subwoofer"
         ],
-        "categories": [
-          "earphone",
-          "headphone",
-          "speaker",
-          "audio",
-          "microphone",
-          "sound"
+        "categories_exact": [
+          "Portable Audio & Video",
+          "Home Audio & Video",
+          "Smart Electronics"
         ]
       },
-      "home": {
-        "title": "גאדג'טים לבית",
-        "keywords": [
-          "led strip",
-          "night light",
-          "organizer",
-          "kitchen",
-          "smart plug",
-          "storage box"
-        ],
-        "categories": [
-          "home storage",
-          "organization",
-          "lighting",
-          "lamp",
-          "light",
-          "kitchen",
-          "cleaning",
-          "household",
-          "bathroom",
-          "home textile",
-          "curtain"
+      "nails": {
+        "title": "ציפורניים ויופי",
+        "keywords": [],
+        "categories_exact": [
+          "Nail Art & Tools",
+          "Makeup",
+          "Skin Care Tool",
+          "Hair Care & Styling",
+          "Skin Care",
+          "Shaving & Hair Removal",
+          "Perfume",
+          "Massage & Relaxation"
+        ]
+      },
+      "shoes": {
+        "title": "נעליים",
+        "keywords": [],
+        "categories_exact": [
+          "Women's Shoes",
+          "Men's Shoes",
+          "Sneakers",
+          "Kids Shoes"
+        ]
+      },
+      "fashion": {
+        "title": "ביגוד ואופנה",
+        "keywords": [],
+        "categories_exact": [
+          "Tops & Tees",
+          "Sweaters&Jumpers",
+          "Coats & Jackets",
+          "Skirts",
+          "Shirts & Blouses",
+          "Pants & Capris",
+          "Jumpsuits&Rompers",
+          "Jeans（New）",
+          "Hoodies & Sweatshirts",
+          "Parkas",
+          "Shorts",
+          "Leggings",
+          "Down Coats",
+          "Men's Shirts",
+          "Pants",
+          "Men's Sets（new）",
+          "Denim（New）",
+          "Sweaters",
+          "Suits & Blazer",
+          "Blazer & Suits",
+          "Eyewear & Accessories",
+          "Hats & Caps",
+          "Belts",
+          "new Scarf &Wrap",
+          "Gloves & Mittens",
+          "Backpack",
+          "Business Commuter Laptop Bag",
+          "Women's Sleep & Lounge",
+          "Men's Underwears",
+          "Men Socks",
+          "Sportswear",
+          "Swimwears",
+          "Fashion Jewelry",
+          "Smart Jewelry"
+        ]
+      },
+      "appliances": {
+        "title": "מוצרי חשמל לבית",
+        "keywords": [],
+        "categories_exact": [
+          "Kitchen Appliances",
+          "Household Appliances",
+          "Personal Care Appliances",
+          "Cleaning Appliances"
         ]
       },
       "tech": {
         "title": "סמארטפון ואביזרים",
-        "keywords": [
-          "phone case",
-          "charger",
-          "power bank",
-          "usb c cable",
-          "smartwatch",
-          "smart watch",
-          "wireless charger"
-        ],
-        "categories": [
-          "phone",
-          "mobile",
-          "charger",
-          "cable",
-          "power bank",
-          "smart watch",
-          "wearable",
-          "consumer electronics"
+        "keywords": [],
+        "categories_exact": [
+          "Mobile Phone Cases & Covers",
+          "Mobile Phone Accessories",
+          "Holders & Stands",
+          "Smart Electronics",
+          "Computer Peripherals",
+          "Storage Device",
+          "Networking",
+          "Games & Accessories",
+          "Camera & Photo",
+          "Mobile Phone Photography Accessories"
+        ]
+      },
+      "home": {
+        "title": "גאדג'טים לבית",
+        "keywords": [],
+        "categories_exact": [
+          "Home Storage & Organization",
+          "Household Merchandises",
+          "Home Textile",
+          "Home Decor",
+          "Kitchen,Dining & Bar",
+          "Indoor Lighting",
+          "Night Lights",
+          "Portable Lighting",
+          "LED Lighting",
+          "Outdoor Lighting",
+          "Bathroom Fixture",
+          "Family Intelligence System",
+          "Pet Products"
         ]
       },
       "tools": {
         "title": "כלי עבודה",
         "keywords": [
-          "drill",
-          "screwdriver set",
           "multimeter",
-          "tool set",
-          "soldering iron",
-          "tool kit"
-        ],
-        "categories": [
-          "tool",
+          "laser level",
+          "tape measure",
+          "thermometer",
+          "tester",
+          "screwdriver",
+          "wrench",
+          "pliers",
           "drill",
-          "measurement",
-          "welding",
-          "garden"
+          "saw",
+          "tool set",
+          "tool kit",
+          "toolbox",
+          "soldering",
+          "glue gun",
+          "clamp meter",
+          "caliper",
+          "stud finder",
+          "heat gun",
+          "pruner",
+          "pruning",
+          "hose",
+          "sprayer",
+          "rangefinder",
+          "level"
+        ],
+        "categories_exact": [
+          "Hand Tools",
+          "Tool Sets",
+          "Power Tools",
+          "Garden Tools",
+          "Measurement & Analysis Instruments",
+          "Welding Equipment & Supplies"
         ]
       },
       "car": {
         "title": "לרכב",
         "keywords": [
-          "car charger",
           "dash cam",
-          "car vacuum",
-          "car holder",
-          "car phone holder",
-          "tire inflator"
+          "dashcam",
+          "car charger",
+          "phone holder",
+          "vacuum",
+          "seat cover",
+          "organizer",
+          "jump starter",
+          "tire inflator",
+          "air pump",
+          "led",
+          "cleaning",
+          "polish",
+          "sunshade",
+          "sun shade",
+          "cushion",
+          "trunk",
+          "mount",
+          "fm transmitter",
+          "carplay",
+          "android auto",
+          "head-up",
+          "hud",
+          "wax",
+          "microfiber",
+          "steering wheel cover",
+          "floor mat",
+          "car mat",
+          "air freshener",
+          "diffuser",
+          "scratch"
         ],
-        "categories": [
-          "car",
-          "auto",
-          "vehicle",
-          "motorcycle"
+        "categories_exact": [
+          "Interior Accessories",
+          "Car Electronics",
+          "Car Wash & Maintenance",
+          "Car Repair Tool",
+          "Exterior Accessories"
         ]
       },
       "sports": {
         "title": "ספורט וטיולים",
-        "keywords": [
-          "yoga mat",
-          "resistance band",
-          "dumbbell",
-          "cycling",
-          "camping",
-          "hiking"
-        ],
-        "categories": [
-          "sport",
-          "fitness",
-          "yoga",
-          "camping",
-          "hiking",
-          "cycling",
-          "outdoor",
-          "fishing",
-          "bike"
+        "keywords": [],
+        "categories_exact": [
+          "Fitness & Body Building",
+          "Camping & Hiking",
+          "Cycling",
+          "Fishing",
+          "Water Sports",
+          "Sport Bags",
+          "Sports Accessories",
+          "Racquet Sports",
+          "Roller,Skateboard"
         ]
       },
       "kids": {
         "title": "ילדים וצעצועים",
-        "keywords": [
-          "toy",
-          "toys",
-          "building blocks",
-          "rc car",
-          "kids",
-          "baby"
-        ],
-        "categories": [
-          "toy",
-          "baby",
-          "kids",
-          "children",
-          "doll",
-          "building",
-          "learning",
-          "stuffed",
-          "block",
-          "puzzle",
-          "game"
-        ]
-      },
-      "shoes": {
-        "title": "נעליים",
-        "keywords": [
-          "shoes",
-          "sneakers",
-          "boots",
-          "sandals",
-          "slippers",
-          "running shoes",
-          "loafers"
-        ],
-        "categories": [
-          "shoe",
-          "sneaker",
-          "boot",
-          "sandal",
-          "slipper",
-          "footwear"
-        ]
-      },
-      "appliances": {
-        "title": "מוצרי חשמל לבית",
-        "keywords": [
-          "air fryer",
-          "robot vacuum",
-          "vacuum cleaner",
-          "cordless vacuum",
-          "blender",
-          "electric kettle",
-          "hair dryer",
-          "humidifier",
-          "juicer"
-        ],
-        "categories": [
-          "appliance",
-          "fryer",
-          "vacuum",
-          "blender",
-          "kettle",
-          "hair dryer",
-          "humidifier",
-          "juicer",
-          "kitchen"
+        "keywords": [],
+        "categories_exact": [
+          "Building & Construction Toys",
+          "Remote Control Toys",
+          "Dolls & Accessories",
+          "Stuffed Animals & Plush",
+          "Learning & Education",
+          "Games and Puzzles",
+          "Outdoor Fun & Sports",
+          "Children's Clothing",
+          "Baby Clothing",
+          "Activity & Gear",
+          "Feeding",
+          "Baby Care",
+          "Play Vehicles & Models",
+          "Stress Relief Toy",
+          "Pretend Play",
+          "High Tech Toys",
+          "Electronic Toys"
         ]
       },
       "dollar": {
@@ -337,25 +354,6 @@
       "alert_cta": "Aviso de producto"
     },
     "niches": {
-      "nails": {
-        "title": "Uñas y belleza",
-        "keywords": [
-          "nail polish",
-          "gel polish",
-          "manicure",
-          "uv lamp",
-          "nail art",
-          "press on nails",
-          "false nails",
-          "nail drill"
-        ],
-        "categories": [
-          "nail",
-          "manicure",
-          "beauty",
-          "makeup"
-        ]
-      },
       "coffee": {
         "title": "Café",
         "keywords": [
@@ -363,233 +361,269 @@
           "espresso",
           "coffee grinder",
           "milk frother",
-          "moka"
+          "moka",
+          "french press",
+          "pour over",
+          "cold brew",
+          "latte"
         ],
-        "categories": [
-          "coffee",
-          "kitchen",
-          "drinkware",
-          "tea",
-          "bar"
-        ]
-      },
-      "fashion": {
-        "title": "Moda",
-        "keywords": [
-          "dress",
-          "hoodie",
-          "jacket",
-          "t-shirt",
-          "jeans"
-        ],
-        "categories": [
-          "clothing",
-          "apparel",
-          "dress",
-          "women",
-          "men",
-          "coat",
-          "jacket",
-          "hoodie",
-          "sweater",
-          "pants",
-          "shirt",
-          "jewelry",
-          "watch",
-          "bag",
-          "underwear",
-          "sleep"
+        "categories_exact": [
+          "Kitchen,Dining & Bar",
+          "Kitchen Appliances",
+          "Household Merchandises"
         ]
       },
       "audio": {
         "title": "Audio",
         "keywords": [
           "earbuds",
+          "earphone",
+          "earphones",
+          "headphone",
           "headphones",
+          "headset",
           "speaker",
+          "speakers",
+          "soundbar",
+          "microphone",
           "amplifier",
           "dac",
-          "bluetooth audio"
+          "tws",
+          "bluetooth audio",
+          "subwoofer"
         ],
-        "categories": [
-          "earphone",
-          "headphone",
-          "speaker",
-          "audio",
-          "microphone",
-          "sound"
+        "categories_exact": [
+          "Portable Audio & Video",
+          "Home Audio & Video",
+          "Smart Electronics"
         ]
       },
-      "home": {
-        "title": "Hogar y gadgets",
-        "keywords": [
-          "led strip",
-          "night light",
-          "organizer",
-          "kitchen",
-          "smart plug",
-          "storage box"
-        ],
-        "categories": [
-          "home storage",
-          "organization",
-          "lighting",
-          "lamp",
-          "light",
-          "kitchen",
-          "cleaning",
-          "household",
-          "bathroom",
-          "home textile",
-          "curtain"
+      "nails": {
+        "title": "Uñas y belleza",
+        "keywords": [],
+        "categories_exact": [
+          "Nail Art & Tools",
+          "Makeup",
+          "Skin Care Tool",
+          "Hair Care & Styling",
+          "Skin Care",
+          "Shaving & Hair Removal",
+          "Perfume",
+          "Massage & Relaxation"
+        ]
+      },
+      "shoes": {
+        "title": "Calzado",
+        "keywords": [],
+        "categories_exact": [
+          "Women's Shoes",
+          "Men's Shoes",
+          "Sneakers",
+          "Kids Shoes"
+        ]
+      },
+      "fashion": {
+        "title": "Moda",
+        "keywords": [],
+        "categories_exact": [
+          "Tops & Tees",
+          "Sweaters&Jumpers",
+          "Coats & Jackets",
+          "Skirts",
+          "Shirts & Blouses",
+          "Pants & Capris",
+          "Jumpsuits&Rompers",
+          "Jeans（New）",
+          "Hoodies & Sweatshirts",
+          "Parkas",
+          "Shorts",
+          "Leggings",
+          "Down Coats",
+          "Men's Shirts",
+          "Pants",
+          "Men's Sets（new）",
+          "Denim（New）",
+          "Sweaters",
+          "Suits & Blazer",
+          "Blazer & Suits",
+          "Eyewear & Accessories",
+          "Hats & Caps",
+          "Belts",
+          "new Scarf &Wrap",
+          "Gloves & Mittens",
+          "Backpack",
+          "Business Commuter Laptop Bag",
+          "Women's Sleep & Lounge",
+          "Men's Underwears",
+          "Men Socks",
+          "Sportswear",
+          "Swimwears",
+          "Fashion Jewelry",
+          "Smart Jewelry"
+        ]
+      },
+      "appliances": {
+        "title": "Pequeño electrodoméstico",
+        "keywords": [],
+        "categories_exact": [
+          "Kitchen Appliances",
+          "Household Appliances",
+          "Personal Care Appliances",
+          "Cleaning Appliances"
         ]
       },
       "tech": {
         "title": "Móvil y accesorios",
-        "keywords": [
-          "phone case",
-          "charger",
-          "power bank",
-          "usb c cable",
-          "smartwatch",
-          "smart watch",
-          "wireless charger"
-        ],
-        "categories": [
-          "phone",
-          "mobile",
-          "charger",
-          "cable",
-          "power bank",
-          "smart watch",
-          "wearable",
-          "consumer electronics"
+        "keywords": [],
+        "categories_exact": [
+          "Mobile Phone Cases & Covers",
+          "Mobile Phone Accessories",
+          "Holders & Stands",
+          "Smart Electronics",
+          "Computer Peripherals",
+          "Storage Device",
+          "Networking",
+          "Games & Accessories",
+          "Camera & Photo",
+          "Mobile Phone Photography Accessories"
+        ]
+      },
+      "home": {
+        "title": "Hogar y gadgets",
+        "keywords": [],
+        "categories_exact": [
+          "Home Storage & Organization",
+          "Household Merchandises",
+          "Home Textile",
+          "Home Decor",
+          "Kitchen,Dining & Bar",
+          "Indoor Lighting",
+          "Night Lights",
+          "Portable Lighting",
+          "LED Lighting",
+          "Outdoor Lighting",
+          "Bathroom Fixture",
+          "Family Intelligence System",
+          "Pet Products"
         ]
       },
       "tools": {
         "title": "Herramientas",
         "keywords": [
-          "drill",
-          "screwdriver set",
           "multimeter",
-          "tool set",
-          "soldering iron",
-          "tool kit"
-        ],
-        "categories": [
-          "tool",
+          "laser level",
+          "tape measure",
+          "thermometer",
+          "tester",
+          "screwdriver",
+          "wrench",
+          "pliers",
           "drill",
-          "measurement",
-          "welding",
-          "garden"
+          "saw",
+          "tool set",
+          "tool kit",
+          "toolbox",
+          "soldering",
+          "glue gun",
+          "clamp meter",
+          "caliper",
+          "stud finder",
+          "heat gun",
+          "pruner",
+          "pruning",
+          "hose",
+          "sprayer",
+          "rangefinder",
+          "level"
+        ],
+        "categories_exact": [
+          "Hand Tools",
+          "Tool Sets",
+          "Power Tools",
+          "Garden Tools",
+          "Measurement & Analysis Instruments",
+          "Welding Equipment & Supplies"
         ]
       },
       "car": {
         "title": "Coche",
         "keywords": [
-          "car charger",
           "dash cam",
-          "car vacuum",
-          "car holder",
-          "car phone holder",
-          "tire inflator"
+          "dashcam",
+          "car charger",
+          "phone holder",
+          "vacuum",
+          "seat cover",
+          "organizer",
+          "jump starter",
+          "tire inflator",
+          "air pump",
+          "led",
+          "cleaning",
+          "polish",
+          "sunshade",
+          "sun shade",
+          "cushion",
+          "trunk",
+          "mount",
+          "fm transmitter",
+          "carplay",
+          "android auto",
+          "head-up",
+          "hud",
+          "wax",
+          "microfiber",
+          "steering wheel cover",
+          "floor mat",
+          "car mat",
+          "air freshener",
+          "diffuser",
+          "scratch"
         ],
-        "categories": [
-          "car",
-          "auto",
-          "vehicle",
-          "motorcycle"
+        "categories_exact": [
+          "Interior Accessories",
+          "Car Electronics",
+          "Car Wash & Maintenance",
+          "Car Repair Tool",
+          "Exterior Accessories"
         ]
       },
       "sports": {
         "title": "Deporte y aire libre",
-        "keywords": [
-          "yoga mat",
-          "resistance band",
-          "dumbbell",
-          "cycling",
-          "camping",
-          "hiking"
-        ],
-        "categories": [
-          "sport",
-          "fitness",
-          "yoga",
-          "camping",
-          "hiking",
-          "cycling",
-          "outdoor",
-          "fishing",
-          "bike"
+        "keywords": [],
+        "categories_exact": [
+          "Fitness & Body Building",
+          "Camping & Hiking",
+          "Cycling",
+          "Fishing",
+          "Water Sports",
+          "Sport Bags",
+          "Sports Accessories",
+          "Racquet Sports",
+          "Roller,Skateboard"
         ]
       },
       "kids": {
         "title": "Niños y juguetes",
-        "keywords": [
-          "toy",
-          "toys",
-          "building blocks",
-          "rc car",
-          "kids",
-          "baby"
-        ],
-        "categories": [
-          "toy",
-          "baby",
-          "kids",
-          "children",
-          "doll",
-          "building",
-          "learning",
-          "stuffed",
-          "block",
-          "puzzle",
-          "game"
-        ]
-      },
-      "shoes": {
-        "title": "Calzado",
-        "keywords": [
-          "shoes",
-          "sneakers",
-          "boots",
-          "sandals",
-          "slippers",
-          "running shoes",
-          "loafers"
-        ],
-        "categories": [
-          "shoe",
-          "sneaker",
-          "boot",
-          "sandal",
-          "slipper",
-          "footwear"
-        ]
-      },
-      "appliances": {
-        "title": "Pequeño electrodoméstico",
-        "keywords": [
-          "air fryer",
-          "robot vacuum",
-          "vacuum cleaner",
-          "cordless vacuum",
-          "blender",
-          "electric kettle",
-          "hair dryer",
-          "humidifier",
-          "juicer"
-        ],
-        "categories": [
-          "appliance",
-          "fryer",
-          "vacuum",
-          "blender",
-          "kettle",
-          "hair dryer",
-          "humidifier",
-          "juicer",
-          "kitchen"
+        "keywords": [],
+        "categories_exact": [
+          "Building & Construction Toys",
+          "Remote Control Toys",
+          "Dolls & Accessories",
+          "Stuffed Animals & Plush",
+          "Learning & Education",
+          "Games and Puzzles",
+          "Outdoor Fun & Sports",
+          "Children's Clothing",
+          "Baby Clothing",
+          "Activity & Gear",
+          "Feeding",
+          "Baby Care",
+          "Play Vehicles & Models",
+          "Stress Relief Toy",
+          "Pretend Play",
+          "High Tech Toys",
+          "Electronic Toys"
         ]
       },
       "dollar": {
@@ -637,25 +671,6 @@
       "alert_cta": "Product alerts"
     },
     "niches": {
-      "nails": {
-        "title": "Nails & Beauty",
-        "keywords": [
-          "nail polish",
-          "gel polish",
-          "manicure",
-          "uv lamp",
-          "nail art",
-          "press on nails",
-          "false nails",
-          "nail drill"
-        ],
-        "categories": [
-          "nail",
-          "manicure",
-          "beauty",
-          "makeup"
-        ]
-      },
       "coffee": {
         "title": "Coffee",
         "keywords": [
@@ -663,233 +678,269 @@
           "espresso",
           "coffee grinder",
           "milk frother",
-          "moka"
+          "moka",
+          "french press",
+          "pour over",
+          "cold brew",
+          "latte"
         ],
-        "categories": [
-          "coffee",
-          "kitchen",
-          "drinkware",
-          "tea",
-          "bar"
-        ]
-      },
-      "fashion": {
-        "title": "Fashion",
-        "keywords": [
-          "dress",
-          "hoodie",
-          "jacket",
-          "t-shirt",
-          "jeans"
-        ],
-        "categories": [
-          "clothing",
-          "apparel",
-          "dress",
-          "women",
-          "men",
-          "coat",
-          "jacket",
-          "hoodie",
-          "sweater",
-          "pants",
-          "shirt",
-          "jewelry",
-          "watch",
-          "bag",
-          "underwear",
-          "sleep"
+        "categories_exact": [
+          "Kitchen,Dining & Bar",
+          "Kitchen Appliances",
+          "Household Merchandises"
         ]
       },
       "audio": {
         "title": "Audio",
         "keywords": [
           "earbuds",
+          "earphone",
+          "earphones",
+          "headphone",
           "headphones",
+          "headset",
           "speaker",
+          "speakers",
+          "soundbar",
+          "microphone",
           "amplifier",
           "dac",
-          "bluetooth audio"
+          "tws",
+          "bluetooth audio",
+          "subwoofer"
         ],
-        "categories": [
-          "earphone",
-          "headphone",
-          "speaker",
-          "audio",
-          "microphone",
-          "sound"
+        "categories_exact": [
+          "Portable Audio & Video",
+          "Home Audio & Video",
+          "Smart Electronics"
         ]
       },
-      "home": {
-        "title": "Home & Gadgets",
-        "keywords": [
-          "led strip",
-          "night light",
-          "organizer",
-          "kitchen",
-          "smart plug",
-          "storage box"
-        ],
-        "categories": [
-          "home storage",
-          "organization",
-          "lighting",
-          "lamp",
-          "light",
-          "kitchen",
-          "cleaning",
-          "household",
-          "bathroom",
-          "home textile",
-          "curtain"
+      "nails": {
+        "title": "Nails & Beauty",
+        "keywords": [],
+        "categories_exact": [
+          "Nail Art & Tools",
+          "Makeup",
+          "Skin Care Tool",
+          "Hair Care & Styling",
+          "Skin Care",
+          "Shaving & Hair Removal",
+          "Perfume",
+          "Massage & Relaxation"
+        ]
+      },
+      "shoes": {
+        "title": "Shoes",
+        "keywords": [],
+        "categories_exact": [
+          "Women's Shoes",
+          "Men's Shoes",
+          "Sneakers",
+          "Kids Shoes"
+        ]
+      },
+      "fashion": {
+        "title": "Fashion",
+        "keywords": [],
+        "categories_exact": [
+          "Tops & Tees",
+          "Sweaters&Jumpers",
+          "Coats & Jackets",
+          "Skirts",
+          "Shirts & Blouses",
+          "Pants & Capris",
+          "Jumpsuits&Rompers",
+          "Jeans（New）",
+          "Hoodies & Sweatshirts",
+          "Parkas",
+          "Shorts",
+          "Leggings",
+          "Down Coats",
+          "Men's Shirts",
+          "Pants",
+          "Men's Sets（new）",
+          "Denim（New）",
+          "Sweaters",
+          "Suits & Blazer",
+          "Blazer & Suits",
+          "Eyewear & Accessories",
+          "Hats & Caps",
+          "Belts",
+          "new Scarf &Wrap",
+          "Gloves & Mittens",
+          "Backpack",
+          "Business Commuter Laptop Bag",
+          "Women's Sleep & Lounge",
+          "Men's Underwears",
+          "Men Socks",
+          "Sportswear",
+          "Swimwears",
+          "Fashion Jewelry",
+          "Smart Jewelry"
+        ]
+      },
+      "appliances": {
+        "title": "Home Appliances",
+        "keywords": [],
+        "categories_exact": [
+          "Kitchen Appliances",
+          "Household Appliances",
+          "Personal Care Appliances",
+          "Cleaning Appliances"
         ]
       },
       "tech": {
         "title": "Phone & Accessories",
-        "keywords": [
-          "phone case",
-          "charger",
-          "power bank",
-          "usb c cable",
-          "smartwatch",
-          "smart watch",
-          "wireless charger"
-        ],
-        "categories": [
-          "phone",
-          "mobile",
-          "charger",
-          "cable",
-          "power bank",
-          "smart watch",
-          "wearable",
-          "consumer electronics"
+        "keywords": [],
+        "categories_exact": [
+          "Mobile Phone Cases & Covers",
+          "Mobile Phone Accessories",
+          "Holders & Stands",
+          "Smart Electronics",
+          "Computer Peripherals",
+          "Storage Device",
+          "Networking",
+          "Games & Accessories",
+          "Camera & Photo",
+          "Mobile Phone Photography Accessories"
+        ]
+      },
+      "home": {
+        "title": "Home & Gadgets",
+        "keywords": [],
+        "categories_exact": [
+          "Home Storage & Organization",
+          "Household Merchandises",
+          "Home Textile",
+          "Home Decor",
+          "Kitchen,Dining & Bar",
+          "Indoor Lighting",
+          "Night Lights",
+          "Portable Lighting",
+          "LED Lighting",
+          "Outdoor Lighting",
+          "Bathroom Fixture",
+          "Family Intelligence System",
+          "Pet Products"
         ]
       },
       "tools": {
         "title": "Tools",
         "keywords": [
-          "drill",
-          "screwdriver set",
           "multimeter",
-          "tool set",
-          "soldering iron",
-          "tool kit"
-        ],
-        "categories": [
-          "tool",
+          "laser level",
+          "tape measure",
+          "thermometer",
+          "tester",
+          "screwdriver",
+          "wrench",
+          "pliers",
           "drill",
-          "measurement",
-          "welding",
-          "garden"
+          "saw",
+          "tool set",
+          "tool kit",
+          "toolbox",
+          "soldering",
+          "glue gun",
+          "clamp meter",
+          "caliper",
+          "stud finder",
+          "heat gun",
+          "pruner",
+          "pruning",
+          "hose",
+          "sprayer",
+          "rangefinder",
+          "level"
+        ],
+        "categories_exact": [
+          "Hand Tools",
+          "Tool Sets",
+          "Power Tools",
+          "Garden Tools",
+          "Measurement & Analysis Instruments",
+          "Welding Equipment & Supplies"
         ]
       },
       "car": {
         "title": "Car",
         "keywords": [
-          "car charger",
           "dash cam",
-          "car vacuum",
-          "car holder",
-          "car phone holder",
-          "tire inflator"
+          "dashcam",
+          "car charger",
+          "phone holder",
+          "vacuum",
+          "seat cover",
+          "organizer",
+          "jump starter",
+          "tire inflator",
+          "air pump",
+          "led",
+          "cleaning",
+          "polish",
+          "sunshade",
+          "sun shade",
+          "cushion",
+          "trunk",
+          "mount",
+          "fm transmitter",
+          "carplay",
+          "android auto",
+          "head-up",
+          "hud",
+          "wax",
+          "microfiber",
+          "steering wheel cover",
+          "floor mat",
+          "car mat",
+          "air freshener",
+          "diffuser",
+          "scratch"
         ],
-        "categories": [
-          "car",
-          "auto",
-          "vehicle",
-          "motorcycle"
+        "categories_exact": [
+          "Interior Accessories",
+          "Car Electronics",
+          "Car Wash & Maintenance",
+          "Car Repair Tool",
+          "Exterior Accessories"
         ]
       },
       "sports": {
         "title": "Sports & Outdoors",
-        "keywords": [
-          "yoga mat",
-          "resistance band",
-          "dumbbell",
-          "cycling",
-          "camping",
-          "hiking"
-        ],
-        "categories": [
-          "sport",
-          "fitness",
-          "yoga",
-          "camping",
-          "hiking",
-          "cycling",
-          "outdoor",
-          "fishing",
-          "bike"
+        "keywords": [],
+        "categories_exact": [
+          "Fitness & Body Building",
+          "Camping & Hiking",
+          "Cycling",
+          "Fishing",
+          "Water Sports",
+          "Sport Bags",
+          "Sports Accessories",
+          "Racquet Sports",
+          "Roller,Skateboard"
         ]
       },
       "kids": {
         "title": "Kids & Toys",
-        "keywords": [
-          "toy",
-          "toys",
-          "building blocks",
-          "rc car",
-          "kids",
-          "baby"
-        ],
-        "categories": [
-          "toy",
-          "baby",
-          "kids",
-          "children",
-          "doll",
-          "building",
-          "learning",
-          "stuffed",
-          "block",
-          "puzzle",
-          "game"
-        ]
-      },
-      "shoes": {
-        "title": "Shoes",
-        "keywords": [
-          "shoes",
-          "sneakers",
-          "boots",
-          "sandals",
-          "slippers",
-          "running shoes",
-          "loafers"
-        ],
-        "categories": [
-          "shoe",
-          "sneaker",
-          "boot",
-          "sandal",
-          "slipper",
-          "footwear"
-        ]
-      },
-      "appliances": {
-        "title": "Home Appliances",
-        "keywords": [
-          "air fryer",
-          "robot vacuum",
-          "vacuum cleaner",
-          "cordless vacuum",
-          "blender",
-          "electric kettle",
-          "hair dryer",
-          "humidifier",
-          "juicer"
-        ],
-        "categories": [
-          "appliance",
-          "fryer",
-          "vacuum",
-          "blender",
-          "kettle",
-          "hair dryer",
-          "humidifier",
-          "juicer",
-          "kitchen"
+        "keywords": [],
+        "categories_exact": [
+          "Building & Construction Toys",
+          "Remote Control Toys",
+          "Dolls & Accessories",
+          "Stuffed Animals & Plush",
+          "Learning & Education",
+          "Games and Puzzles",
+          "Outdoor Fun & Sports",
+          "Children's Clothing",
+          "Baby Clothing",
+          "Activity & Gear",
+          "Feeding",
+          "Baby Care",
+          "Play Vehicles & Models",
+          "Stress Relief Toy",
+          "Pretend Play",
+          "High Tech Toys",
+          "Electronic Toys"
         ]
       },
       "dollar": {

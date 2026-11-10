@@ -263,16 +263,19 @@ _EXCL_RE = _re.compile(r"\b(" + "|".join(_re.escape(k) for k in SETTINGS.get("ex
 
 
 def assign_niche(p: Product, lang: str) -> str:
+    """A product belongs to a niche when its AliExpress category is one of the niche's
+    categories (exact name) and, for niches with keywords, its title also matches one.
+    Niches are checked in config order (specific ones like coffee/audio first)."""
     import re
     if lang not in _NICHE_RE:
-        _NICHE_RE[lang] = [(key, re.compile(r"\b(" + "|".join(re.escape(k) for k in n["keywords"]) + r")s?\b", re.I))
-                           for key, n in LANGS[lang]["niches"].items() if n["keywords"]]
-    if _EXCL_RE.search(p.title) or any(x.lower() in p.category.lower() for x in SETTINGS.get("exclude_categories", [])):
+        _NICHE_RE[lang] = [(key, set(n.get("categories_exact", [])),
+                            re.compile(r"\b(" + "|".join(re.escape(k) for k in n["keywords"]) + r")s?\b", re.I)
+                            if n.get("keywords") else None)
+                           for key, n in LANGS[lang]["niches"].items() if n.get("categories_exact")]
+    if _EXCL_RE.search(p.title):
         return ""
-    cat = p.category.lower()
-    for key, rx in _NICHE_RE[lang]:
-        hints = LANGS[lang]["niches"][key].get("categories")
-        if rx.search(p.title) and (not hints or not cat or any(h.lower() in cat for h in hints)):
+    for key, cats, rx in _NICHE_RE[lang]:
+        if p.category in cats and (rx is None or rx.search(p.title)):
             return key
     return ""
 
