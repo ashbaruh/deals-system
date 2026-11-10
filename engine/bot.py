@@ -306,6 +306,34 @@ def maintenance(hist: History):
             hist.db.commit()
 
 
+PROMO_TEXT = {
+    "he": "🔥 <b>11.11 מחר!</b> 6 דילים מאלי אקספרס עד 70% הנחה, המחירים נבדקו.\n\n🛒 כל דילי 11.11: <a href=\"{site}\">dealim.net</a>\n📣 שתפו את הערוץ: {tg}",
+    "es": "🔥 <b>¡11.11 es MAÑANA!</b> 6 chollos de AliExpress hasta -70%, precios comprobados.\n\n🛒 Todas las ofertas 11.11: <a href=\"{site}\">dealim.net</a>\n📣 Comparte el canal: {tg}",
+    "en": "🔥 <b>11.11 is TOMORROW!</b> 6 AliExpress deals up to 70% off, prices checked.\n\n🛒 All 11.11 deals: <a href=\"{site}\">dealim.net</a>\n📣 Share the channel: {tg}",
+}
+TG_HANDLE = {"he": "@mivtzaim_kuponim", "es": "@ofertas_descuentos_es", "en": "@discount_deals_promo"}
+
+
+def promo_video(hist: History):
+    """Post settings.promo_video (once per channel): video from the repo's media branch + links."""
+    pv = SETTINGS.get("promo_video")
+    if not pv or not _token():
+        return
+    _setup(hist)
+    base = (os.environ.get("SITE_BASE_URL") or SETTINGS["site_base_url"]).rstrip("/")
+    for lang in LANGS:
+        key = f"promo_{pv['key']}_{lang}"
+        if _get(hist, key) or not _channel(lang):
+            continue
+        cap = PROMO_TEXT[lang].format(site=f"{base}/{lang}/{pv['path']}", tg=TG_HANDLE[lang])
+        res = _call(_token(), "sendVideo", {"chat_id": _channel(lang), "video": pv["url"].format(lang=lang),
+                                            "caption": cap, "parse_mode": "HTML", "supports_streaming": "true",
+                                            "width": 1080, "height": 1920})
+        print(f"[bot] promo {lang}: {res.get('ok')} {res.get('description', '')}", flush=True)
+        if res.get("ok"):
+            _set(hist, key, res["result"]["message_id"])
+
+
 PRE_TEXT = {"he": "⏰ {t} מתחיל מחר!\n\nטיפ: הוסיפו עכשיו לעגלה את מה שאתם מתכננים לקנות, ומחר תקנו במחיר המבצע. כל הדילים שבדקנו מחכים כאן:",
             "es": "⏰ ¡{t} empieza mañana!\n\nConsejo: añade ya al carrito lo que piensas comprar y mañana cómpralo al precio de oferta. Todas las ofertas que comprobamos:",
             "en": "⏰ {t} starts tomorrow!\n\nTip: add what you plan to buy to your cart now and check out tomorrow at the sale price. All the deals we checked:"}

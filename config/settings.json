@@ -227,5 +227,10 @@
       58,
       59
     ]
+  },
+  "promo_video": {
+    "key": "1111",
+    "url": "https://raw.githubusercontent.com/ashbaruh/deals-system/media/video_{lang}.mp4",
+    "path": "event/singles-day.html"
   }
 }

@@ -225,6 +225,7 @@ def main() -> int:
     bot.maintenance(hist)
     if os.environ.get("RETRANSLATE") == "1":
         bot.pre_event_posts(hist, today)
+        bot.promo_video(hist)
         return retranslate(hist)
     if os.environ.get("PUBLISH_PREVIEW") == "1":
         return publish_preview(hist, today, base, errors)
