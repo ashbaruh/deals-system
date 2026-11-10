@@ -283,13 +283,13 @@ def _is_brand(title: str) -> bool:
     if _BRAND_RE is None:
         ci = "|".join(re.escape(b) for b in SETTINGS.get("brands", []))
         cs = "|".join(re.escape(b) for b in SETTINGS.get("brands_case_sensitive", []))
-        _BRAND_RE = re.compile(r"^(?:\W*\S+\s+){0,3}?(?:(?i:" + ci + r")" + (r"|" + cs if cs else "") + r")\b")
+        _BRAND_RE = re.compile(r"^(?:\W*\S+\s+){0,3}?(?P<b>(?i:" + ci + r")" + (r"|" + cs if cs else "") + r")\b")
         _ACCESSORY_RE = re.compile(r"\b(compatible|fits?|replacement|case|cover|film|protector|"
                                    r"strap|wristband|skin|sticker|shell|housing|spare|parts?)\b", re.I)
     if not SETTINGS.get("brands"):
         return False
     m = _BRAND_RE.search(title)
-    if not m or re.search(r"\bfor\b", title[:m.start()], re.I):
+    if not m or re.search(r"\b(for|suitable|compatible|fits?|new for)\b", title[:m.start("b")], re.I):
         return False
     return not _ACCESSORY_RE.search(title[:m.end() + 60])
 
