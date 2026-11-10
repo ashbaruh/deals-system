@@ -284,3 +284,27 @@ def event_posts(hist: History, today: str):
                                                   "parse_mode": "HTML", "disable_web_page_preview": "true"})
             if res.get("ok"):
                 _set(hist, key, res["result"]["message_id"])
+
+
+PRE_TEXT = {"he": "⏰ {t} מתחיל מחר!\n\nטיפ: הוסיפו עכשיו לעגלה את מה שאתם מתכננים לקנות, ומחר תקנו במחיר המבצע. כל הדילים שבדקנו מחכים כאן:",
+            "es": "⏰ ¡{t} empieza mañana!\n\nConsejo: añade ya al carrito lo que piensas comprar y mañana cómpralo al precio de oferta. Todas las ofertas que comprobamos:",
+            "en": "⏰ {t} starts tomorrow!\n\nTip: add what you plan to buy to your cart now and check out tomorrow at the sale price. All the deals we checked:"}
+
+
+def pre_event_posts(hist: History, today: str):
+    """The day before an event: 'add to cart now' post linking the event page."""
+    if not _token():
+        return
+    _setup(hist)
+    base = os.environ.get("SITE_BASE_URL", SETTINGS["site_base_url"]).rstrip("/")
+    for ev in SETTINGS.get("events", []):
+        if ev.get("pre_post_on") != today:
+            continue
+        for lang in LANGS:
+            key = f"pre_{ev['key']}_{lang}"
+            if _get(hist, key) or not _channel(lang):
+                continue
+            text = PRE_TEXT[lang].format(t=ev["title"][lang].split(":")[0]) + f"\n👉 {base}/{lang}/event/{ev['key']}.html"
+            res = _send(_channel(lang), text)
+            if res.get("ok"):
+                _set(hist, key, res["result"]["message_id"])

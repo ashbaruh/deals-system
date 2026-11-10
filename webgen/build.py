@@ -155,10 +155,15 @@ def plain(usd: float, lang: str) -> str:
     return f"{c['currency']}{usd * c['currency_rate_from_usd']:,.2f}"
 
 
-def click_url(d: dict) -> str:
+def click_url(d: dict, src: str = "site") -> str:
+    """Affiliate link tagged with where the click came from (Admitad subid): lang_source_niche."""
+    url = d["url"]
+    if "admitad" in url or "/g/" in url:
+        sep = "&" if "?" in url else "?"
+        url = f"{url}{sep}subid={d['lang']}_{src}_{d.get('niche') or 'x'}"
     if CLICK_BASE:
-        return f"{CLICK_BASE}/go/{d['lang']}/{d['niche']}?u={html.escape(d['url'])}"
-    return d["url"]
+        return f"{CLICK_BASE}/go/{d['lang']}/{d['niche']}?u={html.escape(url)}"
+    return url
 
 
 def page(lang: str, path: str, title: str, desc: str, body: str, alt_paths: dict | None = None,

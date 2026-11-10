@@ -51,6 +51,7 @@ class Product:
     ships_to: list[str] = field(default_factory=list)
     title_local: str = ""
     commission: float | None = None
+    why: str = ""
 
 
 @dataclass
@@ -395,6 +396,7 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str,
     for p in products:
         p.niche = assign_niche(p, lang)
         p.title_local = ""          # titles are per language; never carry one over
+        p.why = ""
         d = evaluate(p, lang, hist, today, trend)
         if d:
             deals.append(d)

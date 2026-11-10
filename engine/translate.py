@@ -19,6 +19,7 @@ URL = "https://generativelanguage.googleapis.com/v1beta/models/{m}:generateConte
 
 def _cache(hist: History):
     hist.db.execute("CREATE TABLE IF NOT EXISTS titles(pid TEXT, lang TEXT, title TEXT, PRIMARY KEY(pid, lang))")
+    hist.db.execute("CREATE TABLE IF NOT EXISTS whys(pid TEXT, lang TEXT, why TEXT, PRIMARY KEY(pid, lang))")
     return hist.db
 
 
@@ -27,8 +28,11 @@ def localize(deals, lang: str, hist: History) -> None:
     todo = []
     for d in deals:
         row = db.execute("SELECT title FROM titles WHERE pid=? AND lang=?", (d.product.pid, lang)).fetchone()
-        if row:
+        w = db.execute("SELECT why FROM whys WHERE pid=? AND lang=?", (d.product.pid, lang)).fetchone()
+        if row and (w or not hasattr(d.product, "why")):
             d.product.title_local = row[0]
+            if w:
+                d.product.why = w[0]
         else:
             todo.append(d)
     key = os.environ.get("GEMINI_API_KEY")
@@ -42,10 +46,11 @@ def localize(deals, lang: str, hist: History) -> None:
 def _batch(todo, lang, key, db):
     items = {str(i): d.product.title for i, d in enumerate(todo)}
     prompt = (
-        f"Rewrite each product title as a short, natural {LANG_NAMES[lang]} shopping title "
-        "(max 60 characters). Keep brand names, model numbers and key specs; drop SEO keyword "
-        "stuffing; no emojis; do not invent features. Return only a JSON object mapping the same "
-        f"keys to the new titles.\n{json.dumps(items, ensure_ascii=False)}"
+        f"For each product title, write in {LANG_NAMES[lang]}: (t) a short, natural shopping title "
+        "(max 60 characters; keep brand, model numbers and key specs; drop SEO keyword stuffing) and "
+        "(w) one short line on why a buyer would want it (max 70 characters, a concrete benefit taken "
+        "from the title only). No emojis, do not invent features or specs. Return only a JSON object "
+        f"mapping the same keys to {{\"t\": ..., \"w\": ...}}.\n{json.dumps(items, ensure_ascii=False)}"
     )
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
                        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}}).encode()
@@ -66,7 +71,12 @@ def _batch(todo, lang, key, db):
     if not result:
         return
     for i, d in enumerate(todo):
-        t = str(result.get(str(i), "")).strip()
+        v = result.get(str(i), "")
+        t, w = (v.get("t", ""), v.get("w", "")) if isinstance(v, dict) else (v, "")
+        t, w = str(t).strip(), str(w).strip()
         if 3 <= len(t) <= 90:
             d.product.title_local = t
             db.execute("INSERT OR REPLACE INTO titles VALUES(?,?,?)", (d.product.pid, lang, t))
+        if 3 <= len(w) <= 100 and hasattr(d.product, "why"):
+            d.product.why = w
+            db.execute("INSERT OR REPLACE INTO whys VALUES(?,?,?)", (d.product.pid, lang, w))

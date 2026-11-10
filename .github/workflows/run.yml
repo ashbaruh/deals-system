@@ -1,11 +1,11 @@
-# Deals run: twice a day (≈08:13 and 19:13 Israel time in winter), up to 10 deals per channel each.
+# Deals run: twice a day (starts ≈09:30 and 20:30 Israel time in winter, posts ~30 min later), up to 5 deals per channel each.
 # Fetches feeds, picks deals, posts to Telegram, rebuilds the site and commits it.
 # Cloudflare Pages is connected to this repo and redeploys the public/ folder on every commit.
 name: Deals run
 
 on:
   schedule:
-    - cron: "13 6,17 * * *"
+    - cron: "30 7,18 * * *"
   workflow_dispatch:
     inputs:
       seed:

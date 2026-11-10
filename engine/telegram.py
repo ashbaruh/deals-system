@@ -19,16 +19,27 @@ def fmt_price(usd: float, lang: str) -> str:
     return f"{cfg['currency']}{v:,.2f}" if lang != "he" else f"{v:,.2f} {cfg['currency']}"
 
 
+LABELS = {"he": {"verified": "מאומת מול 30 יום", "store": "מול מחיר החנות"},
+          "es": {"verified": "verificado vs 30 días", "store": "vs precio de la tienda"},
+          "en": {"verified": "verified vs 30 days", "store": "vs store price"}}
+
+
 def caption(deal: Deal, site_url: str) -> str:
     s = LANGS[deal.lang]["strings"]
     p = deal.product
     pct = round(deal.discount * 100)
+    verified = len([1 for _ in deal.history]) >= 7
+    label = LABELS[deal.lang]["verified" if verified else "store"]
     lines = [
         f"🔥 <b>{html.escape((p.title_local or p.title)[:120])}</b>",
+    ]
+    if p.why:
+        lines.append(f"💡 {html.escape(p.why[:90])}")
+    lines += [
         "",
         f"{s['now']}: <b>{fmt_price(p.price_usd, deal.lang)}</b>  "
         f"({s['was']}: <s>{fmt_price(deal.median_30d, deal.lang)}</s>)",
-        f"📉 {pct}% {s['off']}  ·  {s['heat']} {round(deal.heat)}/100",
+        f"📉 {pct}% {s['off']} ({label})",
     ]
     if p.rating:
         extra = f"⭐ {p.rating:.1f}"

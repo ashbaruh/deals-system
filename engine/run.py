@@ -178,7 +178,7 @@ def publish_preview(hist, today, base, errors) -> int:
         links, posted = {}, []
         for deal in deals:
             a = by_pid[deal.product.pid]
-            links[deal.product.pid] = click_url(a)
+            links[deal.product.pid] = click_url(a, "tg")
             if post_deal(deal, links[deal.product.pid], f"{base}/{lang}/deal/{a['slug']}.html"):
                 hist.mark_posted(deal.product.pid, lang, today)
                 posted.append(deal)
@@ -262,7 +262,7 @@ def main() -> int:
             links, posted = {}, []
             for deal in deals:
                 a = by_pid[deal.product.pid]
-                links[deal.product.pid] = click_url(a)
+                links[deal.product.pid] = click_url(a, "tg")
                 if post_deal(deal, links[deal.product.pid], f"{base}/{lang}/deal/{a['slug']}.html"):
                     hist.mark_posted(deal.product.pid, lang, today)
                     posted_total += 1
@@ -280,6 +280,7 @@ def main() -> int:
 
     try:
         bot.event_posts(hist, today)
+        bot.pre_event_posts(hist, today)
     except Exception:
         errors.append("event post failed\n" + traceback.format_exc(limit=2))
     try:
