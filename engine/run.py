@@ -279,6 +279,10 @@ def main() -> int:
         errors.append("site build failed – previous version stays online\n" + traceback.format_exc(limit=3))
 
     try:
+        bot.event_posts(hist, today)
+    except Exception:
+        errors.append("event post failed\n" + traceback.format_exc(limit=2))
+    try:
         bot.weekly(hist, today)
     except Exception:
         errors.append("weekly summary failed\n" + traceback.format_exc(limit=2))

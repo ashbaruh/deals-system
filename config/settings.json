@@ -51,7 +51,8 @@
         "he": "בלאק פריידיי 2026: הדילים שבאמת ירדו במחיר",
         "es": "Black Friday 2026: ofertas con bajada real de precio",
         "en": "Black Friday 2026: deals with a real price drop"
-      }
+      },
+      "post_on": "2026-11-27"
     },
     {
       "key": "singles-day",
@@ -61,7 +62,8 @@
         "he": "11.11 יום הרווקים: הנחות אמיתיות בלבד",
         "es": "11.11 Singles Day: solo descuentos reales",
         "en": "11.11 Singles Day: real discounts only"
-      }
+      },
+      "post_on": "2026-11-11"
     }
   ],
   "per_niche_max": 3,

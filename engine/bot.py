@@ -249,3 +249,38 @@ def cleanup(hist: History) -> int:
                 pass
     print(f"[bot] cleanup deleted {deleted} messages", flush=True)
     return deleted
+
+
+EVENT_TEXT = {"he": "🎯 {t}\n\nהדילים הכי חמים היום, כל אחד נבדק מול היסטוריית המחיר שלו:",
+              "es": "🎯 {t}\n\nLas ofertas más calientes de hoy, cada una comparada con su historial de precio:",
+              "en": "🎯 {t}\n\nToday's hottest deals, each checked against its own price history:"}
+EVENT_ALL = {"he": "כל דילי האירוע באתר", "es": "Todas las ofertas del evento", "en": "All event deals"}
+
+
+def event_posts(hist: History, today: str):
+    """On an event's main day (e.g. 11.11), one summary post per channel linking the event page."""
+    if not _token():
+        return
+    _setup(hist)
+    base = os.environ.get("SITE_BASE_URL", SETTINGS["site_base_url"]).rstrip("/")
+    for ev in SETTINGS.get("events", []):
+        if ev.get("post_on") != today:
+            continue
+        for lang in LANGS:
+            key = f"event_{ev['key']}_{lang}"
+            if _get(hist, key) or not _channel(lang):
+                continue
+            f = DATA / f"deals_{lang}.json"
+            live = [d for d in (json.loads(f.read_text(encoding="utf-8")) if f.exists() else []) if not d.get("expired")]
+            top = sorted(live, key=lambda d: d["heat"], reverse=True)[:5]
+            if not top:
+                continue
+            lines = [f"<b>{html.escape(EVENT_TEXT[lang].format(t=ev['title'][lang]))}</b>", ""]
+            for i, d in enumerate(top, 1):
+                t = html.escape((d.get("title_local") or d["title"])[:70])
+                lines.append(f"{i}. <a href=\"{base}/{lang}/deal/{d['slug']}.html\">{t}</a> (-{round(d['discount'] * 100)}%)")
+            lines += ["", f"👉 <a href=\"{base}/{lang}/event/{ev['key']}.html\">{EVENT_ALL[lang]}</a>"]
+            res = _call(_token(), "sendMessage", {"chat_id": _channel(lang), "text": "\n".join(lines),
+                                                  "parse_mode": "HTML", "disable_web_page_preview": "true"})
+            if res.get("ok"):
+                _set(hist, key, res["result"]["message_id"])
