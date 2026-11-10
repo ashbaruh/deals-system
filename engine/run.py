@@ -6,6 +6,7 @@ If a language has no feed configured, the mock feed in mock/ is used (local test
 """
 from __future__ import annotations
 
+import time
 import json
 from datetime import date, timedelta
 import os
@@ -191,6 +192,7 @@ def publish_preview(hist, today, base, errors) -> int:
                 hist.mark_posted(deal.product.pid, lang, today)
                 posted.append(deal)
                 total += 1
+            time.sleep(4)                   # stay well under Telegram's per-channel rate limit
         bot.send_alerts(hist, lang, posted, links)
         f.unlink()
         print(f"{lang}: published {len(posted)} reviewed deals")

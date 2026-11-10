@@ -31,7 +31,9 @@ def caption(deal: Deal, site_url: str) -> str:
     verified = len([1 for _ in deal.history]) >= 7
     label = LABELS[deal.lang]["verified" if verified else "store"]
     lines = [
-        f"🔥 <b>{html.escape((p.title_local or p.title)[:120])}</b>",
+        f"🔥🔥 <b>-{pct}% {s['off'].upper()}</b> 🔥🔥",
+        "",
+        f"<b>{html.escape((p.title_local or p.title)[:120])}</b>",
     ]
     if p.why:
         lines.append(f"💡 {html.escape(p.why[:90])}")
@@ -39,7 +41,7 @@ def caption(deal: Deal, site_url: str) -> str:
         "",
         f"{s['now']}: <b>{fmt_price(p.price_usd, deal.lang)}</b>  "
         f"({s['was']}: <s>{fmt_price(deal.median_30d, deal.lang)}</s>)",
-        f"📉 {pct}% {s['off']} ({label})",
+        f"📉 <b>{pct}%</b> {s['off']} ({label})",
     ]
     if p.rating:
         extra = f"⭐ {p.rating:.1f}"

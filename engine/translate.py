@@ -23,6 +23,10 @@ def _cache(hist: History):
     return hist.db
 
 
+import re as _re
+_FOREIGN = _re.compile(r"[\u0400-\u04FF\u0600-\u06FF\u4e00-\u9fff]")  # stray Cyrillic/Arabic/CJK = bad output
+
+
 def localize(deals, lang: str, hist: History) -> None:
     db = _cache(hist)
     todo = []
@@ -30,7 +34,7 @@ def localize(deals, lang: str, hist: History) -> None:
         row = db.execute("SELECT title FROM titles WHERE pid=? AND lang=?", (d.product.pid, lang)).fetchone()
         w = db.execute("SELECT why FROM whys WHERE pid=? AND lang=?", (d.product.pid, lang)).fetchone()
         if row and (w or not hasattr(d.product, "why")):
-            d.product.title_local = row[0]
+            d.product.title_local = row[0] if not _FOREIGN.search(row[0] or "") else ""
             if w:
                 d.product.why = w[0]
         else:
@@ -75,7 +79,7 @@ def _batch(todo, lang, key, db):
         t, w = (v.get("t", ""), v.get("w", "")) if isinstance(v, dict) else (v, "")
         t, w = str(t).strip(), str(w).strip()
         if 3 <= len(t) <= 90:
-            d.product.title_local = t
+            d.product.title_local = t if not _FOREIGN.search(t or "") else ""
             db.execute("INSERT OR REPLACE INTO titles VALUES(?,?,?)", (d.product.pid, lang, t))
         if 3 <= len(w) <= 100 and hasattr(d.product, "why"):
             d.product.why = w
