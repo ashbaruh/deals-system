@@ -106,22 +106,40 @@ def update_archive(lang: str, new_deals, products, today: str):
     archive = [a for a in archive if _still_valid(a, lang)]
     if products is not None:                # None = publishing a reviewed preview, no fresh prices
         current = {p.pid: p.price_usd for p in products}
-        for d in archive:                   # expire deals whose price went back up / vanished
+        floor = SETTINGS.get("site_per_niche", 12)
+        cutoff = (date.fromisoformat(today) - timedelta(days=3)).isoformat()
+        live = {}
+        for d in archive:
+            if not d.get("expired"):
+                live[d["niche"]] = live.get(d["niche"], 0) + 1
+        for d in sorted(archive, key=lambda a: a.get("day", today)):   # oldest first
+            if d.get("expired"):
+                continue
             now = current.get(d["pid"])
-            # The feed rotates its "hot products", so a missing item is not proof the deal
-            # ended: expire on a price rise, or after 3 days absent from the feed.
-            if now is not None and now > d["price_usd"] * 1.05:
+            # The feed is partial and rotates, so absence is weak evidence: expire on a price
+            # rise, or when absent 3+ days AND the niche still keeps its minimum on the site.
+            gone = now is None and not SETTINGS.get("feed_delta_hours") and d.get("day", today) < cutoff \
+                and live.get(d["niche"], 0) > floor
+            if (now is not None and now > d["price_usd"] * 1.05) or gone:
                 d["expired"] = True
-            elif now is None and not SETTINGS.get("feed_delta_hours") and \
-                    d.get("day", today) < (date.fromisoformat(today) - timedelta(days=3)).isoformat():
-                d["expired"] = True
+                live[d["niche"]] -= 1
     for deal in new_deals:
         d = deal.to_dict()
         d["slug"] = slug(d["title"], d["pid"])
         d["day"] = today
         archive = [a for a in archive if a["pid"] != d["pid"]]
         archive.insert(0, d)
-    archive = archive[:ARCHIVE_MAX]
+    if len(archive) > ARCHIVE_MAX:          # trim expired first, then the oldest of crowded niches
+        floor = SETTINGS.get("site_per_niche", 12)
+        archive = [a for a in archive if not a.get("expired")] + [a for a in archive if a.get("expired")]
+        cnt = {}
+        for a in archive:
+            cnt[a["niche"]] = cnt.get(a["niche"], 0) + 1
+        for a in reversed(list(archive)):
+            if len(archive) <= ARCHIVE_MAX:
+                break
+            if a.get("expired") or cnt[a["niche"]] > floor:
+                archive.remove(a); cnt[a["niche"]] -= 1
     path.write_text(json.dumps(archive, ensure_ascii=False, indent=1), encoding="utf-8")
     return archive
 
