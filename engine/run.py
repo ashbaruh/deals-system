@@ -48,7 +48,31 @@ def _relevant(products):
     storing all of them daily would bloat the history to gigabytes."""
     from .core import Product, assign_niche
     lang0 = next(iter(LANGS))
-    return [p for p in products if assign_niche(p, lang0)]
+    keep = [p for p in products if assign_niche(p, lang0)]
+    if os.environ.get("PREVIEW") == "1":
+        # Diagnostics for tuning: whole-feed category counts, and for each niche the
+        # categories of products whose title matched but whose category was rejected.
+        import re
+        from collections import Counter, defaultdict
+        cats = Counter(p.category for p in products)
+        missed = defaultdict(Counter)
+        for key, n in LANGS[lang0]["niches"].items():
+            if not n["keywords"]:
+                continue
+            rx = re.compile(r"\b(" + "|".join(re.escape(k) for k in n["keywords"]) + r")s?\b", re.I)
+            for p in products:
+                if rx.search(p.title):
+                    missed[key][p.category] += 1
+        prices = Counter(min(int(p.price_usd // 5) * 5, 200) for p in products)
+        (DATA / "feed_diag.json").write_text(json.dumps({
+            "total": len(products), "kept": len(keep),
+            "top_categories": cats.most_common(400),
+            "title_match_categories": {k: v.most_common(40) for k, v in missed.items()},
+            "price_buckets": sorted(prices.items()),
+            "discount_buckets": sorted(Counter(round(1 - p.price_usd / p.old_price_usd, 1) for p in products
+                                               if p.old_price_usd and p.old_price_usd > p.price_usd).items()),
+        }, ensure_ascii=False, indent=1), encoding="utf-8")
+    return keep
 
 
 def load_products(lang: str, errors: list[str]):
