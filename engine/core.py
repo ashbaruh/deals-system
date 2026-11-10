@@ -206,8 +206,15 @@ def _lines(source, deadline_s: int = 3300):
             yield from f
         return
     start, n, mb = time.monotonic(), 0, 0
-    r = urllib.request.urlopen(urllib.request.Request(source, headers={"User-Agent": "deals-bot/1.0"}), timeout=90)
-    text = io.TextIOWrapper(r, encoding="utf-8", errors="replace", newline="")
+    r = urllib.request.urlopen(urllib.request.Request(
+        source, headers={"User-Agent": "deals-bot/1.0", "Accept-Encoding": "gzip"}), timeout=90)
+    raw = r
+    enc = (r.headers.get("Content-Encoding") or "").lower()
+    print(f"[feed] content-encoding={enc or 'none'} type={r.headers.get('Content-Type')}", flush=True)
+    if "gzip" in enc or source.endswith(".gz"):
+        import gzip
+        raw = gzip.GzipFile(fileobj=r)          # ~5-10x less to transfer
+    text = io.TextIOWrapper(raw, encoding="utf-8", errors="replace", newline="")
     try:
         for line in text:
             n += len(line)
