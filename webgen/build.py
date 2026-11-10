@@ -12,7 +12,7 @@ from pathlib import Path
 from engine.core import DATA, LANGS, ROOT, SETTINGS
 
 OUT = ROOT / "public"
-BASE = os.environ.get("SITE_BASE_URL", SETTINGS["site_base_url"]).rstrip("/")
+BASE = (os.environ.get("SITE_BASE_URL") or SETTINGS["site_base_url"]).rstrip("/")
 CLICK_BASE = os.environ.get("CLICK_BASE_URL", "").rstrip("/")   # Cloudflare Worker, optional
 
 UI = {
@@ -197,7 +197,7 @@ def page(lang: str, path: str, title: str, desc: str, body: str, alt_paths: dict
 {top}<main class="wrap">{body}</main>
 <footer><div class="wrap foot"><p>{esc(s['disclosure'])}</p>
 <p><a href="/{lang}/how.html">{esc(s['how_title'])}</a> &nbsp; <a href="{c['channel_url']}">{esc(s['join_channel'])}</a></p></div></footer>
-{JS}</body></html>"""
+{JS}<script>try{{localStorage.setItem("lang","{lang}")}}catch(e){{}}</script></body></html>"""
 
 
 def when(d: dict, lang: str) -> str:
@@ -376,13 +376,16 @@ def build():
                                        encoding="utf-8")
         urls.append(f"/{lang}/how.html")
 
-    # Root: language picker; suggests the browser language, never auto-redirects (SEO).
+    # Root: send visitors straight to their language (last one used, else the browser's);
+    # the picker stays for crawlers / no-JS, and hreflang alternates tell Google the rest.
     picker = "".join(f'<a class="btn main" style="margin:6px" href="/{l}/" hreflang="{l}">{esc(c["name"])}</a>' for l, c in LANGS.items())
-    script = """<script>try{var l=(navigator.language||'').slice(0,2),a=document.querySelector('a[hreflang="'+l+'"]');if(a)a.style.outline='3px solid #1f8a5b'}catch(e){}</script>"""
+    script = """<script>try{var s=null;try{s=localStorage.getItem('lang')}catch(e){}
+var b=(navigator.languages&&navigator.languages[0]||navigator.language||'').toLowerCase().slice(0,2);if(b=='iw')b='he';
+var l=['he','es','en'].indexOf(s)>-1?s:(['he','es'].indexOf(b)>-1?b:'en');location.replace('/'+l+'/'+location.search+location.hash)}catch(e){}</script>"""
     root_html = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Deals · דילים · Ofertas</title>{''.join(f'<link rel="alternate" hreflang="{l}" href="{BASE}/{l}/">' for l in LANGS)}
 <link rel="alternate" hreflang="x-default" href="{BASE}/en/"><style>{CSS}</style></head>
-<body><main class="wrap" style="text-align:center;padding:60px 16px"><h1>🔥</h1>{picker}</main>{script}</body></html>"""
+<body>{script}<main class="wrap" style="text-align:center;padding:60px 16px"><h1>🔥</h1>{picker}</main></body></html>"""
     (OUT / "index.html").write_text(root_html, encoding="utf-8")
 
     sm = "".join(f"<url><loc>{BASE}{u}</loc></url>" for u in urls)

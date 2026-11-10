@@ -211,7 +211,7 @@ def weekly(hist: History, today: str):
         week = [d for d in archive if d.get("day", "") >= week_ago]
         top = sorted(week, key=lambda d: d["heat"], reverse=True)[:5]
         if top and _token() and _channel(lang):
-            base = os.environ.get("SITE_BASE_URL", SETTINGS["site_base_url"]).rstrip("/")
+            base = (os.environ.get("SITE_BASE_URL") or SETTINGS["site_base_url"]).rstrip("/")
             lines = [f"<b>{TEXT[lang]['weekly']}</b>", ""]
             for i, d in enumerate(top, 1):
                 t = html.escape((d.get("title_local") or d["title"])[:70])
@@ -262,7 +262,7 @@ def event_posts(hist: History, today: str):
     if not _token():
         return
     _setup(hist)
-    base = os.environ.get("SITE_BASE_URL", SETTINGS["site_base_url"]).rstrip("/")
+    base = (os.environ.get("SITE_BASE_URL") or SETTINGS["site_base_url"]).rstrip("/")
     for ev in SETTINGS.get("events", []):
         if ev.get("post_on") != today:
             continue
@@ -286,6 +286,26 @@ def event_posts(hist: History, today: str):
                 _set(hist, key, res["result"]["message_id"])
 
 
+def maintenance(hist: History):
+    """One-off deletions listed in settings.delete_posts {lang: [message_id,...]} (bots may
+    delete their own channel posts for 48h). Deleting a pre/event post re-arms it."""
+    if not _token():
+        return
+    _setup(hist)
+    for lang, ids in SETTINGS.get("delete_posts", {}).items():
+        ch = _channel(lang)
+        for mid in ids:
+            k = f"deleted_{lang}_{mid}"
+            if not ch or _get(hist, k):
+                continue
+            r = _call(_token(), "deleteMessage", {"chat_id": ch, "message_id": mid})
+            print(f"[bot] delete {lang}/{mid}: {r.get('ok')} {r.get('description', '')}", flush=True)
+            _set(hist, k, 1)
+            hist.db.execute("DELETE FROM state WHERE (k LIKE 'pre_%' OR k LIKE 'event_%') AND v=? AND k LIKE ?",
+                            (str(mid), f"%_{lang}"))
+            hist.db.commit()
+
+
 PRE_TEXT = {"he": "⏰ {t} מתחיל מחר!\n\nטיפ: הוסיפו עכשיו לעגלה את מה שאתם מתכננים לקנות, ומחר תקנו במחיר המבצע. כל הדילים שבדקנו מחכים כאן:",
             "es": "⏰ ¡{t} empieza mañana!\n\nConsejo: añade ya al carrito lo que piensas comprar y mañana cómpralo al precio de oferta. Todas las ofertas que comprobamos:",
             "en": "⏰ {t} starts tomorrow!\n\nTip: add what you plan to buy to your cart now and check out tomorrow at the sale price. All the deals we checked:"}
@@ -296,7 +316,7 @@ def pre_event_posts(hist: History, today: str):
     if not _token():
         return
     _setup(hist)
-    base = os.environ.get("SITE_BASE_URL", SETTINGS["site_base_url"]).rstrip("/")
+    base = (os.environ.get("SITE_BASE_URL") or SETTINGS["site_base_url"]).rstrip("/")
     for ev in SETTINGS.get("events", []):
         if ev.get("pre_post_on") != today:
             continue

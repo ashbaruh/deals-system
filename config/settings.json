@@ -207,5 +207,25 @@
   "dollar_per_run": 3,
   "per_niche_per_day": 3,
   "site_per_niche": 12,
-  "single_feed": true
+  "single_feed": true,
+  "delete_posts": {
+    "he": [
+      36,
+      37,
+      38,
+      39
+    ],
+    "es": [
+      56,
+      57,
+      58,
+      59
+    ],
+    "en": [
+      56,
+      57,
+      58,
+      59
+    ]
+  }
 }

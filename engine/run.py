@@ -209,7 +209,7 @@ def main() -> int:
         return 0
     hist = History()
     posted_total = 0
-    base = os.environ.get("SITE_BASE_URL", SETTINGS["site_base_url"]).rstrip("/")
+    base = (os.environ.get("SITE_BASE_URL") or SETTINGS["site_base_url"]).rstrip("/")
     bot.ensure_owner()
     if os.environ.get("CLEANUP") == "1":
         bot.cleanup(hist)
@@ -220,7 +220,9 @@ def main() -> int:
     print("bot commands handled:", bot.process_commands(hist))
     bot.ensure_welcome(hist)
 
+    bot.maintenance(hist)
     if os.environ.get("RETRANSLATE") == "1":
+        bot.pre_event_posts(hist, today)
         return retranslate(hist)
     if os.environ.get("PUBLISH_PREVIEW") == "1":
         return publish_preview(hist, today, base, errors)
