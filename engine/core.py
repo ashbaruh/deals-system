@@ -469,6 +469,8 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str,
     # at most 2 per niche per run, so a channel is never all earbuds
     picked, per_niche, seen = [], dict(posted_today or {}), set()   # caps count the whole day
     for d in deals:
+        if len(picked) >= SETTINGS["max_posts_per_run"]:      # checked first: a limit of 0 posts nothing
+            break
         n = d.product.niche
         key = " ".join(d.product.title.lower().split()[:4])   # skip near-duplicates (same product line)
         if key in seen:
@@ -479,8 +481,6 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str,
         per_niche[n] = per_niche.get(n, 0) + 1
         seen.add(key)
         picked.append(d)
-        if len(picked) >= SETTINGS["max_posts_per_run"]:
-            break
     chosen = {d.product.pid for d in picked}
     site, on_site = [], dict(live_on_site or {})
     for d in picked:
