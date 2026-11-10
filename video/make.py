@@ -110,7 +110,7 @@ def slides(lang: str) -> list[tuple[str, float]]:
     out.append((page(lang,
         f'<div class="top"><span class="pill">{t["top"]}</span></div>'
         f'<div class="cta"><div class="mid">{t["cta1"]} 🔥</div>'
-        f'<div class="tgbox"><small>Telegram</small>{t["tg"]}</div>'
+        f'<div class="tgbox"><small>Telegram</small><span dir="ltr">{t["tg"]}</span></div>'
         f'<div class="site">dealim.net</div></div>'), 3.2))
     return out
 
