@@ -30,6 +30,8 @@ if _os.environ.get("SEED") == "1":
     # One-time manual fill: allow the shop's old price as reference (strict heat
     # threshold still applies) and post more per run.
     SETTINGS.update(bootstrap_post=True, max_posts_per_run=20, per_niche_max=5)
+if _os.environ.get("PREVIEW") == "1":
+    SETTINGS["preview_only"] = True
 LANGS = load_json(CONFIG / "languages.json")
 
 
@@ -199,7 +201,7 @@ def assign_niche(p: Product, lang: str) -> str:
     import re
     if lang not in _NICHE_RE:
         _NICHE_RE[lang] = [(key, re.compile(r"\b(" + "|".join(re.escape(k) for k in n["keywords"]) + r")s?\b", re.I))
-                           for key, n in LANGS[lang]["niches"].items()]
+                           for key, n in LANGS[lang]["niches"].items() if n["keywords"]]
     if _EXCL_RE.search(p.title) or any(x.lower() in p.category.lower() for x in SETTINGS.get("exclude_categories", [])):
         return ""
     cat = p.category.lower()
@@ -283,8 +285,14 @@ def evaluate(p: Product, lang: str, hist: History, today: str,
         return None
     if not p.niche:
         return None
-    if p.price_usd < s.get("min_price_usd", 0) or p.price_usd > s.get("max_price_usd", 1e9):
+    if p.price_usd > s.get("max_price_usd", 1e9):
         return None
+    if p.price_usd < s.get("min_price_usd", 0):
+        # Cheap items only as "dollar deals", and only from niches where a $1 item is useful.
+        if not (s.get("dollar_min_price_usd", 1e9) <= p.price_usd <= s.get("dollar_max_price_usd", 0)
+                and p.niche in s.get("dollar_from_niches", [])):
+            return None
+        p.niche = "dollar"
     if p.rating is not None and p.rating < s["min_rating"]:
         return None
     if p.orders is not None and p.orders < s["min_orders"]:
@@ -350,7 +358,8 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str) 
     picked, per_niche = [], {}
     for d in deals:
         n = d.product.niche
-        if per_niche.get(n, 0) >= SETTINGS.get("per_niche_max", 2):
+        cap = SETTINGS.get("dollar_per_run", 3) if n == "dollar" else SETTINGS.get("per_niche_max", 2)
+        if per_niche.get(n, 0) >= cap:
             continue
         per_niche[n] = per_niche.get(n, 0) + 1
         picked.append(d)

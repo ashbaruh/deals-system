@@ -12,6 +12,14 @@ on:
         description: "One-time fill: post up to 20 deals per channel"
         type: boolean
         default: false
+      preview:
+        description: "Review mode: send picks privately to the owner, publish nothing"
+        type: boolean
+        default: false
+      publish_preview:
+        description: "Publish the picks saved by the last preview run (no feed download)"
+        type: boolean
+        default: false
       cleanup:
         description: "Delete the bot's channel posts after the welcome message (48h limit) and reset the archive"
         type: boolean
@@ -44,6 +52,8 @@ jobs:
           PYTHONUNBUFFERED: "1"
           SEED: ${{ inputs.seed && '1' || '0' }}
           CLEANUP: ${{ inputs.cleanup && '1' || '0' }}
+          PREVIEW: ${{ inputs.preview && '1' || '0' }}
+          PUBLISH_PREVIEW: ${{ inputs.publish_preview && '1' || '0' }}
           FEEDS_HE: ${{ secrets.FEEDS_HE }}
           FEEDS_ES: ${{ secrets.FEEDS_ES }}
           FEEDS_EN: ${{ secrets.FEEDS_EN }}
@@ -66,6 +76,6 @@ jobs:
         run: |
           git config user.name "deals-bot"
           git config user.email "deals-bot@users.noreply.github.com"
-          git add data public
+          git add -A data public
           git diff --cached --quiet || git commit -m "Deals run $(date -u +%F_%H%M)"
           git push

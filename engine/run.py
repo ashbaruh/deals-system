@@ -78,11 +78,12 @@ def update_archive(lang: str, new_deals, products, today: str):
     from webgen.build import slug  # local import keeps engine importable without site/
     path = DATA / f"deals_{lang}.json"
     archive = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
-    current = {p.pid: p.price_usd for p in products}
-    for d in archive:                       # expire deals whose price went back up / vanished
-        now = current.get(d["pid"])
-        if now is None or now > d["price_usd"] * 1.05:
-            d["expired"] = True
+    if products is not None:                # None = publishing a reviewed preview, no fresh prices
+        current = {p.pid: p.price_usd for p in products}
+        for d in archive:                   # expire deals whose price went back up / vanished
+            now = current.get(d["pid"])
+            if now is None or now > d["price_usd"] * 1.05:
+                d["expired"] = True
     for deal in new_deals:
         d = deal.to_dict()
         d["slug"] = slug(d["title"], d["pid"])
@@ -92,6 +93,42 @@ def update_archive(lang: str, new_deals, products, today: str):
     archive = archive[:ARCHIVE_MAX]
     path.write_text(json.dumps(archive, ensure_ascii=False, indent=1), encoding="utf-8")
     return archive
+
+
+def publish_preview(hist, today, base, errors) -> int:
+    """Post the picks saved by the last preview run, without downloading the feed again."""
+    from dataclasses import fields
+    from .core import Deal, Product
+    from webgen.build import click_url, build
+    names = {f.name for f in fields(Product)}
+    total = 0
+    for lang in LANGS:
+        f = DATA / f"preview_{lang}.json"
+        if not f.exists():
+            continue
+        deals = []
+        for d in json.loads(f.read_text(encoding="utf-8")):
+            p = Product(**{k: v for k, v in d.items() if k in names})
+            deals.append(Deal(product=p, lang=lang, median_30d=d["median_30d"], discount=d["discount"],
+                              heat=d["heat"], history=[tuple(x) for x in d["history"]]))
+        archive = update_archive(lang, deals, None, today)
+        by_pid = {a["pid"]: a for a in archive}
+        links, posted = {}, []
+        for deal in deals:
+            a = by_pid[deal.product.pid]
+            links[deal.product.pid] = click_url(a)
+            if post_deal(deal, links[deal.product.pid], f"{base}/{lang}/deal/{a['slug']}.html"):
+                hist.mark_posted(deal.product.pid, lang, today)
+                posted.append(deal)
+                total += 1
+        bot.send_alerts(hist, lang, posted, links)
+        f.unlink()
+        print(f"{lang}: published {len(posted)} reviewed deals")
+    print("site pages:", build())
+    if errors:
+        notify_owner("Deals run issues:\n" + "\n".join(errors))
+    print(f"done: {total} posts")
+    return 0
 
 
 def main() -> int:
@@ -112,6 +149,9 @@ def main() -> int:
             (DATA / f"deals_{l}.json").write_text("[]", encoding="utf-8")
     print("bot commands handled:", bot.process_commands(hist))
     bot.ensure_welcome(hist)
+
+    if os.environ.get("PUBLISH_PREVIEW") == "1":
+        return publish_preview(hist, today, base, errors)
 
     loaded = {}
     for lang in LANGS:

@@ -23,7 +23,8 @@
     "sports": 0.054,
     "kids": 0.054,
     "shoes": 0.069,
-    "appliances": 0.054
+    "appliances": 0.054,
+    "dollar": 0.069
   },
   "store_commission_override": {
     "banggood": {
@@ -102,5 +103,19 @@
     "Home Decor"
   ],
   "max_price_usd": 150,
-  "preview_only": true
+  "preview_only": false,
+  "dollar_max_price_usd": 3,
+  "dollar_min_price_usd": 0.5,
+  "dollar_from_niches": [
+    "tech",
+    "home",
+    "nails",
+    "kids",
+    "car",
+    "tools",
+    "sports",
+    "coffee",
+    "audio"
+  ],
+  "dollar_per_run": 3
 }

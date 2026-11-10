@@ -291,6 +291,11 @@
           "juicer",
           "kitchen"
         ]
+      },
+      "dollar": {
+        "title": "דילים בדולר",
+        "keywords": [],
+        "categories": []
       }
     }
   },
@@ -586,6 +591,11 @@
           "juicer",
           "kitchen"
         ]
+      },
+      "dollar": {
+        "title": "Chollos de 1 dólar",
+        "keywords": [],
+        "categories": []
       }
     }
   },
@@ -881,6 +891,11 @@
           "juicer",
           "kitchen"
         ]
+      },
+      "dollar": {
+        "title": "Dollar deals",
+        "keywords": [],
+        "categories": []
       }
     }
   }

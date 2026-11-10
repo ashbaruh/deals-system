@@ -33,7 +33,7 @@ UI = {
            "cats": "Categories", "prev": "Previous", "next": "Next", "none_found": "No deals found. Try another word."},
 }
 ICONS = {"nails": "💅", "coffee": "☕", "fashion": "👗", "audio": "🎧", "home": "🏠", "tech": "📱", "tools": "🔧",
-         "car": "🚗", "sports": "⛺", "kids": "🧸", "shoes": "👟", "appliances": "🔌"}
+         "car": "🚗", "sports": "⛺", "kids": "🧸", "shoes": "👟", "appliances": "🔌", "dollar": "💲"}
 
 CSS = """
 :root{--page:#eef0f4;--card:#fff;--ink:#1b1f26;--muted:#69707d;--line:#dfe3ea;--hot:#ff3b30;--hot2:#ff8a00;
@@ -54,7 +54,8 @@ header{background:var(--card);border-bottom:1px solid var(--line);position:stick
 .btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:999px;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--card)}
 .btn.main{background:var(--btn);border-color:var(--btn);color:#fff}
 .langs{display:flex;gap:10px;font-size:.85rem;color:var(--muted)}.langs a.on{color:var(--ink);font-weight:700}
-.cats{display:flex;gap:8px;overflow-x:auto;padding:8px 0 10px;scrollbar-width:none}.cats::-webkit-scrollbar{display:none}
+.cats{display:flex;flex-wrap:wrap;gap:8px;padding:8px 0 10px}
+@media(max-width:760px){.cats{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}}.cats::-webkit-scrollbar{display:none}
 .cats a{flex:none;padding:6px 14px;border-radius:999px;background:var(--chip);font-size:.9rem}
 .cats a.on{background:var(--ink);color:var(--card)}
 .event{background:linear-gradient(100deg,#e5174f,#ff5a36);color:#fff}
