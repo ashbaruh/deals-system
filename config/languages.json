@@ -40,20 +40,51 @@
       "coffee": {
         "title": "קפה",
         "keywords": [
-          "coffee",
           "espresso",
-          "coffee grinder",
+          "portafilter",
+          "tamper",
+          "coffee distributor",
+          "dosing ring",
+          "dosing funnel",
+          "knock box",
+          "milk pitcher",
+          "frothing pitcher",
+          "milk jug",
           "milk frother",
+          "coffee scale",
+          "espresso scale",
+          "puck screen",
+          "wdt",
+          "shower screen",
+          "group head",
+          "coffee grinder",
+          "burr grinder",
+          "bean grinder",
+          "reusable capsule",
+          "refillable capsule",
+          "coffee capsule",
+          "nespresso",
+          "dolce gusto",
+          "steam wand",
+          "latte art",
+          "barista",
           "moka",
           "french press",
           "pour over",
           "cold brew",
-          "latte"
+          "coffee filter",
+          "bottomless",
+          "coffee machine",
+          "coffee maker",
+          "coffee dripper",
+          "frother"
         ],
         "categories_exact": [
-          "Kitchen,Dining & Bar",
+          "Coffee",
+          "Coffee1",
+          "Household Merchandises",
           "Kitchen Appliances",
-          "Household Merchandises"
+          "Kitchen,Dining & Bar"
         ]
       },
       "audio": {
@@ -140,7 +171,15 @@
           "Men's Underwears",
           "Men Socks",
           "Sportswear",
-          "Swimwears"
+          "Swimwears",
+          "Dresses",
+          "Ready-to-wear Dresses",
+          "Women's Sets",
+          "Blouses & Shirts",
+          "Jumpsuits, Playsuits & Bodysuits",
+          "Women's Clothing",
+          "Women's Handbags",
+          "Fur & Faux Fur"
         ]
       },
       "appliances": {
@@ -355,20 +394,51 @@
       "coffee": {
         "title": "Café",
         "keywords": [
-          "coffee",
           "espresso",
-          "coffee grinder",
+          "portafilter",
+          "tamper",
+          "coffee distributor",
+          "dosing ring",
+          "dosing funnel",
+          "knock box",
+          "milk pitcher",
+          "frothing pitcher",
+          "milk jug",
           "milk frother",
+          "coffee scale",
+          "espresso scale",
+          "puck screen",
+          "wdt",
+          "shower screen",
+          "group head",
+          "coffee grinder",
+          "burr grinder",
+          "bean grinder",
+          "reusable capsule",
+          "refillable capsule",
+          "coffee capsule",
+          "nespresso",
+          "dolce gusto",
+          "steam wand",
+          "latte art",
+          "barista",
           "moka",
           "french press",
           "pour over",
           "cold brew",
-          "latte"
+          "coffee filter",
+          "bottomless",
+          "coffee machine",
+          "coffee maker",
+          "coffee dripper",
+          "frother"
         ],
         "categories_exact": [
-          "Kitchen,Dining & Bar",
+          "Coffee",
+          "Coffee1",
+          "Household Merchandises",
           "Kitchen Appliances",
-          "Household Merchandises"
+          "Kitchen,Dining & Bar"
         ]
       },
       "audio": {
@@ -455,7 +525,15 @@
           "Men's Underwears",
           "Men Socks",
           "Sportswear",
-          "Swimwears"
+          "Swimwears",
+          "Dresses",
+          "Ready-to-wear Dresses",
+          "Women's Sets",
+          "Blouses & Shirts",
+          "Jumpsuits, Playsuits & Bodysuits",
+          "Women's Clothing",
+          "Women's Handbags",
+          "Fur & Faux Fur"
         ]
       },
       "appliances": {
@@ -670,20 +748,51 @@
       "coffee": {
         "title": "Coffee",
         "keywords": [
-          "coffee",
           "espresso",
-          "coffee grinder",
+          "portafilter",
+          "tamper",
+          "coffee distributor",
+          "dosing ring",
+          "dosing funnel",
+          "knock box",
+          "milk pitcher",
+          "frothing pitcher",
+          "milk jug",
           "milk frother",
+          "coffee scale",
+          "espresso scale",
+          "puck screen",
+          "wdt",
+          "shower screen",
+          "group head",
+          "coffee grinder",
+          "burr grinder",
+          "bean grinder",
+          "reusable capsule",
+          "refillable capsule",
+          "coffee capsule",
+          "nespresso",
+          "dolce gusto",
+          "steam wand",
+          "latte art",
+          "barista",
           "moka",
           "french press",
           "pour over",
           "cold brew",
-          "latte"
+          "coffee filter",
+          "bottomless",
+          "coffee machine",
+          "coffee maker",
+          "coffee dripper",
+          "frother"
         ],
         "categories_exact": [
-          "Kitchen,Dining & Bar",
+          "Coffee",
+          "Coffee1",
+          "Household Merchandises",
           "Kitchen Appliances",
-          "Household Merchandises"
+          "Kitchen,Dining & Bar"
         ]
       },
       "audio": {
@@ -770,7 +879,15 @@
           "Men's Underwears",
           "Men Socks",
           "Sportswear",
-          "Swimwears"
+          "Swimwears",
+          "Dresses",
+          "Ready-to-wear Dresses",
+          "Women's Sets",
+          "Blouses & Shirts",
+          "Jumpsuits, Playsuits & Bodysuits",
+          "Women's Clothing",
+          "Women's Handbags",
+          "Fur & Faux Fur"
         ]
       },
       "appliances": {
