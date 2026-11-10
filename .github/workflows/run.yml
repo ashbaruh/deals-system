@@ -81,6 +81,11 @@ jobs:
         run: |
           git config user.name "deals-bot"
           git config user.email "deals-bot@users.noreply.github.com"
+          # Commit this run's output on top of the latest main (code may have changed meanwhile).
+          tmp=$(mktemp -d); cp -r data public "$tmp"/
+          git fetch -q origin main && git reset -q --hard origin/main
+          rm -rf public && cp -r "$tmp"/public . && cp -r "$tmp"/data/. data/
+          rm -f data/history.sqlite
           git add -A data public
-          git diff --cached --quiet || git commit -m "Deals run $(date -u +%F_%H%M)"
-          for i in 1 2 3; do git pull --rebase -X theirs && git push && break; sleep 5; done
+          git diff --cached --quiet || git commit -q -m "Deals run $(date -u +%F_%H%M)"
+          git push -q || (git fetch -q origin main && git rebase -X ours origin/main && git push -q)
