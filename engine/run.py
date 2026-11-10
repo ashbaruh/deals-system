@@ -136,6 +136,27 @@ def update_archive(lang: str, new_deals, products, today: str):
     return archive
 
 
+def retranslate(hist) -> int:
+    """Translate titles of deals already on the site (no feed download), then rebuild."""
+    from types import SimpleNamespace as NS
+    from webgen.build import build
+    for lang in LANGS:
+        if lang == "en":
+            continue
+        path = DATA / f"deals_{lang}.json"
+        archive = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+        todo = [NS(product=NS(pid=a["pid"], title=a["title"], title_local="")) for a in archive if not a.get("title_local")]
+        localize(todo, lang, hist)
+        got = {t.product.pid: t.product.title_local for t in todo if t.product.title_local}
+        for a in archive:
+            if a["pid"] in got:
+                a["title_local"] = got[a["pid"]]
+        path.write_text(json.dumps(archive, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"{lang}: translated {len(got)} of {len(todo)} titles", flush=True)
+    print("site pages:", build())
+    return 0
+
+
 def publish_preview(hist, today, base, errors) -> int:
     """Post the picks saved by the last preview run, without downloading the feed again."""
     from dataclasses import fields
@@ -191,6 +212,8 @@ def main() -> int:
     print("bot commands handled:", bot.process_commands(hist))
     bot.ensure_welcome(hist)
 
+    if os.environ.get("RETRANSLATE") == "1":
+        return retranslate(hist)
     if os.environ.get("PUBLISH_PREVIEW") == "1":
         return publish_preview(hist, today, base, errors)
 
