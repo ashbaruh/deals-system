@@ -104,75 +104,40 @@ def _num(v):
         return None
 
 
-def read_feed_text(source: str, deadline_s: int = 2400) -> str:
+def read_feed_text(source: str, deadline_s: int = 1800) -> str:
     """source = local path or http(s) URL. Streams in chunks with an overall deadline.
-    The feed server often drops the connection part-way (the file is ~1 GB and sorted by
-    category, so a cut-off file silently loses whole categories). When that happens we
-    resume from the last byte with an HTTP Range request."""
-    import http.client
+    The Admitad feed server sends no length and closes the connection abruptly at the end,
+    so an error after a complete last line is a normal end. It does not support resuming,
+    so a short or mid-line cut is retried from scratch by the caller."""
     import time
     if not source.startswith("http"):
         return Path(source).read_text(encoding="utf-8")
-    start, buf, resumes, total = time.monotonic(), bytearray(), 0, None
-    while True:
-        headers = {"User-Agent": "deals-bot/1.0"}
-        if buf:
-            headers["Range"] = f"bytes={len(buf)}-"
-        try:
-            with urllib.request.urlopen(urllib.request.Request(source, headers=headers), timeout=90) as r:
-                if buf and r.status != 206:
-                    raise IOError(f"server ignored Range (status {r.status}); cannot resume at {len(buf) / 1e6:.0f} MB")
-                if total is None:
-                    total = int(r.headers.get("Content-Length") or 0) or None
-                    print(f"[feed] length={r.headers.get('Content-Length')} ranges={r.headers.get('Accept-Ranges')} "
-                          f"type={r.headers.get('Content-Type')}", flush=True)
-                elif r.headers.get("Content-Range"):
-                    total = int(r.headers["Content-Range"].rsplit("/", 1)[-1] or 0) or total
+    start, buf, last = time.monotonic(), bytearray(), 0
+    try:
+        with urllib.request.urlopen(urllib.request.Request(source, headers={"User-Agent": "deals-bot/1.0"}),
+                                    timeout=90) as r:
+            print(f"[feed] length={r.headers.get('Content-Length')} type={r.headers.get('Content-Type')}", flush=True)
+            while True:
+                if time.monotonic() - start > deadline_s:
+                    raise TimeoutError(f"feed download exceeded {deadline_s}s")
+                block = r.read(1 << 20)
+                if not block:
+                    break
+                buf += block
+                if len(buf) // (100 << 20) != last // (100 << 20):
+                    print(f"[feed] {len(buf) / 1e6:.0f} MB after {time.monotonic() - start:.0f}s", flush=True)
                 last = len(buf)
-                while True:
-                    if time.monotonic() - start > deadline_s:
-                        raise TimeoutError(f"feed download exceeded {deadline_s}s")
-                    block = r.read(1 << 20)
-                    if not block:
-                        break
-                    buf += block
-                    if len(buf) // (100 << 20) != last // (100 << 20):
-                        print(f"[feed] {len(buf) / 1e6:.0f} MB after {time.monotonic() - start:.0f}s", flush=True)
-                    last = len(buf)
-        except (http.client.IncompleteRead, ConnectionError, TimeoutError, OSError) as e:
-            if isinstance(e, TimeoutError) and "exceeded" in str(e):
-                raise
-            print(f"[feed] connection dropped at {len(buf) / 1e6:.0f} MB: {e.__class__.__name__}", flush=True)
-        complete = (total and len(buf) >= total) or (not total and buf.endswith(b"\n") and resumes > 0)
-        if complete:
-            break
-        if total is None and not buf.endswith(b"\n"):
-            pass                                    # mid-line: definitely cut, resume
-        elif total is None:
-            # No length header: probe once with a Range request; 416 means we have it all.
-            try:
-                with urllib.request.urlopen(urllib.request.Request(
-                        source, headers={"User-Agent": "deals-bot/1.0", "Range": f"bytes={len(buf)}-"}), timeout=90) as r:
-                    if r.status == 206:
-                        resumes += 1
-                        rest = r.read()
-                        buf += rest
-                        if not rest:
-                            break
-                        continue
-                    break                            # 200: server can't resume; keep what we have
-            except urllib.error.HTTPError as e:
-                if e.code == 416:
-                    break                            # range starts past the end: file complete
-                raise
-        resumes += 1
-        if resumes > 15:
-            raise IOError(f"feed kept dropping; got {len(buf) / 1e6:.0f} MB")
-        time.sleep(5)
+    except TimeoutError:
+        raise
+    except Exception as e:                      # abrupt close: fine if we ended on a full line
+        print(f"[feed] stream ended with {e.__class__.__name__} at {len(buf) / 1e6:.0f} MB", flush=True)
+    if not buf.endswith(b"\n"):
+        cut = buf.rfind(b"\n")                 # drop a partial last line
+        buf = buf[:cut + 1] if cut > 0 else bytearray()
+        print("[feed] last line was partial; trimmed", flush=True)
     if len(buf) < 200_000_000:
-        raise IOError(f"feed suspiciously small: {len(buf) / 1e6:.0f} MB")
-    print(f"[feed] downloaded {len(buf) / 1e6:.1f} MB in {time.monotonic() - start:.0f}s "
-          f"({resumes} resumes, expected {total})", flush=True)
+        raise IOError(f"feed too small: {len(buf) / 1e6:.0f} MB")
+    print(f"[feed] downloaded {len(buf) / 1e6:.1f} MB in {time.monotonic() - start:.0f}s", flush=True)
     return bytes(buf).decode("utf-8", errors="replace")
 
 

@@ -219,6 +219,11 @@ def main() -> int:
 
     loaded = {}
     for lang in LANGS:
+        if SETTINGS.get("single_feed", True) and any(loaded.values()):
+            # Same AliExpress catalogue for every language: download the ~1 GB feed once
+            # (repeated downloads get throttled by the feed server).
+            loaded[lang] = next(p for p in loaded.values() if p)
+            continue
         try:
             loaded[lang] = load_products(lang, errors)
         except Exception:

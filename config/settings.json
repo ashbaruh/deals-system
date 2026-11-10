@@ -123,5 +123,6 @@
   ],
   "dollar_per_run": 3,
   "per_niche_per_day": 3,
-  "site_per_niche": 12
+  "site_per_niche": 12,
+  "single_feed": true
 }
