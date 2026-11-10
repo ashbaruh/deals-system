@@ -29,7 +29,7 @@ import os as _os
 if _os.environ.get("SEED") == "1":
     # One-time manual fill: allow the shop's old price as reference (strict heat
     # threshold still applies) and post more per run.
-    SETTINGS.update(bootstrap_post=True, max_posts_per_run=20, per_niche_max=5)
+    SETTINGS.update(bootstrap_post=True, max_posts_per_run=20, per_niche_max=3)
 if _os.environ.get("PREVIEW") == "1":
     SETTINGS["preview_only"] = True
 LANGS = load_json(CONFIG / "languages.json")
@@ -354,14 +354,21 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str) 
         if d:
             deals.append(d)
     deals.sort(key=lambda d: d.heat, reverse=True)
+    from collections import Counter
+    print(f"[{lang}] products per niche: {dict(Counter(p.niche for p in products if p.niche))}", flush=True)
+    print(f"[{lang}] passing deals per niche: {dict(Counter(d.product.niche for d in deals))}", flush=True)
     # at most 2 per niche per run, so a channel is never all earbuds
-    picked, per_niche = [], {}
+    picked, per_niche, seen = [], {}, set()
     for d in deals:
         n = d.product.niche
+        key = " ".join(d.product.title.lower().split()[:4])   # skip near-duplicates (same product line)
+        if key in seen:
+            continue
         cap = SETTINGS.get("dollar_per_run", 3) if n == "dollar" else SETTINGS.get("per_niche_max", 2)
         if per_niche.get(n, 0) >= cap:
             continue
         per_niche[n] = per_niche.get(n, 0) + 1
+        seen.add(key)
         picked.append(d)
         if len(picked) >= SETTINGS["max_posts_per_run"]:
             break
