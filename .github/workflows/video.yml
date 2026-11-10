@@ -6,7 +6,7 @@ on:
         description: "Languages (space separated)"
         default: "he es en"
 permissions:
-  contents: read
+  contents: write
 jobs:
   render:
     runs-on: ubuntu-latest
@@ -24,6 +24,11 @@ jobs:
           sudo apt-get install -yq fonts-noto-color-emoji
       - name: Render
         run: python -m video.make ${{ inputs.langs }}
+      - name: Push to media branch
+        run: |
+          cd out && rm -rf tmp && git init -q -b media && git add -A
+          git -c user.name=bot -c user.email=bot@users.noreply.github.com commit -qm "promo video"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" media
       - uses: actions/upload-artifact@v4
         with:
           name: promo-video
