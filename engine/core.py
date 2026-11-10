@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import csv
 import io
+import itertools
 import json
 import math
 import sqlite3
@@ -168,35 +169,91 @@ def _merge_param(row: dict) -> None:
             row["orders"] = v.strip()
 
 
+def _row_to_product(row: dict, store: str) -> Product | None:
+    _merge_param(row)
+    pid, title, price = _pick(row, "pid"), _pick(row, "title"), _num(_pick(row, "price"))
+    url, image = _pick(row, "url"), _pick(row, "image")
+    if not (pid and title and price and url):
+        return None
+    rating = _num(_pick(row, "rating"))
+    if rating is not None and rating > 5:      # some feeds give 0-100 %
+        rating = round(rating / 20, 2)
+    orders = _num(_pick(row, "orders"))
+    ships = _pick(row, "ships_to")
+    return Product(
+        pid=f"{store}:{pid}", store=store, title=title, price_usd=price,
+        old_price_usd=_num(_pick(row, "old_price")), url=url, image=image or "",
+        rating=rating, orders=int(orders) if orders is not None else None,
+        category=_pick(row, "category") or "",
+        commission=(_num(row.get("_commission")) or 0) / 100 or None,
+        ships_to=[c.strip().upper() for c in ships.split("|")] if ships else [],
+    )
+
+
 def parse_feed(text: str, store: str) -> list[Product]:
-    sample = text[:4096]
-    delim = ";" if sample.count(";") > sample.count(",") else ","
-    out: list[Product] = []
-    reader = csv.DictReader(io.StringIO(text), delimiter=delim)
-    print(f"[feed:{store}] columns: {reader.fieldnames}")
-    shown = 0
-    for row in reader:
-        if shown < 3 and row.get("param"):
-            print(f"[feed:{store}] param sample: {row['param'][:300]}", flush=True)
-            shown += 1
-        _merge_param(row)
-        pid, title, price = _pick(row, "pid"), _pick(row, "title"), _num(_pick(row, "price"))
-        url, image = _pick(row, "url"), _pick(row, "image")
-        if not (pid and title and price and url):
-            continue
-        rating = _num(_pick(row, "rating"))
-        if rating is not None and rating > 5:      # some feeds give 0-100 %
-            rating = round(rating / 20, 2)
-        orders = _num(_pick(row, "orders"))
-        ships = _pick(row, "ships_to")
-        out.append(Product(
-            pid=f"{store}:{pid}", store=store, title=title, price_usd=price,
-            old_price_usd=_num(_pick(row, "old_price")), url=url, image=image or "",
-            rating=rating, orders=int(orders) if orders is not None else None,
-            category=_pick(row, "category") or "",
-            commission=(_num(row.get("_commission")) or 0) / 100 or None,
-            ships_to=[c.strip().upper() for c in ships.split("|")] if ships else [],
-        ))
+    return stream_products(io.StringIO(text), store, lambda p: True)
+
+
+def _lines(source, deadline_s: int = 3300):
+    """Yield the feed line by line straight from the network (the feed is ~2 GB, far
+    too big to hold in memory). The server ends with an abrupt close: that is the end."""
+    import time
+    if hasattr(source, "read"):
+        yield from source
+        return
+    if not source.startswith("http"):
+        with open(source, encoding="utf-8", errors="replace", newline="") as f:
+            yield from f
+        return
+    start, n, mb = time.monotonic(), 0, 0
+    r = urllib.request.urlopen(urllib.request.Request(source, headers={"User-Agent": "deals-bot/1.0"}), timeout=90)
+    text = io.TextIOWrapper(r, encoding="utf-8", errors="replace", newline="")
+    try:
+        for line in text:
+            n += len(line)
+            if n // 100_000_000 != mb:
+                mb = n // 100_000_000
+                print(f"[feed] {n / 1e6:.0f} MB after {time.monotonic() - start:.0f}s", flush=True)
+                if time.monotonic() - start > deadline_s:
+                    print("[feed] time limit reached; using what arrived", flush=True)
+                    break
+            yield line
+    except Exception as e:
+        print(f"[feed] stream ended with {e.__class__.__name__} at {n / 1e6:.0f} MB", flush=True)
+    finally:
+        r.close()
+    print(f"[feed] streamed {n / 1e6:.0f} MB in {time.monotonic() - start:.0f}s", flush=True)
+
+
+def stream_products(source, store: str, keep, stats: dict | None = None) -> list[Product]:
+    """Parse the CSV feed row by row and keep only products for which keep(p) is true."""
+    it = _lines(source)
+    first = next(it, "")
+    delim = ";" if first.count(";") > first.count(",") else ","
+    reader = csv.DictReader(itertools.chain([first], it), delimiter=delim)
+    print(f"[feed:{store}] columns: {reader.fieldnames}", flush=True)
+    out, total, shown = [], 0, 0
+    try:
+        for row in reader:
+            if shown < 2 and row.get("param"):
+                print(f"[feed:{store}] param sample: {row['param'][:200]}", flush=True)
+                shown += 1
+            p = _row_to_product(row, store)
+            if not p:
+                continue
+            total += 1
+            if stats is not None:
+                stats.setdefault("categories", {})
+                stats["categories"][p.category] = stats["categories"].get(p.category, 0) + 1
+            if keep(p):
+                out.append(p)
+    except csv.Error as e:                      # a cut last line
+        print(f"[feed:{store}] csv stopped: {e}", flush=True)
+    print(f"[feed:{store}] {total} products read, {len(out)} kept", flush=True)
+    if total < 100_000 and not hasattr(source, "read") and str(source).startswith("http"):
+        raise IOError(f"feed too short: only {total} products")
+    if stats is not None:
+        stats["total"], stats["kept"] = total, len(out)
     return out
 
 
