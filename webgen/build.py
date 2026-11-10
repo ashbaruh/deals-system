@@ -33,7 +33,7 @@ UI = {
            "cats": "Categories", "prev": "Previous", "next": "Next", "none_found": "No deals found. Try another word."},
 }
 ICONS = {"nails": "💅", "coffee": "☕", "fashion": "👗", "audio": "🎧", "home": "🏠", "tech": "📱", "tools": "🔧",
-         "car": "🚗", "sports": "⛺", "kids": "🧸", "shoes": "👟", "appliances": "🔌", "dollar": "💲"}
+         "car": "🚗", "sports": "⛺", "kids": "🧸", "shoes": "👟", "appliances": "🔌", "dollar": "💲", "brands": "🏷️"}
 
 CSS = """
 :root{--page:#eef0f4;--card:#fff;--ink:#1b1f26;--muted:#69707d;--line:#dfe3ea;--hot:#ff3b30;--hot2:#ff8a00;

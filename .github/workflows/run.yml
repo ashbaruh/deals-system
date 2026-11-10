@@ -28,6 +28,10 @@ on:
         description: "Test: download only products changed in the last N hours (0 = full feed)"
         type: string
         default: "0"
+      only_niche:
+        description: "Targeted fill: only this niche (e.g. brands), site-only, no posts"
+        type: string
+        default: ""
       cleanup:
         description: "Delete the bot's channel posts after the welcome message (48h limit) and reset the archive"
         type: boolean
@@ -63,6 +67,7 @@ jobs:
           PREVIEW: ${{ inputs.preview && '1' || '0' }}
           PUBLISH_PREVIEW: ${{ inputs.publish_preview && '1' || '0' }}
           RETRANSLATE: ${{ inputs.retranslate && '1' || '0' }}
+          ONLY_NICHE: ${{ inputs.only_niche }}
           FEED_DELTA_HOURS: ${{ inputs.delta_hours || '0' }}
           FEEDS_HE: ${{ secrets.FEEDS_HE }}
           FEEDS_ES: ${{ secrets.FEEDS_ES }}

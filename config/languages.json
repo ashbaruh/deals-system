@@ -37,6 +37,11 @@
       "alert_cta": "התראה על מוצר"
     },
     "niches": {
+      "brands": {
+        "title": "מותגים",
+        "keywords": [],
+        "categories": []
+      },
       "coffee": {
         "title": "קפה",
         "keywords": [
@@ -391,6 +396,11 @@
       "alert_cta": "Aviso de producto"
     },
     "niches": {
+      "brands": {
+        "title": "Marcas oficiales",
+        "keywords": [],
+        "categories": []
+      },
       "coffee": {
         "title": "Café",
         "keywords": [
@@ -745,6 +755,11 @@
       "alert_cta": "Product alerts"
     },
     "niches": {
+      "brands": {
+        "title": "Official brands",
+        "keywords": [],
+        "categories": []
+      },
       "coffee": {
         "title": "Coffee",
         "keywords": [

@@ -271,6 +271,29 @@ import re as _re
 _EXCL_RE = _re.compile(r"\b(" + "|".join(_re.escape(k) for k in SETTINGS.get("exclude_keywords", ["~none~"])) + r")\b", _re.I)
 
 
+_BRAND_RE = None
+_ACCESSORY_RE = None
+
+
+def _is_brand(title: str) -> bool:
+    """Genuine product of a known Chinese brand (official stores): the brand name leads the
+    title. "Case for Xiaomi 14" / "Cable compatible with Anker" are accessories, not the brand."""
+    import re
+    global _BRAND_RE, _ACCESSORY_RE
+    if _BRAND_RE is None:
+        ci = "|".join(re.escape(b) for b in SETTINGS.get("brands", []))
+        cs = "|".join(re.escape(b) for b in SETTINGS.get("brands_case_sensitive", []))
+        _BRAND_RE = re.compile(r"^(?:\W*\S+\s+){0,3}?(?:(?i:" + ci + r")" + (r"|" + cs if cs else "") + r")\b")
+        _ACCESSORY_RE = re.compile(r"\b(compatible|fits?|replacement|case|cover|film|protector|"
+                                   r"strap|wristband|skin|sticker|shell|housing|spare|parts?)\b", re.I)
+    if not SETTINGS.get("brands"):
+        return False
+    m = _BRAND_RE.search(title)
+    if not m or re.search(r"\bfor\b", title[:m.start()], re.I):
+        return False
+    return not _ACCESSORY_RE.search(title[:m.end() + 60])
+
+
 def assign_niche(p: Product, lang: str) -> str:
     """A product belongs to a niche when its AliExpress category is one of the niche's
     categories (exact name) and, for niches with keywords, its title also matches one.
@@ -283,6 +306,8 @@ def assign_niche(p: Product, lang: str) -> str:
                            for key, n in LANGS[lang]["niches"].items() if n.get("categories_exact")]
     if _EXCL_RE.search(p.title):
         return ""
+    if _is_brand(p.title):
+        return "brands"
     for key, cats, rx in _NICHE_RE[lang]:
         if p.category in cats and (rx is None or rx.search(p.title)):
             return key
@@ -460,7 +485,7 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str,
     for d in deals:
         n = d.product.niche
         key = " ".join(d.product.title.lower().split()[:4])
-        if d.product.pid in chosen or key in seen or on_site.get(n, 0) >= SETTINGS.get("site_per_niche", 12):
+        if d.product.pid in chosen or key in seen or on_site.get(n, 0) >= SETTINGS.get(f"site_per_niche_{n}", SETTINGS.get("site_per_niche", 12)):
             continue
         seen.add(key)
         on_site[n] = on_site.get(n, 0) + 1

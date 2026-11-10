@@ -249,6 +249,16 @@ def main() -> int:
             loaded[lang] = fallback
             errors.append(f"{lang}: own feed failed, used another language's feed")
 
+    only = os.environ.get("ONLY_NICHE")
+    if only:
+        # Targeted fill: keep one niche, put everything on the site, post nothing now
+        # (regular runs post from it under the normal daily limits).
+        from .core import assign_niche
+        SETTINGS["max_posts_per_run"] = 0
+        for lang in LANGS:
+            loaded[lang] = [p for p in loaded[lang] if assign_niche(p, lang) == only]
+            print(f"[{lang}] only {only}: {len(loaded[lang])} products", flush=True)
+
     for lang in LANGS:
         try:
             products = loaded[lang]
