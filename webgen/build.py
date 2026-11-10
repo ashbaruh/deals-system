@@ -53,7 +53,7 @@ header{background:var(--card);border-bottom:1px solid var(--line);position:stick
 .acts{display:flex;gap:8px;align-items:center}
 .btn{display:inline-flex;align-items:center;gap:6px;padding:9px 16px;border-radius:999px;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--card)}
 .btn.main{background:var(--btn);border-color:var(--btn);color:#fff}
-.langs{display:flex;gap:10px;font-size:.85rem;color:var(--muted)}.langs a.on{color:var(--ink);font-weight:700}
+.langs{display:flex;gap:14px;font-size:.85rem;color:var(--muted)}.langbar{justify-content:flex-end;padding-top:8px}.langbar a{padding:2px 0}.langs a.on{color:var(--ink);font-weight:700}
 .cats{display:flex;flex-wrap:wrap;gap:8px;padding:8px 0 10px}
 @media(max-width:760px){.cats{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}}.cats::-webkit-scrollbar{display:none}
 .cats a{flex:none;padding:6px 14px;border-radius:999px;background:var(--chip);font-size:.9rem}
@@ -175,7 +175,7 @@ def page(lang: str, path: str, title: str, desc: str, body: str, alt_paths: dict
     bot = f"https://t.me/{SETTINGS.get('bot_username', 'dilim_deals_bot')}"
     cats = f'<a class="{"on" if active == "all" else ""}" href="/{lang}/">🔥 {esc(u["tab_hot"])}</a>' + "".join(
         f'<a class="{"on" if active == k else ""}" href="/{lang}/niche/{k}.html">{ICONS.get(k, "")} {esc(n["title"])}</a>'
-        for k, n in c["niches"].items())
+        for k, n in c["niches"].items() if k in ACTIVE.get(lang, c["niches"]))
     ld = f'<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>' if schema else ""
     return f"""<!doctype html><html lang="{lang}" dir="{c['dir']}"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)}</title>
@@ -184,13 +184,13 @@ def page(lang: str, path: str, title: str, desc: str, body: str, alt_paths: dict
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;800&display=swap" rel="stylesheet">
 <style>{CSS}</style>{ld}</head><body>
-<header><div class="wrap"><div class="top"><a class="brand" href="/{lang}/">🔥 <b>{esc(c['site_title'].split('|')[0].strip())}</b></a>
+<header><div class="wrap"><nav class="langs langbar" aria-label="Language">{langs}</nav><div class="top"><a class="brand" href="/{lang}/">🔥 <b>{esc(c['site_title'].split('|')[0].strip())}</b></a>
 <form class="search" action="/{lang}/" role="search"><input id="q" name="q" type="search" placeholder="{esc(u['search'])}" aria-label="{esc(u['search'])}"></form>
 <div class="acts"><a class="btn" href="{bot}" aria-label="{esc(s.get('alert_cta', 'Alerts'))}">🔔 <span class="lbl">{esc(s.get('alert_cta', 'Alerts'))}</span></a>
 <a class="btn main" href="{c['channel_url']}">✈ Telegram</a></div></div>
 <nav class="cats" aria-label="{esc(u['cats'])}">{cats}</nav></div></header>
 {top}<main class="wrap">{body}</main>
-<footer><div class="wrap foot"><nav class="langs" style="margin-bottom:10px">{langs}</nav><p>{esc(s['disclosure'])}</p>
+<footer><div class="wrap foot"><p>{esc(s['disclosure'])}</p>
 <p><a href="/{lang}/how.html">{esc(s['how_title'])}</a> &nbsp; <a href="{c['channel_url']}">{esc(s['join_channel'])}</a></p></div></footer>
 {JS}</body></html>"""
 
@@ -245,7 +245,7 @@ def hot_rail(items: list, lang: str) -> str:
 def sidebar(lang: str) -> str:
     c, u, s = LANGS[lang], UI[lang], LANGS[lang]["strings"]
     bot = f"https://t.me/{SETTINGS.get('bot_username', 'dilim_deals_bot')}"
-    cl = "".join(f'<a href="/{lang}/niche/{k}.html">{ICONS.get(k, "")} {esc(n["title"])}</a>' for k, n in c["niches"].items())
+    cl = "".join(f'<a href="/{lang}/niche/{k}.html">{ICONS.get(k, "")} {esc(n["title"])}</a>' for k, n in c["niches"].items() if k in ACTIVE.get(lang, c["niches"]))
     return f"""<aside class="side"><div class="box"><h3>✈ Telegram</h3><p>{esc(u['join_box'])}</p><a class="btn main" href="{c['channel_url']}">{esc(s['join_channel'])}</a></div>
 <div class="box"><h3>🔔 {esc(s.get('alert_cta', ''))}</h3><p>{esc(u['alert_box'])}</p><a class="btn" href="{bot}">@{esc(SETTINGS.get('bot_username', ''))}</a></div>
 <div class="box"><h3>{esc(u['how_box'])}</h3><p>{esc(u['how_short'])}</p><a class="btn" href="/{lang}/how.html">{esc(s['how_title'])}</a></div>
@@ -284,6 +284,9 @@ def load_archive(lang: str) -> list[dict]:
     return json.loads(f.read_text(encoding="utf-8")) if f.exists() else []
 
 
+ACTIVE: dict = {}   # lang -> niches that currently have live deals (empty ones are hidden from menus)
+
+
 def build():
     if OUT.exists():
         shutil.rmtree(OUT)
@@ -294,6 +297,7 @@ def build():
         s = c["strings"]
         deals = archives[lang]
         live = [d for d in deals if not d.get("expired")]
+        ACTIVE[lang] = {d.get("niche") for d in live}
         root = OUT / lang
         (root / "deal").mkdir(parents=True)
         (root / "niche").mkdir()
@@ -331,7 +335,8 @@ def build():
             (root / "niche" / f"{key}.html").write_text(
                 page(lang, f"/{lang}/niche/{key}.html", title, f"{n['title']} – {c['meta_description']}", b, active=key),
                 encoding="utf-8")
-            urls.append(f"/{lang}/niche/{key}.html")
+            if key in ACTIVE[lang]:
+                urls.append(f"/{lang}/niche/{key}.html")
 
         for d in deals:
             p_path = f"/{lang}/deal/{d['slug']}.html"

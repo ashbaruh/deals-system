@@ -74,10 +74,22 @@ def load_products(lang: str, errors: list[str]):
     return products
 
 
+def _still_valid(a: dict, lang: str) -> bool:
+    """Drop archived deals that today's (stricter) category rules would not accept."""
+    from .core import Product, assign_niche
+    p = Product(pid=a["pid"], store=a.get("store", ""), title=a["title"], price_usd=a["price_usd"],
+                old_price_usd=None, url="", image="", category=a.get("category", ""))
+    n = assign_niche(p, lang)
+    if a.get("niche") == "dollar":
+        return bool(n) and n in SETTINGS.get("dollar_from_niches", [])
+    return n == a.get("niche") and SETTINGS.get("min_price_usd", 0) <= a["price_usd"] <= SETTINGS.get("max_price_usd", 1e9)
+
+
 def update_archive(lang: str, new_deals, products, today: str):
     from webgen.build import slug  # local import keeps engine importable without site/
     path = DATA / f"deals_{lang}.json"
     archive = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+    archive = [a for a in archive if _still_valid(a, lang)]
     if products is not None:                # None = publishing a reviewed preview, no fresh prices
         current = {p.pid: p.price_usd for p in products}
         for d in archive:                   # expire deals whose price went back up / vanished
@@ -174,7 +186,11 @@ def main() -> int:
                 errors.append(f"{lang}: no products loaded – skipped (nothing posted)")
                 continue
             hist.record(products, today)
-            deals = select_deals(products, lang, hist, today)
+            arch_path = DATA / f"deals_{lang}.json"
+            prev = json.loads(arch_path.read_text(encoding="utf-8")) if arch_path.exists() else []
+            from collections import Counter
+            posted_today = Counter(a.get("niche") for a in prev if a.get("day") == today)
+            deals = select_deals(products, lang, hist, today, posted_today)
             localize(deals, lang, hist)
             if SETTINGS.get("preview_only"):
                 # Review mode: nothing goes public. The owner gets the picks privately

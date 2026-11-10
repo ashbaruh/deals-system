@@ -344,7 +344,8 @@ def evaluate(p: Product, lang: str, hist: History, today: str,
                 heat=heat, history=series)
 
 
-def select_deals(products: list[Product], lang: str, hist: History, today: str) -> list[Deal]:
+def select_deals(products: list[Product], lang: str, hist: History, today: str,
+                 posted_today: dict | None = None) -> list[Deal]:
     trend = hist.niche_trend(lang)
     deals = []
     for p in products:
@@ -358,13 +359,13 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str) 
     print(f"[{lang}] products per niche: {dict(Counter(p.niche for p in products if p.niche))}", flush=True)
     print(f"[{lang}] passing deals per niche: {dict(Counter(d.product.niche for d in deals))}", flush=True)
     # at most 2 per niche per run, so a channel is never all earbuds
-    picked, per_niche, seen = [], {}, set()
+    picked, per_niche, seen = [], dict(posted_today or {}), set()   # caps count the whole day
     for d in deals:
         n = d.product.niche
         key = " ".join(d.product.title.lower().split()[:4])   # skip near-duplicates (same product line)
         if key in seen:
             continue
-        cap = SETTINGS.get("dollar_per_run", 3) if n == "dollar" else SETTINGS.get("per_niche_max", 2)
+        cap = SETTINGS.get("per_niche_per_day", 3)
         if per_niche.get(n, 0) >= cap:
             continue
         per_niche[n] = per_niche.get(n, 0) + 1

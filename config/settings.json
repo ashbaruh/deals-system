@@ -117,5 +117,6 @@
     "coffee",
     "audio"
   ],
-  "dollar_per_run": 3
+  "dollar_per_run": 3,
+  "per_niche_per_day": 3
 }
