@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import os
+import urllib.error
 import urllib.request
 
 from .core import History
@@ -33,6 +34,12 @@ def localize(deals, lang: str, hist: History) -> None:
     key = os.environ.get("GEMINI_API_KEY")
     if not todo or not key:
         return
+    for i in range(0, len(todo), 25):
+        _batch(todo[i:i + 25], lang, key, db)
+    db.commit()
+
+
+def _batch(todo, lang, key, db):
     items = {str(i): d.product.title for i, d in enumerate(todo)}
     prompt = (
         f"Rewrite each product title as a short, natural {LANG_NAMES[lang]} shopping title "
@@ -42,19 +49,24 @@ def localize(deals, lang: str, hist: History) -> None:
     )
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
                        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}}).encode()
-    try:
-        req = urllib.request.Request(URL.format(m=MODEL, k=key), data=body,
-                                     headers={"Content-Type": "application/json"})
-        with urllib.request.urlopen(req, timeout=60) as r:
-            out = json.loads(r.read())
-        text = out["candidates"][0]["content"]["parts"][0]["text"]
-        result = json.loads(text)
-    except Exception as e:  # quota/network: keep feed titles, try again next run
-        print(f"[translate:{lang}] skipped: {e.__class__.__name__}")
+    result = None
+    for model in (MODEL, "gemini-2.5-flash-lite", "gemini-2.0-flash"):
+        try:
+            req = urllib.request.Request(URL.format(m=model, k=key), data=body,
+                                         headers={"Content-Type": "application/json"})
+            with urllib.request.urlopen(req, timeout=90) as r:
+                out = json.loads(r.read())
+            result = json.loads(out["candidates"][0]["content"]["parts"][0]["text"])
+            break
+        except urllib.error.HTTPError as e:   # log the reason (key, quota, model) without the key
+            detail = e.read()[:300].decode("utf-8", "replace").replace(key, "***")
+            print(f"[translate:{lang}] {model} HTTP {e.code}: {detail}", flush=True)
+        except Exception as e:
+            print(f"[translate:{lang}] {model} failed: {e.__class__.__name__}", flush=True)
+    if not result:
         return
     for i, d in enumerate(todo):
         t = str(result.get(str(i), "")).strip()
         if 3 <= len(t) <= 90:
             d.product.title_local = t
             db.execute("INSERT OR REPLACE INTO titles VALUES(?,?,?)", (d.product.pid, lang, t))
-    db.commit()
