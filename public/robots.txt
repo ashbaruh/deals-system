@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://dealim.pages.dev/sitemap.xml
+Sitemap: https://dealim.net/sitemap.xml
