@@ -31,6 +31,8 @@ if _os.environ.get("SEED") == "1":
     # One-time manual fill: allow the shop's old price as reference (strict heat
     # threshold still applies) and post more per run.
     SETTINGS.update(bootstrap_post=True, max_posts_per_run=20, per_niche_max=3)
+if _os.environ.get("FEED_DELTA_HOURS", "").isdigit() and int(_os.environ["FEED_DELTA_HOURS"]) > 0:
+    SETTINGS["feed_delta_hours"] = int(_os.environ["FEED_DELTA_HOURS"])
 if _os.environ.get("PREVIEW") == "1":
     SETTINGS["preview_only"] = True
 LANGS = load_json(CONFIG / "languages.json")
@@ -257,7 +259,7 @@ def stream_products(source, store: str, keep, stats: dict | None = None) -> list
     except csv.Error as e:                      # a cut last line
         print(f"[feed:{store}] csv stopped: {e}", flush=True)
     print(f"[feed:{store}] {total} products read, {len(out)} kept", flush=True)
-    if total < 100_000 and not hasattr(source, "read") and str(source).startswith("http"):
+    if total < (1_000 if "last_import" in str(source) else 100_000) and not hasattr(source, "read") and str(source).startswith("http"):
         raise IOError(f"feed too short: only {total} products")
     if stats is not None:
         stats["total"], stats["kept"] = total, len(out)

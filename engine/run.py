@@ -60,7 +60,16 @@ def load_products(lang: str, errors: list[str]):
         for attempt in range(2):
             try:
                 stats = {} if os.environ.get("PREVIEW") == "1" else None
-                items = stream_products(src, store, _keep, stats)
+                url = src
+                hours = SETTINGS.get("feed_delta_hours")
+                if hours and url.startswith("http") and "last_import" not in url:
+                    # Only products changed since then: far smaller than the ~4 GB full feed,
+                    # and every category is included (the full download gets cut off part-way).
+                    from datetime import datetime, timedelta, timezone
+                    since = (datetime.now(timezone.utc) - timedelta(hours=hours)).strftime("%Y.%m.%d.%H.%M")
+                    url += ("&" if "?" in url else "?") + f"last_import={since}"
+                    print(f"[feed:{store}] delta mode: changes since {since} UTC", flush=True)
+                items = stream_products(url, store, _keep, stats)
                 if stats is not None:
                     top = sorted(stats["categories"].items(), key=lambda kv: -kv[1])[:400]
                     (DATA / "feed_diag.json").write_text(json.dumps(
@@ -103,7 +112,8 @@ def update_archive(lang: str, new_deals, products, today: str):
             # ended: expire on a price rise, or after 3 days absent from the feed.
             if now is not None and now > d["price_usd"] * 1.05:
                 d["expired"] = True
-            elif now is None and d.get("day", today) < (date.fromisoformat(today) - timedelta(days=3)).isoformat():
+            elif now is None and not SETTINGS.get("feed_delta_hours") and \
+                    d.get("day", today) < (date.fromisoformat(today) - timedelta(days=3)).isoformat():
                 d["expired"] = True
     for deal in new_deals:
         d = deal.to_dict()
