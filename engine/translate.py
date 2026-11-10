@@ -13,7 +13,7 @@ import urllib.request
 from .core import History
 
 LANG_NAMES = {"he": "Hebrew", "es": "Spanish (Spain)", "en": "English"}
-MODEL = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.8-flash")
 URL = "https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent?key={k}"
 
 
@@ -55,7 +55,7 @@ def _batch(todo, lang, key, db):
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
                        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}}).encode()
     result = None
-    for model in (MODEL, "gemini-2.5-flash-lite", "gemini-2.0-flash"):
+    for model in (MODEL, "gemini-3.5-flash-lite", "gemini-flash-latest"):
         try:
             req = urllib.request.Request(URL.format(m=model, k=key), data=body,
                                          headers={"Content-Type": "application/json"})
