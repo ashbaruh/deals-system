@@ -7,6 +7,7 @@ If a language has no feed configured, the mock feed in mock/ is used (local test
 from __future__ import annotations
 
 import time
+from pathlib import Path
 import json
 from datetime import date, timedelta
 import os
@@ -51,7 +52,30 @@ def _keep(p) -> bool:
     return bool(assign_niche(p, next(iter(LANGS))))
 
 
+def _load_cached_buckets():
+    """Products saved by the parallel bucket-fetch jobs (engine.fetch), or None."""
+    d = os.environ.get("FEED_CACHE_DIR")
+    files = sorted(Path(d).glob("products_*.json.gz")) if d and Path(d).is_dir() else []
+    if not files:
+        return None
+    import gzip
+    from .core import Product
+    seen, out = set(), []
+    for f in files:
+        with gzip.open(f, "rt", encoding="utf-8") as fh:
+            for r in json.load(fh):
+                if r["pid"] not in seen:
+                    seen.add(r["pid"])
+                    out.append(Product(**r))
+        print(f"[feed] {f.name}: total now {len(out)}", flush=True)
+    return out
+
+
 def load_products(lang: str, errors: list[str]):
+    if "buckets" not in _FEED_CACHE:
+        _FEED_CACHE["buckets"] = _load_cached_buckets()
+    if _FEED_CACHE["buckets"]:
+        return list(_FEED_CACHE["buckets"])
     products = []
     for store, src in feed_sources(lang):
         if src in _FEED_CACHE:                  # same feed shared by several languages

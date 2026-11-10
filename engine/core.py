@@ -331,7 +331,10 @@ class History:
     def record(self, products: list[Product], day: str):
         self.db.executemany(
             "INSERT OR REPLACE INTO prices VALUES(?,?,?)",
-            [(p.pid, day, p.price_usd) for p in products])
+            # Only discounted candidates: the full catalogue (millions of rows a day) would
+            # bloat the cached database without ever being used.
+            [(p.pid, day, p.price_usd) for p in products
+             if p.old_price_usd and p.price_usd <= p.old_price_usd * 0.75])
         self.db.commit()
 
     def series(self, pid: str, days: int, today: str) -> list[tuple[str, float]]:

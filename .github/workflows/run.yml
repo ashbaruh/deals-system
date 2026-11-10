@@ -45,7 +45,35 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  # The full feed gets cut off by the server (~45% arrives). The same catalogue is also
+  # offered in price buckets that each finish: fetch them in parallel, then run once.
+  fetch:
+    if: ${{ !inputs.retranslate && !inputs.publish_preview && !inputs.cleanup && (inputs.delta_hours == '' || inputs.delta_hours == '0' || inputs.delta_hours == null) }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        feed: [14107, 14267, 14280, 14281, 14282, 14283, 14284, 14285]
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Fetch bucket
+        env:
+          PYTHONUNBUFFERED: "1"
+          FEEDS_EN: ${{ secrets.FEEDS_EN }}
+        run: python -m engine.fetch ${{ matrix.feed }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: products-${{ matrix.feed }}
+          path: cache/products_*.json.gz
+          retention-days: 1
+
   run:
+    needs: fetch
+    if: ${{ always() }}
     runs-on: ubuntu-latest
     timeout-minutes: 110
     steps:
@@ -53,6 +81,14 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+      - name: Get fetched buckets
+        if: ${{ needs.fetch.result != 'skipped' }}
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          pattern: products-*
+          path: cache
+          merge-multiple: true
       - name: Restore price history
         uses: actions/cache/restore@v4
         with:
@@ -68,6 +104,7 @@ jobs:
           PUBLISH_PREVIEW: ${{ inputs.publish_preview && '1' || '0' }}
           RETRANSLATE: ${{ inputs.retranslate && '1' || '0' }}
           ONLY_NICHE: ${{ inputs.only_niche }}
+          FEED_CACHE_DIR: cache
           FEED_DELTA_HOURS: ${{ inputs.delta_hours || '0' }}
           FEEDS_HE: ${{ secrets.FEEDS_HE }}
           FEEDS_ES: ${{ secrets.FEEDS_ES }}

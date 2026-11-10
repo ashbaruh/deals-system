@@ -10,7 +10,7 @@
   "repost_block_days": 14,
   "max_posts_per_run": 5,
   "suspicious_drop": 0.9,
-  "history_retention_days": 180,
+  "history_retention_days": 90,
   "commission_by_category": {
     "fashion": 0.069,
     "home": 0.069,
