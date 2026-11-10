@@ -7,6 +7,7 @@ If a language has no feed configured, the mock feed in mock/ is used (local test
 from __future__ import annotations
 
 import json
+from datetime import date, timedelta
 import os
 import sys
 import traceback
@@ -118,7 +119,11 @@ def update_archive(lang: str, new_deals, products, today: str):
         current = {p.pid: p.price_usd for p in products}
         for d in archive:                   # expire deals whose price went back up / vanished
             now = current.get(d["pid"])
-            if now is None or now > d["price_usd"] * 1.05:
+            # The feed rotates its "hot products", so a missing item is not proof the deal
+            # ended: expire on a price rise, or after 3 days absent from the feed.
+            if now is not None and now > d["price_usd"] * 1.05:
+                d["expired"] = True
+            elif now is None and d.get("day", today) < (date.fromisoformat(today) - timedelta(days=3)).isoformat():
                 d["expired"] = True
     for deal in new_deals:
         d = deal.to_dict()
@@ -142,12 +147,12 @@ def publish_preview(hist, today, base, errors) -> int:
         f = DATA / f"preview_{lang}.json"
         if not f.exists():
             continue
-        deals = []
+        deals, site_only = [], []
         for d in json.loads(f.read_text(encoding="utf-8")):
             p = Product(**{k: v for k, v in d.items() if k in names})
-            deals.append(Deal(product=p, lang=lang, median_30d=d["median_30d"], discount=d["discount"],
+            (site_only if d.get("site_only") else deals).append(Deal(product=p, lang=lang, median_30d=d["median_30d"], discount=d["discount"],
                               heat=d["heat"], history=[tuple(x) for x in d["history"]]))
-        archive = update_archive(lang, deals, None, today)
+        archive = update_archive(lang, deals + site_only, None, today)
         by_pid = {a["pid"]: a for a in archive}
         links, posted = {}, []
         for deal in deals:
@@ -214,18 +219,21 @@ def main() -> int:
             prev = json.loads(arch_path.read_text(encoding="utf-8")) if arch_path.exists() else []
             from collections import Counter
             posted_today = Counter(a.get("niche") for a in prev if a.get("day") == today)
-            deals = select_deals(products, lang, hist, today, posted_today)
+            live_on_site = Counter(a.get("niche") for a in prev if not a.get("expired"))
+            deals, site_only = select_deals(products, lang, hist, today, posted_today, live_on_site)
             localize(deals, lang, hist)
+            localize(site_only, lang, hist)
             if SETTINGS.get("preview_only"):
                 # Review mode: nothing goes public. The owner gets the picks privately
                 # and they are saved for inspection; channels and site stay untouched.
-                (DATA / f"preview_{lang}.json").write_text(
-                    json.dumps([d.to_dict() for d in deals], ensure_ascii=False, indent=1), encoding="utf-8")
+                (DATA / f"preview_{lang}.json").write_text(json.dumps(
+                    [d.to_dict() for d in deals] + [dict(d.to_dict(), site_only=True) for d in site_only],
+                    ensure_ascii=False, indent=1), encoding="utf-8")
                 lines = [f"{round(d.heat)}° -{round(d.discount * 100)}% ${d.product.price_usd:.2f} [{d.product.niche}] {d.product.title[:60]}" for d in deals]
                 notify_owner(f"👀 Preview {lang} ({len(deals)}):\n" + "\n".join(lines))
-                print(f"{lang}: {len(products)} products, {len(deals)} deals PREVIEW only")
+                print(f"{lang}: {len(products)} products, {len(deals)} to post + {len(site_only)} site-only PREVIEW")
                 continue
-            archive = update_archive(lang, deals, products, today)
+            archive = update_archive(lang, deals + site_only, products, today)
             by_pid = {a["pid"]: a for a in archive}
             from webgen.build import click_url
             links, posted = {}, []
@@ -237,7 +245,7 @@ def main() -> int:
                     posted_total += 1
                     posted.append(deal)
             print(f"{lang}: alerts sent", bot.send_alerts(hist, lang, posted, links))
-            print(f"{lang}: {len(products)} products, {len(deals)} deals posted")
+            print(f"{lang}: {len(products)} products, {len(deals)} deals posted, {len(site_only)} site-only")
         except Exception:
             errors.append(f"{lang}: crashed\n{traceback.format_exc(limit=3)}")
 

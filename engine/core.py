@@ -345,7 +345,9 @@ def evaluate(p: Product, lang: str, hist: History, today: str,
 
 
 def select_deals(products: list[Product], lang: str, hist: History, today: str,
-                 posted_today: dict | None = None) -> list[Deal]:
+                 posted_today: dict | None = None, live_on_site: dict | None = None):
+    """Returns (to_post, site_only): Telegram gets a capped selection; the rest of the
+    good deals fill the site up to site_per_niche live deals per category."""
     trend = hist.niche_trend(lang)
     deals = []
     for p in products:
@@ -373,7 +375,19 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str,
         picked.append(d)
         if len(picked) >= SETTINGS["max_posts_per_run"]:
             break
-    return picked
+    chosen = {d.product.pid for d in picked}
+    site, on_site = [], dict(live_on_site or {})
+    for d in picked:
+        on_site[d.product.niche] = on_site.get(d.product.niche, 0) + 1
+    for d in deals:
+        n = d.product.niche
+        key = " ".join(d.product.title.lower().split()[:4])
+        if d.product.pid in chosen or key in seen or on_site.get(n, 0) >= SETTINGS.get("site_per_niche", 12):
+            continue
+        seen.add(key)
+        on_site[n] = on_site.get(n, 0) + 1
+        site.append(d)
+    return picked, site
 
 
 def today_iso() -> str:
