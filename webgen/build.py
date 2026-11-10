@@ -175,7 +175,7 @@ def page(lang: str, path: str, title: str, desc: str, body: str, alt_paths: dict
     bot = f"https://t.me/{SETTINGS.get('bot_username', 'dilim_deals_bot')}"
     cats = f'<a class="{"on" if active == "all" else ""}" href="/{lang}/">🔥 {esc(u["tab_hot"])}</a>' + "".join(
         f'<a class="{"on" if active == k else ""}" href="/{lang}/niche/{k}.html">{ICONS.get(k, "")} {esc(n["title"])}</a>'
-        for k, n in c["niches"].items() if k in ACTIVE.get(lang, c["niches"]))
+        for k, n in c["niches"].items())
     ld = f'<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>' if schema else ""
     return f"""<!doctype html><html lang="{lang}" dir="{c['dir']}"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)}</title>
@@ -245,7 +245,7 @@ def hot_rail(items: list, lang: str) -> str:
 def sidebar(lang: str) -> str:
     c, u, s = LANGS[lang], UI[lang], LANGS[lang]["strings"]
     bot = f"https://t.me/{SETTINGS.get('bot_username', 'dilim_deals_bot')}"
-    cl = "".join(f'<a href="/{lang}/niche/{k}.html">{ICONS.get(k, "")} {esc(n["title"])}</a>' for k, n in c["niches"].items() if k in ACTIVE.get(lang, c["niches"]))
+    cl = "".join(f'<a href="/{lang}/niche/{k}.html">{ICONS.get(k, "")} {esc(n["title"])}</a>' for k, n in c["niches"].items())
     return f"""<aside class="side"><div class="box"><h3>✈ Telegram</h3><p>{esc(u['join_box'])}</p><a class="btn main" href="{c['channel_url']}">{esc(s['join_channel'])}</a></div>
 <div class="box"><h3>🔔 {esc(s.get('alert_cta', ''))}</h3><p>{esc(u['alert_box'])}</p><a class="btn" href="{bot}">@{esc(SETTINGS.get('bot_username', ''))}</a></div>
 <div class="box"><h3>{esc(u['how_box'])}</h3><p>{esc(u['how_short'])}</p><a class="btn" href="/{lang}/how.html">{esc(s['how_title'])}</a></div>
@@ -335,8 +335,7 @@ def build():
             (root / "niche" / f"{key}.html").write_text(
                 page(lang, f"/{lang}/niche/{key}.html", title, f"{n['title']} – {c['meta_description']}", b, active=key),
                 encoding="utf-8")
-            if key in ACTIVE[lang]:
-                urls.append(f"/{lang}/niche/{key}.html")
+            urls.append(f"/{lang}/niche/{key}.html")
 
         for d in deals:
             p_path = f"/{lang}/deal/{d['slug']}.html"
