@@ -378,14 +378,22 @@ def build():
 
     # Root: send visitors straight to their language (last one used, else the browser's);
     # the picker stays for crawlers / no-JS, and hreflang alternates tell Google the rest.
-    picker = "".join(f'<a class="btn main" style="margin:6px" href="/{l}/" hreflang="{l}">{esc(c["name"])}</a>' for l, c in LANGS.items())
+    picker = "".join(
+        f'<section class="box" lang="{l}" dir="{c["dir"]}" style="text-align:start"><h2 style="margin:0 0 4px">{esc(c["site_title"])}</h2>'
+        f'<p>{esc(c["site_tagline"])}</p>'
+        f'<a class="btn main" style="margin-bottom:8px" href="/{l}/" hreflang="{l}">{esc(c["name"])} →</a>'
+        f'<a class="btn" href="{esc(c["channel_url"])}" rel="noopener">Telegram · {esc(c["channel_url"].rsplit("/", 1)[-1])}</a></section>'
+        for l, c in LANGS.items())
+    root_desc = "AliExpress deals, coupons and promo codes – only real price drops, verified against price history. עברית · Español · English."
     script = """<script>try{var s=null;try{s=localStorage.getItem('lang')}catch(e){}
 var b=(navigator.languages&&navigator.languages[0]||navigator.language||'').toLowerCase().slice(0,2);if(b=='iw')b='he';
 var l=['he','es','en'].indexOf(s)>-1?s:(['he','es'].indexOf(b)>-1?b:'en');location.replace('/'+l+'/'+location.search+location.hash)}catch(e){}</script>"""
     root_html = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Deals · דילים · Ofertas</title>{''.join(f'<link rel="alternate" hreflang="{l}" href="{BASE}/{l}/">' for l in LANGS)}
+<title>Deals · דילים · Ofertas</title><meta name="description" content="{esc(root_desc)}"><link rel="canonical" href="{BASE}/">
+<meta property="og:type" content="website"><meta property="og:url" content="{BASE}/"><meta property="og:title" content="Deals · דילים · Ofertas"><meta property="og:description" content="{esc(root_desc)}">
+<meta name="twitter:card" content="summary">{''.join(f'<link rel="alternate" hreflang="{l}" href="{BASE}/{l}/">' for l in LANGS)}
 <link rel="alternate" hreflang="x-default" href="{BASE}/en/"><style>{CSS}</style></head>
-<body>{script}<main class="wrap" style="text-align:center;padding:60px 16px"><h1>🔥</h1>{picker}</main></body></html>"""
+<body>{script}<main class="wrap" style="max-width:560px;padding:40px 16px"><h1 style="text-align:center">🔥 Deals · דילים · Ofertas</h1>{picker}</main></body></html>"""
     (OUT / "index.html").write_text(root_html, encoding="utf-8")
 
     sm = "".join(f"<url><loc>{BASE}{u}</loc></url>" for u in urls)
