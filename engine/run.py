@@ -250,6 +250,7 @@ def main() -> int:
     bot.maintenance(hist)
     if os.environ.get("RETRANSLATE") == "1":
         bot.pre_event_posts(hist, today)
+        bot.event_posts(hist, today)
         bot.promo_video(hist)
         return retranslate(hist)
     if os.environ.get("PUBLISH_PREVIEW") == "1":
@@ -296,7 +297,12 @@ def main() -> int:
             from collections import Counter
             posted_today = Counter(a.get("niche") for a in prev if a.get("day") == today)
             live_on_site = Counter(a.get("niche") for a in prev if not a.get("expired"))
+            # Daily cap per channel (several scheduled runs a day, incl. backups GitHub may or may not fire)
+            done_today = hist.db.execute("SELECT COUNT(*) FROM posted WHERE lang=? AND day=?", (lang, today)).fetchone()[0]
+            run_cap = SETTINGS["max_posts_per_run"]
+            SETTINGS["max_posts_per_run"] = max(0, min(run_cap, SETTINGS.get("max_posts_per_day", 10) - done_today))
             deals, site_only = select_deals(products, lang, hist, today, posted_today, live_on_site)
+            SETTINGS["max_posts_per_run"] = run_cap
             localize(deals, lang, hist)
             localize(site_only, lang, hist)
             if SETTINGS.get("preview_only"):

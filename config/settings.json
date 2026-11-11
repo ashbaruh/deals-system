@@ -323,5 +323,6 @@
     "XTEP"
   ],
   "site_per_niche_brands": 24,
-  "max_price_usd_brands": 300
+  "max_price_usd_brands": 300,
+  "max_posts_per_day": 10
 }

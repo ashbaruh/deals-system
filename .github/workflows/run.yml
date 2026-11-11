@@ -6,6 +6,7 @@ name: Deals run
 on:
   schedule:
     - cron: "30 7,18 * * *"
+    - cron: "50 9,20 * * *"   # backup: GitHub sometimes drops scheduled runs; daily caps stop double posting
   workflow_dispatch:
     inputs:
       seed:
