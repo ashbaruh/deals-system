@@ -71,11 +71,24 @@ def _call(token: str, method: str, payload: dict) -> dict:
     return {}
 
 
+SHARE = {"he": "mivtzaim_kuponim", "es": "ofertas_descuentos_es", "en": "discount_deals_promo"}
+SHARE_LABEL = {"he": "📣 שתפו חבר", "es": "📣 Compartir con un amigo", "en": "📣 Share with a friend"}
+SHARE_TEXT = {"he": "ערוץ דילים מאלי אקספרס עם הנחות אמיתיות שנבדקו – שווה להצטרף",
+              "es": "Canal de chollos de AliExpress con descuentos reales comprobados – merece la pena",
+              "en": "AliExpress deals channel with real, price-checked discounts – worth joining"}
+
+
 def post_deal(deal: Deal, click_url: str, site_url: str) -> bool:
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     chat = os.environ.get(LANGS[deal.lang]["channel_env"])
     s = LANGS[deal.lang]["strings"]
-    markup = json.dumps({"inline_keyboard": [[{"text": f"🛒 {s['go']}", "url": click_url}]]})
+    rows = [[{"text": f"🛒 {s['go']}", "url": click_url}]]
+    handle = SHARE.get(deal.lang)
+    if handle:                       # one tap to forward the channel to a friend: free growth
+        from urllib.parse import quote
+        rows.append([{"text": SHARE_LABEL[deal.lang],
+                      "url": f"https://t.me/share/url?url={quote('https://t.me/' + handle)}&text={quote(SHARE_TEXT[deal.lang])}"}])
+    markup = json.dumps({"inline_keyboard": rows})
     text = caption(deal, site_url)
     if not token or not chat:
         print(f"[dry-run:{deal.lang}] {deal.product.title[:60]} -> {click_url}")

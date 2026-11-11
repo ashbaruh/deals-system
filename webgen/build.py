@@ -155,6 +155,9 @@ def plain(usd: float, lang: str) -> str:
     return f"{c['currency']}{usd * c['currency_rate_from_usd']:,.2f}"
 
 
+SEO_WORDS = {'he': ('דילים ומבצעים באלי אקספרס', 'מחיר באלי אקספרס'), 'es': ('ofertas y chollos de AliExpress', 'precio en AliExpress'), 'en': ('AliExpress deals & discounts', 'AliExpress price')}  # search words in <title>: what people type into Google
+
+
 def click_url(d: dict, src: str = "site") -> str:
     """Affiliate link tagged with where the click came from (Admitad subid): lang_source_niche."""
     url = d["url"]
@@ -333,7 +336,7 @@ def build():
 
         for key, n in c["niches"].items():
             items = [d for d in ordered if d.get("niche") == key]
-            title = f"{n['title']} | {c['site_title']}"
+            title = f"{n['title']} – {SEO_WORDS[lang][0]} | dealim.net"
             hot_n = [d for d in items if not d.get("expired")][:12]
             b = f"""{hot_rail(hot_n, lang) if len(hot_n) >= 4 else ''}<div class="layout"><section><h1 style="font-size:1.3rem;margin:22px 0 4px">{ICONS.get(key, '')} {esc(n['title'])}</h1>
 {listing(items[:80], lang)}</section>{sidebar(lang)}</div>"""
@@ -345,7 +348,9 @@ def build():
         for d in deals:
             p_path = f"/{lang}/deal/{d['slug']}.html"
             pct = round(d["discount"] * 100)
-            title = f"{(d.get('title_local') or d['title'])[:70]} – {pct}% {s['off']} | {c['site_title']}"
+            t0 = " ".join((d.get('title_local') or d['title']).split())
+            t0 = t0 if len(t0) <= 60 else t0[:60].rsplit(" ", 1)[0]
+            title = f"{t0} – {plain(d['price_usd'], lang)} (-{pct}%) | {SEO_WORDS[lang][1]}"
             desc = f"{s['now']} {plain(d['price_usd'], lang)} ({s['was']} {plain(d['median_30d'], lang)}). {c['site_tagline']}."
             schema = {"@context": "https://schema.org", "@type": "Product", "name": d["title"],
                       "image": d["image"], "offers": {"@type": "Offer",
