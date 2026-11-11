@@ -25,9 +25,9 @@ jobs:
       - name: Tools
         timeout-minutes: 8
         run: |
-          which ffmpeg || (sudo apt-get update -q && sudo apt-get install -yq ffmpeg)
+          which ffmpeg || pip install -q imageio-ffmpeg
           pip install -q playwright
-          timeout 300 python -m playwright install --with-deps chromium || python -m playwright install chromium
+          python -m playwright install chromium || timeout 300 python -m playwright install --with-deps chromium
       - name: Render
         env:
           PID: ${{ inputs.pid }}
