@@ -295,11 +295,13 @@ def maintenance(hist: History):
     for lang, ids in SETTINGS.get("delete_posts", {}).items():
         ch = _channel(lang)
         for mid in ids:
-            k = f"deleted_{lang}_{mid}"
+            k = f"del_{lang}_{mid}"
             if not ch or _get(hist, k):
                 continue
             r = _call(_token(), "deleteMessage", {"chat_id": ch, "message_id": mid})
             print(f"[bot] delete {lang}/{mid}: {r.get('ok')} {r.get('description', '')}", flush=True)
+            if not (r.get("ok") or "not found" in str(r.get("description", ""))):
+                continue                                   # network error: retry next run
             _set(hist, k, 1)
             hist.db.execute("DELETE FROM state WHERE (k LIKE 'pre_%' OR k LIKE 'event_%') AND v=? AND k LIKE ?",
                             (str(mid), f"%_{lang}"))
