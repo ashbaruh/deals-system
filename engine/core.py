@@ -471,6 +471,7 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str,
     print(f"[{lang}] passing deals per niche: {dict(Counter(d.product.niche for d in deals))}", flush=True)
     # at most 2 per niche per run, so a channel is never all earbuds
     picked, per_niche, seen = [], dict(posted_today or {}), set()   # caps count the whole day
+    run_niches, run_cats = set(), set()
     for d in deals:
         if len(picked) >= SETTINGS["max_posts_per_run"]:      # checked first: a limit of 0 posts nothing
             break
@@ -481,7 +482,11 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str,
         cap = SETTINGS.get("per_niche_per_day", 3)
         if per_niche.get(n, 0) >= cap:
             continue
+        # one per niche and one per leaf category in a run: never three near-identical blouses in a row
+        if n in run_niches or d.product.category in run_cats:
+            continue
         per_niche[n] = per_niche.get(n, 0) + 1
+        run_niches.add(n); run_cats.add(d.product.category)
         seen.add(key)
         picked.append(d)
     chosen = {d.product.pid for d in picked}
