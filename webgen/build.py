@@ -401,6 +401,9 @@ var l=['he','es','en'].indexOf(s)>-1?s:(['he','es'].indexOf(b)>-1?b:'en');locati
         f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>',
         encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
+    # Google Search Console ownership file: must stay published or the site loses verification
+    (OUT / "google70086153ac75eff1.html").write_text(
+        "google-site-verification: google70086153ac75eff1.html", encoding="utf-8")
     return len(urls)
 
 
