@@ -117,7 +117,7 @@ def slides(lang: str) -> list[tuple[str, float]]:
 
 def render(lang: str, pw) -> Path:
     from math import ceil
-    sl = slides(lang)
+    sl = SLIDES_FN(lang)
     browser = pw.chromium.launch()
     pg = browser.new_page(viewport={"width": W, "height": H})
     pngs = []
@@ -131,7 +131,7 @@ def render(lang: str, pw) -> Path:
         pg.screenshot(path=str(png))
         pngs.append(png)
     browser.close()
-    (OUT / f"cover_{lang}.png").write_bytes(pngs[0].read_bytes())
+    (OUT / f"{PREFIX}cover_{lang}.png").write_bytes(pngs[0].read_bytes())
 
     xf = 0.35  # crossfade seconds
     inputs, filt = [], []
@@ -144,7 +144,7 @@ def render(lang: str, pw) -> Path:
     for i in range(1, len(pngs)):
         filt.append(f"[{prev}][v{i}]xfade=transition=slideleft:duration={xf}:offset={t - xf:.2f}[x{i}]")
         prev, t = f"x{i}", t + sl[i][1] - xf
-    mp4 = OUT / f"video_{lang}.mp4"
+    mp4 = OUT / f"{PREFIX}video_{lang}.mp4"
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-f", "lavfi", "-t", f"{t:.2f}",
                     "-i", "anullsrc=channel_layout=stereo:sample_rate=44100",
                     "-filter_complex", ";".join(filt), "-map", f"[{prev}]", "-map", f"{len(pngs)}:a",
@@ -152,6 +152,10 @@ def render(lang: str, pw) -> Path:
                     "-c:a", "aac", "-shortest", "-movflags", "+faststart", str(mp4)], check=True)
     print(f"{lang}: {mp4} {t:.1f}s", flush=True)
     return mp4
+
+
+SLIDES_FN = slides
+PREFIX = ""
 
 
 def main() -> int:

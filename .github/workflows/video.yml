@@ -5,6 +5,12 @@ on:
       langs:
         description: "Languages (space separated)"
         default: "he es en"
+      pid:
+        description: "Single-product promo: deal pid (empty = 11.11 multi video)"
+        default: ""
+      names:
+        description: "JSON {lang: short name} for the single product"
+        default: "{}"
 permissions:
   contents: write
 jobs:
@@ -23,7 +29,10 @@ jobs:
           python -m playwright install --with-deps chromium
           sudo apt-get install -yq fonts-noto-color-emoji
       - name: Render
-        run: python -m video.make ${{ inputs.langs }}
+        env:
+          PID: ${{ inputs.pid }}
+          NAMES: ${{ inputs.names }}
+        run: if [ -n "$PID" ]; then python -m video.single ${{ inputs.langs }}; else python -m video.make ${{ inputs.langs }}; fi
       - name: Push to media branch
         run: |
           cd out && rm -rf tmp && git init -q -b media && git add -A
