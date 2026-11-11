@@ -23,11 +23,11 @@ jobs:
         with:
           python-version: "3.12"
       - name: Tools
+        timeout-minutes: 8
         run: |
           which ffmpeg || (sudo apt-get update -q && sudo apt-get install -yq ffmpeg)
           pip install -q playwright
-          python -m playwright install --with-deps chromium
-          sudo apt-get install -yq fonts-noto-color-emoji
+          timeout 300 python -m playwright install --with-deps chromium || python -m playwright install chromium
       - name: Render
         env:
           PID: ${{ inputs.pid }}
