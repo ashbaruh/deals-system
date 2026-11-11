@@ -291,6 +291,9 @@ def _is_brand(title: str) -> bool:
     m = _BRAND_RE.search(title)
     if not m or re.search(r"\b(for|suitable|compatible|fits?|new for)\b", title[:m.start("b")], re.I):
         return False
+    if re.search(r"\b(sexy|lingerie|wig|crown|tiara|wedding|bridal|jewelry|necklace|earrings?|bracelet|"
+                 r"pendant|knife|knives|(?<!fascia )(?<!massage )(?<!glue )(?<!heat )gun|tactical|dildo|vibrator|t-shirt|tee)\b", title, re.I):
+        return False
     return not _ACCESSORY_RE.search(title[:m.end() + 60])
 
 
@@ -304,10 +307,10 @@ def assign_niche(p: Product, lang: str) -> str:
                             re.compile(r"\b(" + "|".join(re.escape(k) for k in n["keywords"]) + r")s?\b", re.I)
                             if n.get("keywords") else None)
                            for key, n in LANGS[lang]["niches"].items() if n.get("categories_exact")]
+    if _is_brand(p.title):          # genuine brand item: the junk filter below targets no-name listings
+        return "brands"
     if _EXCL_RE.search(p.title):
         return ""
-    if _is_brand(p.title):
-        return "brands"
     for key, cats, rx in _NICHE_RE[lang]:
         if p.category in cats and (rx is None or rx.search(p.title)):
             return key
@@ -390,7 +393,7 @@ def evaluate(p: Product, lang: str, hist: History, today: str,
         return None
     if not p.niche:
         return None
-    if p.price_usd > s.get("max_price_usd", 1e9):
+    if p.price_usd > s.get(f"max_price_usd_{p.niche}", s.get("max_price_usd", 1e9)):
         return None
     if p.price_usd < s.get("min_price_usd", 0):
         # Cheap items only as "dollar deals", and only from niches where a $1 item is useful.

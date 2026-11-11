@@ -19,7 +19,7 @@ from .telegram import notify_owner, post_deal
 from .translate import localize
 from . import bot
 
-ARCHIVE_MAX = 300
+ARCHIVE_MAX = 450
 
 
 def feed_sources(lang: str) -> list[tuple[str, str]]:
@@ -121,7 +121,8 @@ def _still_valid(a: dict, lang: str) -> bool:
     n = assign_niche(p, lang)
     if a.get("niche") == "dollar":
         return bool(n) and n in SETTINGS.get("dollar_from_niches", [])
-    return n == a.get("niche") and SETTINGS.get("min_price_usd", 0) <= a["price_usd"] <= SETTINGS.get("max_price_usd", 1e9)
+    top = SETTINGS.get(f"max_price_usd_{n}", SETTINGS.get("max_price_usd", 1e9))
+    return n == a.get("niche") and SETTINGS.get("min_price_usd", 0) <= a["price_usd"] <= top
 
 
 def update_archive(lang: str, new_deals, products, today: str):
