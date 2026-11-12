@@ -33,11 +33,12 @@
     }
   },
   "weights": {
-    "discount": 40,
+    "discount": 35,
     "rating": 20,
     "orders": 15,
     "commission": 15,
-    "trend": 10
+    "trend": 10,
+    "revenue": 30
   },
   "paused": false,
   "bootstrap_post": true,
@@ -410,5 +411,6 @@
   ],
   "site_per_niche_brands": 24,
   "max_price_usd_brands": 300,
-  "max_posts_per_day": 10
+  "max_posts_per_day": 10,
+  "revenue_full_usd": 2.0
 }

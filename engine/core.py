@@ -437,6 +437,10 @@ def evaluate(p: Product, lang: str, hist: History, today: str,
     C = _clip((commission_rate(p) - 0.023) / (0.09 - 0.023))
     T = trend.get(p.niche, 0.5)
     parts = [(w["discount"], D), (w["commission"], C), (w["trend"], T)]
+    if p.niche != "dollar" and w.get("revenue"):
+        # Expected commission per sale in $: a $30 home item at 6.9% earns ~4x a $20 earbud at 2.3%
+        E = _clip(p.price_usd * commission_rate(p) / s.get("revenue_full_usd", 2.0))
+        parts.append((w["revenue"], E))
     if p.rating is not None:
         parts.append((w["rating"], R))
     if p.orders is not None:
