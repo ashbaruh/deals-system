@@ -252,4 +252,5 @@ document.querySelectorAll('.arrow').forEach(function(a){a.addEventListener('clic
  var d=(a.classList.contains('next')?1:-1)*(rtl?-1:1)*rail.clientWidth*0.8;
  rail.scrollBy({left:d,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});});});
 })();
-</script><script>try{localStorage.setItem("lang","en")}catch(e){}</script></body></html>
+</script><script>try{var q=new URLSearchParams(location.search).get("ref");if(q)localStorage.setItem("ref",q.slice(0,8))}catch(e){}
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href]");if(!a)return;var h=a.getAttribute("href");if(!/admitad|\/g\/|rzekl|aliexpress/.test(h)||/subid1=/.test(h))return;var r=null;try{r=localStorage.getItem("ref")}catch(x){}if(r)a.setAttribute("href",h+(h.indexOf("?")>-1?"&":"?")+"subid1="+encodeURIComponent(r))},true)</script><script>try{localStorage.setItem("lang","en")}catch(e){}</script></body></html>

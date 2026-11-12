@@ -113,6 +113,9 @@ footer a{text-decoration:underline}
 @media (prefers-reduced-motion:reduce){.rail{scroll-behavior:auto}}
 """
 
+SOURCES = ["tt", "yt", "ig", "pin", "tg", "fb", "wa", "rd"]   # tiktok youtube instagram pinterest telegram facebook whatsapp reddit
+REF_JS = """<script>try{var q=new URLSearchParams(location.search).get("ref");if(q)localStorage.setItem("ref",q.slice(0,8))}catch(e){}
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[href]");if(!a)return;var h=a.getAttribute("href");if(!/admitad|\\/g\\/|rzekl|aliexpress/.test(h)||/subid1=/.test(h))return;var r=null;try{r=localStorage.getItem("ref")}catch(x){}if(r)a.setAttribute("href",h+(h.indexOf("?")>-1?"&":"?")+"subid1="+encodeURIComponent(r))},true)</script>"""
 JS = """<script>
 (function(){
 var q=document.getElementById('q'),f=document.querySelector('.search'),list=document.getElementById('list'),none=document.getElementById('none');
@@ -209,7 +212,7 @@ def page(lang: str, path: str, title: str, desc: str, body: str, alt_paths: dict
 {top}<main class="wrap">{body}</main>
 <footer><div class="wrap foot"><p>{esc(s['disclosure'])}</p>
 <p><a href="/{lang}/how.html">{esc(s['how_title'])}</a> &nbsp; <a href="{c['channel_url']}">{esc(s['join_channel'])}</a></p></div></footer>
-{JS}<script>try{{localStorage.setItem("lang","{lang}")}}catch(e){{}}</script></body></html>""")
+{JS}{REF_JS}<script>try{{localStorage.setItem("lang","{lang}")}}catch(e){{}}</script></body></html>""")
 
 
 def when(d: dict, lang: str) -> str:
@@ -415,6 +418,19 @@ var l=['he','es','en'].indexOf(s)>-1?s:(['he','es'].indexOf(b)>-1?b:'en');locati
         f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>',
         encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
+    # Per-platform short links (dealim.net/tt, /yt, ...): typeable in a TikTok caption or a bio,
+    # each a separate path in Cloudflare Web Analytics; the visitor's source then rides along
+    # into the Admitad link as subid1, so sales are attributed to the platform too.
+    for code in SOURCES:
+        (OUT / f"{code}.html").write_text(
+            f'<!doctype html><html><head><meta charset="utf-8"><meta name="robots" content="noindex">'
+            f'<meta name="viewport" content="width=device-width,initial-scale=1"><title>dealim.net</title></head>'
+            f'<body style="font-family:sans-serif;text-align:center;padding:40px">🔥 dealim.net'
+            f'<script>try{{localStorage.setItem("ref","{code}")}}catch(e){{}}'
+            f'setTimeout(function(){{var s=null;try{{s=localStorage.getItem("lang")}}catch(e){{}}'
+            f'var b=(navigator.languages&&navigator.languages[0]||navigator.language||"").toLowerCase().slice(0,2);if(b=="iw")b="he";'
+            f'var l=["he","es","en"].indexOf(s)>-1?s:(["he","es"].indexOf(b)>-1?b:"en");'
+            f'location.replace("/"+l+"/?ref={code}"+location.hash)}},700)</script></body></html>', encoding="utf-8")
     # Google Search Console ownership file: must stay published or the site loses verification
     (OUT / "google70086153ac75eff1.html").write_text(
         "google-site-verification: google70086153ac75eff1.html", encoding="utf-8")
