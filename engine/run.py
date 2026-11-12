@@ -301,6 +301,14 @@ def main() -> int:
             done_today = hist.db.execute("SELECT COUNT(*) FROM posted WHERE lang=? AND day=?", (lang, today)).fetchone()[0]
             run_cap = SETTINGS["max_posts_per_run"]
             SETTINGS["max_posts_per_run"] = max(0, min(run_cap, SETTINGS.get("max_posts_per_day", 10) - done_today))
+            # GitHub often fires scheduled runs hours late: never post into the audience's night
+            from datetime import datetime as _dt
+            from zoneinfo import ZoneInfo
+            tz = {"he": "Asia/Jerusalem", "es": "Europe/Madrid", "en": "America/New_York"}.get(lang, "UTC")
+            hour = _dt.now(ZoneInfo(tz)).hour
+            if not (8 <= hour < 23) and not os.environ.get("PUBLISH_ANYTIME"):
+                print(f"[{lang}] local hour {hour}: night, site only", flush=True)
+                SETTINGS["max_posts_per_run"] = 0
             deals, site_only = select_deals(products, lang, hist, today, posted_today, live_on_site)
             SETTINGS["max_posts_per_run"] = run_cap
             localize(deals, lang, hist)
