@@ -169,6 +169,15 @@ def click_url(d: dict, src: str = "site") -> str:
     return url
 
 
+_HTML_LINK = __import__("re").compile(r'((?:href|content)="(?:https://dealim\.net)?/(?:he|es|en)/[^"]*?)\.html"')
+
+
+def clean_urls(html_: str) -> str:
+    """Cloudflare Pages answers /x.html with a 308 to /x: link, canonical and sitemap to /x directly
+    so Google never meets a redirect ("Page with redirect" = not indexed)."""
+    return _HTML_LINK.sub(r'\1"', html_)
+
+
 def page(lang: str, path: str, title: str, desc: str, body: str, alt_paths: dict | None = None,
          schema: dict | None = None, active: str = "", top: str = "") -> str:
     c = LANGS[lang]
@@ -185,7 +194,7 @@ def page(lang: str, path: str, title: str, desc: str, body: str, alt_paths: dict
         f'<a class="{"on" if active == k else ""}" href="/{lang}/niche/{k}.html">{ICONS.get(k, "")} {esc(n["title"])}</a>'
         for k, n in c["niches"].items() if k != "brands" or k in ACTIVE.get(lang, ()))   # brands: shown once filled
     ld = f'<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>' if schema else ""
-    return f"""<!doctype html><html lang="{lang}" dir="{c['dir']}"><head><meta charset="utf-8">
+    return clean_urls(f"""<!doctype html><html lang="{lang}" dir="{c['dir']}"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}"><link rel="canonical" href="{BASE}{path}">{hreflang}
 <meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">
@@ -200,7 +209,7 @@ def page(lang: str, path: str, title: str, desc: str, body: str, alt_paths: dict
 {top}<main class="wrap">{body}</main>
 <footer><div class="wrap foot"><p>{esc(s['disclosure'])}</p>
 <p><a href="/{lang}/how.html">{esc(s['how_title'])}</a> &nbsp; <a href="{c['channel_url']}">{esc(s['join_channel'])}</a></p></div></footer>
-{JS}<script>try{{localStorage.setItem("lang","{lang}")}}catch(e){{}}</script></body></html>"""
+{JS}<script>try{{localStorage.setItem("lang","{lang}")}}catch(e){{}}</script></body></html>""")
 
 
 def when(d: dict, lang: str) -> str:
@@ -401,7 +410,7 @@ var l=['he','es','en'].indexOf(s)>-1?s:(['he','es'].indexOf(b)>-1?b:'en');locati
 <body>{script}<main class="wrap" style="max-width:560px;padding:40px 16px"><h1 style="text-align:center">🔥 Deals · דילים · Ofertas</h1>{picker}</main></body></html>"""
     (OUT / "index.html").write_text(root_html, encoding="utf-8")
 
-    sm = "".join(f"<url><loc>{BASE}{u}</loc></url>" for u in urls)
+    sm = "".join(f"<url><loc>{BASE}{u.removesuffix('.html')}</loc></url>" for u in urls)
     (OUT / "sitemap.xml").write_text(
         f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>',
         encoding="utf-8")
