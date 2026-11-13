@@ -587,31 +587,5 @@
     "lenceria",
     "lencería",
     "erótic"
-  ],
-  "channel_meta": {
-    "es": {
-      "title": "Chollos AliExpress 🔥 Ofertas y Cupones",
-      "description": "Chollos de AliExpress cada día con descuentos reales: comparamos cada precio con su historial de 30 días. Ofertas, cupones y códigos promocionales. Gadgets, hogar, moda. Web: dealim.net/es",
-      "welcome_key": "v1",
-      "site_label": "🌐 Todas las ofertas en dealim.net",
-      "welcome": "👋 <b>¡Bienvenido a Chollos AliExpress!</b>\n\n✅ Cada día publicamos las mejores ofertas de AliExpress.\n📉 Comprobamos cada precio con su historial de 30 días: solo descuentos <b>reales</b>, nada de precios inflados.\n🏷️ Gadgets, hogar, moda, café, herramientas y marcas oficiales.\n\n🔔 Activa las notificaciones para no perderte los chollos.\n📣 ¿Conoces a alguien a quien le encanten las ofertas? ¡Comparte el canal!"
-    },
-    "en": {
-      "title": "AliExpress Deals 🔥 Discounts & Coupons",
-      "description": "Daily AliExpress deals with real discounts – every price checked against its 30-day history. Coupons, promo codes, gadgets, home & fashion. Site: dealim.net/en",
-      "welcome_key": "v1",
-      "site_label": "🌐 All deals on dealim.net",
-      "welcome": "👋 <b>Welcome to AliExpress Deals!</b>\n\n✅ Every day we post the best AliExpress deals.\n📉 Each price is checked against its 30-day history – only <b>real</b> discounts, no inflated \"was\" prices.\n🏷️ Gadgets, home, fashion, coffee gear, tools and official brands.\n\n🔔 Turn on notifications so you don't miss the drops.\n📣 Know someone who loves a bargain? Share the channel!"
-    },
-    "he": {
-      "title": "דילים מאלי אקספרס 🔥 מבצעים וקופונים",
-      "description": "דילים יומיים מאלי אקספרס עם הנחות אמיתיות – כל מחיר נבדק מול היסטוריית 30 יום. קופונים, קודי הנחה, גאדג'טים, בית ואופנה. אתר: dealim.net/he",
-      "welcome_key": "v1",
-      "site_label": "🌐 כל הדילים באתר dealim.net",
-      "welcome": "👋 <b>ברוכים הבאים לדילים מאלי אקספרס!</b>\n\n✅ כל יום אנחנו מפרסמים את הדילים הכי שווים מאלי אקספרס.\n📉 כל מחיר נבדק מול היסטוריית 30 יום – רק הנחות <b>אמיתיות</b>, בלי מחירי \"לפני\" מנופחים.\n🏷️ גאדג'טים, בית, אופנה, קפה, כלי עבודה ומותגים רשמיים.\n\n🔔 הפעילו התראות כדי לא לפספס.\n📣 מכירים מישהו שאוהב דילים? שתפו את הערוץ!"
-    }
-  },
-  "welcome_known_mid": {
-    "es": 107
-  }
+  ]
 }
