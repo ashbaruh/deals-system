@@ -18,6 +18,15 @@ def main() -> int:
     feed_id, limit = sys.argv[1], int(sys.argv[2]) if len(sys.argv) > 2 else 300000
     src = [u for s, u in feed_sources("en") if u.startswith("http")][0]
     url = re.sub(r"feed_id=\d+", f"feed_id={feed_id}", src)
+    if len(sys.argv) > 3:
+        url = re.sub(r"format=\w+", f"format={sys.argv[3]}", url)
+        if sys.argv[3] == "xml":
+            import urllib.request
+            r = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "deals-bot/1.0"}), timeout=120)
+            data = r.read(400000).decode("utf-8", "replace")
+            print("XMLHEAD:", data[:6000])
+            print("OFFERS in first 400KB:", data.count("<offer "), "oldprice:", data.count("<oldprice>"))
+            return 0
     it = _lines(url, deadline_s=1500)
     first = next(it, "")
     raw = [first] + [next(it, "") for _ in range(4)]
