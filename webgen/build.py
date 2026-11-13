@@ -35,7 +35,8 @@ UI = {
 ICONS = {"nails": "💅", "coffee": "☕", "fashion": "👗", "audio": "🎧", "home": "🏠", "tech": "📱", "tools": "🔧",
          "car": "🚗", "sports": "⛺", "kids": "🧸", "shoes": "👟", "appliances": "🔌", "dollar": "💲", "brands": "🏷️"}
 
-CSS = """
+CSS = """.tgfab{position:fixed;bottom:14px;inset-inline:12px;margin:auto;max-width:560px;z-index:50;display:flex;align-items:center;gap:6px;background:#229ED9;color:#fff;border-radius:999px;box-shadow:0 8px 24px rgba(0,0,0,.25);padding:4px 6px 4px 4px}.tgfab[hidden]{display:none}.tgfab-go{flex:1;color:#fff;text-decoration:none;padding:10px 14px;font-size:15px;display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap}.tgfab-go b{background:#fff;color:#229ED9;border-radius:999px;padding:4px 12px}.tgfab button{background:transparent;border:0;color:#fff;font-size:22px;cursor:pointer;padding:0 10px}
+
 :root{--page:#eef0f4;--card:#fff;--ink:#1b1f26;--muted:#69707d;--line:#dfe3ea;--hot:#ff3b30;--hot2:#ff8a00;
 --price:#e8590c;--save:#12804a;--save-bg:#e2f5ea;--btn:#ff6a00;--chip:#f4f5f8}
 @media (prefers-color-scheme:dark){:root{--page:#16181d;--card:#1f232a;--ink:#eef0f4;--muted:#9aa1ad;--line:#2e333c;--chip:#272c34;--save-bg:#173326}}
@@ -210,6 +211,8 @@ def page(lang: str, path: str, title: str, desc: str, body: str, alt_paths: dict
 <a class="btn main" href="{c['channel_url']}">✈ Telegram</a></div></div>
 <nav class="cats" aria-label="{esc(u['cats'])}">{cats}</nav></div></header>
 {top}<main class="wrap">{body}</main>
+<div class="tgfab" id="tgfab" hidden><a href="{c['channel_url']}" class="tgfab-go">✈ <span>{esc(u['join_box'])}</span> <b>{esc(s['join_channel'])}</b></a><button type="button" aria-label="close" onclick="this.parentNode.hidden=true;try{{localStorage.setItem('tgfab','x')}}catch(e){{}}">×</button></div>
+<script>(function(){{var f=document.getElementById("tgfab");var x=null;try{{x=localStorage.getItem("tgfab")}}catch(e){{}}if(x)return;var shown=false;function on(){{if(!shown&&scrollY>500){{f.hidden=false;shown=true}}}}addEventListener("scroll",on,{{passive:true}});setTimeout(function(){{if(!shown){{f.hidden=false;shown=true}}}},12000)}})()</script>
 <footer><div class="wrap foot"><p>{esc(s['disclosure'])}</p>
 <p><a href="/{lang}/how.html">{esc(s['how_title'])}</a> &nbsp; <a href="{c['channel_url']}">{esc(s['join_channel'])}</a></p></div></footer>
 {JS}{REF_JS}<script>try{{localStorage.setItem("lang","{lang}")}}catch(e){{}}</script></body></html>""")

@@ -12,6 +12,7 @@ from __future__ import annotations
 import html
 import json
 import os
+import urllib.parse
 from datetime import date, datetime, timedelta, timezone
 
 from .core import DATA, LANGS, SETTINGS, History
@@ -286,12 +287,65 @@ def event_posts(hist: History, today: str):
                 _set(hist, key, res["result"]["message_id"])
 
 
+def channel_meta(hist: History):
+    """Keep each channel's title/description (Telegram search ranks on words in the title)
+    and a pinned welcome post in line with settings.channel_meta. Applied once per change."""
+    import hashlib
+    from .telegram import SHARE, SHARE_LABEL, SHARE_TEXT, _call
+    meta = SETTINGS.get("channel_meta", {})
+    for lang, m in meta.items():
+        ch = _channel(lang)
+        if not ch:
+            continue
+        for field, method in (("title", "setChatTitle"), ("description", "setChatDescription")):
+            v = m.get(field)
+            k = f"meta_{field}_{lang}"
+            h = hashlib.sha1((v or "").encode()).hexdigest()[:12]
+            if not v or _get(hist, k) == h:
+                continue
+            try:
+                r = _call(_token(), method, {"chat_id": ch, field: v})
+            except Exception as e:
+                r = {"ok": False, "description": str(e)}
+            print(f"[bot] {method} {lang}: {r.get('ok')} {r.get('description', '')}", flush=True)
+            if r.get("ok") or "not modified" in str(r.get("description", "")):
+                _set(hist, k, h)
+        w = m.get("welcome")
+        if w and m.get("welcome_key") and not _get(hist, f"welcome_{m['welcome_key']}_{lang}"):
+            share = ("https://t.me/share/url?url=" + urllib.parse.quote(f"https://t.me/{SHARE[lang]}")
+                     + "&text=" + urllib.parse.quote(SHARE_TEXT[lang]))
+            site = (os.environ.get("SITE_BASE_URL") or SETTINGS["site_base_url"]).rstrip("/") + f"/{lang}/?ref=tg"
+            kb = {"inline_keyboard": [[{"text": m.get("site_label", "🌐 dealim.net"), "url": site}],
+                                      [{"text": SHARE_LABEL[lang], "url": share}]]}
+            try:
+                r = _call(_token(), "sendMessage", {"chat_id": ch, "text": w, "parse_mode": "HTML",
+                                                    "disable_web_page_preview": "true",
+                                                    "reply_markup": json.dumps(kb)})
+            except Exception as e:
+                r = {"ok": False, "description": str(e)}
+            print(f"[bot] welcome {lang}: {r.get('ok')} {r.get('description', '')}", flush=True)
+            if r.get("ok"):
+                mid = r["result"]["message_id"]
+                old = _get(hist, f"welcome_mid_{lang}")
+                if old:
+                    _call(_token(), "unpinChatMessage", {"chat_id": ch, "message_id": old})
+                p = _call(_token(), "pinChatMessage", {"chat_id": ch, "message_id": mid,
+                                                       "disable_notification": "true"})
+                print(f"[bot] pin {lang}: {p.get('ok')} {p.get('description', '')}", flush=True)
+                _set(hist, f"welcome_{m['welcome_key']}_{lang}", mid)
+                _set(hist, f"welcome_mid_{lang}", mid)
+
+
 def maintenance(hist: History):
     """One-off deletions listed in settings.delete_posts {lang: [message_id,...]} (bots may
     delete their own channel posts for 48h). Deleting a pre/event post re-arms it."""
     if not _token():
         return
     _setup(hist)
+    try:
+        channel_meta(hist)
+    except Exception as e:                     # never let channel cosmetics break a run
+        print(f"[bot] channel_meta failed: {e}", flush=True)
     for lang, ids in SETTINGS.get("delete_posts", {}).items():
         ch = _channel(lang)
         for mid in ids:
