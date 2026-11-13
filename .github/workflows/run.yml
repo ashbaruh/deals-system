@@ -51,7 +51,7 @@ jobs:
   fetch:
     if: ${{ !inputs.retranslate && !inputs.publish_preview && !inputs.cleanup && (inputs.delta_hours == '' || inputs.delta_hours == '0' || inputs.delta_hours == null) }}
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 65
     strategy:
       fail-fast: false
       max-parallel: 4
