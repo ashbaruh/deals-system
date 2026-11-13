@@ -125,6 +125,38 @@ def _still_valid(a: dict, lang: str) -> bool:
     return n == a.get("niche") and SETTINGS.get("min_price_usd", 0) <= a["price_usd"] <= top
 
 
+def joom_showcase(products, lang: str, today: str) -> list:
+    """Joom products shown on the Spanish site while their own price history builds up.
+    They carry no discount claim (Joom's feed has no reference price): just the price.
+    Rotates daily, a few per category, and keeps at most `joom_showcase` on the site."""
+    import hashlib
+    from .core import Deal
+    want = SETTINGS.get("joom_showcase", 0)
+    if lang != "es" or not want:
+        return []
+    path = DATA / f"deals_{lang}.json"
+    live = sum(1 for a in (json.loads(path.read_text(encoding="utf-8")) if path.exists() else [])
+               if a.get("showcase") and not a.get("expired"))
+    need = max(0, want - live)
+    if not need:
+        return []
+    per = SETTINGS.get("joom_showcase_per_niche", 3)
+    lo, hi = SETTINGS.get("joom_showcase_price_usd", [8, 90])
+    pool = [p for p in products if p.store == "joom" and p.niche and p.image and lo <= p.price_usd <= hi
+            and 20 <= len(p.title) <= 140]
+    pool.sort(key=lambda p: hashlib.md5(f"{today}{p.pid}".encode()).hexdigest())
+    out, cnt = [], {}
+    for p in pool:
+        if cnt.get(p.niche, 0) >= per:
+            continue
+        cnt[p.niche] = cnt.get(p.niche, 0) + 1
+        out.append(Deal(product=p, lang=lang, median_30d=p.price_usd, discount=0.0, heat=40.0, history=[]))
+        if len(out) >= need:
+            break
+    print(f"[{lang}] joom showcase: +{len(out)} (live {live}, pool {len(pool)})", flush=True)
+    return out
+
+
 def update_archive(lang: str, new_deals, products, today: str):
     from webgen.build import slug  # local import keeps engine importable without site/
     path = DATA / f"deals_{lang}.json"
@@ -151,6 +183,8 @@ def update_archive(lang: str, new_deals, products, today: str):
                 live[d["niche"]] -= 1
     for deal in new_deals:
         d = deal.to_dict()
+        if d.get("store") == "joom" and d.get("discount", 0) < 0.05:
+            d["showcase"] = True
         d["slug"] = slug(d["title"], d["pid"])
         d["day"] = today
         archive = [a for a in archive if a["pid"] != d["pid"]]
@@ -311,6 +345,7 @@ def main() -> int:
                 SETTINGS["max_posts_per_run"] = 0
             deals, site_only = select_deals(products, lang, hist, today, posted_today, live_on_site)
             SETTINGS["max_posts_per_run"] = run_cap
+            site_only = site_only + joom_showcase(products, lang, today)
             localize(deals, lang, hist)
             localize(site_only, lang, hist)
             if SETTINGS.get("preview_only"):

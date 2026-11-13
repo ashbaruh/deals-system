@@ -87,7 +87,7 @@ h2{font-size:1.3rem;margin:22px 0 12px}
 .prices{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
 .price{color:var(--price);font-weight:800;font-size:1.35rem}.hcard .price{font-size:1.1rem}
 .was{color:var(--muted);text-decoration:line-through;font-size:.9rem}
-.pct{background:var(--hot);color:#fff;font-weight:800;font-size:1.15rem;line-height:1.3;padding:2px 10px;border-radius:8px;letter-spacing:.01em}
+.pct.joom{background:#7B3FE4}.pct{background:var(--hot);color:#fff;font-weight:800;font-size:1.15rem;line-height:1.3;padding:2px 10px;border-radius:8px;letter-spacing:.01em}
 .row-foot{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:10px}
 .go-btn{background:var(--btn);color:#fff;font-weight:700;padding:8px 18px;border-radius:999px;white-space:nowrap}
 .expired{opacity:.5}.expired .go-btn{display:none}
@@ -230,14 +230,24 @@ def title_of(d: dict) -> str:
     return d.get("title_local") or d["title"]
 
 
+def _off(d: dict) -> bool:
+    """Joom showcase items have no reference price: show the price only, never a fake %."""
+    return d.get("discount", 0) >= 0.05
+
+
+def _pct_html(d: dict) -> str:
+    return f'<span class="pct"><bdi>-{round(d["discount"] * 100)}%</bdi></span>' if _off(d) else '<span class="pct joom">Joom</span>'
+
+
 def card(d: dict) -> str:
     """Compact vertical card (carousel, category and event grids)."""
     lang = d["lang"]
     cls = "hcard expired" if d.get("expired") else "hcard"
-    return f"""<a class="{cls}" href="/{lang}/deal/{d['slug']}.html"><span class="deg"><bdi>{round(d['heat'])}°</bdi></span>
+    deg = f'<span class="deg"><bdi>{round(d["heat"])}°</bdi></span>' if _off(d) else ""
+    return f"""<a class="{cls}" href="/{lang}/deal/{d['slug']}.html">{deg}
 <img src="{esc(d['image'])}" alt="{esc(title_of(d)[:80])}" loading="lazy" referrerpolicy="no-referrer" width="200" height="200">
 <div class="in"><div class="t">{esc(title_of(d))}</div>
-<div class="prices"><span class="price">{money(d['price_usd'], lang)}</span><span class="pct"><bdi>-{round(d['discount'] * 100)}%</bdi></span></div></div></a>"""
+<div class="prices"><span class="price">{money(d['price_usd'], lang)}</span>{_pct_html(d)}</div></div></a>"""
 
 
 def row(d: dict) -> str:
@@ -252,7 +262,7 @@ def row(d: dict) -> str:
 <a class="pic" href="{href}"><img src="{esc(d['image'])}" alt="{esc(title_of(d)[:80])}" loading="lazy" referrerpolicy="no-referrer" width="150" height="150"></a>
 <div><div class="meta"><span class="temp"><bdi>{round(d['heat'])}°</bdi></span><span>{esc(when(d, lang))}</span>{tag}</div>
 <a class="t" href="{href}">{esc(title_of(d))}</a>
-<div class="prices"><span class="price">{money(d['price_usd'], lang)}</span><span class="was">{money(d['median_30d'], lang)}</span><span class="pct"><bdi>-{round(d['discount'] * 100)}%</bdi></span></div>
+<div class="prices"><span class="price">{money(d['price_usd'], lang)}</span>{f'<span class="was">{money(d["median_30d"], lang)}</span>' if _off(d) else ''}{_pct_html(d)}</div>
 <div class="row-foot"><span class="meta">{ICONS.get(d.get('niche', ''), '')} {esc(niche)} · {esc(u['at'] if d.get('store') != 'joom' else u['at'].replace('AliExpress', 'Joom').replace('אלי אקספרס', 'ג׳ום'))}</span>
 <a class="go-btn" rel="sponsored nofollow" href="{esc(click_url(d))}">{esc(u['cta'])}</a></div></div></article>"""
 
@@ -343,7 +353,10 @@ def build():
             if ev["start"] <= today <= ev["end"]:
                 strip = f'<div class="event"><div class="wrap"><span>🎯 {esc(t)}</span><a href="/{lang}/event/{ev["key"]}.html">{esc(UI[lang]["cta"])}</a></div></div>'
 
-        body = f"""{hot_rail(sorted(live, key=rank, reverse=True)[:12], lang)}
+        jm = [d for d in live if d.get("showcase")][:16]
+        joom_rail = (f'<h2>🟣 {esc({"es": "Novedades en Joom", "en": "New on Joom", "he": "חדש ב-Joom"}[lang])}</h2>'
+                     f'<div class="hotbar"><div class="rail">{"".join(card(d) for d in jm)}</div></div>') if len(jm) >= 4 else ""
+        body = f"""{hot_rail(sorted([d for d in live if not d.get("showcase")], key=rank, reverse=True)[:12], lang)}{joom_rail}
 <div class="layout"><section><h1 class="sr" style="font-size:1.3rem;margin:22px 0 4px">{esc(s['latest'])}</h1>{listing(ordered[:80], lang)}</section>{sidebar(lang)}</div>"""
         (root / "index.html").write_text(
             page(lang, f"/{lang}/", c["site_title"], c["meta_description"], body, active="all", top=strip), encoding="utf-8")
@@ -365,8 +378,12 @@ def build():
             pct = round(d["discount"] * 100)
             t0 = " ".join((d.get('title_local') or d['title']).split())
             t0 = t0 if len(t0) <= 60 else t0[:60].rsplit(" ", 1)[0]
-            title = f"{t0} – {plain(d['price_usd'], lang)} (-{pct}%) | {SEO_WORDS[lang][1]}"
-            desc = f"{s['now']} {plain(d['price_usd'], lang)} ({s['was']} {plain(d['median_30d'], lang)}). {c['site_tagline']}."
+            if _off(d):
+                title = f"{t0} – {plain(d['price_usd'], lang)} (-{pct}%) | {SEO_WORDS[lang][1]}"
+                desc = f"{s['now']} {plain(d['price_usd'], lang)} ({s['was']} {plain(d['median_30d'], lang)}). {c['site_tagline']}."
+            else:
+                title = f"{t0} – {plain(d['price_usd'], lang)} | Joom"
+                desc = f"{s['now']} {plain(d['price_usd'], lang)} – Joom. {c['site_tagline']}."
             schema = {"@context": "https://schema.org", "@type": "Product", "name": d["title"],
                       "image": d["image"], "offers": {"@type": "Offer",
                       "price": round(d["price_usd"] * c["currency_rate_from_usd"], 2),
@@ -380,10 +397,10 @@ def build():
             go = "" if d.get("expired") else f'<a class="go" rel="sponsored nofollow" href="{esc(click_url(d))}">🛒 {esc(s["go"])}</a>'
             b = f"""<article class="deal"><img referrerpolicy="no-referrer" src="{esc(d['image'])}" alt="{esc(d['title'][:80])}">
 <div><h1>{esc(d.get('title_local') or d['title'])}</h1>
-<div><span class="price">{money(d['price_usd'], lang)}</span><span class="was">{money(d['median_30d'], lang)}</span></div>
-<div class="badges" style="margin:8px 0"><span class="badge off">-{pct}%</span><span class="badge heat">{esc(s['heat'])} {round(d['heat'])}/100</span></div>
+<div><span class="price">{money(d['price_usd'], lang)}</span>{f'<span class="was">{money(d["median_30d"], lang)}</span>' if _off(d) else ''}</div>
+<div class="badges" style="margin:8px 0">{f'<span class="badge off">-{pct}%</span><span class="badge heat">{esc(s["heat"])} {round(d["heat"])}/100</span>' if _off(d) else '<span class="badge">Joom</span>'}</div>
 <p class="note">{meta}</p>{go}{chart(d.get('history', []), lang)}
-<p class="note">{esc(s['price_note'])}</p></div></article>"""
+{f'<p class="note">{esc(s["price_note"])}</p>' if _off(d) else ''}</div></article>"""
             # A deal page only exists in its own language: hreflang points to the language homes.
             alts = {l: (p_path if l == lang else f"/{l}/") for l in LANGS}
             (root / "deal" / f"{d['slug']}.html").write_text(

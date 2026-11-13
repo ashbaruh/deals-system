@@ -587,5 +587,11 @@
     "lenceria",
     "lencería",
     "erótic"
+  ],
+  "joom_showcase": 24,
+  "joom_showcase_per_niche": 3,
+  "joom_showcase_price_usd": [
+    8,
+    90
   ]
 }
