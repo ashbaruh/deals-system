@@ -30,6 +30,9 @@
     "banggood": {
       "audio": 0.09,
       "home": 0.09
+    },
+    "joom": {
+      "_default": 0.07
     }
   },
   "weights": {
@@ -414,5 +417,128 @@
   "site_per_niche_brands": 24,
   "max_price_usd_brands": 300,
   "max_posts_per_day": 10,
-  "revenue_full_usd": 2.0
+  "revenue_full_usd": 2.0,
+  "joom_feed_id": 24374,
+  "joom_exclude_paths": [
+    "/Fundas",
+    "Joyas",
+    "Piezas de repuesto",
+    "Accesorios de exterior",
+    "Accesorios Interior",
+    "Accesorios convertibles",
+    "Para motocicletas",
+    "Salud/",
+    "Belleza/Cuidado",
+    "Belleza/Perfumería",
+    "Belleza/Maquillaje",
+    "Libros",
+    "Productos para mascotas/Insectos",
+    "Repuestos",
+    "Partes",
+    "Caretas",
+    "Pintura de diamante",
+    "Productos médicos",
+    "Vitaminas",
+    "Accesorios para llaves",
+    "Sexual",
+    "Adultos",
+    "Lencería",
+    "Armas",
+    "Cuchillos"
+  ],
+  "joom_niche_paths": [
+    [
+      "Para café y té/Hacer café",
+      "coffee"
+    ],
+    [
+      "Cafeteras",
+      "coffee"
+    ],
+    [
+      "Molinillos de café",
+      "coffee"
+    ],
+    [
+      "Auriculares",
+      "audio"
+    ],
+    [
+      "Altavoces",
+      "audio"
+    ],
+    [
+      "Uñas",
+      "nails"
+    ],
+    [
+      "Manicura",
+      "nails"
+    ],
+    [
+      "Electrodomésticos",
+      "appliances"
+    ],
+    [
+      "Joom/Zapatos/",
+      "shoes"
+    ],
+    [
+      "/Zapatos/",
+      "shoes"
+    ],
+    [
+      "Calzado",
+      "shoes"
+    ],
+    [
+      "Moda femenina/Ropa",
+      "fashion"
+    ],
+    [
+      "Moda masculina/Ropa",
+      "fashion"
+    ],
+    [
+      "Bolsos para mujer",
+      "fashion"
+    ],
+    [
+      "Herramientas y accesorios",
+      "tools"
+    ],
+    [
+      "Herramientas de mano",
+      "tools"
+    ],
+    [
+      "Coche y moto/Herramientas",
+      "car"
+    ],
+    [
+      "Electrónica para coche",
+      "car"
+    ],
+    [
+      "Juguetes",
+      "kids"
+    ],
+    [
+      "Productos para niños/",
+      "kids"
+    ],
+    [
+      "Deportes y ocio/",
+      "sports"
+    ],
+    [
+      "Electrónica/",
+      "tech"
+    ],
+    [
+      "Productos para el hogar/",
+      "home"
+    ]
+  ],
+  "heat_threshold_joom": 42
 }

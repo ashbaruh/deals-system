@@ -56,7 +56,7 @@ jobs:
       fail-fast: false
       max-parallel: 4
       matrix:
-        feed: [14107, 14267, 14280, 14281, 14282, 14283, 14284, 14285]
+        feed: [14107, 14267, 14280, 14281, 14282, 14283, 14284, 14285, joom]
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6

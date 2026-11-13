@@ -23,18 +23,24 @@ OUT = Path(__file__).resolve().parent.parent / "cache"
 
 
 def main() -> int:
-    feed_id = sys.argv[1]
+    feed_id, store = sys.argv[1], "aliexpress"
+    if feed_id.startswith("joom"):              # "joom" or "joom:<feed_id>": Joom Spain feed
+        from .core import SETTINGS
+        store, feed_id = "joom", (feed_id.split(":")[1] if ":" in feed_id else str(SETTINGS["joom_feed_id"]))
     srcs = [u for s, u in feed_sources("en") if s == "aliexpress" and u.startswith("http")]
     if not srcs:
         print("no aliexpress feed configured"); return 1
     url, n = re.subn(r"feed_id=\d+", f"feed_id={feed_id}", srcs[0])
+    if store == "joom":
+        # Joom marks no sales in its feed, so "only on sale" would return nothing
+        url = re.sub(r"&?only_sale=[^&]*", "", url)
     if not n:
         print("feed URL has no feed_id parameter; cannot select a bucket"); return 1
     OUT.mkdir(exist_ok=True)
     items = []
     for attempt in range(2):
         try:
-            items = stream_products(url, "aliexpress", _keep, None)
+            items = stream_products(url, store, _keep, None)
             break
         except Exception as e:
             print(f"[fetch {feed_id}] attempt {attempt + 1} failed: {e}", flush=True)

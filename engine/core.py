@@ -182,6 +182,12 @@ def _row_to_product(row: dict, store: str) -> Product | None:
         rating = round(rating / 20, 2)
     orders = _num(_pick(row, "orders"))
     ships = _pick(row, "ships_to")
+    if store == "joom":                       # Joom ES feed: prices in EUR, Spain only
+        rate = LANGS.get("es", {}).get("currency_rate_from_usd") or 0.92
+        price = round(price / rate, 2)
+        return Product(pid=f"joom:{pid}", store="joom", title=title, price_usd=price,
+                       old_price_usd=None, url=url, image=image or "",
+                       category=_pick(row, "category") or "", ships_to=["ES"])
     return Product(
         pid=f"{store}:{pid}", store=store, title=title, price_usd=price,
         old_price_usd=_num(_pick(row, "old_price")), url=url, image=image or "",
@@ -297,6 +303,19 @@ def _is_brand(title: str) -> bool:
     return not _ACCESSORY_RE.search(title[:m.end() + 60])
 
 
+def _joom_niche(p: Product) -> str:
+    """Joom categories are Spanish paths ("Joom/Moda femenina/Ropa/..."): map by path fragment."""
+    cat = p.category
+    if any(x in cat for x in SETTINGS.get("joom_exclude_paths", [])):
+        return ""
+    if _EXCL_RE.search(p.title):
+        return ""
+    for frag, niche in SETTINGS.get("joom_niche_paths", []):
+        if frag in cat:
+            return niche
+    return ""
+
+
 def assign_niche(p: Product, lang: str) -> str:
     """A product belongs to a niche when its AliExpress category is one of the niche's
     categories (exact name) and, for niches with keywords, its title also matches one.
@@ -307,6 +326,8 @@ def assign_niche(p: Product, lang: str) -> str:
                             re.compile(r"\b(" + "|".join(re.escape(k) for k in n["keywords"]) + r")s?\b", re.I)
                             if n.get("keywords") else None)
                            for key, n in LANGS[lang]["niches"].items() if n.get("categories_exact")]
+    if p.store == "joom":
+        return _joom_niche(p)
     if _is_brand(p.title):          # genuine brand item: the junk filter below targets no-name listings
         return "brands"
     if _EXCL_RE.search(p.title):
@@ -332,16 +353,43 @@ class History:
         """)
 
     def record(self, products: list[Product], day: str):
+        joom = [p for p in products if p.store == "joom"]
+        if joom:
+            # Joom has no "old price": we build our own history. Storing every product every
+            # day would bloat the database, so only price changes are stored (change points);
+            # series() fills in the days between them.
+            last = dict(self.db.execute(
+                "SELECT pid, price FROM prices WHERE pid LIKE 'joom:%' AND (pid, day) IN "
+                "(SELECT pid, MAX(day) FROM prices WHERE pid LIKE 'joom:%' GROUP BY pid)").fetchall())
+            self.db.executemany("INSERT OR REPLACE INTO prices VALUES(?,?,?)",
+                                [(p.pid, day, p.price_usd) for p in joom
+                                 if p.pid not in last or abs(last[p.pid] - p.price_usd) > 0.01 * last[p.pid]])
         self.db.executemany(
             "INSERT OR REPLACE INTO prices VALUES(?,?,?)",
             # Only discounted candidates: the full catalogue (millions of rows a day) would
             # bloat the cached database without ever being used.
             [(p.pid, day, p.price_usd) for p in products
-             if p.old_price_usd and p.price_usd <= p.old_price_usd * 0.75])
+             if p.store != "joom" and p.old_price_usd and p.price_usd <= p.old_price_usd * 0.75])
         self.db.commit()
 
     def series(self, pid: str, days: int, today: str) -> list[tuple[str, float]]:
         start = (date.fromisoformat(today) - timedelta(days=days)).isoformat()
+        if pid.startswith("joom:"):            # change points -> one value per day
+            pts = self.db.execute("SELECT day, price FROM prices WHERE pid=? AND day<=? ORDER BY day",
+                                  (pid, today)).fetchall()
+            if not pts:
+                return []
+            out, i, price = [], 0, pts[0][1]
+            d, end = date.fromisoformat(max(pts[0][0], start)), date.fromisoformat(today)
+            while i < len(pts) and pts[i][0] <= d.isoformat():
+                price = pts[i][1]; i += 1
+            while d <= end:
+                ds = d.isoformat()
+                while i < len(pts) and pts[i][0] <= ds:
+                    price = pts[i][1]; i += 1
+                out.append((ds, price))
+                d += timedelta(days=1)
+            return out
         cur = self.db.execute(
             "SELECT day, price FROM prices WHERE pid=? AND day>=? ORDER BY day",
             (pid, start))
@@ -381,7 +429,7 @@ def commission_rate(p: Product) -> float:
         return p.commission
     s = SETTINGS
     over = s.get("store_commission_override", {}).get(p.store, {})
-    return over.get(p.niche, s["commission_by_category"].get(p.niche, 0.04))
+    return over.get(p.niche, over.get("_default", s["commission_by_category"].get(p.niche, 0.04)))
 
 
 def evaluate(p: Product, lang: str, hist: History, today: str,
@@ -450,6 +498,10 @@ def evaluate(p: Product, lang: str, hist: History, today: str,
     heat = 100 * sum(wt * v for wt, v in parts) / sum(wt for wt, _ in parts)
 
     threshold = s["heat_threshold_bootstrap"] if bootstrap else s["heat_threshold"]
+    if p.store == "joom":
+        # Discounts here are measured against our own 30-day history (no inflated "old price"),
+        # so a real 35-50% drop scores lower than AliExpress's list-price discounts.
+        threshold = s.get("heat_threshold_joom", threshold)
     if heat < threshold:
         return None
     return Deal(product=p, lang=lang, median_30d=ref, discount=discount,

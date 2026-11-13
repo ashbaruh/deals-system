@@ -250,7 +250,7 @@ def row(d: dict) -> str:
 <div><div class="meta"><span class="temp"><bdi>{round(d['heat'])}°</bdi></span><span>{esc(when(d, lang))}</span>{tag}</div>
 <a class="t" href="{href}">{esc(title_of(d))}</a>
 <div class="prices"><span class="price">{money(d['price_usd'], lang)}</span><span class="was">{money(d['median_30d'], lang)}</span><span class="pct"><bdi>-{round(d['discount'] * 100)}%</bdi></span></div>
-<div class="row-foot"><span class="meta">{ICONS.get(d.get('niche', ''), '')} {esc(niche)} · {esc(u['at'])}</span>
+<div class="row-foot"><span class="meta">{ICONS.get(d.get('niche', ''), '')} {esc(niche)} · {esc(u['at'] if d.get('store') != 'joom' else u['at'].replace('AliExpress', 'Joom').replace('אלי אקספרס', 'ג׳ום'))}</span>
 <a class="go-btn" rel="sponsored nofollow" href="{esc(click_url(d))}">{esc(u['cta'])}</a></div></div></article>"""
 
 
