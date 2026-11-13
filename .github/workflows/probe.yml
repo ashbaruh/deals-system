@@ -14,6 +14,11 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.12"}
       - run: pip install -q -r requirements.txt || true
-      - run: python -m engine.probe ${{ inputs.feed }} ${{ inputs.rows }} ${{ inputs.fmt }}
+      - run: |
+          if [ "${{ inputs.feed }}" = "joom" ]; then
+            python -m engine.fetch joom && python -c "import gzip,json,collections;d=json.load(gzip.open('cache/products_24374.json.gz','rt'));from engine.core import assign_niche,Product;print('KEPT',len(d));print('NICHES',collections.Counter(assign_niche(Product(**r),'es') for r in d).most_common());import random;[print('EX',r['price_usd'],r['category'][-60:],'|',r['title'][:70]) for r in random.sample(d,25)]"
+          else
+            python -m engine.probe ${{ inputs.feed }} ${{ inputs.rows }} ${{ inputs.fmt }}
+          fi
         env:
           FEEDS_EN: ${{ secrets.FEEDS_EN }}
