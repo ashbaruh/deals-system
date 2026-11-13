@@ -20,6 +20,10 @@ def main() -> int:
     url = re.sub(r"feed_id=\d+", f"feed_id={feed_id}", src)
     it = _lines(url, deadline_s=1500)
     first = next(it, "")
+    raw = [first] + [next(it, "") for _ in range(4)]
+    for i, l in enumerate(raw):
+        print(f"RAW{i}:", repr(l[:600]))
+    it = itertools.chain(raw[1:], it)
     delim = ";" if first.count(";") > first.count(",") else ","
     rd = csv.DictReader(itertools.chain([first], it), delimiter=delim)
     print("COLUMNS:", rd.fieldnames)
