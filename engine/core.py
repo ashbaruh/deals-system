@@ -303,12 +303,22 @@ def _is_brand(title: str) -> bool:
     return not _ACCESSORY_RE.search(title[:m.end() + 60])
 
 
+_JOOM_BRAND_RE = None
+
+
 def _joom_niche(p: Product) -> str:
     """Joom categories are Spanish paths ("Joom/Moda femenina/Ropa/..."): map by path fragment."""
     cat = p.category
     if any(x in cat for x in SETTINGS.get("joom_exclude_paths", [])):
         return ""
     if _EXCL_RE.search(p.title):
+        return ""
+    global _JOOM_BRAND_RE
+    if _JOOM_BRAND_RE is None:
+        import re
+        _JOOM_BRAND_RE = re.compile(r"\b(" + "|".join(re.escape(w) for w in
+                                    SETTINGS.get("joom_exclude_title_words", ["~none~"])) + r")\b", re.I)
+    if _JOOM_BRAND_RE.search(p.title):        # Western brand names: authenticity can't be verified
         return ""
     for frag, niche in SETTINGS.get("joom_niche_paths", []):
         if frag in cat:
