@@ -39,6 +39,11 @@ def main() -> int:
                     buf = buf[-2000:]
             print("read", total, "bytes; oldprice tags:", buf.count("<oldprice>"))
             return 0
+    import hashlib, urllib.parse
+    q = urllib.parse.parse_qs(urllib.parse.urlparse(url).query)
+    h = lambda v: hashlib.sha256(v.encode()).hexdigest()[:8]
+    print("HOST", urllib.parse.urlparse(url).netloc, "PATH", urllib.parse.urlparse(url).path,
+          "code#", h(q.get("code", [""])[0]), "user#", h(q.get("user", [""])[0]), "keys", list(q))
     it = _lines(url, deadline_s=1500)
     first = next(it, "")
     raw = [first] + [next(it, "") for _ in range(4)]
