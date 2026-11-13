@@ -23,9 +23,21 @@ def main() -> int:
         if sys.argv[3] == "xml":
             import urllib.request
             r = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "deals-bot/1.0"}), timeout=120)
-            data = r.read(400000).decode("utf-8", "replace")
-            print("XMLHEAD:", data[:6000])
-            print("OFFERS in first 400KB:", data.count("<offer "), "oldprice:", data.count("<oldprice>"))
+            buf, total = "", 0
+            while total < 60_000_000:
+                chunk = r.read(1_000_000)
+                if not chunk:
+                    break
+                total += len(chunk)
+                buf += chunk.decode("utf-8", "replace")
+                i = buf.find("<offer ")
+                if i >= 0 and buf.count("</offer>") >= 6:
+                    print("CATEGORIES_BYTES_BEFORE_OFFERS:", total)
+                    print("OFFERS:", buf[i:i+7000])
+                    break
+                if i < 0:
+                    buf = buf[-2000:]
+            print("read", total, "bytes; oldprice tags:", buf.count("<oldprice>"))
             return 0
     it = _lines(url, deadline_s=1500)
     first = next(it, "")
