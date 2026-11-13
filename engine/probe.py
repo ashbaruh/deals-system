@@ -1,0 +1,47 @@
+"""Inspect an Admitad feed (columns, samples, currency, category counts) without saving it.
+
+    python -m engine.probe <feed_id> [max_rows]
+"""
+from __future__ import annotations
+
+import collections
+import csv
+import itertools
+import re
+import sys
+
+from .core import _lines
+from .run import feed_sources
+
+
+def main() -> int:
+    feed_id, limit = sys.argv[1], int(sys.argv[2]) if len(sys.argv) > 2 else 300000
+    src = [u for s, u in feed_sources("en") if u.startswith("http")][0]
+    url = re.sub(r"feed_id=\d+", f"feed_id={feed_id}", src)
+    it = _lines(url, deadline_s=1500)
+    first = next(it, "")
+    delim = ";" if first.count(";") > first.count(",") else ","
+    rd = csv.DictReader(itertools.chain([first], it), delimiter=delim)
+    print("COLUMNS:", rd.fieldnames)
+    cats, cur, n, disc = collections.Counter(), collections.Counter(), 0, 0
+    for row in rd:
+        n += 1
+        if n <= 3:
+            print("SAMPLE:", {k: (v or "")[:120] for k, v in row.items()})
+        cats[row.get("categoryId") or row.get("category") or ""] += 1
+        cur[row.get("currencyId", "")] += 1
+        try:
+            if float(row.get("oldprice") or 0) > float(row.get("price") or 0) * 1.5:
+                disc += 1
+        except ValueError:
+            pass
+        if n >= limit:
+            break
+    print(f"ROWS {n}  currency {dict(cur)}  with>=33%off {disc}")
+    for c, k in cats.most_common(150):
+        print(f"CAT {k:7d}  {c}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
