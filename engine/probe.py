@@ -39,6 +39,7 @@ def main() -> int:
                     buf = buf[-2000:]
             print("read", total, "bytes; oldprice tags:", buf.count("<oldprice>"))
             return 0
+    url = re.sub(r"&?only_sale=[^&]*", "", url)
     import hashlib, urllib.parse
     q = urllib.parse.parse_qs(urllib.parse.urlparse(url).query)
     h = lambda v: hashlib.sha256(v.encode()).hexdigest()[:8]
