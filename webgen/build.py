@@ -394,7 +394,11 @@ def build():
                 schema["aggregateRating"] = {"@type": "AggregateRating", "ratingValue": d["rating"],
                                              "reviewCount": max(d.get("orders") or 1, 1)}
             meta = f"⭐ {d['rating']:.1f} · {d.get('orders') or 0:,} {esc(s['orders'])}" if d.get("rating") else ""
-            go = "" if d.get("expired") else f'<a class="go" rel="sponsored nofollow" href="{esc(click_url(d))}">🛒 {esc(s["go"])}</a>'
+            # An expired deal still links out: the visitor came for this product, and the current
+            # price may still be good (the click and any sale stay attributed).
+            cur = {"he": "לצפייה במחיר הנוכחי", "es": "Ver precio actual", "en": "See current price"}[lang]
+            go = (f'<a class="go" rel="sponsored nofollow" href="{esc(click_url(d))}">🔎 {esc(cur)}</a>' if d.get("expired")
+                  else f'<a class="go" rel="sponsored nofollow" href="{esc(click_url(d))}">🛒 {esc(s["go"])}</a>')
             b = f"""<article class="deal"><img referrerpolicy="no-referrer" src="{esc(d['image'])}" alt="{esc(d['title'][:80])}">
 <div><h1>{esc(d.get('title_local') or d['title'])}</h1>
 <div><span class="price">{money(d['price_usd'], lang)}</span>{f'<span class="was">{money(d["median_30d"], lang)}</span>' if _off(d) else ''}</div>
