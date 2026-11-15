@@ -16,6 +16,7 @@ import re
 import subprocess
 import sys
 import urllib.request
+from pathlib import Path
 
 from webgen.build import click_url
 
@@ -29,7 +30,7 @@ N_DEALS = int(os.environ.get("LIVE_DEALS", "30"))
 THEME = os.environ.get("LIVE_THEME", "")           # "" = all niches; "gaming" = gaming gear only (Twitch)
 LPFX = os.environ.get("LIVE_PREFIX", "l")          # short links dealim.net/<LPFX>/N
 TOTAL = float(os.environ.get("LIVE_SECONDS", "600"))
-INTRO, OUTRO = 12.0, 20.0
+INTRO, OUTRO = 8.0, 12.0
 PREF = ["audio", "tech", "brands", "coffee", "appliances", "home", "tools", "car", "sports", "shoes", "fashion", "kids"]
 TXT = {
     "en": dict(live="LIVE · AliExpress deals right now", hook="Real AliExpress price drops", sub="Every price checked against its own 30-day history",
@@ -126,7 +127,9 @@ def main() -> int:
                  foot="Open the link on screen · new deals every day on dealim.net")
     TMP.mkdir(parents=True, exist_ok=True)
     ds = pick(lang)
-    per = min((TOTAL - INTRO - OUTRO) / len(ds), 25.0)
+    if len(ds) < int(os.environ.get("LIVE_MIN", "1")):
+        print(f"only {len(ds)} deals for theme '{THEME}' (< LIVE_MIN) - not going live"); sys.exit(3)
+    per = float(os.environ.get("LIVE_PER", "15"))          # seconds per deal: fast pace keeps viewers watching
     imgs = []
     for d in ds:
         img = TMP / (d["pid"].split(":")[1] + ".jpg")
@@ -177,7 +180,7 @@ def main() -> int:
     im.save(rays)
 
     # one segment per slide: rotating sunburst + slide + pulsing discount badge + flashing sticker + countdown bar
-    segs = []
+    jobs = []
     for i, ((_, dur, off), fg, bd) in enumerate(zip(sl, fgs, badges)):
         seg = TMP / f"live_{lang}_seg{i}.mp4"
         ins = ["-loop", "1", "-framerate", str(FPS), "-t", f"{dur:.2f}", "-i", str(rays),
@@ -195,11 +198,14 @@ def main() -> int:
                   f";[c][4:v]overlay=x='-W+W*t/{dur:.2f}':y=996[d]")
             last = "d"
         f += f";[{last}]format=yuv420p[v]"
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *ins, "-filter_complex", f, "-map", "[v]", "-r", str(FPS),
-                        "-c:v", "libx264", "-preset", "veryfast", "-b:v", "4500k", "-maxrate", "4500k", "-bufsize", "9000k",
-                        "-g", str(FPS * 2), "-keyint_min", str(FPS * 2), "-sc_threshold", "0", "-pix_fmt", "yuv420p", str(seg)],
-                       check=True)
-        segs.append(seg)
+        jobs.append(["ffmpeg", "-y", "-loglevel", "error", *ins, "-filter_complex", f, "-map", "[v]", "-r", str(FPS),
+                     "-c:v", "libx264", "-preset", "veryfast", "-b:v", "4500k", "-maxrate", "4500k", "-bufsize", "9000k",
+                     "-g", str(FPS * 2), "-keyint_min", str(FPS * 2), "-sc_threshold", "0", "-pix_fmt", "yuv420p",
+                     "-threads", "2", str(seg)])
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=os.cpu_count() or 4) as ex:        # segments render in parallel
+        list(ex.map(lambda c: subprocess.run(c, check=True), jobs))
+    segs = [Path(j[-1]) for j in jobs]
     lst = TMP / f"live_{lang}_list.txt"
     lst.write_text("".join(f"file '{s_}'\n" for s_ in segs), encoding="utf-8")
     music = TMP / "live_loop.wav"

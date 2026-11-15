@@ -39,6 +39,8 @@ jobs:
         env:
           LIVE_THEME: ${{ inputs.target == 'twitch' && 'gaming' || '' }}
           LIVE_PREFIX: ${{ inputs.target == 'twitch' && 'g' || 'l' }}
+          LIVE_PER: ${{ inputs.target == 'twitch' && '12' || '15' }}
+          LIVE_MIN: ${{ inputs.target == 'twitch' && '20' || '10' }}
         run: mkdir -p out && python -m video.live ${{ inputs.lang || 'en' }} && cat out/live_description_${{ inputs.lang || 'en' }}.txt
       - name: Publish short links
         run: |
