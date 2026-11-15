@@ -50,7 +50,7 @@ body{width:1920px;height:1080px;overflow:hidden;font-family:Rubik,sans-serif;col
  border:10px solid #ffe600;box-shadow:0 30px 80px rgba(60,0,0,.55)}
 .card img{width:100%;height:100%;object-fit:contain}
 .num{position:absolute;top:120px;left:930px;font-size:58px;font-weight:900;color:#ffe600;text-shadow:0 4px 0 #8a0010}
-.title{position:absolute;top:200px;left:930px;right:70px;font-size:58px;font-weight:900;line-height:1.12;text-shadow:0 5px 0 rgba(110,0,10,.8)}
+.title{position:absolute;top:200px;left:930px;right:70px;font-size:58px;font-weight:900;line-height:1.12;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-shadow:0 5px 0 rgba(110,0,10,.8)}
 .price{position:absolute;top:660px;left:930px;font-size:50px;font-weight:700;line-height:1.25;text-shadow:0 4px 0 rgba(110,0,10,.8)}
 .price b{font-size:100px;font-weight:900;color:#fff}
 .price s{opacity:.9}
