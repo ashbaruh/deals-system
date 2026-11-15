@@ -16,7 +16,6 @@ import re
 import subprocess
 import sys
 import urllib.request
-from math import ceil
 
 from webgen.build import click_url
 
@@ -26,7 +25,7 @@ from .make import OUT, ROOT, TMP, money
 W, H, FPS = 1920, 1080, 30
 _S = json.loads((ROOT / "config" / "settings.json").read_text(encoding="utf-8"))
 BRANDS = tuple(w.lower() for w in _S.get("joom_exclude_title_words", [])) + ("armour", "girls", "boys", "onesie", "crotch", "romper", "pajama")
-N_DEALS = int(os.environ.get("LIVE_DEALS", "20"))
+N_DEALS = int(os.environ.get("LIVE_DEALS", "30"))
 TOTAL = float(os.environ.get("LIVE_SECONDS", "600"))
 INTRO, OUTRO = 12.0, 20.0
 PREF = ["audio", "tech", "brands", "coffee", "appliances", "home", "tools", "car", "sports", "shoes", "fashion", "kids"]
@@ -42,37 +41,40 @@ TXT = {
 CSS = """
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;900&display=block');
 *{box-sizing:border-box;margin:0}
-body{width:1920px;height:1080px;overflow:hidden;font-family:Rubik,sans-serif;color:#fff;
- background:radial-gradient(120% 120% at 0% 0%,#ff8a00 0%,#ff3b30 50%,#9e0f1b 100%)}
-.bar{position:absolute;top:0;left:0;right:0;height:84px;background:rgba(0,0,0,.28);display:flex;align-items:center;padding:0 44px;
- font-size:38px;font-weight:700;gap:18px}
-.dot{width:22px;height:22px;border-radius:50%;background:#fff;box-shadow:0 0 0 6px rgba(255,255,255,.3)}
-.cnt{margin-left:auto;opacity:.9}
+body{width:1920px;height:1080px;overflow:hidden;font-family:Rubik,sans-serif;color:#fff;background:transparent}
+.bar{position:absolute;top:0;left:0;right:0;height:84px;background:rgba(120,0,10,.75);display:flex;align-items:center;padding:0 44px;
+ font-size:38px;font-weight:900;gap:18px;letter-spacing:.5px}
+.dot{width:24px;height:24px;border-radius:50%;background:#ff1a1a;box-shadow:0 0 0 6px rgba(255,255,255,.5)}
+.cnt{margin-left:auto}
 .card{position:absolute;top:130px;left:70px;width:800px;height:800px;background:#fff;border-radius:44px;overflow:hidden;
- box-shadow:0 30px 80px rgba(60,0,0,.35)}
+ border:10px solid #ffe600;box-shadow:0 30px 80px rgba(60,0,0,.55)}
 .card img{width:100%;height:100%;object-fit:contain}
-.num{position:absolute;top:140px;left:930px;font-size:64px;font-weight:900;opacity:.9}
-.title{position:absolute;top:230px;left:930px;right:70px;font-size:62px;font-weight:700;line-height:1.15}
-.off{position:absolute;top:440px;left:930px;background:#ffe600;color:#c4120c;font-weight:900;font-size:150px;line-height:1;
- padding:14px 44px;border-radius:30px;transform:rotate(-3deg);box-shadow:0 18px 44px rgba(0,0,0,.3)}
-.price{position:absolute;top:640px;left:930px;font-size:50px;font-weight:500;line-height:1.3}
-.price b{font-size:92px;font-weight:900}
-.price s{opacity:.85}
-.link{position:absolute;top:880px;left:930px;right:70px;background:#fff;color:#c4120c;font-size:50px;font-weight:900;
- padding:18px 30px;border-radius:24px;text-align:center}
-.foot{position:absolute;bottom:0;left:0;right:0;height:70px;background:rgba(0,0,0,.28);display:flex;align-items:center;
- justify-content:center;font-size:32px;font-weight:500}
-.center{position:absolute;top:200px;left:100px;right:100px;text-align:center}
+.num{position:absolute;top:120px;left:930px;font-size:58px;font-weight:900;color:#ffe600;text-shadow:0 4px 0 #8a0010}
+.title{position:absolute;top:200px;left:930px;right:70px;font-size:58px;font-weight:900;line-height:1.12;text-shadow:0 5px 0 rgba(110,0,10,.8)}
+.price{position:absolute;top:660px;left:930px;font-size:50px;font-weight:700;line-height:1.25;text-shadow:0 4px 0 rgba(110,0,10,.8)}
+.price b{font-size:100px;font-weight:900;color:#fff}
+.price s{opacity:.9}
+.link{position:absolute;top:880px;left:930px;right:70px;background:#fff;color:#d0001b;font-size:50px;font-weight:900;
+ padding:18px 30px;border-radius:24px;text-align:center;box-shadow:0 12px 0 #8a0010}
+.foot{position:absolute;bottom:0;left:0;right:0;height:70px;background:rgba(120,0,10,.75);display:flex;align-items:center;
+ justify-content:center;font-size:32px;font-weight:700}
+.center{position:absolute;top:170px;left:100px;right:100px;text-align:center;text-shadow:0 6px 0 rgba(110,0,10,.8)}
 .center .big{font-size:120px;font-weight:900;line-height:1.05}
-.center .sm{font-size:52px;font-weight:500;margin-top:40px}
-.thumbs{display:flex;gap:36px;justify-content:center;margin-top:60px}
-.thumbs img{width:260px;height:260px;object-fit:contain;background:#fff;border-radius:30px}
-.tg{display:inline-block;margin-top:50px;background:#fff;color:#1b6fd1;font-size:80px;font-weight:900;padding:26px 60px;border-radius:40px}
+.center .sm{font-size:52px;font-weight:700;margin-top:36px}
+.thumbs{display:flex;gap:36px;justify-content:center;margin-top:56px}
+.thumbs img{width:260px;height:260px;object-fit:contain;background:#fff;border-radius:30px;border:8px solid #ffe600}
+.tg{display:inline-block;margin-top:50px;background:#fff;color:#1b6fd1;font-size:80px;font-weight:900;padding:26px 60px;border-radius:40px;text-shadow:none}
+.badge{width:480px;height:220px;display:flex;align-items:center;justify-content:center;background:#ffe600;color:#d0001b;
+ font-family:Rubik,sans-serif;font-weight:900;font-size:150px;border-radius:34px;transform:rotate(-4deg);border:8px solid #fff}
+.rays{width:2400px;height:2400px;border-radius:50%;
+ background:repeating-conic-gradient(#ff9f00 0deg 9deg,#ff3b1f 9deg 18deg)}
+.burst{position:absolute;font-size:46px;font-weight:900;background:#fff;color:#d0001b;padding:10px 26px;border-radius:40px;transform:rotate(6deg)}
 """
 
 
-def page(body: str) -> str:
-    return f'<!doctype html><html lang="en"><head><meta charset="utf-8"><style>{CSS}</style></head><body>{body}</body></html>'
+def page(body: str, bg: str = "transparent") -> str:
+    return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><style>{CSS}</style></head>'
+            f'<body style="background:{bg}">{body}</body></html>')
 
 
 def short_name(d) -> str:
@@ -128,49 +130,79 @@ def main() -> int:
     foot = f'<div class="foot">{t["foot"]}</div>'
     thumbs = "".join(f'<img src="{i.as_uri()}">' for i in imgs[:5])
     sl = [(page(bar + f'<div class="center"><div class="big">{t["hook"]}</div><div class="sm">{t["sub"]} ✅</div>'
-                f'<div class="thumbs">{thumbs}</div></div>' + foot), INTRO)]
+                f'<div class="thumbs">{thumbs}</div></div>' + foot), INTRO, None)]
     for n, (d, img) in enumerate(zip(ds, imgs), 1):
         sl.append((page(bar.replace('dealim.net</span>', f'{n} / {len(ds)}</span>') +
-            f'<div class="card"><img src="{img.as_uri()}"></div><div class="num">#{n}</div>'
+            f'<div class="card"><img src="{img.as_uri()}"></div><div class="num">DEAL #{n}</div>'
             f'<div class="title">{html.escape(short_name(d))}</div>'
-            f'<div class="off">-{round(d["discount"] * 100)}%</div>'
             f'<div class="price">{t["now"]} <b>{money(d["price_usd"], lang)}</b><br>{t["was"]} <s>{money(d["median_30d"], lang)}</s></div>'
-            f'<div class="link">👇 {t["link"].format(n=n)}</div>' + foot), per))
+            f'<div class="link">👇 {t["link"].format(n=n)}</div>' + foot), per, f'-{round(d["discount"] * 100)}%'))
     sl.append((page(bar + f'<div class="center"><div class="big">{t["cta"]} 🔥</div>'
-                    f'<div class="tg">Telegram {t["tg"]}</div><div class="sm">dealim.net</div></div>' + foot), OUTRO))
+                    f'<div class="tg">Telegram {t["tg"]}</div><div class="sm">dealim.net</div></div>' + foot), OUTRO, None))
 
-    pngs = []
+    def shot(pg, h, path, sel=None):
+        f = TMP / (path.stem + ".html"); f.write_text(h, encoding="utf-8")
+        pg.goto(f.as_uri()); pg.wait_for_load_state("networkidle"); pg.evaluate("document.fonts.ready")
+        (pg.locator(sel) if sel else pg).screenshot(path=str(path), omit_background=True)
+
+    rays = TMP / "live_rays.png"
+    burst = TMP / "live_burst.png"
+    fgs, badges = [], []
     with sync_playwright() as pw:
         b = pw.chromium.launch()
         pg = b.new_page(viewport={"width": W, "height": H})
-        for i, (h, _) in enumerate(sl):
-            f = TMP / f"live_{lang}_{i}.html"
-            f.write_text(h, encoding="utf-8")
-            pg.goto(f.as_uri()); pg.wait_for_load_state("networkidle"); pg.evaluate("document.fonts.ready")
-            p = TMP / f"live_{lang}_{i}.png"; pg.screenshot(path=str(p)); pngs.append(p)
+        for i, (h, _, off) in enumerate(sl):
+            p_ = TMP / f"live_{lang}_{i}.png"; shot(pg, h, p_); fgs.append(p_)
+            bd = None
+            if off:
+                bd = TMP / f"live_{lang}_b{i}.png"
+                shot(pg, page(f'<div style="padding:40px;display:inline-block"><div class="badge">{off}</div></div>'), bd, ".badge")
+            badges.append(bd)
+        shot(pg, page('<div style="padding:30px;display:inline-block"><div class="burst">⚡ PRICE DROP</div></div>'), burst, ".burst")
         b.close()
-    (OUT / f"live_cover_{lang}.png").write_bytes(pngs[1].read_bytes())
+    from PIL import Image, ImageDraw
+    im = Image.new("RGB", (1300, 1300), "#ff3b1f")
+    dr = ImageDraw.Draw(im)
+    for k in range(0, 360, 18):
+        dr.pieslice([-700, -700, 2000, 2000], k, k + 9, fill="#ff9f00")
+    im.save(rays)
 
-    # each slide: slow zoom; joined with short crossfades. Audio: quiet ambient pad (no copyrighted music).
-    xf = 0.6
-    inputs, filt = [], []
-    for i, (p, (_, dur)) in enumerate(zip(pngs, sl)):
-        inputs += ["-loop", "1", "-t", f"{dur:.2f}", "-i", str(p)]
-        filt.append(f"[{i}:v]scale={W * 2}:{H * 2},zoompan=z='min(zoom+0.0002,1.06)':x='iw/2-(iw/zoom/2)':"
-                    f"y='ih/2-(ih/zoom/2)':d={ceil(dur * FPS)}:s={W}x{H}:fps={FPS},setsar=1,format=yuv420p[v{i}]")
-    prev, tt = "v0", sl[0][1]
-    for i in range(1, len(pngs)):
-        filt.append(f"[{prev}][v{i}]xfade=transition=fade:duration={xf}:offset={tt - xf:.2f}[x{i}]")
-        prev, tt = f"x{i}", tt + sl[i][1] - xf
-    pad = ("aevalsrc='0.035*sin(2*PI*130.81*t)*(0.7+0.3*sin(2*PI*0.07*t))+0.03*sin(2*PI*196*t)*(0.7+0.3*sin(2*PI*0.05*t+1))"
-           "+0.025*sin(2*PI*261.63*t)*(0.6+0.4*sin(2*PI*0.09*t+2))+0.02*sin(2*PI*329.63*t)*(0.6+0.4*sin(2*PI*0.04*t+3))'"
-           f":s=44100:d={tt:.2f},aformat=channel_layouts=stereo")
+    # one segment per slide: rotating sunburst + slide + pulsing discount badge + flashing sticker + countdown bar
+    segs = []
+    for i, ((_, dur, off), fg, bd) in enumerate(zip(sl, fgs, badges)):
+        seg = TMP / f"live_{lang}_seg{i}.mp4"
+        ins = ["-loop", "1", "-framerate", str(FPS), "-t", f"{dur:.2f}", "-i", str(rays),
+               "-loop", "1", "-framerate", str(FPS), "-t", f"{dur:.2f}", "-i", str(fg)]
+        f = (f"[0:v]scale=1300:1300,rotate=a='t*0.35':c=#c4121f,scale=2300:2300,crop={W}:{H},format=rgba[bg];"
+             f"[bg][1:v]overlay=0:0[a]")
+        last = "a"
+        if bd:
+            ins += ["-loop", "1", "-framerate", str(FPS), "-t", f"{dur:.2f}", "-i", str(bd),
+                    "-loop", "1", "-framerate", str(FPS), "-t", f"{dur:.2f}", "-i", str(burst),
+                    "-f", "lavfi", "-t", f"{dur:.2f}", "-i", f"color=c=#ffe600:s={W}x14:r={FPS}"]
+            f += (f";[2:v]scale=w='trunc(iw*(1+0.08*sin(2*PI*t*2.07))/2)*2':h=-2:eval=frame[bz]"
+                  f";[a][bz]overlay=x='1190-overlay_w/2':y='478-overlay_h/2':eval=frame[b]"
+                  f";[b][3:v]overlay=x=20:y=86:enable='lt(mod(t,1),0.62)'[c]"
+                  f";[c][4:v]overlay=x='-W+W*t/{dur:.2f}':y=996[d]")
+            last = "d"
+        f += f";[{last}]format=yuv420p[v]"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *ins, "-filter_complex", f, "-map", "[v]", "-r", str(FPS),
+                        "-c:v", "libx264", "-preset", "veryfast", "-b:v", "4500k", "-maxrate", "4500k", "-bufsize", "9000k",
+                        "-g", str(FPS * 2), "-keyint_min", str(FPS * 2), "-sc_threshold", "0", "-pix_fmt", "yuv420p", str(seg)],
+                       check=True)
+        segs.append(seg)
+    lst = TMP / f"live_{lang}_list.txt"
+    lst.write_text("".join(f"file '{s_}'\n" for s_ in segs), encoding="utf-8")
+    music = TMP / "live_loop.wav"
+    from .music import main as make_music
+    make_music(str(music))
+    tt = sum(x[1] for x in sl)
     mp4 = OUT / f"live_{lang}.mp4"
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-f", "lavfi", "-i", pad,
-                    "-filter_complex", ";".join(filt), "-map", f"[{prev}]", "-map", f"{len(pngs)}:a",
-                    "-c:v", "libx264", "-preset", "veryfast", "-b:v", "4500k", "-maxrate", "4500k", "-bufsize", "9000k",
-                    "-g", str(FPS * 2), "-keyint_min", str(FPS * 2), "-sc_threshold", "0", "-pix_fmt", "yuv420p",
-                    "-c:a", "aac", "-b:a", "128k", "-ar", "44100", "-shortest", "-movflags", "+faststart", str(mp4)], check=True)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst),
+                    "-stream_loop", "-1", "-i", str(music), "-map", "0:v", "-map", "1:a", "-c:v", "copy",
+                    "-c:a", "aac", "-b:a", "160k", "-ar", "44100", "-t", f"{tt:.2f}", "-movflags", "+faststart", str(mp4)], check=True)
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{INTRO + 2:.1f}", "-i", str(mp4), "-frames:v", "1",
+                    str(OUT / f"live_cover_{lang}.png")], check=True)
     print(f"{lang}: {mp4} {tt:.1f}s, {len(ds)} deals", flush=True)
 
     links = []
