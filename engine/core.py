@@ -303,6 +303,19 @@ def _is_brand(title: str) -> bool:
     return not _ACCESSORY_RE.search(title[:m.end() + 60])
 
 
+_FAV_RE = None
+
+
+def is_fav_brand(p) -> bool:
+    import re
+    global _FAV_RE
+    if p.niche != "brands" or not SETTINGS.get("fav_brands"):
+        return False
+    if _FAV_RE is None:
+        _FAV_RE = re.compile(r"^(?:\W*\S+\s+){0,3}?(?i:" + "|".join(re.escape(b) for b in SETTINGS["fav_brands"]) + r")\b")
+    return bool(_FAV_RE.search(p.title))
+
+
 _JOOM_BRAND_RE = None
 
 
@@ -483,7 +496,8 @@ def evaluate(p: Product, lang: str, hist: History, today: str,
         ref = statistics.median(past)
 
     discount = 1 - p.price_usd / ref
-    if discount < s["min_discount"]:
+    fav = is_fav_brand(p)
+    if discount < (s.get("min_discount_fav", s["min_discount"]) if fav else s["min_discount"]):
         return None
     if discount >= s["suspicious_drop"]:          # likely a pricing error
         return None
@@ -512,6 +526,10 @@ def evaluate(p: Product, lang: str, hist: History, today: str,
         # Discounts here are measured against our own 30-day history (no inflated "old price"),
         # so a real 35-50% drop scores lower than AliExpress's list-price discounts.
         threshold = s.get("heat_threshold_joom", threshold)
+    if fav:
+        # Ash's favourite audio/video brands (FiiO, Zidoo, Shanling...): real but smaller drops sell well
+        threshold = min(threshold, s.get("heat_threshold_fav", threshold))
+        heat = max(heat + 15, 60 + 20 * discount)   # and they get a place in the channels
     if heat < threshold:
         return None
     return Deal(product=p, lang=lang, median_30d=ref, discount=discount,
