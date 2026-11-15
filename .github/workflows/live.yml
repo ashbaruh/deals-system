@@ -1,0 +1,54 @@
+name: Live deals stream
+# Renders a 10-minute 16:9 deals video, publishes the short links dealim.net/l/N,
+# then (stream=true) pushes it to YouTube Live over RTMP. Needs secret YT_STREAM_KEY.
+on:
+  workflow_dispatch:
+    inputs:
+      lang:
+        description: "en or es"
+        default: "en"
+      stream:
+        description: "Go live on YouTube after rendering"
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: live
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Tools
+        timeout-minutes: 8
+        run: |
+          which ffmpeg || { pip install -q imageio-ffmpeg && sudo ln -sf "$(python -c "import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())")" /usr/local/bin/ffmpeg; }
+          pip install -q playwright
+          python -m playwright install chromium || timeout 300 python -m playwright install --with-deps chromium
+      - name: Render
+        run: mkdir -p out && python -m video.live ${{ inputs.lang }} && cat out/live_description_${{ inputs.lang }}.txt
+      - name: Publish short links
+        run: |
+          git add -f data/live_links.json public/l
+          git -c user.name=bot -c user.email=bot@users.noreply.github.com commit -qm "Live stream short links" || exit 0
+          git push -q || (git fetch -q origin main && git rebase -X theirs origin/main && git push -q)
+      - uses: actions/upload-artifact@v4
+        with:
+          name: live-${{ inputs.lang }}
+          path: |
+            out/live_*.mp4
+            out/live_*.png
+            out/live_description_*.txt
+      - name: Stream to YouTube
+        if: ${{ inputs.stream }}
+        env:
+          KEY: ${{ secrets.YT_STREAM_KEY }}
+        run: |
+          test -n "$KEY" || { echo "YT_STREAM_KEY secret missing"; exit 1; }
+          sleep 120   # let Cloudflare publish /l/N before viewers click
+          ffmpeg -loglevel warning -re -i out/live_${{ inputs.lang }}.mp4 -c copy -f flv "rtmp://a.rtmp.youtube.com/live2/$KEY"

@@ -455,6 +455,13 @@ var l=['he','es','en'].indexOf(s)>-1?s:(['he','es'].indexOf(b)>-1?b:'en');locati
             f'var b=(navigator.languages&&navigator.languages[0]||navigator.language||"").toLowerCase().slice(0,2);if(b=="iw")b="he";'
             f'var l=["he","es","en"].indexOf(s)>-1?s:(["he","es"].indexOf(b)>-1?b:"en");'
             f'location.replace("/"+l+"/?ref={code}"+location.hash)}},700)</script></body></html>', encoding="utf-8")
+    # Live-stream short links dealim.net/l/N (written by video.live): kept alive across rebuilds
+    lf = DATA / "live_links.json"
+    if lf.exists():
+        from video.live import redirect_html
+        (OUT / "l").mkdir(exist_ok=True)
+        for x in json.loads(lf.read_text(encoding="utf-8")):
+            (OUT / "l" / f"{x['n']}.html").write_text(redirect_html(x["url"]), encoding="utf-8")
     # Google Search Console ownership file: must stay published or the site loses verification
     (OUT / "google70086153ac75eff1.html").write_text(
         "google-site-verification: google70086153ac75eff1.html", encoding="utf-8")
