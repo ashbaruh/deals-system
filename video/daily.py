@@ -30,6 +30,8 @@ PREF = ["brands", "audio", "tech", "coffee", "appliances", "home", "tools", "spo
 
 def pick(lang, n=3):
     deals = json.loads((ROOT / "data" / f"deals_{lang}.json").read_text(encoding="utf-8"))
+    seen = set(json.loads((ROOT / "config" / "settings.json").read_text(encoding="utf-8")).get("video_featured", []))
+    deals = [d for d in deals if d["slug"] not in seen and not d.get("expired") and d.get("store") != "joom"]
     deals = [d for d in deals if d.get("image") and 12 <= d["price_usd"] <= 120 and d.get("discount", 0) >= 0.5
              and d.get("niche") not in ("dollar",) and not any(b in d["title"].lower() for b in BAD)]
     newest = max((d.get("day", "") for d in deals), default="")
