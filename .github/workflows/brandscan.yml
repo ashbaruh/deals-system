@@ -1,0 +1,47 @@
+name: brandscan
+# Which favourite-brand products are in the latest fetched feeds, and why they did / didn't become deals.
+on:
+  workflow_dispatch:
+    inputs:
+      run_id: {description: "Deals run id with products-* artifacts", required: true}
+permissions:
+  contents: read
+  actions: read
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: products-*
+          merge-multiple: true
+          path: cache
+          run-id: ${{ inputs.run_id }}
+          github-token: ${{ github.token }}
+      - run: |
+          python - <<'P'
+          import gzip, json, glob, collections, re
+          from engine.core import Product, assign_niche, is_fav_brand, SETTINGS
+          favs = SETTINGS["fav_brands"]
+          rx = re.compile(r"^(?:\W*\S+\s+){0,3}?(" + "|".join(re.escape(b) for b in favs) + r")\b", re.I)
+          cnt, ex = collections.Counter(), collections.defaultdict(list)
+          total = 0
+          for f in glob.glob("cache/products_*.json.gz"):
+              for r in json.load(gzip.open(f, "rt")):
+                  total += 1
+                  m = rx.search(r["title"])
+                  if not m: continue
+                  p = Product(**r); p.niche = assign_niche(p, "en")
+                  b = m.group(1).lower(); cnt[b] += 1
+                  if len(ex[b]) < 6:
+                      ex[b].append(f'{p.price_usd:>7.2f} old={p.old_price_usd} niche={p.niche} fav={is_fav_brand(p)} ships={p.ships_to[:3]} | {p.title[:70]}')
+          print("TOTAL products", total)
+          for b, n in cnt.most_common():
+              print(f"== {b}: {n}")
+              for e in ex[b]: print("   ", e)
+          print("not found:", [b for b in favs if b.lower() not in cnt])
+          P
