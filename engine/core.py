@@ -549,7 +549,8 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str,
         d = evaluate(p, lang, hist, today, trend)
         if d:
             deals.append(d)
-    deals.sort(key=lambda d: d.heat, reverse=True)
+    # Ash's favourite brands (audio/video players, gaming gear) go first, then by heat
+    deals.sort(key=lambda d: (is_fav_brand(d.product), d.heat), reverse=True)
     from collections import Counter
     print(f"[{lang}] products per niche: {dict(Counter(p.niche for p in products if p.niche))}", flush=True)
     print(f"[{lang}] passing deals per niche: {dict(Counter(d.product.niche for d in deals))}", flush=True)
@@ -575,11 +576,18 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str,
         picked.append(d)
     chosen = {d.product.pid for d in picked}
     site, on_site = [], dict(live_on_site or {})
+    fav_extra = SETTINGS.get("site_fav_brands_extra", 60)   # favourites don't compete for the normal per-niche slots
     for d in picked:
         on_site[d.product.niche] = on_site.get(d.product.niche, 0) + 1
     for d in deals:
         n = d.product.niche
         key = " ".join(d.product.title.lower().split()[:4])
+        fav = is_fav_brand(d.product)
+        if fav and d.product.pid not in chosen and key not in seen and fav_extra > 0:
+            fav_extra -= 1
+            seen.add(key)
+            site.append(d)
+            continue
         if d.product.pid in chosen or key in seen or on_site.get(n, 0) >= SETTINGS.get(f"site_per_niche_{n}", SETTINGS.get("site_per_niche", 12)):
             continue
         seen.add(key)
