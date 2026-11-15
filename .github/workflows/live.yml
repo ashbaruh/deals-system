@@ -2,6 +2,8 @@ name: Live deals stream
 # Renders a 10-minute 16:9 deals video, publishes the short links dealim.net/l/N,
 # then (stream=true) pushes it to YouTube Live over RTMP. Needs secret YT_STREAM_KEY.
 on:
+  schedule:
+    - cron: "37 17 * * *"   # daily: render ~20 min, go live ~20:05 Israel (scheduled broadcast on the default key)
   workflow_dispatch:
     inputs:
       lang:
@@ -31,7 +33,7 @@ jobs:
           pip install -q playwright pillow numpy scipy
           python -m playwright install chromium || timeout 300 python -m playwright install --with-deps chromium
       - name: Render
-        run: mkdir -p out && python -m video.live ${{ inputs.lang }} && cat out/live_description_${{ inputs.lang }}.txt
+        run: mkdir -p out && python -m video.live ${{ inputs.lang || 'en' }} && cat out/live_description_${{ inputs.lang || 'en' }}.txt
       - name: Publish short links
         run: |
           git config user.name bot && git config user.email bot@users.noreply.github.com
@@ -40,16 +42,16 @@ jobs:
           git push -q || (git fetch -q origin main && git rebase -X theirs origin/main && git push -q)
       - uses: actions/upload-artifact@v4
         with:
-          name: live-${{ inputs.lang }}
+          name: live-${{ inputs.lang || 'en' }}
           path: |
             out/live_*.mp4
             out/live_*.png
             out/live_description_*.txt
       - name: Stream to YouTube
-        if: ${{ inputs.stream }}
+        if: ${{ inputs.stream || github.event_name == 'schedule' }}
         env:
           KEY: ${{ secrets.YT_STREAM_KEY }}
         run: |
           test -n "$KEY" || { echo "YT_STREAM_KEY secret missing"; exit 1; }
-          sleep 240   # let Cloudflare publish /l/N and the YouTube title/description be set
-          ffmpeg -loglevel warning -re -i out/live_${{ inputs.lang }}.mp4 -c copy -f flv "rtmp://x.rtmp.youtube.com/live2/$KEY"
+          sleep 150   # let Cloudflare publish /l/N
+          ffmpeg -loglevel warning -re -i out/live_${{ inputs.lang || 'en' }}.mp4 -c copy -f flv "rtmp://x.rtmp.youtube.com/live2/$KEY"
