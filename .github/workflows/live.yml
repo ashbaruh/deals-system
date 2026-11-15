@@ -51,4 +51,4 @@ jobs:
         run: |
           test -n "$KEY" || { echo "YT_STREAM_KEY secret missing"; exit 1; }
           sleep 120   # let Cloudflare publish /l/N before viewers click
-          ffmpeg -loglevel warning -re -i out/live_${{ inputs.lang }}.mp4 -c copy -f flv "rtmp://a.rtmp.youtube.com/live2/$KEY"
+          ffmpeg -loglevel warning -re -i out/live_${{ inputs.lang }}.mp4 -c copy -f flv "rtmp://x.rtmp.youtube.com/live2/$KEY"
