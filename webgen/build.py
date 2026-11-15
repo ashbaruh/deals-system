@@ -250,23 +250,36 @@ def card(d: dict) -> str:
 <div class="prices"><span class="price">{money(d['price_usd'], lang)}</span>{_pct_html(d)}</div></div></a>"""
 
 
+def _pick_price(x: dict, lang: str, cta: str) -> str:
+    if not x.get("price_usd"):
+        return f'<span class="pct joom">{esc(cta)}</span>'
+    out = f'<span class="price">{money(x["price_usd"], lang)}</span>'
+    lst = x.get("list_usd")
+    if lst and lst > x["price_usd"] * 1.05:
+        out += f'<span class="pct"><bdi>-{round((1 - x["price_usd"] / lst) * 100)}%</bdi></span>'
+    return out
+
+
 def picks_rail(lang: str) -> str:
     """Ash's audiophile picks (Zidoo, Aiyima, Fosi, Hidizs, Shanling...): official-store items that are not in
     the Admitad feed, so we have no price history -> no price or % is shown, only a link to the live price."""
     import urllib.parse
-    ps = SETTINGS.get("audiophile_picks", [])
+    ps = sorted(SETTINGS.get("audiophile_picks", []),
+                key=lambda x: -(1 - x["price_usd"] / x["list_usd"]) if x.get("list_usd") and x.get("price_usd") else 0)
     if not ps:
         return ""
     base = SETTINGS.get("affiliate_base", "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/")
     h = {"es": "🎧 Selección audiófila", "en": "🎧 Audiophile picks", "he": "🎧 בחירות לאודיופילים"}[lang]
-    note = {"es": "Productos de tiendas oficiales. Sin historial de precios: abre para ver el precio actual.",
-            "en": "Official-store products. No price history yet: open to see today's price.",
-            "he": "מוצרים מחנויות רשמיות. אין עדיין היסטוריית מחירים – פתחו לראות את המחיר היום."}[lang]
+    ck = max((x.get("checked", "") for x in ps), default="")
+    ckd = f"{ck[8:10]}.{ck[5:7]}" if ck else ""
+    note = {"es": f"Tiendas oficiales. Precio comprobado el {ckd}; el descuento es frente al precio de lista de la tienda. Puede cambiar.",
+            "en": f"Official stores. Price checked {ckd}; discount is vs the store's list price. Prices can change.",
+            "he": f"חנויות רשמיות. המחיר נבדק ב-{ckd}; ההנחה ביחס למחיר המחירון של החנות. המחיר עשוי להשתנות."}[lang]
     cta = {"es": "Ver precio actual", "en": "See current price", "he": "לצפייה במחיר"}[lang]
     cards = "".join(
         f'<a class="hcard" rel="sponsored nofollow" target="_blank" href="{esc(base + "?ulp=" + urllib.parse.quote("https://www.aliexpress.com/item/" + x["id"] + ".html", safe="") + "&subid=" + lang + "_site_picks")}">'
         f'<img src="{esc(x["img"])}" alt="{esc(x["name"])}" loading="lazy" referrerpolicy="no-referrer" width="200" height="200">'
-        f'<div class="in"><div class="t">{esc(x["name"])}</div><div class="prices"><span class="pct joom">{esc(cta)}</span></div></div></a>'
+        f'<div class="in"><div class="t">{esc(x["name"])}</div><div class="prices">{_pick_price(x, lang, cta)}</div></div></a>'
         for x in ps)
     return f'<h2>{h}</h2><p style="margin:0 0 6px;opacity:.75;font-size:.9rem">{esc(note)}</p><div class="hotbar"><div class="rail">{cards}</div></div>'
 

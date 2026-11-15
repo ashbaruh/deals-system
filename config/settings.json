@@ -661,132 +661,210 @@
     {
       "id": "1005007509846780",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sdb02b7e610024de3ac2aa60da273bbce7.png",
-      "name": "Zidoo Z9X 8K Media Player"
+      "name": "Zidoo Z9X 8K Media Player",
+      "price_usd": 326.48,
+      "list_usd": null,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005007509898818",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9e02840a0d144afbbffc5b7821e39bcfm.png",
-      "name": "Zidoo Z3000 Pro 8K Media Player"
+      "name": "Zidoo Z3000 Pro 8K Media Player",
+      "price_usd": 617.54,
+      "list_usd": null,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005007510100112",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/S8e9c9660473643ae82f06172731ed05a9.png",
-      "name": "Zidoo Z30 Pro 8K Media Player"
+      "name": "Zidoo Z30 Pro 8K Media Player",
+      "price_usd": 508.38,
+      "list_usd": null,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005008652004939",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa88d84baa603442b9e9f04166625ebbac.jpg",
-      "name": "AIYIMA A07 Pro TPA3255 Bluetooth Amplifier"
+      "name": "AIYIMA A07 Pro TPA3255 Bluetooth Amplifier",
+      "price_usd": 46.01,
+      "list_usd": 72.98,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005006082895467",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/S258f0b6f18d0402aa1a9baa4b4f02bf1a.jpg",
-      "name": "AIYIMA A07 MAX 300W×2 Amplifier"
+      "name": "AIYIMA A07 MAX 300W×2 Amplifier",
+      "price_usd": 46.88,
+      "list_usd": 80.91,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005012782221350",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/S10baad2b77124e6eb18e8d594611c2e1G.jpg",
-      "name": "AIYIMA A20 Mono PFFB Power Amplifier"
+      "name": "AIYIMA A20 Mono PFFB Power Amplifier",
+      "price_usd": 124.11,
+      "list_usd": 183.82,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005010016597390",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3161e559bdbc4437ada26cd4eb4665d7F.jpg",
-      "name": "Fosi Audio ZH3 Balanced DAC & Headphone Amp"
+      "name": "Fosi Audio ZH3 Balanced DAC & Headphone Amp",
+      "price_usd": 146.69,
+      "list_usd": 176.58,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005003008890205",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa5f4ee15b2ca408680f77bfc657ec162g.jpg",
-      "name": "Fosi Audio Phono Preamp for Turntables"
+      "name": "Fosi Audio Phono Preamp for Turntables",
+      "price_usd": 35.13,
+      "list_usd": 81.22,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005005605031795",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sff60d24584c0498a891e3c6b737fd159G.jpg",
-      "name": "Fosi Audio V3 TPA3255 Stereo Amplifier"
+      "name": "Fosi Audio V3 TPA3255 Stereo Amplifier",
+      "price_usd": 44.7,
+      "list_usd": 70.95,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005006242723506",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/S95e084d7028a475e85826e7284892199m.jpg",
-      "name": "Hidizs MP145 Planar IEM"
+      "name": "Hidizs MP145 Planar IEM",
+      "price_usd": 107.0,
+      "list_usd": 144.59,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005010341030557",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/S81de1fdebb1a440f946a347882a59947M.jpg",
-      "name": "Hidizs AP80 Pro Max Music Player"
+      "name": "Hidizs AP80 Pro Max Music Player",
+      "price_usd": 144.65,
+      "list_usd": 171.88,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005007894706898",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/S21e241fa13944fc2a07eca8da5346c9fS.jpg",
-      "name": "Hidizs MP143 Salt Planar IEM"
+      "name": "Hidizs MP143 Salt Planar IEM",
+      "price_usd": 81.59,
+      "list_usd": 145.71,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005012922841967",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/S76a99e6fd6b049c6b7f6996d61b3ef984.jpg",
-      "name": "Shanling Q2 Portable Music Player"
+      "name": "Shanling Q2 Portable Music Player",
+      "price_usd": 201.22,
+      "list_usd": 254.07,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005010555410450",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/S74af5fd3457344539c1d2368b4066644s.jpg",
-      "name": "Shanling ONIX Tocata (XM2) Player / DAC"
+      "name": "Shanling ONIX Tocata (XM2) Player / DAC",
+      "price_usd": 329.38,
+      "list_usd": 408.34,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005008920606055",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3bf72a4bf53f467b8599f9148dcd89ban.jpg",
-      "name": "Shanling M3 Plus Android Music Player"
+      "name": "Shanling M3 Plus Android Music Player",
+      "price_usd": 319.71,
+      "list_usd": 362.86,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005005438434497",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/S1b99fff5f7b54344a339b86010e14fa7V.jpg",
-      "name": "SMSL SU-1 MQA DAC"
+      "name": "SMSL SU-1 MQA DAC",
+      "price_usd": 61.81,
+      "list_usd": 72.72,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005010807134308",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd1f5c9f119944193af5e0cb5aec276b6i.jpg",
-      "name": "SMSL SU-2 ES9039Q2M DAC"
+      "name": "SMSL SU-2 ES9039Q2M DAC",
+      "price_usd": 77.29,
+      "list_usd": 90.94,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005011871044630",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/S0cf4dbeb5792441c87d963bdd83546827.jpg",
-      "name": "SMSL DS300 DAC"
+      "name": "SMSL DS300 DAC",
+      "price_usd": 142.41,
+      "list_usd": 169.53,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005011630884152",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sf35bfe26c621415483a56605c5ffa250W.png",
-      "name": "FiiO DISC Portable Music Player"
+      "name": "FiiO DISC Portable Music Player",
+      "price_usd": 67.94,
+      "list_usd": 75.49,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005008929073197",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd675ee312d65438a96387472db9636dfw.jpg",
-      "name": "FiiO M21 Android Music Player"
+      "name": "FiiO M21 Android Music Player",
+      "price_usd": 308.62,
+      "list_usd": 363.08,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005010260034809",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/Seed834452c7c49529d1bc9003a49a660Y.jpg",
-      "name": "FiiO DM13 Portable CD Player"
+      "name": "FiiO DM13 Portable CD Player",
+      "price_usd": 139.16,
+      "list_usd": 165.67,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005007715515488",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa819189f396c44a4a9d7c250b892256aH.jpg",
-      "name": "xDuoo XA-02 Balanced DAC & Headphone Amp"
+      "name": "xDuoo XA-02 Balanced DAC & Headphone Amp",
+      "price_usd": 154.03,
+      "list_usd": 181.21,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005006008582213",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se2075e66cc7449c2a3fa5f8ba7012e7cG.jpg",
-      "name": "xDuoo TA20 Plus Balanced Tube Headphone Amp"
+      "name": "xDuoo TA20 Plus Balanced Tube Headphone Amp",
+      "price_usd": 385.92,
+      "list_usd": 454.02,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005009227635103",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/S7ac6cd6121764b17852d4dc69a3ac3e5c.jpg",
-      "name": "Topping DX5 II DAC & Headphone Amp"
+      "name": "Topping DX5 II DAC & Headphone Amp",
+      "price_usd": 230.78,
+      "list_usd": 344.45,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005010292424889",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3168ba833a694aaf90964fd545e18308i.jpg",
-      "name": "Topping Mini 300 Amplifier"
+      "name": "Topping Mini 300 Amplifier",
+      "price_usd": 108.89,
+      "list_usd": 160.14,
+      "checked": "2026-11-15"
     },
     {
       "id": "1005007586588050",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/S70925cba496e4af88bd9e734172e1c3em.jpg",
-      "name": "Topping E2x2 Audio Interface"
+      "name": "Topping E2x2 Audio Interface",
+      "price_usd": 124.57,
+      "list_usd": 183.19,
+      "checked": "2026-11-15"
     }
   ]
 }
