@@ -26,6 +26,8 @@ W, H, FPS = 1920, 1080, 30
 _S = json.loads((ROOT / "config" / "settings.json").read_text(encoding="utf-8"))
 BRANDS = tuple(w.lower() for w in _S.get("joom_exclude_title_words", [])) + ("armour", "girls", "boys", "onesie", "crotch", "romper", "pajama")
 N_DEALS = int(os.environ.get("LIVE_DEALS", "30"))
+THEME = os.environ.get("LIVE_THEME", "")           # "" = all niches; "gaming" = gaming gear only (Twitch)
+LPFX = os.environ.get("LIVE_PREFIX", "l")          # short links dealim.net/<LPFX>/N
 TOTAL = float(os.environ.get("LIVE_SECONDS", "600"))
 INTRO, OUTRO = 12.0, 20.0
 PREF = ["audio", "tech", "brands", "coffee", "appliances", "home", "tools", "car", "sports", "shoes", "fashion", "kids"]
@@ -87,6 +89,10 @@ def pick(lang: str) -> list[dict]:
     deals = [d for d in deals if not d.get("expired") and d.get("store") != "joom" and d.get("image")
              and 8 <= d["price_usd"] <= 200 and d.get("discount", 0) >= 0.3 and d.get("niche") != "dollar"
              and not any(b in (d["title"] + " " + (d.get("title_local") or "")).lower() for b in BAD + BRANDS)]
+    if THEME:
+        kw = _S.get("live_themes", {}).get(THEME, [])
+        rx = re.compile(r"\b(" + "|".join(re.escape(k) for k in kw) + r")\b", re.I)
+        deals = [d for d in deals if rx.search(d.get("title_local") or d["title"]) and "stand" not in d["title"].lower()]
     deals.sort(key=lambda d: -d["discount"] * min(d["price_usd"], 80))
     out, used = [], set()
     while len(out) < N_DEALS and len(used) < len(deals):   # round-robin over niches so the stream stays varied
@@ -114,10 +120,13 @@ def redirect_html(url: str) -> str:
 def main() -> int:
     from playwright.sync_api import sync_playwright
     lang = (sys.argv[1:] or ["en"])[0]
-    t = TXT[lang]
+    t = dict(TXT[lang])
+    if THEME == "gaming":
+        t.update(live="🎮 GAMING GEAR DEALS · AliExpress", hook="Gaming gear price drops",
+                 foot="Open the link on screen · new deals every day on dealim.net")
     TMP.mkdir(parents=True, exist_ok=True)
     ds = pick(lang)
-    per = (TOTAL - INTRO - OUTRO) / len(ds)
+    per = min((TOTAL - INTRO - OUTRO) / len(ds), 25.0)
     imgs = []
     for d in ds:
         img = TMP / (d["pid"].split(":")[1] + ".jpg")
@@ -136,7 +145,7 @@ def main() -> int:
             f'<div class="card"><img src="{img.as_uri()}"></div><div class="num">DEAL #{n}</div>'
             f'<div class="title">{html.escape(short_name(d))}</div>'
             f'<div class="price">{t["now"]} <b>{money(d["price_usd"], lang)}</b><br>{t["was"]} <s>{money(d["median_30d"], lang)}</s></div>'
-            f'<div class="link">👇 {t["link"].format(n=n)}</div>' + foot), per, f'-{round(d["discount"] * 100)}%'))
+            f'<div class="link">👉 {(t["link"].format(n=n) if LPFX == "l" else "dealim.net/" + LPFX + "/" + str(n))}</div>' + foot), per, f'-{round(d["discount"] * 100)}%'))
     sl.append((page(bar + f'<div class="center"><div class="big">{t["cta"]} 🔥</div>'
                     f'<div class="tg">Telegram {t["tg"]}</div><div class="sm">dealim.net</div></div>' + foot), OUTRO, None))
 
@@ -206,19 +215,19 @@ def main() -> int:
     print(f"{lang}: {mp4} {tt:.1f}s, {len(ds)} deals", flush=True)
 
     links = []
-    ldir = ROOT / "public" / "l"
+    ldir = ROOT / "public" / LPFX
     ldir.mkdir(parents=True, exist_ok=True)
     for n, d in enumerate(ds, 1):
-        url = click_url(d, "ytlive")
+        url = click_url(d, "ytlive" if LPFX == "l" else "twitch")
         links.append({"n": n, "url": url, "slug": d["slug"]})
         (ldir / f"{n}.html").write_text(redirect_html(url), encoding="utf-8")
-    (ROOT / "data" / "live_links.json").write_text(json.dumps(links, indent=1), encoding="utf-8")
+    (ROOT / "data" / ("live_links.json" if LPFX == "l" else f"live_links_{LPFX}.json")).write_text(json.dumps(links, indent=1), encoding="utf-8")
 
     hdr = {"en": "🔥 Real AliExpress price drops, checked against each product's own 30-day price history.\n"
                  "Tap a number to open the deal:\n",
            "es": "🔥 Bajadas de precio reales en AliExpress, comparadas con el historial de 30 días de cada producto.\n"
                  "Toca un número para abrir el chollo:\n"}[lang]
-    lines = [f"#{n} {short_name(d)} – {money(d['price_usd'], lang)} (-{round(d['discount'] * 100)}%) https://dealim.net/l/{n}"
+    lines = [f"#{n} {short_name(d)} – {money(d['price_usd'], lang)} (-{round(d['discount'] * 100)}%) https://dealim.net/{LPFX}/{n}"
              for n, d in enumerate(ds, 1)]
     tail = {"en": "\n\n📲 New deals every day on Telegram: https://t.me/discount_deals_promo\n🌐 All deals: https://dealim.net/en/\n\n"
                   "Disclosure: these are affiliate links. If you buy through them I may earn a small commission at no extra cost to you. "

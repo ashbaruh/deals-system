@@ -292,7 +292,16 @@
     "wipers",
     "yeezy",
     "terahertz",
-    "healthy device"
+    "healthy device",
+    "original jbl",
+    "original sony",
+    "original bose",
+    "original apple",
+    "original samsung",
+    "original beats",
+    "original airpods",
+    "original nike",
+    "original adidas"
   ],
   "exclude_categories": [],
   "max_price_usd": 150,
@@ -428,7 +437,22 @@
     "KZ",
     "XTEP"
   ],
-  "fav_brands": ["FiiO", "Zidoo", "Shanling", "Aiyima", "SMSL", "Topping", "xDuoo", "Fosi Audio", "Hidizs"],
+  "fav_brands": [
+    "FiiO",
+    "Zidoo",
+    "Shanling",
+    "Aiyima",
+    "SMSL",
+    "Topping",
+    "xDuoo",
+    "Fosi Audio",
+    "Hidizs",
+    "Redragon",
+    "Royal Kludge",
+    "Attack Shark",
+    "Ajazz",
+    "Keychron"
+  ],
   "min_discount_fav": 0.15,
   "heat_threshold_fav": 30,
   "site_per_niche_brands": 24,
@@ -617,5 +641,25 @@
     "nobis-222w-super-fast-charging-power-bank-25000mah-powerbank-3529202235",
     "xiaomi-jinshajiang-10000mah-45w-max-ultra-thin-portable-exte-2788772501",
     "xiaomi-mijia-wireless-vacuum-cleaners-2-dust-display-edition-9347904732"
-  ]
+  ],
+  "live_themes": {
+    "gaming": [
+      "gaming",
+      "gamer",
+      "gamepad",
+      "game pad",
+      "controller",
+      "joystick",
+      "keyboard",
+      "keycap",
+      "keycaps",
+      "mouse",
+      "mice",
+      "headset",
+      "mouse pad",
+      "rgb",
+      "streaming microphone",
+      "capture card"
+    ]
+  }
 }

@@ -9,8 +9,11 @@ on:
       lang:
         description: "en or es"
         default: "en"
+      target:
+        description: "youtube (all deals) or twitch (gaming gear, [Rerun])"
+        default: "youtube"
       stream:
-        description: "Go live on YouTube after rendering"
+        description: "Go live after rendering"
         type: boolean
         default: false
 permissions:
@@ -33,11 +36,14 @@ jobs:
           pip install -q playwright pillow numpy scipy
           python -m playwright install chromium || timeout 300 python -m playwright install --with-deps chromium
       - name: Render
+        env:
+          LIVE_THEME: ${{ inputs.target == 'twitch' && 'gaming' || '' }}
+          LIVE_PREFIX: ${{ inputs.target == 'twitch' && 'g' || 'l' }}
         run: mkdir -p out && python -m video.live ${{ inputs.lang || 'en' }} && cat out/live_description_${{ inputs.lang || 'en' }}.txt
       - name: Publish short links
         run: |
           git config user.name bot && git config user.email bot@users.noreply.github.com
-          git add -f data/live_links.json public/l
+          git add -f data/live_links*.json public/l public/g 2>/dev/null || git add -f data/live_links*.json public/l
           git -c user.name=bot -c user.email=bot@users.noreply.github.com commit -qm "Live stream short links" || exit 0
           git push -q || (git fetch -q origin main && git rebase -X theirs origin/main && git push -q)
       - uses: actions/upload-artifact@v4
@@ -50,8 +56,11 @@ jobs:
       - name: Stream to YouTube
         if: ${{ inputs.stream || github.event_name == 'schedule' }}
         env:
-          KEY: ${{ secrets.YT_STREAM_KEY }}
+          YT: ${{ secrets.YT_STREAM_KEY }}
+          TW: ${{ secrets.TWITCH_STREAM_KEY }}
+          TARGET: ${{ inputs.target || 'youtube' }}
         run: |
-          test -n "$KEY" || { echo "YT_STREAM_KEY secret missing"; exit 1; }
-          sleep 150   # let Cloudflare publish /l/N
-          ffmpeg -loglevel warning -re -i out/live_${{ inputs.lang || 'en' }}.mp4 -c copy -f flv "rtmp://x.rtmp.youtube.com/live2/$KEY"
+          if [ "$TARGET" = twitch ]; then URL="rtmp://live.twitch.tv/app/$TW"; KEY="$TW"; LOOP=2; else URL="rtmp://x.rtmp.youtube.com/live2/$YT"; KEY="$YT"; LOOP=0; fi
+          test -n "$KEY" || { echo "stream key secret missing for $TARGET"; exit 1; }
+          sleep 150   # let Cloudflare publish the short links
+          ffmpeg -loglevel warning -re -stream_loop $LOOP -i out/live_${{ inputs.lang || 'en' }}.mp4 -c copy -f flv "$URL"
