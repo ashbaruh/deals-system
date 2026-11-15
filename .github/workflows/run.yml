@@ -5,8 +5,8 @@ name: Deals run
 
 on:
   schedule:
-    - cron: "30 7,18 * * *"
-    - cron: "50 9,14,20 * * *"   # backup: GitHub sometimes drops scheduled runs; daily caps stop double posting
+    - cron: "17 5,7,11,16,18 * * *"
+    - cron: "43 9,14,20,22 * * *"   # backup: GitHub sometimes drops scheduled runs; daily caps stop double posting
   workflow_dispatch:
     inputs:
       seed:
