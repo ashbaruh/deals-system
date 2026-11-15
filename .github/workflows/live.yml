@@ -34,6 +34,7 @@ jobs:
         run: mkdir -p out && python -m video.live ${{ inputs.lang }} && cat out/live_description_${{ inputs.lang }}.txt
       - name: Publish short links
         run: |
+          git config user.name bot && git config user.email bot@users.noreply.github.com
           git add -f data/live_links.json public/l
           git -c user.name=bot -c user.email=bot@users.noreply.github.com commit -qm "Live stream short links" || exit 0
           git push -q || (git fetch -q origin main && git rebase -X theirs origin/main && git push -q)
@@ -50,5 +51,5 @@ jobs:
           KEY: ${{ secrets.YT_STREAM_KEY }}
         run: |
           test -n "$KEY" || { echo "YT_STREAM_KEY secret missing"; exit 1; }
-          sleep 120   # let Cloudflare publish /l/N before viewers click
+          sleep 240   # let Cloudflare publish /l/N and the YouTube title/description be set
           ffmpeg -loglevel warning -re -i out/live_${{ inputs.lang }}.mp4 -c copy -f flv "rtmp://x.rtmp.youtube.com/live2/$KEY"
