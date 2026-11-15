@@ -250,6 +250,27 @@ def card(d: dict) -> str:
 <div class="prices"><span class="price">{money(d['price_usd'], lang)}</span>{_pct_html(d)}</div></div></a>"""
 
 
+def picks_rail(lang: str) -> str:
+    """Ash's audiophile picks (Zidoo, Aiyima, Fosi, Hidizs, Shanling...): official-store items that are not in
+    the Admitad feed, so we have no price history -> no price or % is shown, only a link to the live price."""
+    import urllib.parse
+    ps = SETTINGS.get("audiophile_picks", [])
+    if not ps:
+        return ""
+    base = SETTINGS.get("affiliate_base", "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/")
+    h = {"es": "🎧 Selección audiófila", "en": "🎧 Audiophile picks", "he": "🎧 בחירות לאודיופילים"}[lang]
+    note = {"es": "Productos de tiendas oficiales. Sin historial de precios: abre para ver el precio actual.",
+            "en": "Official-store products. No price history yet: open to see today's price.",
+            "he": "מוצרים מחנויות רשמיות. אין עדיין היסטוריית מחירים – פתחו לראות את המחיר היום."}[lang]
+    cta = {"es": "Ver precio actual", "en": "See current price", "he": "לצפייה במחיר"}[lang]
+    cards = "".join(
+        f'<a class="hcard" rel="sponsored nofollow" target="_blank" href="{esc(base + "?ulp=" + urllib.parse.quote("https://www.aliexpress.com/item/" + x["id"] + ".html", safe="") + "&subid=" + lang + "_site_picks")}">'
+        f'<img src="{esc(x["img"])}" alt="{esc(x["name"])}" loading="lazy" referrerpolicy="no-referrer" width="200" height="200">'
+        f'<div class="in"><div class="t">{esc(x["name"])}</div><div class="prices"><span class="pct joom">{esc(cta)}</span></div></div></a>'
+        for x in ps)
+    return f'<h2>{h}</h2><p style="margin:0 0 6px;opacity:.75;font-size:.9rem">{esc(note)}</p><div class="hotbar"><div class="rail">{cards}</div></div>'
+
+
 def row(d: dict) -> str:
     """Wide list row in the style of the big deal communities."""
     lang, s, u = d["lang"], LANGS[d["lang"]]["strings"], UI[d["lang"]]
@@ -366,7 +387,7 @@ def build():
             items = [d for d in ordered if d.get("niche") == key]
             title = f"{n['title']} – {SEO_WORDS[lang][0]} | dealim.net"
             hot_n = [d for d in items if not d.get("expired")][:12]
-            b = f"""{hot_rail(hot_n, lang) if len(hot_n) >= 4 else ''}<div class="layout"><section><h1 style="font-size:1.3rem;margin:22px 0 4px">{ICONS.get(key, '')} {esc(n['title'])}</h1>
+            b = f"""{hot_rail(hot_n, lang) if len(hot_n) >= 4 else ''}{picks_rail(lang) if key in ("brands", "audio") else ''}<div class="layout"><section><h1 style="font-size:1.3rem;margin:22px 0 4px">{ICONS.get(key, '')} {esc(n['title'])}</h1>
 {listing(items[:80], lang)}</section>{sidebar(lang)}</div>"""
             (root / "niche" / f"{key}.html").write_text(
                 page(lang, f"/{lang}/niche/{key}.html", title, f"{n['title']} – {c['meta_description']}", b, active=key),
