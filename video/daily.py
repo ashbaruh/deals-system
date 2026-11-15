@@ -63,7 +63,7 @@ def slides(lang):
     for i, (d, img) in enumerate(zip(ds, imgs), 1):
         import re
         name = re.sub(r"^\s*(\d+[- ]hour delivery|new|hot|original|20\d\d)\s+", "", d.get("title_local") or d["title"], flags=re.I)
-        name = name if len(name) <= 46 else name[:44].rsplit(" ", 1)[0] + "…"
+        name = name if len(name) <= 36 else name[:34].rsplit(" ", 1)[0] + "…"
         out.append((page(lang,
             f'<div class="top"><span class="pill">{t["top"]}</span></div>'
             f'<div class="card"><img src="{img.as_uri()}"></div>'
