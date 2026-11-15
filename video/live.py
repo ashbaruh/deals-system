@@ -95,6 +95,12 @@ def pick(lang: str) -> list[dict]:
         rx = re.compile(r"\b(" + "|".join(re.escape(k) for k in kw) + r")\b", re.I)
         deals = [d for d in deals if rx.search(d.get("title_local") or d["title"]) and "stand" not in d["title"].lower()]
     deals.sort(key=lambda d: -d["discount"] * min(d["price_usd"], 80))
+    seen_m, uniq = set(), []
+    for d in deals:                       # one per product model ("ATTACK SHARK R98HE" x5 -> 1)
+        m = " ".join(re.sub(r"[^\w ]", " ", short_name(d).lower()).split()[:3])
+        if m not in seen_m:
+            seen_m.add(m); uniq.append(d)
+    deals = uniq
     out, used = [], set()
     while len(out) < N_DEALS and len(used) < len(deals):   # round-robin over niches so the stream stays varied
         added = False
