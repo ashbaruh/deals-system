@@ -63,6 +63,9 @@ jobs:
           KU: ${{ secrets.KICK_STREAM_URL }}
           KK: ${{ secrets.KICK_STREAM_KEY }}
           TARGET: ${{ inputs.target || 'youtube' }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
         run: |
           # twitch target = gaming stream, also pushed to Kick when its secrets exist (one ffmpeg, tee muxer)
           if [ "$TARGET" = twitch ]; then
@@ -76,4 +79,5 @@ jobs:
             OUTS="[f=flv]rtmp://x.rtmp.youtube.com/live2/$YT"; LOOP=0
           fi
           sleep 150   # let Cloudflare publish the short links
+          ( sleep 45; python -m video.announce "$TARGET" ) &
           ffmpeg -loglevel warning -re -stream_loop $LOOP -i out/live_${{ inputs.lang || 'en' }}.mp4 -map 0 -c copy -tag:v 7 -tag:a 10 -f tee "$OUTS"
