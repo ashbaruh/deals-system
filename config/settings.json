@@ -454,7 +454,7 @@
   "max_price_usd_brands": 600,
   "max_posts_per_day": 20,
   "audio_brands": ["FiiO", "Zidoo", "Shanling", "Aiyima", "SMSL", "xDuoo", "Fosi Audio", "Hidizs"],
-  "audio_extra_min_discount": 0.3,
+  "audio_extra_min_discount": 0.15,
   "audio_extra_per_run": 3,
   "revenue_full_usd": 2.0,
   "joom_feed_id": 24374,
