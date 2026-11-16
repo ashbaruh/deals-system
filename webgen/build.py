@@ -475,6 +475,31 @@ var l=['he','es','en'].indexOf(s)>-1?s:(['he','es'].indexOf(b)>-1?b:'en');locati
     (OUT / "sitemap.xml").write_text(
         f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>',
         encoding="utf-8")
+    # Pinterest auto-publish: one RSS 2.0 feed per language, newest live deals, links on dealim.net
+    from email.utils import format_datetime
+    from datetime import datetime as _dt, timezone as _tz
+    from xml.sax.saxutils import escape as xesc
+    for lang, c in LANGS.items():
+        s = c["strings"]
+        live = sorted((d for d in archives[lang] if not d.get("expired") and d.get("image")),
+                      key=lambda d: (d.get("day", ""), d["heat"]), reverse=True)[:60]
+        items = []
+        for d in live:
+            t = " ".join((d.get("title_local") or d["title"]).split())[:90]
+            pct = round(d["discount"] * 100)
+            head = f"{t} – {plain(d['price_usd'], lang)}" + (f" (-{pct}%)" if _off(d) else "")
+            body = (f"{s['now']} {plain(d['price_usd'], lang)}" + (f" ({s['was']} {plain(d['median_30d'], lang)})" if _off(d) else "")
+                    + f". {d.get('why') or c['site_tagline']}")
+            when = format_datetime(_dt.fromisoformat((d.get("day") or date.today().isoformat()) + "T08:00:00").replace(tzinfo=_tz.utc))
+            link = f"{BASE}/{lang}/deal/{d['slug']}"
+            html_desc = f'<img src="{esc(d["image"])}"><p>{esc(body)}</p>'
+            items.append(f"<item><title>{xesc(head)}</title><link>{link}</link><guid isPermaLink=\"true\">{link}</guid>"
+                         f"<pubDate>{when}</pubDate><description>{xesc(html_desc)}</description>"
+                         f"<enclosure url=\"{xesc(d['image'])}\" type=\"image/jpeg\" length=\"0\"/></item>")
+        (OUT / lang / "feed.xml").write_text(
+            f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>{xesc(c["site_title"])}</title>'
+            f'<link>{BASE}/{lang}/</link><description>{xesc(c["meta_description"])}</description><language>{lang}</language>'
+            + "".join(items) + "</channel></rss>", encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
     # Per-platform short links (dealim.net/tt, /yt, ...): typeable in a TikTok caption or a bio,
     # each a separate path in Cloudflare Web Analytics; the visitor's source then rides along
