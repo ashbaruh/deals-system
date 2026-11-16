@@ -23,7 +23,7 @@
       "heat": "ציון חום",
       "rating": "דירוג",
       "orders": "הזמנות",
-      "go": "לדיל באתר",
+      "go": "לצפייה באליאקספרס ↗",
       "price_history": "היסטוריית מחיר (30 יום)",
       "price_note": "המחיר נכון לשעת הפרסום ועשוי להשתנות.",
       "disclosure": "חלק מהקישורים באתר הם קישורי שותפים: אם תקנו דרכם נקבל עמלה קטנה, בלי עלות נוספת עבורכם.",
@@ -34,7 +34,12 @@
       "expired": "פג תוקף",
       "niches_title": "קטגוריות",
       "no_deals": "אין כרגע דיל שעבר את הסף. עדיף שקט על פני דיל בינוני.",
-      "alert_cta": "התראה על מוצר"
+      "alert_cta": "התראה על מוצר",
+      "not_store": "dealim.net הוא אתר המלצות ולא חנות: אנחנו לא מוכרים, לא גובים תשלום ולא אוספים פרטי אשראי. כל רכישה נעשית ישירות באתר AliExpress.",
+      "about_title": "אודות dealim.net",
+      "about_1": "dealim.net הוא אתר עצמאי שמאתר ירידות מחיר אמיתיות באליאקספרס. מערכת אוטומטית משווה את המחיר של כל מוצר להיסטוריית המחיר שלו ב-30 הימים האחרונים ומציגה רק הנחות אמיתיות.",
+      "about_2": "אנחנו לא חנות ולא נציגים של AliExpress. אין באתר עגלת קניות, תשלום או הרשמה, ואנחנו לא מבקשים פרטים אישיים. לחיצה על מוצר מעבירה אתכם לעמוד המוצר באתר AliExpress, ושם מתבצעת הרכישה ישירות מול המוכר, עם הגנת הקונה של AliExpress.",
+      "about_contact": "יצירת קשר: דרך ערוץ הטלגרם שלנו."
     },
     "niches": {
       "brands": {
@@ -382,7 +387,7 @@
       "heat": "Índice",
       "rating": "Valoración",
       "orders": "pedidos",
-      "go": "Ver la oferta",
+      "go": "Ver en AliExpress ↗",
       "price_history": "Historial de precio (30 días)",
       "price_note": "Precio válido en el momento de publicación; puede cambiar.",
       "disclosure": "Algunos enlaces son de afiliado: si compras a través de ellos recibimos una pequeña comisión, sin coste extra para ti.",
@@ -393,7 +398,12 @@
       "expired": "Caducada",
       "niches_title": "Categorías",
       "no_deals": "Ahora mismo ninguna oferta supera el umbral.",
-      "alert_cta": "Aviso de producto"
+      "alert_cta": "Aviso de producto",
+      "not_store": "dealim.net es un sitio de recomendaciones, no una tienda: no vendemos, no cobramos ni pedimos datos de pago. Toda compra se hace directamente en AliExpress.",
+      "about_title": "Sobre dealim.net",
+      "about_1": "dealim.net es un sitio independiente que detecta bajadas de precio reales en AliExpress. Un sistema automático compara el precio de cada producto con su historial de 30 días y muestra solo descuentos reales.",
+      "about_2": "No somos una tienda ni representantes de AliExpress. No hay carrito, pagos ni registro, y no pedimos datos personales. Al pulsar un producto vas a su página en AliExpress, donde compras directamente al vendedor con la protección al comprador de AliExpress.",
+      "about_contact": "Contacto: a través de nuestro canal de Telegram."
     },
     "niches": {
       "brands": {
@@ -741,7 +751,7 @@
       "heat": "Heat",
       "rating": "Rating",
       "orders": "orders",
-      "go": "Get the deal",
+      "go": "View on AliExpress ↗",
       "price_history": "Price history (30 days)",
       "price_note": "Price correct at time of posting and may change.",
       "disclosure": "Some links are affiliate links: if you buy through them we may earn a small commission at no extra cost to you.",
@@ -752,7 +762,12 @@
       "expired": "Expired",
       "niches_title": "Categories",
       "no_deals": "No deal passes the bar right now.",
-      "alert_cta": "Product alerts"
+      "alert_cta": "Product alerts",
+      "not_store": "dealim.net is a recommendation site, not a store: we don't sell anything, take payments or ask for card details. Every purchase happens directly on AliExpress.",
+      "about_title": "About dealim.net",
+      "about_1": "dealim.net is an independent site that finds real price drops on AliExpress. An automated system compares each product's price with its own 30-day price history and lists only genuine discounts.",
+      "about_2": "We are not a store and not affiliated with AliExpress. There is no cart, no payment and no sign-up, and we never ask for personal details. Clicking a product takes you to its page on AliExpress, where you buy directly from the seller with AliExpress buyer protection.",
+      "about_contact": "Contact: through our Telegram channel."
     },
     "niches": {
       "brands": {

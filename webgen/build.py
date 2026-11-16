@@ -17,17 +17,17 @@ CLICK_BASE = os.environ.get("CLICK_BASE_URL", "").rstrip("/")   # Cloudflare Wor
 
 UI = {
     "he": {"search": "חיפוש דיל...", "hot": "🔥 הכי חמים עכשיו", "tab_hot": "חמים", "tab_new": "חדשים",
-           "tab_off": "ההנחה הגדולה", "today": "היום", "yday": "אתמול", "at": "באלי אקספרס", "cta": "לדיל",
+           "tab_off": "ההנחה הגדולה", "today": "היום", "yday": "אתמול", "at": "באלי אקספרס", "cta": "באליאקספרס ↗",
            "join_box": "כל דיל חדש ישר לטלגרם", "alert_box": "מחכים למוצר מסוים? הבוט ישלח הודעה כשיש עליו דיל",
            "how_box": "איך אנחנו בודקים", "how_short": "כל מחיר מושווה להיסטוריה של המוצר עצמו. מתפרסם רק מה שבאמת ירד במחיר.",
            "cats": "קטגוריות", "prev": "הקודם", "next": "הבא", "none_found": "לא נמצאו דילים. נסו מילה אחרת."},
     "es": {"search": "Buscar oferta...", "hot": "🔥 Lo más caliente ahora", "tab_hot": "Calientes", "tab_new": "Nuevos",
-           "tab_off": "Mayor descuento", "today": "Hoy", "yday": "Ayer", "at": "en AliExpress", "cta": "Ver oferta",
+           "tab_off": "Mayor descuento", "today": "Hoy", "yday": "Ayer", "at": "en AliExpress", "cta": "Ver en AliExpress",
            "join_box": "Cada oferta nueva directa a Telegram", "alert_box": "¿Esperas un producto? El bot te avisa cuando baje",
            "how_box": "Cómo lo comprobamos", "how_short": "Cada precio se compara con el historial del propio producto. Solo publicamos bajadas reales.",
            "cats": "Categorías", "prev": "Anterior", "next": "Siguiente", "none_found": "No hay ofertas. Prueba otra palabra."},
     "en": {"search": "Search deals...", "hot": "🔥 Hottest right now", "tab_hot": "Hottest", "tab_new": "Newest",
-           "tab_off": "Biggest discount", "today": "Today", "yday": "Yesterday", "at": "at AliExpress", "cta": "Get deal",
+           "tab_off": "Biggest discount", "today": "Today", "yday": "Yesterday", "at": "at AliExpress", "cta": "On AliExpress ↗",
            "join_box": "Every new deal straight to Telegram", "alert_box": "Waiting for something? The bot pings you when it drops",
            "how_box": "How we check", "how_short": "Every price is compared with the product's own history. Only real drops get posted.",
            "cats": "Categories", "prev": "Previous", "next": "Next", "none_found": "No deals found. Try another word."},
@@ -213,8 +213,8 @@ def page(lang: str, path: str, title: str, desc: str, body: str, alt_paths: dict
 {top}<main class="wrap">{body}</main>
 <div class="tgfab" id="tgfab" hidden><a href="{c['channel_url']}" class="tgfab-go">✈ <span>{esc(u['join_box'])}</span> <b>{esc(s['join_channel'])}</b></a><button type="button" aria-label="close" onclick="this.parentNode.hidden=true;try{{localStorage.setItem('tgfab','x')}}catch(e){{}}">×</button></div>
 <script>(function(){{var f=document.getElementById("tgfab");var x=null;try{{x=localStorage.getItem("tgfab")}}catch(e){{}}if(x)return;var shown=false;function on(){{if(!shown&&scrollY>500){{f.hidden=false;shown=true}}}}addEventListener("scroll",on,{{passive:true}});setTimeout(function(){{if(!shown){{f.hidden=false;shown=true}}}},12000)}})()</script>
-<footer><div class="wrap foot"><p>{esc(s['disclosure'])}</p>
-<p><a href="/{lang}/how.html">{esc(s['how_title'])}</a> &nbsp; <a href="{c['channel_url']}">{esc(s['join_channel'])}</a></p></div></footer>
+<footer><div class="wrap foot"><p><b>{esc(s.get('not_store', ''))}</b></p><p>{esc(s['disclosure'])}</p>
+<p><a href="/{lang}/about.html">{esc(s.get('about_title', 'About'))}</a> &nbsp; <a href="/{lang}/how.html">{esc(s['how_title'])}</a> &nbsp; <a href="{c['channel_url']}">{esc(s['join_channel'])}</a></p></div></footer>
 {JS}{REF_JS}<script>try{{localStorage.setItem("lang","{lang}")}}catch(e){{}}</script></body></html>""")
 
 
@@ -450,6 +450,11 @@ def build():
         (root / "how.html").write_text(page(lang, f"/{lang}/how.html", s["how_title"], s["how_body"][:150], how),
                                        encoding="utf-8")
         urls.append(f"/{lang}/how.html")
+        about = (f'<section class="hero"><h1>{esc(s["about_title"])}</h1><p>{esc(s["about_1"])}</p><p><b>{esc(s["about_2"])}</b></p>'
+                 f'<p>{esc(s["disclosure"])}</p><p><a href="{c["channel_url"]}">{esc(s["about_contact"])}</a></p></section>')
+        (root / "about.html").write_text(page(lang, f"/{lang}/about.html", s["about_title"], s["about_1"][:150], about),
+                                         encoding="utf-8")
+        urls.append(f"/{lang}/about.html")
 
     # Root: send visitors straight to their language (last one used, else the browser's);
     # the picker stays for crawlers / no-JS, and hreflang alternates tell Google the rest.
