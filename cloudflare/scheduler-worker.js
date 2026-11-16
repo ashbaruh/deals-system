@@ -13,7 +13,5 @@ export default {
   async scheduled(event, env, ctx) {
     ctx.waitUntil(dispatch(env, "run.yml").then(console.log));
   },
-  async fetch(req, env) {   // health check: open the worker URL to fire one run now
-    return new Response(await dispatch(env, "run.yml"));
-  },
+  async fetch() { return new Response("dealim scheduler alive"); },
 };
