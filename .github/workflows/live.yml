@@ -19,7 +19,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: live
+  group: live-${{ inputs.target || 'youtube' }}
 jobs:
   live:
     runs-on: ubuntu-latest
@@ -33,7 +33,7 @@ jobs:
         timeout-minutes: 8
         run: |
           which ffmpeg || { pip install -q imageio-ffmpeg && sudo ln -sf "$(python -c "import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())")" /usr/local/bin/ffmpeg; }
-          pip install -q playwright pillow numpy scipy
+          pip install -q playwright pillow numpy scipy qrcode
           python -m playwright install chromium || timeout 300 python -m playwright install --with-deps chromium
       - name: Render
         env:

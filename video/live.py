@@ -59,6 +59,9 @@ body{width:1920px;height:1080px;overflow:hidden;font-family:Rubik,sans-serif;col
 .price s{opacity:.9}
 .link{position:absolute;top:880px;left:930px;right:70px;background:#fff;color:#d0001b;font-size:50px;font-weight:900;
  padding:18px 30px;border-radius:24px;text-align:center;box-shadow:0 12px 0 #8a0010}
+.qr{position:absolute;top:585px;right:70px;width:250px;background:#fff;border-radius:22px;padding:14px 14px 6px;text-align:center;
+ color:#d0001b;font-size:26px;font-weight:900;box-shadow:0 10px 0 #8a0010}
+.qr img{width:222px;height:222px;display:block}
 .foot{position:absolute;bottom:0;left:0;right:0;height:70px;background:rgba(120,0,10,.75);display:flex;align-items:center;
  justify-content:center;font-size:32px;font-weight:700}
 .center{position:absolute;top:170px;left:100px;right:100px;text-align:center;text-shadow:0 6px 0 rgba(110,0,10,.8)}
@@ -165,6 +168,13 @@ def main() -> int:
             img.write_bytes(urllib.request.urlopen(req, timeout=30).read())
         imgs.append(img)
 
+    import qrcode
+
+    def qr_html(n):
+        q = TMP / f"qr_{LPFX}_{n}.png"
+        qrcode.make(f"https://dealim.net/{LPFX}/{n}", border=1, box_size=10).save(q)
+        return f'<div class="qr"><img src="{q.as_uri()}">📱 Scan to open</div>'
+
     bar = f'<div class="bar"><span class="dot"></span>{t["live"]}<span class="cnt">dealim.net</span></div>'
     foot = f'<div class="foot">{t["foot"]}</div>'
     thumbs = "".join(f'<img src="{i.as_uri()}">' for i in imgs[:5])
@@ -175,6 +185,7 @@ def main() -> int:
             f'<div class="card"><img src="{img.as_uri()}"></div><div class="num">DEAL #{n}</div>'
             f'<div class="title">{html.escape(short_name(d))}</div>'
             f'<div class="price">{t["now"]} <b>{money(d["price_usd"], lang)}</b><br>{t["was"]} <s>{money(d["median_30d"], lang)}</s></div>'
+            + qr_html(n) +
             f'<div class="link">👉 {(t["link"].format(n=n) if LPFX == "l" else "dealim.net/" + LPFX + "/" + str(n))}</div>' + foot), per, f'-{round(d["discount"] * 100)}%'))
     sl.append((page(bar + f'<div class="center"><div class="big">{t["cta"]} 🔥</div>'
                     f'<div class="tg">Telegram {t["tg"]}</div><div class="sm">dealim.net</div></div>' + foot), OUTRO, None))
