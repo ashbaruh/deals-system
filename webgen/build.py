@@ -491,11 +491,13 @@ var l=['he','es','en'].indexOf(s)>-1?s:(['he','es'].indexOf(b)>-1?b:'en');locati
             f'location.replace("/"+l+"/?ref={code}"+location.hash)}},700)</script></body></html>', encoding="utf-8")
     # Live-stream short links dealim.net/l/N (written by video.live): kept alive across rebuilds
     for lf in sorted(DATA.glob("live_links*.json")):
-        from video.live import redirect_html
+        from video.live import redirect_html, index_html
         pfx = lf.stem.split("_")[2] if lf.stem.count("_") >= 2 else "l"
         (OUT / pfx).mkdir(exist_ok=True)
-        for x in json.loads(lf.read_text(encoding="utf-8")):
+        links = json.loads(lf.read_text(encoding="utf-8"))
+        for x in links:
             (OUT / pfx / f"{x['n']}.html").write_text(redirect_html(x["url"]), encoding="utf-8")
+        (OUT / pfx / "index.html").write_text(index_html(links, pfx), encoding="utf-8")
     # Google Search Console ownership file: must stay published or the site loses verification
     (OUT / "google70086153ac75eff1.html").write_text(
         "google-site-verification: google70086153ac75eff1.html", encoding="utf-8")

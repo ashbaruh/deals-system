@@ -124,13 +124,34 @@ def redirect_html(url: str) -> str:
             f'<script>location.replace({json.dumps(url)})</script></body></html>')
 
 
+def index_html(links: list[dict], pfx: str) -> str:
+    """dealim.net/<pfx>/ : every deal of the latest stream as a tappable list (stream chats/bios link here)."""
+    title = "Gaming gear deals from the live stream" if pfx == "g" else "Deals from the live stream"
+    rows = "".join(
+        f'<a class="r" href="/{pfx}/{x["n"]}" rel="sponsored nofollow">'
+        f'<b class="n">#{x["n"]}</b>'
+        + (f'<img src="{html.escape(x.get("img", ""), quote=True)}" alt="" loading="lazy" referrerpolicy="no-referrer">' if x.get("img") else "")
+        + f'<span class="t">{html.escape(x.get("name", "Deal"))}</span>'
+        + (f'<span class="p">{html.escape(x.get("price", ""))} <i>{html.escape(x.get("off", ""))}</i></span>' if x.get("price") else "")
+        + '</a>' for x in links)
+    return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+            f'<meta name="robots" content="noindex"><title>{title} | dealim.net</title><style>'
+            'body{margin:0;font-family:system-ui,sans-serif;background:#fff4ec;color:#222}h1{font-size:1.3rem;margin:16px}'
+            '.r{display:flex;align-items:center;gap:10px;margin:8px 12px;padding:8px;background:#fff;border-radius:12px;'
+            'text-decoration:none;color:#222;box-shadow:0 2px 6px rgba(0,0,0,.08)}.r img{width:64px;height:64px;object-fit:contain}'
+            '.n{color:#d0001b;min-width:2.2em}.t{flex:1;font-weight:600}.p{font-weight:800;white-space:nowrap}.p i{color:#d0001b;font-style:normal}'
+            'footer{margin:16px;font-size:.8rem;opacity:.7}</style></head><body>'
+            f'<h1>🔥 {title}</h1>{rows}<footer>Affiliate links: we may earn a commission at no extra cost to you. '
+            'Prices can change. <a href="https://dealim.net/en/">All deals</a></footer></body></html>')
+
+
 def main() -> int:
     from playwright.sync_api import sync_playwright
     lang = (sys.argv[1:] or ["en"])[0]
     t = dict(TXT[lang])
     if THEME == "gaming":
         t.update(live="🎮 GAMING GEAR DEALS · AliExpress", hook="Gaming gear price drops",
-                 foot="Open the link on screen · new deals every day on dealim.net")
+                 foot="All links in one list: dealim.net/g")
     TMP.mkdir(parents=True, exist_ok=True)
     ds = pick(lang)
     if len(ds) < int(os.environ.get("LIVE_MIN", "1")):
@@ -231,8 +252,10 @@ def main() -> int:
     ldir.mkdir(parents=True, exist_ok=True)
     for n, d in enumerate(ds, 1):
         url = click_url(d, "ytlive" if LPFX == "l" else "twitch")
-        links.append({"n": n, "url": url, "slug": d["slug"]})
+        links.append({"n": n, "url": url, "slug": d["slug"], "name": short_name(d), "img": d["image"],
+                      "price": money(d["price_usd"], lang), "off": f'-{round(d["discount"] * 100)}%'})
         (ldir / f"{n}.html").write_text(redirect_html(url), encoding="utf-8")
+    (ldir / "index.html").write_text(index_html(links, LPFX), encoding="utf-8")
     (ROOT / "data" / ("live_links.json" if LPFX == "l" else f"live_links_{LPFX}.json")).write_text(json.dumps(links, indent=1), encoding="utf-8")
 
     hdr = {"en": "🔥 Real AliExpress price drops, checked against each product's own 30-day price history.\n"
