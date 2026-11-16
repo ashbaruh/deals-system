@@ -68,11 +68,12 @@ jobs:
           if [ "$TARGET" = twitch ]; then
             test -n "$TW" || { echo "TWITCH_STREAM_KEY missing"; exit 1; }
             OUTS="[f=flv:onfail=ignore]rtmp://live.twitch.tv/app/$TW"
-            if [ -n "$KU" ] && [ -n "$KK" ]; then OUTS="$OUTS|[f=flv:onfail=ignore]${KU%/}/$KK"; echo "also streaming to Kick"; fi
+            KU="${KU:-rtmps://fa723fc1b171.global-contribute.live-video.net:443/app}"   # Kick's standard ingest
+            if [ -n "$KK" ]; then OUTS="$OUTS|[f=flv:onfail=ignore]${KU%/}/$KK"; echo "also streaming to Kick"; fi
             LOOP=2
           else
             test -n "$YT" || { echo "YT_STREAM_KEY missing"; exit 1; }
             OUTS="[f=flv]rtmp://x.rtmp.youtube.com/live2/$YT"; LOOP=0
           fi
           sleep 150   # let Cloudflare publish the short links
-          ffmpeg -loglevel warning -re -stream_loop $LOOP -i out/live_${{ inputs.lang || 'en' }}.mp4 -map 0 -c copy -f tee "$OUTS"
+          ffmpeg -loglevel warning -re -stream_loop $LOOP -i out/live_${{ inputs.lang || 'en' }}.mp4 -map 0 -c copy -tag:v 7 -tag:a 10 -f tee "$OUTS"
