@@ -500,6 +500,7 @@ var l=['he','es','en'].indexOf(s)>-1?s:(['he','es'].indexOf(b)>-1?b:'en');locati
             f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>{xesc(c["site_title"])}</title>'
             f'<link>{BASE}/{lang}/</link><description>{xesc(c["meta_description"])}</description><language>{lang}</language>'
             + "".join(items) + "</channel></rss>", encoding="utf-8")
+    (OUT / "_headers").write_text("/*/feed.xml\n  Content-Type: application/rss+xml; charset=utf-8\n  Access-Control-Allow-Origin: *\n", encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
     # Per-platform short links (dealim.net/tt, /yt, ...): typeable in a TikTok caption or a bio,
     # each a separate path in Cloudflare Web Analytics; the visitor's source then rides along
