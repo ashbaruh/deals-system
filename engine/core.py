@@ -574,6 +574,19 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str,
         run_niches.add(n); run_cats.add(d.product.category)
         seen.add(key)
         picked.append(d)
+    # Ash: good deals from his audio brands go to Telegram even past the daily caps
+    if SETTINGS.get("_audio_extra_ok"):
+        import re
+        arx = re.compile(r"\b(?:" + "|".join(re.escape(b) for b in SETTINGS.get("audio_brands", [])) + r")\b", re.I)
+        extra = SETTINGS.get("audio_extra_per_run", 3)
+        for d in deals:
+            if extra <= 0:
+                break
+            key = " ".join(d.product.title.lower().split()[:4])
+            if key in seen or d.discount < SETTINGS.get("audio_extra_min_discount", 0.3) or not arx.search(d.product.title):
+                continue
+            seen.add(key); picked.append(d); extra -= 1
+            print(f"[{lang}] audio-brand extra post: {d.product.title[:60]}", flush=True)
     chosen = {d.product.pid for d in picked}
     site, on_site = [], dict(live_on_site or {})
     fav_extra = SETTINGS.get("site_fav_brands_extra", 60)   # favourites don't compete for the normal per-niche slots
