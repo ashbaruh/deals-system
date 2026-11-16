@@ -1,0 +1,35 @@
+name: Telegram channel titles
+# One-off: print the channels' current titles and set search-friendly ones (Telegram post/channel search).
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "set the new titles"
+        type: boolean
+        default: true
+jobs:
+  titles:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          APPLY: ${{ inputs.apply }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.parse, urllib.request
+          T = os.environ["TOKEN"]
+          def call(m, **p):
+              d = urllib.parse.urlencode(p).encode()
+              return json.loads(urllib.request.urlopen(f"https://api.telegram.org/bot{T}/{m}", d, timeout=20).read())
+          new = {"@mivtzaim_kuponim": "דילים מאליאקספרס – הנחות וקופונים",
+                 "@ofertas_descuentos_es": "Ofertas AliExpress – Chollos y Cupones",
+                 "@discount_deals_promo": "AliExpress Deals – Price Drops & Coupons"}
+          for ch, title in new.items():
+              old = call("getChat", chat_id=ch)["result"]["title"]
+              print(ch, "old:", old)
+              if os.environ["APPLY"] == "true" and old != title:
+                  try:
+                      print(ch, "set:", call("setChatTitle", chat_id=ch, title=title)["ok"])
+                  except Exception as e:
+                      print(ch, "failed:", e)
+          PY

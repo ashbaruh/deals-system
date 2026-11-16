@@ -37,6 +37,10 @@ def caption(deal: Deal, site_url: str) -> str:
     ]
     if p.why:
         lines.append(f"💡 {html.escape(p.why[:90])}")
+    # Telegram's public post search matches exact words: keep the English brand/model in every language
+    model = " ".join(p.title.split()[:5])
+    if p.title_local and model.lower() not in p.title_local.lower():
+        lines.append(f"🔎 {html.escape(model)}")
     lines += [
         "",
         f"{s['now']}: <b>{fmt_price(p.price_usd, deal.lang)}</b>  "
