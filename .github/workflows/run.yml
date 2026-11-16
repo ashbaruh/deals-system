@@ -116,6 +116,8 @@ jobs:
           TELEGRAM_CHANNEL_ES: "@ofertas_descuentos_es"
           TELEGRAM_CHANNEL_EN: "@discount_deals_promo"
           TELEGRAM_OWNER_CHAT_ID: ${{ secrets.TELEGRAM_OWNER_CHAT_ID }}
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           SITE_BASE_URL: ${{ vars.SITE_BASE_URL }}
           CLICK_BASE_URL: ${{ vars.CLICK_BASE_URL }}

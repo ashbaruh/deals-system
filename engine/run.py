@@ -373,6 +373,22 @@ def main() -> int:
                     posted_total += 1
                     posted.append(deal)
             print(f"{lang}: alerts sent", bot.send_alerts(hist, lang, posted, links))
+            if lang == "en" and posted:
+                try:
+                    from . import bluesky
+                    n = 0
+                    for deal in posted[:SETTINGS.get("bluesky_per_run", 2)]:
+                        a = by_pid[deal.product.pid]
+                        pct = round(deal.discount * 100)
+                        name = " ".join((a.get("title_local") or a["title"]).split())[:90]
+                        text = (f"🔥 {name}\n${a['price_usd']:.2f} (-{pct}% vs its 30-day price)\n"
+                                f"#AliExpress #deals #{a.get('niche', 'sale')}")
+                        n += bluesky.post(text, f"{base}/en/deal/{a['slug']}", name,
+                                          f"Now ${a['price_usd']:.2f}, was ${a['median_30d']:.2f}. Real price drop, checked daily.",
+                                          a.get("image"))
+                    print(f"en: bluesky posts {n}")
+                except Exception:
+                    errors.append("bluesky failed\n" + traceback.format_exc(limit=2))
             print(f"{lang}: {len(products)} products, {len(deals)} deals posted, {len(site_only)} site-only")
         except Exception:
             errors.append(f"{lang}: crashed\n{traceback.format_exc(limit=3)}")
