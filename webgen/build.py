@@ -199,7 +199,7 @@ def page(lang: str, path: str, title: str, desc: str, body: str, alt_paths: dict
         for k, n in c["niches"].items() if k != "brands" or k in ACTIVE.get(lang, ()))   # brands: shown once filled
     ld = f'<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>' if schema else ""
     return clean_urls(f"""<!doctype html><html lang="{lang}" dir="{c['dir']}"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1"><title>{esc(title)}</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="p:domain_verify" content="1e16ad74537698ca877e7bbcb5a11d91"/><title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}"><link rel="canonical" href="{BASE}{path}">{hreflang}
 <meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -463,7 +463,7 @@ def build():
     script = """<script>try{var s=null;try{s=localStorage.getItem('lang')}catch(e){}
 var b=(navigator.languages&&navigator.languages[0]||navigator.language||'').toLowerCase().slice(0,2);if(b=='iw')b='he';
 var l=['he','es','en'].indexOf(s)>-1?s:(['he','es'].indexOf(b)>-1?b:'en');location.replace('/'+l+'/'+location.search+location.hash)}catch(e){}</script>"""
-    root_html = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    root_html = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="p:domain_verify" content="1e16ad74537698ca877e7bbcb5a11d91"/>
 <title>Deals · דילים · Ofertas</title><meta name="description" content="{esc(root_desc)}"><link rel="canonical" href="{BASE}/">
 <meta property="og:type" content="website"><meta property="og:url" content="{BASE}/"><meta property="og:title" content="Deals · דילים · Ofertas"><meta property="og:description" content="{esc(root_desc)}">
 <meta name="twitter:card" content="summary">{''.join(f'<link rel="alternate" hreflang="{l}" href="{BASE}/{l}/">' for l in LANGS)}
@@ -507,7 +507,7 @@ var l=['he','es','en'].indexOf(s)>-1?s:(['he','es'].indexOf(b)>-1?b:'en');locati
     for code in SOURCES:
         (OUT / f"{code}.html").write_text(
             f'<!doctype html><html><head><meta charset="utf-8"><meta name="robots" content="noindex">'
-            f'<meta name="viewport" content="width=device-width,initial-scale=1"><title>dealim.net</title></head>'
+            f'<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="p:domain_verify" content="1e16ad74537698ca877e7bbcb5a11d91"/><title>dealim.net</title></head>'
             f'<body style="font-family:sans-serif;text-align:center;padding:40px">🔥 dealim.net'
             f'<script>try{{localStorage.setItem("ref","{code}")}}catch(e){{}}'
             f'setTimeout(function(){{var s=null;try{{s=localStorage.getItem("lang")}}catch(e){{}}'
