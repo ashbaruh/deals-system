@@ -321,7 +321,7 @@
     "fashion"
   ],
   "dollar_per_run": 3,
-  "per_niche_per_day": 3,
+  "per_niche_per_day": 4,
   "site_per_niche": 12,
   "single_feed": true,
   "delete_posts": {
@@ -452,7 +452,7 @@
   "heat_threshold_fav": 30,
   "site_per_niche_brands": 24,
   "max_price_usd_brands": 600,
-  "max_posts_per_day": 10,
+  "max_posts_per_day": 20,
   "revenue_full_usd": 2.0,
   "joom_feed_id": 24374,
   "joom_exclude_paths": [
