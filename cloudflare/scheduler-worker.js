@@ -1,17 +1,4 @@
-// dealim scheduler: Cloudflare cron -> GitHub workflow_dispatch (GitHub's own cron drops runs).
-// Secret GH_TOKEN = fine-grained token, repo ashbaruh/deals-system, Actions: Read and write.
-async function dispatch(env, wf, inputs = {}) {
-  const r = await fetch(`https://api.github.com/repos/ashbaruh/deals-system/actions/workflows/${wf}/dispatches`, {
-    method: "POST",
-    headers: { Authorization: `Bearer ${env.GH_TOKEN}`, Accept: "application/vnd.github+json",
-               "User-Agent": "dealim-scheduler", "X-GitHub-Api-Version": "2022-11-28" },
-    body: JSON.stringify({ ref: "main", inputs }),
-  });
-  return `${wf}: ${r.status} ${r.status === 204 ? "ok" : await r.text()}`;
-}
-export default {
-  async scheduled(event, env, ctx) {
-    ctx.waitUntil(dispatch(env, "run.yml").then(console.log));
-  },
-  async fetch() { return new Response("dealim scheduler alive"); },
-};
+// dealim scheduler: Cloudflare cron -> GitHub workflow_dispatch. Secret GH_TOKEN.
+// Crons: "5 6,7,9,11,13,15,17,19,21,23 * * *" = deals run; "37 17 * * *" = daily YouTube live.
+const dispatch = (env, wf, inputs) => fetch("https://api.github.com/repos/ashbaruh/deals-system/actions/workflows/" + wf + "/dispatches", { method: "POST", headers: { Authorization: "Bearer " + env.GH_TOKEN, Accept: "application/vnd.github+json", "User-Agent": "dealim-scheduler" }, body: JSON.stringify({ ref: "main", inputs: inputs }) }).then(r => console.log(wf, r.status));
+export default { async scheduled(event, env, ctx) { if (event.cron === "37 17 * * *") ctx.waitUntil(dispatch(env, "live.yml", { target: "youtube", lang: "en", stream: "true" })); else ctx.waitUntil(dispatch(env, "run.yml", {})); }, async fetch() { return new Response("dealim scheduler alive"); } };
