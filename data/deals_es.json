@@ -1,5 +1,32 @@
 [
  {
+  "pid": "joom:6aab97f188c64401d30fd45f",
+  "store": "joom",
+  "title": "Zapatillas de Felpa de Conejo Lindas para Mujer de Algodón Suela Suave Cálidas para el Hogar de Invierno 40-41 gray",
+  "price_usd": 13.37,
+  "old_price_usd": null,
+  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F6aab97f188c64401d30fd45f%3Fcurrency%3DEUR%26utm_productid%3D6aab97f188c64401d30fd45f%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTUzOTk2NjcsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjZhYWI5N2YxODhjNjQ0MDFkMzBmZDQ1ZiIsInYiOiI2YWFiOTdmMTg4YzY0NDc1ZDMwZmQ0NmMiLCJjIjoxMi4zfV19.m0YS8EouRJQG6WeoXzmTBmU_4HAibdETIPIUMwfjQuvVeTcSNyjItwEAUa01DbLHgwLrB4zCfQ0_3h8OkkR-1Q%26variant_id%3D6aab97f188c64475d30fd46c%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-16",
+  "image": "https://img.joomcdn.net/9a6e72886d88dc00e08e30ced3487c5d3c6ca2c4_original.jpeg",
+  "rating": null,
+  "orders": null,
+  "category": "Joom/Zapatos/Calzado para mujer/Zapatillas de casa",
+  "niche": "shoes",
+  "ships_to": [
+   "ES"
+  ],
+  "title_local": "Zapatillas de Felpa de Conejo Invierno Gris 40-41",
+  "commission": null,
+  "why": "Mantienen tus pies calientes y suaves en casa durante el invierno.",
+  "lang": "es",
+  "median_30d": 13.37,
+  "discount": 0.0,
+  "heat": 40.0,
+  "history": [],
+  "showcase": true,
+  "slug": "zapatillas-de-felpa-de-conejo-lindas-para-mujer-de-algod-n-s-01d30fd45f",
+  "day": "2026-11-17"
+ },
+ {
   "pid": "aliexpress:1005012470193046",
   "store": "aliexpress",
   "title": "ATTACK SHARK R85HE Magnetic Axis Gaming Keyboard-8000Hz Polling Rate Wired 0.005mm RT Accuracy RGB Neon Light Box for E-Sports",
@@ -15827,36 +15854,6 @@
    ]
   ],
   "slug": "ulanzi-d200-d200h-d200x-production-console-and-studio-contro-7809064199",
-  "day": "2026-11-11",
-  "expired": true
- },
- {
-  "pid": "aliexpress:1005012899056306",
-  "store": "aliexpress",
-  "title": "Ulanzi TC002 Pixbar Smart Pixel Clock II Weather Calendar Focus Timer Smart Pxibar Clock for Ins Youtube for Tictok Bloggerlanz",
-  "price_usd": 97.01,
-  "old_price_usd": 279.98,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012899056306.html%253Fpdp_npi%253D6%252540dis%252521USD%252521279.98%25252197.01%252521%252521%252521279.98%25252197.01%252521%25254021013cc017942733498708720e0fe4%25252112000059637197759%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf120102c2b2745f0bdacd45610ff32a6Y.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Camera & Photo",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Reloj inteligente con pixel Ulanzi TC002 Pixbar II",
-  "commission": 0.061500000000000006,
-  "why": "",
-  "lang": "es",
-  "median_30d": 279.98,
-  "discount": 0.65,
-  "heat": 80.0,
-  "history": [
-   [
-    "2026-11-11",
-    97.01
-   ]
-  ],
-  "slug": "ulanzi-tc002-pixbar-smart-pixel-clock-ii-weather-calendar-fo-2899056306",
   "day": "2026-11-11",
   "expired": true
  }
