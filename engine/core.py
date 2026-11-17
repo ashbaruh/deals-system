@@ -554,6 +554,12 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str,
     from collections import Counter
     print(f"[{lang}] products per niche: {dict(Counter(p.niche for p in products if p.niche))}", flush=True)
     print(f"[{lang}] passing deals per niche: {dict(Counter(d.product.niche for d in deals))}", flush=True)
+    jd = [d for d in deals if d.product.store == "joom"]
+    if any(p.store == "joom" for p in products):
+        jh = hist.db.execute("SELECT COUNT(DISTINCT pid), MIN(day), COUNT(*) FROM prices WHERE pid LIKE 'joom:%'").fetchone()
+        print(f"[{lang}] joom: history {jh[0]} products since {jh[1]} ({jh[2]} change points); "
+              f"real price drops passing: {len(jd)}; top: "
+              + "; ".join(f"{d.product.title[:40]} -{round(d.discount*100)}% {d.product.price_usd:.0f}$" for d in jd[:5]), flush=True)
     # at most 2 per niche per run, so a channel is never all earbuds
     picked, per_niche, seen = [], dict(posted_today or {}), set()   # caps count the whole day
     run_niches, run_cats = set(), set()
