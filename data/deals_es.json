@@ -1,58 +1,47 @@
 [
  {
-  "pid": "joom:68ca5832af98d6013ee66ef5",
-  "store": "joom",
-  "title": "Portacarbones N384037 Para DeWALT DCD735 DCD730C2 DCD735C2 DCD785 DCD780C2",
-  "price_usd": 12.68,
-  "old_price_usd": null,
-  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F68ca5832af98d6013ee66ef5%3Fcurrency%3DEUR%26utm_productid%3D68ca5832af98d6013ee66ef5%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU1NzAzNjYsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY4Y2E1ODMyYWY5OGQ2MDEzZWU2NmVmNSIsInYiOiI2OGNhNTgzMmFmOThkNjc4M2VlNjZlZjciLCJjIjoxMS42N31dfQ.Vjs_t5WaoXltn9vjzqvvraCkVlXbbRG-b8qrK8zhZlUo4rFjSo1GQmWkg31i6KcuxYHxFZTgZzfMGW90qxnNxQ%26variant_id%3D68ca5832af98d6783ee66ef7%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-18",
-  "image": "https://img.joomcdn.net/a986267bb3d693eaeefc4832b7330e7f894affda_original.jpeg",
-  "rating": null,
-  "orders": null,
-  "category": "Joom/Reforma y construcción/Herramientas y accesorios/Herramientas eléctricas/Accesorios para herramientas eléctricas/Accesorios para herramientas eléctricas",
-  "niche": "tools",
-  "ships_to": [
-   "ES"
-  ],
-  "title_local": "Portacarbones DeWALT N384037 para DCD735 y DCD785",
-  "commission": null,
-  "why": "Repuesto original para reparar tu taladro DeWALT",
-  "lang": "es",
-  "median_30d": 12.68,
-  "discount": 0.0,
-  "heat": 40.0,
-  "history": [],
-  "showcase": true,
-  "slug": "portacarbones-n384037-para-dewalt-dcd735-dcd730c2-dcd735c2-d-013ee66ef5",
-  "day": "2026-11-18"
- },
- {
-  "pid": "aliexpress:1005013643084964",
+  "pid": "aliexpress:1005012066217487",
   "store": "aliexpress",
-  "title": "Middle Eastern Style Ceramic Espresso Cup Saucer Set Retro Desert Camel Pattern Latte Art Coffee Mug Gift for Family Party",
-  "price_usd": 46.73,
-  "old_price_usd": 155.2,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013643084964.html%253Fpdp_npi%253D6%252540dis%252521USD%252521155.20%25252146.73%252521%252521%2525211029.20%252521309.91%252521%2525402151fce817949568899576519e0e6d%25252112000061755838954%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5d9fe4798e5746c9a39162f489aa1f5aD.jpg",
+  "title": "Removable Espresso Tamping Holder Station Adjustable Slip Resistant Base Coffee Tamper Station Multi-functional Shock-absorbent",
+  "price_usd": 25.56,
+  "old_price_usd": 83.29,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012066217487.html%253Fpdp_npi%253D6%252540dis%252521USD%25252183.29%25252125.56%252521%252521%252521552.30%252521169.50%252521%252540210152bd17949614301854717e1052%25252112000057423399732%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3ed1ff602b8a4bfb9ac514c4a8e334690.png",
   "rating": null,
   "orders": null,
   "category": "Kitchen,Dining & Bar",
   "niche": "coffee",
   "ships_to": [],
-  "title_local": "",
-  "commission": 0.0538,
-  "why": "",
+  "title_local": "Estación portafiltro espresso antideslizante ajustable",
+  "commission": 0.07690000000000001,
+  "why": "Base antideslizante y ajustable para apisonar el café",
   "lang": "es",
-  "median_30d": 155.2,
-  "discount": 0.6989,
-  "heat": 85.3,
+  "median_30d": 83.29,
+  "discount": 0.6931,
+  "heat": 89.9,
   "history": [
    [
+    "2026-11-10",
+    25.53
+   ],
+   [
+    "2026-11-15",
+    25.56
+   ],
+   [
+    "2026-11-16",
+    25.56
+   ],
+   [
+    "2026-11-17",
+    25.54
+   ],
+   [
     "2026-11-18",
-    46.73
+    25.56
    ]
   ],
-  "slug": "middle-eastern-style-ceramic-espresso-cup-saucer-set-retro-d-3643084964",
+  "slug": "removable-espresso-tamping-holder-station-adjustable-slip-re-2066217487",
   "day": "2026-11-18"
  },
  {
@@ -3008,72 +2997,30 @@
   "day": "2026-11-18"
  },
  {
-  "pid": "aliexpress:1005012050393035",
-  "store": "aliexpress",
-  "title": "FiiO NEST-EDC Portable Digital Storage Bag for M27/M17 Layered Design Detachable Shoulder Strap Music Player Accessories",
-  "price_usd": 30.68,
-  "old_price_usd": 38.35,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012050393035.html%253Fpdp_npi%253D6%252540dis%252521USD%25252138.35%25252130.68%252521%252521%252521254.30%252521203.44%252521%2525402151fd2c17949582906402208e0cf0%25252112000057377733341%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1e8f7b044eee454dab2d8f6383c7b8b44.jpg",
+  "pid": "joom:68ca5832af98d6013ee66ef5",
+  "store": "joom",
+  "title": "Portacarbones N384037 Para DeWALT DCD735 DCD730C2 DCD735C2 DCD785 DCD780C2",
+  "price_usd": 12.68,
+  "old_price_usd": null,
+  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F68ca5832af98d6013ee66ef5%3Fcurrency%3DEUR%26utm_productid%3D68ca5832af98d6013ee66ef5%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU1NzAzNjYsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY4Y2E1ODMyYWY5OGQ2MDEzZWU2NmVmNSIsInYiOiI2OGNhNTgzMmFmOThkNjc4M2VlNjZlZjciLCJjIjoxMS42N31dfQ.Vjs_t5WaoXltn9vjzqvvraCkVlXbbRG-b8qrK8zhZlUo4rFjSo1GQmWkg31i6KcuxYHxFZTgZzfMGW90qxnNxQ%26variant_id%3D68ca5832af98d6783ee66ef7%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-18",
+  "image": "https://img.joomcdn.net/a986267bb3d693eaeefc4832b7330e7f894affda_original.jpeg",
   "rating": null,
   "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Bolsa de transporte FiiO NEST-EDC para M27/M17",
-  "commission": 0.023,
-  "why": "Diseño por capas con correa de hombro desmontable",
-  "lang": "es",
-  "median_30d": 38.35,
-  "discount": 0.2,
-  "heat": 64.0,
-  "history": [],
-  "slug": "fiio-nest-edc-portable-digital-storage-bag-for-m27-m17-layer-2050393035",
-  "day": "2026-11-18"
- },
- {
-  "pid": "aliexpress:1005012066217487",
-  "store": "aliexpress",
-  "title": "Removable Espresso Tamping Holder Station Adjustable Slip Resistant Base Coffee Tamper Station Multi-functional Shock-absorbent",
-  "price_usd": 25.56,
-  "old_price_usd": 83.29,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012066217487.html%253Fpdp_npi%253D6%252540dis%252521USD%25252183.29%25252125.56%252521%252521%252521552.30%252521169.50%252521%252540210152bd17949614301854717e1052%25252112000057423399732%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3ed1ff602b8a4bfb9ac514c4a8e334690.png",
-  "rating": null,
-  "orders": null,
-  "category": "Kitchen,Dining & Bar",
-  "niche": "coffee",
-  "ships_to": [],
-  "title_local": "Estación portafiltro espresso antideslizante ajustable",
-  "commission": 0.07690000000000001,
-  "why": "Base antideslizante y ajustable para apisonar el café",
-  "lang": "es",
-  "median_30d": 83.29,
-  "discount": 0.6931,
-  "heat": 89.9,
-  "history": [
-   [
-    "2026-11-10",
-    25.53
-   ],
-   [
-    "2026-11-15",
-    25.56
-   ],
-   [
-    "2026-11-16",
-    25.56
-   ],
-   [
-    "2026-11-17",
-    25.54
-   ],
-   [
-    "2026-11-18",
-    25.56
-   ]
+  "category": "Joom/Reforma y construcción/Herramientas y accesorios/Herramientas eléctricas/Accesorios para herramientas eléctricas/Accesorios para herramientas eléctricas",
+  "niche": "tools",
+  "ships_to": [
+   "ES"
   ],
-  "slug": "removable-espresso-tamping-holder-station-adjustable-slip-re-2066217487",
+  "title_local": "Portacarbones DeWALT N384037 para DCD735 y DCD785",
+  "commission": null,
+  "why": "Repuesto original para reparar tu taladro DeWALT",
+  "lang": "es",
+  "median_30d": 12.68,
+  "discount": 0.0,
+  "heat": 40.0,
+  "history": [],
+  "showcase": true,
+  "slug": "portacarbones-n384037-para-dewalt-dcd735-dcd730c2-dcd735c2-d-013ee66ef5",
   "day": "2026-11-18"
  },
  {
@@ -3283,6 +3230,141 @@
    ]
   ],
   "slug": "redragon-gs560-rgb-desktop-soundbar-2-0-channel-computer-spe-6404289595",
+  "day": "2026-11-18"
+ },
+ {
+  "pid": "aliexpress:1005013128295790",
+  "store": "aliexpress",
+  "title": "Hot New FiiO KB1K Multimedia Mechanical Keypad Music Controller Hot Swap RGB Knob Custom Shortcut Remote Desktop HiFi Decoration",
+  "price_usd": 23.95,
+  "old_price_usd": 34.22,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013128295790.html%253Fpdp_npi%253D6%252540dis%252521USD%25252134.22%25252123.95%252521%252521%252521226.95%252521158.86%252521%2525402140d36217949584326821081e0ea8%25252112000060310783242%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0081f1ae09b841728df09aaebf83ff8cP.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Teclado mecánico multimedia FiiO KB1K",
+  "commission": 0.023,
+  "why": "Control de música con rueda RGB y teclas intercambiables",
+  "lang": "es",
+  "median_30d": 34.22,
+  "discount": 0.3001,
+  "heat": 66.0,
+  "history": [
+   [
+    "2026-11-10",
+    23.93
+   ],
+   [
+    "2026-11-11",
+    23.93
+   ],
+   [
+    "2026-11-12",
+    23.93
+   ],
+   [
+    "2026-11-13",
+    23.93
+   ],
+   [
+    "2026-11-14",
+    23.93
+   ],
+   [
+    "2026-11-18",
+    23.95
+   ]
+  ],
+  "slug": "hot-new-fiio-kb1k-multimedia-mechanical-keypad-music-control-3128295790",
+  "day": "2026-11-18"
+ },
+ {
+  "pid": "aliexpress:1005009567830027",
+  "store": "aliexpress",
+  "title": "Fosi Audio I5 Open-Back Planar Magnetic Headphones with 97mm Diaphragm Professional Hifi Monitor Wired Headset For Studio",
+  "price_usd": 511.87,
+  "old_price_usd": 737.49,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009567830027.html%253Fpdp_npi%253D6%252540dis%252521USD%252521737.49%252521511.87%252521%252521%252521737.49%252521511.87%252521%252540210152bd17949675774933757e0fad%25252112000058896498960%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se39d22b41f5b4735b21890d36ce52598e.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Portable Audio & Video",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Fosi Audio I5 Auriculares Planar Magnetic",
+  "commission": 0.0269,
+  "why": "Diafragma de 97mm para sonido de estudio",
+  "lang": "es",
+  "median_30d": 737.49,
+  "discount": 0.3059,
+  "heat": 66.1,
+  "history": [
+   [
+    "2026-11-11",
+    530.99
+   ],
+   [
+    "2026-11-12",
+    530.99
+   ],
+   [
+    "2026-11-13",
+    530.99
+   ],
+   [
+    "2026-11-16",
+    511.87
+   ],
+   [
+    "2026-11-17",
+    511.87
+   ],
+   [
+    "2026-11-18",
+    511.87
+   ]
+  ],
+  "slug": "fosi-audio-i5-open-back-planar-magnetic-headphones-with-97mm-9567830027",
+  "day": "2026-11-18"
+ },
+ {
+  "pid": "aliexpress:1005010685974480",
+  "store": "aliexpress",
+  "title": "Shanling UA4 Portable Headphone Amplifier HIFI ES9069Q DAC 768kHz/32bit DSD512 Dual TR6863 Chip 3.5mm 4.4mm Custom Mini Decoder",
+  "price_usd": 104.67,
+  "old_price_usd": 156.22,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010685974480.html%253Fpdp_npi%253D6%252540dis%252521USD%252521156.22%252521104.67%252521%252521%2525211035.97%252521694.10%252521%2525402151fd3a17949678755326064e1024%25252112000053187494369%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scf28d7e94c3641cda09ad9ba10697b4cP.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Portable Audio & Video",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Shanling UA4 Amplificador de Auriculares",
+  "commission": 0.061500000000000006,
+  "why": "DAC ES9069Q y doble salida de 3.5mm y 4.4mm",
+  "lang": "es",
+  "median_30d": 156.22,
+  "discount": 0.33,
+  "heat": 66.6,
+  "history": [
+   [
+    "2026-11-16",
+    104.67
+   ],
+   [
+    "2026-11-17",
+    104.6
+   ],
+   [
+    "2026-11-18",
+    104.67
+   ]
+  ],
+  "slug": "shanling-ua4-portable-headphone-amplifier-hifi-es9069q-dac-7-0685974480",
   "day": "2026-11-18"
  },
  {
@@ -3798,52 +3880,27 @@
   "day": "2026-11-18"
  },
  {
-  "pid": "aliexpress:1005013128295790",
+  "pid": "aliexpress:1005012050393035",
   "store": "aliexpress",
-  "title": "Hot New FiiO KB1K Multimedia Mechanical Keypad Music Controller Hot Swap RGB Knob Custom Shortcut Remote Desktop HiFi Decoration",
-  "price_usd": 23.95,
-  "old_price_usd": 34.22,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013128295790.html%253Fpdp_npi%253D6%252540dis%252521USD%25252134.22%25252123.95%252521%252521%252521226.95%252521158.86%252521%2525402140d36217949584326821081e0ea8%25252112000060310783242%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0081f1ae09b841728df09aaebf83ff8cP.jpg",
+  "title": "FiiO NEST-EDC Portable Digital Storage Bag for M27/M17 Layered Design Detachable Shoulder Strap Music Player Accessories",
+  "price_usd": 30.68,
+  "old_price_usd": 38.35,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012050393035.html%253Fpdp_npi%253D6%252540dis%252521USD%25252138.35%25252130.68%252521%252521%252521254.30%252521203.44%252521%2525402151fd2c17949582906402208e0cf0%25252112000057377733341%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1e8f7b044eee454dab2d8f6383c7b8b44.jpg",
   "rating": null,
   "orders": null,
   "category": "Computer Peripherals",
   "niche": "brands",
   "ships_to": [],
-  "title_local": "Teclado mecánico multimedia FiiO KB1K",
+  "title_local": "Bolsa de transporte FiiO NEST-EDC para M27/M17",
   "commission": 0.023,
-  "why": "Control de música con rueda RGB y teclas intercambiables",
+  "why": "Diseño por capas con correa de hombro desmontable",
   "lang": "es",
-  "median_30d": 34.22,
-  "discount": 0.3001,
-  "heat": 66.0,
-  "history": [
-   [
-    "2026-11-10",
-    23.93
-   ],
-   [
-    "2026-11-11",
-    23.93
-   ],
-   [
-    "2026-11-12",
-    23.93
-   ],
-   [
-    "2026-11-13",
-    23.93
-   ],
-   [
-    "2026-11-14",
-    23.93
-   ],
-   [
-    "2026-11-18",
-    23.95
-   ]
-  ],
-  "slug": "hot-new-fiio-kb1k-multimedia-mechanical-keypad-music-control-3128295790",
+  "median_30d": 38.35,
+  "discount": 0.2,
+  "heat": 64.0,
+  "history": [],
+  "slug": "fiio-nest-edc-portable-digital-storage-bag-for-m27-m17-layer-2050393035",
   "day": "2026-11-18"
  },
  {
@@ -11336,43 +11393,6 @@
   "day": "2026-11-14"
  },
  {
-  "pid": "aliexpress:1005013513105429",
-  "store": "aliexpress",
-  "title": "For Jishi Polestone 01 Rox 01 Four Seasons Universal Seat Cover Ventilation and Breathable Seat Cover Safety Seat Anti Wear Pad",
-  "price_usd": 30.13,
-  "old_price_usd": 100.43,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013513105429.html%253Fpdp_npi%253D6%252540dis%252521USD%252521100.43%25252130.13%252521%252521%252521666.00%252521199.80%252521%2525402140f88817946204913308372e0fff%25252112000061395992950%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se3c7c6230f8641179440a436042681afa.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Interior Accessories",
-  "niche": "car",
-  "ships_to": [],
-  "title_local": "Funda Asiento Rox 01 Transpirable",
-  "commission": 0.0692,
-  "why": "Protección universal y transpirable para los asientos.",
-  "lang": "es",
-  "median_30d": 100.43,
-  "discount": 0.7,
-  "heat": 89.3,
-  "history": [
-   [
-    "2026-11-12",
-    30.09
-   ],
-   [
-    "2026-11-13",
-    30.09
-   ],
-   [
-    "2026-11-14",
-    30.13
-   ]
-  ],
-  "slug": "for-jishi-polestone-01-rox-01-four-seasons-universal-seat-co-3513105429",
-  "day": "2026-11-14"
- },
- {
   "pid": "aliexpress:1005013152219189",
   "store": "aliexpress",
   "title": "Classic Formal 3 Piece Tuxedo Mens Suits Peaked Lapel Jacket Pants Vest Sets Slim Male Clothing Business Gentleman Formal Blazer",
@@ -13049,7 +13069,8 @@
    ]
   ],
   "slug": "needle-vise-set-decompression-hand-twist-drill-double-bearin-1901016990",
-  "day": "2026-11-10"
+  "day": "2026-11-10",
+  "expired": true
  },
  {
   "pid": "aliexpress:1005013508282570",
@@ -13194,6 +13215,35 @@
    ]
   ],
   "slug": "t18-series-soldering-tips-fit-for-hakko-fx-888-fx-888d-fx-88-4134440237",
+  "day": "2026-11-10"
+ },
+ {
+  "pid": "aliexpress:1005012508572634",
+  "store": "aliexpress",
+  "title": "H2 HUD Head Up Display GPS Car Digital Speedometer for Car Speed Gauge Meter MPH KM/H USB Plug&Play Auto Electronics Devices",
+  "price_usd": 32.11,
+  "old_price_usd": 90.07,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012508572634.html%253Fpdp_npi%253D6%252540dis%252521USD%25252190.07%25252132.11%252521%252521%252521598.06%252521213.15%252521%2525402151fd3a17942728567313198e0f5d%25252112000058551497897%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7cce62e578544e6c83f1c47f2c37ecech.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Car Electronics",
+  "niche": "car",
+  "ships_to": [],
+  "title_local": "Pantalla HUD H2 velocímetro digital GPS",
+  "commission": 0.1153,
+  "why": "",
+  "lang": "es",
+  "median_30d": 90.07,
+  "discount": 0.64,
+  "heat": 98.8,
+  "history": [
+   [
+    "2026-11-10",
+    32.11
+   ]
+  ],
+  "slug": "h2-hud-head-up-display-gps-car-digital-speedometer-for-car-s-2508572634",
   "day": "2026-11-10"
  },
  {
@@ -13485,6 +13535,36 @@
   ],
   "slug": "30pairs-running-socks-short-tube-basketball-socks-thick-boat-9923237361",
   "day": "2026-11-10"
+ },
+ {
+  "pid": "aliexpress:1005005956364603",
+  "store": "aliexpress",
+  "title": "RAUDAX GCN Winter Warm Wool Bicycle Shoe Cover Sports Men's Mountain Bike Shoe Cover Women's Bicycle Shoe Cover Cubre Ciclismo",
+  "price_usd": 13.36,
+  "old_price_usd": 40.49,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005005956364603.html%253Fpdp_npi%253D6%252540dis%252521USD%25252140.49%25252113.36%252521%252521%252521268.83%25252188.71%252521%25254021013cc617942759691088828e0e32%25252112000035018619075%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S25a37ba7b98846a6919e483f26cb2c002.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Cycling",
+  "niche": "sports",
+  "ships_to": [],
+  "title_local": "Cubrezapatillas de lana para ciclismo invernal RAUDAX",
+  "commission": 0.1038,
+  "why": "",
+  "lang": "es",
+  "median_30d": 40.49,
+  "discount": 0.67,
+  "heat": 96.4,
+  "history": [
+   [
+    "2026-11-10",
+    13.36
+   ]
+  ],
+  "slug": "raudax-gcn-winter-warm-wool-bicycle-shoe-cover-sports-men-s--5956364603",
+  "day": "2026-11-10",
+  "expired": true
  },
  {
   "pid": "aliexpress:1005006052480930",
@@ -13806,6 +13886,35 @@
   "day": "2026-11-10"
  },
  {
+  "pid": "aliexpress:1005012519111016",
+  "store": "aliexpress",
+  "title": "Thisanti-wrinkle and firming serum can reduce wrinkles and restore youthful radiance to the skinSuitable for both men and women",
+  "price_usd": 10.85,
+  "old_price_usd": 30.14,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012519111016.html%253Fpdp_npi%253D6%252540dis%252521USD%25252130.14%25252110.85%252521%252521%252521200.00%25252172.00%252521%2525402151fca717942816664884689e0cf8%25252112000058620506795%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S664bd7aa383348dd9167886adafafb21H.png",
+  "rating": null,
+  "orders": null,
+  "category": "Skin Care Tool",
+  "niche": "nails",
+  "ships_to": [],
+  "title_local": "Sérum Antiarrugas y Reafirmante",
+  "commission": 0.15380000000000002,
+  "why": "",
+  "lang": "es",
+  "median_30d": 30.14,
+  "discount": 0.64,
+  "heat": 98.1,
+  "history": [
+   [
+    "2026-11-10",
+    10.85
+   ]
+  ],
+  "slug": "thisanti-wrinkle-and-firming-serum-can-reduce-wrinkles-and-r-2519111016",
+  "day": "2026-11-10"
+ },
+ {
   "pid": "aliexpress:1005012329057430",
   "store": "aliexpress",
   "title": "Thin Foundation Brush, Korean Ultra Thin Makeup Brush for Blending Liquid Foundation, Blending Cream Mask Makeup Face, Silver",
@@ -13832,35 +13941,6 @@
    ]
   ],
   "slug": "thin-foundation-brush-korean-ultra-thin-makeup-brush-for-ble-2329057430",
-  "day": "2026-11-10"
- },
- {
-  "pid": "aliexpress:1005010274440422",
-  "store": "aliexpress",
-  "title": "Effective Anti-wrinkle Facial Serum To Remove Facial Wrinkles Fine Lines Around The Eyes Crow's Feet Neck Wrinkle",
-  "price_usd": 6.54,
-  "old_price_usd": 21.1,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010274440422.html%253Fpdp_npi%253D6%252540dis%252521USD%25252121.10%2525216.54%252521%252521%252521140.00%25252143.40%252521%2525402101611117942836516147746e1007%25252112000051741539945%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3c63d03c2f80453fae53f1ca56582a0ee.png",
-  "rating": null,
-  "orders": null,
-  "category": "Skin Care",
-  "niche": "nails",
-  "ships_to": [],
-  "title_local": "Sérum Facial Antiarrugas Efectivo",
-  "commission": 0.15380000000000002,
-  "why": "",
-  "lang": "es",
-  "median_30d": 21.1,
-  "discount": 0.69,
-  "heat": 100.0,
-  "history": [
-   [
-    "2026-11-10",
-    6.54
-   ]
-  ],
-  "slug": "effective-anti-wrinkle-facial-serum-to-remove-facial-wrinkle-0274440422",
   "day": "2026-11-10"
  },
  {
@@ -14734,92 +14814,70 @@
   "day": "2026-11-11"
  },
  {
-  "pid": "aliexpress:1005012508572634",
+  "pid": "aliexpress:1005013513105429",
   "store": "aliexpress",
-  "title": "H2 HUD Head Up Display GPS Car Digital Speedometer for Car Speed Gauge Meter MPH KM/H USB Plug&Play Auto Electronics Devices",
-  "price_usd": 32.11,
-  "old_price_usd": 90.07,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012508572634.html%253Fpdp_npi%253D6%252540dis%252521USD%25252190.07%25252132.11%252521%252521%252521598.06%252521213.15%252521%2525402151fd3a17942728567313198e0f5d%25252112000058551497897%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7cce62e578544e6c83f1c47f2c37ecech.jpg",
+  "title": "For Jishi Polestone 01 Rox 01 Four Seasons Universal Seat Cover Ventilation and Breathable Seat Cover Safety Seat Anti Wear Pad",
+  "price_usd": 30.13,
+  "old_price_usd": 100.43,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013513105429.html%253Fpdp_npi%253D6%252540dis%252521USD%252521100.43%25252130.13%252521%252521%252521666.00%252521199.80%252521%2525402140f88817946204913308372e0fff%25252112000061395992950%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se3c7c6230f8641179440a436042681afa.jpg",
   "rating": null,
   "orders": null,
-  "category": "Car Electronics",
+  "category": "Interior Accessories",
   "niche": "car",
   "ships_to": [],
-  "title_local": "Pantalla HUD H2 velocímetro digital GPS",
-  "commission": 0.1153,
-  "why": "",
+  "title_local": "Funda Asiento Rox 01 Transpirable",
+  "commission": 0.0692,
+  "why": "Protección universal y transpirable para los asientos.",
   "lang": "es",
-  "median_30d": 90.07,
-  "discount": 0.64,
-  "heat": 98.8,
+  "median_30d": 100.43,
+  "discount": 0.7,
+  "heat": 89.3,
   "history": [
    [
-    "2026-11-10",
-    32.11
+    "2026-11-12",
+    30.09
+   ],
+   [
+    "2026-11-13",
+    30.09
+   ],
+   [
+    "2026-11-14",
+    30.13
    ]
   ],
-  "slug": "h2-hud-head-up-display-gps-car-digital-speedometer-for-car-s-2508572634",
-  "day": "2026-11-10",
+  "slug": "for-jishi-polestone-01-rox-01-four-seasons-universal-seat-co-3513105429",
+  "day": "2026-11-14",
   "expired": true
  },
  {
-  "pid": "aliexpress:1005005956364603",
+  "pid": "aliexpress:1005010274440422",
   "store": "aliexpress",
-  "title": "RAUDAX GCN Winter Warm Wool Bicycle Shoe Cover Sports Men's Mountain Bike Shoe Cover Women's Bicycle Shoe Cover Cubre Ciclismo",
-  "price_usd": 13.36,
-  "old_price_usd": 40.49,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005005956364603.html%253Fpdp_npi%253D6%252540dis%252521USD%25252140.49%25252113.36%252521%252521%252521268.83%25252188.71%252521%25254021013cc617942759691088828e0e32%25252112000035018619075%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S25a37ba7b98846a6919e483f26cb2c002.jpg",
+  "title": "Effective Anti-wrinkle Facial Serum To Remove Facial Wrinkles Fine Lines Around The Eyes Crow's Feet Neck Wrinkle",
+  "price_usd": 6.54,
+  "old_price_usd": 21.1,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010274440422.html%253Fpdp_npi%253D6%252540dis%252521USD%25252121.10%2525216.54%252521%252521%252521140.00%25252143.40%252521%2525402101611117942836516147746e1007%25252112000051741539945%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3c63d03c2f80453fae53f1ca56582a0ee.png",
   "rating": null,
   "orders": null,
-  "category": "Cycling",
-  "niche": "sports",
-  "ships_to": [],
-  "title_local": "Cubrezapatillas de lana para ciclismo invernal RAUDAX",
-  "commission": 0.1038,
-  "why": "",
-  "lang": "es",
-  "median_30d": 40.49,
-  "discount": 0.67,
-  "heat": 96.4,
-  "history": [
-   [
-    "2026-11-10",
-    13.36
-   ]
-  ],
-  "slug": "raudax-gcn-winter-warm-wool-bicycle-shoe-cover-sports-men-s--5956364603",
-  "day": "2026-11-10",
-  "expired": true
- },
- {
-  "pid": "aliexpress:1005012519111016",
-  "store": "aliexpress",
-  "title": "Thisanti-wrinkle and firming serum can reduce wrinkles and restore youthful radiance to the skinSuitable for both men and women",
-  "price_usd": 10.85,
-  "old_price_usd": 30.14,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012519111016.html%253Fpdp_npi%253D6%252540dis%252521USD%25252130.14%25252110.85%252521%252521%252521200.00%25252172.00%252521%2525402151fca717942816664884689e0cf8%25252112000058620506795%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S664bd7aa383348dd9167886adafafb21H.png",
-  "rating": null,
-  "orders": null,
-  "category": "Skin Care Tool",
+  "category": "Skin Care",
   "niche": "nails",
   "ships_to": [],
-  "title_local": "Sérum Antiarrugas y Reafirmante",
+  "title_local": "Sérum Facial Antiarrugas Efectivo",
   "commission": 0.15380000000000002,
   "why": "",
   "lang": "es",
-  "median_30d": 30.14,
-  "discount": 0.64,
-  "heat": 98.1,
+  "median_30d": 21.1,
+  "discount": 0.69,
+  "heat": 100.0,
   "history": [
    [
     "2026-11-10",
-    10.85
+    6.54
    ]
   ],
-  "slug": "thisanti-wrinkle-and-firming-serum-can-reduce-wrinkles-and-r-2519111016",
+  "slug": "effective-anti-wrinkle-facial-serum-to-remove-facial-wrinkle-0274440422",
   "day": "2026-11-10",
   "expired": true
  },
@@ -17410,40 +17468,6 @@
    ]
   ],
   "slug": "american-style-cotton-linen-plaid-curtains-bedroom-curtains--3561202244",
-  "day": "2026-11-10",
-  "expired": true
- },
- {
-  "pid": "aliexpress:1005006178879051",
-  "store": "aliexpress",
-  "title": "Luxury Europe Embroidered Grey Blue Villa Curtains for Living Room Custom High Quality Bedroom Kitchen Hotel Decoration Curtains",
-  "price_usd": 4.44,
-  "old_price_usd": 12.0,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006178879051.html%253Fpdp_npi%253D6%252540dis%252521USD%25252112.00%2525214.44%252521%252521%25252112.00%2525214.44%252521%2525402140d36117942637434642301e0f67%25252112000036155123623%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbcadad497f3541ffb666750ae35f05f2P.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Home Textile",
-  "niche": "home",
-  "ships_to": [],
-  "title_local": "Cortina Lujo Bordada Gris Azul Villa Salón",
-  "commission": 0.07690000000000001,
-  "why": "",
-  "lang": "es",
-  "median_30d": 12.0,
-  "discount": 0.63,
-  "heat": 77.0,
-  "history": [
-   [
-    "2026-11-09",
-    4.44
-   ],
-   [
-    "2026-11-10",
-    4.44
-   ]
-  ],
-  "slug": "luxury-europe-embroidered-grey-blue-villa-curtains-for-livin-6178879051",
   "day": "2026-11-10",
   "expired": true
  }
