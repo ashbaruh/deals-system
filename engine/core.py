@@ -345,10 +345,15 @@ def assign_niche(p: Product, lang: str) -> str:
     Niches are checked in config order (specific ones like coffee/audio first)."""
     import re
     if lang not in _NICHE_RE:
-        _NICHE_RE[lang] = [(key, set(n.get("categories_exact", [])),
-                            re.compile(r"\b(" + "|".join(re.escape(k) for k in n["keywords"]) + r")s?\b", re.I)
-                            if n.get("keywords") else None)
-                           for key, n in LANGS[lang]["niches"].items() if n.get("categories_exact")]
+        rules = []
+        for key, n in LANGS[lang]["niches"].items():
+            # a niche may list extra rules ("also"): items from other categories that match given keywords
+            for r in [n] + n.get("also", []):
+                if r.get("categories_exact"):
+                    rules.append((key, set(r["categories_exact"]),
+                                  re.compile(r"\b(" + "|".join(re.escape(k) for k in r["keywords"]) + r")s?\b", re.I)
+                                  if r.get("keywords") else None))
+        _NICHE_RE[lang] = rules
     if p.store == "joom":
         return _joom_niche(p)
     if _is_brand(p.title):          # genuine brand item: the junk filter below targets no-name listings
