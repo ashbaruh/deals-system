@@ -218,6 +218,13 @@
           "Mobile Phone Photography Accessories"
         ]
       },
+      "pets": {
+        "title": "מוצרים לחיות מחמד",
+        "keywords": [],
+        "categories_exact": [
+          "Pet Products"
+        ]
+      },
       "home": {
         "title": "גאדג'טים לבית",
         "keywords": [],
@@ -233,8 +240,7 @@
           "LED Lighting",
           "Outdoor Lighting",
           "Bathroom Fixture",
-          "Family Intelligence System",
-          "Pet Products"
+          "Family Intelligence System"
         ]
       },
       "tools": {
@@ -582,6 +588,13 @@
           "Mobile Phone Photography Accessories"
         ]
       },
+      "pets": {
+        "title": "Mascotas",
+        "keywords": [],
+        "categories_exact": [
+          "Pet Products"
+        ]
+      },
       "home": {
         "title": "Hogar y gadgets",
         "keywords": [],
@@ -597,8 +610,7 @@
           "LED Lighting",
           "Outdoor Lighting",
           "Bathroom Fixture",
-          "Family Intelligence System",
-          "Pet Products"
+          "Family Intelligence System"
         ]
       },
       "tools": {
@@ -946,6 +958,13 @@
           "Mobile Phone Photography Accessories"
         ]
       },
+      "pets": {
+        "title": "Pets",
+        "keywords": [],
+        "categories_exact": [
+          "Pet Products"
+        ]
+      },
       "home": {
         "title": "Home & Gadgets",
         "keywords": [],
@@ -961,8 +980,7 @@
           "LED Lighting",
           "Outdoor Lighting",
           "Bathroom Fixture",
-          "Family Intelligence System",
-          "Pet Products"
+          "Family Intelligence System"
         ]
       },
       "tools": {

@@ -25,7 +25,7 @@ TXT = {
 SITE = os.environ.get("SITE_TAG", "dealim.net/tt")
 BAD = ("toyota", "honda", "bmw", "for 20", "custom fit", "sexy", "reborn", "doll", "underwear", "panties", "bra ",
        "lingerie", "trolley", "barber", "wig", "ropa interior", " case", "funda", "cover")
-PREF = ["brands", "audio", "tech", "coffee", "appliances", "home", "tools", "sports", "shoes", "fashion", "kids"]
+PREF = ["brands", "audio", "tech", "coffee", "appliances", "home", "pets", "tools", "sports", "shoes", "fashion", "kids"]
 
 
 def pick(lang, n=3):

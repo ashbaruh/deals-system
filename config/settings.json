@@ -24,7 +24,8 @@
     "kids": 0.054,
     "shoes": 0.069,
     "appliances": 0.054,
-    "dollar": 0.069
+    "dollar": 0.069,
+    "pets": 0.054
   },
   "store_commission_override": {
     "banggood": {
@@ -318,7 +319,8 @@
     "sports",
     "coffee",
     "audio",
-    "fashion"
+    "fashion",
+    "pets"
   ],
   "dollar_per_run": 3,
   "per_niche_per_day": 4,
@@ -582,6 +584,10 @@
     [
       "Electrónica/",
       "tech"
+    ],
+    [
+      "Productos para mascotas",
+      "pets"
     ],
     [
       "Productos para el hogar/",
