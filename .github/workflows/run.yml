@@ -136,6 +136,13 @@ jobs:
           tmp=$(mktemp -d); cp -r data public "$tmp"/
           git fetch -q origin main && git reset -q --hard origin/main
           rm -rf public && cp -r "$tmp"/public . && find data -name "*.json" -delete && cp -r "$tmp"/data/. data/
+          # Short links (data/live_links*.json -> public/<pfx>/) are written by other jobs and by hand
+          # (l/g = live streams, f = HTmag forum). This run never changes them, so main's copy wins.
+          for f in $(git ls-tree --name-only origin/main data/ | grep '^data/live_links'); do
+            git checkout -q origin/main -- "$f"
+            b=$(basename "$f" .json); p=$(echo "$b" | awk -F_ '{print (NF>=3 ? $3 : "l")}')
+            if git cat-file -e "origin/main:public/$p" 2>/dev/null; then rm -rf "public/$p"; git checkout -q origin/main -- "public/$p"; fi
+          done
           rm -f data/history.sqlite
           git add -A data public
           git diff --cached --quiet || git commit -q -m "Deals run $(date -u +%F_%H%M)"
