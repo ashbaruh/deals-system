@@ -25,7 +25,9 @@
     "shoes": 0.069,
     "appliances": 0.054,
     "dollar": 0.069,
-    "pets": 0.054
+    "pets": 0.054,
+    "power": 0.023,
+    "dashcam": 0.054
   },
   "store_commission_override": {
     "banggood": {
@@ -320,7 +322,8 @@
     "coffee",
     "audio",
     "fashion",
-    "pets"
+    "pets",
+    "power"
   ],
   "dollar_per_run": 3,
   "per_niche_per_day": 4,
@@ -448,7 +451,9 @@
     "Royal Kludge",
     "Attack Shark",
     "Ajazz",
-    "Keychron"
+    "Keychron",
+    "Ugreen",
+    "Baseus"
   ],
   "min_discount_fav": 0.15,
   "heat_threshold_fav": 30,

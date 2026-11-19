@@ -31,7 +31,7 @@ THEME = os.environ.get("LIVE_THEME", "")           # "" = all niches; "gaming" =
 LPFX = os.environ.get("LIVE_PREFIX", "l")          # short links dealim.net/<LPFX>/N
 TOTAL = float(os.environ.get("LIVE_SECONDS", "600"))
 INTRO, OUTRO = 8.0, 12.0
-PREF = ["audio", "tech", "brands", "coffee", "appliances", "home", "pets", "tools", "car", "sports", "shoes", "fashion", "kids"]
+PREF = ["audio", "power", "dashcam", "tech", "brands", "coffee", "appliances", "home", "pets", "tools", "car", "sports", "shoes", "fashion", "kids"]
 TXT = {
     "en": dict(live="LIVE · AliExpress deals right now", hook="Real AliExpress price drops", sub="Every price checked against its own 30-day history",
                now="Now", was="30-day price", link="Link #{n} in the description", foot="All links in the description · Telegram @discount_deals_promo",

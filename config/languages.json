@@ -202,6 +202,75 @@
           "Cleaning Appliances"
         ]
       },
+      "dashcam": {
+        "title": "מצלמות דרך",
+        "keywords": [
+          "dash cam",
+          "dashcam",
+          "dash camera",
+          "car dvr",
+          "dvr",
+          "driving recorder",
+          "video recorder",
+          "car camera",
+          "mirror camera",
+          "rear camera",
+          "reversing camera"
+        ],
+        "categories_exact": [
+          "Car Electronics",
+          "Car DVR",
+          "Car DVRs",
+          "Interior Accessories",
+          "Exterior Accessories",
+          "Camera & Photo",
+          "Security & Protection",
+          "Smart Electronics"
+        ],
+        "take_brands": true
+      },
+      "power": {
+        "title": "מטענים וסוללות",
+        "keywords": [
+          "charger",
+          "charging",
+          "power bank",
+          "powerbank",
+          "battery",
+          "batteries",
+          "18650",
+          "21700",
+          "gan",
+          "fast charge",
+          "pd charger",
+          "usb c cable",
+          "usb-c cable",
+          "type c cable",
+          "type-c cable",
+          "lightning cable",
+          "wireless charger",
+          "magsafe",
+          "charging station",
+          "charging dock",
+          "power station",
+          "power adapter"
+        ],
+        "categories_exact": [
+          "Mobile Phone Accessories",
+          "Accessories & Parts",
+          "Batteries",
+          "Chargers",
+          "Power Bank",
+          "Mobile Phone Chargers",
+          "Mobile Phone Cables",
+          "Smart Electronics",
+          "Computer Peripherals",
+          "Consumer Electronics",
+          "Car Electronics",
+          "Interior Accessories"
+        ],
+        "take_brands": true
+      },
       "tech": {
         "title": "סמארטפון ואביזרים",
         "keywords": [],
@@ -648,6 +717,75 @@
           "Cleaning Appliances"
         ]
       },
+      "dashcam": {
+        "title": "Cámaras para coche",
+        "keywords": [
+          "dash cam",
+          "dashcam",
+          "dash camera",
+          "car dvr",
+          "dvr",
+          "driving recorder",
+          "video recorder",
+          "car camera",
+          "mirror camera",
+          "rear camera",
+          "reversing camera"
+        ],
+        "categories_exact": [
+          "Car Electronics",
+          "Car DVR",
+          "Car DVRs",
+          "Interior Accessories",
+          "Exterior Accessories",
+          "Camera & Photo",
+          "Security & Protection",
+          "Smart Electronics"
+        ],
+        "take_brands": true
+      },
+      "power": {
+        "title": "Cargadores y baterías",
+        "keywords": [
+          "charger",
+          "charging",
+          "power bank",
+          "powerbank",
+          "battery",
+          "batteries",
+          "18650",
+          "21700",
+          "gan",
+          "fast charge",
+          "pd charger",
+          "usb c cable",
+          "usb-c cable",
+          "type c cable",
+          "type-c cable",
+          "lightning cable",
+          "wireless charger",
+          "magsafe",
+          "charging station",
+          "charging dock",
+          "power station",
+          "power adapter"
+        ],
+        "categories_exact": [
+          "Mobile Phone Accessories",
+          "Accessories & Parts",
+          "Batteries",
+          "Chargers",
+          "Power Bank",
+          "Mobile Phone Chargers",
+          "Mobile Phone Cables",
+          "Smart Electronics",
+          "Computer Peripherals",
+          "Consumer Electronics",
+          "Car Electronics",
+          "Interior Accessories"
+        ],
+        "take_brands": true
+      },
       "tech": {
         "title": "Móvil y accesorios",
         "keywords": [],
@@ -1093,6 +1231,75 @@
           "Personal Care Appliances",
           "Cleaning Appliances"
         ]
+      },
+      "dashcam": {
+        "title": "Dash Cams",
+        "keywords": [
+          "dash cam",
+          "dashcam",
+          "dash camera",
+          "car dvr",
+          "dvr",
+          "driving recorder",
+          "video recorder",
+          "car camera",
+          "mirror camera",
+          "rear camera",
+          "reversing camera"
+        ],
+        "categories_exact": [
+          "Car Electronics",
+          "Car DVR",
+          "Car DVRs",
+          "Interior Accessories",
+          "Exterior Accessories",
+          "Camera & Photo",
+          "Security & Protection",
+          "Smart Electronics"
+        ],
+        "take_brands": true
+      },
+      "power": {
+        "title": "Chargers & Batteries",
+        "keywords": [
+          "charger",
+          "charging",
+          "power bank",
+          "powerbank",
+          "battery",
+          "batteries",
+          "18650",
+          "21700",
+          "gan",
+          "fast charge",
+          "pd charger",
+          "usb c cable",
+          "usb-c cable",
+          "type c cable",
+          "type-c cable",
+          "lightning cable",
+          "wireless charger",
+          "magsafe",
+          "charging station",
+          "charging dock",
+          "power station",
+          "power adapter"
+        ],
+        "categories_exact": [
+          "Mobile Phone Accessories",
+          "Accessories & Parts",
+          "Batteries",
+          "Chargers",
+          "Power Bank",
+          "Mobile Phone Chargers",
+          "Mobile Phone Cables",
+          "Smart Electronics",
+          "Computer Peripherals",
+          "Consumer Electronics",
+          "Car Electronics",
+          "Interior Accessories"
+        ],
+        "take_brands": true
       },
       "tech": {
         "title": "Phone & Accessories",

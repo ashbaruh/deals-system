@@ -352,15 +352,19 @@ def assign_niche(p: Product, lang: str) -> str:
                 if r.get("categories_exact"):
                     rules.append((key, set(r["categories_exact"]),
                                   re.compile(r"\b(" + "|".join(re.escape(k) for k in r["keywords"]) + r")s?\b", re.I)
-                                  if r.get("keywords") else None))
+                                  if r.get("keywords") else None, bool(n.get("take_brands"))))
         _NICHE_RE[lang] = rules
     if p.store == "joom":
         return _joom_niche(p)
     if _is_brand(p.title):          # genuine brand item: the junk filter below targets no-name listings
+        # ...unless a niche asks for brand items too (chargers, dash cams: mostly Ugreen/Baseus/70mai)
+        for key, cats, rx, tb in _NICHE_RE[lang]:
+            if tb and p.category in cats and (rx is None or rx.search(p.title)):
+                return key
         return "brands"
     if _EXCL_RE.search(p.title):
         return ""
-    for key, cats, rx in _NICHE_RE[lang]:
+    for key, cats, rx, _tb in _NICHE_RE[lang]:
         if p.category in cats and (rx is None or rx.search(p.title)):
             return key
     return ""
@@ -569,7 +573,7 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str,
     from collections import Counter
     print(f"[{lang}] products per niche: {dict(Counter(p.niche for p in products if p.niche))}", flush=True)
     print(f"[{lang}] passing deals per niche: {dict(Counter(d.product.niche for d in deals))}", flush=True)
-    for k in ("pets", "tools"):
+    for k in ("pets", "tools", "power", "dashcam"):
         print(f"[{lang}] rejected {k}: {REJECTS.get(k, {})}", flush=True)
     REJECTS.clear()
     jd = [d for d in deals if d.product.store == "joom"]
