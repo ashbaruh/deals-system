@@ -460,52 +460,62 @@ def commission_rate(p: Product) -> float:
     return over.get(p.niche, over.get("_default", s["commission_by_category"].get(p.niche, 0.04)))
 
 
+REJECTS: dict = {}
+
+
+def _rej(p: Product, why: str):
+    """Count why products of a niche fail (printed per run): shows which filter starves a niche."""
+    k = p.niche or "-"
+    REJECTS.setdefault(k, {}); REJECTS[k][why] = REJECTS[k].get(why, 0) + 1
+    return None
+
+
 def evaluate(p: Product, lang: str, hist: History, today: str,
              trend: dict[str, float]) -> Deal | None:
     """Return a Deal if the product passes every hard filter, else None."""
     s = SETTINGS
     country = LANGS[lang]["country"]
     if p.ships_to and country not in p.ships_to:
-        return None
+        return _rej(p, "ships")
     if not p.niche:
-        return None
+        return _rej(p, "noniche")
     if p.price_usd > s.get(f"max_price_usd_{p.niche}", s.get("max_price_usd", 1e9)):
-        return None
+        return _rej(p, "maxprice")
     if p.price_usd < s.get("min_price_usd", 0):
         # Cheap items only as "dollar deals", and only from niches where a $1 item is useful.
         if not (s.get("dollar_min_price_usd", 1e9) <= p.price_usd <= s.get("dollar_max_price_usd", 0)
                 and p.niche in s.get("dollar_from_niches", [])):
-            return None
+            return _rej(p, "cheap")
         p.niche = "dollar"
     if p.rating is not None and p.rating < s["min_rating"]:
-        return None
+        return _rej(p, "rating")
     if p.orders is not None and p.orders < s["min_orders"]:
-        return None
+        return _rej(p, "orders")
     if hist.posted_recently(p.pid, lang, s["repost_block_days"], today):
-        return None
+        return _rej(p, "reposted")
 
     series = hist.series(p.pid, s["history_window_days"], today)
     past = [price for d, price in series if d < today]
     bootstrap = len(past) < s["bootstrap_min_history_days"]
     if bootstrap and not s.get("bootstrap_post", False):
-        return None                       # first days: only collect real price history
+        return _rej(p, "bootstrap")                       # first days: only collect real price history
     if bootstrap:
         # Not enough of our own history yet: fall back to the shop's old price,
         # but demand a higher heat score to compensate.
         if not p.old_price_usd or p.old_price_usd <= p.price_usd:
-            return None
+            return _rej(p, "boot_noold")
         ref = p.old_price_usd
         if 1 - p.price_usd / ref > s.get("bootstrap_max_discount", 1):   # shop's "old price" likely inflated
-            return None
+            return _rej(p, "boot_inflated")
     else:
         ref = statistics.median(past)
 
     discount = 1 - p.price_usd / ref
     fav = is_fav_brand(p)
     if discount < (s.get("min_discount_fav", s["min_discount"]) if fav else s["min_discount"]):
-        return None
+        return _rej(p, "discount")
     if discount >= s["suspicious_drop"]:          # likely a pricing error
-        return None
+        return _rej(p, "suspicious")
 
     w = s["weights"]
     D = _clip((discount - 0.30) / 0.40)
@@ -536,7 +546,7 @@ def evaluate(p: Product, lang: str, hist: History, today: str,
         threshold = min(threshold, s.get("heat_threshold_fav", threshold))
         heat = max(heat + 15, 60 + 20 * discount)   # and they get a place in the channels
     if heat < threshold:
-        return None
+        return _rej(p, "heat")
     return Deal(product=p, lang=lang, median_30d=ref, discount=discount,
                 heat=heat, history=series)
 
@@ -559,6 +569,9 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str,
     from collections import Counter
     print(f"[{lang}] products per niche: {dict(Counter(p.niche for p in products if p.niche))}", flush=True)
     print(f"[{lang}] passing deals per niche: {dict(Counter(d.product.niche for d in deals))}", flush=True)
+    for k in ("pets", "tools"):
+        print(f"[{lang}] rejected {k}: {REJECTS.get(k, {})}", flush=True)
+    REJECTS.clear()
     jd = [d for d in deals if d.product.store == "joom"]
     if any(p.store == "joom" for p in products):
         jh = hist.db.execute("SELECT COUNT(DISTINCT pid), MIN(day), COUNT(*) FROM prices WHERE pid LIKE 'joom:%'").fetchone()
