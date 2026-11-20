@@ -105,7 +105,18 @@
       ],
       "extra_per_run": 3,
       "min_discount": 0.25,
-      "site_extra": 60
+      "site_extra": 60,
+      "subtitle": {
+        "he": "שלטים, אוזניות, מעמדים וקירור ל-PS5 ו-Xbox כדי לשחק ב-GTA 6 — רק הנחות אמיתיות, נבדקו מול מחיר 30 הימים",
+        "es": "Mandos, auriculares, soportes y refrigeración para PS5 y Xbox para jugar a GTA 6: solo descuentos reales frente al precio de 30 días",
+        "en": "Controllers, headsets, stands and cooling for PS5 & Xbox to play GTA 6 — real discounts only, checked against the 30-day price"
+      },
+      "badge": {
+        "he": "🎮 ל-GTA 6",
+        "es": "🎮 Para GTA 6",
+        "en": "🎮 For GTA 6"
+      },
+      "hero_css": "background:linear-gradient(120deg,#ff2d95 0%,#7b2ff7 45%,#00d4ff 100%);color:#fff"
     },
     {
       "key": "black-friday",

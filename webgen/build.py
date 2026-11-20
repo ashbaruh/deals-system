@@ -183,7 +183,7 @@ def clean_urls(html_: str) -> str:
 
 
 def page(lang: str, path: str, title: str, desc: str, body: str, alt_paths: dict | None = None,
-         schema: dict | None = None, active: str = "", top: str = "") -> str:
+         schema: dict | None = None, active: str = "", top: str = "", og_image: str = "") -> str:
     c = LANGS[lang]
     u = UI[lang]
     alts = alt_paths or {l: path.replace(f"/{lang}/", f"/{l}/", 1) for l in LANGS}
@@ -201,7 +201,7 @@ def page(lang: str, path: str, title: str, desc: str, body: str, alt_paths: dict
     return clean_urls(f"""<!doctype html><html lang="{lang}" dir="{c['dir']}"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="p:domain_verify" content="1e16ad74537698ca877e7bbcb5a11d91"/><title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}"><link rel="canonical" href="{BASE}{path}">{hreflang}
-<meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">
+<meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">{f'<meta property="og:image" content="{esc(og_image)}"><meta name="twitter:card" content="summary_large_image">' if og_image else ''}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;800&display=swap" rel="stylesheet">
 <style>{CSS}</style>{ld}</head><body>
@@ -386,9 +386,16 @@ def build():
             (root / "event").mkdir(exist_ok=True)
             t = ev["title"][lang]
             ev_sorted = sorted(ev_deals, key=rank, reverse=True)
-            eb = f'<section class="hero"><h1>{esc(t)}</h1><p>{esc(c["site_tagline"])}</p></section>' + listing(ev_sorted, lang)
+            sub = (ev.get("subtitle") or {}).get(lang) or c["site_tagline"]
+            lst = listing(ev_sorted, lang)
+            if ev.get("badge"):        # e.g. "🎮 ל-GTA 6" on every product row of the event page
+                lst = lst.replace('<div class="meta"><span class="temp">', f'<div class="meta"><span class="badge" style="background:#ff2d95;color:#fff">{esc(ev["badge"][lang])}</span><span class="temp">')
+            hero_css = ev.get("hero_css", "")
+            eb = (f'<section class="hero" style="{hero_css}"><h1>{esc(t)}</h1><p>{esc(sub)}</p></section>'
+                  + (hot_rail(ev_sorted[:12], lang) if len(ev_sorted) >= 4 else "") + lst)
             (root / "event" / f"{ev['key']}.html").write_text(page(
-                lang, f"/{lang}/event/{ev['key']}.html", f"{t} | {c['site_title']}", t, eb), encoding="utf-8")
+                lang, f"/{lang}/event/{ev['key']}.html", f"{t} | {c['site_title']}", sub, eb,
+                og_image=ev_sorted[0]["image"] if ev_sorted else ""), encoding="utf-8")
             urls.append(f"/{lang}/event/{ev['key']}.html")
             if ev["start"] <= today <= ev["end"]:
                 strip += f'<div class="event"><div class="wrap"><span>🎯 {esc(t)}</span><a href="/{lang}/event/{ev["key"]}.html">{esc(UI[lang]["cta"])}</a></div></div>'

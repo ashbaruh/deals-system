@@ -52,6 +52,14 @@ def caption(deal: Deal, site_url: str) -> str:
         if p.orders:
             extra += f"  ·  {p.orders:,} {s['orders']}"
         lines.append(extra)
+    # keyword events (GTA 6 launch): say why this deal matters now + link to the event page
+    from datetime import date as _d
+    from .core import active_keyword_events
+    for ev in active_keyword_events(_d.today().isoformat()):
+        if ev["_rx"].search(p.title) and not (ev["_ex"] and ev["_ex"].search(p.title)):
+            lines += ["", f"<b>{html.escape(ev.get('badge', {}).get(deal.lang, ''))}</b> — "
+                          f"https://dealim.net/{deal.lang}/event/{ev['key']}.html"]
+            break
     lines += ["", f"<i>{html.escape(s['price_note'])}</i>"]
     return "\n".join(lines)
 
