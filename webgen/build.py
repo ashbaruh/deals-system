@@ -374,7 +374,13 @@ def build():
         ordered = sorted(live, key=rank, reverse=True) + [d for d in deals if d.get("expired")]
         strip = ""
         for ev in SETTINGS.get("events", []):
-            ev_deals = [d for d in live if ev["start"] <= d.get("day", "") <= ev["end"]]
+            if ev.get("keywords"):     # keyword event (e.g. GTA 6): matching deals of any day, minus excluded words
+                import re
+                rx = re.compile(r"\b(?:" + "|".join(re.escape(k) for k in ev["keywords"]) + r")\b", re.I)
+                ex = re.compile(r"\b(?:" + "|".join(re.escape(k) for k in ev.get("exclude", [])) + r")\b", re.I) if ev.get("exclude") else None
+                ev_deals = [d for d in live if rx.search(d.get("title", "")) and not (ex and ex.search(d.get("title", "")))]
+            else:
+                ev_deals = [d for d in live if ev["start"] <= d.get("day", "") <= ev["end"]]
             if not (ev["start"] <= today <= ev["end"] or ev_deals):
                 continue
             (root / "event").mkdir(exist_ok=True)
@@ -385,7 +391,7 @@ def build():
                 lang, f"/{lang}/event/{ev['key']}.html", f"{t} | {c['site_title']}", t, eb), encoding="utf-8")
             urls.append(f"/{lang}/event/{ev['key']}.html")
             if ev["start"] <= today <= ev["end"]:
-                strip = f'<div class="event"><div class="wrap"><span>🎯 {esc(t)}</span><a href="/{lang}/event/{ev["key"]}.html">{esc(UI[lang]["cta"])}</a></div></div>'
+                strip += f'<div class="event"><div class="wrap"><span>🎯 {esc(t)}</span><a href="/{lang}/event/{ev["key"]}.html">{esc(UI[lang]["cta"])}</a></div></div>'
 
         jm = [d for d in live if d.get("showcase")][:16]
         joom_rail = (f'<h2>🟣 {esc({"es": "Novedades en Joom", "en": "New on Joom", "he": "חדש ב-Joom"}[lang])}</h2>'

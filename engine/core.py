@@ -555,6 +555,20 @@ def evaluate(p: Product, lang: str, hist: History, today: str,
                 heat=heat, history=series)
 
 
+def active_keyword_events(today: str) -> list:
+    """Events from settings that carry keywords and are running today (regexes compiled once)."""
+    import re
+    out = []
+    for ev in SETTINGS.get("events", []):
+        if not ev.get("keywords") or not (ev["start"] <= today <= ev["end"]):
+            continue
+        if "_rx" not in ev:
+            ev["_rx"] = re.compile(r"\b(?:" + "|".join(re.escape(k) for k in ev["keywords"]) + r")\b", re.I)
+            ev["_ex"] = re.compile(r"\b(?:" + "|".join(re.escape(k) for k in ev.get("exclude", [])) + r")\b", re.I) if ev.get("exclude") else None
+        out.append(ev)
+    return out
+
+
 def select_deals(products: list[Product], lang: str, hist: History, today: str,
                  posted_today: dict | None = None, live_on_site: dict | None = None):
     """Returns (to_post, site_only): Telegram gets a capped selection; the rest of the
@@ -615,8 +629,26 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str,
                 continue
             seen.add(key); picked.append(d); extra -= 1
             print(f"[{lang}] audio-brand extra post: {d.product.title[:60]}", flush=True)
+    # live keyword events (e.g. GTA 6 launch): a few extra Telegram posts per run + extra site slots
+    ev_site = []
+    for ev in active_keyword_events(today):
+        rx, ex = ev["_rx"], ev["_ex"]
+        extra = ev.get("extra_per_run", 0) if SETTINGS.get("_audio_extra_ok") else 0
+        site_left = ev.get("site_extra", 40)
+        for d in deals:
+            t = d.product.title
+            if d.discount < ev.get("min_discount", 0.3) or not rx.search(t) or (ex and ex.search(t)):
+                continue
+            key = " ".join(t.lower().split()[:4])
+            if key in seen:
+                continue
+            if extra > 0:
+                seen.add(key); picked.append(d); extra -= 1
+                print(f"[{lang}] event {ev['key']} extra post: {t[:60]}", flush=True)
+            elif site_left > 0:
+                seen.add(key); ev_site.append(d); site_left -= 1
     chosen = {d.product.pid for d in picked}
-    site, on_site = [], dict(live_on_site or {})
+    site, on_site = list(ev_site), dict(live_on_site or {})
     fav_extra = SETTINGS.get("site_fav_brands_extra", 60)   # favourites don't compete for the normal per-niche slots
     for d in picked:
         on_site[d.product.niche] = on_site.get(d.product.niche, 0) + 1
