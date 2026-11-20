@@ -391,7 +391,7 @@ def build():
             if ev.get("badge"):        # e.g. "🎮 ל-GTA 6" on every product row of the event page
                 lst = lst.replace('<div class="meta"><span class="temp">', f'<div class="meta"><span class="badge" style="background:#ff2d95;color:#fff">{esc(ev["badge"][lang])}</span><span class="temp">')
             hero_css = ev.get("hero_css", "")
-            eb = (f'<section class="hero" style="{hero_css}"><h1>{esc(t)}</h1><p>{esc(sub)}</p></section>'
+            eb = (f'<section class="hero" style="{hero_css}"><h1>{esc(t)}</h1><p style="color:inherit;opacity:.92">{esc(sub)}</p></section>'
                   + (hot_rail(ev_sorted[:12], lang) if len(ev_sorted) >= 4 else "") + lst)
             (root / "event" / f"{ev['key']}.html").write_text(page(
                 lang, f"/{lang}/event/{ev['key']}.html", f"{t} | {c['site_title']}", sub, eb,
