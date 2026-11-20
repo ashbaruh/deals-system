@@ -1,59 +1,5 @@
 [
  {
-  "pid": "joom:662b0103fa635d01024dc452",
-  "store": "joom",
-  "title": "Ropa Nueva para Niños, Camisetas de Manga Corta para Niños, Ropa de Bebé para Niñas 140cm black",
-  "price_usd": 8.84,
-  "old_price_usd": null,
-  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F662b0103fa635d01024dc452%3Fcurrency%3DEUR%26utm_productid%3D662b0103fa635d01024dc452%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU2NTc5NTgsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY2MmIwMTAzZmE2MzVkMDEwMjRkYzQ1MiIsInYiOiI2NjJiMDEwM2ZhNjM1ZDEzMDI0ZGM0NTkiLCJjIjo4LjEzfV19.GcWgqZ_lW2YODy0_3zD2nMWSNXe90AN65rIjcKMf5X4Fa0ovtL_ExtBNCYPbTukpyhc6rAY-KWAZDr1iuMbl6Q%26variant_id%3D662b0103fa635d13024dc459%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-19",
-  "image": "https://img.joomcdn.net/f2ece4fff4cf967ed857759a3c1be8fa1d16da8c_original.jpeg",
-  "rating": null,
-  "orders": null,
-  "category": "Joom/Productos para niños/Moda infantil/Ropa/Niñas/Camisetas y sudaderas/Camisetas",
-  "niche": "kids",
-  "ships_to": [
-   "ES"
-  ],
-  "title_local": "Camiseta infantil de manga corta negra 140 cm",
-  "commission": null,
-  "why": "Ropa de manga corta en color negro para niños de 140 cm",
-  "lang": "es",
-  "median_30d": 8.84,
-  "discount": 0.0,
-  "heat": 40.0,
-  "history": [],
-  "showcase": true,
-  "slug": "ropa-nueva-para-ni-os-camisetas-de-manga-corta-para-ni-os-ro-01024dc452",
-  "day": "2026-11-20"
- },
- {
-  "pid": "joom:65f3e2d0124bf70149c8960e",
-  "store": "joom",
-  "title": "Binoculares Portátiles 18×52 Color Alta Definición Alta Magnificación Enfoque Camping al Aire Libre con Telescopio Monocular",
-  "price_usd": 21.54,
-  "old_price_usd": null,
-  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F65f3e2d0124bf70149c8960e%3Fcurrency%3DEUR%26utm_productid%3D65f3e2d0124bf70149c8960e%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU2NTc5NTgsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY1ZjNlMmQwMTI0YmY3MDE0OWM4OTYwZSIsInYiOiI2NWYzZTJkMDEyNGJmNzVkNDljODk2MTIiLCJjIjoxOS44Mn1dfQ.sBmJ7xxqorpAt6uqXS6jmFDStIweDr2yxGAgW2CGOgzmw0B97M2XMLkLS4d5AiEe_hckWr4hVSYXrEb2ceKNqw%26variant_id%3D65f3e2d0124bf75d49c89612%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-19",
-  "image": "https://img.joomcdn.net/6a9811ad35fef42869896db77f9e7519ae33bdea_original.jpeg",
-  "rating": null,
-  "orders": null,
-  "category": "Joom/Deportes y ocio/Caza y pesca/Caza/Óptica para caza/Óptica para caza/Monoculares",
-  "niche": "sports",
-  "ships_to": [
-   "ES"
-  ],
-  "title_local": "Monocular portátil 18×52 de alta definición",
-  "commission": null,
-  "why": "Gran aumento de 18x52 y enfoque para camping exterior",
-  "lang": "es",
-  "median_30d": 21.54,
-  "discount": 0.0,
-  "heat": 40.0,
-  "history": [],
-  "showcase": true,
-  "slug": "binoculares-port-tiles-18-52-color-alta-definici-n-alta-magn-0149c8960e",
-  "day": "2026-11-20"
- },
- {
   "pid": "joom:68dc84f050afd0012ee0b729",
   "store": "joom",
   "title": "Nueva Chaqueta de Cuello con Botones de Moda Simple y Tendencia de Invierno Chaqueta de Cuero Informal para Hombre XXL rojo",
@@ -171,6 +117,742 @@
   "day": "2026-11-20"
  },
  {
+  "pid": "aliexpress:1005013424887160",
+  "store": "aliexpress",
+  "title": "UGREEN CM604 HDMI Splitter 1 in 4 Out 4K 60Hz HDMI 2.0 Video Distribution with Power for Monitor TV",
+  "price_usd": 33.68,
+  "old_price_usd": 51.04,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013424887160.html%253Fpdp_npi%253D6%252540dis%252521USD%25252151.04%25252133.68%252521%252521%252521338.49%252521223.40%252521%252540210152bd17949589149651142e0d9e%25252112000061094603461%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0aa79ef356634d32a8a7649649ac474e4.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Splitter HDMI 1 Entrada 4 Salidas 4K 60Hz",
+  "commission": 0.0538,
+  "why": "Duplica una señal HDMI en cuatro pantallas en 4K",
+  "lang": "es",
+  "median_30d": 51.04,
+  "discount": 0.3401,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-16",
+    33.68
+   ],
+   [
+    "2026-11-17",
+    33.68
+   ],
+   [
+    "2026-11-18",
+    33.68
+   ],
+   [
+    "2026-11-19",
+    33.68
+   ],
+   [
+    "2026-11-20",
+    33.68
+   ]
+  ],
+  "slug": "ugreen-cm604-hdmi-splitter-1-in-4-out-4k-60hz-hdmi-2-0-video-3424887160",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005013479389976",
+  "store": "aliexpress",
+  "title": "UGREEN 35050 M.2 NVMe SSD Enclosure USB-C Up to 10Gbps Aluminum Housing with Thermal Pad for External Storage and Data Backup",
+  "price_usd": 27.2,
+  "old_price_usd": 41.22,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013479389976.html%253Fpdp_npi%253D6%252540dis%252521USD%25252141.22%25252127.20%252521%252521%252521273.36%252521180.42%252521%252540210152bd17949588451031910e0ea6%25252112000061229769473%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1f16bcfb955242d9b3f43246ff2927b8K.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Carcasa M.2 NVMe SSD USB-C 10Gbps",
+  "commission": 0.0538,
+  "why": "Almacenamiento externo rápido a 10Gbps con aluminio",
+  "lang": "es",
+  "median_30d": 41.22,
+  "discount": 0.3401,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-18",
+    27.2
+   ],
+   [
+    "2026-11-19",
+    27.2
+   ],
+   [
+    "2026-11-20",
+    27.2
+   ]
+  ],
+  "slug": "ugreen-35050-m-2-nvme-ssd-enclosure-usb-c-up-to-10gbps-alumi-3479389976",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005013567296689",
+  "store": "aliexpress",
+  "title": "UGREEN CM690-25169 NETWORK CARD PCIe to RJ45 2.5G Ethernet Adapter Internal for Desktop PC Server",
+  "price_usd": 26.21,
+  "old_price_usd": 39.72,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013567296689.html%253Fpdp_npi%253D6%252540dis%252521USD%25252139.72%25252126.21%252521%252521%252521263.41%252521173.85%252521%252540212a7b8d17949586719662694e0d58%25252112000061510488617%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S31da887c0822441b972b4dc66f0f1217Q.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Tarjeta de Red PCIe a RJ45 2.5G Ethernet",
+  "commission": 0.0538,
+  "why": "Conexión de red ultrarrápida de 2.5G para tu PC",
+  "lang": "es",
+  "median_30d": 39.72,
+  "discount": 0.3401,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-18",
+    26.21
+   ],
+   [
+    "2026-11-19",
+    26.21
+   ],
+   [
+    "2026-11-20",
+    26.21
+   ]
+  ],
+  "slug": "ugreen-cm690-25169-network-card-pcie-to-rj45-2-5g-ethernet-a-3567296689",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005013614793912",
+  "store": "aliexpress",
+  "title": "ATTACK SHARK X68 HE 8000Hz Magnetic Switch Gaming Keyboard Rapid Trigger 0.01mm Adjustable Actuation Wired RGB",
+  "price_usd": 92.38,
+  "old_price_usd": 146.52,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013614793912.html%253Fpdp_npi%253D6%252540dis%252521USD%252521146.52%25252192.38%252521%252521%252521971.60%252521612.59%252521%252540210152bd17949583221296112e1073%25252112000061695530832%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S12ccaaf6770a48769cf405a11991960f0.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "ATTACK SHARK X68 HE Teclado Gaming Magnético 8000Hz",
+  "commission": 0.023,
+  "why": "Accionamiento ajustable ultrarrápido de 0.01mm",
+  "lang": "es",
+  "median_30d": 146.52,
+  "discount": 0.3695,
+  "heat": 67.4,
+  "history": [
+   [
+    "2026-11-16",
+    95.24
+   ],
+   [
+    "2026-11-17",
+    95.24
+   ],
+   [
+    "2026-11-18",
+    92.38
+   ],
+   [
+    "2026-11-19",
+    92.38
+   ],
+   [
+    "2026-11-20",
+    92.38
+   ]
+  ],
+  "slug": "attack-shark-x68-he-8000hz-magnetic-switch-gaming-keyboard-r-3614793912",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005005290731595",
+  "store": "aliexpress",
+  "title": "UGREEN Sound Card USB to 3.5mm Audio Interface Adapter for Earphone Mic for PC Laptop PS5/4 TRRS(CTIA/OMTP) Aluminum Metal Shell",
+  "price_usd": 10.34,
+  "old_price_usd": 16.41,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005005290731595.html%253Fpdp_npi%253D6%252540dis%252521USD%25252116.41%25252110.34%252521%252521%25252116.41%25252110.34%252521%2525402141149b17949579081246840e0e1f%25252112000032510708455%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se2704fd509364ad7b435801e2d21f2aad.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Components",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Tarjeta de Sonido USB a Jack 3.5 mm",
+  "commission": 0.0538,
+  "why": "Conecta tus auriculares y micrófono por USB con nitidez",
+  "lang": "es",
+  "median_30d": 16.41,
+  "discount": 0.3699,
+  "heat": 67.4,
+  "history": [
+   [
+    "2026-11-11",
+    10.34
+   ],
+   [
+    "2026-11-12",
+    10.34
+   ],
+   [
+    "2026-11-16",
+    10.34
+   ],
+   [
+    "2026-11-17",
+    10.34
+   ],
+   [
+    "2026-11-18",
+    10.34
+   ],
+   [
+    "2026-11-19",
+    10.34
+   ],
+   [
+    "2026-11-20",
+    10.34
+   ]
+  ],
+  "slug": "ugreen-sound-card-usb-to-3-5mm-audio-interface-adapter-for-e-5290731595",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005009100576844",
+  "store": "aliexpress",
+  "title": "UGREEN Dual HDMI USB-C HUB 8K 4K HDMI Adapter 10 in 1 Splitter with RJ45 USB3.0 PD 100W Dock for MacBook Pro Air Laptop USB HUB",
+  "price_usd": 14.27,
+  "old_price_usd": 22.65,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009100576844.html%253Fpdp_npi%253D6%252540dis%252521USD%25252122.65%25252114.27%252521%252521%25252122.65%25252114.27%252521%2525402151fce817949581165831552e0de8%25252112000047916534801%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S51b437dd2dcb41d5be0223cfffe85fa7d.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Hub USB-C 10 en 1 con Doble HDMI 8K",
+  "commission": 0.023,
+  "why": "Expande puertos en tu portátil con vídeo 8K y carga rápida",
+  "lang": "es",
+  "median_30d": 22.65,
+  "discount": 0.37,
+  "heat": 67.4,
+  "history": [
+   [
+    "2026-11-12",
+    14.27
+   ],
+   [
+    "2026-11-16",
+    14.27
+   ],
+   [
+    "2026-11-17",
+    14.27
+   ],
+   [
+    "2026-11-18",
+    14.27
+   ],
+   [
+    "2026-11-19",
+    14.27
+   ],
+   [
+    "2026-11-20",
+    14.27
+   ]
+  ],
+  "slug": "ugreen-dual-hdmi-usb-c-hub-8k-4k-hdmi-adapter-10-in-1-splitt-9100576844",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005005605683958",
+  "store": "aliexpress",
+  "title": "Baseus Wireless Car Air Pump Portable Air Compressor for Car Motorcycles Bicycle Electric Tire Inflator with LCD Digital Display",
+  "price_usd": 27.4,
+  "old_price_usd": 44.99,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005005605683958.html%253Fpdp_npi%253D6%252540dis%252521USD%25252144.99%25252127.40%252521%252521%25252144.99%25252127.40%252521%2525402140d36117949754400444298e0cf5%25252112000033780745293%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S73d0d3f4ab06475da7990ad4227729154.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Car Wash & Maintenance",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Bomba de Aire Inalámbrica Portátil LCD",
+  "commission": 0.0538,
+  "why": "Hinchador eléctrico con pantalla digital para neumáticos",
+  "lang": "es",
+  "median_30d": 44.99,
+  "discount": 0.391,
+  "heat": 67.8,
+  "history": [
+   [
+    "2026-11-14",
+    27.4
+   ],
+   [
+    "2026-11-15",
+    27.4
+   ],
+   [
+    "2026-11-16",
+    27.4
+   ],
+   [
+    "2026-11-17",
+    27.4
+   ],
+   [
+    "2026-11-18",
+    27.4
+   ],
+   [
+    "2026-11-19",
+    27.4
+   ],
+   [
+    "2026-11-20",
+    27.4
+   ]
+  ],
+  "slug": "baseus-wireless-car-air-pump-portable-air-compressor-for-car-5605683958",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005003458841456",
+  "store": "aliexpress",
+  "title": "Baseus Inflator Pump 12V Portable Car Air Compressor for Motorcycles Bicycle Boat Tyre Inflator Digital Auto Inflatable Air Pump",
+  "price_usd": 26.3,
+  "old_price_usd": 43.99,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005003458841456.html%253Fpdp_npi%253D6%252540dis%252521USD%25252143.99%25252126.30%252521%252521%25252143.99%25252126.30%252521%2525402151fca717949753371377482e0cf9%25252112000025882100497%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb993392ac134477ba1f8ea2378632ecfV.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Car Wash & Maintenance",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Minicompresor de Aire Portátil 12V para Coche",
+  "commission": 0.0538,
+  "why": "Infla neumáticos de coche, moto o bici fácilmente",
+  "lang": "es",
+  "median_30d": 43.99,
+  "discount": 0.4021,
+  "heat": 68.0,
+  "history": [
+   [
+    "2026-11-14",
+    26.83
+   ],
+   [
+    "2026-11-15",
+    26.83
+   ],
+   [
+    "2026-11-16",
+    26.83
+   ],
+   [
+    "2026-11-17",
+    26.83
+   ],
+   [
+    "2026-11-18",
+    26.3
+   ],
+   [
+    "2026-11-19",
+    26.3
+   ],
+   [
+    "2026-11-20",
+    26.3
+   ]
+  ],
+  "slug": "baseus-inflator-pump-12v-portable-car-air-compressor-for-mot-3458841456",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005009078711208",
+  "store": "aliexpress",
+  "title": "UGREEN DP KVM Switch 2 Monitors 2 PCs 8K 60Hz USB 3.0 Sharing Keyboard Mouse Monitor with HDR 3D for Laptop Desktop Printer",
+  "price_usd": 60.95,
+  "old_price_usd": 102.84,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009078711208.html%253Fpdp_npi%253D6%252540dis%252521USD%252521102.84%25252160.95%252521%252521%252521102.84%25252160.95%252521%252540212a7b8d17949581335551015e0d9a%25252112000058213592809%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scae02b94d84949d194a061547ec08433D.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Switch KVM DP 2 Monitores 2 PCs 8K 60Hz",
+  "commission": 0.023,
+  "why": "Comparte teclado y ratón entre dos PCs con calidad 8K",
+  "lang": "es",
+  "median_30d": 102.84,
+  "discount": 0.4073,
+  "heat": 68.1,
+  "history": [
+   [
+    "2026-11-14",
+    65.82
+   ],
+   [
+    "2026-11-15",
+    65.82
+   ],
+   [
+    "2026-11-16",
+    65.82
+   ],
+   [
+    "2026-11-17",
+    65.82
+   ],
+   [
+    "2026-11-18",
+    60.95
+   ],
+   [
+    "2026-11-19",
+    60.95
+   ],
+   [
+    "2026-11-20",
+    60.95
+   ]
+  ],
+  "slug": "ugreen-dp-kvm-switch-2-monitors-2-pcs-8k-60hz-usb-3-0-sharin-9078711208",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012455568825",
+  "store": "aliexpress",
+  "title": "Switch Gaming Keyboard Attack Shark X68HE Wired,0.01mm Adjustable Stroke RGB 68Keys Compact FPS Esports Keyboard",
+  "price_usd": 97.87,
+  "old_price_usd": 168.74,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012455568825.html%253Fpdp_npi%253D6%252540dis%252521USD%252521168.74%25252197.87%252521%252521%2525211118.95%252521648.99%252521%2525402151fce817949582017025184e0de8%25252112000058407777433%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9604c7a255c04bcdbad7141f518a5560l.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Attack Shark X68HE Teclado Gaming",
+  "commission": 0.023,
+  "why": "68 teclas compactas con carrera ajustable de 0.01mm.",
+  "lang": "es",
+  "median_30d": 168.74,
+  "discount": 0.42,
+  "heat": 68.4,
+  "history": [
+   [
+    "2026-11-18",
+    97.87
+   ],
+   [
+    "2026-11-19",
+    97.87
+   ],
+   [
+    "2026-11-20",
+    97.87
+   ]
+  ],
+  "slug": "switch-gaming-keyboard-attack-shark-x68he-wired-0-01mm-adjus-2455568825",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005005612183996",
+  "store": "aliexpress",
+  "title": "Baseus USB C Docking Station for Steam Deck Nintend Switch Game Type C to HDMI 4K@60Hz RJ45 PD 100W USB 3.0 6-in-1 Type C Hub",
+  "price_usd": 39.99,
+  "old_price_usd": 71.41,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005005612183996.html%253Fpdp_npi%253D6%252540dis%252521USD%25252171.41%25252139.99%252521%252521%25252171.41%25252139.99%252521%2525402151fce817949581435101856e0f12%25252112000053165489718%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S193ba47fed6d45089fc091d058268599u.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Hub USB-C 6 en 1 para Steam Deck HDMI 4K",
+  "commission": 0.023,
+  "why": "Conectividad total con salida HDMI 4K y carga de 100W",
+  "lang": "es",
+  "median_30d": 71.41,
+  "discount": 0.44,
+  "heat": 68.8,
+  "history": [
+   [
+    "2026-11-18",
+    39.99
+   ],
+   [
+    "2026-11-19",
+    39.99
+   ],
+   [
+    "2026-11-20",
+    39.99
+   ]
+  ],
+  "slug": "baseus-usb-c-docking-station-for-steam-deck-nintend-switch-g-5612183996",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005005221518229",
+  "store": "aliexpress",
+  "title": "Baseus 2Pcs Car Mirror HD Convex Mirror Blind Spot Auto Rearview Mirror 360 Degree Wide Angle Vehicle Parking Rimless Mirrors",
+  "price_usd": 7.62,
+  "old_price_usd": 13.61,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005005221518229.html%253Fpdp_npi%253D6%252540dis%252521USD%25252113.61%2525217.62%252521%252521%25252190.25%25252150.54%252521%2525402101611117949661911478919e0d11%25252112000032241911536%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S11eb8211999f407197eb4aaa77188784X.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Exterior Parts",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Espejo Coche Ángulo 360 HD 2 Uds",
+  "commission": 0.0538,
+  "why": "Mayor visibilidad y seguridad en el punto ciego",
+  "lang": "es",
+  "median_30d": 13.61,
+  "discount": 0.4401,
+  "heat": 68.8,
+  "history": [
+   [
+    "2026-11-18",
+    7.62
+   ],
+   [
+    "2026-11-19",
+    7.62
+   ],
+   [
+    "2026-11-20",
+    7.62
+   ]
+  ],
+  "slug": "baseus-2pcs-car-mirror-hd-convex-mirror-blind-spot-auto-rear-5221518229",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005010759467688",
+  "store": "aliexpress",
+  "title": "X68MAX ATTACK SHARK High-Performance Magnetic Switch Gaming Keyboard 8KHz Wired for Pro Esport 0.005mm RT Web Driver RGB X68HE",
+  "price_usd": 59.46,
+  "old_price_usd": 118.91,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010759467688.html%253Fpdp_npi%253D6%252540dis%252521USD%252521118.91%25252159.46%252521%252521%252521788.52%252521394.26%252521%2525402151fd2c17949580864391578e104c%25252112000061434824854%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3c43c3690e044a5a8cafb23a911dfff2C.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "X68MAX ATTACK SHARK Teclado Gaming",
+  "commission": 0.023,
+  "why": "Interruptores magnéticos de alto rendimiento con cable de 8KHz.",
+  "lang": "es",
+  "median_30d": 118.91,
+  "discount": 0.5,
+  "heat": 70.0,
+  "history": [
+   [
+    "2026-11-16",
+    59.46
+   ],
+   [
+    "2026-11-17",
+    59.46
+   ],
+   [
+    "2026-11-18",
+    59.46
+   ],
+   [
+    "2026-11-19",
+    59.46
+   ],
+   [
+    "2026-11-20",
+    59.46
+   ]
+  ],
+  "slug": "x68max-attack-shark-high-performance-magnetic-switch-gaming--0759467688",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012594468059",
+  "store": "aliexpress",
+  "title": "ATTACK SHARK X65 HE Hall Effect Gaming Mechanical Keyboard, 8KHz , 0.01mm Rapid Trigger, 0.125ms Low Latency, Hot-Swap RGB Backlit",
+  "price_usd": 55.23,
+  "old_price_usd": 110.46,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012594468059.html%253Fpdp_npi%253D6%252540dis%252521USD%252521110.46%25252155.23%252521%252521%252521732.52%252521366.26%252521%2525402151fce817949580711083012e0f12%25252112000058800450173%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf2f4ed5d234f4d9e8cbff3070fdb30fcI.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "ATTACK SHARK X65 HE Teclado Mecánico",
+  "commission": 0.023,
+  "why": "Efecto Hall con activación rápida de 0.01mm y baja latencia.",
+  "lang": "es",
+  "median_30d": 110.46,
+  "discount": 0.5,
+  "heat": 70.0,
+  "history": [
+   [
+    "2026-11-12",
+    55.16
+   ],
+   [
+    "2026-11-13",
+    55.16
+   ],
+   [
+    "2026-11-14",
+    55.16
+   ],
+   [
+    "2026-11-18",
+    55.23
+   ],
+   [
+    "2026-11-19",
+    55.23
+   ],
+   [
+    "2026-11-20",
+    55.23
+   ]
+  ],
+  "slug": "attack-shark-x65-he-hall-effect-gaming-mechanical-keyboard-8-2594468059",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005007626708956",
+  "store": "aliexpress",
+  "title": "Redragon K630 Dragonborn Hot Swappable 60% Wired Vibrant RGB LED USB Gaming 61 Keys Compact Mechanical Keyboard Pro Software Cus",
+  "price_usd": 32.99,
+  "old_price_usd": 65.98,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007626708956.html%253Fpdp_npi%253D6%252540dis%252521USD%25252165.98%25252132.99%252521%252521%25252165.98%25252132.99%252521%2525402151fce817949580433657797e0e2b%25252112000042329523186%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3839ea99ac594f35baa3514fb756279e2.png",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Redragon K630 Dragonborn Teclado 60%",
+  "commission": 0.023,
+  "why": "Diseño compacto de 61 teclas con retroiluminación RGB.",
+  "lang": "es",
+  "median_30d": 65.98,
+  "discount": 0.5,
+  "heat": 70.0,
+  "history": [
+   [
+    "2026-11-14",
+    32.99
+   ],
+   [
+    "2026-11-15",
+    32.99
+   ],
+   [
+    "2026-11-16",
+    32.99
+   ],
+   [
+    "2026-11-17",
+    32.99
+   ],
+   [
+    "2026-11-18",
+    32.99
+   ],
+   [
+    "2026-11-19",
+    32.99
+   ],
+   [
+    "2026-11-20",
+    32.99
+   ]
+  ],
+  "slug": "redragon-k630-dragonborn-hot-swappable-60-wired-vibrant-rgb--7626708956",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005007626798618",
+  "store": "aliexpress",
+  "title": "Redragon M908 RGB Backlight LED USB Wired Gaming Mouse 18 Programmable Mouse Buttons 12400 DPI",
+  "price_usd": 23.09,
+  "old_price_usd": 46.18,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007626798618.html%253Fpdp_npi%253D6%252540dis%252521USD%25252146.18%25252123.09%252521%252521%25252146.18%25252123.09%252521%2525402151fce817949581841573498e0de8%25252112000047109604273%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa18b5014c01d4b549fb9b95d1ed1385dk.png",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Redragon M908 Ratón Gaming USB 18 Botones 12400 DPI",
+  "commission": 0.023,
+  "why": "Control total con 18 botones programables y 12400 DPI",
+  "lang": "es",
+  "median_30d": 46.18,
+  "discount": 0.5,
+  "heat": 70.0,
+  "history": [
+   [
+    "2026-11-11",
+    23.09
+   ],
+   [
+    "2026-11-12",
+    23.09
+   ],
+   [
+    "2026-11-16",
+    23.09
+   ],
+   [
+    "2026-11-17",
+    23.09
+   ],
+   [
+    "2026-11-18",
+    23.09
+   ],
+   [
+    "2026-11-19",
+    23.09
+   ],
+   [
+    "2026-11-20",
+    23.09
+   ]
+  ],
+  "slug": "redragon-m908-rgb-backlight-led-usb-wired-gaming-mouse-18-pr-7626798618",
+  "day": "2026-11-20"
+ },
+ {
   "pid": "aliexpress:1005006419392466",
   "store": "aliexpress",
   "title": "RK Royal Kludge R65 Gasket Wired Mechanical Keyboard 66 Key 65% RGB Backlit Hot-swappable Gamer Keyboard with MDA PBT Keycaps",
@@ -261,112 +943,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005007099351339",
-  "store": "aliexpress",
-  "title": "Baseus Car Emergency Hammer Mutifunction Safety Windows Glass Breaker Safety Belt Cutter with Lamp Fast Escape Car Rescue Tool",
-  "price_usd": 17.55,
-  "old_price_usd": 37.35,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007099351339.html%253Fpdp_npi%253D6%252540dis%252521USD%25252137.35%25252117.55%252521%252521%252521247.84%252521116.48%252521%2525402151fd2c17949752506902529e0db7%25252112000039399901412%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S76a498a83d1e47e288080d909e861a8fx.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Car Wash & Maintenance",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Martillo de seguridad Baseus con linterna",
-  "commission": 0.0538,
-  "why": "Rompe cristales, corta cinturones y luz para escape rápido",
-  "lang": "es",
-  "median_30d": 37.35,
-  "discount": 0.5301,
-  "heat": 70.6,
-  "history": [
-   [
-    "2026-11-14",
-    17.56
-   ],
-   [
-    "2026-11-15",
-    17.56
-   ],
-   [
-    "2026-11-16",
-    17.55
-   ],
-   [
-    "2026-11-17",
-    17.55
-   ],
-   [
-    "2026-11-18",
-    17.55
-   ],
-   [
-    "2026-11-19",
-    17.55
-   ],
-   [
-    "2026-11-20",
-    17.55
-   ]
-  ],
-  "slug": "baseus-car-emergency-hammer-mutifunction-safety-windows-glas-7099351339",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005012139114366",
-  "store": "aliexpress",
-  "title": "Baseus Magnetic Car Phone Holder Vacuum Suction Cup Stand Rotation Мagnet Holder For iPhone 17 16 Gym/Driving Vacuum Car Mount",
-  "price_usd": 16.55,
-  "old_price_usd": 35.7,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012139114366.html%253Fpdp_npi%253D6%252540dis%252521USD%25252135.70%25252116.55%252521%252521%25252135.70%25252116.55%252521%25254021013cc617949738737155201e0dac%25252112000057601781134%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S86b14cfa80af4935a4a41c7a542102fdE.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Holders & Stands",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Soporte magnético Baseus con ventosa de vacío",
-  "commission": 0.0538,
-  "why": "Fijación por ventosa de vacío y rotación para coche o gimnasio",
-  "lang": "es",
-  "median_30d": 35.7,
-  "discount": 0.5364,
-  "heat": 70.7,
-  "history": [
-   [
-    "2026-11-14",
-    17.49
-   ],
-   [
-    "2026-11-15",
-    17.49
-   ],
-   [
-    "2026-11-16",
-    17.49
-   ],
-   [
-    "2026-11-17",
-    17.49
-   ],
-   [
-    "2026-11-18",
-    16.55
-   ],
-   [
-    "2026-11-19",
-    16.55
-   ],
-   [
-    "2026-11-20",
-    16.55
-   ]
-  ],
-  "slug": "baseus-magnetic-car-phone-holder-vacuum-suction-cup-stand-ro-2139114366",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005006588018170",
   "store": "aliexpress",
   "title": "UGREEN Card Reader USB 3.0 to SD Micro SD TF Memory Card Adapter for PC Laptop Accessories Multi Smart Cardreader Card Reader",
@@ -409,218 +985,6 @@
    ]
   ],
   "slug": "ugreen-card-reader-usb-3-0-to-sd-micro-sd-tf-memory-card-ada-6588018170",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005006437050447",
-  "store": "aliexpress",
-  "title": "Baseus Car Emergency Safety Hammer 3 in 1 U-shaped Seat Belt Cutter Window Breaker Escape with Emergency Lamp Car Accessories",
-  "price_usd": 15.64,
-  "old_price_usd": 34.0,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006437050447.html%253Fpdp_npi%253D6%252540dis%252521USD%25252134.00%25252115.64%252521%252521%252521225.59%252521103.77%252521%252540212a7b8d17949752566142735e0f26%25252112000037163009103%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd9e69135c74b494f997088c1c35b6b67X.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Car Wash & Maintenance",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Martillo de emergencia Baseus 3 en 1 con luz",
-  "commission": 0.0538,
-  "why": "Rompeventanas, cortador de cinturón y lámpara de emergencia",
-  "lang": "es",
-  "median_30d": 34.0,
-  "discount": 0.54,
-  "heat": 70.8,
-  "history": [
-   [
-    "2026-11-14",
-    15.65
-   ],
-   [
-    "2026-11-15",
-    15.65
-   ],
-   [
-    "2026-11-16",
-    15.64
-   ],
-   [
-    "2026-11-17",
-    15.64
-   ],
-   [
-    "2026-11-18",
-    15.64
-   ],
-   [
-    "2026-11-19",
-    15.64
-   ],
-   [
-    "2026-11-20",
-    15.64
-   ]
-  ],
-  "slug": "baseus-car-emergency-safety-hammer-3-in-1-u-shaped-seat-belt-6437050447",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005007904736955",
-  "store": "aliexpress",
-  "title": "Baseus Auto Restorable Car Phone Holder Gravity for Car Air Vent Silicone Stand For iPhone 15 Xiaomi Samsung Car Mobile Support",
-  "price_usd": 9.16,
-  "old_price_usd": 20.13,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007904736955.html%253Fpdp_npi%253D6%252540dis%252521USD%25252120.13%2525219.16%252521%252521%252521133.55%25252160.78%252521%2525402140d33617949742146496075e0d32%25252112000042788035043%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5f9a850c46b847ee8261c00bfef5c325w.png",
-  "rating": null,
-  "orders": null,
-  "category": "Holders & Stands",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Soporte de móvil Baseus de gravedad para rejilla",
-  "commission": 0.0538,
-  "why": "Ajuste por gravedad para la rejilla del coche con silicona",
-  "lang": "es",
-  "median_30d": 20.13,
-  "discount": 0.545,
-  "heat": 70.9,
-  "history": [
-   [
-    "2026-11-14",
-    10.33
-   ],
-   [
-    "2026-11-15",
-    10.33
-   ],
-   [
-    "2026-11-16",
-    10.33
-   ],
-   [
-    "2026-11-17",
-    10.33
-   ],
-   [
-    "2026-11-18",
-    9.16
-   ],
-   [
-    "2026-11-19",
-    9.16
-   ],
-   [
-    "2026-11-20",
-    9.16
-   ]
-  ],
-  "slug": "baseus-auto-restorable-car-phone-holder-gravity-for-car-air--7904736955",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005007890603575",
-  "store": "aliexpress",
-  "title": "UGREEN Phone Holder Stand Aluminum Cell Phone Stand Tablet Stand Support Mobile Phone For iPhone 16 15 14 Pro Max Xiaomi Samsung",
-  "price_usd": 14.82,
-  "old_price_usd": 32.66,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007890603575.html%253Fpdp_npi%253D6%252540dis%252521USD%25252132.66%25252114.82%252521%252521%25252132.66%25252114.82%252521%2525402140d33617949738576756455e1028%25252112000042738013568%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S00733f15cc714aefa459e8f87d4d23d7x.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Holders & Stands",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Soporte de aluminio UGREEN para móvil y tableta",
-  "commission": 0.0538,
-  "why": "Estructura de aluminio resistente para móvil y tableta",
-  "lang": "es",
-  "median_30d": 32.66,
-  "discount": 0.5462,
-  "heat": 70.9,
-  "history": [
-   [
-    "2026-11-14",
-    14.91
-   ],
-   [
-    "2026-11-15",
-    14.91
-   ],
-   [
-    "2026-11-16",
-    14.9
-   ],
-   [
-    "2026-11-17",
-    14.9
-   ],
-   [
-    "2026-11-18",
-    14.82
-   ],
-   [
-    "2026-11-19",
-    14.82
-   ],
-   [
-    "2026-11-20",
-    14.82
-   ]
-  ],
-  "slug": "ugreen-phone-holder-stand-aluminum-cell-phone-stand-tablet-s-7890603575",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005007890455789",
-  "store": "aliexpress",
-  "title": "UGREEN Phone Stand Aluminum Cell Phone Adjustable Desk Phone Holder for iPhone 15 14 13 12 Pro Max Xiaomi Samsung Tablet Support",
-  "price_usd": 14.15,
-  "old_price_usd": 31.19,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007890455789.html%253Fpdp_npi%253D6%252540dis%252521USD%25252131.19%25252114.15%252521%252521%25252131.19%25252114.15%252521%2525402140da8b17949739897907839e0fe5%25252112000042738821527%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3d7b09ddaed64158af4dd70091419b388.png",
-  "rating": null,
-  "orders": null,
-  "category": "Holders & Stands",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Soporte de escritorio ajustable UGREEN aluminio",
-  "commission": 0.0538,
-  "why": "Ajustable y compatible con móviles y tabletas",
-  "lang": "es",
-  "median_30d": 31.19,
-  "discount": 0.5463,
-  "heat": 70.9,
-  "history": [
-   [
-    "2026-11-14",
-    14.27
-   ],
-   [
-    "2026-11-15",
-    14.27
-   ],
-   [
-    "2026-11-16",
-    14.27
-   ],
-   [
-    "2026-11-17",
-    14.27
-   ],
-   [
-    "2026-11-18",
-    14.15
-   ],
-   [
-    "2026-11-19",
-    14.15
-   ],
-   [
-    "2026-11-20",
-    14.15
-   ]
-  ],
-  "slug": "ugreen-phone-stand-aluminum-cell-phone-adjustable-desk-phone-7890455789",
   "day": "2026-11-20"
  },
  {
@@ -783,43 +1147,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005011718172424",
-  "store": "aliexpress",
-  "title": "Ajazz AJ179 V2 Right-handed Wireless Gaming Mouse PAW3311 Sensor Tri Mode Dual 1K Computer Office Mouse DPI12000",
-  "price_usd": 22.11,
-  "old_price_usd": 50.82,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011718172424.html%253Fpdp_npi%253D6%252540dis%252521USD%25252150.82%25252122.11%252521%252521%252521337.02%252521146.63%252521%2525402101611117949584314594652e0fc4%25252112000056342152993%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc198d6b05ac54bf0a6d6aff43c96d0506.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Ratón gaming Ajazz AJ179 V2 PAW3311 12000 DPI",
-  "commission": 0.023,
-  "why": "Sensor PAW3311 con 12000 DPI y conexión trimodal",
-  "lang": "es",
-  "median_30d": 50.82,
-  "discount": 0.5649,
-  "heat": 71.3,
-  "history": [
-   [
-    "2026-11-18",
-    22.11
-   ],
-   [
-    "2026-11-19",
-    22.11
-   ],
-   [
-    "2026-11-20",
-    22.11
-   ]
-  ],
-  "slug": "ajazz-aj179-v2-right-handed-wireless-gaming-mouse-paw3311-se-1718172424",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005012789118307",
   "store": "aliexpress",
   "title": "M36HE ATTACK SHARK Hall Effect Mechanical Gaming Keyboard 8K Return Rate 0.1ms PBT Keycaps Web and PC Driver RGB Backlit Wired",
@@ -971,112 +1298,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005007470528876",
-  "store": "aliexpress",
-  "title": "UGREEN Magnetic Phone Stand 360° Rotation Aluminum Mobile Phone Stand For Magsafe iPhone 15 14 13 Pro Max Xiaomi Samsung Huawei",
-  "price_usd": 13.27,
-  "old_price_usd": 30.83,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007470528876.html%253Fpdp_npi%253D6%252540dis%252521USD%25252130.83%25252113.27%252521%252521%25252130.83%25252113.27%252521%2525402140f89017949742074276374e118c%25252112000040887953852%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S83c31bf4745a41409bd958bb386666a0E.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Holders & Stands",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Soporte magnético UGREEN 360° de aluminio",
-  "commission": 0.0538,
-  "why": "Rotación de 360 grados y compatible con MagSafe",
-  "lang": "es",
-  "median_30d": 30.83,
-  "discount": 0.5696,
-  "heat": 71.4,
-  "history": [
-   [
-    "2026-11-14",
-    13.41
-   ],
-   [
-    "2026-11-15",
-    13.41
-   ],
-   [
-    "2026-11-16",
-    13.41
-   ],
-   [
-    "2026-11-17",
-    13.41
-   ],
-   [
-    "2026-11-18",
-    13.27
-   ],
-   [
-    "2026-11-19",
-    13.27
-   ],
-   [
-    "2026-11-20",
-    13.27
-   ]
-  ],
-  "slug": "ugreen-magnetic-phone-stand-360-rotation-aluminum-mobile-pho-7470528876",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005012667598748",
-  "store": "aliexpress",
-  "title": "Baseus GoTrip DT2 Car Safety Hammer 2 in 1 Window Breaker Seat Belt Cutter Tungsten Steel Tip Emergency Escape Rescue Tool",
-  "price_usd": 18.77,
-  "old_price_usd": 43.61,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012667598748.html%253Fpdp_npi%253D6%252540dis%252521USD%25252143.61%25252118.77%252521%252521%252521289.41%252521124.57%252521%2525402151fd2c17949752506902529e0db7%25252112000058995987378%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S73016fb3a7a547db8469b3058fc88a90R.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Car Wash & Maintenance",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Martillo de seguridad Baseus GoTrip DT2 2 en 1",
-  "commission": 0.0538,
-  "why": "Rompe cristales y corta cinturones con punta de tungsteno",
-  "lang": "es",
-  "median_30d": 43.61,
-  "discount": 0.5696,
-  "heat": 71.4,
-  "history": [
-   [
-    "2026-11-14",
-    20.07
-   ],
-   [
-    "2026-11-15",
-    20.07
-   ],
-   [
-    "2026-11-16",
-    20.06
-   ],
-   [
-    "2026-11-17",
-    20.06
-   ],
-   [
-    "2026-11-18",
-    18.77
-   ],
-   [
-    "2026-11-19",
-    18.77
-   ],
-   [
-    "2026-11-20",
-    18.77
-   ]
-  ],
-  "slug": "baseus-gotrip-dt2-car-safety-hammer-2-in-1-window-breaker-se-2667598748",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005008932625862",
   "store": "aliexpress",
   "title": "ATTACK SHARK X68HE Keyboard, PBT Double-Shot, RGB, 0.01mm, Baiyu Magnetic Switches,",
@@ -1130,59 +1351,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005012464593654",
-  "store": "aliexpress",
-  "title": "450x400mm Attack Shark CM02 Gaming Mouse Pad 4mm Ultrathin Non Slip Topographic Contour Desk Mat For Gaming Office Gamer",
-  "price_usd": 22.54,
-  "old_price_usd": 52.88,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012464593654.html%253Fpdp_npi%253D6%252540dis%252521USD%25252152.88%25252122.54%252521%252521%252521350.67%252521149.48%252521%2525402151fd2c17949582947056131e0fa7%25252112000058474050283%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S555de392124647c3b1833d38de0332339.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Alfombrilla Attack Shark CM02",
-  "commission": 0.023,
-  "why": "Superficie ultrafina antideslizante de 450x400 mm.",
-  "lang": "es",
-  "median_30d": 52.88,
-  "discount": 0.5738,
-  "heat": 71.5,
-  "history": [
-   [
-    "2026-11-14",
-    22.54
-   ],
-   [
-    "2026-11-15",
-    22.54
-   ],
-   [
-    "2026-11-16",
-    22.54
-   ],
-   [
-    "2026-11-17",
-    22.54
-   ],
-   [
-    "2026-11-18",
-    22.54
-   ],
-   [
-    "2026-11-19",
-    22.54
-   ],
-   [
-    "2026-11-20",
-    22.54
-   ]
-  ],
-  "slug": "450x400mm-attack-shark-cm02-gaming-mouse-pad-4mm-ultrathin-n-2464593654",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005005895710498",
   "store": "aliexpress",
   "title": "REDRAGON SMD RGB MX Low Profile 5.5 Switch 3Pin Clicky Linear Tactile Silent Mechanical Keyboard Red Black Blue Brown Switche",
@@ -1217,59 +1385,6 @@
    ]
   ],
   "slug": "redragon-smd-rgb-mx-low-profile-5-5-switch-3pin-clicky-linea-5895710498",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005006367419820",
-  "store": "aliexpress",
-  "title": "Baseus Stylus Lite with LED for Apple Pencil iPad Palm Rejection Magnetic Design Touch Pen for Tablet for iPad Pro 2018-2023",
-  "price_usd": 14.04,
-  "old_price_usd": 33.2,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006367419820.html%253Fpdp_npi%253D6%252540dis%252521USD%25252133.20%25252114.04%252521%252521%252521220.15%25252193.13%252521%2525402140d36117949594144143756e0cf3%25252112000036917225385%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8904218c4a6749c492b007a0430c0b4aR.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Tablet Accessories & Parts",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus Stylus Lite con LED para iPad y Apple Pencil",
-  "commission": 0.0538,
-  "why": "Lápiz táctil con rechazo de palma y diseño magnético",
-  "lang": "es",
-  "median_30d": 33.2,
-  "discount": 0.5771,
-  "heat": 71.5,
-  "history": [
-   [
-    "2026-11-13",
-    13.61
-   ],
-   [
-    "2026-11-14",
-    13.61
-   ],
-   [
-    "2026-11-16",
-    14.04
-   ],
-   [
-    "2026-11-17",
-    14.04
-   ],
-   [
-    "2026-11-18",
-    14.04
-   ],
-   [
-    "2026-11-19",
-    14.04
-   ],
-   [
-    "2026-11-20",
-    14.04
-   ]
-  ],
-  "slug": "baseus-stylus-lite-with-led-for-apple-pencil-ipad-palm-rejec-6367419820",
   "day": "2026-11-20"
  },
  {
@@ -1461,161 +1576,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005009467240416",
-  "store": "aliexpress",
-  "title": "UGREEN Car Phone Holder Magnetic 360° Rotation For Magsafe iPhone 16 15 14 Pro Max Samsung S25 Ultra Xiaomi Air Vent Car Mount",
-  "price_usd": 10.24,
-  "old_price_usd": 24.74,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009467240416.html%253Fpdp_npi%253D6%252540dis%252521USD%25252124.74%25252110.24%252521%252521%25252124.74%25252110.24%252521%2525402140d36217949740877053719e0fbd%25252112000049192890711%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S85ded9ae554947e9a0ef6868f4ca22ff9.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Holders & Stands",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "UGREEN Soporte Movil Magnetico 360 Magsafe Rejilla",
-  "commission": 0.0538,
-  "why": "Soporte con rotacion de 360 grados para rejilla",
-  "lang": "es",
-  "median_30d": 24.74,
-  "discount": 0.5861,
-  "heat": 71.7,
-  "history": [
-   [
-    "2026-11-14",
-    10.24
-   ],
-   [
-    "2026-11-15",
-    10.24
-   ],
-   [
-    "2026-11-16",
-    10.24
-   ],
-   [
-    "2026-11-18",
-    10.24
-   ],
-   [
-    "2026-11-19",
-    10.24
-   ],
-   [
-    "2026-11-20",
-    10.24
-   ]
-  ],
-  "slug": "ugreen-car-phone-holder-magnetic-360-rotation-for-magsafe-ip-9467240416",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005006014887759",
-  "store": "aliexpress",
-  "title": "Baseus 7-in-1 Gen 2 USB C HUB 4K@60Hz HDMI 3* USB 3.0 PD 100W Type C Port SD/TF Card Reader for Macbook iPad M2 M1 Steam Deck",
-  "price_usd": 24.53,
-  "old_price_usd": 59.27,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006014887759.html%253Fpdp_npi%253D6%252540dis%252521USD%25252159.27%25252124.53%252521%252521%252521393.07%252521162.71%252521%252540210152bd17949583542733413e1073%25252112000035330025988%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5c9abd305ffd470ebc6b72ec49d99ec7V.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus HUB USB C 7 en 1 4K 60Hz HDMI PD 100W",
-  "commission": 0.023,
-  "why": "Hub USB C con HDMI 4K a 60Hz y carga PD de 100W",
-  "lang": "es",
-  "median_30d": 59.27,
-  "discount": 0.5861,
-  "heat": 71.7,
-  "history": [
-   [
-    "2026-11-14",
-    24.53
-   ],
-   [
-    "2026-11-15",
-    24.53
-   ],
-   [
-    "2026-11-16",
-    24.53
-   ],
-   [
-    "2026-11-17",
-    24.53
-   ],
-   [
-    "2026-11-18",
-    24.53
-   ],
-   [
-    "2026-11-19",
-    24.53
-   ],
-   [
-    "2026-11-20",
-    24.53
-   ]
-  ],
-  "slug": "baseus-7-in-1-gen-2-usb-c-hub-4k-60hz-hdmi-3-usb-3-0-pd-100w-6014887759",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005008886876486",
-  "store": "aliexpress",
-  "title": "UGREEN Magnetic Phone Holder For Tesla Car Touchscreen Triangular Structure For Magsafe iPhone 16 15 Pro Max Samsung Galaxy S25",
-  "price_usd": 14.35,
-  "old_price_usd": 34.7,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005008886876486.html%253Fpdp_npi%253D6%252540dis%252521USD%25252134.70%25252114.35%252521%252521%25252134.70%25252114.35%252521%252540210152bd17949738919911426e0f6b%25252112000047085148906%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdda5c5967b314fd78d08724ebb355bee4.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Holders & Stands",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "UGREEN Soporte Magnetico Pantalla Tesla Magsafe",
-  "commission": 0.0538,
-  "why": "Estructura triangular para pantalla tactil de Tesla",
-  "lang": "es",
-  "median_30d": 34.7,
-  "discount": 0.5865,
-  "heat": 71.7,
-  "history": [
-   [
-    "2026-11-14",
-    14.36
-   ],
-   [
-    "2026-11-15",
-    14.36
-   ],
-   [
-    "2026-11-16",
-    14.32
-   ],
-   [
-    "2026-11-17",
-    14.32
-   ],
-   [
-    "2026-11-18",
-    14.35
-   ],
-   [
-    "2026-11-19",
-    14.35
-   ],
-   [
-    "2026-11-20",
-    14.35
-   ]
-  ],
-  "slug": "ugreen-magnetic-phone-holder-for-tesla-car-touchscreen-trian-8886876486",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005013010671337",
   "store": "aliexpress",
   "title": "AJAZZ NK61 60% Mechanical Gaming Keyboard, 61 Keys, Linear Red Switches, Compatible Hot-Swap, USB Wired, OEM Profile Keycaps",
@@ -1703,51 +1663,6 @@
    ]
   ],
   "slug": "attack-shark-magnetic-keyboard-x68he-r82he-r85he-esports-key-1659837168",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005007549957228",
-  "store": "aliexpress",
-  "title": "UGREEN Magnetic Car Phone Holder Magsafe Air Vent Phone Stand Unviersal For iPhone 15 14 13 Pro Max Xiaomi Samsung Strong Magnet",
-  "price_usd": 13.5,
-  "old_price_usd": 33.33,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007549957228.html%253Fpdp_npi%253D6%252540dis%252521USD%25252133.33%25252113.50%252521%252521%25252133.33%25252113.50%252521%2525402140d33617949740378936340e0fc5%25252112000041256443818%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1d6d108315b441b3a4c8cfa4c15d027eS.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Holders & Stands",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "UGREEN Soporte Movil Magnetico Magsafe Rejilla",
-  "commission": 0.0538,
-  "why": "Soporte de iman fuerte para rejilla de aire",
-  "lang": "es",
-  "median_30d": 33.33,
-  "discount": 0.595,
-  "heat": 71.9,
-  "history": [
-   [
-    "2026-11-16",
-    13.5
-   ],
-   [
-    "2026-11-17",
-    13.5
-   ],
-   [
-    "2026-11-18",
-    13.5
-   ],
-   [
-    "2026-11-19",
-    13.5
-   ],
-   [
-    "2026-11-20",
-    13.5
-   ]
-  ],
-  "slug": "ugreen-magnetic-car-phone-holder-magsafe-air-vent-phone-stan-7549957228",
   "day": "2026-11-20"
  },
  {
@@ -1963,6 +1878,59 @@
   "day": "2026-11-20"
  },
  {
+  "pid": "aliexpress:1005012148375057",
+  "store": "aliexpress",
+  "title": "BASEUS Portable Fan Convenient Creative Small Fan Pocket Hand-held Fan Lightweight Mini Fan Air Coolers Outdoor USB Rechargeable",
+  "price_usd": 27.27,
+  "old_price_usd": 54.54,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012148375057.html%253Fpdp_npi%253D6%252540dis%252521USD%25252154.54%25252127.27%252521%252521%252521361.90%252521180.95%252521%252540210152bd17949761608347714e1052%25252112000057625027580%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2c623953f97d4753a51e6b2fd6339eef0.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Household Appliances",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "BASEUS Ventilador Portatil Mini Mano USB",
+  "commission": 0.0538,
+  "why": "Ventilador de mano compacto recargable por USB",
+  "lang": "es",
+  "median_30d": 54.54,
+  "discount": 0.5,
+  "heat": 72.1,
+  "history": [
+   [
+    "2026-11-14",
+    27.28
+   ],
+   [
+    "2026-11-15",
+    27.28
+   ],
+   [
+    "2026-11-16",
+    27.27
+   ],
+   [
+    "2026-11-17",
+    27.27
+   ],
+   [
+    "2026-11-18",
+    27.27
+   ],
+   [
+    "2026-11-19",
+    27.27
+   ],
+   [
+    "2026-11-20",
+    27.27
+   ]
+  ],
+  "slug": "baseus-portable-fan-convenient-creative-small-fan-pocket-han-2148375057",
+  "day": "2026-11-20"
+ },
+ {
   "pid": "aliexpress:1005013624496254",
   "store": "aliexpress",
   "title": "UGREEN Ethernet Cable 10Gbps Cat6A Patch Internet RJ45 Cord 28AWG 500MHz for Router PC Gold-Plated Connectors Pure Copper Wire",
@@ -2005,112 +1973,6 @@
    ]
   ],
   "slug": "ugreen-ethernet-cable-10gbps-cat6a-patch-internet-rj45-cord--3624496254",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005005536553140",
-  "store": "aliexpress",
-  "title": "Baseus Gen2 Digital Stylus for iPad 4/5/Pro 11 & 12.9-inch/ Mini 6, for Apple Pencil-Like Pen Supporting Palm Rejection Pens",
-  "price_usd": 20.32,
-  "old_price_usd": 47.04,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005005536553140.html%253Fpdp_npi%253D6%252540dis%252521USD%25252147.04%25252120.32%252521%252521%252521311.96%252521134.75%252521%25254021013cc617949593948482136e1107%25252112000044110914348%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd76f7ac0e8c74a92903e1863c777c980g.png",
-  "rating": null,
-  "orders": null,
-  "category": "Tablet Accessories & Parts",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus Gen2 Lapis Digital iPad Rechazo Palma",
-  "commission": 0.0538,
-  "why": "Boligrafo digital para iPad con rechazo de palma",
-  "lang": "es",
-  "median_30d": 47.04,
-  "discount": 0.568,
-  "heat": 72.5,
-  "history": [
-   [
-    "2026-11-13",
-    20.13
-   ],
-   [
-    "2026-11-14",
-    20.98
-   ],
-   [
-    "2026-11-15",
-    20.98
-   ],
-   [
-    "2026-11-16",
-    20.98
-   ],
-   [
-    "2026-11-18",
-    20.32
-   ],
-   [
-    "2026-11-19",
-    20.32
-   ],
-   [
-    "2026-11-20",
-    20.32
-   ]
-  ],
-  "slug": "baseus-gen2-digital-stylus-for-ipad-4-5-pro-11-12-9-inch-min-5536553140",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005009024108046",
-  "store": "aliexpress",
-  "title": "Baseus Car Phone Holder Sucker for Dashboard Mobile Phone Holder Car Mount For Samsung iPhone Xiaomi Huawei Foldable Holder",
-  "price_usd": 11.22,
-  "old_price_usd": 29.98,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009024108046.html%253Fpdp_npi%253D6%252540dis%252521USD%25252129.98%25252111.22%252521%252521%25252129.98%25252111.22%252521%25254021013cc017949738704658586e0db3%25252112000047621930247%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S38ca9e7ba1bc4e3b9fb62e95a1ad0420x.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Holders & Stands",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus Soporte Movil Coche Ventosa Salpicadero",
-  "commission": 0.0538,
-  "why": "Soporte plegable para movil con ventosa",
-  "lang": "es",
-  "median_30d": 29.98,
-  "discount": 0.6258,
-  "heat": 72.5,
-  "history": [
-   [
-    "2026-11-14",
-    11.34
-   ],
-   [
-    "2026-11-15",
-    11.34
-   ],
-   [
-    "2026-11-16",
-    11.34
-   ],
-   [
-    "2026-11-17",
-    11.34
-   ],
-   [
-    "2026-11-18",
-    11.22
-   ],
-   [
-    "2026-11-19",
-    11.22
-   ],
-   [
-    "2026-11-20",
-    11.22
-   ]
-  ],
-  "slug": "baseus-car-phone-holder-sucker-for-dashboard-mobile-phone-ho-9024108046",
   "day": "2026-11-20"
  },
  {
@@ -2270,59 +2132,6 @@
    ]
   ],
   "slug": "ugreen-sound-card-external-3-5mm-usb-adapter-usb-to-micropho-7314636034",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005007037991448",
-  "store": "aliexpress",
-  "title": "UGREEN Stylus Pen for Apple Pencil iPad Tpye C Charging Long Battery Life Palm Rejection Tilt Pen for iPad Pro",
-  "price_usd": 23.2,
-  "old_price_usd": 51.98,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007037991448.html%253Fpdp_npi%253D6%252540dis%252521USD%25252151.98%25252123.20%252521%252521%25252151.98%25252123.20%252521%25254021013cc017949590902302829e0f1e%25252112000039178699991%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4acdb05962004b41a9b27843d96b5503Y.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Tablet Accessories & Parts",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "UGREEN Lapis Tactil iPad Carga Tipo C Rechazo Palma",
-  "commission": 0.0538,
-  "why": "Lapiz para iPad con rechazo de palma y carga Tipo C",
-  "lang": "es",
-  "median_30d": 51.98,
-  "discount": 0.5537,
-  "heat": 73.7,
-  "history": [
-   [
-    "2026-11-13",
-    24.95
-   ],
-   [
-    "2026-11-14",
-    24.95
-   ],
-   [
-    "2026-11-15",
-    24.95
-   ],
-   [
-    "2026-11-16",
-    24.95
-   ],
-   [
-    "2026-11-18",
-    23.2
-   ],
-   [
-    "2026-11-19",
-    23.2
-   ],
-   [
-    "2026-11-20",
-    23.2
-   ]
-  ],
-  "slug": "ugreen-stylus-pen-for-apple-pencil-ipad-tpye-c-charging-long-7037991448",
   "day": "2026-11-20"
  },
  {
@@ -2567,6 +2376,1627 @@
   "day": "2026-11-20"
  },
  {
+  "pid": "aliexpress:1005012731760076",
+  "store": "aliexpress",
+  "title": "R85HE ATTACK SHARK Wired 8K Magnetic Keyboard 0.005mm RT Accuracy Rapid Trigger Emergency Stop 256K Scanning Rate RGB Keyboard",
+  "price_usd": 78.95,
+  "old_price_usd": 181.49,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012731760076.html%253Fpdp_npi%253D6%252540dis%252521USD%252521181.49%25252178.95%252521%252521%2525211203.49%252521523.50%252521%2525402151fd3a17949581552607785e0fb9%25252112000059196902918%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Saa54be174e6344efb5a816277f140bb0f.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Teclado magnético ATTACK SHARK R85HE 8K RGB",
+  "commission": 0.023,
+  "why": "Tasa de escaneo de 256K y precisión Rapid Trigger de 0,005 mm",
+  "lang": "es",
+  "median_30d": 181.49,
+  "discount": 0.565,
+  "heat": 76.6,
+  "history": [
+   [
+    "2026-11-11",
+    81.56
+   ],
+   [
+    "2026-11-12",
+    81.56
+   ],
+   [
+    "2026-11-18",
+    78.95
+   ],
+   [
+    "2026-11-19",
+    78.95
+   ],
+   [
+    "2026-11-20",
+    78.95
+   ]
+  ],
+  "slug": "r85he-attack-shark-wired-8k-magnetic-keyboard-0-005mm-rt-acc-2731760076",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012255336419",
+  "store": "aliexpress",
+  "title": "Custom R85 ATTACK SHARK R85HE Magnetic Keyboard Wired 0.005mm RT 8K Hz 256K RGB Gaming Neon Lightbox for Esports Gaming Gift",
+  "price_usd": 76.89,
+  "old_price_usd": 183.08,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012255336419.html%253Fpdp_npi%253D6%252540dis%252521USD%252521183.08%25252176.89%252521%252521%2525211214.07%252521509.91%252521%252540212a7b8d17949581335551015e0d9a%25252112000057889898504%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd7e26371805c4280ab48f31936f342c5J.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "ATTACK SHARK R85HE Teclado Magnético 8K Hz RGB",
+  "commission": 0.023,
+  "why": "Tecnología RT de 0.005mm para gaming de esports",
+  "lang": "es",
+  "median_30d": 183.08,
+  "discount": 0.58,
+  "heat": 77.3,
+  "history": [
+   [
+    "2026-11-16",
+    76.89
+   ],
+   [
+    "2026-11-17",
+    76.89
+   ],
+   [
+    "2026-11-18",
+    76.89
+   ],
+   [
+    "2026-11-19",
+    76.89
+   ],
+   [
+    "2026-11-20",
+    76.89
+   ]
+  ],
+  "slug": "custom-r85-attack-shark-r85he-magnetic-keyboard-wired-0-005m-2255336419",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005007935983752",
+  "store": "aliexpress",
+  "title": "UGREEN Car Air Pump Portable Air Compressor for Car Motorcycles Bicycle Electric Tire Inflator with LCD Digital Display",
+  "price_usd": 38.11,
+  "old_price_usd": 71.41,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007935983752.html%253Fpdp_npi%253D6%252540dis%252521USD%25252171.41%25252138.11%252521%252521%25252171.41%25252138.11%252521%2525402102f1cd17949754725151905e0e50%25252112000042933716498%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S59c316af5d4b435291a7f048744a1058H.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Car Wash & Maintenance",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Bomba Aire Portatil Compresor Digital LCD",
+  "commission": 0.0538,
+  "why": "Inflador electrico con pantalla LCD digital",
+  "lang": "es",
+  "median_30d": 71.41,
+  "discount": 0.4663,
+  "heat": 77.7,
+  "history": [
+   [
+    "2026-11-14",
+    38.4
+   ],
+   [
+    "2026-11-15",
+    38.4
+   ],
+   [
+    "2026-11-16",
+    38.52
+   ],
+   [
+    "2026-11-17",
+    38.52
+   ],
+   [
+    "2026-11-18",
+    38.11
+   ],
+   [
+    "2026-11-19",
+    38.11
+   ],
+   [
+    "2026-11-20",
+    38.11
+   ]
+  ],
+  "slug": "ugreen-car-air-pump-portable-air-compressor-for-car-motorcyc-7935983752",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012437141944",
+  "store": "aliexpress",
+  "title": "AJAZZ AK980MAX V2 98-key Hot-Swappable Wired Magnetic Axis Keyboard with 8K Polling Rate and Hall Effect",
+  "price_usd": 73.45,
+  "old_price_usd": 183.56,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012437141944.html%253Fpdp_npi%253D6%252540dis%252521USD%252521183.56%25252173.45%252521%252521%2525211217.27%252521487.13%252521%2525402151fce817949581072885534e0cc1%25252112000058369319055%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3ff43d6e8648423ab739a4cb6cc4f218y.png",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Teclado AJAZZ AK980MAX V2 Hall Effect 8K 98 teclas",
+  "commission": 0.023,
+  "why": "Interruptores magnéticos intercambiables y tasa de sondeo de 8K",
+  "lang": "es",
+  "median_30d": 183.56,
+  "discount": 0.5999,
+  "heat": 77.9,
+  "history": [
+   [
+    "2026-11-18",
+    73.45
+   ],
+   [
+    "2026-11-19",
+    73.45
+   ],
+   [
+    "2026-11-20",
+    73.45
+   ]
+  ],
+  "slug": "ajazz-ak980max-v2-98-key-hot-swappable-wired-magnetic-axis-k-2437141944",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005007687562690",
+  "store": "aliexpress",
+  "title": "Baseus Wireless Air Compressor Mini Air Inflator Pump for Air Mattresses Beds Inflatable Mats Swim Ring Deflate For Storage Bag",
+  "price_usd": 29.24,
+  "old_price_usd": 64.98,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007687562690.html%253Fpdp_npi%253D6%252540dis%252521USD%25252164.98%25252129.24%252521%252521%252521431.21%252521194.04%252521%2525402151fd2c17949753865334298e0df9%25252112000041839948737%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0e39037c6bb44a26ba40309605aa5120A.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Car Wash & Maintenance",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Compresor Aire Inalambrico Mini Colchones",
+  "commission": 0.0538,
+  "why": "Bomba infladora para colchones y colchonetas",
+  "lang": "es",
+  "median_30d": 64.98,
+  "discount": 0.55,
+  "heat": 78.7,
+  "history": [
+   [
+    "2026-11-14",
+    29.26
+   ],
+   [
+    "2026-11-15",
+    29.26
+   ],
+   [
+    "2026-11-16",
+    29.24
+   ],
+   [
+    "2026-11-17",
+    29.24
+   ],
+   [
+    "2026-11-18",
+    29.24
+   ],
+   [
+    "2026-11-19",
+    29.24
+   ],
+   [
+    "2026-11-20",
+    29.24
+   ]
+  ],
+  "slug": "baseus-wireless-air-compressor-mini-air-inflator-pump-for-ai-7687562690",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012880911721",
+  "store": "aliexpress",
+  "title": "Ajazz AK820 PRO with Screen, Wireless Gaming, Mechanical Keyboard, Multi Switch Selection, Tri Mode, Computer Office DIY, RGB",
+  "price_usd": 67.97,
+  "old_price_usd": 186.01,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012880911721.html%253Fpdp_npi%253D6%252540dis%252521USD%252521186.01%25252167.97%252521%252521%2525211233.47%252521450.69%252521%2525400b8ded7b17949581767515150e0fbc%25252112000059608269666%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb63922ed6d9945e2849daf23ab3e27abH.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Teclado mecánico gaming Ajazz AK820 PRO inalambrico RGB",
+  "commission": 0.023,
+  "why": "Pantalla integrada y conexion inalambrica en tres modos",
+  "lang": "es",
+  "median_30d": 186.01,
+  "discount": 0.6346,
+  "heat": 79.1,
+  "history": [
+   [
+    "2026-11-16",
+    67.97
+   ],
+   [
+    "2026-11-17",
+    67.97
+   ],
+   [
+    "2026-11-18",
+    67.97
+   ],
+   [
+    "2026-11-19",
+    67.97
+   ],
+   [
+    "2026-11-20",
+    67.97
+   ]
+  ],
+  "slug": "ajazz-ak820-pro-with-screen-wireless-gaming-mechanical-keybo-2880911721",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005010794985699",
+  "store": "aliexpress",
+  "title": "RK ROYAL KLUDGE Ultra65 Wired Aluminum Mechanical Keyboard 65% Gasket CNC Integrated RGB Flagship Gamer Keyboard Hot-swappable",
+  "price_usd": 109.19,
+  "old_price_usd": 259.98,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010794985699.html%253Fpdp_npi%253D6%252540dis%252521USD%252521259.98%252521109.19%252521%252521%252521259.98%252521109.19%252521%2525402151fce817949585186521608e0ef1%25252112000057645413033%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S742885ae0d6949f28f99f646243d9784j.png",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Teclado mecánico 65% RK Royal Kludge Ultra65 CNC Gasket",
+  "commission": 0.023,
+  "why": "Cuerpo integrado en aluminio CNC con montaje Gasket y RGB",
+  "lang": "es",
+  "median_30d": 259.98,
+  "discount": 0.58,
+  "heat": 81.1,
+  "history": [
+   [
+    "2026-11-14",
+    109.19
+   ],
+   [
+    "2026-11-15",
+    109.19
+   ],
+   [
+    "2026-11-16",
+    109.19
+   ],
+   [
+    "2026-11-17",
+    109.19
+   ],
+   [
+    "2026-11-18",
+    109.19
+   ],
+   [
+    "2026-11-19",
+    109.19
+   ],
+   [
+    "2026-11-20",
+    109.19
+   ]
+  ],
+  "slug": "rk-royal-kludge-ultra65-wired-aluminum-mechanical-keyboard-6-0794985699",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005008625896794",
+  "store": "aliexpress",
+  "title": "RK ROYAL KLUDGE S85 TFT Color Screent Mechanical Keyboard Tri Mode Wireless 85 Keycaps Hot-Swappable Gamer Keyboard RGB Backlit",
+  "price_usd": 82.35,
+  "old_price_usd": 211.98,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005008625896794.html%253Fpdp_npi%253D6%252540dis%252521USD%252521211.98%25252182.35%252521%252521%252521211.98%25252182.35%252521%2525400b8ded7b17949582122513920e0f39%25252112000046011211426%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S570d83a33a384dc1bdde4d72fa5f587dQ.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "RK ROYAL KLUDGE S85 Teclado Mecánico Inalámbrico RGB",
+  "commission": 0.023,
+  "why": "Pantalla a color TFT y 85 teclas intercambiables",
+  "lang": "es",
+  "median_30d": 211.98,
+  "discount": 0.6115,
+  "heat": 82.4,
+  "history": [
+   [
+    "2026-11-16",
+    82.53
+   ],
+   [
+    "2026-11-17",
+    82.53
+   ],
+   [
+    "2026-11-18",
+    82.35
+   ],
+   [
+    "2026-11-19",
+    82.35
+   ],
+   [
+    "2026-11-20",
+    82.35
+   ]
+  ],
+  "slug": "rk-royal-kludge-s85-tft-color-screent-mechanical-keyboard-tr-8625896794",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005006744199473",
+  "store": "aliexpress",
+  "title": "Baseus Car Inflator Pump 12V Smart Electric Car Tire Pump 150 PSI LED Display Car Tyre Air Compressor for Bicycle Motorcycle",
+  "price_usd": 38.88,
+  "old_price_usd": 84.53,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006744199473.html%253Fpdp_npi%253D6%252540dis%252521USD%25252184.53%25252138.88%252521%252521%252521560.90%252521258.01%252521%2525402140d36117949753706895796e0cf5%25252112000038163095222%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf3a2d9bb7ad74ec9b02534acf3ad407eJ.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Car Wash & Maintenance",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Inflador Coche 12V 150 PSI Pantalla LED",
+  "commission": 0.0538,
+  "why": "Compresor de aire de 150 PSI con pantalla LED",
+  "lang": "es",
+  "median_30d": 84.53,
+  "discount": 0.54,
+  "heat": 84.9,
+  "history": [
+   [
+    "2026-11-14",
+    38.9
+   ],
+   [
+    "2026-11-15",
+    38.9
+   ],
+   [
+    "2026-11-16",
+    38.88
+   ],
+   [
+    "2026-11-17",
+    38.88
+   ],
+   [
+    "2026-11-18",
+    38.88
+   ],
+   [
+    "2026-11-19",
+    38.88
+   ],
+   [
+    "2026-11-20",
+    38.88
+   ]
+  ],
+  "slug": "baseus-car-inflator-pump-12v-smart-electric-car-tire-pump-15-6744199473",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012225493503",
+  "store": "aliexpress",
+  "title": "Baseus Mini Car Air Compressor 12V 150PSI Portable Car Tire Inflator Smart Digital Inflatable Pump For Car Bicycle Boat Air Pump",
+  "price_usd": 57.17,
+  "old_price_usd": 127.04,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012225493503.html%253Fpdp_npi%253D6%252540dis%252521USD%252521127.04%25252157.17%252521%252521%252521842.97%252521379.34%252521%2525402151fd3a17949754782265062e0d4e%25252112000057824956642%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd94989aa15ed40b8a7c4e756d9085bb7C.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Car Wash & Maintenance",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Mini Compresor Aire Coche 12V 150PSI Digital",
+  "commission": 0.0538,
+  "why": "Inflador inteligente digital de 12V y 150PSI",
+  "lang": "es",
+  "median_30d": 127.04,
+  "discount": 0.55,
+  "heat": 85.9,
+  "history": [
+   [
+    "2026-11-14",
+    57.2
+   ],
+   [
+    "2026-11-15",
+    57.2
+   ],
+   [
+    "2026-11-16",
+    57.17
+   ],
+   [
+    "2026-11-17",
+    57.17
+   ],
+   [
+    "2026-11-18",
+    57.17
+   ],
+   [
+    "2026-11-19",
+    57.17
+   ],
+   [
+    "2026-11-20",
+    57.17
+   ]
+  ],
+  "slug": "baseus-mini-car-air-compressor-12v-150psi-portable-car-tire--2225493503",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005009392584624",
+  "store": "aliexpress",
+  "title": "New Baseus GoTrip VA1 Pro/Max Car Air Pump 7500mAh Air Compressor Portable Tire Inflator for Motorcycle Bicycle Ball Car Pump",
+  "price_usd": 29.54,
+  "old_price_usd": 79.98,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009392584624.html%253Fpdp_npi%253D6%252540dis%252521USD%25252179.98%25252129.54%252521%252521%25252179.98%25252129.54%252521%2525402151fca717949754607876091e0f4c%25252112000049481937647%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb480f070296481abbb8b35668bc5c7b8.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Car Wash & Maintenance",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus GoTrip VA1 Pro Max 7500mAh Bomba Portatil",
+  "commission": 0.0538,
+  "why": "Compresor de aire portatil de 7500mAh para varios usos",
+  "lang": "es",
+  "median_30d": 79.98,
+  "discount": 0.6307,
+  "heat": 86.9,
+  "history": [
+   [
+    "2026-11-14",
+    29.54
+   ],
+   [
+    "2026-11-15",
+    29.54
+   ],
+   [
+    "2026-11-16",
+    29.54
+   ],
+   [
+    "2026-11-17",
+    29.54
+   ],
+   [
+    "2026-11-18",
+    29.54
+   ],
+   [
+    "2026-11-19",
+    29.54
+   ],
+   [
+    "2026-11-20",
+    29.54
+   ]
+  ],
+  "slug": "new-baseus-gotrip-va1-pro-max-car-air-pump-7500mah-air-compr-9392584624",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005008707184695",
+  "store": "aliexpress",
+  "title": "Baseus Wireless Air Pump Portable Tire Inflator Air Compressor with Digital Display for Car Motorcycles Bicycle Electric Pump",
+  "price_usd": 39.59,
+  "old_price_usd": 92.66,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005008707184695.html%253Fpdp_npi%253D6%252540dis%252521USD%25252192.66%25252139.59%252521%252521%252521614.48%252521262.57%252521%2525402141149b17949596085322768e0cf4%25252112000046335175678%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Seb2e184a87694d73901f5fe82e7e6831h.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Motorcycle Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Compresor Aire Portatil Inalambrico Pantalla",
+  "commission": 0.0538,
+  "why": "Inflador con pantalla digital para coche, moto y bici",
+  "lang": "es",
+  "median_30d": 92.66,
+  "discount": 0.5727,
+  "heat": 88.1,
+  "history": [
+   [
+    "2026-11-14",
+    39.6
+   ],
+   [
+    "2026-11-15",
+    39.6
+   ],
+   [
+    "2026-11-16",
+    39.64
+   ],
+   [
+    "2026-11-17",
+    39.64
+   ],
+   [
+    "2026-11-18",
+    39.59
+   ],
+   [
+    "2026-11-19",
+    39.59
+   ],
+   [
+    "2026-11-20",
+    39.59
+   ]
+  ],
+  "slug": "baseus-wireless-air-pump-portable-tire-inflator-air-compress-8707184695",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012737864867",
+  "store": "aliexpress",
+  "title": "Baseus GoTrip VA1 Max Car Air Pump 150PSI Portable Air Compressor 7500mAh Electric Car Tire Inflator for Motorcycle Bicycle Ball Air Pump",
+  "price_usd": 37.13,
+  "old_price_usd": 88.41,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012737864867.html%253Fpdp_npi%253D6%252540dis%252521USD%25252188.41%25252137.13%252521%252521%25252188.41%25252137.13%252521%252540212a7b8d17949752939436269e0f26%25252112000059242466362%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3906d91707a9458b966bf79a9e551bb4v.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Car Wash & Maintenance",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus GoTrip VA1 Max 150PSI 7500mAh Bomba Coche",
+  "commission": 0.0538,
+  "why": "Compresor de aire portatil de 150PSI con bateria de 7500mAh",
+  "lang": "es",
+  "median_30d": 88.41,
+  "discount": 0.58,
+  "heat": 88.7,
+  "history": [
+   [
+    "2026-11-14",
+    37.13
+   ],
+   [
+    "2026-11-15",
+    37.13
+   ],
+   [
+    "2026-11-16",
+    37.13
+   ],
+   [
+    "2026-11-17",
+    37.13
+   ],
+   [
+    "2026-11-18",
+    37.13
+   ],
+   [
+    "2026-11-19",
+    37.13
+   ],
+   [
+    "2026-11-20",
+    37.13
+   ]
+  ],
+  "slug": "baseus-gotrip-va1-max-car-air-pump-150psi-portable-air-compr-2737864867",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "joom:662b0103fa635d01024dc452",
+  "store": "joom",
+  "title": "Ropa Nueva para Niños, Camisetas de Manga Corta para Niños, Ropa de Bebé para Niñas 140cm black",
+  "price_usd": 8.84,
+  "old_price_usd": null,
+  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F662b0103fa635d01024dc452%3Fcurrency%3DEUR%26utm_productid%3D662b0103fa635d01024dc452%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU2NTc5NTgsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY2MmIwMTAzZmE2MzVkMDEwMjRkYzQ1MiIsInYiOiI2NjJiMDEwM2ZhNjM1ZDEzMDI0ZGM0NTkiLCJjIjo4LjEzfV19.GcWgqZ_lW2YODy0_3zD2nMWSNXe90AN65rIjcKMf5X4Fa0ovtL_ExtBNCYPbTukpyhc6rAY-KWAZDr1iuMbl6Q%26variant_id%3D662b0103fa635d13024dc459%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-19",
+  "image": "https://img.joomcdn.net/f2ece4fff4cf967ed857759a3c1be8fa1d16da8c_original.jpeg",
+  "rating": null,
+  "orders": null,
+  "category": "Joom/Productos para niños/Moda infantil/Ropa/Niñas/Camisetas y sudaderas/Camisetas",
+  "niche": "kids",
+  "ships_to": [
+   "ES"
+  ],
+  "title_local": "Camiseta infantil de manga corta negra 140 cm",
+  "commission": null,
+  "why": "Ropa de manga corta en color negro para niños de 140 cm",
+  "lang": "es",
+  "median_30d": 8.84,
+  "discount": 0.0,
+  "heat": 40.0,
+  "history": [],
+  "showcase": true,
+  "slug": "ropa-nueva-para-ni-os-camisetas-de-manga-corta-para-ni-os-ro-01024dc452",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "joom:65f3e2d0124bf70149c8960e",
+  "store": "joom",
+  "title": "Binoculares Portátiles 18×52 Color Alta Definición Alta Magnificación Enfoque Camping al Aire Libre con Telescopio Monocular",
+  "price_usd": 21.54,
+  "old_price_usd": null,
+  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F65f3e2d0124bf70149c8960e%3Fcurrency%3DEUR%26utm_productid%3D65f3e2d0124bf70149c8960e%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU2NTc5NTgsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY1ZjNlMmQwMTI0YmY3MDE0OWM4OTYwZSIsInYiOiI2NWYzZTJkMDEyNGJmNzVkNDljODk2MTIiLCJjIjoxOS44Mn1dfQ.sBmJ7xxqorpAt6uqXS6jmFDStIweDr2yxGAgW2CGOgzmw0B97M2XMLkLS4d5AiEe_hckWr4hVSYXrEb2ceKNqw%26variant_id%3D65f3e2d0124bf75d49c89612%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-19",
+  "image": "https://img.joomcdn.net/6a9811ad35fef42869896db77f9e7519ae33bdea_original.jpeg",
+  "rating": null,
+  "orders": null,
+  "category": "Joom/Deportes y ocio/Caza y pesca/Caza/Óptica para caza/Óptica para caza/Monoculares",
+  "niche": "sports",
+  "ships_to": [
+   "ES"
+  ],
+  "title_local": "Monocular portátil 18×52 de alta definición",
+  "commission": null,
+  "why": "Gran aumento de 18x52 y enfoque para camping exterior",
+  "lang": "es",
+  "median_30d": 21.54,
+  "discount": 0.0,
+  "heat": 40.0,
+  "history": [],
+  "showcase": true,
+  "slug": "binoculares-port-tiles-18-52-color-alta-definici-n-alta-magn-0149c8960e",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005007099351339",
+  "store": "aliexpress",
+  "title": "Baseus Car Emergency Hammer Mutifunction Safety Windows Glass Breaker Safety Belt Cutter with Lamp Fast Escape Car Rescue Tool",
+  "price_usd": 17.55,
+  "old_price_usd": 37.35,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007099351339.html%253Fpdp_npi%253D6%252540dis%252521USD%25252137.35%25252117.55%252521%252521%252521247.84%252521116.48%252521%2525402151fd2c17949752506902529e0db7%25252112000039399901412%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S76a498a83d1e47e288080d909e861a8fx.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Car Wash & Maintenance",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Martillo de seguridad Baseus con linterna",
+  "commission": 0.0538,
+  "why": "Rompe cristales, corta cinturones y luz para escape rápido",
+  "lang": "es",
+  "median_30d": 37.35,
+  "discount": 0.5301,
+  "heat": 70.6,
+  "history": [
+   [
+    "2026-11-14",
+    17.56
+   ],
+   [
+    "2026-11-15",
+    17.56
+   ],
+   [
+    "2026-11-16",
+    17.55
+   ],
+   [
+    "2026-11-17",
+    17.55
+   ],
+   [
+    "2026-11-18",
+    17.55
+   ],
+   [
+    "2026-11-19",
+    17.55
+   ],
+   [
+    "2026-11-20",
+    17.55
+   ]
+  ],
+  "slug": "baseus-car-emergency-hammer-mutifunction-safety-windows-glas-7099351339",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012139114366",
+  "store": "aliexpress",
+  "title": "Baseus Magnetic Car Phone Holder Vacuum Suction Cup Stand Rotation Мagnet Holder For iPhone 17 16 Gym/Driving Vacuum Car Mount",
+  "price_usd": 16.55,
+  "old_price_usd": 35.7,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012139114366.html%253Fpdp_npi%253D6%252540dis%252521USD%25252135.70%25252116.55%252521%252521%25252135.70%25252116.55%252521%25254021013cc617949738737155201e0dac%25252112000057601781134%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S86b14cfa80af4935a4a41c7a542102fdE.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Soporte magnético Baseus con ventosa de vacío",
+  "commission": 0.0538,
+  "why": "Fijación por ventosa de vacío y rotación para coche o gimnasio",
+  "lang": "es",
+  "median_30d": 35.7,
+  "discount": 0.5364,
+  "heat": 70.7,
+  "history": [
+   [
+    "2026-11-14",
+    17.49
+   ],
+   [
+    "2026-11-15",
+    17.49
+   ],
+   [
+    "2026-11-16",
+    17.49
+   ],
+   [
+    "2026-11-17",
+    17.49
+   ],
+   [
+    "2026-11-18",
+    16.55
+   ],
+   [
+    "2026-11-19",
+    16.55
+   ],
+   [
+    "2026-11-20",
+    16.55
+   ]
+  ],
+  "slug": "baseus-magnetic-car-phone-holder-vacuum-suction-cup-stand-ro-2139114366",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005006437050447",
+  "store": "aliexpress",
+  "title": "Baseus Car Emergency Safety Hammer 3 in 1 U-shaped Seat Belt Cutter Window Breaker Escape with Emergency Lamp Car Accessories",
+  "price_usd": 15.64,
+  "old_price_usd": 34.0,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006437050447.html%253Fpdp_npi%253D6%252540dis%252521USD%25252134.00%25252115.64%252521%252521%252521225.59%252521103.77%252521%252540212a7b8d17949752566142735e0f26%25252112000037163009103%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd9e69135c74b494f997088c1c35b6b67X.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Car Wash & Maintenance",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Martillo de emergencia Baseus 3 en 1 con luz",
+  "commission": 0.0538,
+  "why": "Rompeventanas, cortador de cinturón y lámpara de emergencia",
+  "lang": "es",
+  "median_30d": 34.0,
+  "discount": 0.54,
+  "heat": 70.8,
+  "history": [
+   [
+    "2026-11-14",
+    15.65
+   ],
+   [
+    "2026-11-15",
+    15.65
+   ],
+   [
+    "2026-11-16",
+    15.64
+   ],
+   [
+    "2026-11-17",
+    15.64
+   ],
+   [
+    "2026-11-18",
+    15.64
+   ],
+   [
+    "2026-11-19",
+    15.64
+   ],
+   [
+    "2026-11-20",
+    15.64
+   ]
+  ],
+  "slug": "baseus-car-emergency-safety-hammer-3-in-1-u-shaped-seat-belt-6437050447",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005007904736955",
+  "store": "aliexpress",
+  "title": "Baseus Auto Restorable Car Phone Holder Gravity for Car Air Vent Silicone Stand For iPhone 15 Xiaomi Samsung Car Mobile Support",
+  "price_usd": 9.16,
+  "old_price_usd": 20.13,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007904736955.html%253Fpdp_npi%253D6%252540dis%252521USD%25252120.13%2525219.16%252521%252521%252521133.55%25252160.78%252521%2525402140d33617949742146496075e0d32%25252112000042788035043%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5f9a850c46b847ee8261c00bfef5c325w.png",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Soporte de móvil Baseus de gravedad para rejilla",
+  "commission": 0.0538,
+  "why": "Ajuste por gravedad para la rejilla del coche con silicona",
+  "lang": "es",
+  "median_30d": 20.13,
+  "discount": 0.545,
+  "heat": 70.9,
+  "history": [
+   [
+    "2026-11-14",
+    10.33
+   ],
+   [
+    "2026-11-15",
+    10.33
+   ],
+   [
+    "2026-11-16",
+    10.33
+   ],
+   [
+    "2026-11-17",
+    10.33
+   ],
+   [
+    "2026-11-18",
+    9.16
+   ],
+   [
+    "2026-11-19",
+    9.16
+   ],
+   [
+    "2026-11-20",
+    9.16
+   ]
+  ],
+  "slug": "baseus-auto-restorable-car-phone-holder-gravity-for-car-air--7904736955",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005007890603575",
+  "store": "aliexpress",
+  "title": "UGREEN Phone Holder Stand Aluminum Cell Phone Stand Tablet Stand Support Mobile Phone For iPhone 16 15 14 Pro Max Xiaomi Samsung",
+  "price_usd": 14.82,
+  "old_price_usd": 32.66,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007890603575.html%253Fpdp_npi%253D6%252540dis%252521USD%25252132.66%25252114.82%252521%252521%25252132.66%25252114.82%252521%2525402140d33617949738576756455e1028%25252112000042738013568%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S00733f15cc714aefa459e8f87d4d23d7x.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Soporte de aluminio UGREEN para móvil y tableta",
+  "commission": 0.0538,
+  "why": "Estructura de aluminio resistente para móvil y tableta",
+  "lang": "es",
+  "median_30d": 32.66,
+  "discount": 0.5462,
+  "heat": 70.9,
+  "history": [
+   [
+    "2026-11-14",
+    14.91
+   ],
+   [
+    "2026-11-15",
+    14.91
+   ],
+   [
+    "2026-11-16",
+    14.9
+   ],
+   [
+    "2026-11-17",
+    14.9
+   ],
+   [
+    "2026-11-18",
+    14.82
+   ],
+   [
+    "2026-11-19",
+    14.82
+   ],
+   [
+    "2026-11-20",
+    14.82
+   ]
+  ],
+  "slug": "ugreen-phone-holder-stand-aluminum-cell-phone-stand-tablet-s-7890603575",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005007890455789",
+  "store": "aliexpress",
+  "title": "UGREEN Phone Stand Aluminum Cell Phone Adjustable Desk Phone Holder for iPhone 15 14 13 12 Pro Max Xiaomi Samsung Tablet Support",
+  "price_usd": 14.15,
+  "old_price_usd": 31.19,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007890455789.html%253Fpdp_npi%253D6%252540dis%252521USD%25252131.19%25252114.15%252521%252521%25252131.19%25252114.15%252521%2525402140da8b17949739897907839e0fe5%25252112000042738821527%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3d7b09ddaed64158af4dd70091419b388.png",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Soporte de escritorio ajustable UGREEN aluminio",
+  "commission": 0.0538,
+  "why": "Ajustable y compatible con móviles y tabletas",
+  "lang": "es",
+  "median_30d": 31.19,
+  "discount": 0.5463,
+  "heat": 70.9,
+  "history": [
+   [
+    "2026-11-14",
+    14.27
+   ],
+   [
+    "2026-11-15",
+    14.27
+   ],
+   [
+    "2026-11-16",
+    14.27
+   ],
+   [
+    "2026-11-17",
+    14.27
+   ],
+   [
+    "2026-11-18",
+    14.15
+   ],
+   [
+    "2026-11-19",
+    14.15
+   ],
+   [
+    "2026-11-20",
+    14.15
+   ]
+  ],
+  "slug": "ugreen-phone-stand-aluminum-cell-phone-adjustable-desk-phone-7890455789",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005011718172424",
+  "store": "aliexpress",
+  "title": "Ajazz AJ179 V2 Right-handed Wireless Gaming Mouse PAW3311 Sensor Tri Mode Dual 1K Computer Office Mouse DPI12000",
+  "price_usd": 22.11,
+  "old_price_usd": 50.82,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011718172424.html%253Fpdp_npi%253D6%252540dis%252521USD%25252150.82%25252122.11%252521%252521%252521337.02%252521146.63%252521%2525402101611117949584314594652e0fc4%25252112000056342152993%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc198d6b05ac54bf0a6d6aff43c96d0506.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Ratón gaming Ajazz AJ179 V2 PAW3311 12000 DPI",
+  "commission": 0.023,
+  "why": "Sensor PAW3311 con 12000 DPI y conexión trimodal",
+  "lang": "es",
+  "median_30d": 50.82,
+  "discount": 0.5649,
+  "heat": 71.3,
+  "history": [
+   [
+    "2026-11-18",
+    22.11
+   ],
+   [
+    "2026-11-19",
+    22.11
+   ],
+   [
+    "2026-11-20",
+    22.11
+   ]
+  ],
+  "slug": "ajazz-aj179-v2-right-handed-wireless-gaming-mouse-paw3311-se-1718172424",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005007470528876",
+  "store": "aliexpress",
+  "title": "UGREEN Magnetic Phone Stand 360° Rotation Aluminum Mobile Phone Stand For Magsafe iPhone 15 14 13 Pro Max Xiaomi Samsung Huawei",
+  "price_usd": 13.27,
+  "old_price_usd": 30.83,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007470528876.html%253Fpdp_npi%253D6%252540dis%252521USD%25252130.83%25252113.27%252521%252521%25252130.83%25252113.27%252521%2525402140f89017949742074276374e118c%25252112000040887953852%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S83c31bf4745a41409bd958bb386666a0E.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Soporte magnético UGREEN 360° de aluminio",
+  "commission": 0.0538,
+  "why": "Rotación de 360 grados y compatible con MagSafe",
+  "lang": "es",
+  "median_30d": 30.83,
+  "discount": 0.5696,
+  "heat": 71.4,
+  "history": [
+   [
+    "2026-11-14",
+    13.41
+   ],
+   [
+    "2026-11-15",
+    13.41
+   ],
+   [
+    "2026-11-16",
+    13.41
+   ],
+   [
+    "2026-11-17",
+    13.41
+   ],
+   [
+    "2026-11-18",
+    13.27
+   ],
+   [
+    "2026-11-19",
+    13.27
+   ],
+   [
+    "2026-11-20",
+    13.27
+   ]
+  ],
+  "slug": "ugreen-magnetic-phone-stand-360-rotation-aluminum-mobile-pho-7470528876",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012667598748",
+  "store": "aliexpress",
+  "title": "Baseus GoTrip DT2 Car Safety Hammer 2 in 1 Window Breaker Seat Belt Cutter Tungsten Steel Tip Emergency Escape Rescue Tool",
+  "price_usd": 18.77,
+  "old_price_usd": 43.61,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012667598748.html%253Fpdp_npi%253D6%252540dis%252521USD%25252143.61%25252118.77%252521%252521%252521289.41%252521124.57%252521%2525402151fd2c17949752506902529e0db7%25252112000058995987378%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S73016fb3a7a547db8469b3058fc88a90R.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Car Wash & Maintenance",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Martillo de seguridad Baseus GoTrip DT2 2 en 1",
+  "commission": 0.0538,
+  "why": "Rompe cristales y corta cinturones con punta de tungsteno",
+  "lang": "es",
+  "median_30d": 43.61,
+  "discount": 0.5696,
+  "heat": 71.4,
+  "history": [
+   [
+    "2026-11-14",
+    20.07
+   ],
+   [
+    "2026-11-15",
+    20.07
+   ],
+   [
+    "2026-11-16",
+    20.06
+   ],
+   [
+    "2026-11-17",
+    20.06
+   ],
+   [
+    "2026-11-18",
+    18.77
+   ],
+   [
+    "2026-11-19",
+    18.77
+   ],
+   [
+    "2026-11-20",
+    18.77
+   ]
+  ],
+  "slug": "baseus-gotrip-dt2-car-safety-hammer-2-in-1-window-breaker-se-2667598748",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012464593654",
+  "store": "aliexpress",
+  "title": "450x400mm Attack Shark CM02 Gaming Mouse Pad 4mm Ultrathin Non Slip Topographic Contour Desk Mat For Gaming Office Gamer",
+  "price_usd": 22.54,
+  "old_price_usd": 52.88,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012464593654.html%253Fpdp_npi%253D6%252540dis%252521USD%25252152.88%25252122.54%252521%252521%252521350.67%252521149.48%252521%2525402151fd2c17949582947056131e0fa7%25252112000058474050283%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S555de392124647c3b1833d38de0332339.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Alfombrilla Attack Shark CM02",
+  "commission": 0.023,
+  "why": "Superficie ultrafina antideslizante de 450x400 mm.",
+  "lang": "es",
+  "median_30d": 52.88,
+  "discount": 0.5738,
+  "heat": 71.5,
+  "history": [
+   [
+    "2026-11-14",
+    22.54
+   ],
+   [
+    "2026-11-15",
+    22.54
+   ],
+   [
+    "2026-11-16",
+    22.54
+   ],
+   [
+    "2026-11-17",
+    22.54
+   ],
+   [
+    "2026-11-18",
+    22.54
+   ],
+   [
+    "2026-11-19",
+    22.54
+   ],
+   [
+    "2026-11-20",
+    22.54
+   ]
+  ],
+  "slug": "450x400mm-attack-shark-cm02-gaming-mouse-pad-4mm-ultrathin-n-2464593654",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005006367419820",
+  "store": "aliexpress",
+  "title": "Baseus Stylus Lite with LED for Apple Pencil iPad Palm Rejection Magnetic Design Touch Pen for Tablet for iPad Pro 2018-2023",
+  "price_usd": 14.04,
+  "old_price_usd": 33.2,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006367419820.html%253Fpdp_npi%253D6%252540dis%252521USD%25252133.20%25252114.04%252521%252521%252521220.15%25252193.13%252521%2525402140d36117949594144143756e0cf3%25252112000036917225385%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8904218c4a6749c492b007a0430c0b4aR.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Tablet Accessories & Parts",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Stylus Lite con LED para iPad y Apple Pencil",
+  "commission": 0.0538,
+  "why": "Lápiz táctil con rechazo de palma y diseño magnético",
+  "lang": "es",
+  "median_30d": 33.2,
+  "discount": 0.5771,
+  "heat": 71.5,
+  "history": [
+   [
+    "2026-11-13",
+    13.61
+   ],
+   [
+    "2026-11-14",
+    13.61
+   ],
+   [
+    "2026-11-16",
+    14.04
+   ],
+   [
+    "2026-11-17",
+    14.04
+   ],
+   [
+    "2026-11-18",
+    14.04
+   ],
+   [
+    "2026-11-19",
+    14.04
+   ],
+   [
+    "2026-11-20",
+    14.04
+   ]
+  ],
+  "slug": "baseus-stylus-lite-with-led-for-apple-pencil-ipad-palm-rejec-6367419820",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005009467240416",
+  "store": "aliexpress",
+  "title": "UGREEN Car Phone Holder Magnetic 360° Rotation For Magsafe iPhone 16 15 14 Pro Max Samsung S25 Ultra Xiaomi Air Vent Car Mount",
+  "price_usd": 10.24,
+  "old_price_usd": 24.74,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009467240416.html%253Fpdp_npi%253D6%252540dis%252521USD%25252124.74%25252110.24%252521%252521%25252124.74%25252110.24%252521%2525402140d36217949740877053719e0fbd%25252112000049192890711%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S85ded9ae554947e9a0ef6868f4ca22ff9.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Soporte Movil Magnetico 360 Magsafe Rejilla",
+  "commission": 0.0538,
+  "why": "Soporte con rotacion de 360 grados para rejilla",
+  "lang": "es",
+  "median_30d": 24.74,
+  "discount": 0.5861,
+  "heat": 71.7,
+  "history": [
+   [
+    "2026-11-14",
+    10.24
+   ],
+   [
+    "2026-11-15",
+    10.24
+   ],
+   [
+    "2026-11-16",
+    10.24
+   ],
+   [
+    "2026-11-18",
+    10.24
+   ],
+   [
+    "2026-11-19",
+    10.24
+   ],
+   [
+    "2026-11-20",
+    10.24
+   ]
+  ],
+  "slug": "ugreen-car-phone-holder-magnetic-360-rotation-for-magsafe-ip-9467240416",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005006014887759",
+  "store": "aliexpress",
+  "title": "Baseus 7-in-1 Gen 2 USB C HUB 4K@60Hz HDMI 3* USB 3.0 PD 100W Type C Port SD/TF Card Reader for Macbook iPad M2 M1 Steam Deck",
+  "price_usd": 24.53,
+  "old_price_usd": 59.27,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006014887759.html%253Fpdp_npi%253D6%252540dis%252521USD%25252159.27%25252124.53%252521%252521%252521393.07%252521162.71%252521%252540210152bd17949583542733413e1073%25252112000035330025988%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5c9abd305ffd470ebc6b72ec49d99ec7V.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus HUB USB C 7 en 1 4K 60Hz HDMI PD 100W",
+  "commission": 0.023,
+  "why": "Hub USB C con HDMI 4K a 60Hz y carga PD de 100W",
+  "lang": "es",
+  "median_30d": 59.27,
+  "discount": 0.5861,
+  "heat": 71.7,
+  "history": [
+   [
+    "2026-11-14",
+    24.53
+   ],
+   [
+    "2026-11-15",
+    24.53
+   ],
+   [
+    "2026-11-16",
+    24.53
+   ],
+   [
+    "2026-11-17",
+    24.53
+   ],
+   [
+    "2026-11-18",
+    24.53
+   ],
+   [
+    "2026-11-19",
+    24.53
+   ],
+   [
+    "2026-11-20",
+    24.53
+   ]
+  ],
+  "slug": "baseus-7-in-1-gen-2-usb-c-hub-4k-60hz-hdmi-3-usb-3-0-pd-100w-6014887759",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005008886876486",
+  "store": "aliexpress",
+  "title": "UGREEN Magnetic Phone Holder For Tesla Car Touchscreen Triangular Structure For Magsafe iPhone 16 15 Pro Max Samsung Galaxy S25",
+  "price_usd": 14.35,
+  "old_price_usd": 34.7,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005008886876486.html%253Fpdp_npi%253D6%252540dis%252521USD%25252134.70%25252114.35%252521%252521%25252134.70%25252114.35%252521%252540210152bd17949738919911426e0f6b%25252112000047085148906%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdda5c5967b314fd78d08724ebb355bee4.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Soporte Magnetico Pantalla Tesla Magsafe",
+  "commission": 0.0538,
+  "why": "Estructura triangular para pantalla tactil de Tesla",
+  "lang": "es",
+  "median_30d": 34.7,
+  "discount": 0.5865,
+  "heat": 71.7,
+  "history": [
+   [
+    "2026-11-14",
+    14.36
+   ],
+   [
+    "2026-11-15",
+    14.36
+   ],
+   [
+    "2026-11-16",
+    14.32
+   ],
+   [
+    "2026-11-17",
+    14.32
+   ],
+   [
+    "2026-11-18",
+    14.35
+   ],
+   [
+    "2026-11-19",
+    14.35
+   ],
+   [
+    "2026-11-20",
+    14.35
+   ]
+  ],
+  "slug": "ugreen-magnetic-phone-holder-for-tesla-car-touchscreen-trian-8886876486",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005007549957228",
+  "store": "aliexpress",
+  "title": "UGREEN Magnetic Car Phone Holder Magsafe Air Vent Phone Stand Unviersal For iPhone 15 14 13 Pro Max Xiaomi Samsung Strong Magnet",
+  "price_usd": 13.5,
+  "old_price_usd": 33.33,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007549957228.html%253Fpdp_npi%253D6%252540dis%252521USD%25252133.33%25252113.50%252521%252521%25252133.33%25252113.50%252521%2525402140d33617949740378936340e0fc5%25252112000041256443818%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1d6d108315b441b3a4c8cfa4c15d027eS.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Soporte Movil Magnetico Magsafe Rejilla",
+  "commission": 0.0538,
+  "why": "Soporte de iman fuerte para rejilla de aire",
+  "lang": "es",
+  "median_30d": 33.33,
+  "discount": 0.595,
+  "heat": 71.9,
+  "history": [
+   [
+    "2026-11-16",
+    13.5
+   ],
+   [
+    "2026-11-17",
+    13.5
+   ],
+   [
+    "2026-11-18",
+    13.5
+   ],
+   [
+    "2026-11-19",
+    13.5
+   ],
+   [
+    "2026-11-20",
+    13.5
+   ]
+  ],
+  "slug": "ugreen-magnetic-car-phone-holder-magsafe-air-vent-phone-stan-7549957228",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005005536553140",
+  "store": "aliexpress",
+  "title": "Baseus Gen2 Digital Stylus for iPad 4/5/Pro 11 & 12.9-inch/ Mini 6, for Apple Pencil-Like Pen Supporting Palm Rejection Pens",
+  "price_usd": 20.32,
+  "old_price_usd": 47.04,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005005536553140.html%253Fpdp_npi%253D6%252540dis%252521USD%25252147.04%25252120.32%252521%252521%252521311.96%252521134.75%252521%25254021013cc617949593948482136e1107%25252112000044110914348%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd76f7ac0e8c74a92903e1863c777c980g.png",
+  "rating": null,
+  "orders": null,
+  "category": "Tablet Accessories & Parts",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Gen2 Lapis Digital iPad Rechazo Palma",
+  "commission": 0.0538,
+  "why": "Boligrafo digital para iPad con rechazo de palma",
+  "lang": "es",
+  "median_30d": 47.04,
+  "discount": 0.568,
+  "heat": 72.5,
+  "history": [
+   [
+    "2026-11-13",
+    20.13
+   ],
+   [
+    "2026-11-14",
+    20.98
+   ],
+   [
+    "2026-11-15",
+    20.98
+   ],
+   [
+    "2026-11-16",
+    20.98
+   ],
+   [
+    "2026-11-18",
+    20.32
+   ],
+   [
+    "2026-11-19",
+    20.32
+   ],
+   [
+    "2026-11-20",
+    20.32
+   ]
+  ],
+  "slug": "baseus-gen2-digital-stylus-for-ipad-4-5-pro-11-12-9-inch-min-5536553140",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005009024108046",
+  "store": "aliexpress",
+  "title": "Baseus Car Phone Holder Sucker for Dashboard Mobile Phone Holder Car Mount For Samsung iPhone Xiaomi Huawei Foldable Holder",
+  "price_usd": 11.22,
+  "old_price_usd": 29.98,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009024108046.html%253Fpdp_npi%253D6%252540dis%252521USD%25252129.98%25252111.22%252521%252521%25252129.98%25252111.22%252521%25254021013cc017949738704658586e0db3%25252112000047621930247%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S38ca9e7ba1bc4e3b9fb62e95a1ad0420x.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Soporte Movil Coche Ventosa Salpicadero",
+  "commission": 0.0538,
+  "why": "Soporte plegable para movil con ventosa",
+  "lang": "es",
+  "median_30d": 29.98,
+  "discount": 0.6258,
+  "heat": 72.5,
+  "history": [
+   [
+    "2026-11-14",
+    11.34
+   ],
+   [
+    "2026-11-15",
+    11.34
+   ],
+   [
+    "2026-11-16",
+    11.34
+   ],
+   [
+    "2026-11-17",
+    11.34
+   ],
+   [
+    "2026-11-18",
+    11.22
+   ],
+   [
+    "2026-11-19",
+    11.22
+   ],
+   [
+    "2026-11-20",
+    11.22
+   ]
+  ],
+  "slug": "baseus-car-phone-holder-sucker-for-dashboard-mobile-phone-ho-9024108046",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005007037991448",
+  "store": "aliexpress",
+  "title": "UGREEN Stylus Pen for Apple Pencil iPad Tpye C Charging Long Battery Life Palm Rejection Tilt Pen for iPad Pro",
+  "price_usd": 23.2,
+  "old_price_usd": 51.98,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007037991448.html%253Fpdp_npi%253D6%252540dis%252521USD%25252151.98%25252123.20%252521%252521%25252151.98%25252123.20%252521%25254021013cc017949590902302829e0f1e%25252112000039178699991%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4acdb05962004b41a9b27843d96b5503Y.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Tablet Accessories & Parts",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Lapis Tactil iPad Carga Tipo C Rechazo Palma",
+  "commission": 0.0538,
+  "why": "Lapiz para iPad con rechazo de palma y carga Tipo C",
+  "lang": "es",
+  "median_30d": 51.98,
+  "discount": 0.5537,
+  "heat": 73.7,
+  "history": [
+   [
+    "2026-11-13",
+    24.95
+   ],
+   [
+    "2026-11-14",
+    24.95
+   ],
+   [
+    "2026-11-15",
+    24.95
+   ],
+   [
+    "2026-11-16",
+    24.95
+   ],
+   [
+    "2026-11-18",
+    23.2
+   ],
+   [
+    "2026-11-19",
+    23.2
+   ],
+   [
+    "2026-11-20",
+    23.2
+   ]
+  ],
+  "slug": "ugreen-stylus-pen-for-apple-pencil-ipad-tpye-c-charging-long-7037991448",
+  "day": "2026-11-20"
+ },
+ {
   "pid": "aliexpress:1005013193625420",
   "store": "aliexpress",
   "title": "Ugreen 38 in 1 Screwdriver Set Torx Slotted Hex Magnetic Repair Tool Kit Box for Notebook Clock Camera Watch Mobile Phone Quick",
@@ -2673,133 +4103,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005012731760076",
-  "store": "aliexpress",
-  "title": "R85HE ATTACK SHARK Wired 8K Magnetic Keyboard 0.005mm RT Accuracy Rapid Trigger Emergency Stop 256K Scanning Rate RGB Keyboard",
-  "price_usd": 78.95,
-  "old_price_usd": 181.49,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012731760076.html%253Fpdp_npi%253D6%252540dis%252521USD%252521181.49%25252178.95%252521%252521%2525211203.49%252521523.50%252521%2525402151fd3a17949581552607785e0fb9%25252112000059196902918%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Saa54be174e6344efb5a816277f140bb0f.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado magnético ATTACK SHARK R85HE 8K RGB",
-  "commission": 0.023,
-  "why": "Tasa de escaneo de 256K y precisión Rapid Trigger de 0,005 mm",
-  "lang": "es",
-  "median_30d": 181.49,
-  "discount": 0.565,
-  "heat": 76.6,
-  "history": [
-   [
-    "2026-11-11",
-    81.56
-   ],
-   [
-    "2026-11-12",
-    81.56
-   ],
-   [
-    "2026-11-18",
-    78.95
-   ],
-   [
-    "2026-11-19",
-    78.95
-   ],
-   [
-    "2026-11-20",
-    78.95
-   ]
-  ],
-  "slug": "r85he-attack-shark-wired-8k-magnetic-keyboard-0-005mm-rt-acc-2731760076",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005012255336419",
-  "store": "aliexpress",
-  "title": "Custom R85 ATTACK SHARK R85HE Magnetic Keyboard Wired 0.005mm RT 8K Hz 256K RGB Gaming Neon Lightbox for Esports Gaming Gift",
-  "price_usd": 76.89,
-  "old_price_usd": 183.08,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012255336419.html%253Fpdp_npi%253D6%252540dis%252521USD%252521183.08%25252176.89%252521%252521%2525211214.07%252521509.91%252521%252540212a7b8d17949581335551015e0d9a%25252112000057889898504%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd7e26371805c4280ab48f31936f342c5J.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "ATTACK SHARK R85HE Teclado Magnético 8K Hz RGB",
-  "commission": 0.023,
-  "why": "Tecnología RT de 0.005mm para gaming de esports",
-  "lang": "es",
-  "median_30d": 183.08,
-  "discount": 0.58,
-  "heat": 77.3,
-  "history": [
-   [
-    "2026-11-16",
-    76.89
-   ],
-   [
-    "2026-11-17",
-    76.89
-   ],
-   [
-    "2026-11-18",
-    76.89
-   ],
-   [
-    "2026-11-19",
-    76.89
-   ],
-   [
-    "2026-11-20",
-    76.89
-   ]
-  ],
-  "slug": "custom-r85-attack-shark-r85he-magnetic-keyboard-wired-0-005m-2255336419",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005012437141944",
-  "store": "aliexpress",
-  "title": "AJAZZ AK980MAX V2 98-key Hot-Swappable Wired Magnetic Axis Keyboard with 8K Polling Rate and Hall Effect",
-  "price_usd": 73.45,
-  "old_price_usd": 183.56,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012437141944.html%253Fpdp_npi%253D6%252540dis%252521USD%252521183.56%25252173.45%252521%252521%2525211217.27%252521487.13%252521%2525402151fce817949581072885534e0cc1%25252112000058369319055%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3ff43d6e8648423ab739a4cb6cc4f218y.png",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado AJAZZ AK980MAX V2 Hall Effect 8K 98 teclas",
-  "commission": 0.023,
-  "why": "Interruptores magnéticos intercambiables y tasa de sondeo de 8K",
-  "lang": "es",
-  "median_30d": 183.56,
-  "discount": 0.5999,
-  "heat": 77.9,
-  "history": [
-   [
-    "2026-11-18",
-    73.45
-   ],
-   [
-    "2026-11-19",
-    73.45
-   ],
-   [
-    "2026-11-20",
-    73.45
-   ]
-  ],
-  "slug": "ajazz-ak980max-v2-98-key-hot-swappable-wired-magnetic-axis-k-2437141944",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005012106286286",
   "store": "aliexpress",
   "title": "Baseus Mini Air Pump Portable Electric Inflator Wireless Air Mattress Pump with LED Camping Light for Swim Ring Vacuum Bag",
@@ -2853,51 +4156,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005012880911721",
-  "store": "aliexpress",
-  "title": "Ajazz AK820 PRO with Screen, Wireless Gaming, Mechanical Keyboard, Multi Switch Selection, Tri Mode, Computer Office DIY, RGB",
-  "price_usd": 67.97,
-  "old_price_usd": 186.01,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012880911721.html%253Fpdp_npi%253D6%252540dis%252521USD%252521186.01%25252167.97%252521%252521%2525211233.47%252521450.69%252521%2525400b8ded7b17949581767515150e0fbc%25252112000059608269666%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb63922ed6d9945e2849daf23ab3e27abH.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado mecánico gaming Ajazz AK820 PRO inalambrico RGB",
-  "commission": 0.023,
-  "why": "Pantalla integrada y conexion inalambrica en tres modos",
-  "lang": "es",
-  "median_30d": 186.01,
-  "discount": 0.6346,
-  "heat": 79.1,
-  "history": [
-   [
-    "2026-11-16",
-    67.97
-   ],
-   [
-    "2026-11-17",
-    67.97
-   ],
-   [
-    "2026-11-18",
-    67.97
-   ],
-   [
-    "2026-11-19",
-    67.97
-   ],
-   [
-    "2026-11-20",
-    67.97
-   ]
-  ],
-  "slug": "ajazz-ak820-pro-with-screen-wireless-gaming-mechanical-keybo-2880911721",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005012959251602",
   "store": "aliexpress",
   "title": "Baseus GoTrip VA1 Max Car Air Pump 150PSI Portable Air Compressor 7500mAh Electric Car Tire Inflator for Motorcycle Bicycle Ball Air Pump",
@@ -2948,210 +4206,6 @@
    ]
   ],
   "slug": "baseus-gotrip-va1-max-car-air-pump-150psi-portable-air-compr-2959251602",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005010794985699",
-  "store": "aliexpress",
-  "title": "RK ROYAL KLUDGE Ultra65 Wired Aluminum Mechanical Keyboard 65% Gasket CNC Integrated RGB Flagship Gamer Keyboard Hot-swappable",
-  "price_usd": 109.19,
-  "old_price_usd": 259.98,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010794985699.html%253Fpdp_npi%253D6%252540dis%252521USD%252521259.98%252521109.19%252521%252521%252521259.98%252521109.19%252521%2525402151fce817949585186521608e0ef1%25252112000057645413033%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S742885ae0d6949f28f99f646243d9784j.png",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado mecánico 65% RK Royal Kludge Ultra65 CNC Gasket",
-  "commission": 0.023,
-  "why": "Cuerpo integrado en aluminio CNC con montaje Gasket y RGB",
-  "lang": "es",
-  "median_30d": 259.98,
-  "discount": 0.58,
-  "heat": 81.1,
-  "history": [
-   [
-    "2026-11-14",
-    109.19
-   ],
-   [
-    "2026-11-15",
-    109.19
-   ],
-   [
-    "2026-11-16",
-    109.19
-   ],
-   [
-    "2026-11-17",
-    109.19
-   ],
-   [
-    "2026-11-18",
-    109.19
-   ],
-   [
-    "2026-11-19",
-    109.19
-   ],
-   [
-    "2026-11-20",
-    109.19
-   ]
-  ],
-  "slug": "rk-royal-kludge-ultra65-wired-aluminum-mechanical-keyboard-6-0794985699",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005008625896794",
-  "store": "aliexpress",
-  "title": "RK ROYAL KLUDGE S85 TFT Color Screent Mechanical Keyboard Tri Mode Wireless 85 Keycaps Hot-Swappable Gamer Keyboard RGB Backlit",
-  "price_usd": 82.35,
-  "old_price_usd": 211.98,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005008625896794.html%253Fpdp_npi%253D6%252540dis%252521USD%252521211.98%25252182.35%252521%252521%252521211.98%25252182.35%252521%2525400b8ded7b17949582122513920e0f39%25252112000046011211426%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S570d83a33a384dc1bdde4d72fa5f587dQ.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "RK ROYAL KLUDGE S85 Teclado Mecánico Inalámbrico RGB",
-  "commission": 0.023,
-  "why": "Pantalla a color TFT y 85 teclas intercambiables",
-  "lang": "es",
-  "median_30d": 211.98,
-  "discount": 0.6115,
-  "heat": 82.4,
-  "history": [
-   [
-    "2026-11-16",
-    82.53
-   ],
-   [
-    "2026-11-17",
-    82.53
-   ],
-   [
-    "2026-11-18",
-    82.35
-   ],
-   [
-    "2026-11-19",
-    82.35
-   ],
-   [
-    "2026-11-20",
-    82.35
-   ]
-  ],
-  "slug": "rk-royal-kludge-s85-tft-color-screent-mechanical-keyboard-tr-8625896794",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005012225493503",
-  "store": "aliexpress",
-  "title": "Baseus Mini Car Air Compressor 12V 150PSI Portable Car Tire Inflator Smart Digital Inflatable Pump For Car Bicycle Boat Air Pump",
-  "price_usd": 57.17,
-  "old_price_usd": 127.04,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012225493503.html%253Fpdp_npi%253D6%252540dis%252521USD%252521127.04%25252157.17%252521%252521%252521842.97%252521379.34%252521%2525402151fd3a17949754782265062e0d4e%25252112000057824956642%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd94989aa15ed40b8a7c4e756d9085bb7C.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Car Wash & Maintenance",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus Mini Compresor Aire Coche 12V 150PSI Digital",
-  "commission": 0.0538,
-  "why": "Inflador inteligente digital de 12V y 150PSI",
-  "lang": "es",
-  "median_30d": 127.04,
-  "discount": 0.55,
-  "heat": 85.9,
-  "history": [
-   [
-    "2026-11-14",
-    57.2
-   ],
-   [
-    "2026-11-15",
-    57.2
-   ],
-   [
-    "2026-11-16",
-    57.17
-   ],
-   [
-    "2026-11-17",
-    57.17
-   ],
-   [
-    "2026-11-18",
-    57.17
-   ],
-   [
-    "2026-11-19",
-    57.17
-   ],
-   [
-    "2026-11-20",
-    57.17
-   ]
-  ],
-  "slug": "baseus-mini-car-air-compressor-12v-150psi-portable-car-tire--2225493503",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005008707184695",
-  "store": "aliexpress",
-  "title": "Baseus Wireless Air Pump Portable Tire Inflator Air Compressor with Digital Display for Car Motorcycles Bicycle Electric Pump",
-  "price_usd": 39.59,
-  "old_price_usd": 92.66,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005008707184695.html%253Fpdp_npi%253D6%252540dis%252521USD%25252192.66%25252139.59%252521%252521%252521614.48%252521262.57%252521%2525402141149b17949596085322768e0cf4%25252112000046335175678%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Seb2e184a87694d73901f5fe82e7e6831h.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Motorcycle Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus Compresor Aire Portatil Inalambrico Pantalla",
-  "commission": 0.0538,
-  "why": "Inflador con pantalla digital para coche, moto y bici",
-  "lang": "es",
-  "median_30d": 92.66,
-  "discount": 0.5727,
-  "heat": 88.1,
-  "history": [
-   [
-    "2026-11-14",
-    39.6
-   ],
-   [
-    "2026-11-15",
-    39.6
-   ],
-   [
-    "2026-11-16",
-    39.64
-   ],
-   [
-    "2026-11-17",
-    39.64
-   ],
-   [
-    "2026-11-18",
-    39.59
-   ],
-   [
-    "2026-11-19",
-    39.59
-   ],
-   [
-    "2026-11-20",
-    39.59
-   ]
-  ],
-  "slug": "baseus-wireless-air-pump-portable-tire-inflator-air-compress-8707184695",
   "day": "2026-11-20"
  },
  {
@@ -4181,55 +5235,6 @@
   "day": "2026-11-19"
  },
  {
-  "pid": "aliexpress:1005012148375057",
-  "store": "aliexpress",
-  "title": "BASEUS Portable Fan Convenient Creative Small Fan Pocket Hand-held Fan Lightweight Mini Fan Air Coolers Outdoor USB Rechargeable",
-  "price_usd": 27.27,
-  "old_price_usd": 54.54,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012148375057.html%253Fpdp_npi%253D6%252540dis%252521USD%25252154.54%25252127.27%252521%252521%252521361.90%252521180.95%252521%252540210152bd17949761608347714e1052%25252112000057625027580%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2c623953f97d4753a51e6b2fd6339eef0.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Household Appliances",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "BASEUS Ventilador Portatil Mini Mano USB",
-  "commission": 0.0538,
-  "why": "Ventilador de mano compacto recargable por USB",
-  "lang": "es",
-  "median_30d": 54.54,
-  "discount": 0.5,
-  "heat": 72.1,
-  "history": [
-   [
-    "2026-11-14",
-    27.28
-   ],
-   [
-    "2026-11-15",
-    27.28
-   ],
-   [
-    "2026-11-16",
-    27.27
-   ],
-   [
-    "2026-11-17",
-    27.27
-   ],
-   [
-    "2026-11-18",
-    27.27
-   ],
-   [
-    "2026-11-19",
-    27.27
-   ]
-  ],
-  "slug": "baseus-portable-fan-convenient-creative-small-fan-pocket-han-2148375057",
-  "day": "2026-11-19"
- },
- {
   "pid": "aliexpress:1005002599305130",
   "store": "aliexpress",
   "title": "RK ROYAL KLUDGE RK918 RGB Backlight Wired Gaming Mechanical Keyboard 108 Keys Anti-Ghosting with Large LED Sorrounding Side Lamp",
@@ -4548,55 +5553,6 @@
   "day": "2026-11-19"
  },
  {
-  "pid": "aliexpress:1005007935983752",
-  "store": "aliexpress",
-  "title": "UGREEN Car Air Pump Portable Air Compressor for Car Motorcycles Bicycle Electric Tire Inflator with LCD Digital Display",
-  "price_usd": 38.11,
-  "old_price_usd": 71.41,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007935983752.html%253Fpdp_npi%253D6%252540dis%252521USD%25252171.41%25252138.11%252521%252521%25252171.41%25252138.11%252521%2525402102f1cd17949754725151905e0e50%25252112000042933716498%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S59c316af5d4b435291a7f048744a1058H.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Car Wash & Maintenance",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "UGREEN Bomba Aire Portatil Compresor Digital LCD",
-  "commission": 0.0538,
-  "why": "Inflador electrico con pantalla LCD digital",
-  "lang": "es",
-  "median_30d": 71.41,
-  "discount": 0.4663,
-  "heat": 77.7,
-  "history": [
-   [
-    "2026-11-14",
-    38.4
-   ],
-   [
-    "2026-11-15",
-    38.4
-   ],
-   [
-    "2026-11-16",
-    38.52
-   ],
-   [
-    "2026-11-17",
-    38.52
-   ],
-   [
-    "2026-11-18",
-    38.11
-   ],
-   [
-    "2026-11-19",
-    38.11
-   ]
-  ],
-  "slug": "ugreen-car-air-pump-portable-air-compressor-for-car-motorcyc-7935983752",
-  "day": "2026-11-19"
- },
- {
   "pid": "aliexpress:1005012959364564",
   "store": "aliexpress",
   "title": "ATTACK SHARK R98 HE Wired Hall Effect Keyboard, RT 8K Polling Rate, 0.005mm Actuation,  RGB Mechanical Gaming Keyboard",
@@ -4647,55 +5603,6 @@
    ]
   ],
   "slug": "attack-shark-r98-he-wired-hall-effect-keyboard-rt-8k-polling-2959364564",
-  "day": "2026-11-19"
- },
- {
-  "pid": "aliexpress:1005007687562690",
-  "store": "aliexpress",
-  "title": "Baseus Wireless Air Compressor Mini Air Inflator Pump for Air Mattresses Beds Inflatable Mats Swim Ring Deflate For Storage Bag",
-  "price_usd": 29.24,
-  "old_price_usd": 64.98,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007687562690.html%253Fpdp_npi%253D6%252540dis%252521USD%25252164.98%25252129.24%252521%252521%252521431.21%252521194.04%252521%2525402151fd2c17949753865334298e0df9%25252112000041839948737%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0e39037c6bb44a26ba40309605aa5120A.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Car Wash & Maintenance",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus Compresor Aire Inalambrico Mini Colchones",
-  "commission": 0.0538,
-  "why": "Bomba infladora para colchones y colchonetas",
-  "lang": "es",
-  "median_30d": 64.98,
-  "discount": 0.55,
-  "heat": 78.7,
-  "history": [
-   [
-    "2026-11-14",
-    29.26
-   ],
-   [
-    "2026-11-15",
-    29.26
-   ],
-   [
-    "2026-11-16",
-    29.24
-   ],
-   [
-    "2026-11-17",
-    29.24
-   ],
-   [
-    "2026-11-18",
-    29.24
-   ],
-   [
-    "2026-11-19",
-    29.24
-   ]
-  ],
-  "slug": "baseus-wireless-air-compressor-mini-air-inflator-pump-for-ai-7687562690",
   "day": "2026-11-19"
  },
  {
@@ -4752,55 +5659,6 @@
   "day": "2026-11-19"
  },
  {
-  "pid": "aliexpress:1005006744199473",
-  "store": "aliexpress",
-  "title": "Baseus Car Inflator Pump 12V Smart Electric Car Tire Pump 150 PSI LED Display Car Tyre Air Compressor for Bicycle Motorcycle",
-  "price_usd": 38.88,
-  "old_price_usd": 84.53,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006744199473.html%253Fpdp_npi%253D6%252540dis%252521USD%25252184.53%25252138.88%252521%252521%252521560.90%252521258.01%252521%2525402140d36117949753706895796e0cf5%25252112000038163095222%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf3a2d9bb7ad74ec9b02534acf3ad407eJ.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Car Wash & Maintenance",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus Inflador Coche 12V 150 PSI Pantalla LED",
-  "commission": 0.0538,
-  "why": "Compresor de aire de 150 PSI con pantalla LED",
-  "lang": "es",
-  "median_30d": 84.53,
-  "discount": 0.54,
-  "heat": 84.9,
-  "history": [
-   [
-    "2026-11-14",
-    38.9
-   ],
-   [
-    "2026-11-15",
-    38.9
-   ],
-   [
-    "2026-11-16",
-    38.88
-   ],
-   [
-    "2026-11-17",
-    38.88
-   ],
-   [
-    "2026-11-18",
-    38.88
-   ],
-   [
-    "2026-11-19",
-    38.88
-   ]
-  ],
-  "slug": "baseus-car-inflator-pump-12v-smart-electric-car-tire-pump-15-6744199473",
-  "day": "2026-11-19"
- },
- {
   "pid": "aliexpress:1005013045094345",
   "store": "aliexpress",
   "title": "AJAZZ AK980 98% Mechanical Keyboard Gasket Mount Hot Swappable Wireless RGB Multi-Layer Foam Dampening PBT Keycaps",
@@ -4851,104 +5709,6 @@
    ]
   ],
   "slug": "ajazz-ak980-98-mechanical-keyboard-gasket-mount-hot-swappabl-3045094345",
-  "day": "2026-11-19"
- },
- {
-  "pid": "aliexpress:1005009392584624",
-  "store": "aliexpress",
-  "title": "New Baseus GoTrip VA1 Pro/Max Car Air Pump 7500mAh Air Compressor Portable Tire Inflator for Motorcycle Bicycle Ball Car Pump",
-  "price_usd": 29.54,
-  "old_price_usd": 79.98,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009392584624.html%253Fpdp_npi%253D6%252540dis%252521USD%25252179.98%25252129.54%252521%252521%25252179.98%25252129.54%252521%2525402151fca717949754607876091e0f4c%25252112000049481937647%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb480f070296481abbb8b35668bc5c7b8.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Car Wash & Maintenance",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus GoTrip VA1 Pro Max 7500mAh Bomba Portatil",
-  "commission": 0.0538,
-  "why": "Compresor de aire portatil de 7500mAh para varios usos",
-  "lang": "es",
-  "median_30d": 79.98,
-  "discount": 0.6307,
-  "heat": 86.9,
-  "history": [
-   [
-    "2026-11-14",
-    29.54
-   ],
-   [
-    "2026-11-15",
-    29.54
-   ],
-   [
-    "2026-11-16",
-    29.54
-   ],
-   [
-    "2026-11-17",
-    29.54
-   ],
-   [
-    "2026-11-18",
-    29.54
-   ],
-   [
-    "2026-11-19",
-    29.54
-   ]
-  ],
-  "slug": "new-baseus-gotrip-va1-pro-max-car-air-pump-7500mah-air-compr-9392584624",
-  "day": "2026-11-19"
- },
- {
-  "pid": "aliexpress:1005012737864867",
-  "store": "aliexpress",
-  "title": "Baseus GoTrip VA1 Max Car Air Pump 150PSI Portable Air Compressor 7500mAh Electric Car Tire Inflator for Motorcycle Bicycle Ball Air Pump",
-  "price_usd": 37.13,
-  "old_price_usd": 88.41,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012737864867.html%253Fpdp_npi%253D6%252540dis%252521USD%25252188.41%25252137.13%252521%252521%25252188.41%25252137.13%252521%252540212a7b8d17949752939436269e0f26%25252112000059242466362%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3906d91707a9458b966bf79a9e551bb4v.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Car Wash & Maintenance",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus GoTrip VA1 Max 150PSI 7500mAh Bomba Coche",
-  "commission": 0.0538,
-  "why": "Compresor de aire portatil de 150PSI con bateria de 7500mAh",
-  "lang": "es",
-  "median_30d": 88.41,
-  "discount": 0.58,
-  "heat": 88.7,
-  "history": [
-   [
-    "2026-11-14",
-    37.13
-   ],
-   [
-    "2026-11-15",
-    37.13
-   ],
-   [
-    "2026-11-16",
-    37.13
-   ],
-   [
-    "2026-11-17",
-    37.13
-   ],
-   [
-    "2026-11-18",
-    37.13
-   ],
-   [
-    "2026-11-19",
-    37.13
-   ]
-  ],
-  "slug": "baseus-gotrip-va1-max-car-air-pump-150psi-portable-air-compr-2737864867",
   "day": "2026-11-19"
  },
  {
@@ -6857,125 +7617,6 @@
   "day": "2026-11-19"
  },
  {
-  "pid": "aliexpress:1005012455568825",
-  "store": "aliexpress",
-  "title": "Switch Gaming Keyboard Attack Shark X68HE Wired,0.01mm Adjustable Stroke RGB 68Keys Compact FPS Esports Keyboard",
-  "price_usd": 97.87,
-  "old_price_usd": 168.74,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012455568825.html%253Fpdp_npi%253D6%252540dis%252521USD%252521168.74%25252197.87%252521%252521%2525211118.95%252521648.99%252521%2525402151fce817949582017025184e0de8%25252112000058407777433%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9604c7a255c04bcdbad7141f518a5560l.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Attack Shark X68HE Teclado Gaming",
-  "commission": 0.023,
-  "why": "68 teclas compactas con carrera ajustable de 0.01mm.",
-  "lang": "es",
-  "median_30d": 168.74,
-  "discount": 0.42,
-  "heat": 68.4,
-  "history": [
-   [
-    "2026-11-18",
-    97.87
-   ],
-   [
-    "2026-11-19",
-    97.87
-   ]
-  ],
-  "slug": "switch-gaming-keyboard-attack-shark-x68he-wired-0-01mm-adjus-2455568825",
-  "day": "2026-11-19"
- },
- {
-  "pid": "aliexpress:1005010759467688",
-  "store": "aliexpress",
-  "title": "X68MAX ATTACK SHARK High-Performance Magnetic Switch Gaming Keyboard 8KHz Wired for Pro Esport 0.005mm RT Web Driver RGB X68HE",
-  "price_usd": 59.46,
-  "old_price_usd": 118.91,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010759467688.html%253Fpdp_npi%253D6%252540dis%252521USD%252521118.91%25252159.46%252521%252521%252521788.52%252521394.26%252521%2525402151fd2c17949580864391578e104c%25252112000061434824854%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3c43c3690e044a5a8cafb23a911dfff2C.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "X68MAX ATTACK SHARK Teclado Gaming",
-  "commission": 0.023,
-  "why": "Interruptores magnéticos de alto rendimiento con cable de 8KHz.",
-  "lang": "es",
-  "median_30d": 118.91,
-  "discount": 0.5,
-  "heat": 70.0,
-  "history": [
-   [
-    "2026-11-16",
-    59.46
-   ],
-   [
-    "2026-11-17",
-    59.46
-   ],
-   [
-    "2026-11-18",
-    59.46
-   ],
-   [
-    "2026-11-19",
-    59.46
-   ]
-  ],
-  "slug": "x68max-attack-shark-high-performance-magnetic-switch-gaming--0759467688",
-  "day": "2026-11-19"
- },
- {
-  "pid": "aliexpress:1005012594468059",
-  "store": "aliexpress",
-  "title": "ATTACK SHARK X65 HE Hall Effect Gaming Mechanical Keyboard, 8KHz , 0.01mm Rapid Trigger, 0.125ms Low Latency, Hot-Swap RGB Backlit",
-  "price_usd": 55.23,
-  "old_price_usd": 110.46,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012594468059.html%253Fpdp_npi%253D6%252540dis%252521USD%252521110.46%25252155.23%252521%252521%252521732.52%252521366.26%252521%2525402151fce817949580711083012e0f12%25252112000058800450173%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf2f4ed5d234f4d9e8cbff3070fdb30fcI.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "ATTACK SHARK X65 HE Teclado Mecánico",
-  "commission": 0.023,
-  "why": "Efecto Hall con activación rápida de 0.01mm y baja latencia.",
-  "lang": "es",
-  "median_30d": 110.46,
-  "discount": 0.5,
-  "heat": 70.0,
-  "history": [
-   [
-    "2026-11-12",
-    55.16
-   ],
-   [
-    "2026-11-13",
-    55.16
-   ],
-   [
-    "2026-11-14",
-    55.16
-   ],
-   [
-    "2026-11-18",
-    55.23
-   ],
-   [
-    "2026-11-19",
-    55.23
-   ]
-  ],
-  "slug": "attack-shark-x65-he-hall-effect-gaming-mechanical-keyboard-8-2594468059",
-  "day": "2026-11-19"
- },
- {
   "pid": "aliexpress:1005008194422278",
   "store": "aliexpress",
   "title": "Royal Kludge RK R65 Brazilian Portuguese Mechanical Keyboard Gasket Wired Hot-swappable 66 Key 65% RGB Backlit Gamer Keyboard",
@@ -8610,55 +9251,6 @@
    ]
   ],
   "slug": "attack-shark-r82he-wired-magnetic-hall-switch-mechanical-key-3385561601",
-  "day": "2026-11-19"
- },
- {
-  "pid": "aliexpress:1005007626708956",
-  "store": "aliexpress",
-  "title": "Redragon K630 Dragonborn Hot Swappable 60% Wired Vibrant RGB LED USB Gaming 61 Keys Compact Mechanical Keyboard Pro Software Cus",
-  "price_usd": 32.99,
-  "old_price_usd": 65.98,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007626708956.html%253Fpdp_npi%253D6%252540dis%252521USD%25252165.98%25252132.99%252521%252521%25252165.98%25252132.99%252521%2525402151fce817949580433657797e0e2b%25252112000042329523186%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3839ea99ac594f35baa3514fb756279e2.png",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Redragon K630 Dragonborn Teclado 60%",
-  "commission": 0.023,
-  "why": "Diseño compacto de 61 teclas con retroiluminación RGB.",
-  "lang": "es",
-  "median_30d": 65.98,
-  "discount": 0.5,
-  "heat": 70.0,
-  "history": [
-   [
-    "2026-11-14",
-    32.99
-   ],
-   [
-    "2026-11-15",
-    32.99
-   ],
-   [
-    "2026-11-16",
-    32.99
-   ],
-   [
-    "2026-11-17",
-    32.99
-   ],
-   [
-    "2026-11-18",
-    32.99
-   ],
-   [
-    "2026-11-19",
-    32.99
-   ]
-  ],
-  "slug": "redragon-k630-dragonborn-hot-swappable-60-wired-vibrant-rgb--7626708956",
   "day": "2026-11-19"
  },
  {
@@ -15512,51 +16104,6 @@
   "day": "2026-11-17"
  },
  {
-  "pid": "aliexpress:1005012378679335",
-  "store": "aliexpress",
-  "title": "FIIO JadeAudio JA11 Portable USB C DAC Dongle Type-C to 3.5mm Headphone Amplifier HI-RES Lossless Audio Adapter for PC Phone",
-  "price_usd": 32.4,
-  "old_price_usd": 60.01,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012378679335.html%253Fpdp_npi%253D6%252540dis%252521USD%25252160.01%25252132.40%252521%252521%252521398.21%252521215.03%252521%2525400b8ded7b17948779123276730e0f39%25252112000058243210253%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S17bbecd143794cd2af4edd6fc0a099e3u.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Portable Audio & Video",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "FiiO JA11 Adaptador DAC USB-C a 3.5mm",
-  "commission": 0.061500000000000006,
-  "why": "Audio lossless de alta resolución para tu móvil.",
-  "lang": "es",
-  "median_30d": 60.01,
-  "discount": 0.4601,
-  "heat": 78.9,
-  "history": [
-   [
-    "2026-11-12",
-    32.43
-   ],
-   [
-    "2026-11-13",
-    32.43
-   ],
-   [
-    "2026-11-14",
-    32.43
-   ],
-   [
-    "2026-11-16",
-    32.43
-   ],
-   [
-    "2026-11-17",
-    32.4
-   ]
-  ],
-  "slug": "fiio-jadeaudio-ja11-portable-usb-c-dac-dongle-type-c-to-3-5m-2378679335",
-  "day": "2026-11-17"
- },
- {
   "pid": "aliexpress:1005011700088522",
   "store": "aliexpress",
   "title": "Car vacuum cleaner TYPE-C rechargeable brushless high-power vacuum cleaner portable handheld dust blower cross-border hot sale",
@@ -15736,451 +16283,6 @@
   ],
   "slug": "nordic-retro-white-cream-fabric-pendant-lights-counter-dinin-3219283864",
   "day": "2026-11-17"
- },
- {
-  "pid": "aliexpress:1005006911655686",
-  "store": "aliexpress",
-  "title": "Redragon M612 PRO BT & 2.4RGB Gaming Mouse, 8000 DPI Wired/Wireless Optical Gamer Mice 11 Programmable Buttons & 6 Backlit Modes",
-  "price_usd": 19.12,
-  "old_price_usd": 45.98,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006911655686.html%253Fpdp_npi%253D6%252540dis%252521USD%25252145.98%25252119.12%252521%252521%25252145.98%25252119.12%252521%2525402141315917947949007593386e0ebb%25252112000038704267795%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S27c1495cc45a496a898ea6d3710af376U.png",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Redragon M612 PRO Ratón Gaming 8000 DPI",
-  "commission": 0.061500000000000006,
-  "why": "Modo dual inalámbrico y con cable con 11 botones.",
-  "lang": "es",
-  "median_30d": 45.98,
-  "discount": 0.5842,
-  "heat": 77.4,
-  "history": [
-   [
-    "2026-11-11",
-    19.12
-   ],
-   [
-    "2026-11-12",
-    19.12
-   ],
-   [
-    "2026-11-13",
-    19.12
-   ],
-   [
-    "2026-11-14",
-    19.12
-   ],
-   [
-    "2026-11-16",
-    19.12
-   ],
-   [
-    "2026-11-17",
-    19.12
-   ]
-  ],
-  "slug": "redragon-m612-pro-bt-2-4rgb-gaming-mouse-8000-dpi-wired-wire-6911655686",
-  "day": "2026-11-17"
- },
- {
-  "pid": "aliexpress:1005013039056755",
-  "store": "aliexpress",
-  "title": "FiiO CP13 Portable Cassette Player Stereo Full Analog Audio JRC5532 Op-Amp USB-C Port 13H Playtime Transparent",
-  "price_usd": 180.47,
-  "old_price_usd": 214.84,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013039056755.html%253Fpdp_npi%253D6%252540dis%252521USD%252521214.84%252521180.47%252521%252521%2525211424.67%2525211196.72%252521%2525402151fd2c17947978967822287e0e5c%25252112000060118482915%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S919722b5594e495ea2a14dbcc4344ef8t.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Arts,Crafts & Sewing",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "FiiO CP13 Reproductor de Casete Portátil Estéreo",
-  "commission": 0.0538,
-  "why": "",
-  "lang": "es",
-  "median_30d": 214.84,
-  "discount": 0.16,
-  "heat": 63.2,
-  "history": [
-   [
-    "2026-11-10",
-    180.23
-   ]
-  ],
-  "slug": "fiio-cp13-portable-cassette-player-stereo-full-analog-audio--3039056755",
-  "day": "2026-11-16"
- },
- {
-  "pid": "aliexpress:1005013466665021",
-  "store": "aliexpress",
-  "title": "FiiO KB1K 3‑Key Programmable Multimedia Keypad Macro Shortcut USB‑C with Rotary Knob for Audio PC Laptop Media Control Custom",
-  "price_usd": 24.28,
-  "old_price_usd": 34.68,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013466665021.html%253Fpdp_npi%253D6%252540dis%252521USD%25252134.68%25252124.28%252521%252521%252521229.98%252521160.99%252521%252540210152bd17947853327304891e0cb8%25252112000061253818957%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S37ae211a0c51411cba555dc8dce6fba2j.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "FiiO KB1K Teclado Programable con Mando Rotativo",
-  "commission": 0.023,
-  "why": "",
-  "lang": "es",
-  "median_30d": 34.68,
-  "discount": 0.2999,
-  "heat": 66.0,
-  "history": [
-   [
-    "2026-11-10",
-    24.24
-   ],
-   [
-    "2026-11-11",
-    24.24
-   ],
-   [
-    "2026-11-12",
-    24.24
-   ],
-   [
-    "2026-11-13",
-    24.24
-   ],
-   [
-    "2026-11-14",
-    24.28
-   ],
-   [
-    "2026-11-15",
-    24.28
-   ],
-   [
-    "2026-11-16",
-    24.28
-   ]
-  ],
-  "slug": "fiio-kb1k-3-key-programmable-multimedia-keypad-macro-shortcu-3466665021",
-  "day": "2026-11-16"
- },
- {
-  "pid": "aliexpress:1005012382892586",
-  "store": "aliexpress",
-  "title": "FiiO KB1K Multimedia Keypad Customizable Keys And Knobs Can Customize RGB Lighting Effects Mini Keyboard Dual USB Ports Gifts",
-  "price_usd": 29.92,
-  "old_price_usd": 45.34,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012382892586.html%253Fpdp_npi%253D6%252540dis%252521USD%25252145.34%25252129.92%252521%252521%252521300.68%252521198.45%252521%2525402151fd2c17947855207667187e0cf2%25252112000058218558000%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S118b0328dde9476f9bc0086832c765228.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "FiiO KB1K Teclado Multimedia con Luces RGB",
-  "commission": 0.023,
-  "why": "",
-  "lang": "es",
-  "median_30d": 45.34,
-  "discount": 0.3401,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-16",
-    29.92
-   ]
-  ],
-  "slug": "fiio-kb1k-multimedia-keypad-customizable-keys-and-knobs-can--2382892586",
-  "day": "2026-11-16"
- },
- {
-  "pid": "aliexpress:1005004871116501",
-  "store": "aliexpress",
-  "title": "Redragon M811 Aatrox Wired RGB MMO Gaming Mouse 15 Programmable Buttons 12400 DPI Ergonomic Gamer Mouse",
-  "price_usd": 23.27,
-  "old_price_usd": 55.98,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005004871116501.html%253Fpdp_npi%253D6%252540dis%252521USD%25252155.98%25252123.27%252521%252521%25252155.98%25252123.27%252521%2525402151fd2c17947949665735327e0d96%25252112000030882314319%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S60599f1c8305466caf0dcd143b6af58al.png",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Redragon M811 Aatrox Ratón Gaming MMO 15 Botones 12400 DPI",
-  "commission": 0.061500000000000006,
-  "why": "Control total con 15 botones programables y alta precision",
-  "lang": "es",
-  "median_30d": 55.98,
-  "discount": 0.5843,
-  "heat": 81.6,
-  "history": [
-   [
-    "2026-11-11",
-    23.27
-   ],
-   [
-    "2026-11-12",
-    23.27
-   ],
-   [
-    "2026-11-13",
-    23.27
-   ],
-   [
-    "2026-11-14",
-    23.27
-   ],
-   [
-    "2026-11-15",
-    23.27
-   ],
-   [
-    "2026-11-16",
-    23.27
-   ]
-  ],
-  "slug": "redragon-m811-aatrox-wired-rgb-mmo-gaming-mouse-15-programma-4871116501",
-  "day": "2026-11-16"
- },
- {
-  "pid": "aliexpress:1005012665346799",
-  "store": "aliexpress",
-  "title": "FiiO FT1-New Version Closed-Back Over-Ear Fiber Composite Diaphragm Wired Hi-Fi Headphones, American Walnut Ear Cups for Studio",
-  "price_usd": 234.74,
-  "old_price_usd": 308.87,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012665346799.html%253Fpdp_npi%253D6%252540dis%252521USD%252521308.87%252521234.74%252521%252521%2525212049.59%2525211557.69%252521%2525402140d33617947985539656156e0e3a%25252112000058985807232%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S97939aa552c7427294f4daf752665ad9w.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Arts,Crafts & Sewing",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "FiiO FT1 Auriculares Hi-Fi Cerrados Nogal",
-  "commission": 0.0538,
-  "why": "Copas de nogal americano para estudio",
-  "lang": "es",
-  "median_30d": 308.87,
-  "discount": 0.24,
-  "heat": 64.8,
-  "history": [],
-  "slug": "fiio-ft1-new-version-closed-back-over-ear-fiber-composite-di-2665346799",
-  "day": "2026-11-16"
- },
- {
-  "pid": "aliexpress:1005012370137531",
-  "store": "aliexpress",
-  "title": "FiiO LINK Series Audio Decoder Adapter Type-C To Type-C OTG Cable Aluminum Alloy Plug Housing Music Headphone Accessories",
-  "price_usd": 27.06,
-  "old_price_usd": 35.61,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012370137531.html%253Fpdp_npi%253D6%252540dis%252521USD%25252135.61%25252127.06%252521%252521%252521236.16%252521179.48%252521%25254021013cc017947852403196128e0d2f%25252112000058196473861%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sceec8c7dcb494182b3e9fcb1075e75fbq.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "FiiO LINK Cable Adaptador Audio Tipo-C OTG",
-  "commission": 0.023,
-  "why": "Conector de aluminio para accesorios de auriculares",
-  "lang": "es",
-  "median_30d": 35.61,
-  "discount": 0.2401,
-  "heat": 64.8,
-  "history": [],
-  "slug": "fiio-link-series-audio-decoder-adapter-type-c-to-type-c-otg--2370137531",
-  "day": "2026-11-16"
- },
- {
-  "pid": "aliexpress:1005012383096027",
-  "store": "aliexpress",
-  "title": "FiiO KB1K Multimedia Keypad Customizable Keys And Knobs Can Customize RGB Lighting Effects Mini Keyboard Dual USB Ports Gifts",
-  "price_usd": 29.92,
-  "old_price_usd": 45.34,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012383096027.html%253Fpdp_npi%253D6%252540dis%252521USD%25252145.34%25252129.92%252521%252521%252521300.68%252521198.45%252521%2525402141149b17947854687566906e0d8a%25252112000058245004454%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9453ef81ce5848de9a75833062490af0c.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "FiiO KB1K Teclado Multimedia Personalizable",
-  "commission": 0.023,
-  "why": "Teclas y botones personalizables con iluminacion RGB",
-  "lang": "es",
-  "median_30d": 45.34,
-  "discount": 0.3401,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-10",
-    29.88
-   ],
-   [
-    "2026-11-11",
-    29.88
-   ],
-   [
-    "2026-11-12",
-    29.88
-   ],
-   [
-    "2026-11-13",
-    29.88
-   ],
-   [
-    "2026-11-14",
-    29.92
-   ],
-   [
-    "2026-11-15",
-    29.92
-   ],
-   [
-    "2026-11-16",
-    29.92
-   ]
-  ],
-  "slug": "fiio-kb1k-multimedia-keypad-customizable-keys-and-knobs-can--2383096027",
-  "day": "2026-11-16"
- },
- {
-  "pid": "aliexpress:1005013520504963",
-  "store": "aliexpress",
-  "title": "FiiO KB1K Multimedia Knob Mechanical Keypad, Hot Swappable RGB Mini Keyboard, Custom Shortcut Music Controller for PC Laptop",
-  "price_usd": 22.01,
-  "old_price_usd": 32.85,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013520504963.html%253Fpdp_npi%253D6%252540dis%252521USD%25252132.85%25252122.01%252521%252521%252521217.83%252521145.95%252521%25254021013cc617947853751677497e0f5b%25252112000061321463510%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb846b54b0a84a6297de93b0d51aea64E.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "FiiO KB1K Teclado Mecánico Mini con Perilla",
-  "commission": 0.023,
-  "why": "Control de música personalizable para PC y portátil.",
-  "lang": "es",
-  "median_30d": 32.85,
-  "discount": 0.33,
-  "heat": 66.6,
-  "history": [
-   [
-    "2026-11-12",
-    21.98
-   ],
-   [
-    "2026-11-13",
-    21.98
-   ],
-   [
-    "2026-11-14",
-    21.98
-   ],
-   [
-    "2026-11-16",
-    22.01
-   ]
-  ],
-  "slug": "fiio-kb1k-multimedia-knob-mechanical-keypad-hot-swappable-rg-3520504963",
-  "day": "2026-11-16"
- },
- {
-  "pid": "aliexpress:1005013410619712",
-  "store": "aliexpress",
-  "title": "FIIO KB1K Mini Keyboard RGB Lighting Effects Aluminum Alloy Knob Desktop Digital Broadcasting Universal PC Multimedia Keyboard",
-  "price_usd": 25.91,
-  "old_price_usd": 51.83,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013410619712.html%253Fpdp_npi%253D6%252540dis%252521USD%25252151.83%25252125.91%252521%252521%252521343.71%252521171.85%252521%2525400b8ded7b17947855679475356e0dac%25252112000061114268758%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1b8720965e064e088855300b53eb1c76A.png",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Mini Teclado FIIO KB1K RGB",
-  "commission": 0.023,
-  "why": "Teclado multimedia con iluminación RGB y perilla de aluminio.",
-  "lang": "es",
-  "median_30d": 51.83,
-  "discount": 0.5001,
-  "heat": 70.0,
-  "history": [
-   [
-    "2026-11-10",
-    25.88
-   ],
-   [
-    "2026-11-11",
-    25.88
-   ],
-   [
-    "2026-11-12",
-    25.88
-   ],
-   [
-    "2026-11-13",
-    25.88
-   ],
-   [
-    "2026-11-14",
-    25.91
-   ],
-   [
-    "2026-11-15",
-    25.91
-   ],
-   [
-    "2026-11-16",
-    25.91
-   ]
-  ],
-  "slug": "fiio-kb1k-mini-keyboard-rgb-lighting-effects-aluminum-alloy--3410619712",
-  "day": "2026-11-16"
- },
- {
-  "pid": "aliexpress:1005013592370743",
-  "store": "aliexpress",
-  "title": "FiiO KB1K Mini Mechanical Keyboard Musical Knob Design Premium Keycap for PC Laptop Audio Control Accessories Durable Stable",
-  "price_usd": 20.24,
-  "old_price_usd": 50.59,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013592370743.html%253Fpdp_npi%253D6%252540dis%252521USD%25252150.59%25252120.24%252521%252521%252521335.48%252521134.19%252521%2525402140d36217947853290887852e0ea8%25252112000061582730892%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1d50edba30bb4b4cb416770001d6ae03y.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Mini Teclado Mecánico FiiO KB1K",
-  "commission": 0.023,
-  "why": "Control de audio preciso con perilla y diseño duradero.",
-  "lang": "es",
-  "median_30d": 50.59,
-  "discount": 0.5999,
-  "heat": 72.0,
-  "history": [
-   [
-    "2026-11-12",
-    20.21
-   ],
-   [
-    "2026-11-13",
-    20.21
-   ],
-   [
-    "2026-11-14",
-    20.21
-   ],
-   [
-    "2026-11-16",
-    20.24
-   ]
-  ],
-  "slug": "fiio-kb1k-mini-mechanical-keyboard-musical-knob-design-premi-3592370743",
-  "day": "2026-11-16"
  },
  {
   "pid": "aliexpress:1005011998143029",
