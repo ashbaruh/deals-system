@@ -377,12 +377,18 @@ def main() -> int:
                 try:
                     from . import bluesky
                     n = 0
-                    for deal in posted[:SETTINGS.get("bluesky_per_run", 2)]:
+                    from .core import active_keyword_events
+                    evs = active_keyword_events(today)
+                    def _ev(d):     # deals that belong to a live keyword event (GTA 6...) go first
+                        t = d.product.title
+                        return next((e for e in evs if e["_rx"].search(t) and not (e["_ex"] and e["_ex"].search(t))), None)
+                    for deal in sorted(posted, key=lambda d: _ev(d) is None)[:SETTINGS.get("bluesky_per_run", 2)]:
                         a = by_pid[deal.product.pid]
                         pct = round(deal.discount * 100)
                         name = " ".join((a.get("title_local") or a["title"]).split())[:90]
-                        text = (f"🔥 {name}\n${a['price_usd']:.2f} (-{pct}% vs its 30-day price)\n"
-                                f"#AliExpress #deals #{a.get('niche', 'sale')}")
+                        ev = _ev(deal)
+                        tags = f"#AliExpress #deals #{a.get('niche', 'sale')}" + (" " + " ".join(ev.get("hashtags", [])) if ev else "")
+                        text = (f"🔥 {name}\n${a['price_usd']:.2f} (-{pct}% vs its 30-day price)\n" + tags)
                         n += bluesky.post(text, f"{base}/en/deal/{a['slug']}", name,
                                           f"Now ${a['price_usd']:.2f}, was ${a['median_30d']:.2f}. Real price drop, checked daily.",
                                           a.get("image"))

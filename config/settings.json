@@ -147,7 +147,12 @@
         "es": "🎮 Para GTA 6",
         "en": "🎮 For GTA 6"
       },
-      "hero_css": "background:linear-gradient(120deg,#ff2d95 0%,#7b2ff7 45%,#00d4ff 100%);color:#fff"
+      "hero_css": "background:linear-gradient(120deg,#ff2d95 0%,#7b2ff7 45%,#00d4ff 100%);color:#fff",
+      "hashtags": [
+        "#GTA6",
+        "#PS5",
+        "#Xbox"
+      ]
     },
     {
       "key": "black-friday",
