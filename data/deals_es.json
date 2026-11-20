@@ -1,59 +1,5 @@
 [
  {
-  "pid": "joom:67e7a0f121d3b801e6e1cc3e",
-  "store": "joom",
-  "title": "Candado inteligente con Bluetooth y huella dactilar, antirrobo, electrónico, sin llave, para bicicleta de montaña y carretera gray",
-  "price_usd": 41.3,
-  "old_price_usd": null,
-  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F67e7a0f121d3b801e6e1cc3e%3Fcurrency%3DEUR%26utm_productid%3D67e7a0f121d3b801e6e1cc3e%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU2NTc5NTgsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY3ZTdhMGYxMjFkM2I4MDFlNmUxY2MzZSIsInYiOiI2N2U3YTBmMTIxZDNiODgxZTZlMWNjNDAiLCJjIjozOC4wfV19.f3EifDe3T4SsnOedKo0UQ2RD2pq5m458CIZVW_Jzv3vsowRuOB153BrO85GH7JOREoYd9Sz55408VgBEptTn2g%26variant_id%3D67e7a0f121d3b881e6e1cc40%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-19",
-  "image": "https://img.joomcdn.net/1477a8fd1091a65cb167ca1128c8d9e5aef1b7ee_original.jpeg",
-  "rating": null,
-  "orders": null,
-  "category": "Joom/Deportes y ocio/Tipos de deportes/Ciclismo/Accesorios para bicicletas/Antirobos",
-  "niche": "sports",
-  "ships_to": [
-   "ES"
-  ],
-  "title_local": "Candado inteligente Bluetooth y huella dactilar gray",
-  "commission": null,
-  "why": "Apertura sin llave por huella dactilar y Bluetooth para bici.",
-  "lang": "es",
-  "median_30d": 41.3,
-  "discount": 0.0,
-  "heat": 40.0,
-  "history": [],
-  "showcase": true,
-  "slug": "candado-inteligente-con-bluetooth-y-huella-dactilar-antirrob-01e6e1cc3e",
-  "day": "2026-11-20"
- },
- {
-  "pid": "joom:6409737857b71101f0e02948",
-  "store": "joom",
-  "title": "Álbum ITZY CRAZY IN LOVE Edición Especial, versión Jewel Case",
-  "price_usd": 38.04,
-  "old_price_usd": null,
-  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F6409737857b71101f0e02948%3Fcurrency%3DEUR%26utm_productid%3D6409737857b71101f0e02948%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU2NTc5NTgsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY0MDk3Mzc4NTdiNzExMDFmMGUwMjk0OCIsInYiOiI2NDA5NzM3ODU3YjcxMTc2ZjBlMDI5NGEiLCJjIjozNS4wfV19.DYFrINwHER51VCH2JRJ9IRvMXVEobB1IUeB33bxJkmb8hufLdgDMmeNQZCZ1vUbFkm-HX6j9iMzQXgygx0wSog%26variant_id%3D6409737857b71176f0e0294a%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-19",
-  "image": "https://img.joomcdn.net/117efe7f49c1a7a2996439f5ec882d04741ed9df_original.jpeg",
-  "rating": null,
-  "orders": null,
-  "category": "Joom/Electrónica/Vídeo y audio/Auriculares y equipos de audio/Álbumes de música",
-  "niche": "audio",
-  "ships_to": [
-   "ES"
-  ],
-  "title_local": "Álbum ITZY CRAZY IN LOVE Edición Especial Jewel Case",
-  "commission": null,
-  "why": "Edicion especial en formato jewel case del album de ITZY.",
-  "lang": "es",
-  "median_30d": 38.04,
-  "discount": 0.0,
-  "heat": 40.0,
-  "history": [],
-  "showcase": true,
-  "slug": "lbum-itzy-crazy-in-love-edici-n-especial-versi-n-jewel-case-01f0e02948",
-  "day": "2026-11-20"
- },
- {
   "pid": "joom:6886e5f622168c01da252447",
   "store": "joom",
   "title": "Juego de funda nórdica Aubusson antiguo, juego de ropa de cama tamaño king, queen, doble, matrimonial, twin, individual 140x200cm 3pcs",
@@ -78,6 +24,60 @@
   "history": [],
   "showcase": true,
   "slug": "juego-de-funda-n-rdica-aubusson-antiguo-juego-de-ropa-de-cam-01da252447",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "joom:694b6290d27924010d76c1df",
+  "store": "joom",
+  "title": "Abrigo de Lana para Mujer de Largo Medio Nizi Abrigo Slim Otoño e Invierno Cuello de Piel 2XL negro",
+  "price_usd": 45.65,
+  "old_price_usd": null,
+  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F694b6290d27924010d76c1df%3Fcurrency%3DEUR%26utm_productid%3D694b6290d27924010d76c1df%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU2NTc5NTgsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY5NGI2MjkwZDI3OTI0MDEwZDc2YzFkZiIsInYiOiI2OTRiNjI5MGQyNzkyNDFkMGQ3NmMxZWUiLCJjIjo0Mi4wLCJvIjo0NC4wfV19.rU4s84dYgu0wI56JA3pW6zRn-e0o51l4fp08ucNEnCYIqesFKUHX8rfnLr4KQIkNkvNTwxV-tSiU2yw26SCn_w%26variant_id%3D694b6290d279241d0d76c1ee%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-19",
+  "image": "https://img.joomcdn.net/656446e3ce42c9fa598d39eb57f73b8247ed3f1a_original.jpeg",
+  "rating": null,
+  "orders": null,
+  "category": "Joom/Moda femenina/Ropa/Abrigos y capas/Abrigo",
+  "niche": "fashion",
+  "ships_to": [
+   "ES"
+  ],
+  "title_local": "Abrigo de Lana Largo Medio Nizi Slim Cuello Piel",
+  "commission": null,
+  "why": "Corte entallado con cuello de pelo para invierno.",
+  "lang": "es",
+  "median_30d": 45.65,
+  "discount": 0.0,
+  "heat": 40.0,
+  "history": [],
+  "showcase": true,
+  "slug": "abrigo-de-lana-para-mujer-de-largo-medio-nizi-abrigo-slim-ot-010d76c1df",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "joom:662b0103fa635d01024dc452",
+  "store": "joom",
+  "title": "Ropa Nueva para Niños, Camisetas de Manga Corta para Niños, Ropa de Bebé para Niñas 140cm black",
+  "price_usd": 8.84,
+  "old_price_usd": null,
+  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F662b0103fa635d01024dc452%3Fcurrency%3DEUR%26utm_productid%3D662b0103fa635d01024dc452%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU2NTc5NTgsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY2MmIwMTAzZmE2MzVkMDEwMjRkYzQ1MiIsInYiOiI2NjJiMDEwM2ZhNjM1ZDEzMDI0ZGM0NTkiLCJjIjo4LjEzfV19.GcWgqZ_lW2YODy0_3zD2nMWSNXe90AN65rIjcKMf5X4Fa0ovtL_ExtBNCYPbTukpyhc6rAY-KWAZDr1iuMbl6Q%26variant_id%3D662b0103fa635d13024dc459%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-19",
+  "image": "https://img.joomcdn.net/f2ece4fff4cf967ed857759a3c1be8fa1d16da8c_original.jpeg",
+  "rating": null,
+  "orders": null,
+  "category": "Joom/Productos para niños/Moda infantil/Ropa/Niñas/Camisetas y sudaderas/Camisetas",
+  "niche": "kids",
+  "ships_to": [
+   "ES"
+  ],
+  "title_local": "Camiseta infantil de manga corta negra 140 cm",
+  "commission": null,
+  "why": "Ropa de manga corta en color negro para niños de 140 cm",
+  "lang": "es",
+  "median_30d": 8.84,
+  "discount": 0.0,
+  "heat": 40.0,
+  "history": [],
+  "showcase": true,
+  "slug": "ropa-nueva-para-ni-os-camisetas-de-manga-corta-para-ni-os-ro-01024dc452",
   "day": "2026-11-20"
  },
  {
@@ -169,6 +169,435 @@
    ]
   ],
   "slug": "classic-vacuum-coffee-maker-with-wood-handle-glass-siphon-br-3629875944",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005011942666907",
+  "store": "aliexpress",
+  "title": "ATTACK SHARK X68 He/FREEWOLF F68 Gaming Keyboard Magnetic Mechanical Wired for Pro Gaming 0.01mm Rapid Trigg 8000Hz 128K Rate",
+  "price_usd": 44.64,
+  "old_price_usd": 102.63,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011942666907.html%253Fpdp_npi%253D6%252540dis%252521USD%252521102.63%25252144.64%252521%252521%252521680.58%252521296.06%252521%2525402151fd2c17951308659938435e0e5c%25252112000057082861845%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S55be4799d5cb4161ae767ff0155b18a0s.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Teclado Gaming ATTACK SHARK X68HE",
+  "commission": 0.023,
+  "why": "Gatillo rápido de 0.01mm y frecuencia de sondeo de 8000Hz.",
+  "lang": "es",
+  "median_30d": 102.63,
+  "discount": 0.565,
+  "heat": 71.3,
+  "history": [
+   [
+    "2026-11-11",
+    41.29
+   ],
+   [
+    "2026-11-12",
+    41.29
+   ],
+   [
+    "2026-11-16",
+    43.34
+   ],
+   [
+    "2026-11-17",
+    43.34
+   ],
+   [
+    "2026-11-18",
+    44.64
+   ],
+   [
+    "2026-11-19",
+    44.64
+   ],
+   [
+    "2026-11-20",
+    44.64
+   ]
+  ],
+  "slug": "attack-shark-x68-he-freewolf-f68-gaming-keyboard-magnetic-me-1942666907",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005007904736955",
+  "store": "aliexpress",
+  "title": "Baseus Auto Restorable Car Phone Holder Gravity for Car Air Vent Silicone Stand For iPhone 15 Xiaomi Samsung Car Mobile Support",
+  "price_usd": 8.6,
+  "old_price_usd": 20.11,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007904736955.html%253Fpdp_npi%253D6%252540dis%252521USD%25252120.11%2525218.60%252521%252521%252521133.55%25252157.15%252521%2525402151fca717951470931688039e0ec8%25252112000042788035043%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5f9a850c46b847ee8261c00bfef5c325w.png",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Soporte de móvil Baseus de gravedad para rejilla",
+  "commission": 0.0538,
+  "why": "Ajuste por gravedad para la rejilla del coche con silicona",
+  "lang": "es",
+  "median_30d": 20.11,
+  "discount": 0.5724,
+  "heat": 71.4,
+  "history": [
+   [
+    "2026-11-14",
+    10.33
+   ],
+   [
+    "2026-11-15",
+    10.33
+   ],
+   [
+    "2026-11-16",
+    10.33
+   ],
+   [
+    "2026-11-17",
+    10.33
+   ],
+   [
+    "2026-11-18",
+    9.16
+   ],
+   [
+    "2026-11-19",
+    9.16
+   ],
+   [
+    "2026-11-20",
+    8.6
+   ]
+  ],
+  "slug": "baseus-auto-restorable-car-phone-holder-gravity-for-car-air--7904736955",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012739668679",
+  "store": "aliexpress",
+  "title": "AJAZZ NK61 Wired Mechanical Keyboard 61 Keys 60% Compact  Hot Swappable Red Switch RGB Backlit Portable for Gaming Laptop Gamer",
+  "price_usd": 26.6,
+  "old_price_usd": 62.4,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012739668679.html%253Fpdp_npi%253D6%252540dis%252521USD%25252162.40%25252126.60%252521%252521%252521413.81%252521176.38%252521%2525402151fce817951311221536192e0c5d%25252112000059219228739%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8639d4daf9aa44e091e824b0ff998ad4u.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "AJAZZ NK61 Teclado Mecánico Compacto 60% RGB",
+  "commission": 0.023,
+  "why": "Switches rojos y diseño portátil intercambiable.",
+  "lang": "es",
+  "median_30d": 62.4,
+  "discount": 0.5737,
+  "heat": 71.5,
+  "history": [
+   [
+    "2026-11-18",
+    28.33
+   ],
+   [
+    "2026-11-19",
+    28.33
+   ],
+   [
+    "2026-11-20",
+    26.6
+   ]
+  ],
+  "slug": "ajazz-nk61-wired-mechanical-keyboard-61-keys-60-compact-hot--2739668679",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012421055367",
+  "store": "aliexpress",
+  "title": "X68HE ATTACK SHARK X68PRO RGB Magnetic Mechanical Keyboard 0.01mm RT Accuracy 128K Rate 0.125ms and 8000Hz for E-sports",
+  "price_usd": 58.89,
+  "old_price_usd": 138.15,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012421055367.html%253Fpdp_npi%253D6%252540dis%252521USD%252521138.15%25252158.89%252521%252521%252521916.10%252521390.53%252521%2525402140d33617951309929215790e0ebe%25252112000058362776351%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2f54fdd2517644b8921335ee42e7e6b5R.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Teclado Mecánico ATTACK SHARK X68HE RGB RT 8000Hz",
+  "commission": 0.023,
+  "why": "Precisión RT de 0.01mm y tasa de sondeo de 8000Hz",
+  "lang": "es",
+  "median_30d": 138.15,
+  "discount": 0.5737,
+  "heat": 71.5,
+  "history": [
+   [
+    "2026-11-14",
+    60.1
+   ],
+   [
+    "2026-11-15",
+    60.1
+   ],
+   [
+    "2026-11-16",
+    60.1
+   ],
+   [
+    "2026-11-17",
+    60.1
+   ],
+   [
+    "2026-11-18",
+    60.1
+   ],
+   [
+    "2026-11-19",
+    60.1
+   ],
+   [
+    "2026-11-20",
+    58.89
+   ]
+  ],
+  "slug": "x68he-attack-shark-x68pro-rgb-magnetic-mechanical-keyboard-0-2421055367",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005013128307392",
+  "store": "aliexpress",
+  "title": "Ajazz NK104 Wired Gaming Mechanical Keyboard with Red/Blue Switches Multifunctional Knobs, Large Configuration, Numerical Offi",
+  "price_usd": 37.35,
+  "old_price_usd": 87.62,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013128307392.html%253Fpdp_npi%253D6%252540dis%252521USD%25252187.62%25252137.35%252521%252521%252521581.05%252521247.71%252521%2525402140f88817951309217945818e0dac%25252112000060310897811%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S64f2686938d4466696cd4871f2393ab2Q.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Ajazz NK104 Teclado Mecánico Gaming",
+  "commission": 0.023,
+  "why": "Interruptores rojos y azules con perillas multifuncionales.",
+  "lang": "es",
+  "median_30d": 87.62,
+  "discount": 0.5737,
+  "heat": 71.5,
+  "history": [
+   [
+    "2026-11-14",
+    39.02
+   ],
+   [
+    "2026-11-15",
+    39.02
+   ],
+   [
+    "2026-11-16",
+    40.36
+   ],
+   [
+    "2026-11-17",
+    40.36
+   ],
+   [
+    "2026-11-18",
+    39.91
+   ],
+   [
+    "2026-11-19",
+    39.91
+   ],
+   [
+    "2026-11-20",
+    37.35
+   ]
+  ],
+  "slug": "ajazz-nk104-wired-gaming-mechanical-keyboard-with-red-blue-s-3128307392",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005013010671337",
+  "store": "aliexpress",
+  "title": "AJAZZ NK61 60% Mechanical Gaming Keyboard, 61 Keys, Linear Red Switches, Compatible Hot-Swap, USB Wired, OEM Profile Keycaps",
+  "price_usd": 27.64,
+  "old_price_usd": 64.85,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013010671337.html%253Fpdp_npi%253D6%252540dis%252521USD%25252164.85%25252127.64%252521%252521%252521430.07%252521183.34%252521%2525402140d36217951311777231648e0f1b%25252112000060016723108%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S94b7e9bfb51b410cacc22944c41ee0faw.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Teclado 60% AJAZZ NK61",
+  "commission": 0.023,
+  "why": "61 teclas con interruptores rojos lineales intercambiables.",
+  "lang": "es",
+  "median_30d": 64.85,
+  "discount": 0.5738,
+  "heat": 71.5,
+  "history": [
+   [
+    "2026-11-11",
+    28.6
+   ],
+   [
+    "2026-11-12",
+    28.6
+   ],
+   [
+    "2026-11-18",
+    26.52
+   ],
+   [
+    "2026-11-19",
+    26.52
+   ],
+   [
+    "2026-11-20",
+    27.64
+   ]
+  ],
+  "slug": "ajazz-nk61-60-mechanical-gaming-keyboard-61-keys-linear-red--3010671337",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005006014887759",
+  "store": "aliexpress",
+  "title": "Baseus 7-in-1 Gen 2 USB C HUB 4K@60Hz HDMI 3* USB 3.0 PD 100W Type C Port SD/TF Card Reader for Macbook iPad M2 M1 Steam Deck",
+  "price_usd": 25.0,
+  "old_price_usd": 59.27,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006014887759.html%253Fpdp_npi%253D6%252540dis%252521USD%25252159.27%25252125.00%252521%252521%252521393.07%252521165.83%252521%2525402140d36117951311196931574e0d9c%25252112000035330025988%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5c9abd305ffd470ebc6b72ec49d99ec7V.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus HUB USB C 7 en 1 4K 60Hz HDMI PD 100W",
+  "commission": 0.023,
+  "why": "Hub USB C con HDMI 4K a 60Hz y carga PD de 100W",
+  "lang": "es",
+  "median_30d": 59.27,
+  "discount": 0.5782,
+  "heat": 71.6,
+  "history": [
+   [
+    "2026-11-14",
+    24.53
+   ],
+   [
+    "2026-11-15",
+    24.53
+   ],
+   [
+    "2026-11-16",
+    24.53
+   ],
+   [
+    "2026-11-17",
+    24.53
+   ],
+   [
+    "2026-11-18",
+    24.53
+   ],
+   [
+    "2026-11-19",
+    24.53
+   ],
+   [
+    "2026-11-20",
+    25.0
+   ]
+  ],
+  "slug": "baseus-7-in-1-gen-2-usb-c-hub-4k-60hz-hdmi-3-usb-3-0-pd-100w-6014887759",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005003592801940",
+  "store": "aliexpress",
+  "title": "RK61 Royal Kludge Wireless Mechanical Keyboard Tri-Mode Bluetooth 5.0/2.4G/USB-C RGB Backlit 61 Key Hot-Swappable Gamer Keyboard",
+  "price_usd": 54.59,
+  "old_price_usd": 129.98,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005003592801940.html%253Fpdp_npi%253D6%252540dis%252521USD%252521129.98%25252154.59%252521%252521%252521129.98%25252154.59%252521%2525402140f88817951308891882466e0dac%25252112000051650261979%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/H3304be432f14479a80f08d754a329ed82.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Teclado Inalámbrico RK61",
+  "commission": 0.023,
+  "why": "Conectividad trimodo y 61 teclas intercambiables.",
+  "lang": "es",
+  "median_30d": 129.98,
+  "discount": 0.58,
+  "heat": 71.6,
+  "history": [
+   [
+    "2026-11-14",
+    54.59
+   ],
+   [
+    "2026-11-15",
+    54.59
+   ],
+   [
+    "2026-11-16",
+    54.59
+   ],
+   [
+    "2026-11-17",
+    54.59
+   ],
+   [
+    "2026-11-18",
+    54.59
+   ],
+   [
+    "2026-11-19",
+    54.59
+   ],
+   [
+    "2026-11-20",
+    54.59
+   ]
+  ],
+  "slug": "rk61-royal-kludge-wireless-mechanical-keyboard-tri-mode-blue-3592801940",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005011901401218",
+  "store": "aliexpress",
+  "title": "Redragon K745 Wired Gasket RGB 108 Keys Mechanical Gaming Extra 4 Hotkeys Upgraded Hot-swappable Socket Keyboard",
+  "price_usd": 37.79,
+  "old_price_usd": 89.98,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011901401218.html%253Fpdp_npi%253D6%252540dis%252521USD%25252189.98%25252137.79%252521%252521%25252189.98%25252137.79%252521%2525402140d36217951310181805688e0c42%25252112000056954881971%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2442891bd4eb4a68b93e9eb9027f3addH.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Redragon K745 Teclado Mecánico Gaming RGB",
+  "commission": 0.023,
+  "why": "108 teclas, Gasket mount y hot-swappable.",
+  "lang": "es",
+  "median_30d": 89.98,
+  "discount": 0.58,
+  "heat": 71.6,
+  "history": [
+   [
+    "2026-11-20",
+    37.79
+   ]
+  ],
+  "slug": "redragon-k745-wired-gasket-rgb-108-keys-mechanical-gaming-ex-1901401218",
   "day": "2026-11-20"
  },
  {
@@ -548,59 +977,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005007470528876",
-  "store": "aliexpress",
-  "title": "UGREEN Magnetic Phone Stand 360° Rotation Aluminum Mobile Phone Stand For Magsafe iPhone 15 14 13 Pro Max Xiaomi Samsung Huawei",
-  "price_usd": 12.87,
-  "old_price_usd": 30.83,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007470528876.html%253Fpdp_npi%253D6%252540dis%252521USD%25252130.83%25252112.87%252521%252521%25252130.83%25252112.87%252521%2525402140f88817951469176692228e0d08%25252112000040887953852%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S83c31bf4745a41409bd958bb386666a0E.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Holders & Stands",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Soporte magnético UGREEN 360° de aluminio",
-  "commission": 0.0538,
-  "why": "Rotación de 360 grados y compatible con MagSafe",
-  "lang": "es",
-  "median_30d": 30.83,
-  "discount": 0.5825,
-  "heat": 71.7,
-  "history": [
-   [
-    "2026-11-14",
-    13.41
-   ],
-   [
-    "2026-11-15",
-    13.41
-   ],
-   [
-    "2026-11-16",
-    13.41
-   ],
-   [
-    "2026-11-17",
-    13.41
-   ],
-   [
-    "2026-11-18",
-    13.27
-   ],
-   [
-    "2026-11-19",
-    13.27
-   ],
-   [
-    "2026-11-20",
-    12.87
-   ]
-  ],
-  "slug": "ugreen-magnetic-phone-stand-360-rotation-aluminum-mobile-pho-7470528876",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005013624496254",
   "store": "aliexpress",
   "title": "UGREEN Ethernet Cable 10Gbps Cat6A Patch Internet RJ45 Cord 28AWG 500MHz for Router PC Gold-Plated Connectors Pure Copper Wire",
@@ -789,105 +1165,56 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005009467240416",
+  "pid": "aliexpress:1005005686794140",
   "store": "aliexpress",
-  "title": "UGREEN Car Phone Holder Magnetic 360° Rotation For Magsafe iPhone 16 15 14 Pro Max Samsung S25 Ultra Xiaomi Air Vent Car Mount",
-  "price_usd": 10.04,
-  "old_price_usd": 24.74,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009467240416.html%253Fpdp_npi%253D6%252540dis%252521USD%25252124.74%25252110.04%252521%252521%25252124.74%25252110.04%252521%2525402151fca717951471014158896e0ec8%25252112000049192890711%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S85ded9ae554947e9a0ef6868f4ca22ff9.jpg",
+  "title": "Baseus Car Phone Holder For Universal Mobile Phone Holder Stand Car Phone Stand For Car Air Outlet Mount Car Cell Phone Support",
+  "price_usd": 6.17,
+  "old_price_usd": 15.24,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005005686794140.html%253Fpdp_npi%253D6%252540dis%252521USD%25252115.24%2525216.17%252521%252521%252521101.21%25252140.96%252521%2525400b8ded7b17951467847394381e0d89%25252112000034009489776%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7069ad8fd2994f7483a9589b88a81dd2u.jpg",
   "rating": null,
   "orders": null,
   "category": "Holders & Stands",
   "niche": "brands",
   "ships_to": [],
-  "title_local": "UGREEN Soporte Movil Magnetico 360 Magsafe Rejilla",
+  "title_local": "Baseus Soporte para Móvil para Rejilla de Coche",
   "commission": 0.0538,
-  "why": "Soporte con rotacion de 360 grados para rejilla",
+  "why": "Soporte universal para rejillas de ventilación.",
   "lang": "es",
-  "median_30d": 24.74,
-  "discount": 0.5942,
+  "median_30d": 15.24,
+  "discount": 0.5951,
   "heat": 71.9,
   "history": [
    [
+    "2026-11-11",
+    6.47
+   ],
+   [
+    "2026-11-12",
+    6.26
+   ],
+   [
+    "2026-11-13",
+    6.26
+   ],
+   [
     "2026-11-14",
-    10.24
+    6.47
    ],
    [
     "2026-11-15",
-    10.24
+    6.47
    ],
    [
     "2026-11-16",
-    10.24
-   ],
-   [
-    "2026-11-18",
-    10.24
-   ],
-   [
-    "2026-11-19",
-    10.24
+    6.47
    ],
    [
     "2026-11-20",
-    10.04
+    6.17
    ]
   ],
-  "slug": "ugreen-car-phone-holder-magnetic-360-rotation-for-magsafe-ip-9467240416",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005009466819369",
-  "store": "aliexpress",
-  "title": "UGREEN Magnetic Car Phone Holder Dashboard Suction Cup 360°Rotatable Car Mount For Magsafe iPhone 16 15 14 ProMax Xiaomi Samsung",
-  "price_usd": 12.71,
-  "old_price_usd": 31.38,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009466819369.html%253Fpdp_npi%253D6%252540dis%252521USD%25252131.38%25252112.71%252521%252521%25252131.38%25252112.71%252521%2525402140d33617951467655825750e0ebd%25252112000049191608855%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4460272aeb72444c831d49c284cc24e8U.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Holders & Stands",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Soporte magnético de coche UGREEN para salpicadero",
-  "commission": 0.0538,
-  "why": "Ventosa firme y rotación de 360° compatible con MagSafe",
-  "lang": "es",
-  "median_30d": 31.38,
-  "discount": 0.595,
-  "heat": 71.9,
-  "history": [
-   [
-    "2026-11-14",
-    12.83
-   ],
-   [
-    "2026-11-15",
-    12.83
-   ],
-   [
-    "2026-11-16",
-    12.83
-   ],
-   [
-    "2026-11-17",
-    12.83
-   ],
-   [
-    "2026-11-18",
-    12.78
-   ],
-   [
-    "2026-11-19",
-    12.78
-   ],
-   [
-    "2026-11-20",
-    12.71
-   ]
-  ],
-  "slug": "ugreen-magnetic-car-phone-holder-dashboard-suction-cup-360-r-9466819369",
+  "slug": "baseus-car-phone-holder-for-universal-mobile-phone-holder-st-5686794140",
   "day": "2026-11-20"
  },
  {
@@ -941,59 +1268,6 @@
    ]
   ],
   "slug": "ugreen-usb-c-hub-usb3-0-multiple-ports-ultra-slim-expander-f-2476967164",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005008886876486",
-  "store": "aliexpress",
-  "title": "UGREEN Magnetic Phone Holder For Tesla Car Touchscreen Triangular Structure For Magsafe iPhone 16 15 Pro Max Samsung Galaxy S25",
-  "price_usd": 13.76,
-  "old_price_usd": 34.7,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005008886876486.html%253Fpdp_npi%253D6%252540dis%252521USD%25252134.70%25252113.76%252521%252521%25252134.70%25252113.76%252521%2525402140f89017951467573778610e0ed7%25252112000047085148906%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdda5c5967b314fd78d08724ebb355bee4.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Holders & Stands",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "UGREEN Soporte Magnetico Pantalla Tesla Magsafe",
-  "commission": 0.0538,
-  "why": "Estructura triangular para pantalla tactil de Tesla",
-  "lang": "es",
-  "median_30d": 34.7,
-  "discount": 0.6035,
-  "heat": 72.1,
-  "history": [
-   [
-    "2026-11-14",
-    14.36
-   ],
-   [
-    "2026-11-15",
-    14.36
-   ],
-   [
-    "2026-11-16",
-    14.32
-   ],
-   [
-    "2026-11-17",
-    14.32
-   ],
-   [
-    "2026-11-18",
-    14.35
-   ],
-   [
-    "2026-11-19",
-    14.35
-   ],
-   [
-    "2026-11-20",
-    13.76
-   ]
-  ],
-  "slug": "ugreen-magnetic-phone-holder-for-tesla-car-touchscreen-trian-8886876486",
   "day": "2026-11-20"
  },
  {
@@ -1263,112 +1537,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005009024108046",
-  "store": "aliexpress",
-  "title": "Baseus Car Phone Holder Sucker for Dashboard Mobile Phone Holder Car Mount For Samsung iPhone Xiaomi Huawei Foldable Holder",
-  "price_usd": 11.22,
-  "old_price_usd": 29.98,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009024108046.html%253Fpdp_npi%253D6%252540dis%252521USD%25252129.98%25252111.22%252521%252521%25252129.98%25252111.22%252521%25254021013cc617951467356191533e0df0%25252112000047621930247%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S38ca9e7ba1bc4e3b9fb62e95a1ad0420x.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Holders & Stands",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus Soporte Movil Coche Ventosa Salpicadero",
-  "commission": 0.0538,
-  "why": "Soporte plegable para movil con ventosa",
-  "lang": "es",
-  "median_30d": 29.98,
-  "discount": 0.6258,
-  "heat": 72.5,
-  "history": [
-   [
-    "2026-11-14",
-    11.34
-   ],
-   [
-    "2026-11-15",
-    11.34
-   ],
-   [
-    "2026-11-16",
-    11.34
-   ],
-   [
-    "2026-11-17",
-    11.34
-   ],
-   [
-    "2026-11-18",
-    11.22
-   ],
-   [
-    "2026-11-19",
-    11.22
-   ],
-   [
-    "2026-11-20",
-    11.22
-   ]
-  ],
-  "slug": "baseus-car-phone-holder-sucker-for-dashboard-mobile-phone-ho-9024108046",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005012148375057",
-  "store": "aliexpress",
-  "title": "BASEUS Portable Fan Convenient Creative Small Fan Pocket Hand-held Fan Lightweight Mini Fan Air Coolers Outdoor USB Rechargeable",
-  "price_usd": 26.7,
-  "old_price_usd": 54.5,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012148375057.html%253Fpdp_npi%253D6%252540dis%252521USD%25252154.50%25252126.70%252521%252521%252521361.90%252521177.33%252521%2525402102f1cd17951492797803958e0f99%25252112000057625027580%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2c623953f97d4753a51e6b2fd6339eef0.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Household Appliances",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "BASEUS Ventilador Portatil Mini Mano USB",
-  "commission": 0.0538,
-  "why": "Ventilador de mano compacto recargable por USB",
-  "lang": "es",
-  "median_30d": 54.5,
-  "discount": 0.5101,
-  "heat": 72.6,
-  "history": [
-   [
-    "2026-11-14",
-    27.28
-   ],
-   [
-    "2026-11-15",
-    27.28
-   ],
-   [
-    "2026-11-16",
-    27.27
-   ],
-   [
-    "2026-11-17",
-    27.27
-   ],
-   [
-    "2026-11-18",
-    27.27
-   ],
-   [
-    "2026-11-19",
-    27.27
-   ],
-   [
-    "2026-11-20",
-    26.7
-   ]
-  ],
-  "slug": "baseus-portable-fan-convenient-creative-small-fan-pocket-han-2148375057",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005012540390704",
   "store": "aliexpress",
   "title": "ATTACK SHARK M36HE Wired Hall Effect Gaming Keypad 8000Hz 128K Scan 0.01mm RT RGB Magnetic One-Handed Keyboard Low Latency",
@@ -1579,47 +1747,6 @@
    ]
   ],
   "slug": "baseus-card-reader-usb-c-usb3-0-to-sd-micro-sd-tf-memory-car-5211104794",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005012824307783",
-  "store": "aliexpress",
-  "title": "UGREEN FineTrack Mini2 Air Tracker Tags (iOS Only) 4 Pack | Bluetooth Tracker Compatible with Apple Find My, Item Finder Smart",
-  "price_usd": 15.27,
-  "old_price_usd": 40.2,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012824307783.html%253Fpdp_npi%253D6%252540dis%252521USD%25252140.20%25252115.27%252521%252521%25252140.20%25252115.27%252521%2525402140f88817951496699643037e0dee%25252112000059439435930%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S01c441976e394115ac7b227491c67614V.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Access Building Automation",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Localizadores UGREEN FineTrack Mini2 (Pack de 4)",
-  "commission": 0.0538,
-  "why": "Rastreadores Bluetooth compatibles con la red Apple Buscar",
-  "lang": "es",
-  "median_30d": 40.2,
-  "discount": 0.6201,
-  "heat": 73.0,
-  "history": [
-   [
-    "2026-11-16",
-    15.91
-   ],
-   [
-    "2026-11-17",
-    15.91
-   ],
-   [
-    "2026-11-18",
-    15.91
-   ],
-   [
-    "2026-11-20",
-    15.27
-   ]
-  ],
-  "slug": "ugreen-finetrack-mini2-air-tracker-tags-ios-only-4-pack-blue-2824307783",
   "day": "2026-11-20"
  },
  {
@@ -1934,59 +2061,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005013193625420",
-  "store": "aliexpress",
-  "title": "Ugreen 38 in 1 Screwdriver Set Torx Slotted Hex Magnetic Repair Tool Kit Box for Notebook Clock Camera Watch Mobile Phone Quick",
-  "price_usd": 19.51,
-  "old_price_usd": 50.24,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013193625420.html%253Fpdp_npi%253D6%252540dis%252521USD%25252150.24%25252119.51%252521%252521%252521333.14%252521129.36%252521%2525402151fd3a17951433336275602e0d4e%25252112000060494913530%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4805b5a4f6f94a29872f748eb56a0d8fP.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Tool Sets",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Ugreen Set Destornilladores 38 en 1 Torx Hex",
-  "commission": 0.0538,
-  "why": "Caja de herramientas de reparacion magnetica 38 en 1",
-  "lang": "es",
-  "median_30d": 50.24,
-  "discount": 0.6117,
-  "heat": 76.0,
-  "history": [
-   [
-    "2026-11-14",
-    19.24
-   ],
-   [
-    "2026-11-15",
-    19.24
-   ],
-   [
-    "2026-11-16",
-    19.22
-   ],
-   [
-    "2026-11-17",
-    19.22
-   ],
-   [
-    "2026-11-18",
-    19.24
-   ],
-   [
-    "2026-11-19",
-    19.24
-   ],
-   [
-    "2026-11-20",
-    19.51
-   ]
-  ],
-  "slug": "ugreen-38-in-1-screwdriver-set-torx-slotted-hex-magnetic-rep-3193625420",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005012474920428",
   "store": "aliexpress",
   "title": "R85HE ATTACK SHARK Rapid Trigger Magnetic Keyboard with Emergency Stop Mode 256K Scan Rate HiFi Five-Layer Filling for E-Sports",
@@ -2082,59 +2156,6 @@
    ]
   ],
   "slug": "rk-royal-kludge-m75-gasket-mechanical-keyboard-2-4g-wireless-5909856588",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005006210849926",
-  "store": "aliexpress",
-  "title": "Baseus Air Pump Wireless Air Compressor Camping Inflatable Deflate Beds Mats Swimming Ring Mini Portable Outdoor Inflator Pump",
-  "price_usd": 21.81,
-  "old_price_usd": 53.72,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006210849926.html%253Fpdp_npi%253D6%252540dis%252521USD%25252153.72%25252121.81%252521%252521%252521356.73%252521144.85%252521%2525402140f88817951483948123569e0cc5%25252112000036296558795%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S39ce71cea1404a1190f43ec1fe08dc7bC.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Car Wash & Maintenance",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus Bomba Aire Inalambrica Camping Colchones",
-  "commission": 0.0538,
-  "why": "Compresor inalambrico para inflar y desinflar",
-  "lang": "es",
-  "median_30d": 53.72,
-  "discount": 0.594,
-  "heat": 76.4,
-  "history": [
-   [
-    "2026-11-14",
-    21.77
-   ],
-   [
-    "2026-11-15",
-    21.77
-   ],
-   [
-    "2026-11-16",
-    21.76
-   ],
-   [
-    "2026-11-17",
-    21.76
-   ],
-   [
-    "2026-11-18",
-    21.76
-   ],
-   [
-    "2026-11-19",
-    21.76
-   ],
-   [
-    "2026-11-20",
-    21.81
-   ]
-  ],
-  "slug": "baseus-air-pump-wireless-air-compressor-camping-inflatable-d-6210849926",
   "day": "2026-11-20"
  },
  {
@@ -2278,59 +2299,6 @@
    ]
   ],
   "slug": "custom-r85-attack-shark-r85he-magnetic-keyboard-wired-0-005m-2255336419",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005012106286286",
-  "store": "aliexpress",
-  "title": "Baseus Mini Air Pump Portable Electric Inflator Wireless Air Mattress Pump with LED Camping Light for Swim Ring Vacuum Bag",
-  "price_usd": 22.53,
-  "old_price_usd": 56.73,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012106286286.html%253Fpdp_npi%253D6%252540dis%252521USD%25252156.73%25252122.53%252521%252521%252521376.67%252521149.58%252521%2525402151fd3a17951485616274564e0fe2%25252112000057532262786%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb7151dae793d4ef6adbf3d46e463ddb6X.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Car Wash & Maintenance",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus Mini Bomba Inalambrica Luz LED Colchon",
-  "commission": 0.0538,
-  "why": "Inflador portatil con luz LED para camping",
-  "lang": "es",
-  "median_30d": 56.73,
-  "discount": 0.6029,
-  "heat": 77.9,
-  "history": [
-   [
-    "2026-11-14",
-    22.47
-   ],
-   [
-    "2026-11-15",
-    22.47
-   ],
-   [
-    "2026-11-16",
-    22.45
-   ],
-   [
-    "2026-11-17",
-    22.45
-   ],
-   [
-    "2026-11-18",
-    22.45
-   ],
-   [
-    "2026-11-19",
-    22.45
-   ],
-   [
-    "2026-11-20",
-    22.53
-   ]
-  ],
-  "slug": "baseus-mini-air-pump-portable-electric-inflator-wireless-air-2106286286",
   "day": "2026-11-20"
  },
  {
@@ -3032,6 +3000,65 @@
   "day": "2026-11-20"
  },
  {
+  "pid": "joom:677cfee5f6501e011ed0db6e",
+  "store": "joom",
+  "title": "Teclado para controlador de juegos de 2,4 GHz, teclado para consola de juegos con sonido y conector para auriculares para Xbox Series X black",
+  "price_usd": 15.3,
+  "old_price_usd": null,
+  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F677cfee5f6501e011ed0db6e%3Fcurrency%3DEUR%26utm_productid%3D677cfee5f6501e011ed0db6e%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU2NTc5NTgsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY3N2NmZWU1ZjY1MDFlMDExZWQwZGI2ZSIsInYiOiI2NzdjZmVlNWY2NTAxZTA0MWVkMGRiNzAiLCJjIjoxNC4wOH1dfQ.7RqKCb1du3gaHJFlZlgq_ASgsk06DDd2X_C24hQZo4qXVjXB6lggcxAb6_Td_t5UQScTl48oKQceyZ8UNeLbfw%26variant_id%3D677cfee5f6501e041ed0db70%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-19",
+  "image": "https://img.joomcdn.net/84ca4704a1e5b1f84e36523514401c14ddd50bfd_original.jpeg",
+  "rating": null,
+  "orders": null,
+  "category": "Joom/Electrónica/PC, componentes y juegos/Todo para el juego/XBOX/Otros accesorios",
+  "niche": "tech",
+  "ships_to": [
+   "ES"
+  ],
+  "title_local": "Teclado inalámbrico 2.4GHz para Xbox Series X",
+  "commission": null,
+  "why": "Incluye sonido y conector para auriculares.",
+  "lang": "es",
+  "median_30d": 30.43,
+  "discount": 0.4972,
+  "heat": 54.3,
+  "history": [
+   [
+    "2026-11-13",
+    30.43
+   ],
+   [
+    "2026-11-14",
+    30.43
+   ],
+   [
+    "2026-11-15",
+    30.43
+   ],
+   [
+    "2026-11-16",
+    30.43
+   ],
+   [
+    "2026-11-17",
+    30.43
+   ],
+   [
+    "2026-11-18",
+    15.29
+   ],
+   [
+    "2026-11-19",
+    15.29
+   ],
+   [
+    "2026-11-20",
+    15.29
+   ]
+  ],
+  "slug": "teclado-para-controlador-de-juegos-de-2-4-ghz-teclado-para-c-011ed0db6e",
+  "day": "2026-11-20"
+ },
+ {
   "pid": "joom:6311d3c02767ac01f9facdc5",
   "store": "joom",
   "title": "TNP Estuche de almacenamiento de viaje para controlador PS5, controlador PS4, Xbox Series X/S/Xbox One black",
@@ -3383,6 +3410,65 @@
    ]
   ],
   "slug": "placas-frontales-para-ps5-cubierta-de-placa-frontal-de-repue-0154894105",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "joom:6a6c04837e56c501aa463037",
+  "store": "joom",
+  "title": "El Juego ARTcade Americano PS5 Terrifier (Importación del Norte) - azul",
+  "price_usd": 68.48,
+  "old_price_usd": null,
+  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F6a6c04837e56c501aa463037%3Fcurrency%3DEUR%26utm_productid%3D6a6c04837e56c501aa463037%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU2NTc5NTgsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjZhNmMwNDgzN2U1NmM1MDFhYTQ2MzAzNyIsInYiOiI2YTZjMDQ4MzdlNTZjNThlYWE0NjMwM2IiLCJjIjo2My4wLCJvIjo2Ni4wfV19.KiC9AmtpYmx8K3-DGAS_zE7h4WSaRZhYQevFJQanPptIUWHqiHsARukXaJCeIcTFHrd0XlCW43n3ppQ2A245EA%26variant_id%3D6a6c04837e56c58eaa46303b%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-19",
+  "image": "https://img.joomcdn.net/dd87e12601678d63f4990a1e568278c323a3b1f5_original.jpeg",
+  "rating": null,
+  "orders": null,
+  "category": "Joom/Electrónica/PC, componentes y juegos/Todo para el juego",
+  "niche": "tech",
+  "ships_to": [
+   "ES"
+  ],
+  "title_local": "Juego ARTcade Americano PS5 Terrifier Edición Azul",
+  "commission": null,
+  "why": "Juego en formato físico importado del norte",
+  "lang": "es",
+  "median_30d": 119.57,
+  "discount": 0.4273,
+  "heat": 63.0,
+  "history": [
+   [
+    "2026-11-13",
+    119.57
+   ],
+   [
+    "2026-11-14",
+    119.57
+   ],
+   [
+    "2026-11-15",
+    119.57
+   ],
+   [
+    "2026-11-16",
+    119.57
+   ],
+   [
+    "2026-11-17",
+    119.57
+   ],
+   [
+    "2026-11-18",
+    68.48
+   ],
+   [
+    "2026-11-19",
+    68.48
+   ],
+   [
+    "2026-11-20",
+    68.48
+   ]
+  ],
+  "slug": "el-juego-artcade-americano-ps5-terrifier-importaci-n-del-nor-01aa463037",
   "day": "2026-11-20"
  },
  {
@@ -4599,59 +4685,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005011921649097",
-  "store": "aliexpress",
-  "title": "Foot Rest for Under Desk at Work Adjustable Height Memory Foam Foot Stool for Under Desk Office Chair Gaming Chair Ergonomic",
-  "price_usd": 37.06,
-  "old_price_usd": 78.86,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011921649097.html%253Fpdp_npi%253D6%252540dis%252521USD%25252178.86%25252137.06%252521%252521%252521523.67%252521246.12%252521%252540212a7b8d17951519137236140e0cd4%25252112000057034647028%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S93c2670617884ee086638170f871872ac.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Massage & Relaxation",
-  "niche": "nails",
-  "ships_to": [],
-  "title_local": "Reposapiés Ergonómico Ajustable Memory Foam",
-  "commission": 0.0538,
-  "why": "Altura ajustable con espuma viscoelástica para oficina",
-  "lang": "es",
-  "median_30d": 78.86,
-  "discount": 0.5301,
-  "heat": 68.8,
-  "history": [
-   [
-    "2026-11-14",
-    37.12
-   ],
-   [
-    "2026-11-15",
-    37.12
-   ],
-   [
-    "2026-11-16",
-    37.09
-   ],
-   [
-    "2026-11-17",
-    37.09
-   ],
-   [
-    "2026-11-18",
-    37.09
-   ],
-   [
-    "2026-11-19",
-    37.09
-   ],
-   [
-    "2026-11-20",
-    37.06
-   ]
-  ],
-  "slug": "foot-rest-for-under-desk-at-work-adjustable-height-memory-fo-1921649097",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005013474031420",
   "store": "aliexpress",
   "title": "3080 PLUS PCIe Gen4.0 X4 NVMe M.2 2280 SSD 7300MBs TLC 3D NAND gaming drive 500GB 1TB 2TB 4TB for PS5 laptop PC low power",
@@ -5188,6 +5221,59 @@
   "day": "2026-11-20"
  },
  {
+  "pid": "aliexpress:1005013265891947",
+  "store": "aliexpress",
+  "title": "2025 Gaming Gamer Duvet Cover Set Gamepad Bedding Set,Video Game Soft Cover Neon Gamepad Geometry Brick Wall Design Quilt Cover",
+  "price_usd": 21.18,
+  "old_price_usd": 50.43,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013265891947.html%253Fpdp_npi%253D6%252540dis%252521USD%25252150.43%25252121.18%252521%252521%252521334.44%252521140.46%252521%252540212a7b8d17951293300934969e0ea2%25252112000060675307558%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se1d344ba202d4bd888285efec26c426a4.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Home Textile",
+  "niche": "home",
+  "ships_to": [],
+  "title_local": "Gaming Duvet Cover Set Neon Gamepad Design",
+  "commission": 0.07690000000000001,
+  "why": "Tejido suave con diseño de mando y ladrillos.",
+  "lang": "es",
+  "median_30d": 50.43,
+  "discount": 0.58,
+  "heat": 73.3,
+  "history": [
+   [
+    "2026-11-10",
+    21.16
+   ],
+   [
+    "2026-11-15",
+    21.18
+   ],
+   [
+    "2026-11-16",
+    21.18
+   ],
+   [
+    "2026-11-17",
+    21.17
+   ],
+   [
+    "2026-11-18",
+    21.18
+   ],
+   [
+    "2026-11-19",
+    21.17
+   ],
+   [
+    "2026-11-20",
+    21.18
+   ]
+  ],
+  "slug": "2025-gaming-gamer-duvet-cover-set-gamepad-bedding-set-video--3265891947",
+  "day": "2026-11-20"
+ },
+ {
   "pid": "aliexpress:1005013604103051",
   "store": "aliexpress",
   "title": "Chicken-eating artifact tablet point-connected gamepad button six fingers eight fingers ten fingers flying fish V6 controller",
@@ -5222,6 +5308,379 @@
    ]
   ],
   "slug": "chicken-eating-artifact-tablet-point-connected-gamepad-butto-3604103051",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012118226189",
+  "store": "aliexpress",
+  "title": "Home Recliner Sofa Chair Adjustable Lazy Lounge Chair Gaming Chair for Living Room Office",
+  "price_usd": 115.75,
+  "old_price_usd": 275.6,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012118226189.html%253Fpdp_npi%253D6%252540dis%252521USD%252521275.60%252521115.75%252521%252521%2525211827.59%252521767.59%252521%2525402140d36117951274563223119e0f25%25252112000057544999426%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S198001374c8a4dc69940e781477b476aW.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Home Decor",
+  "niche": "home",
+  "ships_to": [],
+  "title_local": "Sillón reclinable ajustable para salón u oficina",
+  "commission": 0.061500000000000006,
+  "why": "Diseño ajustable y cómodo para relax.",
+  "lang": "es",
+  "median_30d": 275.6,
+  "discount": 0.58,
+  "heat": 75.7,
+  "history": [
+   [
+    "2026-11-15",
+    115.75
+   ],
+   [
+    "2026-11-16",
+    115.75
+   ],
+   [
+    "2026-11-17",
+    115.68
+   ],
+   [
+    "2026-11-18",
+    115.75
+   ],
+   [
+    "2026-11-19",
+    115.68
+   ],
+   [
+    "2026-11-20",
+    115.75
+   ]
+  ],
+  "slug": "home-recliner-sofa-chair-adjustable-lazy-lounge-chair-gaming-2118226189",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005003410011102",
+  "store": "aliexpress",
+  "title": "Leather Lumbar Support Cushion Car Back Massage Pillow & Headrest For Car Seat Gaming Chair Waist Support Pillows",
+  "price_usd": 32.38,
+  "old_price_usd": 80.95,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005003410011102.html%253Fpdp_npi%253D6%252540dis%252521USD%25252180.95%25252132.38%252521%252521%25252180.95%25252132.38%252521%2525402151fca717951297070125002e1033%25252112000025662050517%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/H0e4ff5dd0ee942d5b41b7b0d0b5b075eJ.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Interior Accessories",
+  "niche": "car",
+  "ships_to": [],
+  "title_local": "Cojín de soporte lumbar y reposacabezas para coche",
+  "commission": 0.061500000000000006,
+  "why": "Comodidad con función de masaje para asiento.",
+  "lang": "es",
+  "median_30d": 80.95,
+  "discount": 0.6,
+  "heat": 77.5,
+  "history": [
+   [
+    "2026-11-10",
+    32.38
+   ],
+   [
+    "2026-11-15",
+    32.38
+   ],
+   [
+    "2026-11-16",
+    32.38
+   ],
+   [
+    "2026-11-17",
+    32.38
+   ],
+   [
+    "2026-11-18",
+    32.38
+   ],
+   [
+    "2026-11-19",
+    32.38
+   ],
+   [
+    "2026-11-20",
+    32.38
+   ]
+  ],
+  "slug": "leather-lumbar-support-cushion-car-back-massage-pillow-headr-3410011102",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012843027331",
+  "store": "aliexpress",
+  "title": "Blue Neon Circuit Gamepad Bedding Set,Tech Line Xbox Controller Print Duvet Cover Set,Cool Gaming Microfiber 3pc For Teen Gamers",
+  "price_usd": 29.12,
+  "old_price_usd": 67.71,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012843027331.html%253Fpdp_npi%253D6%252540dis%252521USD%25252167.71%25252129.12%252521%252521%252521449.00%252521193.07%252521%2525400b8ded7b17951291337676085e0d8b%25252112000059489491092%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4a67d986f2fe473aa19f65d35d63b5c3q.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Home Textile",
+  "niche": "home",
+  "ships_to": [],
+  "title_local": "Blue Neon Circuit Gamepad Bedding Set 3pc",
+  "commission": 0.08070000000000001,
+  "why": "Estilo neón con diseño de mando Xbox.",
+  "lang": "es",
+  "median_30d": 67.71,
+  "discount": 0.5699,
+  "heat": 79.5,
+  "history": [
+   [
+    "2026-11-10",
+    29.08
+   ],
+   [
+    "2026-11-15",
+    29.12
+   ],
+   [
+    "2026-11-16",
+    29.12
+   ],
+   [
+    "2026-11-17",
+    29.09
+   ],
+   [
+    "2026-11-18",
+    29.12
+   ],
+   [
+    "2026-11-19",
+    29.09
+   ],
+   [
+    "2026-11-20",
+    29.12
+   ]
+  ],
+  "slug": "blue-neon-circuit-gamepad-bedding-set-tech-line-xbox-control-2843027331",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012857814500",
+  "store": "aliexpress",
+  "title": "Gamer Bedding Sets For Boy,Gamepad Controller Duvet Cover Set King Size,Video Games Comforter Cover Teens Polyester Quilt Cover",
+  "price_usd": 29.12,
+  "old_price_usd": 67.71,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012857814500.html%253Fpdp_npi%253D6%252540dis%252521USD%25252167.71%25252129.12%252521%252521%252521449.00%252521193.07%252521%2525402140da8b17951290008402634e0edd%25252112000059511247089%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9dbc666c93864884adf7b07eba379154R.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Home Textile",
+  "niche": "home",
+  "ships_to": [],
+  "title_local": "Gamepad Controller Duvet Cover Set King Size",
+  "commission": 0.08070000000000001,
+  "why": "Funda de edredón tamaño King para fans de videojuegos.",
+  "lang": "es",
+  "median_30d": 67.71,
+  "discount": 0.5699,
+  "heat": 79.5,
+  "history": [
+   [
+    "2026-11-10",
+    29.08
+   ],
+   [
+    "2026-11-15",
+    29.12
+   ],
+   [
+    "2026-11-16",
+    29.12
+   ],
+   [
+    "2026-11-17",
+    29.09
+   ],
+   [
+    "2026-11-18",
+    29.12
+   ],
+   [
+    "2026-11-19",
+    29.09
+   ],
+   [
+    "2026-11-20",
+    29.12
+   ]
+  ],
+  "slug": "gamer-bedding-sets-for-boy-gamepad-controller-duvet-cover-se-2857814500",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005010213046624",
+  "store": "aliexpress",
+  "title": "Gamepad game operation 3Pcs Bedding Sets 3D Digital Printing Custom Quilt Duvet Cover Set  Home Queen King Quilt Pillowcase",
+  "price_usd": 29.54,
+  "old_price_usd": 68.69,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010213046624.html%253Fpdp_npi%253D6%252540dis%252521USD%25252168.69%25252129.54%252521%252521%252521455.51%252521195.87%252521%2525402151fd2c17951288311058970e0db7%25252112000051547889005%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7249a69ab38843d294ea8e332c441571a.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Home Textile",
+  "niche": "home",
+  "ships_to": [],
+  "title_local": "3Pcs Bedding Sets 3D Digital Printing Gamepad",
+  "commission": 0.09609999999999999,
+  "why": "Estampado digital 3D de mandos de juego.",
+  "lang": "es",
+  "median_30d": 68.69,
+  "discount": 0.57,
+  "heat": 81.8,
+  "history": [
+   [
+    "2026-11-10",
+    29.5
+   ],
+   [
+    "2026-11-15",
+    29.54
+   ],
+   [
+    "2026-11-16",
+    29.54
+   ],
+   [
+    "2026-11-17",
+    29.52
+   ],
+   [
+    "2026-11-18",
+    29.54
+   ],
+   [
+    "2026-11-19",
+    29.52
+   ],
+   [
+    "2026-11-20",
+    29.54
+   ]
+  ],
+  "slug": "gamepad-game-operation-3pcs-bedding-sets-3d-digital-printing-0213046624",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012657939612",
+  "store": "aliexpress",
+  "title": "Gaming Double Duvet Cover Set Reversible Colorful Gamer Gamepad Bedding Set With 2 Pillowcases For Boys Girls Teens",
+  "price_usd": 27.9,
+  "old_price_usd": 69.74,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012657939612.html%253Fpdp_npi%253D6%252540dis%252521USD%25252169.74%25252127.90%252521%252521%252521462.47%252521184.99%252521%252540214114e317951288297685468e1077%25252112000059010432920%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2562184916f6454ba870d1fcda5a12a9K.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Home Textile",
+  "niche": "home",
+  "ships_to": [],
+  "title_local": "Gaming Double Duvet Cover Set Reversible Gamepad",
+  "commission": 0.08070000000000001,
+  "why": "Diseño reversible con fundas de almohada.",
+  "lang": "es",
+  "median_30d": 69.74,
+  "discount": 0.5999,
+  "heat": 82.4,
+  "history": [
+   [
+    "2026-11-10",
+    27.86
+   ],
+   [
+    "2026-11-15",
+    27.9
+   ],
+   [
+    "2026-11-16",
+    27.9
+   ],
+   [
+    "2026-11-17",
+    27.87
+   ],
+   [
+    "2026-11-18",
+    27.9
+   ],
+   [
+    "2026-11-19",
+    27.87
+   ],
+   [
+    "2026-11-20",
+    27.9
+   ]
+  ],
+  "slug": "gaming-double-duvet-cover-set-reversible-colorful-gamer-game-2657939612",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "joom:67c021c37b021c012905da92",
+  "store": "joom",
+  "title": "Estuche rígido de transporte para consola de juegos, bolsa protectora de EVA para consolas Series X y Series S. black",
+  "price_usd": 38.04,
+  "old_price_usd": null,
+  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F67c021c37b021c012905da92%3Fcurrency%3DEUR%26utm_productid%3D67c021c37b021c012905da92%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU2NTc5NTgsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY3YzAyMWMzN2IwMjFjMDEyOTA1ZGE5MiIsInYiOiI2N2MwMjFjMzdiMDIxY2M3MjkwNWRhOTQiLCJjIjozNS4wfV19.9-h_Kiajo143IBkulJGl6MaMxpyDciW7cv-aJ8M50sS3T5x3L_0Zzd4prU5l4wKrIVw7Q5ZmSw5EXkS0ry1v_w%26variant_id%3D67c021c37b021cc72905da94%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-19",
+  "image": "https://img.joomcdn.net/b117867a21334661727c3613583f1fdbff0b99ef_original.jpeg",
+  "rating": null,
+  "orders": null,
+  "category": "Joom/Electrónica/PC, componentes y juegos/Todo para el juego",
+  "niche": "tech",
+  "ships_to": [
+   "ES"
+  ],
+  "title_local": "Estuche rígido de transporte para Xbox Series X/S",
+  "commission": null,
+  "why": "Protección segura de EVA para tu consola.",
+  "lang": "es",
+  "median_30d": 127.17,
+  "discount": 0.7009,
+  "heat": 89.5,
+  "history": [
+   [
+    "2026-11-13",
+    127.17
+   ],
+   [
+    "2026-11-14",
+    127.17
+   ],
+   [
+    "2026-11-15",
+    127.17
+   ],
+   [
+    "2026-11-16",
+    127.17
+   ],
+   [
+    "2026-11-17",
+    127.17
+   ],
+   [
+    "2026-11-18",
+    127.17
+   ],
+   [
+    "2026-11-19",
+    38.04
+   ],
+   [
+    "2026-11-20",
+    38.04
+   ]
+  ],
+  "slug": "estuche-r-gido-de-transporte-para-consola-de-juegos-bolsa-pr-012905da92",
   "day": "2026-11-20"
  },
  {
@@ -5569,127 +6028,21 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005013457218707",
-  "store": "aliexpress",
-  "title": "UGREEN 80688 Dual HDMI Video Capture Card 4K Input 1080P Loop Out Recording Box for PC Streaming",
-  "price_usd": 138.11,
-  "old_price_usd": 209.26,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013457218707.html%253Fpdp_npi%253D6%252540dis%252521USD%252521209.26%252521138.11%252521%252521%2525211387.69%252521915.88%252521%25254021013cc617951317453621958e0f18%25252112000061141553555%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd321b97e94d642ffba0021638bde42e6J.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Capturadora de vídeo UGREEN Dual HDMI 4K a 1080P",
-  "commission": 0.0538,
-  "why": "Ideal para retransmisiones en streaming desde PC",
-  "lang": "es",
-  "median_30d": 209.26,
-  "discount": 0.34,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-14",
-    138.11
-   ],
-   [
-    "2026-11-15",
-    138.11
-   ],
-   [
-    "2026-11-16",
-    138.11
-   ],
-   [
-    "2026-11-17",
-    138.11
-   ],
-   [
-    "2026-11-18",
-    138.11
-   ],
-   [
-    "2026-11-19",
-    138.11
-   ],
-   [
-    "2026-11-20",
-    138.11
-   ]
-  ],
-  "slug": "ugreen-80688-dual-hdmi-video-capture-card-4k-input-1080p-loo-3457218707",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005013583614786",
-  "store": "aliexpress",
-  "title": "UGREEN 80396 CABLE DP 1.4 to HDMI 2.1 1.5m 8K DisplayPort Male to Male for Monitor TV Laptop PC",
-  "price_usd": 33.29,
-  "old_price_usd": 50.44,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013583614786.html%253Fpdp_npi%253D6%252540dis%252521USD%25252150.44%25252133.29%252521%252521%252521334.47%252521220.75%252521%252540210152bd17951314035596153e0d5c%25252112000061555120179%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9950c53aef8746c2868a3fb27e2a13dax.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Cable UGREEN DisplayPort 1.4 a HDMI 2.1 1.5m 8K",
-  "commission": 0.0538,
-  "why": "Conexión en alta resolución 8K para monitor o TV",
-  "lang": "es",
-  "median_30d": 50.44,
-  "discount": 0.34,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-14",
-    33.29
-   ],
-   [
-    "2026-11-15",
-    33.29
-   ],
-   [
-    "2026-11-16",
-    33.29
-   ],
-   [
-    "2026-11-17",
-    33.29
-   ],
-   [
-    "2026-11-18",
-    33.29
-   ],
-   [
-    "2026-11-19",
-    33.29
-   ],
-   [
-    "2026-11-20",
-    33.29
-   ]
-  ],
-  "slug": "ugreen-80396-cable-dp-1-4-to-hdmi-2-1-1-5m-8k-displayport-ma-3583614786",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005013383540979",
+  "pid": "aliexpress:1005013371435868",
   "store": "aliexpress",
   "title": "UGREEN 25141 HDMI Switch CM693 HDMI 2.1 5 Inputs 1 Output 8K60Hz 40Gbps Button and Remote Control Aluminum Alloy Housing",
   "price_usd": 73.81,
   "old_price_usd": 111.84,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013383540979.html%253Fpdp_npi%253D6%252540dis%252521USD%252521111.84%25252173.81%252521%252521%252521741.64%252521489.48%252521%2525402140d33617951315568688308e0db5%25252112000060954439834%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3ba226f9316d44aea1dc273bc671b9afW.jpg",
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013371435868.html%253Fpdp_npi%253D6%252540dis%252521USD%252521111.84%25252173.81%252521%252521%252521741.64%252521489.48%252521%2525402102f1cd17951318306886440e10a1%25252112000061009576017%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8c07ae1147334f49bac1a81b9b61af1aZ.jpg",
   "rating": null,
   "orders": null,
   "category": "Laptop Parts & Accessories",
   "niche": "brands",
   "ships_to": [],
-  "title_local": "Conmutador HDMI 2.1 UGREEN CM693 5 en 1 salida 8K",
+  "title_local": "UGREEN Conmutador HDMI 2.1 5x1 8K60Hz CM693",
   "commission": 0.0538,
-  "why": "Permite conectar hasta 5 fuentes con control remoto",
+  "why": "Permite conectar hasta 5 entradas HDMI",
   "lang": "es",
   "median_30d": 111.84,
   "discount": 0.34,
@@ -5708,101 +6061,204 @@
     73.81
    ],
    [
+    "2026-11-19",
+    73.81
+   ],
+   [
     "2026-11-20",
     73.81
    ]
   ],
-  "slug": "ugreen-25141-hdmi-switch-cm693-hdmi-2-1-5-inputs-1-output-8k-3383540979",
+  "slug": "ugreen-25141-hdmi-switch-cm693-hdmi-2-1-5-inputs-1-output-8k-3371435868",
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005012626640190",
+  "pid": "aliexpress:1005013215821835",
   "store": "aliexpress",
-  "title": "New Fiio Snowsky Echo Mini Wireless Bluetooth Mp3 Mini Walkman  Custom Support Dsd Retro Portable Bluetooth Player Music Gift",
-  "price_usd": 86.27,
-  "old_price_usd": 119.82,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012626640190.html%253Fpdp_npi%253D6%252540dis%252521USD%252521119.82%25252186.27%252521%252521%252521794.54%252521572.07%252521%25254021013cc017951431728237114e0fe4%25252112000058859441194%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S37f7f402d61d47cd933b88e8160477dfG.jpg",
+  "title": "AIYIMA 2Pcs Speaker 3 Way Audio Frequency Divider Treble + Midrange + Bass Crossover Speakers Filter For 8Inch Speaker DIY",
+  "price_usd": 17.46,
+  "old_price_usd": 36.37,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013215821835.html%253Fpdp_npi%253D6%252540dis%252521USD%25252136.37%25252117.46%252521%252521%252521241.18%252521115.82%252521%2525402101611117951282551004257e0f80%25252112000060544263843%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S877b6438ddea45fc92bada3da4976625l.jpg",
   "rating": null,
   "orders": null,
-  "category": "Arts,Crafts & Sewing",
+  "category": "Measurement & Analysis Instruments",
   "niche": "brands",
   "ships_to": [],
-  "title_local": "Reproductor MP3 inalámbrico Fiio Snowsky Echo Mini",
-  "commission": 0.0538,
-  "why": "Reproductor portátil con soporte DSD y Bluetooth",
+  "title_local": "AIYIMA 2Pcs Crossover Audio de 3 Vias",
+  "commission": 0.061500000000000006,
+  "why": "Filtro para agudos, medios y graves en altavoces",
   "lang": "es",
-  "median_30d": 119.82,
-  "discount": 0.28,
-  "heat": 65.6,
+  "median_30d": 36.37,
+  "discount": 0.5199,
+  "heat": 70.4,
+  "history": [
+   [
+    "2026-11-20",
+    17.46
+   ]
+  ],
+  "slug": "aiyima-2pcs-speaker-3-way-audio-frequency-divider-treble-mid-3215821835",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005013215869286",
+  "store": "aliexpress",
+  "title": "CSR8645 AIYIMA Bluetooth Audio Receiver Board CSR8645  Amplifers Bluetooth Module Lossless APTX For Power Amplifier CSR8645",
+  "price_usd": 21.76,
+  "old_price_usd": 44.86,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013215869286.html%253Fpdp_npi%253D6%252540dis%252521USD%25252144.86%25252121.76%252521%252521%252521297.46%252521144.30%252521%2525402101611117951282591847970e0e39%25252112000060544297220%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa4d76137c3af4a1382224c94094973d1i.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Measurement & Analysis Instruments",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "AIYIMA Placa Receptora Bluetooth CSR8645",
+  "commission": 0.061500000000000006,
+  "why": "Audio inalambrico sin perdida APTX",
+  "lang": "es",
+  "median_30d": 44.86,
+  "discount": 0.5149,
+  "heat": 73.3,
+  "history": [
+   [
+    "2026-11-20",
+    21.76
+   ]
+  ],
+  "slug": "csr8645-aiyima-bluetooth-audio-receiver-board-csr8645-amplif-3215869286",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012984902196",
+  "store": "aliexpress",
+  "title": "Car Steering Wheel Cover For SsangYong G4 Rexton 2017-2024 2025 D Type Leather Auto Steering Wheel SsangYong Rexton Accessories",
+  "price_usd": 9.64,
+  "old_price_usd": 28.42,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012984902196.html%253Fpdp_npi%253D6%252540dis%252521USD%25252128.42%2525219.64%252521%252521%252521188.49%25252163.95%252521%2525402151fd2c17951299588921896e0d30%25252112000060259978663%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5cb388a77a644e84aab790063b231bdbj.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Interior Accessories",
+  "niche": "car",
+  "ships_to": [],
+  "title_local": "Funda Volante Piel SsangYong G4 Rexton 2017-2025",
+  "commission": 0.30760000000000004,
+  "why": "Proteccion de cuero adaptada para SsangYong Rexton",
+  "lang": "es",
+  "median_30d": 28.42,
+  "discount": 0.6608,
+  "heat": 90.6,
   "history": [
    [
     "2026-11-10",
-    86.16
-   ],
-   [
-    "2026-11-11",
-    86.16
-   ],
-   [
-    "2026-11-12",
-    86.16
-   ],
-   [
-    "2026-11-20",
-    86.27
-   ]
-  ],
-  "slug": "new-fiio-snowsky-echo-mini-wireless-bluetooth-mp3-mini-walkm-2626640190",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005012792977754",
-  "store": "aliexpress",
-  "title": "OVONIC 2S Hardcase LiPo Battery 7.4V 6000mAh 80C, Deans T Plug RC Battery for 1:8 Scale RC Car, Airplane, Helicopter & RC Boat",
-  "price_usd": 38.82,
-  "old_price_usd": 129.4,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012792977754.html%253Fpdp_npi%253D6%252540dis%252521USD%252521129.40%25252138.82%252521%252521%252521858.12%252521257.44%252521%252540212a7b8d17951333500152437e0ddc%25252112000059354969454%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S492823a9326147a9a0be44396c4ceedbq.png",
-  "rating": null,
-  "orders": null,
-  "category": "Remote Control Toys",
-  "niche": "kids",
-  "ships_to": [],
-  "title_local": "Batería LiPo OVONIC 2S 7.4V 6000mAh 80C con conector T",
-  "commission": 0.0538,
-  "why": "Gran potencia para coches RC a escala 1:8 y otros modelos",
-  "lang": "es",
-  "median_30d": 129.4,
-  "discount": 0.7,
-  "heat": 85.4,
-  "history": [
-   [
-    "2026-11-11",
-    24.55
-   ],
-   [
-    "2026-11-12",
-    24.55
-   ],
-   [
-    "2026-11-14",
-    24.58
+    10.63
    ],
    [
     "2026-11-15",
-    24.58
+    10.64
    ],
    [
     "2026-11-16",
-    24.58
+    10.64
+   ],
+   [
+    "2026-11-18",
+    10.64
+   ],
+   [
+    "2026-11-19",
+    10.64
    ],
    [
     "2026-11-20",
-    38.82
+    9.64
    ]
   ],
-  "slug": "ovonic-2s-hardcase-lipo-battery-7-4v-6000mah-80c-deans-t-plu-2792977754",
+  "slug": "car-steering-wheel-cover-for-ssangyong-g4-rexton-2017-2024-2-2984902196",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:4000909841014",
+  "store": "aliexpress",
+  "title": "SMT Splice Splicing Tool SMT Splicing Pliers Hardware Tools SMT Splice Tool Pliers For Siemens SMD Components",
+  "price_usd": 52.14,
+  "old_price_usd": 158.0,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F4000909841014.html%253Fpdp_npi%253D6%252540dis%252521USD%252521158.00%25252152.14%252521%252521%252521158.00%25252152.14%252521%2525400b8ded7b17951259449655976e1040%25252110000010496183844%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Hacc6d1b3e4144b7f81ca11183d1d2653Y.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Tool Parts",
+  "niche": "tools",
+  "ships_to": [],
+  "title_local": "Alicates de Empalme SMT para Componentes SMD",
+  "commission": 0.1115,
+  "why": "Herramienta especializada para empalmes SMT",
+  "lang": "es",
+  "median_30d": 158.0,
+  "discount": 0.67,
+  "heat": 91.5,
+  "history": [
+   [
+    "2026-11-19",
+    52.14
+   ],
+   [
+    "2026-11-20",
+    52.14
+   ]
+  ],
+  "slug": "smt-splice-splicing-tool-smt-splicing-pliers-hardware-tools--0909841014",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012968195425",
+  "store": "aliexpress",
+  "title": "100% Cashmere Balaclava Hat For Both Men And Women Double-Sided Windproof&Warm Knitted Hat Couple Style Hat Integrated Scarf",
+  "price_usd": 22.9,
+  "old_price_usd": 70.67,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012968195425.html%253Fpdp_npi%253D6%252540dis%252521USD%25252170.67%25252122.90%252521%252521%252521468.65%252521151.89%252521%2525402151fce817951304149244086e101b%25252112000059927284808%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S47bec5c5073a42398a7d4cc8daf966b3I.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Hats & Caps",
+  "niche": "fashion",
+  "ships_to": [],
+  "title_local": "Balaclava Cashmere Unisex Windproof",
+  "commission": 0.1384,
+  "why": "Mantiene abrigado gracias a su diseno de doble cara",
+  "lang": "es",
+  "median_30d": 70.67,
+  "discount": 0.676,
+  "heat": 92.1,
+  "history": [
+   [
+    "2026-11-15",
+    29.68
+   ],
+   [
+    "2026-11-16",
+    29.68
+   ],
+   [
+    "2026-11-17",
+    29.68
+   ],
+   [
+    "2026-11-18",
+    29.68
+   ],
+   [
+    "2026-11-19",
+    29.68
+   ],
+   [
+    "2026-11-20",
+    22.9
+   ]
+  ],
+  "slug": "100-cashmere-balaclava-hat-for-both-men-and-women-double-sid-2968195425",
   "day": "2026-11-20"
  },
  {
@@ -5811,7 +6267,7 @@
   "title": "10PCS Mini Ladder Simulated Scene Props Home Decoration  Miniatures Crafts Garden Landscape Accessories Wood Crafts Ornamental",
   "price_usd": 1.35,
   "old_price_usd": 4.23,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005008688918749.html%253Fpdp_npi%253D6%252540dis%252521USD%2525214.23%2525211.35%252521%252521%2525214.23%2525211.35%252521%2525402140f88817951267105928369e0f5a%25252112000046251156148%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005008688918749.html%253Fpdp_npi%253D6%252540dis%252521USD%2525214.23%2525211.35%252521%252521%2525214.23%2525211.35%252521%2525402151fd3a17950403971733997e0d4d%25252112000046251156148%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
   "image": "https://ae-pic-a1.aliexpress-media.com/kf/S95276332093b4bb5b31e535b8c46d929l.jpg",
   "rating": null,
   "orders": null,
@@ -5856,129 +6312,6 @@
    ]
   ],
   "slug": "10pcs-mini-ladder-simulated-scene-props-home-decoration-mini-8688918749",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005011929995075",
-  "store": "aliexpress",
-  "title": "4Pcs Door Side Slot Storage Box Organizer for XPeng G7 Silicone Door Pocket Tray Case Panel Cover Pad Interior Car Accessories",
-  "price_usd": 31.1,
-  "old_price_usd": 103.66,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011929995075.html%253Fpdp_npi%253D6%252540dis%252521USD%252521103.66%25252131.10%252521%252521%252521687.39%252521206.22%252521%25254021013cc017951385516995870e0e9a%25252112000057064948993%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5e3e931edeb24cbb98f3909125bab43fO.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Interior Accessories",
-  "niche": "car",
-  "ships_to": [],
-  "title_local": "4Pcs Caja Almacenamiento Puerta XPeng G7 Silicona",
-  "commission": 0.0692,
-  "why": "Bandejas de silicona para los bolsillos de las puertas",
-  "lang": "es",
-  "median_30d": 103.66,
-  "discount": 0.7,
-  "heat": 89.3,
-  "history": [
-   [
-    "2026-11-18",
-    31.1
-   ],
-   [
-    "2026-11-19",
-    31.1
-   ],
-   [
-    "2026-11-20",
-    31.1
-   ]
-  ],
-  "slug": "4pcs-door-side-slot-storage-box-organizer-for-xpeng-g7-silic-1929995075",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005008126998155",
-  "store": "aliexpress",
-  "title": "Four Seasons New American Retro Men's Sports Pants Camouflage Cotton Wash Water Men's Pants Loose Straight Work Pants A002",
-  "price_usd": 39.0,
-  "old_price_usd": 130.0,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005008126998155.html%253Fpdp_npi%253D6%252540dis%252521USD%252521130.00%25252139.00%252521%252521%252521130.00%25252139.00%252521%2525402140da8b17951530225614811e104d%25252112000043898344747%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7d4bd80058874127986ef282e9e913310.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Pants",
-  "niche": "fashion",
-  "ships_to": [],
-  "title_local": "Pantalones deportivos retro de algodón lavado A002",
-  "commission": 0.0692,
-  "why": "Estilo recto y holgado para uso en cualquier temporada",
-  "lang": "es",
-  "median_30d": 130.0,
-  "discount": 0.7,
-  "heat": 89.3,
-  "history": [
-   [
-    "2026-11-14",
-    39.0
-   ],
-   [
-    "2026-11-15",
-    39.0
-   ],
-   [
-    "2026-11-16",
-    39.0
-   ],
-   [
-    "2026-11-17",
-    39.0
-   ],
-   [
-    "2026-11-18",
-    39.0
-   ],
-   [
-    "2026-11-19",
-    39.0
-   ],
-   [
-    "2026-11-20",
-    39.0
-   ]
-  ],
-  "slug": "four-seasons-new-american-retro-men-s-sports-pants-camouflag-8126998155",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005006728707317",
-  "store": "aliexpress",
-  "title": "SMT Splicing Pliers Hardware Tools SMT Splice Tool Pliers For Siemens SMD Components Splicing Tool SMT Stapler For Carrier Tapes",
-  "price_usd": 48.51,
-  "old_price_usd": 150.0,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006728707317.html%253Fpdp_npi%253D6%252540dis%252521USD%252521150.00%25252148.51%252521%252521%252521150.00%25252148.51%252521%2525402151fca717951257994794358e0faf%25252112000038110207910%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbb143f35cbf4465aa941d1f16a665af3Q.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Tool Parts",
-  "niche": "tools",
-  "ships_to": [],
-  "title_local": "Alicicates SMT para empalme de componentes Siemens",
-  "commission": 0.1038,
-  "why": "Herramienta ideal para empalmar cintas portadoras SMD",
-  "lang": "es",
-  "median_30d": 150.0,
-  "discount": 0.6766,
-  "heat": 92.2,
-  "history": [
-   [
-    "2026-11-19",
-    48.51
-   ],
-   [
-    "2026-11-20",
-    48.51
-   ]
-  ],
-  "slug": "smt-splicing-pliers-hardware-tools-smt-splice-tool-pliers-fo-6728707317",
   "day": "2026-11-20"
  },
  {
@@ -6559,59 +6892,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005013128307392",
-  "store": "aliexpress",
-  "title": "Ajazz NK104 Wired Gaming Mechanical Keyboard with Red/Blue Switches Multifunctional Knobs, Large Configuration, Numerical Offi",
-  "price_usd": 39.91,
-  "old_price_usd": 88.67,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013128307392.html%253Fpdp_npi%253D6%252540dis%252521USD%25252188.67%25252139.91%252521%252521%252521587.98%252521264.61%252521%2525402151fd2c17949580891732067e104c%25252112000060310897811%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S64f2686938d4466696cd4871f2393ab2Q.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Ajazz NK104 Teclado Mecánico Gaming",
-  "commission": 0.023,
-  "why": "Interruptores rojos y azules con perillas multifuncionales.",
-  "lang": "es",
-  "median_30d": 88.67,
-  "discount": 0.5499,
-  "heat": 71.0,
-  "history": [
-   [
-    "2026-11-14",
-    39.02
-   ],
-   [
-    "2026-11-15",
-    39.02
-   ],
-   [
-    "2026-11-16",
-    40.36
-   ],
-   [
-    "2026-11-17",
-    40.36
-   ],
-   [
-    "2026-11-18",
-    39.91
-   ],
-   [
-    "2026-11-19",
-    39.91
-   ],
-   [
-    "2026-11-20",
-    39.91
-   ]
-  ],
-  "slug": "ajazz-nk104-wired-gaming-mechanical-keyboard-with-red-blue-s-3128307392",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005007713627856",
   "store": "aliexpress",
   "title": "Redragon K556 RGB LED Backlit Wired 104 Keys Hot-Swap Noise Absorbing Foams Mechanical Gaming Keyboard",
@@ -6800,112 +7080,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005012421055367",
-  "store": "aliexpress",
-  "title": "X68HE ATTACK SHARK X68PRO RGB Magnetic Mechanical Keyboard 0.01mm RT Accuracy 128K Rate 0.125ms and 8000Hz for E-sports",
-  "price_usd": 60.1,
-  "old_price_usd": 138.15,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012421055367.html%253Fpdp_npi%253D6%252540dis%252521USD%252521138.15%25252160.10%252521%252521%252521916.10%252521398.50%252521%2525402151fce817949581707872062e0de8%25252112000058362776351%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2f54fdd2517644b8921335ee42e7e6b5R.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado Mecánico ATTACK SHARK X68HE RGB RT 8000Hz",
-  "commission": 0.023,
-  "why": "Precisión RT de 0.01mm y tasa de sondeo de 8000Hz",
-  "lang": "es",
-  "median_30d": 138.15,
-  "discount": 0.565,
-  "heat": 71.3,
-  "history": [
-   [
-    "2026-11-14",
-    60.1
-   ],
-   [
-    "2026-11-15",
-    60.1
-   ],
-   [
-    "2026-11-16",
-    60.1
-   ],
-   [
-    "2026-11-17",
-    60.1
-   ],
-   [
-    "2026-11-18",
-    60.1
-   ],
-   [
-    "2026-11-19",
-    60.1
-   ],
-   [
-    "2026-11-20",
-    60.1
-   ]
-  ],
-  "slug": "x68he-attack-shark-x68pro-rgb-magnetic-mechanical-keyboard-0-2421055367",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005011942666907",
-  "store": "aliexpress",
-  "title": "ATTACK SHARK X68 He/FREEWOLF F68 Gaming Keyboard Magnetic Mechanical Wired for Pro Gaming 0.01mm Rapid Trigg 8000Hz 128K Rate",
-  "price_usd": 44.64,
-  "old_price_usd": 102.63,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011942666907.html%253Fpdp_npi%253D6%252540dis%252521USD%252521102.63%25252144.64%252521%252521%252521680.58%252521296.06%252521%252540212a7b8d17949580279631976e0d9a%25252112000057082861845%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S55be4799d5cb4161ae767ff0155b18a0s.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado Gaming ATTACK SHARK X68HE",
-  "commission": 0.023,
-  "why": "Gatillo rápido de 0.01mm y frecuencia de sondeo de 8000Hz.",
-  "lang": "es",
-  "median_30d": 102.63,
-  "discount": 0.565,
-  "heat": 71.3,
-  "history": [
-   [
-    "2026-11-11",
-    41.29
-   ],
-   [
-    "2026-11-12",
-    41.29
-   ],
-   [
-    "2026-11-16",
-    43.34
-   ],
-   [
-    "2026-11-17",
-    43.34
-   ],
-   [
-    "2026-11-18",
-    44.64
-   ],
-   [
-    "2026-11-19",
-    44.64
-   ],
-   [
-    "2026-11-20",
-    44.64
-   ]
-  ],
-  "slug": "attack-shark-x68-he-freewolf-f68-gaming-keyboard-magnetic-me-1942666907",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005012464593654",
   "store": "aliexpress",
   "title": "450x400mm Attack Shark CM02 Gaming Mouse Pad 4mm Ultrathin Non Slip Topographic Contour Desk Mat For Gaming Office Gamer",
@@ -7012,59 +7186,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005003592801940",
-  "store": "aliexpress",
-  "title": "RK61 Royal Kludge Wireless Mechanical Keyboard Tri-Mode Bluetooth 5.0/2.4G/USB-C RGB Backlit 61 Key Hot-Swappable Gamer Keyboard",
-  "price_usd": 54.59,
-  "old_price_usd": 129.98,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005003592801940.html%253Fpdp_npi%253D6%252540dis%252521USD%252521129.98%25252154.59%252521%252521%252521129.98%25252154.59%252521%2525402151fd2c17949580787768677e0d96%25252112000051650261979%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/H3304be432f14479a80f08d754a329ed82.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado Inalámbrico RK61",
-  "commission": 0.023,
-  "why": "Conectividad trimodo y 61 teclas intercambiables.",
-  "lang": "es",
-  "median_30d": 129.98,
-  "discount": 0.58,
-  "heat": 71.6,
-  "history": [
-   [
-    "2026-11-14",
-    54.59
-   ],
-   [
-    "2026-11-15",
-    54.59
-   ],
-   [
-    "2026-11-16",
-    54.59
-   ],
-   [
-    "2026-11-17",
-    54.59
-   ],
-   [
-    "2026-11-18",
-    54.59
-   ],
-   [
-    "2026-11-19",
-    54.59
-   ],
-   [
-    "2026-11-20",
-    54.59
-   ]
-  ],
-  "slug": "rk61-royal-kludge-wireless-mechanical-keyboard-tri-mode-blue-3592801940",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005013388705372",
   "store": "aliexpress",
   "title": "ATTACK SHARK SK06 Topographic Keycap Set,Side Printed,PBT,135 Keys,White Cherry Profile,Shine Through Contour Lines,Double-Shot",
@@ -7107,104 +7228,6 @@
    ]
   ],
   "slug": "attack-shark-sk06-topographic-keycap-set-side-printed-pbt-13-3388705372",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005006014887759",
-  "store": "aliexpress",
-  "title": "Baseus 7-in-1 Gen 2 USB C HUB 4K@60Hz HDMI 3* USB 3.0 PD 100W Type C Port SD/TF Card Reader for Macbook iPad M2 M1 Steam Deck",
-  "price_usd": 24.53,
-  "old_price_usd": 59.27,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006014887759.html%253Fpdp_npi%253D6%252540dis%252521USD%25252159.27%25252124.53%252521%252521%252521393.07%252521162.71%252521%252540210152bd17949583542733413e1073%25252112000035330025988%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5c9abd305ffd470ebc6b72ec49d99ec7V.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus HUB USB C 7 en 1 4K 60Hz HDMI PD 100W",
-  "commission": 0.023,
-  "why": "Hub USB C con HDMI 4K a 60Hz y carga PD de 100W",
-  "lang": "es",
-  "median_30d": 59.27,
-  "discount": 0.5861,
-  "heat": 71.7,
-  "history": [
-   [
-    "2026-11-14",
-    24.53
-   ],
-   [
-    "2026-11-15",
-    24.53
-   ],
-   [
-    "2026-11-16",
-    24.53
-   ],
-   [
-    "2026-11-17",
-    24.53
-   ],
-   [
-    "2026-11-18",
-    24.53
-   ],
-   [
-    "2026-11-19",
-    24.53
-   ],
-   [
-    "2026-11-20",
-    24.53
-   ]
-  ],
-  "slug": "baseus-7-in-1-gen-2-usb-c-hub-4k-60hz-hdmi-3-usb-3-0-pd-100w-6014887759",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005013010671337",
-  "store": "aliexpress",
-  "title": "AJAZZ NK61 60% Mechanical Gaming Keyboard, 61 Keys, Linear Red Switches, Compatible Hot-Swap, USB Wired, OEM Profile Keycaps",
-  "price_usd": 26.52,
-  "old_price_usd": 64.85,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013010671337.html%253Fpdp_npi%253D6%252540dis%252521USD%25252164.85%25252126.52%252521%252521%252521430.07%252521175.87%252521%2525402101611117949583651888297e0fc4%25252112000060016723108%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S94b7e9bfb51b410cacc22944c41ee0faw.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado 60% AJAZZ NK61",
-  "commission": 0.023,
-  "why": "61 teclas con interruptores rojos lineales intercambiables.",
-  "lang": "es",
-  "median_30d": 64.85,
-  "discount": 0.5911,
-  "heat": 71.8,
-  "history": [
-   [
-    "2026-11-11",
-    28.6
-   ],
-   [
-    "2026-11-12",
-    28.6
-   ],
-   [
-    "2026-11-18",
-    26.52
-   ],
-   [
-    "2026-11-19",
-    26.52
-   ],
-   [
-    "2026-11-20",
-    26.52
-   ]
-  ],
-  "slug": "ajazz-nk61-60-mechanical-gaming-keyboard-61-keys-linear-red--3010671337",
   "day": "2026-11-20"
  },
  {
@@ -7258,6 +7281,59 @@
    ]
   ],
   "slug": "ajazz-nk61-wired-mechanical-gaming-keyboard-with-full-key-ho-2441938470",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012148375057",
+  "store": "aliexpress",
+  "title": "BASEUS Portable Fan Convenient Creative Small Fan Pocket Hand-held Fan Lightweight Mini Fan Air Coolers Outdoor USB Rechargeable",
+  "price_usd": 27.27,
+  "old_price_usd": 54.54,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012148375057.html%253Fpdp_npi%253D6%252540dis%252521USD%25252154.54%25252127.27%252521%252521%252521361.90%252521180.95%252521%252540210152bd17949761608347714e1052%25252112000057625027580%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2c623953f97d4753a51e6b2fd6339eef0.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Household Appliances",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "BASEUS Ventilador Portatil Mini Mano USB",
+  "commission": 0.0538,
+  "why": "Ventilador de mano compacto recargable por USB",
+  "lang": "es",
+  "median_30d": 54.54,
+  "discount": 0.5,
+  "heat": 72.1,
+  "history": [
+   [
+    "2026-11-14",
+    27.28
+   ],
+   [
+    "2026-11-15",
+    27.28
+   ],
+   [
+    "2026-11-16",
+    27.27
+   ],
+   [
+    "2026-11-17",
+    27.27
+   ],
+   [
+    "2026-11-18",
+    27.27
+   ],
+   [
+    "2026-11-19",
+    27.27
+   ],
+   [
+    "2026-11-20",
+    27.27
+   ]
+  ],
+  "slug": "baseus-portable-fan-convenient-creative-small-fan-pocket-han-2148375057",
   "day": "2026-11-20"
  },
  {
@@ -7401,65 +7477,6 @@
    ]
   ],
   "slug": "rk-royal-kludge-s85-tft-color-screent-mechanical-keyboard-tr-8625896794",
-  "day": "2026-11-20"
- },
- {
-  "pid": "joom:6a6c04837e56c501aa463037",
-  "store": "joom",
-  "title": "El Juego ARTcade Americano PS5 Terrifier (Importación del Norte) - azul",
-  "price_usd": 68.48,
-  "old_price_usd": null,
-  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F6a6c04837e56c501aa463037%3Fcurrency%3DEUR%26utm_productid%3D6a6c04837e56c501aa463037%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU2NTc5NTgsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjZhNmMwNDgzN2U1NmM1MDFhYTQ2MzAzNyIsInYiOiI2YTZjMDQ4MzdlNTZjNThlYWE0NjMwM2IiLCJjIjo2My4wLCJvIjo2Ni4wfV19.KiC9AmtpYmx8K3-DGAS_zE7h4WSaRZhYQevFJQanPptIUWHqiHsARukXaJCeIcTFHrd0XlCW43n3ppQ2A245EA%26variant_id%3D6a6c04837e56c58eaa46303b%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-19",
-  "image": "https://img.joomcdn.net/dd87e12601678d63f4990a1e568278c323a3b1f5_original.jpeg",
-  "rating": null,
-  "orders": null,
-  "category": "Joom/Electrónica/PC, componentes y juegos/Todo para el juego",
-  "niche": "tech",
-  "ships_to": [
-   "ES"
-  ],
-  "title_local": "Juego ARTcade Americano PS5 Terrifier Edición Azul",
-  "commission": null,
-  "why": "Juego en formato físico importado del norte",
-  "lang": "es",
-  "median_30d": 119.57,
-  "discount": 0.4273,
-  "heat": 63.0,
-  "history": [
-   [
-    "2026-11-13",
-    119.57
-   ],
-   [
-    "2026-11-14",
-    119.57
-   ],
-   [
-    "2026-11-15",
-    119.57
-   ],
-   [
-    "2026-11-16",
-    119.57
-   ],
-   [
-    "2026-11-17",
-    119.57
-   ],
-   [
-    "2026-11-18",
-    68.48
-   ],
-   [
-    "2026-11-19",
-    68.48
-   ],
-   [
-    "2026-11-20",
-    68.48
-   ]
-  ],
-  "slug": "el-juego-artcade-americano-ps5-terrifier-importaci-n-del-nor-01aa463037",
   "day": "2026-11-20"
  },
  {
@@ -7969,6 +7986,59 @@
   "day": "2026-11-20"
  },
  {
+  "pid": "aliexpress:1005011921649097",
+  "store": "aliexpress",
+  "title": "Foot Rest for Under Desk at Work Adjustable Height Memory Foam Foot Stool for Under Desk Office Chair Gaming Chair Ergonomic",
+  "price_usd": 37.09,
+  "old_price_usd": 78.92,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011921649097.html%253Fpdp_npi%253D6%252540dis%252521USD%25252178.92%25252137.09%252521%252521%252521523.67%252521246.12%252521%2525402101611117949788252618696e106a%25252112000057034647028%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S93c2670617884ee086638170f871872ac.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Massage & Relaxation",
+  "niche": "nails",
+  "ships_to": [],
+  "title_local": "Reposapiés Ergonómico Ajustable Memory Foam",
+  "commission": 0.0538,
+  "why": "Altura ajustable con espuma viscoelástica para oficina",
+  "lang": "es",
+  "median_30d": 78.92,
+  "discount": 0.53,
+  "heat": 68.8,
+  "history": [
+   [
+    "2026-11-14",
+    37.12
+   ],
+   [
+    "2026-11-15",
+    37.12
+   ],
+   [
+    "2026-11-16",
+    37.09
+   ],
+   [
+    "2026-11-17",
+    37.09
+   ],
+   [
+    "2026-11-18",
+    37.09
+   ],
+   [
+    "2026-11-19",
+    37.09
+   ],
+   [
+    "2026-11-20",
+    37.09
+   ]
+  ],
+  "slug": "foot-rest-for-under-desk-at-work-adjustable-height-memory-fo-1921649097",
+  "day": "2026-11-20"
+ },
+ {
   "pid": "aliexpress:1005013617525472",
   "store": "aliexpress",
   "title": "GS669-X NVMe SSD, M.2 2280 PCIe Gen4.0 x4, 3500MB/s, 500GB 1TB 2TB 4TB Internal Solid State Hard Disk for PS5 PC Laptop",
@@ -8255,55 +8325,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005012118226189",
-  "store": "aliexpress",
-  "title": "Home Recliner Sofa Chair Adjustable Lazy Lounge Chair Gaming Chair for Living Room Office",
-  "price_usd": 115.68,
-  "old_price_usd": 275.42,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012118226189.html%253Fpdp_npi%253D6%252540dis%252521USD%252521275.42%252521115.68%252521%252521%2525211827.59%252521767.59%252521%25254021013cc017950411733135113e0e99%25252112000057544999426%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S198001374c8a4dc69940e781477b476aW.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Home Decor",
-  "niche": "home",
-  "ships_to": [],
-  "title_local": "Sillón reclinable y ajustable para salón u oficina",
-  "commission": 0.061500000000000006,
-  "why": "",
-  "lang": "es",
-  "median_30d": 275.42,
-  "discount": 0.58,
-  "heat": 75.7,
-  "history": [
-   [
-    "2026-11-15",
-    115.75
-   ],
-   [
-    "2026-11-16",
-    115.75
-   ],
-   [
-    "2026-11-17",
-    115.68
-   ],
-   [
-    "2026-11-18",
-    115.75
-   ],
-   [
-    "2026-11-19",
-    115.68
-   ],
-   [
-    "2026-11-20",
-    115.68
-   ]
-  ],
-  "slug": "home-recliner-sofa-chair-adjustable-lazy-lounge-chair-gaming-2118226189",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005012668306378",
   "store": "aliexpress",
   "title": "Flight simulator joystick throttle desk stand suitable for Logitech X56 Gamepad TCA WingWin material clamp",
@@ -8403,6 +8424,112 @@
    ]
   ],
   "slug": "10pcs-cartoon-diy-mini-cartoon-game-controller-flat-back-emb-2610317418",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005013457218707",
+  "store": "aliexpress",
+  "title": "UGREEN 80688 Dual HDMI Video Capture Card 4K Input 1080P Loop Out Recording Box for PC Streaming",
+  "price_usd": 138.11,
+  "old_price_usd": 209.26,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013457218707.html%253Fpdp_npi%253D6%252540dis%252521USD%252521209.26%252521138.11%252521%252521%2525211387.69%252521915.88%252521%2525402151fd3a17949589362071849e1052%25252112000061141553555%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd321b97e94d642ffba0021638bde42e6J.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Capturadora doble HDMI UGREEN 80688 4K",
+  "commission": 0.0538,
+  "why": "",
+  "lang": "es",
+  "median_30d": 209.26,
+  "discount": 0.34,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-14",
+    138.11
+   ],
+   [
+    "2026-11-15",
+    138.11
+   ],
+   [
+    "2026-11-16",
+    138.11
+   ],
+   [
+    "2026-11-17",
+    138.11
+   ],
+   [
+    "2026-11-18",
+    138.11
+   ],
+   [
+    "2026-11-19",
+    138.11
+   ],
+   [
+    "2026-11-20",
+    138.11
+   ]
+  ],
+  "slug": "ugreen-80688-dual-hdmi-video-capture-card-4k-input-1080p-loo-3457218707",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005013583614786",
+  "store": "aliexpress",
+  "title": "UGREEN 80396 CABLE DP 1.4 to HDMI 2.1 1.5m 8K DisplayPort Male to Male for Monitor TV Laptop PC",
+  "price_usd": 33.29,
+  "old_price_usd": 50.44,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013583614786.html%253Fpdp_npi%253D6%252540dis%252521USD%25252150.44%25252133.29%252521%252521%252521334.47%252521220.75%252521%2525402102f1cd17949585896275401e10e4%25252112000061555120179%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9950c53aef8746c2868a3fb27e2a13dax.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Cable DisplayPort 1.4 a HDMI 2.1 UGREEN 1,5 m",
+  "commission": 0.0538,
+  "why": "",
+  "lang": "es",
+  "median_30d": 50.44,
+  "discount": 0.34,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-14",
+    33.29
+   ],
+   [
+    "2026-11-15",
+    33.29
+   ],
+   [
+    "2026-11-16",
+    33.29
+   ],
+   [
+    "2026-11-17",
+    33.29
+   ],
+   [
+    "2026-11-18",
+    33.29
+   ],
+   [
+    "2026-11-19",
+    33.29
+   ],
+   [
+    "2026-11-20",
+    33.29
+   ]
+  ],
+  "slug": "ugreen-80396-cable-dp-1-4-to-hdmi-2-1-1-5m-8k-displayport-ma-3583614786",
   "day": "2026-11-20"
  },
  {
@@ -9103,33 +9230,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "joom:662b0103fa635d01024dc452",
-  "store": "joom",
-  "title": "Ropa Nueva para Niños, Camisetas de Manga Corta para Niños, Ropa de Bebé para Niñas 140cm black",
-  "price_usd": 8.84,
-  "old_price_usd": null,
-  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F662b0103fa635d01024dc452%3Fcurrency%3DEUR%26utm_productid%3D662b0103fa635d01024dc452%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU2NTc5NTgsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY2MmIwMTAzZmE2MzVkMDEwMjRkYzQ1MiIsInYiOiI2NjJiMDEwM2ZhNjM1ZDEzMDI0ZGM0NTkiLCJjIjo4LjEzfV19.GcWgqZ_lW2YODy0_3zD2nMWSNXe90AN65rIjcKMf5X4Fa0ovtL_ExtBNCYPbTukpyhc6rAY-KWAZDr1iuMbl6Q%26variant_id%3D662b0103fa635d13024dc459%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-19",
-  "image": "https://img.joomcdn.net/f2ece4fff4cf967ed857759a3c1be8fa1d16da8c_original.jpeg",
-  "rating": null,
-  "orders": null,
-  "category": "Joom/Productos para niños/Moda infantil/Ropa/Niñas/Camisetas y sudaderas/Camisetas",
-  "niche": "kids",
-  "ships_to": [
-   "ES"
-  ],
-  "title_local": "Camiseta infantil de manga corta negra 140 cm",
-  "commission": null,
-  "why": "Ropa de manga corta en color negro para niños de 140 cm",
-  "lang": "es",
-  "median_30d": 8.84,
-  "discount": 0.0,
-  "heat": 40.0,
-  "history": [],
-  "showcase": true,
-  "slug": "ropa-nueva-para-ni-os-camisetas-de-manga-corta-para-ni-os-ro-01024dc452",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005007099351339",
   "store": "aliexpress",
   "title": "Baseus Car Emergency Hammer Mutifunction Safety Windows Glass Breaker Safety Belt Cutter with Lamp Fast Escape Car Rescue Tool",
@@ -9289,59 +9389,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005007904736955",
-  "store": "aliexpress",
-  "title": "Baseus Auto Restorable Car Phone Holder Gravity for Car Air Vent Silicone Stand For iPhone 15 Xiaomi Samsung Car Mobile Support",
-  "price_usd": 9.16,
-  "old_price_usd": 20.13,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007904736955.html%253Fpdp_npi%253D6%252540dis%252521USD%25252120.13%2525219.16%252521%252521%252521133.55%25252160.78%252521%2525402140d33617949742146496075e0d32%25252112000042788035043%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5f9a850c46b847ee8261c00bfef5c325w.png",
-  "rating": null,
-  "orders": null,
-  "category": "Holders & Stands",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Soporte de móvil Baseus de gravedad para rejilla",
-  "commission": 0.0538,
-  "why": "Ajuste por gravedad para la rejilla del coche con silicona",
-  "lang": "es",
-  "median_30d": 20.13,
-  "discount": 0.545,
-  "heat": 70.9,
-  "history": [
-   [
-    "2026-11-14",
-    10.33
-   ],
-   [
-    "2026-11-15",
-    10.33
-   ],
-   [
-    "2026-11-16",
-    10.33
-   ],
-   [
-    "2026-11-17",
-    10.33
-   ],
-   [
-    "2026-11-18",
-    9.16
-   ],
-   [
-    "2026-11-19",
-    9.16
-   ],
-   [
-    "2026-11-20",
-    9.16
-   ]
-  ],
-  "slug": "baseus-auto-restorable-car-phone-holder-gravity-for-car-air--7904736955",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005007890603575",
   "store": "aliexpress",
   "title": "UGREEN Phone Holder Stand Aluminum Cell Phone Stand Tablet Stand Support Mobile Phone For iPhone 16 15 14 Pro Max Xiaomi Samsung",
@@ -9448,6 +9495,59 @@
   "day": "2026-11-20"
  },
  {
+  "pid": "aliexpress:1005007470528876",
+  "store": "aliexpress",
+  "title": "UGREEN Magnetic Phone Stand 360° Rotation Aluminum Mobile Phone Stand For Magsafe iPhone 15 14 13 Pro Max Xiaomi Samsung Huawei",
+  "price_usd": 13.27,
+  "old_price_usd": 30.83,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007470528876.html%253Fpdp_npi%253D6%252540dis%252521USD%25252130.83%25252113.27%252521%252521%25252130.83%25252113.27%252521%2525402140f89017949742074276374e118c%25252112000040887953852%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S83c31bf4745a41409bd958bb386666a0E.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Soporte magnético UGREEN 360° de aluminio",
+  "commission": 0.0538,
+  "why": "Rotación de 360 grados y compatible con MagSafe",
+  "lang": "es",
+  "median_30d": 30.83,
+  "discount": 0.5696,
+  "heat": 71.4,
+  "history": [
+   [
+    "2026-11-14",
+    13.41
+   ],
+   [
+    "2026-11-15",
+    13.41
+   ],
+   [
+    "2026-11-16",
+    13.41
+   ],
+   [
+    "2026-11-17",
+    13.41
+   ],
+   [
+    "2026-11-18",
+    13.27
+   ],
+   [
+    "2026-11-19",
+    13.27
+   ],
+   [
+    "2026-11-20",
+    13.27
+   ]
+  ],
+  "slug": "ugreen-magnetic-phone-stand-360-rotation-aluminum-mobile-pho-7470528876",
+  "day": "2026-11-20"
+ },
+ {
   "pid": "aliexpress:1005012667598748",
   "store": "aliexpress",
   "title": "Baseus GoTrip DT2 Car Safety Hammer 2 in 1 Window Breaker Seat Belt Cutter Tungsten Steel Tip Emergency Escape Rescue Tool",
@@ -9501,6 +9601,108 @@
   "day": "2026-11-20"
  },
  {
+  "pid": "aliexpress:1005009467240416",
+  "store": "aliexpress",
+  "title": "UGREEN Car Phone Holder Magnetic 360° Rotation For Magsafe iPhone 16 15 14 Pro Max Samsung S25 Ultra Xiaomi Air Vent Car Mount",
+  "price_usd": 10.24,
+  "old_price_usd": 24.74,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009467240416.html%253Fpdp_npi%253D6%252540dis%252521USD%25252124.74%25252110.24%252521%252521%25252124.74%25252110.24%252521%2525402140d36217949740877053719e0fbd%25252112000049192890711%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S85ded9ae554947e9a0ef6868f4ca22ff9.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Soporte Movil Magnetico 360 Magsafe Rejilla",
+  "commission": 0.0538,
+  "why": "Soporte con rotacion de 360 grados para rejilla",
+  "lang": "es",
+  "median_30d": 24.74,
+  "discount": 0.5861,
+  "heat": 71.7,
+  "history": [
+   [
+    "2026-11-14",
+    10.24
+   ],
+   [
+    "2026-11-15",
+    10.24
+   ],
+   [
+    "2026-11-16",
+    10.24
+   ],
+   [
+    "2026-11-18",
+    10.24
+   ],
+   [
+    "2026-11-19",
+    10.24
+   ],
+   [
+    "2026-11-20",
+    10.24
+   ]
+  ],
+  "slug": "ugreen-car-phone-holder-magnetic-360-rotation-for-magsafe-ip-9467240416",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005008886876486",
+  "store": "aliexpress",
+  "title": "UGREEN Magnetic Phone Holder For Tesla Car Touchscreen Triangular Structure For Magsafe iPhone 16 15 Pro Max Samsung Galaxy S25",
+  "price_usd": 14.35,
+  "old_price_usd": 34.7,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005008886876486.html%253Fpdp_npi%253D6%252540dis%252521USD%25252134.70%25252114.35%252521%252521%25252134.70%25252114.35%252521%252540210152bd17949738919911426e0f6b%25252112000047085148906%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdda5c5967b314fd78d08724ebb355bee4.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Soporte Magnetico Pantalla Tesla Magsafe",
+  "commission": 0.0538,
+  "why": "Estructura triangular para pantalla tactil de Tesla",
+  "lang": "es",
+  "median_30d": 34.7,
+  "discount": 0.5865,
+  "heat": 71.7,
+  "history": [
+   [
+    "2026-11-14",
+    14.36
+   ],
+   [
+    "2026-11-15",
+    14.36
+   ],
+   [
+    "2026-11-16",
+    14.32
+   ],
+   [
+    "2026-11-17",
+    14.32
+   ],
+   [
+    "2026-11-18",
+    14.35
+   ],
+   [
+    "2026-11-19",
+    14.35
+   ],
+   [
+    "2026-11-20",
+    14.35
+   ]
+  ],
+  "slug": "ugreen-magnetic-phone-holder-for-tesla-car-touchscreen-trian-8886876486",
+  "day": "2026-11-20"
+ },
+ {
   "pid": "aliexpress:1005007549957228",
   "store": "aliexpress",
   "title": "UGREEN Magnetic Car Phone Holder Magsafe Air Vent Phone Stand Unviersal For iPhone 15 14 13 Pro Max Xiaomi Samsung Strong Magnet",
@@ -9543,6 +9745,218 @@
    ]
   ],
   "slug": "ugreen-magnetic-car-phone-holder-magsafe-air-vent-phone-stan-7549957228",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005009024108046",
+  "store": "aliexpress",
+  "title": "Baseus Car Phone Holder Sucker for Dashboard Mobile Phone Holder Car Mount For Samsung iPhone Xiaomi Huawei Foldable Holder",
+  "price_usd": 11.22,
+  "old_price_usd": 29.98,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009024108046.html%253Fpdp_npi%253D6%252540dis%252521USD%25252129.98%25252111.22%252521%252521%25252129.98%25252111.22%252521%25254021013cc017949738704658586e0db3%25252112000047621930247%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S38ca9e7ba1bc4e3b9fb62e95a1ad0420x.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Soporte Movil Coche Ventosa Salpicadero",
+  "commission": 0.0538,
+  "why": "Soporte plegable para movil con ventosa",
+  "lang": "es",
+  "median_30d": 29.98,
+  "discount": 0.6258,
+  "heat": 72.5,
+  "history": [
+   [
+    "2026-11-14",
+    11.34
+   ],
+   [
+    "2026-11-15",
+    11.34
+   ],
+   [
+    "2026-11-16",
+    11.34
+   ],
+   [
+    "2026-11-17",
+    11.34
+   ],
+   [
+    "2026-11-18",
+    11.22
+   ],
+   [
+    "2026-11-19",
+    11.22
+   ],
+   [
+    "2026-11-20",
+    11.22
+   ]
+  ],
+  "slug": "baseus-car-phone-holder-sucker-for-dashboard-mobile-phone-ho-9024108046",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005013193625420",
+  "store": "aliexpress",
+  "title": "Ugreen 38 in 1 Screwdriver Set Torx Slotted Hex Magnetic Repair Tool Kit Box for Notebook Clock Camera Watch Mobile Phone Quick",
+  "price_usd": 19.24,
+  "old_price_usd": 50.24,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013193625420.html%253Fpdp_npi%253D6%252540dis%252521USD%25252150.24%25252119.24%252521%252521%252521333.14%252521127.55%252521%2525400b8ded7b17949704945138074e0e0e%25252112000060494913530%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S4805b5a4f6f94a29872f748eb56a0d8fP.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Tool Sets",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Ugreen Set Destornilladores 38 en 1 Torx Hex",
+  "commission": 0.0538,
+  "why": "Caja de herramientas de reparacion magnetica 38 en 1",
+  "lang": "es",
+  "median_30d": 50.24,
+  "discount": 0.617,
+  "heat": 76.3,
+  "history": [
+   [
+    "2026-11-14",
+    19.24
+   ],
+   [
+    "2026-11-15",
+    19.24
+   ],
+   [
+    "2026-11-16",
+    19.22
+   ],
+   [
+    "2026-11-17",
+    19.22
+   ],
+   [
+    "2026-11-18",
+    19.24
+   ],
+   [
+    "2026-11-19",
+    19.24
+   ],
+   [
+    "2026-11-20",
+    19.24
+   ]
+  ],
+  "slug": "ugreen-38-in-1-screwdriver-set-torx-slotted-hex-magnetic-rep-3193625420",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005006210849926",
+  "store": "aliexpress",
+  "title": "Baseus Air Pump Wireless Air Compressor Camping Inflatable Deflate Beds Mats Swimming Ring Mini Portable Outdoor Inflator Pump",
+  "price_usd": 21.76,
+  "old_price_usd": 53.76,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006210849926.html%253Fpdp_npi%253D6%252540dis%252521USD%25252153.76%25252121.76%252521%252521%252521356.73%252521144.42%252521%2525402151fd2c17949753413185317e0cf4%25252112000036296558795%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S39ce71cea1404a1190f43ec1fe08dc7bC.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Car Wash & Maintenance",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Bomba Aire Inalambrica Camping Colchones",
+  "commission": 0.0538,
+  "why": "Compresor inalambrico para inflar y desinflar",
+  "lang": "es",
+  "median_30d": 53.76,
+  "discount": 0.5952,
+  "heat": 76.4,
+  "history": [
+   [
+    "2026-11-14",
+    21.77
+   ],
+   [
+    "2026-11-15",
+    21.77
+   ],
+   [
+    "2026-11-16",
+    21.76
+   ],
+   [
+    "2026-11-17",
+    21.76
+   ],
+   [
+    "2026-11-18",
+    21.76
+   ],
+   [
+    "2026-11-19",
+    21.76
+   ],
+   [
+    "2026-11-20",
+    21.76
+   ]
+  ],
+  "slug": "baseus-air-pump-wireless-air-compressor-camping-inflatable-d-6210849926",
+  "day": "2026-11-20"
+ },
+ {
+  "pid": "aliexpress:1005012106286286",
+  "store": "aliexpress",
+  "title": "Baseus Mini Air Pump Portable Electric Inflator Wireless Air Mattress Pump with LED Camping Light for Swim Ring Vacuum Bag",
+  "price_usd": 22.45,
+  "old_price_usd": 56.76,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012106286286.html%253Fpdp_npi%253D6%252540dis%252521USD%25252156.76%25252122.45%252521%252521%252521376.67%252521149.03%252521%25254021013cc617949754756404445e0f8e%25252112000057532262786%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb7151dae793d4ef6adbf3d46e463ddb6X.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Car Wash & Maintenance",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Mini Bomba Inalambrica Luz LED Colchon",
+  "commission": 0.0538,
+  "why": "Inflador portatil con luz LED para camping",
+  "lang": "es",
+  "median_30d": 56.76,
+  "discount": 0.6045,
+  "heat": 77.9,
+  "history": [
+   [
+    "2026-11-14",
+    22.47
+   ],
+   [
+    "2026-11-15",
+    22.47
+   ],
+   [
+    "2026-11-16",
+    22.45
+   ],
+   [
+    "2026-11-17",
+    22.45
+   ],
+   [
+    "2026-11-18",
+    22.45
+   ],
+   [
+    "2026-11-19",
+    22.45
+   ],
+   [
+    "2026-11-20",
+    22.45
+   ]
+  ],
+  "slug": "baseus-mini-air-pump-portable-electric-inflator-wireless-air-2106286286",
   "day": "2026-11-20"
  },
  {
@@ -16506,51 +16920,6 @@
   "day": "2026-11-18"
  },
  {
-  "pid": "aliexpress:1005002754266538",
-  "store": "aliexpress",
-  "title": "Fosi Audio Mono Amplifier Subwoofer Amp 100W With Bass Power Amplifier For Home Passive Speaker M04",
-  "price_usd": 29.32,
-  "old_price_usd": 49.99,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005002754266538.html%253Fpdp_npi%253D6%252540dis%252521USD%25252149.99%25252129.32%252521%252521%25252149.99%25252129.32%252521%25254021013cc617949747062906506e0fdf%25252112000021976550941%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7bcce16727f748fea7c3d694f8c9e2eaE.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Home Audio & Video",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Amplificador Fosi Audio Mono Subwoofer 100W M04",
-  "commission": 0.0269,
-  "why": "Potencia de 100W con control de graves",
-  "lang": "es",
-  "median_30d": 49.99,
-  "discount": 0.4135,
-  "heat": 68.3,
-  "history": [
-   [
-    "2026-11-12",
-    29.29
-   ],
-   [
-    "2026-11-13",
-    29.29
-   ],
-   [
-    "2026-11-14",
-    29.29
-   ],
-   [
-    "2026-11-17",
-    29.22
-   ],
-   [
-    "2026-11-18",
-    29.32
-   ]
-  ],
-  "slug": "fosi-audio-mono-amplifier-subwoofer-amp-100w-with-bass-power-2754266538",
-  "day": "2026-11-18"
- },
- {
   "pid": "aliexpress:1005011919408186",
   "store": "aliexpress",
   "title": "2026 Top Selling for Men, Home Care Warm Patches, Pink Combo Pack",
@@ -16581,218 +16950,6 @@
    ]
   ],
   "slug": "2026-top-selling-for-men-home-care-warm-patches-pink-combo-p-1919408186",
-  "day": "2026-11-18"
- },
- {
-  "pid": "aliexpress:1005011923198205",
-  "store": "aliexpress",
-  "title": "OLYCAT Umbrella Luxury, Fully Automatic Umbrella for Rain Windproof Strong, Big Golf Folding Brand Umbrella Men, 10 Ribs",
-  "price_usd": 22.85,
-  "old_price_usd": 76.16,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011923198205.html%253Fpdp_npi%253D6%252540dis%252521USD%25252176.16%25252122.85%252521%252521%252521505.05%252521151.51%252521%2525402140f88817949671199733719e0e52%25252112000057029865949%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2788f8e12d1744f4aaa21c93b3d7d121x.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Household Merchandises",
-  "niche": "home",
-  "ships_to": [],
-  "title_local": "Paraguas OLYCAT Automático Viento 10 Varillas",
-  "commission": 0.15380000000000002,
-  "why": "Resistente al viento con diez varillas fuertes",
-  "lang": "es",
-  "median_30d": 76.16,
-  "discount": 0.7,
-  "heat": 94.4,
-  "history": [
-   [
-    "2026-11-14",
-    22.85
-   ],
-   [
-    "2026-11-15",
-    22.85
-   ],
-   [
-    "2026-11-16",
-    22.85
-   ],
-   [
-    "2026-11-17",
-    22.83
-   ],
-   [
-    "2026-11-18",
-    22.85
-   ]
-  ],
-  "slug": "olycat-umbrella-luxury-fully-automatic-umbrella-for-rain-win-1923198205",
-  "day": "2026-11-18"
- },
- {
-  "pid": "aliexpress:1005012683351843",
-  "store": "aliexpress",
-  "title": "Fosi Audio Merak HiFi CD Player 210MW *2 Headphone Amp DAC with Remote CS43131 Supports USB Ripping USB Drive Input",
-  "price_usd": 138.24,
-  "old_price_usd": 174.99,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012683351843.html%253Fpdp_npi%253D6%252540dis%252521USD%252521174.99%252521138.24%252521%252521%252521174.99%252521138.24%252521%2525402140d33617949676925792222e0eff%25252112000059348911531%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5dec98b9f40a4cfc921c8e800435c3f6I.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Portable Audio & Video",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Reproductor de CD HiFi Fosi Audio Merak con DAC",
-  "commission": 0.07690000000000001,
-  "why": "DAC CS43131, amplificador de 210 mW y ripeo por USB",
-  "lang": "es",
-  "median_30d": 174.99,
-  "discount": 0.21,
-  "heat": 67.3,
-  "history": [],
-  "slug": "fosi-audio-merak-hifi-cd-player-210mw-2-headphone-amp-dac-wi-2683351843",
-  "day": "2026-11-18"
- },
- {
-  "pid": "aliexpress:1005005892080347",
-  "store": "aliexpress",
-  "title": "Fosi Audio SK01 Headphone Amplifier & Preamplifier 2 in 1 for Headphone Earphone, Power Amplifier, Active speakers",
-  "price_usd": 49.68,
-  "old_price_usd": 79.99,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005005892080347.html%253Fpdp_npi%253D6%252540dis%252521USD%25252179.99%25252149.68%252521%252521%25252179.99%25252149.68%252521%252540212a7b8d17949674928813771e104f%25252112000034731184566%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc0020f603d5b4665a4c70a069e01f4ffJ.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Portable Audio & Video",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Amplificador y previo 2 en 1 Fosi Audio SK01",
-  "commission": 0.0269,
-  "why": "Función 2 en 1 para auriculares y altavoces activos",
-  "lang": "es",
-  "median_30d": 79.99,
-  "discount": 0.3789,
-  "heat": 67.6,
-  "history": [
-   [
-    "2026-11-11",
-    50.16
-   ],
-   [
-    "2026-11-12",
-    49.84
-   ],
-   [
-    "2026-11-13",
-    49.84
-   ],
-   [
-    "2026-11-14",
-    49.84
-   ],
-   [
-    "2026-11-16",
-    49.84
-   ],
-   [
-    "2026-11-17",
-    49.84
-   ],
-   [
-    "2026-11-18",
-    49.68
-   ]
-  ],
-  "slug": "fosi-audio-sk01-headphone-amplifier-preamplifier-2-in-1-for--5892080347",
-  "day": "2026-11-18"
- },
- {
-  "pid": "aliexpress:1005010193157863",
-  "store": "aliexpress",
-  "title": "FiiO JadeAudio JF11 Earphones Retro Wired in-ear Headphone 14.2mm Large Dyamic Drive Earbuds U-Shaped Pipe Extended Bass Headset",
-  "price_usd": 12.62,
-  "old_price_usd": 36.04,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010193157863.html%253Fpdp_npi%253D6%252540dis%252521USD%25252136.04%25252112.62%252521%252521%252521238.96%25252183.64%252521%2525402101611117949674710768537e1007%25252112000051476986958%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S98e84a0235e844afbff7a1bf588901bcb.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Portable Audio & Video",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "FiiO JF11 Auriculares Retro In-Ear 14.2mm",
-  "commission": 0.061500000000000006,
-  "why": "Graves extendidos gracias a su driver de 14.2mm.",
-  "lang": "es",
-  "median_30d": 36.04,
-  "discount": 0.6498,
-  "heat": 77.1,
-  "history": [
-   [
-    "2026-11-16",
-    12.62
-   ],
-   [
-    "2026-11-17",
-    12.62
-   ],
-   [
-    "2026-11-18",
-    12.62
-   ]
-  ],
-  "slug": "fiio-jadeaudio-jf11-earphones-retro-wired-in-ear-headphone-1-0193157863",
-  "day": "2026-11-18"
- },
- {
-  "pid": "aliexpress:1005008585719081",
-  "store": "aliexpress",
-  "title": "Aluminum Alloy Frame Magnetic Phone Case For Samsung Galaxy S25 Ultra S23 Ultra S24 Ultra S22 Frameless Transparent Hard Cover",
-  "price_usd": 22.85,
-  "old_price_usd": 71.41,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005008585719081.html%253Fpdp_npi%253D6%252540dis%252521USD%25252171.41%25252122.85%252521%252521%25252171.41%25252122.85%252521%252540214114e317949540183447682e0d0e%25252112000045839341936%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S446d2e59093c49bbaa98d53e06839fa1M.png",
-  "rating": null,
-  "orders": null,
-  "category": "Mobile Phone Cases & Covers",
-  "niche": "tech",
-  "ships_to": [],
-  "title_local": "Funda magnética para Samsung Galaxy S22 a S25 Ultra",
-  "commission": 0.09230000000000001,
-  "why": "Marco de aleación de aluminio y carcasa transparente",
-  "lang": "es",
-  "median_30d": 71.41,
-  "discount": 0.68,
-  "heat": 92.5,
-  "history": [
-   [
-    "2026-11-09",
-    23.57
-   ],
-   [
-    "2026-11-10",
-    22.85
-   ],
-   [
-    "2026-11-14",
-    22.85
-   ],
-   [
-    "2026-11-15",
-    22.85
-   ],
-   [
-    "2026-11-16",
-    22.85
-   ],
-   [
-    "2026-11-17",
-    22.85
-   ],
-   [
-    "2026-11-18",
-    22.85
-   ]
-  ],
-  "slug": "aluminum-alloy-frame-magnetic-phone-case-for-samsung-galaxy--8585719081",
   "day": "2026-11-18"
  },
  {
@@ -16912,43 +17069,6 @@
    ]
   ],
   "slug": "waterproof-car-seat-cover-pet-travel-car-trunk-mat-oxford-cl-2535905303",
-  "day": "2026-11-18"
- },
- {
-  "pid": "aliexpress:1005011920703011",
-  "store": "aliexpress",
-  "title": "Creative Three-fold Automatic Rounded Corner Umbrella with Reflective Edges Rain or Shine Fully Automatic Vinyl Umbrella",
-  "price_usd": 13.71,
-  "old_price_usd": 45.7,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011920703011.html%253Fpdp_npi%253D6%252540dis%252521USD%25252145.70%25252113.71%252521%252521%252521303.03%25252190.91%252521%252540212a7b8d17949671842594882e0f89%25252112000057039954447%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb646ab9e7b6a451ca47ec34ef87b7482b.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Household Merchandises",
-  "niche": "home",
-  "ships_to": [],
-  "title_local": "Paraguas automático de 3 pliegues reflectante",
-  "commission": 0.15380000000000002,
-  "why": "Bordes reflectantes y diseño útil para lluvia o sol",
-  "lang": "es",
-  "median_30d": 45.7,
-  "discount": 0.7,
-  "heat": 94.4,
-  "history": [
-   [
-    "2026-11-16",
-    13.71
-   ],
-   [
-    "2026-11-17",
-    13.7
-   ],
-   [
-    "2026-11-18",
-    13.71
-   ]
-  ],
-  "slug": "creative-three-fold-automatic-rounded-corner-umbrella-with-r-1920703011",
   "day": "2026-11-18"
  },
  {
@@ -17224,47 +17344,6 @@
   "day": "2026-11-17"
  },
  {
-  "pid": "aliexpress:1005013584964438",
-  "store": "aliexpress",
-  "title": "1/2/6pcs Clear Acrylic Display Book Stand  Easel Holder For Displaying Picture Albums, Books, Music Sheets, Artworks,CDs, Etc",
-  "price_usd": 0.65,
-  "old_price_usd": 2.11,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013584964438.html%253Fpdp_npi%253D6%252540dis%252521USD%2525212.11%2525210.65%252521%252521%25252114.00%2525214.34%252521%2525402141149b17948675695956859e0d17%25252112000061559500949%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7b7fa91d6a124b51a469fe7174463185e.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Home Decor",
-  "niche": "dollar",
-  "ships_to": [],
-  "title_local": "Soporte Expositor Acrílico Transparente para Libros",
-  "commission": 0.15380000000000002,
-  "why": "Perfecto para mostrar álbumes, libros y partituras",
-  "lang": "es",
-  "median_30d": 2.11,
-  "discount": 0.6919,
-  "heat": 90.5,
-  "history": [
-   [
-    "2026-11-10",
-    1.31
-   ],
-   [
-    "2026-11-15",
-    0.65
-   ],
-   [
-    "2026-11-16",
-    0.65
-   ],
-   [
-    "2026-11-17",
-    0.65
-   ]
-  ],
-  "slug": "1-2-6pcs-clear-acrylic-display-book-stand-easel-holder-for-d-3584964438",
-  "day": "2026-11-17"
- },
- {
   "pid": "aliexpress:1005013350376780",
   "store": "aliexpress",
   "title": "50L Nylon Backpack Camping Bag Outdoor Sport Hiking Trekking Climbing Travel Shoulder Reflective Shoes Luggage Outdoor Men Bag",
@@ -17381,43 +17460,6 @@
    ]
   ],
   "slug": "car-vacuum-cleaner-type-c-rechargeable-brushless-high-power--1700088522",
-  "day": "2026-11-17"
- },
- {
-  "pid": "aliexpress:1005013581378885",
-  "store": "aliexpress",
-  "title": "Anxious Banana Decor | Creative Decor For Home, Office, And Car, Ideal For Daily , New Year, And Anniversary Gifts",
-  "price_usd": 1.21,
-  "old_price_usd": 4.01,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013581378885.html%253Fpdp_npi%253D6%252540dis%252521USD%2525214.01%2525211.21%252521%252521%25252126.58%2525217.97%252521%252540214114e317948677407746369e1012%25252112000061549800856%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S24bae9fa6a9a47b0bbfa71634f65374d0.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Home Decor",
-  "niche": "dollar",
-  "ships_to": [],
-  "title_local": "Figura decorativa Anxious Banana",
-  "commission": 0.15380000000000002,
-  "why": "Decoración creativa para el hogar, la oficina y el coche",
-  "lang": "es",
-  "median_30d": 4.01,
-  "discount": 0.6983,
-  "heat": 91.4,
-  "history": [
-   [
-    "2026-11-15",
-    1.2
-   ],
-   [
-    "2026-11-16",
-    1.2
-   ],
-   [
-    "2026-11-17",
-    1.21
-   ]
-  ],
-  "slug": "anxious-banana-decor-creative-decor-for-home-office-and-car--3581378885",
   "day": "2026-11-17"
  },
  {
@@ -17648,47 +17690,6 @@
    ]
   ],
   "slug": "8000mah-car-jump-starter-with-tire-inflator-150psi-portable--2173196854",
-  "day": "2026-11-16"
- },
- {
-  "pid": "aliexpress:1005004392089654",
-  "store": "aliexpress",
-  "title": "Men Pure Titanium Optical Prescription Eyewear Full Rim Eyeglasses Frame Male Business Style High Quality New K5066BSF",
-  "price_usd": 30.68,
-  "old_price_usd": 98.98,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005004392089654.html%253Fpdp_npi%253D6%252540dis%252521USD%25252198.98%25252130.68%252521%252521%25252198.98%25252130.68%252521%2525402140f88817947934232687541e1083%25252112000029017391160%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3c00a932b2414508af94cbd49a158b18o.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Eyewear & Accessories",
-  "niche": "fashion",
-  "ships_to": [],
-  "title_local": "Montura Gafas Hombre Titanio Puro K5066BSF",
-  "commission": 0.1153,
-  "why": "Estilo de negocio con montura completa de titanio.",
-  "lang": "es",
-  "median_30d": 98.98,
-  "discount": 0.69,
-  "heat": 93.5,
-  "history": [
-   [
-    "2026-11-12",
-    30.68
-   ],
-   [
-    "2026-11-13",
-    30.68
-   ],
-   [
-    "2026-11-14",
-    30.68
-   ],
-   [
-    "2026-11-16",
-    30.68
-   ]
-  ],
-  "slug": "men-pure-titanium-optical-prescription-eyewear-full-rim-eyeg-4392089654",
   "day": "2026-11-16"
  },
  {
@@ -17960,39 +17961,6 @@
    ]
   ],
   "slug": "winery-chateau-house-building-set-with-led-vineyard-castle-c-9785961448",
-  "day": "2026-11-15"
- },
- {
-  "pid": "aliexpress:1005013611142382",
-  "store": "aliexpress",
-  "title": "For Zeekr 9X 2026 5-Seats LHD Eco-Friendly TPE Trunk Mat Non-Slip Dustproof Car Cargo Liner Auto Interior Accessories",
-  "price_usd": 54.29,
-  "old_price_usd": 180.96,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013611142382.html%253Fpdp_npi%253D6%252540dis%252521USD%252521180.96%25252154.29%252521%252521%2525211200.00%252521360.00%252521%2525402140d33617946208533397483e0ebd%25252112000061640842528%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Seeb9602b549a4a56bf21fa9f8b8a6a8e7.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Interior Accessories",
-  "niche": "car",
-  "ships_to": [],
-  "title_local": "Alfombrilla Maletero TPE Antideslizante Para Zeekr 9X 2026",
-  "commission": 0.0692,
-  "why": "Proteccion antipolvo ecologica para el maletero",
-  "lang": "es",
-  "median_30d": 180.96,
-  "discount": 0.7,
-  "heat": 89.3,
-  "history": [
-   [
-    "2026-11-14",
-    54.29
-   ],
-   [
-    "2026-11-15",
-    54.29
-   ]
-  ],
-  "slug": "for-zeekr-9x-2026-5-seats-lhd-eco-friendly-tpe-trunk-mat-non-3611142382",
   "day": "2026-11-15"
  },
  {
@@ -18573,6 +18541,60 @@
   "history": [],
   "showcase": true,
   "slug": "lupa-de-mano-lupa-4x-para-leer-la-p-gina-completa-del-libro--010529ce9d",
+  "day": "2026-11-13"
+ },
+ {
+  "pid": "joom:6a676539ec6b07014a7cf8d5",
+  "store": "joom",
+  "title": "CHICCO 00011551000000 Esterilla Sensorial de Agua Cocodrilo",
+  "price_usd": 52.17,
+  "old_price_usd": null,
+  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F6a676539ec6b07014a7cf8d5%3Fcurrency%3DEUR%26utm_productid%3D6a676539ec6b07014a7cf8d5%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTUwNTI4NDQsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjZhNjc2NTM5ZWM2YjA3MDE0YTdjZjhkNSIsInYiOiI2YTY3NjUzOWVjNmIwNzRmNGE3Y2Y4ZDgiLCJjIjo0OC4wfV19.GhWTol1HTy3FA6VKi5wAuQ0nbebpmRu7iKRYOHNi5ZR5-_y99fu8LB7YPmlHe2SfHpYLwyTQQVlokglL8kqDIg%26variant_id%3D6a676539ec6b074f4a7cf8d8%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_premium_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-12",
+  "image": "https://img.joomcdn.net/7c6316982a22db738d37573efa17fc480560b058_original.jpeg",
+  "rating": null,
+  "orders": null,
+  "category": "Joom/Hobbies y creatividad/Pasatiempos y juguetes para niños/Juguetes para el bebé/Alfombras de juego",
+  "niche": "kids",
+  "ships_to": [
+   "ES"
+  ],
+  "title_local": "CHICCO Esterilla Sensorial de Agua Cocodrilo",
+  "commission": null,
+  "why": "Estimulación acuática divertida para bebés",
+  "lang": "es",
+  "median_30d": 52.17,
+  "discount": 0.0,
+  "heat": 40.0,
+  "history": [],
+  "showcase": true,
+  "slug": "chicco-00011551000000-esterilla-sensorial-de-agua-cocodrilo-014a7cf8d5",
+  "day": "2026-11-13"
+ },
+ {
+  "pid": "joom:677e46864f5a980160d06f8d",
+  "store": "joom",
+  "title": "Bolsa Protectora de Almacenamiento con Forma de Gota para Carrete de Pesca EVA Aparejos de Pesca para Carrete de Spinning y de Tambor black",
+  "price_usd": 17.85,
+  "old_price_usd": null,
+  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F677e46864f5a980160d06f8d%3Fcurrency%3DEUR%26utm_productid%3D677e46864f5a980160d06f8d%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTUwNTI4NDQsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY3N2U0Njg2NGY1YTk4MDE2MGQwNmY4ZCIsInYiOiI2NzdlNDY4NjRmNWE5OGE4NjBkMDZmOGYiLCJjIjoxNi40Mn1dfQ.llh_MIHFVq4WwSv8qop0JGPB2B-6aeDmkm4qg4L4P9bsJIbUKZ6In8IaRYByucfybhQrTu1TepeI7KpC16vl8w%26variant_id%3D677e46864f5a98a860d06f8f%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-12",
+  "image": "https://img.joomcdn.net/860b88c1df7e20f0f9ad9b18e5a34b88821a6f3e_original.jpeg",
+  "rating": null,
+  "orders": null,
+  "category": "Joom/Deportes y ocio/Caza y pesca/Pesca/Bolsas para pesca",
+  "niche": "sports",
+  "ships_to": [
+   "ES"
+  ],
+  "title_local": "Bolsa Almacenamiento Carrete Pesca EVA Negro",
+  "commission": null,
+  "why": "Protección segura para tu carrete de spinning",
+  "lang": "es",
+  "median_30d": 17.85,
+  "discount": 0.0,
+  "heat": 40.0,
+  "history": [],
+  "showcase": true,
+  "slug": "bolsa-protectora-de-almacenamiento-con-forma-de-gota-para-ca-0160d06f8d",
   "day": "2026-11-13"
  },
  {
@@ -19333,6 +19355,35 @@
    ]
   ],
   "slug": "fuham-power-amplifier-1000w-bridgeable-2-4-channel-stereo-pr-2971958436",
+  "day": "2026-11-10"
+ },
+ {
+  "pid": "aliexpress:1005012977880211",
+  "store": "aliexpress",
+  "title": "FUHAM Audio Power Amplifier - 1100W 2-Way 8 Ohm Dual Voice Coil Subwoofer for DJ Karaoke",
+  "price_usd": 100.29,
+  "old_price_usd": 246.17,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012977880211.html%253Fpdp_npi%253D6%252540dis%252521USD%252521246.17%252521100.29%252521%252521%2525211634.61%252521665.94%252521%252540214114e317942768406861947e0cb9%25252112000059932104279%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se367d1734c6641dc85637d179df0c9aeY.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Portable Audio & Video",
+  "niche": "audio",
+  "ships_to": [],
+  "title_local": "Amplificador de Audio FUHAM 1100W",
+  "commission": 0.1115,
+  "why": "",
+  "lang": "es",
+  "median_30d": 246.17,
+  "discount": 0.59,
+  "heat": 88.8,
+  "history": [
+   [
+    "2026-11-10",
+    100.29
+   ]
+  ],
+  "slug": "fuham-audio-power-amplifier-1100w-2-way-8-ohm-dual-voice-coi-2977880211",
   "day": "2026-11-10"
  },
  {
