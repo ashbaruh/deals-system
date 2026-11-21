@@ -1,55 +1,88 @@
 [
  {
-  "pid": "aliexpress:1005006159271257",
+  "pid": "aliexpress:1005013146478674",
   "store": "aliexpress",
-  "title": "MHW-3BOMBER Smart Coffee Scale Timer 2kg/0.1g High Precision Kitchen Scales Drip Coffee Espresso Scale Home Barista Tools",
-  "price_usd": 36.42,
-  "old_price_usd": 98.0,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006159271257.html%253Fpdp_npi%253D6%252540dis%252521USD%25252198.00%25252136.42%252521%252521%25252198.00%25252136.42%252521%2525402140f89017952209750867170e10e7%25252112000060198783848%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Saae10a0ba1744d97adadee68948d032ey.jpg",
+  "title": "UGREEN CM803 65024 USB C USB A SD TF Card Reader 312MBps Dual Slot Adapter for Laptop Phone Camera",
+  "price_usd": 26.26,
+  "old_price_usd": 39.79,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013146478674.html%253Fpdp_npi%253D6%252540dis%252521USD%25252139.79%25252126.26%252521%252521%252521263.86%252521174.15%252521%2525402101611117951311624146698e0d94%25252112000060382542842%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf5d96ab6d846420da1349f908ac5e999R.jpg",
   "rating": null,
   "orders": null,
-  "category": "Kitchen,Dining & Bar",
-  "niche": "coffee",
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
   "ships_to": [],
-  "title_local": "Báscula de Café MHW-3BOMBER con Temporizador 2kg",
-  "commission": 0.08460000000000001,
-  "why": "Alta precisión de 0.1g para un espresso perfecto",
+  "title_local": "UGREEN CM803 Lector de tarjetas SD y TF USB C/A",
+  "commission": 0.0538,
+  "why": "Transferencia rápida de datos a 312 MB/s",
   "lang": "es",
-  "median_30d": 98.0,
-  "discount": 0.6284,
-  "heat": 86.1,
+  "median_30d": 39.79,
+  "discount": 0.34,
+  "heat": 66.8,
   "history": [
    [
-    "2026-11-15",
-    36.5
+    "2026-11-11",
+    26.23
    ],
    [
-    "2026-11-16",
-    36.42
-   ],
-   [
-    "2026-11-17",
-    36.42
-   ],
-   [
-    "2026-11-18",
-    36.5
-   ],
-   [
-    "2026-11-19",
-    36.5
+    "2026-11-12",
+    26.23
    ],
    [
     "2026-11-20",
-    36.5
+    26.26
    ],
    [
     "2026-11-21",
-    36.42
+    26.26
    ]
   ],
-  "slug": "mhw-3bomber-smart-coffee-scale-timer-2kg-0-1g-high-precision-6159271257",
+  "slug": "ugreen-cm803-65024-usb-c-usb-a-sd-tf-card-reader-312mbps-dua-3146478674",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005013224884995",
+  "store": "aliexpress",
+  "title": "UGREEN 35499 CM834 8-Port Gigabit Unmanaged Ethernet Switch RJ45 Desktop Network Hub Plug and Play",
+  "price_usd": 29.21,
+  "old_price_usd": 44.26,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013224884995.html%253Fpdp_npi%253D6%252540dis%252521USD%25252144.26%25252129.21%252521%252521%252521293.47%252521193.69%252521%2525402101611117951311624146698e0d94%25252112000060591828179%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scbdc014068984542ac6152297c9fb03cK.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN 35499 Switch Ethernet Gigabit de 8 puertos",
+  "commission": 0.0538,
+  "why": "Conexión de red rápida sin configuración previa",
+  "lang": "es",
+  "median_30d": 44.26,
+  "discount": 0.34,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-10",
+    29.17
+   ],
+   [
+    "2026-11-11",
+    29.17
+   ],
+   [
+    "2026-11-12",
+    29.17
+   ],
+   [
+    "2026-11-20",
+    29.21
+   ],
+   [
+    "2026-11-21",
+    29.21
+   ]
+  ],
+  "slug": "ugreen-35499-cm834-8-port-gigabit-unmanaged-ethernet-switch--3224884995",
   "day": "2026-11-21"
  },
  {
@@ -752,6 +785,39 @@
   "day": "2026-11-21"
  },
  {
+  "pid": "aliexpress:1005006232682386",
+  "store": "aliexpress",
+  "title": "UGREEN Mechanical Keyboard 108 PBT Keycaps Wired Keyboard Red Switch Russian/Korean/EN for Desktop Laptop Windows Mac OS Gaming",
+  "price_usd": 41.99,
+  "old_price_usd": 66.65,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006232682386.html%253Fpdp_npi%253D6%252540dis%252521USD%25252166.65%25252141.99%252521%252521%25252166.65%25252141.99%252521%25254021013cc017951309067652353e0cab%25252112000039268732028%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb730948c75c4c35865e7203d8287a91n.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Teclado Mecanico UGREEN 108 Teclas PBT Switch Rojo",
+  "commission": 0.023,
+  "why": "Teclado con cable para juegos y trabajo en oficina.",
+  "lang": "es",
+  "median_30d": 66.65,
+  "discount": 0.37,
+  "heat": 67.4,
+  "history": [
+   [
+    "2026-11-20",
+    41.99
+   ],
+   [
+    "2026-11-21",
+    41.99
+   ]
+  ],
+  "slug": "ugreen-mechanical-keyboard-108-pbt-keycaps-wired-keyboard-re-6232682386",
+  "day": "2026-11-21"
+ },
+ {
   "pid": "aliexpress:1005006619410179",
   "store": "aliexpress",
   "title": "UGREEN Dual HDMI USB HUB 8K HDMI Adapter 10 in 1 Splitter with RJ45 USB 3.0 PD 100W Dock for MacBook Pro Air M2 M1 USB C HUB",
@@ -994,104 +1060,6 @@
   "day": "2026-11-21"
  },
  {
-  "pid": "aliexpress:1005011920857962",
-  "store": "aliexpress",
-  "title": "Baseus PS3 Air Bluetooth Stylus Pen for iPad Pencil Universal Wired Charging for All iPad Air Pro Mini Tablet Touch Writing Pen",
-  "price_usd": 20.74,
-  "old_price_usd": 37.13,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011920857962.html%253Fpdp_npi%253D6%252540dis%252521USD%25252137.13%25252120.74%252521%252521%25252137.13%25252120.74%252521%2525402102f1cd17951318425957622e10a1%25252112000057034735225%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S108521c896aa4970a42b4f3b27e32a921.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Tablet Accessories & Parts",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus Lápiz Óptico PS3 Air Bluetooth para iPad",
-  "commission": 0.0538,
-  "why": "Lápiz táctil universal para escribir en tablets iPad",
-  "lang": "es",
-  "median_30d": 37.13,
-  "discount": 0.4414,
-  "heat": 68.8,
-  "history": [
-   [
-    "2026-11-13",
-    20.74
-   ],
-   [
-    "2026-11-14",
-    20.74
-   ],
-   [
-    "2026-11-18",
-    20.7
-   ],
-   [
-    "2026-11-19",
-    20.7
-   ],
-   [
-    "2026-11-20",
-    20.74
-   ],
-   [
-    "2026-11-21",
-    20.74
-   ]
-  ],
-  "slug": "baseus-ps3-air-bluetooth-stylus-pen-for-ipad-pencil-universa-1920857962",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005009050753097",
-  "store": "aliexpress",
-  "title": "Baseus 2PCS Security Alarm Detector Upgrade Sound Protection Sensor for Door Window Camera Anti-theft Alarm Equipment Detector",
-  "price_usd": 10.01,
-  "old_price_usd": 18.56,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009050753097.html%253Fpdp_npi%253D6%252540dis%252521USD%25252118.56%25252110.01%252521%252521%25252118.56%25252110.01%252521%2525402151fd2c17951493467675578e0edf%25252112000047720524820%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd264cf4348af4dd7a53abb0b97f264e8R.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Access Building Automation",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus Sensor Alarma Antirrobo 2Pcs para Puertas y Ventanas",
-  "commission": 0.0538,
-  "why": "Protección sonora mejorada para mayor seguridad",
-  "lang": "es",
-  "median_30d": 18.56,
-  "discount": 0.4607,
-  "heat": 69.2,
-  "history": [
-   [
-    "2026-11-12",
-    9.48
-   ],
-   [
-    "2026-11-16",
-    9.48
-   ],
-   [
-    "2026-11-17",
-    9.48
-   ],
-   [
-    "2026-11-18",
-    9.48
-   ],
-   [
-    "2026-11-20",
-    10.01
-   ],
-   [
-    "2026-11-21",
-    10.01
-   ]
-  ],
-  "slug": "baseus-2pcs-security-alarm-detector-upgrade-sound-protection-9050753097",
-  "day": "2026-11-21"
- },
- {
   "pid": "aliexpress:1005013614793912",
   "store": "aliexpress",
   "title": "ATTACK SHARK X68 HE 8000Hz Magnetic Switch Gaming Keyboard Rapid Trigger 0.01mm Adjustable Actuation Wired RGB",
@@ -1141,55 +1109,6 @@
   "day": "2026-11-21"
  },
  {
-  "pid": "aliexpress:1005010759467688",
-  "store": "aliexpress",
-  "title": "X68MAX ATTACK SHARK High-Performance Magnetic Switch Gaming Keyboard 8KHz Wired for Pro Esport 0.005mm RT Web Driver RGB X68HE",
-  "price_usd": 59.46,
-  "old_price_usd": 118.91,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010759467688.html%253Fpdp_npi%253D6%252540dis%252521USD%252521118.91%25252159.46%252521%252521%252521788.52%252521394.26%252521%2525402140d33617951309184117321e0ebe%25252112000061434824854%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3c43c3690e044a5a8cafb23a911dfff2C.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "X68MAX ATTACK SHARK Teclado Gaming",
-  "commission": 0.023,
-  "why": "Interruptores magnéticos de alto rendimiento con cable de 8KHz.",
-  "lang": "es",
-  "median_30d": 118.91,
-  "discount": 0.5,
-  "heat": 70.0,
-  "history": [
-   [
-    "2026-11-16",
-    59.46
-   ],
-   [
-    "2026-11-17",
-    59.46
-   ],
-   [
-    "2026-11-18",
-    59.46
-   ],
-   [
-    "2026-11-19",
-    59.46
-   ],
-   [
-    "2026-11-20",
-    59.46
-   ],
-   [
-    "2026-11-21",
-    59.46
-   ]
-  ],
-  "slug": "x68max-attack-shark-high-performance-magnetic-switch-gaming--0759467688",
-  "day": "2026-11-21"
- },
- {
   "pid": "aliexpress:1005013483861906",
   "store": "aliexpress",
   "title": "ATTACK SHARK R98 HE Carbon Fiber Rapid Trigger Keyboard, 98 Keys Wired 8KHz Magnetic Keyboard With 0.005mm RT Accuracy, Support RT/Snap Tap/DKS/MT/TGL",
@@ -1220,92 +1139,6 @@
    ]
   ],
   "slug": "attack-shark-r98-he-carbon-fiber-rapid-trigger-keyboard-98-k-3483861906",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005011739860993",
-  "store": "aliexpress",
-  "title": "ATTACK SHARK x AJAZZ AKP153 STREAM DECK 15 Customisable Buttons Stream Deck With Versatile Side Screen",
-  "price_usd": 66.95,
-  "old_price_usd": 133.9,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011739860993.html%253Fpdp_npi%253D6%252540dis%252521USD%252521133.90%25252166.95%252521%252521%252521887.90%252521443.95%252521%25254021013cc017951309263223683e0cac%25252112000056402191856%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1cd1d7f081d34626bcf6eaea703c9278F.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Attack Shark AJAZZ AKP153 Stream Deck 15 Botones",
-  "commission": 0.023,
-  "why": "Botones personalizables con pantalla lateral versatil.",
-  "lang": "es",
-  "median_30d": 133.9,
-  "discount": 0.5,
-  "heat": 70.0,
-  "history": [
-   [
-    "2026-11-20",
-    66.95
-   ],
-   [
-    "2026-11-21",
-    66.95
-   ]
-  ],
-  "slug": "attack-shark-x-ajazz-akp153-stream-deck-15-customisable-butt-1739860993",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005012594468059",
-  "store": "aliexpress",
-  "title": "ATTACK SHARK X65 HE Hall Effect Gaming Mechanical Keyboard, 8KHz , 0.01mm Rapid Trigger, 0.125ms Low Latency, Hot-Swap RGB Backlit",
-  "price_usd": 55.23,
-  "old_price_usd": 110.46,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012594468059.html%253Fpdp_npi%253D6%252540dis%252521USD%252521110.46%25252155.23%252521%252521%252521732.52%252521366.26%252521%2525402140d33617951309082416307e0ebe%25252112000058800450173%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf2f4ed5d234f4d9e8cbff3070fdb30fcI.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "ATTACK SHARK X65 HE Teclado Mecánico",
-  "commission": 0.023,
-  "why": "Efecto Hall con activación rápida de 0.01mm y baja latencia.",
-  "lang": "es",
-  "median_30d": 110.46,
-  "discount": 0.5,
-  "heat": 70.0,
-  "history": [
-   [
-    "2026-11-12",
-    55.16
-   ],
-   [
-    "2026-11-13",
-    55.16
-   ],
-   [
-    "2026-11-14",
-    55.16
-   ],
-   [
-    "2026-11-18",
-    55.23
-   ],
-   [
-    "2026-11-19",
-    55.23
-   ],
-   [
-    "2026-11-20",
-    55.23
-   ],
-   [
-    "2026-11-21",
-    55.23
-   ]
-  ],
-  "slug": "attack-shark-x65-he-hall-effect-gaming-mechanical-keyboard-8-2594468059",
   "day": "2026-11-21"
  },
  {
@@ -1408,56 +1241,52 @@
   "day": "2026-11-21"
  },
  {
-  "pid": "aliexpress:1005007892067562",
+  "pid": "aliexpress:1005012789118307",
   "store": "aliexpress",
-  "title": "UGREEN Magnetic Phone Stand 360° Rotation Aluminum Mobile Phone Stand For Magsafe iPhone 16 15 14 Pro Max Xiaomi Samsung Huawei",
-  "price_usd": 13.85,
-  "old_price_usd": 31.38,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007892067562.html%253Fpdp_npi%253D6%252540dis%252521USD%25252131.38%25252113.85%252521%252521%25252131.38%25252113.85%252521%2525402140da8b17951468060634025e1069%25252112000042741357189%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S83c31bf4745a41409bd958bb386666a0E.jpg",
+  "title": "M36HE ATTACK SHARK Hall Effect Mechanical Gaming Keyboard 8K Return Rate 0.1ms PBT Keycaps Web and PC Driver RGB Backlit Wired",
+  "price_usd": 44.34,
+  "old_price_usd": 101.92,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012789118307.html%253Fpdp_npi%253D6%252540dis%252521USD%252521101.92%25252144.34%252521%252521%252521675.87%252521294.03%252521%252540214114e317951309377397125e0e44%25252112000059366764555%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/See3109ca29d94a519f6795876c503682r.jpg",
   "rating": null,
   "orders": null,
-  "category": "Holders & Stands",
+  "category": "Computer Peripherals",
   "niche": "brands",
   "ships_to": [],
-  "title_local": "Soporte magnético UGREEN 360° para iPhone y móviles",
-  "commission": 0.0538,
-  "why": "Rotación ajustable y sujeción magnética segura",
+  "title_local": "Teclado Gaming ATTACK SHarka M36HE Hall Effect 8K",
+  "commission": 0.023,
+  "why": "Efecto Hall, tasa de respuesta de 8K y teclas PBT",
   "lang": "es",
-  "median_30d": 31.38,
-  "discount": 0.5586,
-  "heat": 71.2,
+  "median_30d": 101.92,
+  "discount": 0.565,
+  "heat": 71.3,
   "history": [
    [
-    "2026-11-14",
-    14.15
-   ],
-   [
-    "2026-11-15",
-    14.15
-   ],
-   [
     "2026-11-16",
-    14.15
+    44.34
    ],
    [
     "2026-11-17",
-    14.15
+    44.34
    ],
    [
     "2026-11-18",
-    14.15
+    44.34
+   ],
+   [
+    "2026-11-19",
+    44.34
    ],
    [
     "2026-11-20",
-    13.85
+    44.34
    ],
    [
     "2026-11-21",
-    13.85
+    44.34
    ]
   ],
-  "slug": "ugreen-magnetic-phone-stand-360-rotation-aluminum-mobile-pho-7892067562",
+  "slug": "m36he-attack-shark-hall-effect-mechanical-gaming-keyboard-8k-2789118307",
   "day": "2026-11-21"
  },
  {
@@ -1499,6 +1328,39 @@
    ]
   ],
   "slug": "x11-attack-shark-x11-ultra-gaming-mouse-2-4g-wireless-blueto-1570212584",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005013654564965",
+  "store": "aliexpress",
+  "title": "[New！] Attack Shark X68 HE Magnetic Mechanical Gaming Keyboard 0.01mm Rapid Trigger 8K Polling Rate 128K Wired Christmas Gift",
+  "price_usd": 53.0,
+  "old_price_usd": 121.85,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013654564965.html%253Fpdp_npi%253D6%252540dis%252521USD%252521121.85%25252153.00%252521%252521%252521808.04%252521351.50%252521%2525402141149b17951309122824393e0f27%25252112000061795814001%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9478f63d8edc44fda6cb9d1044b57b7eh.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Attack Shark X68 HE Teclado Mecanico Magnetico",
+  "commission": 0.023,
+  "why": "Dispone de activacion rapida de 0.01mm y tasa de sondeo 8K.",
+  "lang": "es",
+  "median_30d": 121.85,
+  "discount": 0.565,
+  "heat": 71.3,
+  "history": [
+   [
+    "2026-11-20",
+    53.0
+   ],
+   [
+    "2026-11-21",
+    53.0
+   ]
+  ],
+  "slug": "new-attack-shark-x68-he-magnetic-mechanical-gaming-keyboard--3654564965",
   "day": "2026-11-21"
  },
  {
@@ -1662,55 +1524,6 @@
   "day": "2026-11-21"
  },
  {
-  "pid": "aliexpress:1005006402473072",
-  "store": "aliexpress",
-  "title": "Baseus Car Phone Holder for iPhone Auto Gravity Dashboard Sucker Car Cellphone Moible Phone Support Samsung/Xiaomi/Huawei Holder",
-  "price_usd": 10.76,
-  "old_price_usd": 25.57,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006402473072.html%253Fpdp_npi%253D6%252540dis%252521USD%25252125.57%25252110.76%252521%252521%252521169.58%25252171.35%252521%2525402151fd3a17951387634252274e0ed4%25252112000037037633064%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5f5bda03aba94a0598ce9c7a0be32ec5J.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Interior Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus Soporte Movil Coche Gravedad Salpicadero",
-  "commission": 0.0692,
-  "why": "Sujeción automática para el móvil compatible con varias marcas.",
-  "lang": "es",
-  "median_30d": 25.57,
-  "discount": 0.5792,
-  "heat": 71.6,
-  "history": [
-   [
-    "2026-11-11",
-    12.26
-   ],
-   [
-    "2026-11-16",
-    11.29
-   ],
-   [
-    "2026-11-17",
-    11.29
-   ],
-   [
-    "2026-11-18",
-    11.29
-   ],
-   [
-    "2026-11-20",
-    10.76
-   ],
-   [
-    "2026-11-21",
-    10.76
-   ]
-  ],
-  "slug": "baseus-car-phone-holder-for-iphone-auto-gravity-dashboard-su-6402473072",
-  "day": "2026-11-21"
- },
- {
   "pid": "aliexpress:1005012479053565",
   "store": "aliexpress",
   "title": "Attack Shark Cm02 Gaming Mouse Pad, 4mm Ultra-Thin, 450x400mm Large Size, Non-Slip Base, Topographic Design For Esports & Office",
@@ -1756,105 +1569,244 @@
   "day": "2026-11-21"
  },
  {
-  "pid": "aliexpress:1005007549957228",
+  "pid": "aliexpress:1005011659837168",
   "store": "aliexpress",
-  "title": "UGREEN Magnetic Car Phone Holder Magsafe Air Vent Phone Stand Unviersal For iPhone 15 14 13 Pro Max Xiaomi Samsung Strong Magnet",
-  "price_usd": 13.53,
-  "old_price_usd": 33.33,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007549957228.html%253Fpdp_npi%253D6%252540dis%252521USD%25252133.33%25252113.53%252521%252521%25252133.33%25252113.53%252521%25254021013cc017951468414791105e0e99%25252112000041256443818%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1d6d108315b441b3a4c8cfa4c15d027eS.jpg",
+  "title": "ATTACK SHARK Magnetic Keyboard ,X68HE R82HE R85HE Esports Keyboard,8KHz Return Rate, and 0.125ms Rate Class Ultra-Low Latency",
+  "price_usd": 49.69,
+  "old_price_usd": 119.0,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011659837168.html%253Fpdp_npi%253D6%252540dis%252521USD%252521119.00%25252149.69%252521%252521%252521789.12%252521329.51%252521%2525402140f89017951309232433870e0e74%25252112000056233105271%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfd826c6e6a974ad882f4e3ce08f14b1a5.jpg",
   "rating": null,
   "orders": null,
-  "category": "Holders & Stands",
+  "category": "Computer Peripherals",
   "niche": "brands",
   "ships_to": [],
-  "title_local": "UGREEN Soporte Movil Magnetico Magsafe Rejilla",
-  "commission": 0.0538,
-  "why": "Soporte de iman fuerte para rejilla de aire",
+  "title_local": "Teclado Magnético ATTACK SHARK X68HE",
+  "commission": 0.023,
+  "why": "Tasa de retorno de 8KHz y latencia ultra baja.",
   "lang": "es",
-  "median_30d": 33.33,
-  "discount": 0.5941,
-  "heat": 71.9,
+  "median_30d": 119.0,
+  "discount": 0.5824,
+  "heat": 71.6,
   "history": [
    [
     "2026-11-16",
-    13.5
+    48.66
    ],
    [
     "2026-11-17",
-    13.5
+    48.66
    ],
    [
     "2026-11-18",
-    13.5
+    48.66
    ],
    [
     "2026-11-19",
-    13.5
+    48.66
    ],
    [
     "2026-11-20",
-    13.53
+    49.69
    ],
    [
     "2026-11-21",
-    13.53
+    49.69
    ]
   ],
-  "slug": "ugreen-magnetic-car-phone-holder-magsafe-air-vent-phone-stan-7549957228",
+  "slug": "attack-shark-magnetic-keyboard-x68he-r82he-r85he-esports-key-1659837168",
   "day": "2026-11-21"
  },
  {
-  "pid": "aliexpress:1005009467240416",
+  "pid": "aliexpress:1005012897963296",
   "store": "aliexpress",
-  "title": "UGREEN Car Phone Holder Magnetic 360° Rotation For Magsafe iPhone 16 15 14 Pro Max Samsung S25 Ultra Xiaomi Air Vent Car Mount",
-  "price_usd": 10.04,
-  "old_price_usd": 24.74,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009467240416.html%253Fpdp_npi%253D6%252540dis%252521USD%25252124.74%25252110.04%252521%252521%25252124.74%25252110.04%252521%2525402151fca717951471014158896e0ec8%25252112000049192890711%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S85ded9ae554947e9a0ef6868f4ca22ff9.jpg",
+  "title": "New AJAZZ ALUX68 Wired Mechanical Keyboard Magnetic Switch Hot-Swap Gasket RGB 8K 0.01mm RT Aluminum Alloy Gaming Keyboard",
+  "price_usd": 53.65,
+  "old_price_usd": 128.49,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012897963296.html%253Fpdp_npi%253D6%252540dis%252521USD%252521128.49%25252153.65%252521%252521%252521852.08%252521355.82%252521%252540212a7b8d17951308356753004e0ec3%25252112000059700874309%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S55178fe107104723a40c2f7d94f3509ck.jpg",
   "rating": null,
   "orders": null,
-  "category": "Holders & Stands",
+  "category": "Computer Peripherals",
   "niche": "brands",
   "ships_to": [],
-  "title_local": "UGREEN Soporte Movil Magnetico 360 Magsafe Rejilla",
-  "commission": 0.0538,
-  "why": "Soporte con rotacion de 360 grados para rejilla",
+  "title_local": "Teclado AJAZZ ALUX68 magnético de aluminio",
+  "commission": 0.023,
+  "why": "Estructura Gasket de aluminio con sondeo de 8K y Rapid Trigger",
   "lang": "es",
-  "median_30d": 24.74,
-  "discount": 0.5942,
-  "heat": 71.9,
+  "median_30d": 128.49,
+  "discount": 0.5825,
+  "heat": 71.6,
   "history": [
    [
+    "2026-11-11",
+    56.59
+   ],
+   [
+    "2026-11-12",
+    49.21
+   ],
+   [
+    "2026-11-13",
+    49.21
+   ],
+   [
     "2026-11-14",
-    10.24
-   ],
-   [
-    "2026-11-15",
-    10.24
-   ],
-   [
-    "2026-11-16",
-    10.24
-   ],
-   [
-    "2026-11-18",
-    10.24
-   ],
-   [
-    "2026-11-19",
-    10.24
+    49.21
    ],
    [
     "2026-11-20",
-    10.04
+    53.65
    ],
    [
     "2026-11-21",
-    10.04
+    53.65
    ]
   ],
-  "slug": "ugreen-car-phone-holder-magnetic-360-rotation-for-magsafe-ip-9467240416",
+  "slug": "new-ajazz-alux68-wired-mechanical-keyboard-magnetic-switch-h-2897963296",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005013624496254",
+  "store": "aliexpress",
+  "title": "UGREEN Ethernet Cable 10Gbps Cat6A Patch Internet RJ45 Cord 28AWG 500MHz for Router PC Gold-Plated Connectors Pure Copper Wire",
+  "price_usd": 4.83,
+  "old_price_usd": 11.58,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013624496254.html%253Fpdp_npi%253D6%252540dis%252521USD%25252111.58%2525214.83%252521%252521%25252111.58%2525214.83%252521%2525402140d36117951306825227208e0fa9%25252112000061688444160%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa7b378f46f7f431ea9e0b21c7faafea9m.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Networking",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Cable Ethernet Cat6A UGREEN 10Gbps RJ45 500MHz",
+  "commission": 0.0538,
+  "why": "Conexión de red ultrarrápida con cobre puro",
+  "lang": "es",
+  "median_30d": 11.58,
+  "discount": 0.5829,
+  "heat": 71.7,
+  "history": [
+   [
+    "2026-11-16",
+    4.07
+   ],
+   [
+    "2026-11-17",
+    4.07
+   ],
+   [
+    "2026-11-18",
+    4.47
+   ],
+   [
+    "2026-11-19",
+    4.47
+   ],
+   [
+    "2026-11-20",
+    4.83
+   ],
+   [
+    "2026-11-21",
+    4.83
+   ]
+  ],
+  "slug": "ugreen-ethernet-cable-10gbps-cat6a-patch-internet-rj45-cord--3624496254",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005005895710498",
+  "store": "aliexpress",
+  "title": "REDRAGON SMD RGB MX Low Profile 5.5 Switch 3Pin Clicky Linear Tactile Silent Mechanical Keyboard Red Black Blue Brown Switche",
+  "price_usd": 6.59,
+  "old_price_usd": 15.95,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005005895710498.html%253Fpdp_npi%253D6%252540dis%252521USD%25252115.95%2525216.59%252521%252521%252521105.78%25252143.75%252521%2525402151fd3a17951312541536540e0d4e%25252112000034752006785%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc4a521f1fb1345f792df3c22ca51355dG.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Teclado Mecánico Redragon Low Profile",
+  "commission": 0.023,
+  "why": "Switches mecánicos de perfil bajo tipo MX.",
+  "lang": "es",
+  "median_30d": 15.95,
+  "discount": 0.5868,
+  "heat": 71.7,
+  "history": [
+   [
+    "2026-11-18",
+    6.75
+   ],
+   [
+    "2026-11-19",
+    6.75
+   ],
+   [
+    "2026-11-20",
+    6.59
+   ],
+   [
+    "2026-11-21",
+    6.59
+   ]
+  ],
+  "slug": "redragon-smd-rgb-mx-low-profile-5-5-switch-3pin-clicky-linea-5895710498",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005010109639416",
+  "store": "aliexpress",
+  "title": "ATTACK SHARK X68HE Gaming Keyboard Wired 8K Hot-swappable Adjustment Aluminum Locating Plate Adjustable Keys Web Driver for PC",
+  "price_usd": 45.64,
+  "old_price_usd": 115.31,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010109639416.html%253Fpdp_npi%253D6%252540dis%252521USD%252521115.31%25252145.64%252521%252521%252521764.67%252521302.69%252521%2525402141315917951308473111442e0db3%25252112000051178925809%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc53eecfb8896459fbbd0a021df6fd521K.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Teclado gaming Attack Shark X68HE 8K por cable",
+  "commission": 0.023,
+  "why": "Placa de aluminio, teclas ajustables y tasa de sondeo de 8K",
+  "lang": "es",
+  "median_30d": 115.31,
+  "discount": 0.6042,
+  "heat": 72.1,
+  "history": [
+   [
+    "2026-11-11",
+    57.58
+   ],
+   [
+    "2026-11-12",
+    57.58
+   ],
+   [
+    "2026-11-16",
+    50.16
+   ],
+   [
+    "2026-11-17",
+    50.16
+   ],
+   [
+    "2026-11-18",
+    50.16
+   ],
+   [
+    "2026-11-20",
+    45.64
+   ],
+   [
+    "2026-11-21",
+    45.64
+   ]
+  ],
+  "slug": "attack-shark-x68he-gaming-keyboard-wired-8k-hot-swappable-ad-0109639416",
   "day": "2026-11-21"
  },
  {
@@ -1900,6 +1852,88 @@
    ]
   ],
   "slug": "ajazz-aj179-v2-max-tri-mode-right-handed-mouse-56g-lightweig-8550809044",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005012533913271",
+  "store": "aliexpress",
+  "title": "ATTACK SHARK CM05 Glass Mouse Pad, Large 17.7×15.7in Non-Slip 9H Hard Mat. Nano-Textured Glass Surface Boosts Precision & Speed",
+  "price_usd": 52.31,
+  "old_price_usd": 134.76,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012533913271.html%253Fpdp_npi%253D6%252540dis%252521USD%252521134.76%25252152.31%252521%252521%252521893.65%252521346.89%252521%25254021013cc017951308903548901e0cab%25252112000058628107120%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S752a17b809ed43529640a6edb3f44743E.png",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Alfombrilla de cristal Attack Shark CM05 9H",
+  "commission": 0.023,
+  "why": "Superficie de cristal nanotexturizado para mayor velocidad y precisión",
+  "lang": "es",
+  "median_30d": 134.76,
+  "discount": 0.6118,
+  "heat": 72.2,
+  "history": [
+   [
+    "2026-11-20",
+    52.31
+   ],
+   [
+    "2026-11-21",
+    52.31
+   ]
+  ],
+  "slug": "attack-shark-cm05-glass-mouse-pad-large-17-7-15-7in-non-slip-2533913271",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005013378321718",
+  "store": "aliexpress",
+  "title": "Attack Shark X68HE 65% Wired Magnetic Gaming Keyboard Hall Effect RGB 8K Polling Rapid Trigger 0.01mm for FPS Original",
+  "price_usd": 51.14,
+  "old_price_usd": 134.68,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013378321718.html%253Fpdp_npi%253D6%252540dis%252521USD%252521134.68%25252151.14%252521%252521%252521893.13%252521339.18%252521%25254021013cc017951308797447828e0cab%25252112000061035760455%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3095526aace3426b855a7883ce69b176j.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Teclado Attack Shark X68HE 65% magnético",
+  "commission": 0.023,
+  "why": "Tasa de sondeo de 8K y Rapid Trigger de 0,01 mm ideal para FPS",
+  "lang": "es",
+  "median_30d": 134.68,
+  "discount": 0.6203,
+  "heat": 72.4,
+  "history": [
+   [
+    "2026-11-11",
+    56.31
+   ],
+   [
+    "2026-11-12",
+    54.05
+   ],
+   [
+    "2026-11-13",
+    54.05
+   ],
+   [
+    "2026-11-14",
+    54.05
+   ],
+   [
+    "2026-11-20",
+    51.14
+   ],
+   [
+    "2026-11-21",
+    51.14
+   ]
+  ],
+  "slug": "attack-shark-x68he-65-wired-magnetic-gaming-keyboard-hall-ef-3378321718",
   "day": "2026-11-21"
  },
  {
@@ -1956,52 +1990,56 @@
   "day": "2026-11-21"
  },
  {
-  "pid": "aliexpress:1005012248331494",
+  "pid": "aliexpress:1005011943617491",
   "store": "aliexpress",
-  "title": "ATTACK SHARK R82 HE Magnetic Gaming Keyboard 8000Hz 0.005mm Rapid Trigger Low Latency RGB Hall Effect Wired 75% Keyboard",
-  "price_usd": 57.79,
-  "old_price_usd": 147.63,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012248331494.html%253Fpdp_npi%253D6%252540dis%252521USD%252521147.63%25252157.79%252521%252521%252521978.99%252521383.26%252521%252540212a7b8d17951308323441512e0d16%25252112000057883312843%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S79254c9492c04ae3b4d7cc432c13dcbcT.jpg",
+  "title": "AJAZZ AK820V2 (With Screen Version) 75% ANSI US Layout BT/Wired/2.4Ghz Wireless Mechanical Keyboard with Display Screen & Knob",
+  "price_usd": 45.12,
+  "old_price_usd": 124.79,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011943617491.html%253Fpdp_npi%253D6%252540dis%252521USD%252521124.79%25252145.12%252521%252521%252521124.79%25252145.12%252521%25254021013cc617951309801933597e1063%25252112000057865423811%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9cbb74936403413985fa8ee365a52a9aS.png",
   "rating": null,
   "orders": null,
   "category": "Computer Peripherals",
   "niche": "brands",
   "ships_to": [],
-  "title_local": "Teclado magnético Attack Shark R82 HE 75% 8K",
+  "title_local": "Teclado mecánico AJAZZ AK820V2 75% inalámbrico",
   "commission": 0.023,
-  "why": "Switches Hall Effect con tasa de 8000 Hz y Rapid Trigger de 0,005 mm",
+  "why": "Conexión triple, pantalla integrada y rueda de control",
   "lang": "es",
-  "median_30d": 147.63,
-  "discount": 0.6085,
-  "heat": 72.7,
+  "median_30d": 124.79,
+  "discount": 0.6384,
+  "heat": 72.8,
   "history": [
    [
     "2026-11-11",
-    59.49
+    48.67
    ],
    [
     "2026-11-12",
-    51.73
+    48.67
    ],
    [
-    "2026-11-13",
-    51.73
+    "2026-11-16",
+    47.05
    ],
    [
-    "2026-11-14",
-    51.73
+    "2026-11-17",
+    47.05
+   ],
+   [
+    "2026-11-18",
+    47.05
    ],
    [
     "2026-11-20",
-    57.79
+    45.12
    ],
    [
     "2026-11-21",
-    57.79
+    45.12
    ]
   ],
-  "slug": "attack-shark-r82-he-magnetic-gaming-keyboard-8000hz-0-005mm--2248331494",
+  "slug": "ajazz-ak820v2-with-screen-version-75-ansi-us-layout-bt-wired-1943617491",
   "day": "2026-11-21"
  },
  {
@@ -2079,51 +2117,6 @@
   "day": "2026-11-21"
  },
  {
-  "pid": "aliexpress:1005012824307783",
-  "store": "aliexpress",
-  "title": "UGREEN FineTrack Mini2 Air Tracker Tags (iOS Only) 4 Pack | Bluetooth Tracker Compatible with Apple Find My, Item Finder Smart",
-  "price_usd": 15.27,
-  "old_price_usd": 40.2,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012824307783.html%253Fpdp_npi%253D6%252540dis%252521USD%25252140.20%25252115.27%252521%252521%25252140.20%25252115.27%252521%2525402140f88817951496699643037e0dee%25252112000059439435930%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S01c441976e394115ac7b227491c67614V.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Access Building Automation",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Localizadores UGREEN FineTrack Mini2 (Pack de 4)",
-  "commission": 0.0538,
-  "why": "Rastreadores Bluetooth compatibles con la red Apple Buscar",
-  "lang": "es",
-  "median_30d": 40.2,
-  "discount": 0.6201,
-  "heat": 73.0,
-  "history": [
-   [
-    "2026-11-16",
-    15.91
-   ],
-   [
-    "2026-11-17",
-    15.91
-   ],
-   [
-    "2026-11-18",
-    15.91
-   ],
-   [
-    "2026-11-20",
-    15.27
-   ],
-   [
-    "2026-11-21",
-    15.27
-   ]
-  ],
-  "slug": "ugreen-finetrack-mini2-air-tracker-tags-ios-only-4-pack-blue-2824307783",
-  "day": "2026-11-21"
- },
- {
   "pid": "aliexpress:1005008223855429",
   "store": "aliexpress",
   "title": "UGREEN 2K Webcam with Microphone, Full HD USB Web Camera, Adjustable FOV, Auto Light Correction, Video Webcam for Streaming",
@@ -2157,93 +2150,48 @@
   "day": "2026-11-21"
  },
  {
-  "pid": "aliexpress:1005013211115424",
+  "pid": "aliexpress:1005012783573215",
   "store": "aliexpress",
-  "title": "ATTACK SHARK R68HE Wired Magnetic Switch Keyboard 8K Polling Rate 0.005mm RT Accuracy 256K Scan Rate 68% Layout For Esports",
-  "price_usd": 64.35,
-  "old_price_usd": 160.78,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013211115424.html%253Fpdp_npi%253D6%252540dis%252521USD%252521160.78%25252164.35%252521%252521%2525211066.15%252521426.70%252521%2525402101611117951309741538192e0e39%25252112000060586888149%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S364279f146964702ace5632cc88755554.jpg",
+  "title": "Ajazz NKP02 Chassis Intelligent Display Screen 9.16-Inch Intelligent Display Secondary Screen IPS LCD High-Definition Screen",
+  "price_usd": 47.8,
+  "old_price_usd": 142.29,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012783573215.html%253Fpdp_npi%253D6%252540dis%252521USD%252521142.29%25252147.80%252521%252521%252521943.60%252521317.00%252521%25254021013cc017951308646215792e0cac%25252112000059368534546%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sffd7336e50ac467faaedc9e71351134eO.jpg",
   "rating": null,
   "orders": null,
   "category": "Computer Peripherals",
   "niche": "brands",
   "ships_to": [],
-  "title_local": "Teclado magnético Attack Shark R68HE 68% 8K",
+  "title_local": "Ajazz NKP02 Pantalla Inteligente IPS LCD 9.16\"",
   "commission": 0.023,
-  "why": "Tasa de sondeo de 8K y precisión de disparo rápido de 0,005 mm",
+  "why": "Visualizacion nitida con pantalla inteligente IPS HD",
   "lang": "es",
-  "median_30d": 160.78,
-  "discount": 0.5998,
-  "heat": 74.4,
+  "median_30d": 142.29,
+  "discount": 0.6641,
+  "heat": 74.3,
   "history": [
    [
-    "2026-11-11",
-    69.28
+    "2026-11-16",
+    45.8
    ],
    [
-    "2026-11-12",
-    69.28
-   ],
-   [
-    "2026-11-20",
-    64.35
-   ],
-   [
-    "2026-11-21",
-    64.35
-   ]
-  ],
-  "slug": "attack-shark-r68he-wired-magnetic-switch-keyboard-8k-polling-3211115424",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005011943184206",
-  "store": "aliexpress",
-  "title": "ATTACK SHARK R85 HE 75% Wired Gaming Magnetic Keyboard 8000Hz Rapid Trigger RGB Lightbox Knob Hall Effect Gaming Keyboard",
-  "price_usd": 63.85,
-  "old_price_usd": 164.49,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011943184206.html%253Fpdp_npi%253D6%252540dis%252521USD%252521164.49%25252163.85%252521%252521%2525211090.81%252521423.46%252521%25254021013cc017951308797447828e0cab%25252112000057083957537%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0a03739b04d642cb93b9727dfd25676cZ.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado ATTACK SHARK R85 HE 75% 8000Hz Hall Effect",
-  "commission": 0.023,
-  "why": "Rueda de control, Rapid Trigger y tasa de sondeo de 8000 Hz",
-  "lang": "es",
-  "median_30d": 164.49,
-  "discount": 0.6118,
-  "heat": 75.3,
-  "history": [
-   [
-    "2026-11-11",
-    70.88
-   ],
-   [
-    "2026-11-12",
-    70.88
+    "2026-11-17",
+    45.8
    ],
    [
     "2026-11-18",
-    65.82
-   ],
-   [
-    "2026-11-19",
-    65.82
+    45.8
    ],
    [
     "2026-11-20",
-    63.85
+    47.8
    ],
    [
     "2026-11-21",
-    63.85
+    47.8
    ]
   ],
-  "slug": "attack-shark-r85-he-75-wired-gaming-magnetic-keyboard-8000hz-1943184206",
+  "slug": "ajazz-nkp02-chassis-intelligent-display-screen-9-16-inch-int-2783573215",
   "day": "2026-11-21"
  },
  {
@@ -2485,55 +2433,6 @@
    ]
   ],
   "slug": "attack-shark-r86-he-wired-mechanical-gaming-keyboard-0-005mm-3432198005",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005012880911721",
-  "store": "aliexpress",
-  "title": "Ajazz AK820 PRO with Screen, Wireless Gaming, Mechanical Keyboard, Multi Switch Selection, Tri Mode, Computer Office DIY, RGB",
-  "price_usd": 67.97,
-  "old_price_usd": 186.01,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012880911721.html%253Fpdp_npi%253D6%252540dis%252521USD%252521186.01%25252167.97%252521%252521%2525211233.47%252521450.69%252521%25254021013cc617951310046995274e1063%25252112000059608269666%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb63922ed6d9945e2849daf23ab3e27abH.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado mecánico gaming Ajazz AK820 PRO inalambrico RGB",
-  "commission": 0.023,
-  "why": "Pantalla integrada y conexion inalambrica en tres modos",
-  "lang": "es",
-  "median_30d": 186.01,
-  "discount": 0.6346,
-  "heat": 79.1,
-  "history": [
-   [
-    "2026-11-16",
-    67.97
-   ],
-   [
-    "2026-11-17",
-    67.97
-   ],
-   [
-    "2026-11-18",
-    67.97
-   ],
-   [
-    "2026-11-19",
-    67.97
-   ],
-   [
-    "2026-11-20",
-    67.97
-   ],
-   [
-    "2026-11-21",
-    67.97
-   ]
-  ],
-  "slug": "ajazz-ak820-pro-with-screen-wireless-gaming-mechanical-keybo-2880911721",
   "day": "2026-11-21"
  },
  {
@@ -3373,6 +3272,55 @@
    ]
   ],
   "slug": "psp-s110-2400mah-3-6v-battery-led-charger-for-sony-psp2000-p-2307894037",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005013511246943",
+  "store": "aliexpress",
+  "title": "2 In1 Multi-functional Kitchen Utensil Holder, Heavy Duty Stainless Steel Pot Lid &Spoon Rack, Space Vertical Stand for Spatulas",
+  "price_usd": 10.42,
+  "old_price_usd": 20.03,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013511246943.html%253Fpdp_npi%253D6%252540dis%252521USD%25252120.03%25252110.42%252521%252521%252521133.00%25252169.16%252521%25254021013cc017952232916037022e0fa2%25252112000061354914755%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8a866d6222694239a48cae42a0d240a32.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Home Storage & Organization",
+  "niche": "home",
+  "ships_to": [],
+  "title_local": "Soporte de acero inoxidable para tapas y cucharas",
+  "commission": 0.15380000000000002,
+  "why": "Ahorra espacio en la cocina de forma vertical",
+  "lang": "es",
+  "median_30d": 20.03,
+  "discount": 0.4798,
+  "heat": 66.4,
+  "history": [
+   [
+    "2026-11-16",
+    12.44
+   ],
+   [
+    "2026-11-17",
+    12.42
+   ],
+   [
+    "2026-11-18",
+    12.44
+   ],
+   [
+    "2026-11-19",
+    12.44
+   ],
+   [
+    "2026-11-20",
+    10.43
+   ],
+   [
+    "2026-11-21",
+    10.42
+   ]
+  ],
+  "slug": "2-in1-multi-functional-kitchen-utensil-holder-heavy-duty-sta-3511246943",
   "day": "2026-11-21"
  },
  {
@@ -4417,6 +4365,55 @@
   "day": "2026-11-21"
  },
  {
+  "pid": "aliexpress:1005013042789702",
+  "store": "aliexpress",
+  "title": "Acrylic Dustproof Box with Cover CD Record Storage Box CD PS4 PS5 Disc Switch Game Cartridge Organizer Transparent Storage Box",
+  "price_usd": 26.36,
+  "old_price_usd": 62.76,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013042789702.html%253Fpdp_npi%253D6%252540dis%252521USD%25252162.76%25252126.36%252521%252521%252521416.71%252521175.02%252521%2525402141149b17952232688395437e0f6a%25252112000060108367049%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scd0811912fa040d5864dbb39255e40f9W.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Home Storage & Organization",
+  "niche": "home",
+  "ships_to": [],
+  "title_local": "Caja Acrilica Antipolvo para Discos y Juegos",
+  "commission": 0.061500000000000006,
+  "why": "Organizador transparente para proteger tus juegos.",
+  "lang": "es",
+  "median_30d": 62.76,
+  "discount": 0.58,
+  "heat": 69.4,
+  "history": [
+   [
+    "2026-11-16",
+    26.39
+   ],
+   [
+    "2026-11-17",
+    26.38
+   ],
+   [
+    "2026-11-18",
+    26.39
+   ],
+   [
+    "2026-11-19",
+    26.39
+   ],
+   [
+    "2026-11-20",
+    26.39
+   ],
+   [
+    "2026-11-21",
+    26.36
+   ]
+  ],
+  "slug": "acrylic-dustproof-box-with-cover-cd-record-storage-box-cd-ps-3042789702",
+  "day": "2026-11-21"
+ },
+ {
   "pid": "aliexpress:1005012733272451",
   "store": "aliexpress",
   "title": "2PCS 2650mAh Game Controller Battery LIP1078 for Sony PlayStation PS5 Replaceable Batteries Wireless Controller Free Tools",
@@ -4659,6 +4656,43 @@
   "day": "2026-11-21"
  },
  {
+  "pid": "aliexpress:1005012724848628",
+  "store": "aliexpress",
+  "title": "10 pcs 1500mAh Rechargeable Lithium Battery for Sony PS5 Wireless Gamepad External Battery with Digital Display",
+  "price_usd": 134.08,
+  "old_price_usd": 268.15,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012724848628.html%253Fpdp_npi%253D6%252540dis%252521USD%252521268.15%252521134.08%252521%252521%2525211780.53%252521890.26%252521%2525402140da8b17952218717083149e0f40%25252112000059136069023%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2a55521089604ecd8eda6e0b54af4c798.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Accessories & Parts",
+  "niche": "power",
+  "ships_to": [],
+  "title_local": "10 Baterias PS5 1500mAh con Pantalla Digital",
+  "commission": 0.0692,
+  "why": "Incluye indicador digital de carga.",
+  "lang": "es",
+  "median_30d": 268.15,
+  "discount": 0.5,
+  "heat": 69.8,
+  "history": [
+   [
+    "2026-11-19",
+    134.17
+   ],
+   [
+    "2026-11-20",
+    134.25
+   ],
+   [
+    "2026-11-21",
+    134.08
+   ]
+  ],
+  "slug": "10-pcs-1500mah-rechargeable-lithium-battery-for-sony-ps5-wir-2724848628",
+  "day": "2026-11-21"
+ },
+ {
   "pid": "aliexpress:1005012914762001",
   "store": "aliexpress",
   "title": "BAGP1001 1650mAh Joystick Battery for Sony Ps5 Dualsense Edge High Quality Environmental Protection Lithium Battery",
@@ -4730,6 +4764,972 @@
    ]
   ],
   "slug": "3600mwh-2-rechargable-battery-for-xbox-one-s-x-elite-xbox-se-2493868377",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005012921376595",
+  "store": "aliexpress",
+  "title": "Ultra Thin Steering Wheel Cover For NEW KGM Ssangyong Actyon Torres 2023-2025 Double D type Steering Wheel Cover Accessories",
+  "price_usd": 10.25,
+  "old_price_usd": 28.7,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012921376595.html%253Fpdp_npi%253D6%252540dis%252521USD%25252128.70%25252110.25%252521%252521%252521190.55%25252167.99%252521%252540212a7b8d17952164721538009e0cf1%25252112000059857727482%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6ec86435506e421889de7631a5fc31f1i.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Interior Accessories",
+  "niche": "car",
+  "ships_to": [],
+  "title_local": "Funda Volante Ultra Fina KGM Ssangyong Actyon Torres",
+  "commission": 0.2692,
+  "why": "Protección ajustable tipo D para modelos 2023-2025",
+  "lang": "es",
+  "median_30d": 28.7,
+  "discount": 0.6429,
+  "heat": 88.9,
+  "history": [
+   [
+    "2026-11-15",
+    11.03
+   ],
+   [
+    "2026-11-16",
+    11.03
+   ],
+   [
+    "2026-11-17",
+    11.03
+   ],
+   [
+    "2026-11-18",
+    11.03
+   ],
+   [
+    "2026-11-19",
+    11.03
+   ],
+   [
+    "2026-11-20",
+    9.99
+   ],
+   [
+    "2026-11-21",
+    10.25
+   ]
+  ],
+  "slug": "ultra-thin-steering-wheel-cover-for-new-kgm-ssangyong-actyon-2921376595",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005011951770614",
+  "store": "aliexpress",
+  "title": "Ultra coarse Merino wool hand woven stand up collar twisted short shawl",
+  "price_usd": 130.48,
+  "old_price_usd": 434.93,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011951770614.html%253Fpdp_npi%253D6%252540dis%252521USD%252521434.93%252521130.48%252521%252521%2525212888.00%252521866.40%252521%2525402141315917951539850543325e0e58%25252112000057106105786%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf0abeee7586f4846ac5fbbf97f130a1bA.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Sweaters&Jumpers",
+  "niche": "fashion",
+  "ships_to": [],
+  "title_local": "Chalecto Corto de Lana Merino Tejido a Mano",
+  "commission": 0.0692,
+  "why": "Prenda abrigada de lana gruesa con cuello alto",
+  "lang": "es",
+  "median_30d": 434.93,
+  "discount": 0.7,
+  "heat": 89.3,
+  "history": [
+   [
+    "2026-11-14",
+    130.65
+   ],
+   [
+    "2026-11-15",
+    130.65
+   ],
+   [
+    "2026-11-16",
+    130.56
+   ],
+   [
+    "2026-11-17",
+    130.56
+   ],
+   [
+    "2026-11-18",
+    130.56
+   ],
+   [
+    "2026-11-20",
+    130.48
+   ],
+   [
+    "2026-11-21",
+    130.48
+   ]
+  ],
+  "slug": "ultra-coarse-merino-wool-hand-woven-stand-up-collar-twisted--1951770614",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "joom:6ae8e5aa11389101c837b6bc",
+  "store": "joom",
+  "title": "Botas de mujer Comfort Jaya Altas de Invierno 36 negro",
+  "price_usd": 31.52,
+  "old_price_usd": null,
+  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F6ae8e5aa11389101c837b6bc%3Fcurrency%3DEUR%26utm_productid%3D6ae8e5aa11389101c837b6bc%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU3NDM2NjUsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjZhZThlNWFhMTEzODkxMDFjODM3YjZiYyIsInYiOiI2YWU4ZTVhYTExMzg5MTBjYzgzN2I2YmUiLCJjIjoyOS4wfV19.APmq5QyxQvDd68LQFQUo_dhv61vVxMO_ZKCekEzVGlrx7r4K1ZXMpnZ8o1CrXKZ2jiWVDPWc6NdkzMr5h-KmRw%26variant_id%3D6ae8e5aa1138910cc837b6be%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_premium_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-20",
+  "image": "https://img.joomcdn.net/e02d77c2b72ecb556e2cbba0f2d7f44bc09824a5_original.jpeg",
+  "rating": null,
+  "orders": null,
+  "category": "Joom/Zapatos/Calzado para mujer/Botas altas",
+  "niche": "shoes",
+  "ships_to": [
+   "ES"
+  ],
+  "title_local": "Botas de Mujer Comfort Jaya Altas de Invierno 36 Negro",
+  "commission": null,
+  "why": "Calzado de invierno cómodo y elegante en color negro",
+  "lang": "es",
+  "median_30d": 167.39,
+  "discount": 0.8117,
+  "heat": 89.5,
+  "history": [
+   [
+    "2026-11-13",
+    167.39
+   ],
+   [
+    "2026-11-14",
+    167.39
+   ],
+   [
+    "2026-11-15",
+    167.39
+   ],
+   [
+    "2026-11-16",
+    167.39
+   ],
+   [
+    "2026-11-17",
+    167.39
+   ],
+   [
+    "2026-11-18",
+    167.39
+   ],
+   [
+    "2026-11-19",
+    31.52
+   ],
+   [
+    "2026-11-20",
+    31.52
+   ],
+   [
+    "2026-11-21",
+    31.52
+   ]
+  ],
+  "slug": "botas-de-mujer-comfort-jaya-altas-de-invierno-36-negro-01c837b6bc",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005013648058169",
+  "store": "aliexpress",
+  "title": "2027  Durable acoron-shaped bird feeder, rust-proof hanging food dispenser gardentop feeding tools, handicrafts and ornaments",
+  "price_usd": 6.19,
+  "old_price_usd": 20.63,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013648058169.html%253Fpdp_npi%253D6%252540dis%252521USD%25252120.63%2525216.19%252521%252521%252521137.00%25252141.10%252521%2525402151fca717952219101576055e0cf8%25252112000061711277245%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S15d514bb871944a2901507e66aafe41cB.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Pet Products",
+  "niche": "pets",
+  "ships_to": [],
+  "title_local": "Comedero para Pájaros en Forma de Bellota Antióxido",
+  "commission": 0.3461,
+  "why": "Dispensador colgante para jardín decorativo y resistente",
+  "lang": "es",
+  "median_30d": 20.63,
+  "discount": 0.7,
+  "heat": 94.4,
+  "history": [
+   [
+    "2026-11-20",
+    12.4
+   ],
+   [
+    "2026-11-21",
+    6.19
+   ]
+  ],
+  "slug": "2027-durable-acoron-shaped-bird-feeder-rust-proof-hanging-fo-3648058169",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005013607739089",
+  "store": "aliexpress",
+  "title": "Multifunctional Stainless Steel Clip Hook Drying Clothes Pants Clip for Hats Socks Underwear Closet Storage Home Dorm Laundry",
+  "price_usd": 21.66,
+  "old_price_usd": 72.2,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013607739089.html%253Fpdp_npi%253D6%252540dis%252521USD%25252172.20%25252121.66%252521%252521%252521479.43%252521143.83%252521%2525402141149b17952232390254713e0ee6%25252112000061608967269%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf64f86849cb447329bfba77592dd9f64f.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Home Storage & Organization",
+  "niche": "home",
+  "ships_to": [],
+  "title_local": "Gancho Clip de Acero Inoxidable para Ropa y Armario",
+  "commission": 0.15380000000000002,
+  "why": "Organiza ropa, sombreros y calcetines ahorrando espacio",
+  "lang": "es",
+  "median_30d": 72.2,
+  "discount": 0.7,
+  "heat": 94.4,
+  "history": [
+   [
+    "2026-11-18",
+    25.31
+   ],
+   [
+    "2026-11-19",
+    25.31
+   ],
+   [
+    "2026-11-20",
+    21.69
+   ],
+   [
+    "2026-11-21",
+    21.66
+   ]
+  ],
+  "slug": "multifunctional-stainless-steel-clip-hook-drying-clothes-pan-3607739089",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005006159271257",
+  "store": "aliexpress",
+  "title": "MHW-3BOMBER Smart Coffee Scale Timer 2kg/0.1g High Precision Kitchen Scales Drip Coffee Espresso Scale Home Barista Tools",
+  "price_usd": 36.42,
+  "old_price_usd": 98.0,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006159271257.html%253Fpdp_npi%253D6%252540dis%252521USD%25252198.00%25252136.42%252521%252521%25252198.00%25252136.42%252521%2525402140f89017952209750867170e10e7%25252112000060198783848%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Saae10a0ba1744d97adadee68948d032ey.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Kitchen,Dining & Bar",
+  "niche": "coffee",
+  "ships_to": [],
+  "title_local": "Báscula de Café MHW-3BOMBER con Temporizador 2kg",
+  "commission": 0.08460000000000001,
+  "why": "Alta precisión de 0.1g para un espresso perfecto",
+  "lang": "es",
+  "median_30d": 98.0,
+  "discount": 0.6284,
+  "heat": 86.1,
+  "history": [
+   [
+    "2026-11-15",
+    36.5
+   ],
+   [
+    "2026-11-16",
+    36.42
+   ],
+   [
+    "2026-11-17",
+    36.42
+   ],
+   [
+    "2026-11-18",
+    36.5
+   ],
+   [
+    "2026-11-19",
+    36.5
+   ],
+   [
+    "2026-11-20",
+    36.5
+   ],
+   [
+    "2026-11-21",
+    36.42
+   ]
+  ],
+  "slug": "mhw-3bomber-smart-coffee-scale-timer-2kg-0-1g-high-precision-6159271257",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005011920857962",
+  "store": "aliexpress",
+  "title": "Baseus PS3 Air Bluetooth Stylus Pen for iPad Pencil Universal Wired Charging for All iPad Air Pro Mini Tablet Touch Writing Pen",
+  "price_usd": 20.74,
+  "old_price_usd": 37.13,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011920857962.html%253Fpdp_npi%253D6%252540dis%252521USD%25252137.13%25252120.74%252521%252521%25252137.13%25252120.74%252521%2525402102f1cd17951318425957622e10a1%25252112000057034735225%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S108521c896aa4970a42b4f3b27e32a921.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Tablet Accessories & Parts",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Lápiz Óptico PS3 Air Bluetooth para iPad",
+  "commission": 0.0538,
+  "why": "Lápiz táctil universal para escribir en tablets iPad",
+  "lang": "es",
+  "median_30d": 37.13,
+  "discount": 0.4414,
+  "heat": 68.8,
+  "history": [
+   [
+    "2026-11-13",
+    20.74
+   ],
+   [
+    "2026-11-14",
+    20.74
+   ],
+   [
+    "2026-11-18",
+    20.7
+   ],
+   [
+    "2026-11-19",
+    20.7
+   ],
+   [
+    "2026-11-20",
+    20.74
+   ],
+   [
+    "2026-11-21",
+    20.74
+   ]
+  ],
+  "slug": "baseus-ps3-air-bluetooth-stylus-pen-for-ipad-pencil-universa-1920857962",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005009050753097",
+  "store": "aliexpress",
+  "title": "Baseus 2PCS Security Alarm Detector Upgrade Sound Protection Sensor for Door Window Camera Anti-theft Alarm Equipment Detector",
+  "price_usd": 10.01,
+  "old_price_usd": 18.56,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009050753097.html%253Fpdp_npi%253D6%252540dis%252521USD%25252118.56%25252110.01%252521%252521%25252118.56%25252110.01%252521%2525402151fd2c17951493467675578e0edf%25252112000047720524820%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd264cf4348af4dd7a53abb0b97f264e8R.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Access Building Automation",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Sensor Alarma Antirrobo 2Pcs para Puertas y Ventanas",
+  "commission": 0.0538,
+  "why": "Protección sonora mejorada para mayor seguridad",
+  "lang": "es",
+  "median_30d": 18.56,
+  "discount": 0.4607,
+  "heat": 69.2,
+  "history": [
+   [
+    "2026-11-12",
+    9.48
+   ],
+   [
+    "2026-11-16",
+    9.48
+   ],
+   [
+    "2026-11-17",
+    9.48
+   ],
+   [
+    "2026-11-18",
+    9.48
+   ],
+   [
+    "2026-11-20",
+    10.01
+   ],
+   [
+    "2026-11-21",
+    10.01
+   ]
+  ],
+  "slug": "baseus-2pcs-security-alarm-detector-upgrade-sound-protection-9050753097",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005010759467688",
+  "store": "aliexpress",
+  "title": "X68MAX ATTACK SHARK High-Performance Magnetic Switch Gaming Keyboard 8KHz Wired for Pro Esport 0.005mm RT Web Driver RGB X68HE",
+  "price_usd": 59.46,
+  "old_price_usd": 118.91,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010759467688.html%253Fpdp_npi%253D6%252540dis%252521USD%252521118.91%25252159.46%252521%252521%252521788.52%252521394.26%252521%2525402140d33617951309184117321e0ebe%25252112000061434824854%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3c43c3690e044a5a8cafb23a911dfff2C.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "X68MAX ATTACK SHARK Teclado Gaming",
+  "commission": 0.023,
+  "why": "Interruptores magnéticos de alto rendimiento con cable de 8KHz.",
+  "lang": "es",
+  "median_30d": 118.91,
+  "discount": 0.5,
+  "heat": 70.0,
+  "history": [
+   [
+    "2026-11-16",
+    59.46
+   ],
+   [
+    "2026-11-17",
+    59.46
+   ],
+   [
+    "2026-11-18",
+    59.46
+   ],
+   [
+    "2026-11-19",
+    59.46
+   ],
+   [
+    "2026-11-20",
+    59.46
+   ],
+   [
+    "2026-11-21",
+    59.46
+   ]
+  ],
+  "slug": "x68max-attack-shark-high-performance-magnetic-switch-gaming--0759467688",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005011739860993",
+  "store": "aliexpress",
+  "title": "ATTACK SHARK x AJAZZ AKP153 STREAM DECK 15 Customisable Buttons Stream Deck With Versatile Side Screen",
+  "price_usd": 66.95,
+  "old_price_usd": 133.9,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011739860993.html%253Fpdp_npi%253D6%252540dis%252521USD%252521133.90%25252166.95%252521%252521%252521887.90%252521443.95%252521%25254021013cc017951309263223683e0cac%25252112000056402191856%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1cd1d7f081d34626bcf6eaea703c9278F.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Attack Shark AJAZZ AKP153 Stream Deck 15 Botones",
+  "commission": 0.023,
+  "why": "Botones personalizables con pantalla lateral versatil.",
+  "lang": "es",
+  "median_30d": 133.9,
+  "discount": 0.5,
+  "heat": 70.0,
+  "history": [
+   [
+    "2026-11-20",
+    66.95
+   ],
+   [
+    "2026-11-21",
+    66.95
+   ]
+  ],
+  "slug": "attack-shark-x-ajazz-akp153-stream-deck-15-customisable-butt-1739860993",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005012594468059",
+  "store": "aliexpress",
+  "title": "ATTACK SHARK X65 HE Hall Effect Gaming Mechanical Keyboard, 8KHz , 0.01mm Rapid Trigger, 0.125ms Low Latency, Hot-Swap RGB Backlit",
+  "price_usd": 55.23,
+  "old_price_usd": 110.46,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012594468059.html%253Fpdp_npi%253D6%252540dis%252521USD%252521110.46%25252155.23%252521%252521%252521732.52%252521366.26%252521%2525402140d33617951309082416307e0ebe%25252112000058800450173%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf2f4ed5d234f4d9e8cbff3070fdb30fcI.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "ATTACK SHARK X65 HE Teclado Mecánico",
+  "commission": 0.023,
+  "why": "Efecto Hall con activación rápida de 0.01mm y baja latencia.",
+  "lang": "es",
+  "median_30d": 110.46,
+  "discount": 0.5,
+  "heat": 70.0,
+  "history": [
+   [
+    "2026-11-12",
+    55.16
+   ],
+   [
+    "2026-11-13",
+    55.16
+   ],
+   [
+    "2026-11-14",
+    55.16
+   ],
+   [
+    "2026-11-18",
+    55.23
+   ],
+   [
+    "2026-11-19",
+    55.23
+   ],
+   [
+    "2026-11-20",
+    55.23
+   ],
+   [
+    "2026-11-21",
+    55.23
+   ]
+  ],
+  "slug": "attack-shark-x65-he-hall-effect-gaming-mechanical-keyboard-8-2594468059",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005007892067562",
+  "store": "aliexpress",
+  "title": "UGREEN Magnetic Phone Stand 360° Rotation Aluminum Mobile Phone Stand For Magsafe iPhone 16 15 14 Pro Max Xiaomi Samsung Huawei",
+  "price_usd": 13.85,
+  "old_price_usd": 31.38,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007892067562.html%253Fpdp_npi%253D6%252540dis%252521USD%25252131.38%25252113.85%252521%252521%25252131.38%25252113.85%252521%2525402140da8b17951468060634025e1069%25252112000042741357189%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S83c31bf4745a41409bd958bb386666a0E.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Soporte magnético UGREEN 360° para iPhone y móviles",
+  "commission": 0.0538,
+  "why": "Rotación ajustable y sujeción magnética segura",
+  "lang": "es",
+  "median_30d": 31.38,
+  "discount": 0.5586,
+  "heat": 71.2,
+  "history": [
+   [
+    "2026-11-14",
+    14.15
+   ],
+   [
+    "2026-11-15",
+    14.15
+   ],
+   [
+    "2026-11-16",
+    14.15
+   ],
+   [
+    "2026-11-17",
+    14.15
+   ],
+   [
+    "2026-11-18",
+    14.15
+   ],
+   [
+    "2026-11-20",
+    13.85
+   ],
+   [
+    "2026-11-21",
+    13.85
+   ]
+  ],
+  "slug": "ugreen-magnetic-phone-stand-360-rotation-aluminum-mobile-pho-7892067562",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005006402473072",
+  "store": "aliexpress",
+  "title": "Baseus Car Phone Holder for iPhone Auto Gravity Dashboard Sucker Car Cellphone Moible Phone Support Samsung/Xiaomi/Huawei Holder",
+  "price_usd": 10.76,
+  "old_price_usd": 25.57,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006402473072.html%253Fpdp_npi%253D6%252540dis%252521USD%25252125.57%25252110.76%252521%252521%252521169.58%25252171.35%252521%2525402151fd3a17951387634252274e0ed4%25252112000037037633064%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S5f5bda03aba94a0598ce9c7a0be32ec5J.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Interior Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Soporte Movil Coche Gravedad Salpicadero",
+  "commission": 0.0692,
+  "why": "Sujeción automática para el móvil compatible con varias marcas.",
+  "lang": "es",
+  "median_30d": 25.57,
+  "discount": 0.5792,
+  "heat": 71.6,
+  "history": [
+   [
+    "2026-11-11",
+    12.26
+   ],
+   [
+    "2026-11-16",
+    11.29
+   ],
+   [
+    "2026-11-17",
+    11.29
+   ],
+   [
+    "2026-11-18",
+    11.29
+   ],
+   [
+    "2026-11-20",
+    10.76
+   ],
+   [
+    "2026-11-21",
+    10.76
+   ]
+  ],
+  "slug": "baseus-car-phone-holder-for-iphone-auto-gravity-dashboard-su-6402473072",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005007549957228",
+  "store": "aliexpress",
+  "title": "UGREEN Magnetic Car Phone Holder Magsafe Air Vent Phone Stand Unviersal For iPhone 15 14 13 Pro Max Xiaomi Samsung Strong Magnet",
+  "price_usd": 13.53,
+  "old_price_usd": 33.33,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007549957228.html%253Fpdp_npi%253D6%252540dis%252521USD%25252133.33%25252113.53%252521%252521%25252133.33%25252113.53%252521%25254021013cc017951468414791105e0e99%25252112000041256443818%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1d6d108315b441b3a4c8cfa4c15d027eS.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Soporte Movil Magnetico Magsafe Rejilla",
+  "commission": 0.0538,
+  "why": "Soporte de iman fuerte para rejilla de aire",
+  "lang": "es",
+  "median_30d": 33.33,
+  "discount": 0.5941,
+  "heat": 71.9,
+  "history": [
+   [
+    "2026-11-16",
+    13.5
+   ],
+   [
+    "2026-11-17",
+    13.5
+   ],
+   [
+    "2026-11-18",
+    13.5
+   ],
+   [
+    "2026-11-19",
+    13.5
+   ],
+   [
+    "2026-11-20",
+    13.53
+   ],
+   [
+    "2026-11-21",
+    13.53
+   ]
+  ],
+  "slug": "ugreen-magnetic-car-phone-holder-magsafe-air-vent-phone-stan-7549957228",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005009467240416",
+  "store": "aliexpress",
+  "title": "UGREEN Car Phone Holder Magnetic 360° Rotation For Magsafe iPhone 16 15 14 Pro Max Samsung S25 Ultra Xiaomi Air Vent Car Mount",
+  "price_usd": 10.04,
+  "old_price_usd": 24.74,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009467240416.html%253Fpdp_npi%253D6%252540dis%252521USD%25252124.74%25252110.04%252521%252521%25252124.74%25252110.04%252521%2525402151fca717951471014158896e0ec8%25252112000049192890711%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S85ded9ae554947e9a0ef6868f4ca22ff9.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Soporte Movil Magnetico 360 Magsafe Rejilla",
+  "commission": 0.0538,
+  "why": "Soporte con rotacion de 360 grados para rejilla",
+  "lang": "es",
+  "median_30d": 24.74,
+  "discount": 0.5942,
+  "heat": 71.9,
+  "history": [
+   [
+    "2026-11-14",
+    10.24
+   ],
+   [
+    "2026-11-15",
+    10.24
+   ],
+   [
+    "2026-11-16",
+    10.24
+   ],
+   [
+    "2026-11-18",
+    10.24
+   ],
+   [
+    "2026-11-19",
+    10.24
+   ],
+   [
+    "2026-11-20",
+    10.04
+   ],
+   [
+    "2026-11-21",
+    10.04
+   ]
+  ],
+  "slug": "ugreen-car-phone-holder-magnetic-360-rotation-for-magsafe-ip-9467240416",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005012248331494",
+  "store": "aliexpress",
+  "title": "ATTACK SHARK R82 HE Magnetic Gaming Keyboard 8000Hz 0.005mm Rapid Trigger Low Latency RGB Hall Effect Wired 75% Keyboard",
+  "price_usd": 57.79,
+  "old_price_usd": 147.63,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012248331494.html%253Fpdp_npi%253D6%252540dis%252521USD%252521147.63%25252157.79%252521%252521%252521978.99%252521383.26%252521%252540212a7b8d17951308323441512e0d16%25252112000057883312843%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S79254c9492c04ae3b4d7cc432c13dcbcT.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Teclado magnético Attack Shark R82 HE 75% 8K",
+  "commission": 0.023,
+  "why": "Switches Hall Effect con tasa de 8000 Hz y Rapid Trigger de 0,005 mm",
+  "lang": "es",
+  "median_30d": 147.63,
+  "discount": 0.6085,
+  "heat": 72.7,
+  "history": [
+   [
+    "2026-11-11",
+    59.49
+   ],
+   [
+    "2026-11-12",
+    51.73
+   ],
+   [
+    "2026-11-13",
+    51.73
+   ],
+   [
+    "2026-11-14",
+    51.73
+   ],
+   [
+    "2026-11-20",
+    57.79
+   ],
+   [
+    "2026-11-21",
+    57.79
+   ]
+  ],
+  "slug": "attack-shark-r82-he-magnetic-gaming-keyboard-8000hz-0-005mm--2248331494",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005012824307783",
+  "store": "aliexpress",
+  "title": "UGREEN FineTrack Mini2 Air Tracker Tags (iOS Only) 4 Pack | Bluetooth Tracker Compatible with Apple Find My, Item Finder Smart",
+  "price_usd": 15.27,
+  "old_price_usd": 40.2,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012824307783.html%253Fpdp_npi%253D6%252540dis%252521USD%25252140.20%25252115.27%252521%252521%25252140.20%25252115.27%252521%2525402140f88817951496699643037e0dee%25252112000059439435930%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S01c441976e394115ac7b227491c67614V.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Access Building Automation",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Localizadores UGREEN FineTrack Mini2 (Pack de 4)",
+  "commission": 0.0538,
+  "why": "Rastreadores Bluetooth compatibles con la red Apple Buscar",
+  "lang": "es",
+  "median_30d": 40.2,
+  "discount": 0.6201,
+  "heat": 73.0,
+  "history": [
+   [
+    "2026-11-16",
+    15.91
+   ],
+   [
+    "2026-11-17",
+    15.91
+   ],
+   [
+    "2026-11-18",
+    15.91
+   ],
+   [
+    "2026-11-20",
+    15.27
+   ],
+   [
+    "2026-11-21",
+    15.27
+   ]
+  ],
+  "slug": "ugreen-finetrack-mini2-air-tracker-tags-ios-only-4-pack-blue-2824307783",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005013211115424",
+  "store": "aliexpress",
+  "title": "ATTACK SHARK R68HE Wired Magnetic Switch Keyboard 8K Polling Rate 0.005mm RT Accuracy 256K Scan Rate 68% Layout For Esports",
+  "price_usd": 64.35,
+  "old_price_usd": 160.78,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013211115424.html%253Fpdp_npi%253D6%252540dis%252521USD%252521160.78%25252164.35%252521%252521%2525211066.15%252521426.70%252521%2525402101611117951309741538192e0e39%25252112000060586888149%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S364279f146964702ace5632cc88755554.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Teclado magnético Attack Shark R68HE 68% 8K",
+  "commission": 0.023,
+  "why": "Tasa de sondeo de 8K y precisión de disparo rápido de 0,005 mm",
+  "lang": "es",
+  "median_30d": 160.78,
+  "discount": 0.5998,
+  "heat": 74.4,
+  "history": [
+   [
+    "2026-11-11",
+    69.28
+   ],
+   [
+    "2026-11-12",
+    69.28
+   ],
+   [
+    "2026-11-20",
+    64.35
+   ],
+   [
+    "2026-11-21",
+    64.35
+   ]
+  ],
+  "slug": "attack-shark-r68he-wired-magnetic-switch-keyboard-8k-polling-3211115424",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005011943184206",
+  "store": "aliexpress",
+  "title": "ATTACK SHARK R85 HE 75% Wired Gaming Magnetic Keyboard 8000Hz Rapid Trigger RGB Lightbox Knob Hall Effect Gaming Keyboard",
+  "price_usd": 63.85,
+  "old_price_usd": 164.49,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011943184206.html%253Fpdp_npi%253D6%252540dis%252521USD%252521164.49%25252163.85%252521%252521%2525211090.81%252521423.46%252521%25254021013cc017951308797447828e0cab%25252112000057083957537%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0a03739b04d642cb93b9727dfd25676cZ.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Teclado ATTACK SHARK R85 HE 75% 8000Hz Hall Effect",
+  "commission": 0.023,
+  "why": "Rueda de control, Rapid Trigger y tasa de sondeo de 8000 Hz",
+  "lang": "es",
+  "median_30d": 164.49,
+  "discount": 0.6118,
+  "heat": 75.3,
+  "history": [
+   [
+    "2026-11-11",
+    70.88
+   ],
+   [
+    "2026-11-12",
+    70.88
+   ],
+   [
+    "2026-11-18",
+    65.82
+   ],
+   [
+    "2026-11-19",
+    65.82
+   ],
+   [
+    "2026-11-20",
+    63.85
+   ],
+   [
+    "2026-11-21",
+    63.85
+   ]
+  ],
+  "slug": "attack-shark-r85-he-75-wired-gaming-magnetic-keyboard-8000hz-1943184206",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005012880911721",
+  "store": "aliexpress",
+  "title": "Ajazz AK820 PRO with Screen, Wireless Gaming, Mechanical Keyboard, Multi Switch Selection, Tri Mode, Computer Office DIY, RGB",
+  "price_usd": 67.97,
+  "old_price_usd": 186.01,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012880911721.html%253Fpdp_npi%253D6%252540dis%252521USD%252521186.01%25252167.97%252521%252521%2525211233.47%252521450.69%252521%25254021013cc617951310046995274e1063%25252112000059608269666%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb63922ed6d9945e2849daf23ab3e27abH.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Teclado mecánico gaming Ajazz AK820 PRO inalambrico RGB",
+  "commission": 0.023,
+  "why": "Pantalla integrada y conexion inalambrica en tres modos",
+  "lang": "es",
+  "median_30d": 186.01,
+  "discount": 0.6346,
+  "heat": 79.1,
+  "history": [
+   [
+    "2026-11-16",
+    67.97
+   ],
+   [
+    "2026-11-17",
+    67.97
+   ],
+   [
+    "2026-11-18",
+    67.97
+   ],
+   [
+    "2026-11-19",
+    67.97
+   ],
+   [
+    "2026-11-20",
+    67.97
+   ],
+   [
+    "2026-11-21",
+    67.97
+   ]
+  ],
+  "slug": "ajazz-ak820-pro-with-screen-wireless-gaming-mechanical-keybo-2880911721",
   "day": "2026-11-21"
  },
  {
@@ -5087,542 +6087,6 @@
    ]
   ],
   "slug": "classic-vacuum-coffee-maker-with-wood-handle-glass-siphon-br-3629875944",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005006232682386",
-  "store": "aliexpress",
-  "title": "UGREEN Mechanical Keyboard 108 PBT Keycaps Wired Keyboard Red Switch Russian/Korean/EN for Desktop Laptop Windows Mac OS Gaming",
-  "price_usd": 41.99,
-  "old_price_usd": 66.65,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006232682386.html%253Fpdp_npi%253D6%252540dis%252521USD%25252166.65%25252141.99%252521%252521%25252166.65%25252141.99%252521%25254021013cc017951309067652353e0cab%25252112000039268732028%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb730948c75c4c35865e7203d8287a91n.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado Mecanico UGREEN 108 Teclas PBT Switch Rojo",
-  "commission": 0.023,
-  "why": "Teclado con cable para juegos y trabajo en oficina.",
-  "lang": "es",
-  "median_30d": 66.65,
-  "discount": 0.37,
-  "heat": 67.4,
-  "history": [
-   [
-    "2026-11-20",
-    41.99
-   ],
-   [
-    "2026-11-21",
-    41.99
-   ]
-  ],
-  "slug": "ugreen-mechanical-keyboard-108-pbt-keycaps-wired-keyboard-re-6232682386",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005012789118307",
-  "store": "aliexpress",
-  "title": "M36HE ATTACK SHARK Hall Effect Mechanical Gaming Keyboard 8K Return Rate 0.1ms PBT Keycaps Web and PC Driver RGB Backlit Wired",
-  "price_usd": 44.34,
-  "old_price_usd": 101.92,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012789118307.html%253Fpdp_npi%253D6%252540dis%252521USD%252521101.92%25252144.34%252521%252521%252521675.87%252521294.03%252521%252540214114e317951309377397125e0e44%25252112000059366764555%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/See3109ca29d94a519f6795876c503682r.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado Gaming ATTACK SHarka M36HE Hall Effect 8K",
-  "commission": 0.023,
-  "why": "Efecto Hall, tasa de respuesta de 8K y teclas PBT",
-  "lang": "es",
-  "median_30d": 101.92,
-  "discount": 0.565,
-  "heat": 71.3,
-  "history": [
-   [
-    "2026-11-16",
-    44.34
-   ],
-   [
-    "2026-11-17",
-    44.34
-   ],
-   [
-    "2026-11-18",
-    44.34
-   ],
-   [
-    "2026-11-19",
-    44.34
-   ],
-   [
-    "2026-11-20",
-    44.34
-   ],
-   [
-    "2026-11-21",
-    44.34
-   ]
-  ],
-  "slug": "m36he-attack-shark-hall-effect-mechanical-gaming-keyboard-8k-2789118307",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005013654564965",
-  "store": "aliexpress",
-  "title": "[New！] Attack Shark X68 HE Magnetic Mechanical Gaming Keyboard 0.01mm Rapid Trigger 8K Polling Rate 128K Wired Christmas Gift",
-  "price_usd": 53.0,
-  "old_price_usd": 121.85,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013654564965.html%253Fpdp_npi%253D6%252540dis%252521USD%252521121.85%25252153.00%252521%252521%252521808.04%252521351.50%252521%2525402141149b17951309122824393e0f27%25252112000061795814001%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9478f63d8edc44fda6cb9d1044b57b7eh.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Attack Shark X68 HE Teclado Mecanico Magnetico",
-  "commission": 0.023,
-  "why": "Dispone de activacion rapida de 0.01mm y tasa de sondeo 8K.",
-  "lang": "es",
-  "median_30d": 121.85,
-  "discount": 0.565,
-  "heat": 71.3,
-  "history": [
-   [
-    "2026-11-20",
-    53.0
-   ],
-   [
-    "2026-11-21",
-    53.0
-   ]
-  ],
-  "slug": "new-attack-shark-x68-he-magnetic-mechanical-gaming-keyboard--3654564965",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005011659837168",
-  "store": "aliexpress",
-  "title": "ATTACK SHARK Magnetic Keyboard ,X68HE R82HE R85HE Esports Keyboard,8KHz Return Rate, and 0.125ms Rate Class Ultra-Low Latency",
-  "price_usd": 49.69,
-  "old_price_usd": 119.0,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011659837168.html%253Fpdp_npi%253D6%252540dis%252521USD%252521119.00%25252149.69%252521%252521%252521789.12%252521329.51%252521%2525402140f89017951309232433870e0e74%25252112000056233105271%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfd826c6e6a974ad882f4e3ce08f14b1a5.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado Magnético ATTACK SHARK X68HE",
-  "commission": 0.023,
-  "why": "Tasa de retorno de 8KHz y latencia ultra baja.",
-  "lang": "es",
-  "median_30d": 119.0,
-  "discount": 0.5824,
-  "heat": 71.6,
-  "history": [
-   [
-    "2026-11-16",
-    48.66
-   ],
-   [
-    "2026-11-17",
-    48.66
-   ],
-   [
-    "2026-11-18",
-    48.66
-   ],
-   [
-    "2026-11-19",
-    48.66
-   ],
-   [
-    "2026-11-20",
-    49.69
-   ],
-   [
-    "2026-11-21",
-    49.69
-   ]
-  ],
-  "slug": "attack-shark-magnetic-keyboard-x68he-r82he-r85he-esports-key-1659837168",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005012897963296",
-  "store": "aliexpress",
-  "title": "New AJAZZ ALUX68 Wired Mechanical Keyboard Magnetic Switch Hot-Swap Gasket RGB 8K 0.01mm RT Aluminum Alloy Gaming Keyboard",
-  "price_usd": 53.65,
-  "old_price_usd": 128.49,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012897963296.html%253Fpdp_npi%253D6%252540dis%252521USD%252521128.49%25252153.65%252521%252521%252521852.08%252521355.82%252521%252540212a7b8d17951308356753004e0ec3%25252112000059700874309%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S55178fe107104723a40c2f7d94f3509ck.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado AJAZZ ALUX68 magnético de aluminio",
-  "commission": 0.023,
-  "why": "Estructura Gasket de aluminio con sondeo de 8K y Rapid Trigger",
-  "lang": "es",
-  "median_30d": 128.49,
-  "discount": 0.5825,
-  "heat": 71.6,
-  "history": [
-   [
-    "2026-11-11",
-    56.59
-   ],
-   [
-    "2026-11-12",
-    49.21
-   ],
-   [
-    "2026-11-13",
-    49.21
-   ],
-   [
-    "2026-11-14",
-    49.21
-   ],
-   [
-    "2026-11-20",
-    53.65
-   ],
-   [
-    "2026-11-21",
-    53.65
-   ]
-  ],
-  "slug": "new-ajazz-alux68-wired-mechanical-keyboard-magnetic-switch-h-2897963296",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005013624496254",
-  "store": "aliexpress",
-  "title": "UGREEN Ethernet Cable 10Gbps Cat6A Patch Internet RJ45 Cord 28AWG 500MHz for Router PC Gold-Plated Connectors Pure Copper Wire",
-  "price_usd": 4.83,
-  "old_price_usd": 11.58,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013624496254.html%253Fpdp_npi%253D6%252540dis%252521USD%25252111.58%2525214.83%252521%252521%25252111.58%2525214.83%252521%2525402140d36117951306825227208e0fa9%25252112000061688444160%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa7b378f46f7f431ea9e0b21c7faafea9m.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Networking",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Cable Ethernet Cat6A UGREEN 10Gbps RJ45 500MHz",
-  "commission": 0.0538,
-  "why": "Conexión de red ultrarrápida con cobre puro",
-  "lang": "es",
-  "median_30d": 11.58,
-  "discount": 0.5829,
-  "heat": 71.7,
-  "history": [
-   [
-    "2026-11-16",
-    4.07
-   ],
-   [
-    "2026-11-17",
-    4.07
-   ],
-   [
-    "2026-11-18",
-    4.47
-   ],
-   [
-    "2026-11-19",
-    4.47
-   ],
-   [
-    "2026-11-20",
-    4.83
-   ],
-   [
-    "2026-11-21",
-    4.83
-   ]
-  ],
-  "slug": "ugreen-ethernet-cable-10gbps-cat6a-patch-internet-rj45-cord--3624496254",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005005895710498",
-  "store": "aliexpress",
-  "title": "REDRAGON SMD RGB MX Low Profile 5.5 Switch 3Pin Clicky Linear Tactile Silent Mechanical Keyboard Red Black Blue Brown Switche",
-  "price_usd": 6.59,
-  "old_price_usd": 15.95,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005005895710498.html%253Fpdp_npi%253D6%252540dis%252521USD%25252115.95%2525216.59%252521%252521%252521105.78%25252143.75%252521%2525402151fd3a17951312541536540e0d4e%25252112000034752006785%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc4a521f1fb1345f792df3c22ca51355dG.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado Mecánico Redragon Low Profile",
-  "commission": 0.023,
-  "why": "Switches mecánicos de perfil bajo tipo MX.",
-  "lang": "es",
-  "median_30d": 15.95,
-  "discount": 0.5868,
-  "heat": 71.7,
-  "history": [
-   [
-    "2026-11-18",
-    6.75
-   ],
-   [
-    "2026-11-19",
-    6.75
-   ],
-   [
-    "2026-11-20",
-    6.59
-   ],
-   [
-    "2026-11-21",
-    6.59
-   ]
-  ],
-  "slug": "redragon-smd-rgb-mx-low-profile-5-5-switch-3pin-clicky-linea-5895710498",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005010109639416",
-  "store": "aliexpress",
-  "title": "ATTACK SHARK X68HE Gaming Keyboard Wired 8K Hot-swappable Adjustment Aluminum Locating Plate Adjustable Keys Web Driver for PC",
-  "price_usd": 45.64,
-  "old_price_usd": 115.31,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010109639416.html%253Fpdp_npi%253D6%252540dis%252521USD%252521115.31%25252145.64%252521%252521%252521764.67%252521302.69%252521%2525402141315917951308473111442e0db3%25252112000051178925809%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc53eecfb8896459fbbd0a021df6fd521K.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado gaming Attack Shark X68HE 8K por cable",
-  "commission": 0.023,
-  "why": "Placa de aluminio, teclas ajustables y tasa de sondeo de 8K",
-  "lang": "es",
-  "median_30d": 115.31,
-  "discount": 0.6042,
-  "heat": 72.1,
-  "history": [
-   [
-    "2026-11-11",
-    57.58
-   ],
-   [
-    "2026-11-12",
-    57.58
-   ],
-   [
-    "2026-11-16",
-    50.16
-   ],
-   [
-    "2026-11-17",
-    50.16
-   ],
-   [
-    "2026-11-18",
-    50.16
-   ],
-   [
-    "2026-11-20",
-    45.64
-   ],
-   [
-    "2026-11-21",
-    45.64
-   ]
-  ],
-  "slug": "attack-shark-x68he-gaming-keyboard-wired-8k-hot-swappable-ad-0109639416",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005012533913271",
-  "store": "aliexpress",
-  "title": "ATTACK SHARK CM05 Glass Mouse Pad, Large 17.7×15.7in Non-Slip 9H Hard Mat. Nano-Textured Glass Surface Boosts Precision & Speed",
-  "price_usd": 52.31,
-  "old_price_usd": 134.76,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012533913271.html%253Fpdp_npi%253D6%252540dis%252521USD%252521134.76%25252152.31%252521%252521%252521893.65%252521346.89%252521%25254021013cc017951308903548901e0cab%25252112000058628107120%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S752a17b809ed43529640a6edb3f44743E.png",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Alfombrilla de cristal Attack Shark CM05 9H",
-  "commission": 0.023,
-  "why": "Superficie de cristal nanotexturizado para mayor velocidad y precisión",
-  "lang": "es",
-  "median_30d": 134.76,
-  "discount": 0.6118,
-  "heat": 72.2,
-  "history": [
-   [
-    "2026-11-20",
-    52.31
-   ],
-   [
-    "2026-11-21",
-    52.31
-   ]
-  ],
-  "slug": "attack-shark-cm05-glass-mouse-pad-large-17-7-15-7in-non-slip-2533913271",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005013378321718",
-  "store": "aliexpress",
-  "title": "Attack Shark X68HE 65% Wired Magnetic Gaming Keyboard Hall Effect RGB 8K Polling Rapid Trigger 0.01mm for FPS Original",
-  "price_usd": 51.14,
-  "old_price_usd": 134.68,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013378321718.html%253Fpdp_npi%253D6%252540dis%252521USD%252521134.68%25252151.14%252521%252521%252521893.13%252521339.18%252521%25254021013cc017951308797447828e0cab%25252112000061035760455%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3095526aace3426b855a7883ce69b176j.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado Attack Shark X68HE 65% magnético",
-  "commission": 0.023,
-  "why": "Tasa de sondeo de 8K y Rapid Trigger de 0,01 mm ideal para FPS",
-  "lang": "es",
-  "median_30d": 134.68,
-  "discount": 0.6203,
-  "heat": 72.4,
-  "history": [
-   [
-    "2026-11-11",
-    56.31
-   ],
-   [
-    "2026-11-12",
-    54.05
-   ],
-   [
-    "2026-11-13",
-    54.05
-   ],
-   [
-    "2026-11-14",
-    54.05
-   ],
-   [
-    "2026-11-20",
-    51.14
-   ],
-   [
-    "2026-11-21",
-    51.14
-   ]
-  ],
-  "slug": "attack-shark-x68he-65-wired-magnetic-gaming-keyboard-hall-ef-3378321718",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005011943617491",
-  "store": "aliexpress",
-  "title": "AJAZZ AK820V2 (With Screen Version) 75% ANSI US Layout BT/Wired/2.4Ghz Wireless Mechanical Keyboard with Display Screen & Knob",
-  "price_usd": 45.12,
-  "old_price_usd": 124.79,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011943617491.html%253Fpdp_npi%253D6%252540dis%252521USD%252521124.79%25252145.12%252521%252521%252521124.79%25252145.12%252521%25254021013cc617951309801933597e1063%25252112000057865423811%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9cbb74936403413985fa8ee365a52a9aS.png",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado mecánico AJAZZ AK820V2 75% inalámbrico",
-  "commission": 0.023,
-  "why": "Conexión triple, pantalla integrada y rueda de control",
-  "lang": "es",
-  "median_30d": 124.79,
-  "discount": 0.6384,
-  "heat": 72.8,
-  "history": [
-   [
-    "2026-11-11",
-    48.67
-   ],
-   [
-    "2026-11-12",
-    48.67
-   ],
-   [
-    "2026-11-16",
-    47.05
-   ],
-   [
-    "2026-11-17",
-    47.05
-   ],
-   [
-    "2026-11-18",
-    47.05
-   ],
-   [
-    "2026-11-20",
-    45.12
-   ],
-   [
-    "2026-11-21",
-    45.12
-   ]
-  ],
-  "slug": "ajazz-ak820v2-with-screen-version-75-ansi-us-layout-bt-wired-1943617491",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005012783573215",
-  "store": "aliexpress",
-  "title": "Ajazz NKP02 Chassis Intelligent Display Screen 9.16-Inch Intelligent Display Secondary Screen IPS LCD High-Definition Screen",
-  "price_usd": 47.8,
-  "old_price_usd": 142.29,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012783573215.html%253Fpdp_npi%253D6%252540dis%252521USD%252521142.29%25252147.80%252521%252521%252521943.60%252521317.00%252521%25254021013cc017951308646215792e0cac%25252112000059368534546%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sffd7336e50ac467faaedc9e71351134eO.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Ajazz NKP02 Pantalla Inteligente IPS LCD 9.16\"",
-  "commission": 0.023,
-  "why": "Visualizacion nitida con pantalla inteligente IPS HD",
-  "lang": "es",
-  "median_30d": 142.29,
-  "discount": 0.6641,
-  "heat": 74.3,
-  "history": [
-   [
-    "2026-11-16",
-    45.8
-   ],
-   [
-    "2026-11-17",
-    45.8
-   ],
-   [
-    "2026-11-18",
-    45.8
-   ],
-   [
-    "2026-11-20",
-    47.8
-   ],
-   [
-    "2026-11-21",
-    47.8
-   ]
-  ],
-  "slug": "ajazz-nkp02-chassis-intelligent-display-screen-9-16-inch-int-2783573215",
   "day": "2026-11-21"
  },
  {
@@ -9399,84 +9863,6 @@
    ]
   ],
   "slug": "redragon-gs560-rgb-desktop-soundbar-2-0-channel-computer-spe-6404289595",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005013042789702",
-  "store": "aliexpress",
-  "title": "Acrylic Dustproof Box with Cover CD Record Storage Box CD PS4 PS5 Disc Switch Game Cartridge Organizer Transparent Storage Box",
-  "price_usd": 26.39,
-  "old_price_usd": 62.84,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013042789702.html%253Fpdp_npi%253D6%252540dis%252521USD%25252162.84%25252126.39%252521%252521%252521416.71%252521175.02%252521%252540212a7b8d17951360506456997e0f05%25252112000060108367049%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scd0811912fa040d5864dbb39255e40f9W.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Home Storage & Organization",
-  "niche": "home",
-  "ships_to": [],
-  "title_local": "Caja Acrilica Antipolvo para Discos y Juegos",
-  "commission": 0.061500000000000006,
-  "why": "Organizador transparente para proteger tus juegos.",
-  "lang": "es",
-  "median_30d": 62.84,
-  "discount": 0.58,
-  "heat": 69.4,
-  "history": [
-   [
-    "2026-11-16",
-    26.39
-   ],
-   [
-    "2026-11-17",
-    26.38
-   ],
-   [
-    "2026-11-18",
-    26.39
-   ],
-   [
-    "2026-11-19",
-    26.39
-   ],
-   [
-    "2026-11-20",
-    26.39
-   ]
-  ],
-  "slug": "acrylic-dustproof-box-with-cover-cd-record-storage-box-cd-ps-3042789702",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005012724848628",
-  "store": "aliexpress",
-  "title": "10 pcs 1500mAh Rechargeable Lithium Battery for Sony PS5 Wireless Gamepad External Battery with Digital Display",
-  "price_usd": 134.25,
-  "old_price_usd": 268.5,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012724848628.html%253Fpdp_npi%253D6%252540dis%252521USD%252521268.50%252521134.25%252521%252521%2525211780.53%252521890.26%252521%252540210152bd17951343502871843e1094%25252112000059136069023%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2a55521089604ecd8eda6e0b54af4c798.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Accessories & Parts",
-  "niche": "power",
-  "ships_to": [],
-  "title_local": "10 Baterias PS5 1500mAh con Pantalla Digital",
-  "commission": 0.0692,
-  "why": "Incluye indicador digital de carga.",
-  "lang": "es",
-  "median_30d": 268.5,
-  "discount": 0.5,
-  "heat": 69.8,
-  "history": [
-   [
-    "2026-11-19",
-    134.17
-   ],
-   [
-    "2026-11-20",
-    134.25
-   ]
-  ],
-  "slug": "10-pcs-1500mah-rechargeable-lithium-battery-for-sony-ps5-wir-2724848628",
   "day": "2026-11-20"
  },
  {
@@ -15183,255 +15569,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005013567296689",
-  "store": "aliexpress",
-  "title": "UGREEN CM690-25169 NETWORK CARD PCIe to RJ45 2.5G Ethernet Adapter Internal for Desktop PC Server",
-  "price_usd": 26.21,
-  "old_price_usd": 39.72,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013567296689.html%253Fpdp_npi%253D6%252540dis%252521USD%25252139.72%25252126.21%252521%252521%252521263.41%252521173.85%252521%252540212a7b8d17949586719662694e0d58%25252112000061510488617%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S31da887c0822441b972b4dc66f0f1217Q.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "UGREEN Tarjeta de Red PCIe a RJ45 2.5G Ethernet",
-  "commission": 0.0538,
-  "why": "Conexión de red ultrarrápida de 2.5G para tu PC",
-  "lang": "es",
-  "median_30d": 39.72,
-  "discount": 0.3401,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-18",
-    26.21
-   ],
-   [
-    "2026-11-19",
-    26.21
-   ],
-   [
-    "2026-11-20",
-    26.21
-   ]
-  ],
-  "slug": "ugreen-cm690-25169-network-card-pcie-to-rj45-2-5g-ethernet-a-3567296689",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005005605683958",
-  "store": "aliexpress",
-  "title": "Baseus Wireless Car Air Pump Portable Air Compressor for Car Motorcycles Bicycle Electric Tire Inflator with LCD Digital Display",
-  "price_usd": 27.4,
-  "old_price_usd": 44.99,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005005605683958.html%253Fpdp_npi%253D6%252540dis%252521USD%25252144.99%25252127.40%252521%252521%25252144.99%25252127.40%252521%2525402140d36117949754400444298e0cf5%25252112000033780745293%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S73d0d3f4ab06475da7990ad4227729154.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Car Wash & Maintenance",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus Bomba de Aire Inalámbrica Portátil LCD",
-  "commission": 0.0538,
-  "why": "Hinchador eléctrico con pantalla digital para neumáticos",
-  "lang": "es",
-  "median_30d": 44.99,
-  "discount": 0.391,
-  "heat": 67.8,
-  "history": [
-   [
-    "2026-11-14",
-    27.4
-   ],
-   [
-    "2026-11-15",
-    27.4
-   ],
-   [
-    "2026-11-16",
-    27.4
-   ],
-   [
-    "2026-11-17",
-    27.4
-   ],
-   [
-    "2026-11-18",
-    27.4
-   ],
-   [
-    "2026-11-19",
-    27.4
-   ],
-   [
-    "2026-11-20",
-    27.4
-   ]
-  ],
-  "slug": "baseus-wireless-car-air-pump-portable-air-compressor-for-car-5605683958",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005003458841456",
-  "store": "aliexpress",
-  "title": "Baseus Inflator Pump 12V Portable Car Air Compressor for Motorcycles Bicycle Boat Tyre Inflator Digital Auto Inflatable Air Pump",
-  "price_usd": 26.3,
-  "old_price_usd": 43.99,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005003458841456.html%253Fpdp_npi%253D6%252540dis%252521USD%25252143.99%25252126.30%252521%252521%25252143.99%25252126.30%252521%2525402151fca717949753371377482e0cf9%25252112000025882100497%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb993392ac134477ba1f8ea2378632ecfV.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Car Wash & Maintenance",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus Minicompresor de Aire Portátil 12V para Coche",
-  "commission": 0.0538,
-  "why": "Infla neumáticos de coche, moto o bici fácilmente",
-  "lang": "es",
-  "median_30d": 43.99,
-  "discount": 0.4021,
-  "heat": 68.0,
-  "history": [
-   [
-    "2026-11-14",
-    26.83
-   ],
-   [
-    "2026-11-15",
-    26.83
-   ],
-   [
-    "2026-11-16",
-    26.83
-   ],
-   [
-    "2026-11-17",
-    26.83
-   ],
-   [
-    "2026-11-18",
-    26.3
-   ],
-   [
-    "2026-11-19",
-    26.3
-   ],
-   [
-    "2026-11-20",
-    26.3
-   ]
-  ],
-  "slug": "baseus-inflator-pump-12v-portable-car-air-compressor-for-mot-3458841456",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005012139114366",
-  "store": "aliexpress",
-  "title": "Baseus Magnetic Car Phone Holder Vacuum Suction Cup Stand Rotation Мagnet Holder For iPhone 17 16 Gym/Driving Vacuum Car Mount",
-  "price_usd": 16.55,
-  "old_price_usd": 35.7,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012139114366.html%253Fpdp_npi%253D6%252540dis%252521USD%25252135.70%25252116.55%252521%252521%25252135.70%25252116.55%252521%25254021013cc617949738737155201e0dac%25252112000057601781134%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S86b14cfa80af4935a4a41c7a542102fdE.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Holders & Stands",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Soporte magnético Baseus con ventosa de vacío",
-  "commission": 0.0538,
-  "why": "Fijación por ventosa de vacío y rotación para coche o gimnasio",
-  "lang": "es",
-  "median_30d": 35.7,
-  "discount": 0.5364,
-  "heat": 70.7,
-  "history": [
-   [
-    "2026-11-14",
-    17.49
-   ],
-   [
-    "2026-11-15",
-    17.49
-   ],
-   [
-    "2026-11-16",
-    17.49
-   ],
-   [
-    "2026-11-17",
-    17.49
-   ],
-   [
-    "2026-11-18",
-    16.55
-   ],
-   [
-    "2026-11-19",
-    16.55
-   ],
-   [
-    "2026-11-20",
-    16.55
-   ]
-  ],
-  "slug": "baseus-magnetic-car-phone-holder-vacuum-suction-cup-stand-ro-2139114366",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005006437050447",
-  "store": "aliexpress",
-  "title": "Baseus Car Emergency Safety Hammer 3 in 1 U-shaped Seat Belt Cutter Window Breaker Escape with Emergency Lamp Car Accessories",
-  "price_usd": 15.64,
-  "old_price_usd": 34.0,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006437050447.html%253Fpdp_npi%253D6%252540dis%252521USD%25252134.00%25252115.64%252521%252521%252521225.59%252521103.77%252521%252540212a7b8d17949752566142735e0f26%25252112000037163009103%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd9e69135c74b494f997088c1c35b6b67X.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Car Wash & Maintenance",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Martillo de emergencia Baseus 3 en 1 con luz",
-  "commission": 0.0538,
-  "why": "Rompeventanas, cortador de cinturón y lámpara de emergencia",
-  "lang": "es",
-  "median_30d": 34.0,
-  "discount": 0.54,
-  "heat": 70.8,
-  "history": [
-   [
-    "2026-11-14",
-    15.65
-   ],
-   [
-    "2026-11-15",
-    15.65
-   ],
-   [
-    "2026-11-16",
-    15.64
-   ],
-   [
-    "2026-11-17",
-    15.64
-   ],
-   [
-    "2026-11-18",
-    15.64
-   ],
-   [
-    "2026-11-19",
-    15.64
-   ],
-   [
-    "2026-11-20",
-    15.64
-   ]
-  ],
-  "slug": "baseus-car-emergency-safety-hammer-3-in-1-u-shaped-seat-belt-6437050447",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005013529854573",
   "store": "aliexpress",
   "title": "Cross-border New 3-Lens Dash Cam Front Inside Rear HD Triple Recording Car Reverse Image Driving Recorder",
@@ -16651,51 +16788,6 @@
   "day": "2026-11-19"
  },
  {
-  "pid": "aliexpress:1005013615203464",
-  "store": "aliexpress",
-  "title": "Animals Ceramics Deceased For Small And Pet Reliquaries Souvenir Coffin Funeral Dogs Ashes Urns Personalised Cremation Cats",
-  "price_usd": 8.41,
-  "old_price_usd": 27.13,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013615203464.html%253Fpdp_npi%253D6%252540dis%252521USD%25252127.13%2525218.41%252521%252521%252521180.00%25252155.80%252521%2525402151fce817950479243275747e0d65%25252112000061696508845%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Seb091a6c41cb47bf947415b929c3985cK.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Pet Products",
-  "niche": "pets",
-  "ships_to": [],
-  "title_local": "Urna Funeraria Ceramica Cenizas Mascotas Personalizada",
-  "commission": 0.3461,
-  "why": "",
-  "lang": "es",
-  "median_30d": 27.13,
-  "discount": 0.69,
-  "heat": 93.5,
-  "history": [
-   [
-    "2026-11-15",
-    16.83
-   ],
-   [
-    "2026-11-16",
-    11.67
-   ],
-   [
-    "2026-11-17",
-    8.41
-   ],
-   [
-    "2026-11-18",
-    8.41
-   ],
-   [
-    "2026-11-19",
-    8.41
-   ]
-  ],
-  "slug": "animals-ceramics-deceased-for-small-and-pet-reliquaries-souv-3615203464",
-  "day": "2026-11-19"
- },
- {
   "pid": "aliexpress:1005013201773287",
   "store": "aliexpress",
   "title": "Adjustable Table Saw Depth Gauge 0-60mm with Metric & Inch Scale Aluminum Setting Up Blade Router Bits Height Measuring Gauge",
@@ -17582,47 +17674,6 @@
    ]
   ],
   "slug": "50l-nylon-backpack-camping-bag-outdoor-sport-hiking-trekking-3350376780",
-  "day": "2026-11-17"
- },
- {
-  "pid": "aliexpress:1005007193129784",
-  "store": "aliexpress",
-  "title": "New in Shirt High Quality Mulberry Silk Short Sleeve Shirts for Men Slim Fit Formal Shirt Solid Color Tops Office White Clothes",
-  "price_usd": 24.06,
-  "old_price_usd": 77.61,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007193129784.html%253Fpdp_npi%253D6%252540dis%252521USD%25252177.61%25252124.06%252521%252521%252521515.00%252521159.65%252521%252540212a7b8d17948824989838313e0ddc%25252112000039758363224%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa8c3168111a141649bd77e2ea492e500Y.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Men's Shirts",
-  "niche": "fashion",
-  "ships_to": [],
-  "title_local": "Camisa formal slim fit de seda de morera para hombre",
-  "commission": 0.1153,
-  "why": "Confeccionada en seda de morera de alta calidad",
-  "lang": "es",
-  "median_30d": 77.61,
-  "discount": 0.69,
-  "heat": 93.5,
-  "history": [
-   [
-    "2026-11-14",
-    24.07
-   ],
-   [
-    "2026-11-15",
-    24.07
-   ],
-   [
-    "2026-11-16",
-    24.06
-   ],
-   [
-    "2026-11-17",
-    24.06
-   ]
-  ],
-  "slug": "new-in-shirt-high-quality-mulberry-silk-short-sleeve-shirts--7193129784",
   "day": "2026-11-17"
  },
  {
@@ -19116,35 +19167,6 @@
    ]
   ],
   "slug": "winter-new-children-s-baotou-cotton-slippers-boys-and-girls--7831051376",
-  "day": "2026-11-10"
- },
- {
-  "pid": "aliexpress:1005012068235397",
-  "store": "aliexpress",
-  "title": "2026 New Puma Men Classic Support Lightweight Comfort Breathable Running Shoes 311973-06",
-  "price_usd": 75.6,
-  "old_price_usd": 216.0,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012068235397.html%253Fpdp_npi%253D6%252540dis%252521USD%252521216.00%25252175.60%252521%252521%2525211433.32%252521501.66%252521%252540212a7b8d17942819182431808e0ddc%25252112000057446628958%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S455ae116d1d541f9801979edaa79a4d3C.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Sneakers",
-  "niche": "shoes",
-  "ships_to": [],
-  "title_local": "Puma Classic Running 311973-06",
-  "commission": 0.07690000000000001,
-  "why": "",
-  "lang": "es",
-  "median_30d": 216.0,
-  "discount": 0.65,
-  "heat": 86.0,
-  "history": [
-   [
-    "2026-11-10",
-    75.6
-   ]
-  ],
-  "slug": "2026-new-puma-men-classic-support-lightweight-comfort-breath-2068235397",
   "day": "2026-11-10"
  },
  {
