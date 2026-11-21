@@ -1,59 +1,5 @@
 [
  {
-  "pid": "joom:694b64bad27924010d76f029",
-  "store": "joom",
-  "title": "Abrigo de Lana para Hombre Otoño e Invierno Cálido Engrosado 2XL black",
-  "price_usd": 42.39,
-  "old_price_usd": null,
-  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F694b64bad27924010d76f029%3Fcurrency%3DEUR%26utm_productid%3D694b64bad27924010d76f029%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU3NDM2NjUsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY5NGI2NGJhZDI3OTI0MDEwZDc2ZjAyOSIsInYiOiI2OTRiNjRiYWQyNzkyNDFkMGQ3NmYwM2UiLCJjIjozOS4wfV19.BKGjq1LTBTX64YOKWhRbZIpRs4cfmhJMv2M31zzZhjAdXCZ_N3KLoQv1HcMYYq2tPco_Fxc48E7s0vWR0uHP5w%26variant_id%3D694b64bad279241d0d76f03e%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-20",
-  "image": "https://img.joomcdn.net/c5915f6c067b7357fd2fc3fd5bef750ff22ac96e_original.jpeg",
-  "rating": null,
-  "orders": null,
-  "category": "Joom/Moda masculina/Ropa/Chaquetas y abrigos/Abrigo",
-  "niche": "fashion",
-  "ships_to": [
-   "ES"
-  ],
-  "title_local": "Abrigo de lana para hombre cálido 2XL negro",
-  "commission": null,
-  "why": "Cálido y engrosado para protegerte en otoño e invierno",
-  "lang": "es",
-  "median_30d": 42.39,
-  "discount": 0.0,
-  "heat": 40.0,
-  "history": [],
-  "showcase": true,
-  "slug": "abrigo-de-lana-para-hombre-oto-o-e-invierno-c-lido-engrosado-010d76f029",
-  "day": "2026-11-21"
- },
- {
-  "pid": "joom:6a7ac6ad36ec9301de381b79",
-  "store": "joom",
-  "title": "Camiseta Kerrygold Mantequilla 2XL yellow",
-  "price_usd": 15.93,
-  "old_price_usd": null,
-  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F6a7ac6ad36ec9301de381b79%3Fcurrency%3DEUR%26utm_productid%3D6a7ac6ad36ec9301de381b79%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU3NDM2NjUsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjZhN2FjNmFkMzZlYzkzMDFkZTM4MWI3OSIsInYiOiI2YTdhYzZhZDM2ZWM5MzA4ZGUzODFiN2QiLCJjIjoxNC42Nn1dfQ.QDKzwXKiE71ksFiKKzDf7BIBFF7dkLHnDWsXjzIUSq78LF0t8btqf_B9DXqcdBbhyyMNcqrAEjFeYoU484wu_w%26variant_id%3D6a7ac6ad36ec9308de381b7d%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-20",
-  "image": "https://img.joomcdn.net/a5fb09a0bde5fe60b193d468cc5c0c7e7b51ddae_original.jpeg",
-  "rating": null,
-  "orders": null,
-  "category": "Joom/Moda masculina/Ropa/Tops/Camisetas",
-  "niche": "fashion",
-  "ships_to": [
-   "ES"
-  ],
-  "title_local": "Camiseta Kerrygold Mantequilla 2XL amarillo",
-  "commission": null,
-  "why": "Camiseta Kerrygold en color amarillo y talla 2XL",
-  "lang": "es",
-  "median_30d": 15.93,
-  "discount": 0.0,
-  "heat": 40.0,
-  "history": [],
-  "showcase": true,
-  "slug": "camiseta-kerrygold-mantequilla-2xl-yellow-01de381b79",
-  "day": "2026-11-21"
- },
- {
   "pid": "aliexpress:1005013629875944",
   "store": "aliexpress",
   "title": "Classic Vacuum Coffee Maker with Wood Handle Glass Siphon Brewer for Pour over Coffee Enthusiasts",
@@ -92,6 +38,96 @@
    ]
   ],
   "slug": "classic-vacuum-coffee-maker-with-wood-handle-glass-siphon-br-3629875944",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005013572035028",
+  "store": "aliexpress",
+  "title": "UGREEN CM564-55344 MICROPHONE USB Desktop 360 Degree Omnidirectional DSP Noise Reduction for PC",
+  "price_usd": 29.67,
+  "old_price_usd": 44.96,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013572035028.html%253Fpdp_npi%253D6%252540dis%252521USD%25252144.96%25252129.67%252521%252521%252521298.17%252521196.79%252521%252540212a7b8d17951316705696947e0ec3%25252112000061492993755%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S33a041949e70441aba75cc2efa710decY.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Micrófono USB UGREEN CM564",
+  "commission": 0.0538,
+  "why": "Captación omnidireccional 360 y reducción de ruido DSP",
+  "lang": "es",
+  "median_30d": 44.96,
+  "discount": 0.3401,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-12",
+    29.63
+   ],
+   [
+    "2026-11-13",
+    29.63
+   ],
+   [
+    "2026-11-14",
+    29.63
+   ],
+   [
+    "2026-11-20",
+    29.67
+   ],
+   [
+    "2026-11-21",
+    29.67
+   ]
+  ],
+  "slug": "ugreen-cm564-55344-microphone-usb-desktop-360-degree-omnidir-3572035028",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005013625870325",
+  "store": "aliexpress",
+  "title": "UGREEN L509-35501 CABLE USB C to C 1m PD 100W Braided E Mark Chip Fast Charging for Phone Laptop",
+  "price_usd": 20.53,
+  "old_price_usd": 31.11,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013625870325.html%253Fpdp_npi%253D6%252540dis%252521USD%25252131.11%25252120.53%252521%252521%252521206.31%252521136.16%252521%2525402101611117951311435634057e108b%25252112000061628765603%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb2d1609a69fc47438ed434594bda1f72V.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Cable UGREEN USB C a C 1m PD 100W",
+  "commission": 0.0538,
+  "why": "Carga rápida de 100W con diseño trenzado y chip E-Mark",
+  "lang": "es",
+  "median_30d": 31.11,
+  "discount": 0.3401,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-16",
+    20.53
+   ],
+   [
+    "2026-11-17",
+    20.53
+   ],
+   [
+    "2026-11-18",
+    20.53
+   ],
+   [
+    "2026-11-20",
+    20.53
+   ],
+   [
+    "2026-11-21",
+    20.53
+   ]
+  ],
+  "slug": "ugreen-l509-35501-cable-usb-c-to-c-1m-pd-100w-braided-e-mark-3625870325",
   "day": "2026-11-21"
  },
  {
@@ -1063,47 +1099,6 @@
    ]
   ],
   "slug": "redragon-k631-gery-65-wired-rgb-gaming-keyboard-68-keys-hot--7626769747",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005007010619110",
-  "store": "aliexpress",
-  "title": "Baseus 30W Car Fast Charger Quick Charge 4.0 3.0 USB Type-C Fast Charging Car Phone Charger For Huawei Xiaomi iPhone 15 14 13 12",
-  "price_usd": 7.63,
-  "old_price_usd": 16.79,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007010619110.html%253Fpdp_npi%253D6%252540dis%252521USD%25252116.79%2525217.63%252521%252521%252521111.36%25252150.64%252521%2525402141149b17951402633107723e0ea4%25252112000039050932022%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S75fbddc722b04ff7ae2890984644771dZ.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Interior Parts",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Cargador de coche Baseus 30W USB-C QC 4.0 3.0",
-  "commission": 0.0538,
-  "why": "Carga rápida de 30W compatible con Quick Charge 4.0 y 3.0",
-  "lang": "es",
-  "median_30d": 16.79,
-  "discount": 0.5456,
-  "heat": 70.9,
-  "history": [
-   [
-    "2026-11-18",
-    8.39
-   ],
-   [
-    "2026-11-19",
-    8.39
-   ],
-   [
-    "2026-11-20",
-    7.63
-   ],
-   [
-    "2026-11-21",
-    7.63
-   ]
-  ],
-  "slug": "baseus-30w-car-fast-charger-quick-charge-4-0-3-0-usb-type-c--7010619110",
   "day": "2026-11-21"
  },
  {
@@ -2694,59 +2689,6 @@
   "day": "2026-11-21"
  },
  {
-  "pid": "aliexpress:1005007476913334",
-  "store": "aliexpress",
-  "title": "Baseus Wireless Air Pump Portable Air Compressor Smart Digital Electric Car Air Pump for Car Motorcycle Bicycle Inflator Pump",
-  "price_usd": 32.59,
-  "old_price_usd": 82.31,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007476913334.html%253Fpdp_npi%253D6%252540dis%252521USD%25252182.31%25252132.59%252521%252521%252521546.54%252521216.36%252521%2525402151fd3a17951485007814173e0db4%25252112000040910354994%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S564200ffce8b4dc495cd7c7e83cbd6e61.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Car Wash & Maintenance",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Bomba de aire inalámbrica Baseus portátil digital",
-  "commission": 0.0538,
-  "why": "Compresor eléctrico para inflar coche, moto y bici",
-  "lang": "es",
-  "median_30d": 82.31,
-  "discount": 0.6041,
-  "heat": 87.0,
-  "history": [
-   [
-    "2026-11-14",
-    32.73
-   ],
-   [
-    "2026-11-15",
-    32.73
-   ],
-   [
-    "2026-11-16",
-    32.73
-   ],
-   [
-    "2026-11-18",
-    37.06
-   ],
-   [
-    "2026-11-19",
-    37.06
-   ],
-   [
-    "2026-11-20",
-    32.59
-   ],
-   [
-    "2026-11-21",
-    32.59
-   ]
-  ],
-  "slug": "baseus-wireless-air-pump-portable-air-compressor-smart-digit-7476913334",
-  "day": "2026-11-21"
- },
- {
   "pid": "joom:677cfee5f6501e011ed0db6e",
   "store": "joom",
   "title": "Teclado para controlador de juegos de 2,4 GHz, teclado para consola de juegos con sonido y conector para auriculares para Xbox Series X black",
@@ -4082,6 +4024,154 @@
    ]
   ],
   "slug": "audio-video-capture-card-4k-video-capture-card-1080p-60fps-2-0408699805",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "joom:694b64bad27924010d76f029",
+  "store": "joom",
+  "title": "Abrigo de Lana para Hombre Otoño e Invierno Cálido Engrosado 2XL black",
+  "price_usd": 42.39,
+  "old_price_usd": null,
+  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F694b64bad27924010d76f029%3Fcurrency%3DEUR%26utm_productid%3D694b64bad27924010d76f029%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU3NDM2NjUsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY5NGI2NGJhZDI3OTI0MDEwZDc2ZjAyOSIsInYiOiI2OTRiNjRiYWQyNzkyNDFkMGQ3NmYwM2UiLCJjIjozOS4wfV19.BKGjq1LTBTX64YOKWhRbZIpRs4cfmhJMv2M31zzZhjAdXCZ_N3KLoQv1HcMYYq2tPco_Fxc48E7s0vWR0uHP5w%26variant_id%3D694b64bad279241d0d76f03e%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-20",
+  "image": "https://img.joomcdn.net/c5915f6c067b7357fd2fc3fd5bef750ff22ac96e_original.jpeg",
+  "rating": null,
+  "orders": null,
+  "category": "Joom/Moda masculina/Ropa/Chaquetas y abrigos/Abrigo",
+  "niche": "fashion",
+  "ships_to": [
+   "ES"
+  ],
+  "title_local": "Abrigo de lana para hombre cálido 2XL negro",
+  "commission": null,
+  "why": "Cálido y engrosado para protegerte en otoño e invierno",
+  "lang": "es",
+  "median_30d": 42.39,
+  "discount": 0.0,
+  "heat": 40.0,
+  "history": [],
+  "showcase": true,
+  "slug": "abrigo-de-lana-para-hombre-oto-o-e-invierno-c-lido-engrosado-010d76f029",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "joom:6a7ac6ad36ec9301de381b79",
+  "store": "joom",
+  "title": "Camiseta Kerrygold Mantequilla 2XL yellow",
+  "price_usd": 15.93,
+  "old_price_usd": null,
+  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F6a7ac6ad36ec9301de381b79%3Fcurrency%3DEUR%26utm_productid%3D6a7ac6ad36ec9301de381b79%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU3NDM2NjUsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjZhN2FjNmFkMzZlYzkzMDFkZTM4MWI3OSIsInYiOiI2YTdhYzZhZDM2ZWM5MzA4ZGUzODFiN2QiLCJjIjoxNC42Nn1dfQ.QDKzwXKiE71ksFiKKzDf7BIBFF7dkLHnDWsXjzIUSq78LF0t8btqf_B9DXqcdBbhyyMNcqrAEjFeYoU484wu_w%26variant_id%3D6a7ac6ad36ec9308de381b7d%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-20",
+  "image": "https://img.joomcdn.net/a5fb09a0bde5fe60b193d468cc5c0c7e7b51ddae_original.jpeg",
+  "rating": null,
+  "orders": null,
+  "category": "Joom/Moda masculina/Ropa/Tops/Camisetas",
+  "niche": "fashion",
+  "ships_to": [
+   "ES"
+  ],
+  "title_local": "Camiseta Kerrygold Mantequilla 2XL amarillo",
+  "commission": null,
+  "why": "Camiseta Kerrygold en color amarillo y talla 2XL",
+  "lang": "es",
+  "median_30d": 15.93,
+  "discount": 0.0,
+  "heat": 40.0,
+  "history": [],
+  "showcase": true,
+  "slug": "camiseta-kerrygold-mantequilla-2xl-yellow-01de381b79",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005007010619110",
+  "store": "aliexpress",
+  "title": "Baseus 30W Car Fast Charger Quick Charge 4.0 3.0 USB Type-C Fast Charging Car Phone Charger For Huawei Xiaomi iPhone 15 14 13 12",
+  "price_usd": 7.63,
+  "old_price_usd": 16.79,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007010619110.html%253Fpdp_npi%253D6%252540dis%252521USD%25252116.79%2525217.63%252521%252521%252521111.36%25252150.64%252521%2525402141149b17951402633107723e0ea4%25252112000039050932022%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S75fbddc722b04ff7ae2890984644771dZ.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Interior Parts",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Cargador de coche Baseus 30W USB-C QC 4.0 3.0",
+  "commission": 0.0538,
+  "why": "Carga rápida de 30W compatible con Quick Charge 4.0 y 3.0",
+  "lang": "es",
+  "median_30d": 16.79,
+  "discount": 0.5456,
+  "heat": 70.9,
+  "history": [
+   [
+    "2026-11-18",
+    8.39
+   ],
+   [
+    "2026-11-19",
+    8.39
+   ],
+   [
+    "2026-11-20",
+    7.63
+   ],
+   [
+    "2026-11-21",
+    7.63
+   ]
+  ],
+  "slug": "baseus-30w-car-fast-charger-quick-charge-4-0-3-0-usb-type-c--7010619110",
+  "day": "2026-11-21"
+ },
+ {
+  "pid": "aliexpress:1005007476913334",
+  "store": "aliexpress",
+  "title": "Baseus Wireless Air Pump Portable Air Compressor Smart Digital Electric Car Air Pump for Car Motorcycle Bicycle Inflator Pump",
+  "price_usd": 32.59,
+  "old_price_usd": 82.31,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007476913334.html%253Fpdp_npi%253D6%252540dis%252521USD%25252182.31%25252132.59%252521%252521%252521546.54%252521216.36%252521%2525402151fd3a17951485007814173e0db4%25252112000040910354994%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S564200ffce8b4dc495cd7c7e83cbd6e61.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Car Wash & Maintenance",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Bomba de aire inalámbrica Baseus portátil digital",
+  "commission": 0.0538,
+  "why": "Compresor eléctrico para inflar coche, moto y bici",
+  "lang": "es",
+  "median_30d": 82.31,
+  "discount": 0.6041,
+  "heat": 87.0,
+  "history": [
+   [
+    "2026-11-14",
+    32.73
+   ],
+   [
+    "2026-11-15",
+    32.73
+   ],
+   [
+    "2026-11-16",
+    32.73
+   ],
+   [
+    "2026-11-18",
+    37.06
+   ],
+   [
+    "2026-11-19",
+    37.06
+   ],
+   [
+    "2026-11-20",
+    32.59
+   ],
+   [
+    "2026-11-21",
+    32.59
+   ]
+  ],
+  "slug": "baseus-wireless-air-pump-portable-air-compressor-smart-digit-7476913334",
   "day": "2026-11-21"
  },
  {
@@ -15561,112 +15651,6 @@
    ]
   ],
   "slug": "redragon-shiva-k517-rgb-usb-94-key-wired-membrane-rgb-gaming-2522479806",
-  "day": "2026-11-19"
- },
- {
-  "pid": "aliexpress:1005005466056231",
-  "store": "aliexpress",
-  "title": "Baseus Laptop Kickstand for Computer Keyboard Holder Mini Portable Laptop Stands For Macbook Xiaomi Notebook Aluminum Support",
-  "price_usd": 8.34,
-  "old_price_usd": 19.73,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005005466056231.html%253Fpdp_npi%253D6%252540dis%252521USD%25252119.73%2525218.34%252521%252521%252521130.86%25252155.36%252521%2525402140d33617949586127124573e0d32%25252112000033195163140%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdf03263c64a44e718f947888a4c85b20k.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Soporte Mini Portátil Baseus para Laptop y Teclado",
-  "commission": 0.0538,
-  "why": "Diseño portátil de aluminio para ordenador",
-  "lang": "es",
-  "median_30d": 19.73,
-  "discount": 0.5773,
-  "heat": 71.5,
-  "history": [
-   [
-    "2026-11-10",
-    8.25
-   ],
-   [
-    "2026-11-11",
-    8.25
-   ],
-   [
-    "2026-11-12",
-    8.25
-   ],
-   [
-    "2026-11-16",
-    8.34
-   ],
-   [
-    "2026-11-17",
-    8.34
-   ],
-   [
-    "2026-11-18",
-    8.34
-   ],
-   [
-    "2026-11-19",
-    8.34
-   ]
-  ],
-  "slug": "baseus-laptop-kickstand-for-computer-keyboard-holder-mini-po-5466056231",
-  "day": "2026-11-19"
- },
- {
-  "pid": "aliexpress:1005009725478963",
-  "store": "aliexpress",
-  "title": "Redragon 556 SE Wired Gaming 104 Keys Hot-Swap Mechanical Keyboard Noise Dampening Kit, Upgraded Socket",
-  "price_usd": 52.49,
-  "old_price_usd": 125.98,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009725478963.html%253Fpdp_npi%253D6%252540dis%252521USD%252521125.98%25252152.49%252521%252521%252521125.98%25252152.49%252521%2525402102f1cd17949581458261582e0e0e%25252112000049959843799%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf3309d31a3eb45a888e0b6ba36a91a46j.png",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado Mecánico Redragon 556 SE",
-  "commission": 0.023,
-  "why": "104 teclas con kit de reducción de ruido y Hot-Swap.",
-  "lang": "es",
-  "median_30d": 125.98,
-  "discount": 0.5833,
-  "heat": 71.7,
-  "history": [
-   [
-    "2026-11-12",
-    56.69
-   ],
-   [
-    "2026-11-13",
-    56.69
-   ],
-   [
-    "2026-11-14",
-    56.69
-   ],
-   [
-    "2026-11-16",
-    52.55
-   ],
-   [
-    "2026-11-17",
-    52.55
-   ],
-   [
-    "2026-11-18",
-    52.49
-   ],
-   [
-    "2026-11-19",
-    52.49
-   ]
-  ],
-  "slug": "redragon-556-se-wired-gaming-104-keys-hot-swap-mechanical-ke-9725478963",
   "day": "2026-11-19"
  },
  {
