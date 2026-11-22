@@ -860,6 +860,15 @@
       "store": "TOPPING Professional Audio Store"
     },
     {
+      "id": "1005012303471280",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3cda35ff95ae42bcbd61d68584bbfce1j.jpg",
+      "name": "Topping DX1 II DAC & Headphone Amp",
+      "price_usd": 112.41,
+      "list_usd": null,
+      "checked": "2026-11-22",
+      "store": "Shenzhenaudio Store"
+    },
+    {
       "id": "1005005438434497",
       "img": "https://ae-pic-a1.aliexpress-media.com/kf/S1b99fff5f7b54344a339b86010e14fa7V.jpg",
       "name": "SMSL SU-1 MQA DAC",
@@ -921,6 +930,33 @@
       "list_usd": 206.38,
       "checked": "2026-11-22",
       "store": "FiiO Audio Store"
+    },
+    {
+      "id": "1005004488147832",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb18c950189184603aefa5c6a586e7deay.jpg",
+      "name": "FiiO BTR17 Bluetooth DAC & Headphone Amp",
+      "price_usd": 170.98,
+      "list_usd": 216.22,
+      "checked": "2026-11-22",
+      "store": "BrightAudio Store"
+    },
+    {
+      "id": "1005006081773814",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/S27c60b765d3847eb90e103186a3dbc7fp.jpg",
+      "name": "FiiO K11 Desktop DAC & Headphone Amp",
+      "price_usd": 123.2,
+      "list_usd": 155.79,
+      "checked": "2026-11-22",
+      "store": "BrightAudio Store"
+    },
+    {
+      "id": "1005006468787689",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/S90d2b6b4f83a4571aaa078e6b39671f2o.jpg",
+      "name": "FiiO KA17 Portable USB DAC & Amp",
+      "price_usd": 121.05,
+      "list_usd": 140.76,
+      "checked": "2026-11-22",
+      "store": "BrightAudio Store"
     },
     {
       "id": "1005012922841967",
