@@ -1,32 +1,5 @@
 [
  {
-  "pid": "joom:68c936538322550165b84383",
-  "store": "joom",
-  "title": "Mochila de pana chic para mujer, ligera, correas ajustables, cierre de cremallera, versátil para viajes y desplazamientos verde",
-  "price_usd": 13.22,
-  "old_price_usd": null,
-  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F68c936538322550165b84383%3Fcurrency%3DEUR%26utm_productid%3D68c936538322550165b84383%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU5MTUwMDQsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY4YzkzNjUzODMyMjU1MDE2NWI4NDM4MyIsInYiOiI2OGM5MzY1MzgzMjI1NWRkNjViODQzOGIiLCJjIjoxMi4xNiwibyI6MTIuMzd9XX0.y1TdMXdZik-2Idnl4jh8H7Dg1sbOh3GxknBoMF53Cf4OYHm9sHptE6kHztLTzN3MqiMylotRek46YVbCZ2eiTg%26variant_id%3D68c93653832255dd65b8438b%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-22",
-  "image": "https://img.joomcdn.net/70fef72f14ebcde661cfd80c6620b9419d67e577_original.jpeg",
-  "rating": null,
-  "orders": null,
-  "category": "Joom/Bolsos y maletas/Bolsos para mujer/Mochilas",
-  "niche": "fashion",
-  "ships_to": [
-   "ES"
-  ],
-  "title_local": "Mochila de Pana Chic Mujer Verde",
-  "commission": null,
-  "why": "Es ligera, versátil y cuenta con correas ajustables.",
-  "lang": "es",
-  "median_30d": 13.22,
-  "discount": 0.0,
-  "heat": 40.0,
-  "history": [],
-  "showcase": true,
-  "slug": "mochila-de-pana-chic-para-mujer-ligera-correas-ajustables-ci-0165b84383",
-  "day": "2026-11-22"
- },
- {
   "pid": "joom:67bd4b9534fa7301e9aba3de",
   "store": "joom",
   "title": "Papelera de Pared Ahorro de Espacio Gran Capacidad Diseño Estético Robusta Cubo de Basura Colgante para Small white",
@@ -51,6 +24,513 @@
   "history": [],
   "showcase": true,
   "slug": "papelera-de-pared-ahorro-de-espacio-gran-capacidad-dise-o-es-01e9aba3de",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005010459150450",
+  "store": "aliexpress",
+  "title": "Maden Men's Retro Split Pigskin High Top Work Boots Casual Lace-Up Strap Desert Boots Outdoor Ankle Boots for Autumn and Winter",
+  "price_usd": 67.97,
+  "old_price_usd": 224.37,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010459150450.html%253Fpdp_npi%253D6%252540dis%252521USD%252521224.37%25252167.97%252521%252521%2525211489.85%252521451.35%252521%2525402140d36117953194379153953e0ddb%25252112000052481562273%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sec616b9cc0e5471c9b2850b8e4da00d63.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Men's Shoes",
+  "niche": "shoes",
+  "ships_to": [],
+  "title_local": "Maden Botas de Trabajo Retro de Piel para Hombre",
+  "commission": 0.0538,
+  "why": "Calzado alto con cordones ideal para otoño e invierno",
+  "lang": "es",
+  "median_30d": 224.37,
+  "discount": 0.6971,
+  "heat": 85.2,
+  "history": [
+   [
+    "2026-11-11",
+    74.09
+   ],
+   [
+    "2026-11-12",
+    74.09
+   ],
+   [
+    "2026-11-13",
+    74.14
+   ],
+   [
+    "2026-11-14",
+    74.14
+   ],
+   [
+    "2026-11-22",
+    67.97
+   ]
+  ],
+  "slug": "maden-men-s-retro-split-pigskin-high-top-work-boots-casual-l-0459150450",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005013479389976",
+  "store": "aliexpress",
+  "title": "UGREEN 35050 M.2 NVMe SSD Enclosure USB-C Up to 10Gbps Aluminum Housing with Thermal Pad for External Storage and Data Backup",
+  "price_usd": 27.17,
+  "old_price_usd": 41.17,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013479389976.html%253Fpdp_npi%253D6%252540dis%252521USD%25252141.17%25252127.17%252521%252521%252521273.36%252521180.42%252521%2525402140da8b17953044838432317e0d31%25252112000061229769473%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1f16bcfb955242d9b3f43246ff2927b8K.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Carcasa M.2 NVMe SSD USB-C 10Gbps",
+  "commission": 0.0538,
+  "why": "Almacenamiento externo rápido a 10Gbps con aluminio",
+  "lang": "es",
+  "median_30d": 41.17,
+  "discount": 0.3401,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-18",
+    27.2
+   ],
+   [
+    "2026-11-19",
+    27.2
+   ],
+   [
+    "2026-11-20",
+    27.2
+   ],
+   [
+    "2026-11-21",
+    27.2
+   ],
+   [
+    "2026-11-22",
+    27.17
+   ]
+  ],
+  "slug": "ugreen-35050-m-2-nvme-ssd-enclosure-usb-c-up-to-10gbps-alumi-3479389976",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005013626140581",
+  "store": "aliexpress",
+  "title": "UGREEN 45154 HUB USB C to HDMI 2.0 4K 60Hz Type C Dock Station for Laptop PC Monitor Tablet",
+  "price_usd": 33.67,
+  "old_price_usd": 51.02,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013626140581.html%253Fpdp_npi%253D6%252540dis%252521USD%25252151.02%25252133.67%252521%252521%252521338.75%252521223.57%252521%252540212a7b8d17953042031458852e1092%25252112000061629781917%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S45d2086639b04088a67851c4e17cb617p.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Hub USB C a HDMI 4K 60Hz para Portátil",
+  "commission": 0.0538,
+  "why": "Disfruta de imagen ultra nítida a 60Hz en tu monitor",
+  "lang": "es",
+  "median_30d": 51.02,
+  "discount": 0.3401,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-16",
+    33.71
+   ],
+   [
+    "2026-11-17",
+    33.71
+   ],
+   [
+    "2026-11-18",
+    33.71
+   ],
+   [
+    "2026-11-19",
+    33.71
+   ],
+   [
+    "2026-11-20",
+    33.71
+   ],
+   [
+    "2026-11-21",
+    33.71
+   ],
+   [
+    "2026-11-22",
+    33.67
+   ]
+  ],
+  "slug": "ugreen-45154-hub-usb-c-to-hdmi-2-0-4k-60hz-type-c-dock-stati-3626140581",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005013419044974",
+  "store": "aliexpress",
+  "title": "UGREEN MM107 HDMI to DP Adapter 4K HD Converter for Monitor TV Laptop Desktop Projector",
+  "price_usd": 28.76,
+  "old_price_usd": 43.58,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013419044974.html%253Fpdp_npi%253D6%252540dis%252521USD%25252143.58%25252128.76%252521%252521%252521289.38%252521190.99%252521%2525400b8ded7b17953039745957447e0e71%25252112000061044777397%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0caec83f7d904b259abf02827f8884b8o.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN MM107 Adaptador HDMI a DisplayPort 4K",
+  "commission": 0.0538,
+  "why": "Permite conectar tu portátil u ordenador a un monitor",
+  "lang": "es",
+  "median_30d": 43.58,
+  "discount": 0.3401,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-12",
+    28.76
+   ],
+   [
+    "2026-11-13",
+    28.76
+   ],
+   [
+    "2026-11-14",
+    28.76
+   ],
+   [
+    "2026-11-18",
+    28.8
+   ],
+   [
+    "2026-11-19",
+    28.8
+   ],
+   [
+    "2026-11-20",
+    28.8
+   ],
+   [
+    "2026-11-22",
+    28.76
+   ]
+  ],
+  "slug": "ugreen-mm107-hdmi-to-dp-adapter-4k-hd-converter-for-monitor--3419044974",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005013195552354",
+  "store": "aliexpress",
+  "title": "UGREEN CM478 90881 USB C Hub 5 in 1 Docking Station HDMI 3 USB 3.0 3.5mm Audio Type C Adapter",
+  "price_usd": 33.63,
+  "old_price_usd": 50.96,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013195552354.html%253Fpdp_npi%253D6%252540dis%252521USD%25252150.96%25252133.63%252521%252521%252521338.38%252521223.33%252521%2525402140da8b17953044838432317e0d31%25252112000060526428734%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb6e02c7b34734bc0b25ba802f91d4a9a7.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN CM478 Hub USB-C 5 en 1 con HDMI y Audio 3.5mm",
+  "commission": 0.0538,
+  "why": "Incluye salida de audio y conexión HDMI en un solo adaptador",
+  "lang": "es",
+  "median_30d": 50.96,
+  "discount": 0.3401,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-18",
+    33.68
+   ],
+   [
+    "2026-11-19",
+    33.68
+   ],
+   [
+    "2026-11-20",
+    33.68
+   ],
+   [
+    "2026-11-22",
+    33.63
+   ]
+  ],
+  "slug": "ugreen-cm478-90881-usb-c-hub-5-in-1-docking-station-hdmi-3-u-3195552354",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005013185129199",
+  "store": "aliexpress",
+  "title": "UGREEN 15597 USB C Hub 5 in 1 Docking Station 4K 60Hz HDMI 3 USB 3.0 PD 100W Type C Adapter",
+  "price_usd": 33.63,
+  "old_price_usd": 50.96,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013185129199.html%253Fpdp_npi%253D6%252540dis%252521USD%25252150.96%25252133.63%252521%252521%252521338.38%252521223.33%252521%2525402140da8b17953044838432317e0d31%25252112000060526528126%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S85f00fa4e73046fca798e32117147649u.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN 15597 Hub USB-C 5 en 1 con HDMI 4K y PD 100W",
+  "commission": 0.0538,
+  "why": "Conecta pantallas 4K y carga tu portátil simultáneamente",
+  "lang": "es",
+  "median_30d": 50.96,
+  "discount": 0.3401,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-18",
+    33.68
+   ],
+   [
+    "2026-11-19",
+    33.68
+   ],
+   [
+    "2026-11-20",
+    33.68
+   ],
+   [
+    "2026-11-22",
+    33.63
+   ]
+  ],
+  "slug": "ugreen-15597-usb-c-hub-5-in-1-docking-station-4k-60hz-hdmi-3-3185129199",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005013241502361",
+  "store": "aliexpress",
+  "title": "UGREEN CM380 80856 6-in-1 USB-C Hub for MacBook Pro/Air, 4K 60Hz USB-C Display, 4K 30Hz HDMI, 2 USB 3.0, SD/TF, 100W PD",
+  "price_usd": 33.63,
+  "old_price_usd": 50.96,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013241502361.html%253Fpdp_npi%253D6%252540dis%252521USD%25252150.96%25252133.63%252521%252521%252521338.38%252521223.33%252521%2525402151fd2c17953044786977114e0db7%25252112000060588159427%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6313356b557d43e3b2fff7335dd48591i.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN CM380 Hub USB-C 6 en 1 para MacBook Pro/Air",
+  "commission": 0.0538,
+  "why": "Añade múltiples puertos de vídeo, datos y carga de 100W",
+  "lang": "es",
+  "median_30d": 50.96,
+  "discount": 0.3401,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-18",
+    33.68
+   ],
+   [
+    "2026-11-19",
+    33.68
+   ],
+   [
+    "2026-11-20",
+    33.68
+   ],
+   [
+    "2026-11-22",
+    33.63
+   ]
+  ],
+  "slug": "ugreen-cm380-80856-6-in-1-usb-c-hub-for-macbook-pro-air-4k-6-3241502361",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005013356091885",
+  "store": "aliexpress",
+  "title": "UGREEN 95067 Magnetic Car Phone Holder Vacuum Suction Base Adjustable Telescopic Arm for Dashboard Home Office",
+  "price_usd": 29.71,
+  "old_price_usd": 45.02,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013356091885.html%253Fpdp_npi%253D6%252540dis%252521USD%25252145.02%25252129.71%252521%252521%252521298.94%252521197.30%252521%2525400b8ded7b17953039745957447e0e71%25252112000060911459098%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S827be09de87740e6917c41ac709bab37K.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN 95067 Soporte Movil Coche Succion Magnetica",
+  "commission": 0.0538,
+  "why": "Cuenta con base de succión al vacío y brazo telescópico",
+  "lang": "es",
+  "median_30d": 45.02,
+  "discount": 0.3401,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-12",
+    29.71
+   ],
+   [
+    "2026-11-13",
+    29.71
+   ],
+   [
+    "2026-11-14",
+    29.75
+   ],
+   [
+    "2026-11-15",
+    29.75
+   ],
+   [
+    "2026-11-16",
+    29.75
+   ],
+   [
+    "2026-11-22",
+    29.71
+   ]
+  ],
+  "slug": "ugreen-95067-magnetic-car-phone-holder-vacuum-suction-base-a-3356091885",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005013430568986",
+  "store": "aliexpress",
+  "title": "UGREEN 55467 Gigabit Ethernet Switch CM934 8 Ports Unmanaged Metal Case 16Gbps Switching Capacity 4kV Protection Auto MDI MDIX",
+  "price_usd": 31.96,
+  "old_price_usd": 48.43,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013430568986.html%253Fpdp_npi%253D6%252540dis%252521USD%25252148.43%25252131.96%252521%252521%252521321.60%252521212.26%252521%2525402151fd2c17953043136732122e0d55%25252112000061131310150%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S49a6a8be0a2d4b7fa00ed28f1225484bO.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN 55467 Switch Ethernet Gigabit 8 Puertos CM934",
+  "commission": 0.0538,
+  "why": "Ofrece alta velocidad de red con carcasa metálica duradera",
+  "lang": "es",
+  "median_30d": 48.43,
+  "discount": 0.3401,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-12",
+    31.03
+   ],
+   [
+    "2026-11-13",
+    31.03
+   ],
+   [
+    "2026-11-14",
+    31.03
+   ],
+   [
+    "2026-11-16",
+    31.07
+   ],
+   [
+    "2026-11-17",
+    31.07
+   ],
+   [
+    "2026-11-18",
+    31.07
+   ],
+   [
+    "2026-11-22",
+    31.96
+   ]
+  ],
+  "slug": "ugreen-55467-gigabit-ethernet-switch-cm934-8-ports-unmanaged-3430568986",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005013127030094",
+  "store": "aliexpress",
+  "title": "UGREEN 30523 Digital Optical Coaxial to RCA 3.5mm Audio Converter DAC for TV Speaker Amplifier PS4.",
+  "price_usd": 25.4,
+  "old_price_usd": 38.49,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013127030094.html%253Fpdp_npi%253D6%252540dis%252521USD%25252138.49%25252125.40%252521%252521%252521255.60%252521168.70%252521%2525402151fd2c17953039565873103e0d96%25252112000060332836219%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sac6fee9434ea41058b7a01544987875cT.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN 30523 Conversesor Audio Digital a RCA 3.5mm DAC",
+  "commission": 0.0538,
+  "why": "Permite conectar tu televisor a altavoces y amplificadores",
+  "lang": "es",
+  "median_30d": 38.49,
+  "discount": 0.3401,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-20",
+    25.44
+   ],
+   [
+    "2026-11-21",
+    25.44
+   ],
+   [
+    "2026-11-22",
+    25.4
+   ]
+  ],
+  "slug": "ugreen-30523-digital-optical-coaxial-to-rca-3-5mm-audio-conv-3127030094",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005013572035028",
+  "store": "aliexpress",
+  "title": "UGREEN CM564-55344 MICROPHONE USB Desktop 360 Degree Omnidirectional DSP Noise Reduction for PC",
+  "price_usd": 29.63,
+  "old_price_usd": 44.9,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013572035028.html%253Fpdp_npi%253D6%252540dis%252521USD%25252144.90%25252129.63%252521%252521%252521298.17%252521196.79%252521%2525402151fd2c17953044864586851e0cf2%25252112000061492993755%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S33a041949e70441aba75cc2efa710decY.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Micrófono USB UGREEN CM564",
+  "commission": 0.0538,
+  "why": "Captación omnidireccional 360 y reducción de ruido DSP",
+  "lang": "es",
+  "median_30d": 44.9,
+  "discount": 0.3401,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-12",
+    29.63
+   ],
+   [
+    "2026-11-13",
+    29.63
+   ],
+   [
+    "2026-11-14",
+    29.63
+   ],
+   [
+    "2026-11-20",
+    29.67
+   ],
+   [
+    "2026-11-21",
+    29.67
+   ],
+   [
+    "2026-11-22",
+    29.63
+   ]
+  ],
+  "slug": "ugreen-cm564-55344-microphone-usb-desktop-360-degree-omnidir-3572035028",
   "day": "2026-11-22"
  },
  {
@@ -287,96 +767,6 @@
   "day": "2026-11-22"
  },
  {
-  "pid": "aliexpress:1005013613617338",
-  "store": "aliexpress",
-  "title": "UGREEN CM636-45038 HUB USB C 5 in 1 0.25m 1 USB 3.0 3 USB 2.0 PD Aluminum for Laptop PC",
-  "price_usd": 21.36,
-  "old_price_usd": 32.37,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013613617338.html%253Fpdp_npi%253D6%252540dis%252521USD%25252132.37%25252121.36%252521%252521%252521214.93%252521141.85%252521%2525400b8ded7b17953039509233748e0e71%25252112000061629179984%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S980f2d7264b34510b0dd7e73c65095deZ.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Hub USB-C 5 en 1 UGREEN CM636 0.25m Aluminio",
-  "commission": 0.0538,
-  "why": "Carga rápida PD y puertos USB adicionales para tu PC.",
-  "lang": "es",
-  "median_30d": 32.37,
-  "discount": 0.3401,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-20",
-    21.39
-   ],
-   [
-    "2026-11-21",
-    21.39
-   ],
-   [
-    "2026-11-22",
-    21.36
-   ]
-  ],
-  "slug": "ugreen-cm636-45038-hub-usb-c-5-in-1-0-25m-1-usb-3-0-3-usb-2--3613617338",
-  "day": "2026-11-22"
- },
- {
-  "pid": "aliexpress:1005006619410179",
-  "store": "aliexpress",
-  "title": "UGREEN Dual HDMI USB HUB 8K HDMI Adapter 10 in 1 Splitter with RJ45 USB 3.0 PD 100W Dock for MacBook Pro Air M2 M1 USB C HUB",
-  "price_usd": 15.29,
-  "old_price_usd": 24.27,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006619410179.html%253Fpdp_npi%253D6%252540dis%252521USD%25252124.27%25252115.29%252521%252521%25252124.27%25252115.29%252521%2525402151fca717953037983516086e1012%25252112000037840124986%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7fbc1b31ac7445ac87733caf30b88c01O.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Hub USB-C 10 en 1 UGREEN con doble HDMI 8K y PD 100W",
-  "commission": 0.023,
-  "why": "Conecta dos pantallas HDMI 8K, red RJ45 y carga a 100 W",
-  "lang": "es",
-  "median_30d": 24.27,
-  "discount": 0.37,
-  "heat": 67.4,
-  "history": [
-   [
-    "2026-11-12",
-    15.29
-   ],
-   [
-    "2026-11-16",
-    15.29
-   ],
-   [
-    "2026-11-17",
-    15.29
-   ],
-   [
-    "2026-11-18",
-    15.29
-   ],
-   [
-    "2026-11-20",
-    15.29
-   ],
-   [
-    "2026-11-21",
-    15.29
-   ],
-   [
-    "2026-11-22",
-    15.29
-   ]
-  ],
-  "slug": "ugreen-dual-hdmi-usb-hub-8k-hdmi-adapter-10-in-1-splitter-wi-6619410179",
-  "day": "2026-11-22"
- },
- {
   "pid": "aliexpress:1005006232682386",
   "store": "aliexpress",
   "title": "UGREEN Mechanical Keyboard 108 PBT Keycaps Wired Keyboard Red Switch Russian/Korean/EN for Desktop Laptop Windows Mac OS Gaming",
@@ -496,133 +886,6 @@
   "day": "2026-11-22"
  },
  {
-  "pid": "aliexpress:1005007476166643",
-  "store": "aliexpress",
-  "title": "UGREEN Hyper-Fast Scroll Wireless Mouse Bluetooth 5.4 2.4G Ergonomic 5000DPI for MacBook Tablet Laptops Computer PC Mice",
-  "price_usd": 17.4,
-  "old_price_usd": 30.65,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007476166643.html%253Fpdp_npi%253D6%252540dis%252521USD%25252130.65%25252117.40%252521%252521%25252130.65%25252117.40%252521%2525402151fd3a17953040433015377e0fe2%25252112000056692964385%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfcac1fbe5ce54f53af5923caa8bdf50cB.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Ratón Inalámbrico UGREEN Bluetooth 5.4 5000DPI",
-  "commission": 0.023,
-  "why": "Desplazamiento rápido y diseño ergonómico multidispositivo",
-  "lang": "es",
-  "median_30d": 30.65,
-  "discount": 0.4323,
-  "heat": 68.6,
-  "history": [
-   [
-    "2026-11-20",
-    17.4
-   ],
-   [
-    "2026-11-21",
-    17.4
-   ],
-   [
-    "2026-11-22",
-    17.4
-   ]
-  ],
-  "slug": "ugreen-hyper-fast-scroll-wireless-mouse-bluetooth-5-4-2-4g-e-7476166643",
-  "day": "2026-11-22"
- },
- {
-  "pid": "aliexpress:1005005160016135",
-  "store": "aliexpress",
-  "title": "UGREEN USB C HUB Type C 3.1 to HDMI 4K SD TF PD 100W Adapter For Macbook iPad Pro Air M2 M1 PC Accessories 5Gbps USB C 3.0 HUB",
-  "price_usd": 12.71,
-  "old_price_usd": 22.65,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005005160016135.html%253Fpdp_npi%253D6%252540dis%252521USD%25252122.65%25252112.71%252521%252521%25252122.65%25252112.71%252521%2525402151fd2c17953040191054877e0db7%25252112000040009238983%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S674ee6022f504b3e8bbc6b6a3a8007d1e.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Hub USB-C UGREEN a HDMI 4K, SD/TF y PD 100W",
-  "commission": 0.023,
-  "why": "Añade HDMI 4K, ranuras SD/TF y carga PD de 100 W",
-  "lang": "es",
-  "median_30d": 22.65,
-  "discount": 0.4389,
-  "heat": 68.8,
-  "history": [
-   [
-    "2026-11-20",
-    12.72
-   ],
-   [
-    "2026-11-21",
-    12.72
-   ],
-   [
-    "2026-11-22",
-    12.71
-   ]
-  ],
-  "slug": "ugreen-usb-c-hub-type-c-3-1-to-hdmi-4k-sd-tf-pd-100w-adapter-5160016135",
-  "day": "2026-11-22"
- },
- {
-  "pid": "aliexpress:1005011920857962",
-  "store": "aliexpress",
-  "title": "Baseus PS3 Air Bluetooth Stylus Pen for iPad Pencil Universal Wired Charging for All iPad Air Pro Mini Tablet Touch Writing Pen",
-  "price_usd": 20.72,
-  "old_price_usd": 37.13,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011920857962.html%253Fpdp_npi%253D6%252540dis%252521USD%25252137.13%25252120.72%252521%252521%25252137.13%25252120.72%252521%2525402140f88817953046651547875e0dac%25252112000057034735225%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S108521c896aa4970a42b4f3b27e32a921.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Tablet Accessories & Parts",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus Lápiz Óptico PS3 Air Bluetooth para iPad",
-  "commission": 0.0538,
-  "why": "Lápiz táctil universal para escribir en tablets iPad",
-  "lang": "es",
-  "median_30d": 37.13,
-  "discount": 0.442,
-  "heat": 68.8,
-  "history": [
-   [
-    "2026-11-13",
-    20.74
-   ],
-   [
-    "2026-11-14",
-    20.74
-   ],
-   [
-    "2026-11-18",
-    20.7
-   ],
-   [
-    "2026-11-19",
-    20.7
-   ],
-   [
-    "2026-11-20",
-    20.74
-   ],
-   [
-    "2026-11-21",
-    20.74
-   ],
-   [
-    "2026-11-22",
-    20.72
-   ]
-  ],
-  "slug": "baseus-ps3-air-bluetooth-stylus-pen-for-ipad-pencil-universa-1920857962",
-  "day": "2026-11-22"
- },
- {
   "pid": "aliexpress:1005013614793912",
   "store": "aliexpress",
   "title": "ATTACK SHARK X68 HE 8000Hz Magnetic Switch Gaming Keyboard Rapid Trigger 0.01mm Adjustable Actuation Wired RGB",
@@ -673,47 +936,6 @@
    ]
   ],
   "slug": "attack-shark-x68-he-8000hz-magnetic-switch-gaming-keyboard-r-3614793912",
-  "day": "2026-11-22"
- },
- {
-  "pid": "aliexpress:1005007627008167",
-  "store": "aliexpress",
-  "title": "Redragon M811 Aatrox MMO Gaming Mouse, 15 Programmable Buttons Wired RGB Gamer Mouse w/ Ergonomic Natural Grip Build",
-  "price_usd": 24.42,
-  "old_price_usd": 48.4,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007627008167.html%253Fpdp_npi%253D6%252540dis%252521USD%25252148.40%25252124.42%252521%252521%25252148.40%25252124.42%252521%2525402151fd3a17953040433015377e0fe2%25252112000042285856060%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S60599f1c8305466caf0dcd143b6af58al.png",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Ratón Gaming Redragon M811 Aatrox 15 Botones",
-  "commission": 0.023,
-  "why": "15 botones programables para partidas de MMO.",
-  "lang": "es",
-  "median_30d": 48.4,
-  "discount": 0.4955,
-  "heat": 69.9,
-  "history": [
-   [
-    "2026-11-12",
-    24.2
-   ],
-   [
-    "2026-11-13",
-    24.2
-   ],
-   [
-    "2026-11-14",
-    24.2
-   ],
-   [
-    "2026-11-22",
-    24.42
-   ]
-  ],
-  "slug": "redragon-m811-aatrox-mmo-gaming-mouse-15-programmable-button-7627008167",
   "day": "2026-11-22"
  },
  {
@@ -833,47 +1055,6 @@
    ]
   ],
   "slug": "attack-shark-r5-ultra-carbon-fiber-wireless-gaming-mouse-39g-3010988095",
-  "day": "2026-11-22"
- },
- {
-  "pid": "aliexpress:1005007626999201",
-  "store": "aliexpress",
-  "title": "Redragon M612 Predator RGB Gaming Mouse 8000 DPI Wired Optical with 11 Programmable Buttons, White",
-  "price_usd": 16.5,
-  "old_price_usd": 33.0,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007626999201.html%253Fpdp_npi%253D6%252540dis%252521USD%25252133.00%25252116.50%252521%252521%25252133.00%25252116.50%252521%2525402102f1cd17953040399941905e0dcd%25252112000041720461587%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8f1f87f0fab24917b15a03832ab95f25o.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Redragon M612 Predator Ratón Gaming 8000 DPI Blanco",
-  "commission": 0.023,
-  "why": "11 botones programables y sensor óptico",
-  "lang": "es",
-  "median_30d": 33.0,
-  "discount": 0.5,
-  "heat": 70.0,
-  "history": [
-   [
-    "2026-11-18",
-    16.5
-   ],
-   [
-    "2026-11-19",
-    16.5
-   ],
-   [
-    "2026-11-20",
-    16.5
-   ],
-   [
-    "2026-11-22",
-    16.5
-   ]
-  ],
-  "slug": "redragon-m612-predator-rgb-gaming-mouse-8000-dpi-wired-optic-7626999201",
   "day": "2026-11-22"
  },
  {
@@ -1082,64 +1263,48 @@
   "day": "2026-11-22"
  },
  {
-  "pid": "aliexpress:1005007713627856",
+  "pid": "aliexpress:1005007010619110",
   "store": "aliexpress",
-  "title": "Redragon K556 RGB LED Backlit Wired 104 Keys Hot-Swap Noise Absorbing Foams Mechanical Gaming Keyboard",
-  "price_usd": 22.5,
-  "old_price_usd": 49.99,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007713627856.html%253Fpdp_npi%253D6%252540dis%252521USD%25252149.99%25252122.50%252521%252521%25252149.99%25252122.50%252521%2525402151fd3a17953040433015377e0fe2%25252112000041943628190%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S662a894fbb0d4f3fa38a63c2808a126db.png",
+  "title": "Baseus 30W Car Fast Charger Quick Charge 4.0 3.0 USB Type-C Fast Charging Car Phone Charger For Huawei Xiaomi iPhone 15 14 13 12",
+  "price_usd": 7.67,
+  "old_price_usd": 16.77,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007010619110.html%253Fpdp_npi%253D6%252540dis%252521USD%25252116.77%2525217.67%252521%252521%252521111.36%25252150.97%252521%2525402151fd2c17953134856333996e0f23%25252112000039050932022%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S75fbddc722b04ff7ae2890984644771dZ.jpg",
   "rating": null,
   "orders": null,
-  "category": "Computer Peripherals",
+  "category": "Interior Parts",
   "niche": "brands",
   "ships_to": [],
-  "title_local": "Redragon K556 Teclado Mecánico Gaming Hot-Swap 104 Teclas RGB",
-  "commission": 0.023,
-  "why": "Diseño hot-swap con espuma absorción de ruido y RGB",
+  "title_local": "Cargador de coche Baseus 30W USB-C QC 4.0 3.0",
+  "commission": 0.0538,
+  "why": "Carga rápida de 30W compatible con Quick Charge 4.0 y 3.0",
   "lang": "es",
-  "median_30d": 50.39,
-  "discount": 0.5535,
-  "heat": 71.1,
+  "median_30d": 16.77,
+  "discount": 0.5426,
+  "heat": 70.9,
   "history": [
    [
-    "2026-11-14",
-    50.39
-   ],
-   [
-    "2026-11-15",
-    50.39
-   ],
-   [
-    "2026-11-16",
-    50.39
-   ],
-   [
-    "2026-11-17",
-    50.39
-   ],
-   [
     "2026-11-18",
-    50.39
+    8.39
    ],
    [
     "2026-11-19",
-    50.39
+    8.39
    ],
    [
     "2026-11-20",
-    22.5
+    7.63
    ],
    [
     "2026-11-21",
-    22.5
+    7.63
    ],
    [
     "2026-11-22",
-    22.5
+    7.67
    ]
   ],
-  "slug": "redragon-k556-rgb-led-backlit-wired-104-keys-hot-swap-noise--7713627856",
+  "slug": "baseus-30w-car-fast-charger-quick-charge-4-0-3-0-usb-type-c--7010619110",
   "day": "2026-11-22"
  },
  {
@@ -1462,55 +1627,6 @@
   "day": "2026-11-22"
  },
  {
-  "pid": "aliexpress:1005013388705372",
-  "store": "aliexpress",
-  "title": "ATTACK SHARK SK06 Topographic Keycap Set,Side Printed,PBT,135 Keys,White Cherry Profile,Shine Through Contour Lines,Double-Shot",
-  "price_usd": 21.75,
-  "old_price_usd": 52.08,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013388705372.html%253Fpdp_npi%253D6%252540dis%252521USD%25252152.08%25252121.75%252521%252521%252521345.79%252521144.40%252521%2525402141315917953036366681635e10a9%25252112000061006981956%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S07b75844605245b4b7895ac328ebfd52f.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Set de Keycaps ATTACK SHARK SK06",
-  "commission": 0.023,
-  "why": "135 teclas PBT de perfil Cherry con diseño topográfico.",
-  "lang": "es",
-  "median_30d": 52.08,
-  "discount": 0.5824,
-  "heat": 71.6,
-  "history": [
-   [
-    "2026-11-16",
-    22.69
-   ],
-   [
-    "2026-11-17",
-    22.69
-   ],
-   [
-    "2026-11-18",
-    21.78
-   ],
-   [
-    "2026-11-19",
-    21.78
-   ],
-   [
-    "2026-11-20",
-    21.78
-   ],
-   [
-    "2026-11-22",
-    21.75
-   ]
-  ],
-  "slug": "attack-shark-sk06-topographic-keycap-set-side-printed-pbt-13-3388705372",
-  "day": "2026-11-22"
- },
- {
   "pid": "aliexpress:1005012897963296",
   "store": "aliexpress",
   "title": "New AJAZZ ALUX68 Wired Mechanical Keyboard Magnetic Switch Hot-Swap Gasket RGB 8K 0.01mm RT Aluminum Alloy Gaming Keyboard",
@@ -1651,47 +1767,6 @@
    ]
   ],
   "slug": "attack-shark-x68-he-mechanical-keyboard-128k-scan-rate-0-01m-2936623113",
-  "day": "2026-11-22"
- },
- {
-  "pid": "aliexpress:1005011718172424",
-  "store": "aliexpress",
-  "title": "Ajazz AJ179 V2 Right-handed Wireless Gaming Mouse PAW3311 Sensor Tri Mode Dual 1K Computer Office Mouse DPI12000",
-  "price_usd": 20.76,
-  "old_price_usd": 50.76,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011718172424.html%253Fpdp_npi%253D6%252540dis%252521USD%25252150.76%25252120.76%252521%252521%252521337.02%252521137.84%252521%2525402151fd3a17953040433015377e0fe2%25252112000056342152993%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc198d6b05ac54bf0a6d6aff43c96d0506.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Ratón gaming Ajazz AJ179 V2 PAW3311 12000 DPI",
-  "commission": 0.023,
-  "why": "Sensor PAW3311 con 12000 DPI y conexión trimodal",
-  "lang": "es",
-  "median_30d": 50.76,
-  "discount": 0.591,
-  "heat": 71.8,
-  "history": [
-   [
-    "2026-11-18",
-    22.11
-   ],
-   [
-    "2026-11-19",
-    22.11
-   ],
-   [
-    "2026-11-20",
-    22.11
-   ],
-   [
-    "2026-11-22",
-    20.76
-   ]
-  ],
-  "slug": "ajazz-aj179-v2-right-handed-wireless-gaming-mouse-paw3311-se-1718172424",
   "day": "2026-11-22"
  },
  {
@@ -2180,35 +2255,6 @@
    ]
   ],
   "slug": "keychron-lemokey-l5he-wired-magnetic-switch-keyboard-gateron-3645980195",
-  "day": "2026-11-22"
- },
- {
-  "pid": "aliexpress:1005013671264407",
-  "store": "aliexpress",
-  "title": "UGREEN USB C Docking Station Dual Monitor 7-in-1 2xHDMI Dual 4K@60Hz 10Gbps USB-A&C Data Port PD100W for HP Thinkpad Dell Lenovo",
-  "price_usd": 21.92,
-  "old_price_usd": 68.12,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013671264407.html%253Fpdp_npi%253D6%252540dis%252521USD%25252168.12%25252121.92%252521%252521%25252168.12%25252121.92%252521%2525402141315917953036170134204e0d0e%25252112000061779995144%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfa98554f06f84e2a816cc2bf5139f7382.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "UGREEN Hub USB-C 7 en 1 Dual 4K 100W",
-  "commission": 0.023,
-  "why": "Conecta dos monitores 4K y carga tu portátil a la vez.",
-  "lang": "es",
-  "median_30d": 68.12,
-  "discount": 0.6782,
-  "heat": 73.6,
-  "history": [
-   [
-    "2026-11-22",
-    21.92
-   ]
-  ],
-  "slug": "ugreen-usb-c-docking-station-dual-monitor-7-in-1-2xhdmi-dual-3671264407",
   "day": "2026-11-22"
  },
  {
@@ -3680,6 +3726,570 @@
   "day": "2026-11-22"
  },
  {
+  "pid": "aliexpress:1005013664908499",
+  "store": "aliexpress",
+  "title": "Silicone Elastic Joystick Protective Ring Invisible Game Controller for Switch 2 Pro Xbox Ps4 Ps5 Rog Ally Joystick Protectors",
+  "price_usd": 1.36,
+  "old_price_usd": 4.47,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013664908499.html%253Fpdp_npi%253D6%252540dis%252521USD%2525214.47%2525211.36%252521%252521%25252129.68%2525219.06%252521%2525402140d33617953203054378334e0db6%25252112000061762581122%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd6c96d1bdef84ee9bd47077ebd7dde3el.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "dollar",
+  "ships_to": [],
+  "title_local": "Anillos Protectores de Joystick Silicona para Switch Ps4 Ps5",
+  "commission": 0.0538,
+  "why": "Protege los joysticks del desgaste y mejora la precisión.",
+  "lang": "es",
+  "median_30d": 4.47,
+  "discount": 0.6957,
+  "heat": 77.5,
+  "history": [
+   [
+    "2026-11-22",
+    1.36
+   ]
+  ],
+  "slug": "silicone-elastic-joystick-protective-ring-invisible-game-con-3664908499",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005013579687644",
+  "store": "aliexpress",
+  "title": "UGREEN HD183 CABLE HDMI 2.1 Optical Fiber 30m 8K 60Hz 4K 240Hz for Monitor TV Projector Cinema",
+  "price_usd": 79.24,
+  "old_price_usd": 120.06,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013579687644.html%253Fpdp_npi%253D6%252540dis%252521USD%252521120.06%25252179.24%252521%252521%252521797.19%252521526.15%252521%25254021013cc017953044433916336e0e58%25252112000061580446192%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf7be183cf8dd4a30822709c4f4fa9fc0T.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Cable HDMI 2.1 Óptico UGREEN HD183 30m 8K 60Hz",
+  "commission": 0.0538,
+  "why": "Transmisión a larga distancia sin pérdida de calidad de imagen.",
+  "lang": "es",
+  "median_30d": 120.06,
+  "discount": 0.34,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-22",
+    79.24
+   ]
+  ],
+  "slug": "ugreen-hd183-cable-hdmi-2-1-optical-fiber-30m-8k-60hz-4k-240-3579687644",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "joom:68c936538322550165b84383",
+  "store": "joom",
+  "title": "Mochila de pana chic para mujer, ligera, correas ajustables, cierre de cremallera, versátil para viajes y desplazamientos verde",
+  "price_usd": 13.22,
+  "old_price_usd": null,
+  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F68c936538322550165b84383%3Fcurrency%3DEUR%26utm_productid%3D68c936538322550165b84383%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU5MTUwMDQsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY4YzkzNjUzODMyMjU1MDE2NWI4NDM4MyIsInYiOiI2OGM5MzY1MzgzMjI1NWRkNjViODQzOGIiLCJjIjoxMi4xNiwibyI6MTIuMzd9XX0.y1TdMXdZik-2Idnl4jh8H7Dg1sbOh3GxknBoMF53Cf4OYHm9sHptE6kHztLTzN3MqiMylotRek46YVbCZ2eiTg%26variant_id%3D68c93653832255dd65b8438b%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-22",
+  "image": "https://img.joomcdn.net/70fef72f14ebcde661cfd80c6620b9419d67e577_original.jpeg",
+  "rating": null,
+  "orders": null,
+  "category": "Joom/Bolsos y maletas/Bolsos para mujer/Mochilas",
+  "niche": "fashion",
+  "ships_to": [
+   "ES"
+  ],
+  "title_local": "Mochila de Pana Chic Mujer Verde",
+  "commission": null,
+  "why": "Es ligera, versátil y cuenta con correas ajustables.",
+  "lang": "es",
+  "median_30d": 13.22,
+  "discount": 0.0,
+  "heat": 40.0,
+  "history": [],
+  "showcase": true,
+  "slug": "mochila-de-pana-chic-para-mujer-ligera-correas-ajustables-ci-0165b84383",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005013613617338",
+  "store": "aliexpress",
+  "title": "UGREEN CM636-45038 HUB USB C 5 in 1 0.25m 1 USB 3.0 3 USB 2.0 PD Aluminum for Laptop PC",
+  "price_usd": 21.36,
+  "old_price_usd": 32.37,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013613617338.html%253Fpdp_npi%253D6%252540dis%252521USD%25252132.37%25252121.36%252521%252521%252521214.93%252521141.85%252521%2525400b8ded7b17953039509233748e0e71%25252112000061629179984%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S980f2d7264b34510b0dd7e73c65095deZ.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Hub USB-C 5 en 1 UGREEN CM636 0.25m Aluminio",
+  "commission": 0.0538,
+  "why": "Carga rápida PD y puertos USB adicionales para tu PC.",
+  "lang": "es",
+  "median_30d": 32.37,
+  "discount": 0.3401,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-20",
+    21.39
+   ],
+   [
+    "2026-11-21",
+    21.39
+   ],
+   [
+    "2026-11-22",
+    21.36
+   ]
+  ],
+  "slug": "ugreen-cm636-45038-hub-usb-c-5-in-1-0-25m-1-usb-3-0-3-usb-2--3613617338",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005006619410179",
+  "store": "aliexpress",
+  "title": "UGREEN Dual HDMI USB HUB 8K HDMI Adapter 10 in 1 Splitter with RJ45 USB 3.0 PD 100W Dock for MacBook Pro Air M2 M1 USB C HUB",
+  "price_usd": 15.29,
+  "old_price_usd": 24.27,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006619410179.html%253Fpdp_npi%253D6%252540dis%252521USD%25252124.27%25252115.29%252521%252521%25252124.27%25252115.29%252521%2525402151fca717953037983516086e1012%25252112000037840124986%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7fbc1b31ac7445ac87733caf30b88c01O.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Hub USB-C 10 en 1 UGREEN con doble HDMI 8K y PD 100W",
+  "commission": 0.023,
+  "why": "Conecta dos pantallas HDMI 8K, red RJ45 y carga a 100 W",
+  "lang": "es",
+  "median_30d": 24.27,
+  "discount": 0.37,
+  "heat": 67.4,
+  "history": [
+   [
+    "2026-11-12",
+    15.29
+   ],
+   [
+    "2026-11-16",
+    15.29
+   ],
+   [
+    "2026-11-17",
+    15.29
+   ],
+   [
+    "2026-11-18",
+    15.29
+   ],
+   [
+    "2026-11-20",
+    15.29
+   ],
+   [
+    "2026-11-21",
+    15.29
+   ],
+   [
+    "2026-11-22",
+    15.29
+   ]
+  ],
+  "slug": "ugreen-dual-hdmi-usb-hub-8k-hdmi-adapter-10-in-1-splitter-wi-6619410179",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005007476166643",
+  "store": "aliexpress",
+  "title": "UGREEN Hyper-Fast Scroll Wireless Mouse Bluetooth 5.4 2.4G Ergonomic 5000DPI for MacBook Tablet Laptops Computer PC Mice",
+  "price_usd": 17.4,
+  "old_price_usd": 30.65,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007476166643.html%253Fpdp_npi%253D6%252540dis%252521USD%25252130.65%25252117.40%252521%252521%25252130.65%25252117.40%252521%2525402151fd3a17953040433015377e0fe2%25252112000056692964385%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfcac1fbe5ce54f53af5923caa8bdf50cB.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Ratón Inalámbrico UGREEN Bluetooth 5.4 5000DPI",
+  "commission": 0.023,
+  "why": "Desplazamiento rápido y diseño ergonómico multidispositivo",
+  "lang": "es",
+  "median_30d": 30.65,
+  "discount": 0.4323,
+  "heat": 68.6,
+  "history": [
+   [
+    "2026-11-20",
+    17.4
+   ],
+   [
+    "2026-11-21",
+    17.4
+   ],
+   [
+    "2026-11-22",
+    17.4
+   ]
+  ],
+  "slug": "ugreen-hyper-fast-scroll-wireless-mouse-bluetooth-5-4-2-4g-e-7476166643",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005005160016135",
+  "store": "aliexpress",
+  "title": "UGREEN USB C HUB Type C 3.1 to HDMI 4K SD TF PD 100W Adapter For Macbook iPad Pro Air M2 M1 PC Accessories 5Gbps USB C 3.0 HUB",
+  "price_usd": 12.71,
+  "old_price_usd": 22.65,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005005160016135.html%253Fpdp_npi%253D6%252540dis%252521USD%25252122.65%25252112.71%252521%252521%25252122.65%25252112.71%252521%2525402151fd2c17953040191054877e0db7%25252112000040009238983%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S674ee6022f504b3e8bbc6b6a3a8007d1e.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Hub USB-C UGREEN a HDMI 4K, SD/TF y PD 100W",
+  "commission": 0.023,
+  "why": "Añade HDMI 4K, ranuras SD/TF y carga PD de 100 W",
+  "lang": "es",
+  "median_30d": 22.65,
+  "discount": 0.4389,
+  "heat": 68.8,
+  "history": [
+   [
+    "2026-11-20",
+    12.72
+   ],
+   [
+    "2026-11-21",
+    12.72
+   ],
+   [
+    "2026-11-22",
+    12.71
+   ]
+  ],
+  "slug": "ugreen-usb-c-hub-type-c-3-1-to-hdmi-4k-sd-tf-pd-100w-adapter-5160016135",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005011920857962",
+  "store": "aliexpress",
+  "title": "Baseus PS3 Air Bluetooth Stylus Pen for iPad Pencil Universal Wired Charging for All iPad Air Pro Mini Tablet Touch Writing Pen",
+  "price_usd": 20.72,
+  "old_price_usd": 37.13,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011920857962.html%253Fpdp_npi%253D6%252540dis%252521USD%25252137.13%25252120.72%252521%252521%25252137.13%25252120.72%252521%2525402140f88817953046651547875e0dac%25252112000057034735225%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S108521c896aa4970a42b4f3b27e32a921.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Tablet Accessories & Parts",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Lápiz Óptico PS3 Air Bluetooth para iPad",
+  "commission": 0.0538,
+  "why": "Lápiz táctil universal para escribir en tablets iPad",
+  "lang": "es",
+  "median_30d": 37.13,
+  "discount": 0.442,
+  "heat": 68.8,
+  "history": [
+   [
+    "2026-11-13",
+    20.74
+   ],
+   [
+    "2026-11-14",
+    20.74
+   ],
+   [
+    "2026-11-18",
+    20.7
+   ],
+   [
+    "2026-11-19",
+    20.7
+   ],
+   [
+    "2026-11-20",
+    20.74
+   ],
+   [
+    "2026-11-21",
+    20.74
+   ],
+   [
+    "2026-11-22",
+    20.72
+   ]
+  ],
+  "slug": "baseus-ps3-air-bluetooth-stylus-pen-for-ipad-pencil-universa-1920857962",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005007627008167",
+  "store": "aliexpress",
+  "title": "Redragon M811 Aatrox MMO Gaming Mouse, 15 Programmable Buttons Wired RGB Gamer Mouse w/ Ergonomic Natural Grip Build",
+  "price_usd": 24.42,
+  "old_price_usd": 48.4,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007627008167.html%253Fpdp_npi%253D6%252540dis%252521USD%25252148.40%25252124.42%252521%252521%25252148.40%25252124.42%252521%2525402151fd3a17953040433015377e0fe2%25252112000042285856060%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S60599f1c8305466caf0dcd143b6af58al.png",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Ratón Gaming Redragon M811 Aatrox 15 Botones",
+  "commission": 0.023,
+  "why": "15 botones programables para partidas de MMO.",
+  "lang": "es",
+  "median_30d": 48.4,
+  "discount": 0.4955,
+  "heat": 69.9,
+  "history": [
+   [
+    "2026-11-12",
+    24.2
+   ],
+   [
+    "2026-11-13",
+    24.2
+   ],
+   [
+    "2026-11-14",
+    24.2
+   ],
+   [
+    "2026-11-22",
+    24.42
+   ]
+  ],
+  "slug": "redragon-m811-aatrox-mmo-gaming-mouse-15-programmable-button-7627008167",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005007626999201",
+  "store": "aliexpress",
+  "title": "Redragon M612 Predator RGB Gaming Mouse 8000 DPI Wired Optical with 11 Programmable Buttons, White",
+  "price_usd": 16.5,
+  "old_price_usd": 33.0,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007626999201.html%253Fpdp_npi%253D6%252540dis%252521USD%25252133.00%25252116.50%252521%252521%25252133.00%25252116.50%252521%2525402102f1cd17953040399941905e0dcd%25252112000041720461587%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8f1f87f0fab24917b15a03832ab95f25o.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Redragon M612 Predator Ratón Gaming 8000 DPI Blanco",
+  "commission": 0.023,
+  "why": "11 botones programables y sensor óptico",
+  "lang": "es",
+  "median_30d": 33.0,
+  "discount": 0.5,
+  "heat": 70.0,
+  "history": [
+   [
+    "2026-11-18",
+    16.5
+   ],
+   [
+    "2026-11-19",
+    16.5
+   ],
+   [
+    "2026-11-20",
+    16.5
+   ],
+   [
+    "2026-11-22",
+    16.5
+   ]
+  ],
+  "slug": "redragon-m612-predator-rgb-gaming-mouse-8000-dpi-wired-optic-7626999201",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005007713627856",
+  "store": "aliexpress",
+  "title": "Redragon K556 RGB LED Backlit Wired 104 Keys Hot-Swap Noise Absorbing Foams Mechanical Gaming Keyboard",
+  "price_usd": 22.5,
+  "old_price_usd": 49.99,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007713627856.html%253Fpdp_npi%253D6%252540dis%252521USD%25252149.99%25252122.50%252521%252521%25252149.99%25252122.50%252521%2525402151fd3a17953040433015377e0fe2%25252112000041943628190%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S662a894fbb0d4f3fa38a63c2808a126db.png",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Redragon K556 Teclado Mecánico Gaming Hot-Swap 104 Teclas RGB",
+  "commission": 0.023,
+  "why": "Diseño hot-swap con espuma absorción de ruido y RGB",
+  "lang": "es",
+  "median_30d": 50.39,
+  "discount": 0.5535,
+  "heat": 71.1,
+  "history": [
+   [
+    "2026-11-14",
+    50.39
+   ],
+   [
+    "2026-11-15",
+    50.39
+   ],
+   [
+    "2026-11-16",
+    50.39
+   ],
+   [
+    "2026-11-17",
+    50.39
+   ],
+   [
+    "2026-11-18",
+    50.39
+   ],
+   [
+    "2026-11-19",
+    50.39
+   ],
+   [
+    "2026-11-20",
+    22.5
+   ],
+   [
+    "2026-11-21",
+    22.5
+   ],
+   [
+    "2026-11-22",
+    22.5
+   ]
+  ],
+  "slug": "redragon-k556-rgb-led-backlit-wired-104-keys-hot-swap-noise--7713627856",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005013388705372",
+  "store": "aliexpress",
+  "title": "ATTACK SHARK SK06 Topographic Keycap Set,Side Printed,PBT,135 Keys,White Cherry Profile,Shine Through Contour Lines,Double-Shot",
+  "price_usd": 21.75,
+  "old_price_usd": 52.08,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013388705372.html%253Fpdp_npi%253D6%252540dis%252521USD%25252152.08%25252121.75%252521%252521%252521345.79%252521144.40%252521%2525402141315917953036366681635e10a9%25252112000061006981956%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S07b75844605245b4b7895ac328ebfd52f.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Set de Keycaps ATTACK SHARK SK06",
+  "commission": 0.023,
+  "why": "135 teclas PBT de perfil Cherry con diseño topográfico.",
+  "lang": "es",
+  "median_30d": 52.08,
+  "discount": 0.5824,
+  "heat": 71.6,
+  "history": [
+   [
+    "2026-11-16",
+    22.69
+   ],
+   [
+    "2026-11-17",
+    22.69
+   ],
+   [
+    "2026-11-18",
+    21.78
+   ],
+   [
+    "2026-11-19",
+    21.78
+   ],
+   [
+    "2026-11-20",
+    21.78
+   ],
+   [
+    "2026-11-22",
+    21.75
+   ]
+  ],
+  "slug": "attack-shark-sk06-topographic-keycap-set-side-printed-pbt-13-3388705372",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005011718172424",
+  "store": "aliexpress",
+  "title": "Ajazz AJ179 V2 Right-handed Wireless Gaming Mouse PAW3311 Sensor Tri Mode Dual 1K Computer Office Mouse DPI12000",
+  "price_usd": 20.76,
+  "old_price_usd": 50.76,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011718172424.html%253Fpdp_npi%253D6%252540dis%252521USD%25252150.76%25252120.76%252521%252521%252521337.02%252521137.84%252521%2525402151fd3a17953040433015377e0fe2%25252112000056342152993%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc198d6b05ac54bf0a6d6aff43c96d0506.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Ratón gaming Ajazz AJ179 V2 PAW3311 12000 DPI",
+  "commission": 0.023,
+  "why": "Sensor PAW3311 con 12000 DPI y conexión trimodal",
+  "lang": "es",
+  "median_30d": 50.76,
+  "discount": 0.591,
+  "heat": 71.8,
+  "history": [
+   [
+    "2026-11-18",
+    22.11
+   ],
+   [
+    "2026-11-19",
+    22.11
+   ],
+   [
+    "2026-11-20",
+    22.11
+   ],
+   [
+    "2026-11-22",
+    20.76
+   ]
+  ],
+  "slug": "ajazz-aj179-v2-right-handed-wireless-gaming-mouse-paw3311-se-1718172424",
+  "day": "2026-11-22"
+ },
+ {
+  "pid": "aliexpress:1005013671264407",
+  "store": "aliexpress",
+  "title": "UGREEN USB C Docking Station Dual Monitor 7-in-1 2xHDMI Dual 4K@60Hz 10Gbps USB-A&C Data Port PD100W for HP Thinkpad Dell Lenovo",
+  "price_usd": 21.92,
+  "old_price_usd": 68.12,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013671264407.html%253Fpdp_npi%253D6%252540dis%252521USD%25252168.12%25252121.92%252521%252521%25252168.12%25252121.92%252521%2525402141315917953036170134204e0d0e%25252112000061779995144%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sfa98554f06f84e2a816cc2bf5139f7382.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Hub USB-C 7 en 1 Dual 4K 100W",
+  "commission": 0.023,
+  "why": "Conecta dos monitores 4K y carga tu portátil a la vez.",
+  "lang": "es",
+  "median_30d": 68.12,
+  "discount": 0.6782,
+  "heat": 73.6,
+  "history": [
+   [
+    "2026-11-22",
+    21.92
+   ]
+  ],
+  "slug": "ugreen-usb-c-docking-station-dual-monitor-7-in-1-2xhdmi-dual-3671264407",
+  "day": "2026-11-22"
+ },
+ {
   "pid": "aliexpress:1005013617071987",
   "store": "aliexpress",
   "title": "X205LITE Gaming SSD M.2 2280 NVMe PCIe4.0 3500MB/s 1TB 2TB 4TB TLC 3D NAND High-Speed SSD for PS5 Desktop Laptop PC",
@@ -3911,51 +4521,6 @@
    ]
   ],
   "slug": "nordic-home-furnishings-solid-wood-high-quality-mouse-and-ca-3644507782",
-  "day": "2026-11-22"
- },
- {
-  "pid": "aliexpress:1005007010619110",
-  "store": "aliexpress",
-  "title": "Baseus 30W Car Fast Charger Quick Charge 4.0 3.0 USB Type-C Fast Charging Car Phone Charger For Huawei Xiaomi iPhone 15 14 13 12",
-  "price_usd": 7.67,
-  "old_price_usd": 16.77,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007010619110.html%253Fpdp_npi%253D6%252540dis%252521USD%25252116.77%2525217.67%252521%252521%252521111.36%25252150.97%252521%2525402151fd2c17953134856333996e0f23%25252112000039050932022%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S75fbddc722b04ff7ae2890984644771dZ.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Interior Parts",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Cargador de coche Baseus 30W USB-C QC 4.0 3.0",
-  "commission": 0.0538,
-  "why": "Carga rápida de 30W compatible con Quick Charge 4.0 y 3.0",
-  "lang": "es",
-  "median_30d": 16.77,
-  "discount": 0.5426,
-  "heat": 70.9,
-  "history": [
-   [
-    "2026-11-18",
-    8.39
-   ],
-   [
-    "2026-11-19",
-    8.39
-   ],
-   [
-    "2026-11-20",
-    7.63
-   ],
-   [
-    "2026-11-21",
-    7.63
-   ],
-   [
-    "2026-11-22",
-    7.67
-   ]
-  ],
-  "slug": "baseus-30w-car-fast-charger-quick-charge-4-0-3-0-usb-type-c--7010619110",
   "day": "2026-11-22"
  },
  {
@@ -4559,59 +5124,6 @@
   "day": "2026-11-22"
  },
  {
-  "pid": "aliexpress:1005013626140581",
-  "store": "aliexpress",
-  "title": "UGREEN 45154 HUB USB C to HDMI 2.0 4K 60Hz Type C Dock Station for Laptop PC Monitor Tablet",
-  "price_usd": 33.71,
-  "old_price_usd": 51.08,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013626140581.html%253Fpdp_npi%253D6%252540dis%252521USD%25252151.08%25252133.71%252521%252521%252521338.75%252521223.57%252521%252540214114e317951314043683357e0f2b%25252112000061629781917%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S45d2086639b04088a67851c4e17cb617p.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "UGREEN Hub USB C a HDMI 4K 60Hz para Portátil",
-  "commission": 0.0538,
-  "why": "Disfruta de imagen ultra nítida a 60Hz en tu monitor",
-  "lang": "es",
-  "median_30d": 51.08,
-  "discount": 0.3401,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-16",
-    33.71
-   ],
-   [
-    "2026-11-17",
-    33.71
-   ],
-   [
-    "2026-11-18",
-    33.71
-   ],
-   [
-    "2026-11-19",
-    33.71
-   ],
-   [
-    "2026-11-20",
-    33.71
-   ],
-   [
-    "2026-11-21",
-    33.71
-   ],
-   [
-    "2026-11-22",
-    33.71
-   ]
-  ],
-  "slug": "ugreen-45154-hub-usb-c-to-hdmi-2-0-4k-60hz-type-c-dock-stati-3626140581",
-  "day": "2026-11-22"
- },
- {
   "pid": "aliexpress:1005013468786122",
   "store": "aliexpress",
   "title": "UGREEN 50319 6 in 1 USB C Hub HDMI 4K VGA 1080P 3 USB 3.0 PD Adapter for Laptop PC Monitor",
@@ -4654,55 +5166,6 @@
    ]
   ],
   "slug": "ugreen-50319-6-in-1-usb-c-hub-hdmi-4k-vga-1080p-3-usb-3-0-pd-3468786122",
-  "day": "2026-11-22"
- },
- {
-  "pid": "aliexpress:1005013572035028",
-  "store": "aliexpress",
-  "title": "UGREEN CM564-55344 MICROPHONE USB Desktop 360 Degree Omnidirectional DSP Noise Reduction for PC",
-  "price_usd": 29.67,
-  "old_price_usd": 44.96,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013572035028.html%253Fpdp_npi%253D6%252540dis%252521USD%25252144.96%25252129.67%252521%252521%252521298.17%252521196.79%252521%252540212a7b8d17951316705696947e0ec3%25252112000061492993755%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S33a041949e70441aba75cc2efa710decY.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Micrófono USB UGREEN CM564",
-  "commission": 0.0538,
-  "why": "Captación omnidireccional 360 y reducción de ruido DSP",
-  "lang": "es",
-  "median_30d": 44.96,
-  "discount": 0.3401,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-12",
-    29.63
-   ],
-   [
-    "2026-11-13",
-    29.63
-   ],
-   [
-    "2026-11-14",
-    29.63
-   ],
-   [
-    "2026-11-20",
-    29.67
-   ],
-   [
-    "2026-11-21",
-    29.67
-   ],
-   [
-    "2026-11-22",
-    29.67
-   ]
-  ],
-  "slug": "ugreen-cm564-55344-microphone-usb-desktop-360-degree-omnidir-3572035028",
   "day": "2026-11-22"
  },
  {
@@ -5013,51 +5476,6 @@
    ]
   ],
   "slug": "ugreen-cm604-hdmi-splitter-1-in-4-out-4k-60hz-hdmi-2-0-video-3424887160",
-  "day": "2026-11-22"
- },
- {
-  "pid": "aliexpress:1005013479389976",
-  "store": "aliexpress",
-  "title": "UGREEN 35050 M.2 NVMe SSD Enclosure USB-C Up to 10Gbps Aluminum Housing with Thermal Pad for External Storage and Data Backup",
-  "price_usd": 27.2,
-  "old_price_usd": 41.22,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013479389976.html%253Fpdp_npi%253D6%252540dis%252521USD%25252141.22%25252127.20%252521%252521%252521273.36%252521180.42%252521%2525402102f1cd17951316608255990e10e4%25252112000061229769473%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1f16bcfb955242d9b3f43246ff2927b8K.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "UGREEN Carcasa M.2 NVMe SSD USB-C 10Gbps",
-  "commission": 0.0538,
-  "why": "Almacenamiento externo rápido a 10Gbps con aluminio",
-  "lang": "es",
-  "median_30d": 41.22,
-  "discount": 0.3401,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-18",
-    27.2
-   ],
-   [
-    "2026-11-19",
-    27.2
-   ],
-   [
-    "2026-11-20",
-    27.2
-   ],
-   [
-    "2026-11-21",
-    27.2
-   ],
-   [
-    "2026-11-22",
-    27.2
-   ]
-  ],
-  "slug": "ugreen-35050-m-2-nvme-ssd-enclosure-usb-c-up-to-10gbps-alumi-3479389976",
   "day": "2026-11-22"
  },
  {
@@ -15005,433 +15423,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005013109178589",
-  "store": "aliexpress",
-  "title": "UGREEN 55493 AP502 HDMI 2.0 Splitter 1x2 4K 60Hz One Input Two Output Dual Screen Mirroring for TV Monitor Projector",
-  "price_usd": 43.04,
-  "old_price_usd": 65.22,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013109178589.html%253Fpdp_npi%253D6%252540dis%252521USD%25252165.22%25252143.04%252521%252521%252521432.52%252521285.46%252521%252540210152bd17951312429214360e0f71%25252112000060290844122%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa5f85a8a460d442f89015abea4bbfdc9s.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Divisor UGREEN 55493 AP502 HDMI 2.0 1x2 4K 60Hz",
-  "commission": 0.0538,
-  "why": "Permite duplicar la pantalla en dos dispositivos.",
-  "lang": "es",
-  "median_30d": 65.22,
-  "discount": 0.3401,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-14",
-    43.04
-   ],
-   [
-    "2026-11-15",
-    43.04
-   ],
-   [
-    "2026-11-16",
-    43.04
-   ],
-   [
-    "2026-11-17",
-    43.04
-   ],
-   [
-    "2026-11-18",
-    43.04
-   ],
-   [
-    "2026-11-19",
-    43.04
-   ],
-   [
-    "2026-11-20",
-    43.04
-   ]
-  ],
-  "slug": "ugreen-55493-ap502-hdmi-2-0-splitter-1x2-4k-60hz-one-input-t-3109178589",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005013083536423",
-  "store": "aliexpress",
-  "title": "UGREEN CM498 15375 9 in 1 USB C Docking Station 4K HDMI Gigabit Ethernet SD TF Card Reader Multiport Hub Adapter for Laptop.",
-  "price_usd": 41.08,
-  "old_price_usd": 62.25,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013083536423.html%253Fpdp_npi%253D6%252540dis%252521USD%25252162.25%25252141.08%252521%252521%252521412.82%252521272.46%252521%252540212a7b8d17951316705696947e0ec3%25252112000060228730695%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S529925ca17a84bb3afe48c2d2e20791aI.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Hub Adaptador UGREEN CM498 9 en 1 USB C 4K HDMI",
-  "commission": 0.0538,
-  "why": "Incluye lector de tarjetas SD TF y puerto Ethernet.",
-  "lang": "es",
-  "median_30d": 62.25,
-  "discount": 0.3401,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-14",
-    41.08
-   ],
-   [
-    "2026-11-15",
-    41.08
-   ],
-   [
-    "2026-11-16",
-    41.08
-   ],
-   [
-    "2026-11-17",
-    41.08
-   ],
-   [
-    "2026-11-18",
-    41.08
-   ],
-   [
-    "2026-11-19",
-    41.08
-   ],
-   [
-    "2026-11-20",
-    41.08
-   ]
-  ],
-  "slug": "ugreen-cm498-15375-9-in-1-usb-c-docking-station-4k-hdmi-giga-3083536423",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005013274925851",
-  "store": "aliexpress",
-  "title": "UGREEN 90478 CM571 HDMI 2.0 KVM Switch 2 In 1 Out 4K 60Hz for Two Computers One Monitor Keyboard Mouse",
-  "price_usd": 41.08,
-  "old_price_usd": 62.25,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013274925851.html%253Fpdp_npi%253D6%252540dis%252521USD%25252162.25%25252141.08%252521%252521%252521412.83%252521272.47%252521%252540210152bd17951312429214360e0f71%25252112000060749312687%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbcf09db1928d46d5aa72876da451e05ef.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Conmutador UGREEN 90478 CM571 HDMI 2.0 KVM 2 en 1",
-  "commission": 0.0538,
-  "why": "Comparte un monitor entre dos ordenadores.",
-  "lang": "es",
-  "median_30d": 62.25,
-  "discount": 0.3401,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-14",
-    41.08
-   ],
-   [
-    "2026-11-15",
-    41.08
-   ],
-   [
-    "2026-11-16",
-    41.08
-   ],
-   [
-    "2026-11-17",
-    41.08
-   ],
-   [
-    "2026-11-18",
-    41.08
-   ],
-   [
-    "2026-11-19",
-    41.08
-   ],
-   [
-    "2026-11-20",
-    41.08
-   ]
-  ],
-  "slug": "ugreen-90478-cm571-hdmi-2-0-kvm-switch-2-in-1-out-4k-60hz-fo-3274925851",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005012657939612",
-  "store": "aliexpress",
-  "title": "Gaming Double Duvet Cover Set Reversible Colorful Gamer Gamepad Bedding Set With 2 Pillowcases For Boys Girls Teens",
-  "price_usd": 27.9,
-  "old_price_usd": 69.74,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012657939612.html%253Fpdp_npi%253D6%252540dis%252521USD%25252169.74%25252127.90%252521%252521%252521462.47%252521184.99%252521%252540214114e317951288297685468e1077%25252112000059010432920%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S2562184916f6454ba870d1fcda5a12a9K.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Home Textile",
-  "niche": "home",
-  "ships_to": [],
-  "title_local": "Gaming Double Duvet Cover Set Reversible Gamepad",
-  "commission": 0.08070000000000001,
-  "why": "Diseño reversible con fundas de almohada.",
-  "lang": "es",
-  "median_30d": 69.74,
-  "discount": 0.5999,
-  "heat": 82.4,
-  "history": [
-   [
-    "2026-11-10",
-    27.86
-   ],
-   [
-    "2026-11-15",
-    27.9
-   ],
-   [
-    "2026-11-16",
-    27.9
-   ],
-   [
-    "2026-11-17",
-    27.87
-   ],
-   [
-    "2026-11-18",
-    27.9
-   ],
-   [
-    "2026-11-19",
-    27.87
-   ],
-   [
-    "2026-11-20",
-    27.9
-   ]
-  ],
-  "slug": "gaming-double-duvet-cover-set-reversible-colorful-gamer-game-2657939612",
-  "day": "2026-11-20"
- },
- {
-  "pid": "joom:67c021c37b021c012905da92",
-  "store": "joom",
-  "title": "Estuche rígido de transporte para consola de juegos, bolsa protectora de EVA para consolas Series X y Series S. black",
-  "price_usd": 38.04,
-  "old_price_usd": null,
-  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F67c021c37b021c012905da92%3Fcurrency%3DEUR%26utm_productid%3D67c021c37b021c012905da92%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTU3NDM2NjUsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY3YzAyMWMzN2IwMjFjMDEyOTA1ZGE5MiIsInYiOiI2N2MwMjFjMzdiMDIxY2M3MjkwNWRhOTQiLCJjIjozNS4wLCJvIjoxMTcuMH1dfQ.37h8boXLcCgjOV5RAJV8uVwpqykpb3KYzaDNOmFVttP2qeAyzgciFtTuO0USEVcEb2GgPwJcby5UwwZMD81p-g%26variant_id%3D67c021c37b021cc72905da94%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-20",
-  "image": "https://img.joomcdn.net/b117867a21334661727c3613583f1fdbff0b99ef_original.jpeg",
-  "rating": null,
-  "orders": null,
-  "category": "Joom/Electrónica/PC, componentes y juegos/Todo para el juego",
-  "niche": "tech",
-  "ships_to": [
-   "ES"
-  ],
-  "title_local": "Estuche rígido de transporte para Xbox Series X/S",
-  "commission": null,
-  "why": "Protección segura de EVA para tu consola.",
-  "lang": "es",
-  "median_30d": 127.17,
-  "discount": 0.7009,
-  "heat": 89.5,
-  "history": [
-   [
-    "2026-11-13",
-    127.17
-   ],
-   [
-    "2026-11-14",
-    127.17
-   ],
-   [
-    "2026-11-15",
-    127.17
-   ],
-   [
-    "2026-11-16",
-    127.17
-   ],
-   [
-    "2026-11-17",
-    127.17
-   ],
-   [
-    "2026-11-18",
-    127.17
-   ],
-   [
-    "2026-11-19",
-    38.04
-   ],
-   [
-    "2026-11-20",
-    38.04
-   ]
-  ],
-  "slug": "estuche-r-gido-de-transporte-para-consola-de-juegos-bolsa-pr-012905da92",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005013579727477",
-  "store": "aliexpress",
-  "title": "UGREEN HD183 CABLE HDMI 2.1 Optical Fiber 30m 8K 60Hz 4K 240Hz for Monitor TV Projector Cinema",
-  "price_usd": 79.35,
-  "old_price_usd": 120.22,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013579727477.html%253Fpdp_npi%253D6%252540dis%252521USD%252521120.22%25252179.35%252521%252521%252521797.19%252521526.15%252521%2525402151fce817951317088366258e0de8%25252112000061580270625%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3006d2f326684044afb3fad97a8eb6f7a.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Cable HDMI 2.1 Óptico UGREEN HD183 30m 8K 4K",
-  "commission": 0.0538,
-  "why": "Transmisión de ultra alta definición a larga distancia de 30m",
-  "lang": "es",
-  "median_30d": 120.22,
-  "discount": 0.34,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-20",
-    79.35
-   ]
-  ],
-  "slug": "ugreen-hd183-cable-hdmi-2-1-optical-fiber-30m-8k-60hz-4k-240-3579727477",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005012733608860",
-  "store": "aliexpress",
-  "title": "18.5\" 1920*1080P 100Hz Gaming Portable Monitor Type C Second Laptop Display with stand for Phone PS5 XBOX PC MAC Extend Screen",
-  "price_usd": 143.33,
-  "old_price_usd": 462.36,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012733608860.html%253Fpdp_npi%253D6%252540dis%252521USD%252521462.36%252521143.33%252521%252521%2525213066.07%252521950.48%252521%252540214114e317951389748951405e0e84%25252112000059199172551%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S695ef077f9294fc598c299fcda5e5cabx.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "tech",
-  "ships_to": [],
-  "title_local": "Monitor Portatil Gaming 18.5 100Hz Type C",
-  "commission": 0.061500000000000006,
-  "why": "Disfruta de una pantalla portatil de 18.5 pulgadas a 100Hz.",
-  "lang": "es",
-  "median_30d": 462.36,
-  "discount": 0.69,
-  "heat": 86.4,
-  "history": [
-   [
-    "2026-11-16",
-    143.33
-   ],
-   [
-    "2026-11-17",
-    143.24
-   ],
-   [
-    "2026-11-18",
-    143.33
-   ],
-   [
-    "2026-11-19",
-    143.24
-   ],
-   [
-    "2026-11-20",
-    143.33
-   ]
-  ],
-  "slug": "18-5-1920-1080p-100hz-gaming-portable-monitor-type-c-second--2733608860",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005013214341240",
-  "store": "aliexpress",
-  "title": "UGREEN 90303 HD156 HDMI 2.1 Cable 5m 8K 60Hz 4K 120Hz 48Gbps eARC Dynamic HDR Zinc Alloy Braided for TV Monitor",
-  "price_usd": 40.58,
-  "old_price_usd": 61.48,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013214341240.html%253Fpdp_npi%253D6%252540dis%252521USD%25252161.48%25252140.58%252521%252521%252521407.69%252521269.08%252521%252540212a7b8d17951316705696947e0ec3%25252112000060540103164%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sac29f833fe8b4d9789d76aff8d1c12efG.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "UGREEN 90303 Cable HDMI 2.1 5m 8K 60Hz 48Gbps",
-  "commission": 0.0538,
-  "why": "Incluye eARC y HDR dinámico con aleación de zinc",
-  "lang": "es",
-  "median_30d": 61.48,
-  "discount": 0.3399,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-18",
-    40.58
-   ],
-   [
-    "2026-11-19",
-    40.58
-   ],
-   [
-    "2026-11-20",
-    40.58
-   ]
-  ],
-  "slug": "ugreen-90303-hd156-hdmi-2-1-cable-5m-8k-60hz-4k-120hz-48gbps-3214341240",
-  "day": "2026-11-20"
- },
- {
-  "pid": "aliexpress:1005013579705604",
-  "store": "aliexpress",
-  "title": "UGREEN HD183 CABLE HDMI 2.1 Optical Fiber 30m 8K 60Hz 4K 240Hz for Monitor TV Projector Cinema",
-  "price_usd": 79.35,
-  "old_price_usd": 120.22,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013579705604.html%253Fpdp_npi%253D6%252540dis%252521USD%252521120.22%25252179.35%252521%252521%252521797.19%252521526.15%252521%2525402140d33617951316315391414e0db5%25252112000061580504021%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb17b073c4758453095987d9cc686d860O.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "UGREEN HD183 Cable HDMI 2.1 Fibra Óptica 30m 8K",
-  "commission": 0.0538,
-  "why": "Ideal para proyectores y cines en casa",
-  "lang": "es",
-  "median_30d": 120.22,
-  "discount": 0.34,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-16",
-    79.35
-   ],
-   [
-    "2026-11-17",
-    79.35
-   ],
-   [
-    "2026-11-18",
-    79.35
-   ],
-   [
-    "2026-11-19",
-    79.35
-   ],
-   [
-    "2026-11-20",
-    79.35
-   ]
-  ],
-  "slug": "ugreen-hd183-cable-hdmi-2-1-optical-fiber-30m-8k-60hz-4k-240-3579705604",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005008715194123",
   "store": "aliexpress",
   "title": "Medcursor Foot Massager with Heat Function, Deep Kneading Massager, Multiple Settings and Adjustable Intensity for Home or Office Use",
@@ -19166,35 +19157,6 @@
   ],
   "slug": "hollow-flower-pattern-knee-socks-girls-summer-thin-breathabl-9377768395",
   "day": "2026-11-12"
- },
- {
-  "pid": "aliexpress:1005013374483131",
-  "store": "aliexpress",
-  "title": "2026 Autumn Women's Blouse Casual 3D Checkered Pattern Printed Long Sleeve Lapel Button Shirts New Women's Fashion Office Tops",
-  "price_usd": 1.86,
-  "old_price_usd": 6.2,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013374483131.html%253Fpdp_npi%253D6%252540dis%252521USD%2525216.20%2525211.86%252521%252521%25252141.20%25252112.36%252521%2525402141149b17942665770425280e0fed%25252112000061022690876%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S59658c03563b4cfea33345741ad19090k.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Shirts & Blouses",
-  "niche": "dollar",
-  "ships_to": [],
-  "title_local": "Camisa de cuadros 3D manga larga para mujer",
-  "commission": 0.0692,
-  "why": "Diseño moderno con solapa y botones",
-  "lang": "es",
-  "median_30d": 6.2,
-  "discount": 0.7,
-  "heat": 85.1,
-  "history": [
-   [
-    "2026-11-11",
-    1.86
-   ]
-  ],
-  "slug": "2026-autumn-women-s-blouse-casual-3d-checkered-pattern-print-3374483131",
-  "day": "2026-11-11"
  },
  {
   "pid": "aliexpress:1005012883649734",
