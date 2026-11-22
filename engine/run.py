@@ -213,6 +213,13 @@ def retranslate(hist) -> int:
             continue
         path = DATA / f"deals_{lang}.json"
         archive = json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+        if os.environ.get("RETRANSLATE_ALL") == "1":   # redo every title with the item check in translate._batch
+            db = hist.db
+            db.execute("CREATE TABLE IF NOT EXISTS titles(pid TEXT, lang TEXT, title TEXT, PRIMARY KEY(pid, lang))")
+            db.executemany("DELETE FROM titles WHERE pid=? AND lang=?", [(a["pid"], lang) for a in archive])
+            db.commit()
+            for a in archive:
+                a["title_local"] = ""
         todo = [NS(product=NS(pid=a["pid"], title=a["title"], title_local="")) for a in archive if not a.get("title_local")]
         localize(todo, lang, hist)
         got = {t.product.pid: t.product.title_local for t in todo if t.product.title_local}

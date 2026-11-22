@@ -20,6 +20,10 @@ on:
         description: "Publish the picks saved by the last preview run (no feed download)"
         type: boolean
         default: false
+      retranslate_all:
+        description: "With retranslate: redo every site title (clears the title cache)"
+        type: boolean
+        default: false
       retranslate:
         description: "Translate titles already on the site (no feed download)"
         type: boolean
@@ -109,6 +113,7 @@ jobs:
           PREVIEW: ${{ inputs.preview && '1' || '0' }}
           PUBLISH_PREVIEW: ${{ inputs.publish_preview && '1' || '0' }}
           RETRANSLATE: ${{ inputs.retranslate && '1' || '0' }}
+          RETRANSLATE_ALL: ${{ inputs.retranslate_all && '1' || '0' }}
           ONLY_NICHE: ${{ inputs.only_niche }}
           FEED_CACHE_DIR: cache
           FEED_DELTA_HOURS: ${{ inputs.delta_hours || '0' }}

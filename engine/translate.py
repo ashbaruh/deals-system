@@ -27,6 +27,10 @@ import re as _re
 _FOREIGN = _re.compile(r"[\u0400-\u04FF\u0600-\u06FF\u4e00-\u9fff]")  # stray Cyrillic/Arabic/CJK = bad output
 
 
+def _norm(s) -> str:
+    return _re.sub(r"[^a-z0-9]", "", str(s).lower())
+
+
 def localize(deals, lang: str, hist: History) -> None:
     db = _cache(hist)
     todo = []
@@ -53,8 +57,9 @@ def _batch(todo, lang, key, db):
         f"For each product title, write in {LANG_NAMES[lang]}: (t) a short, natural shopping title "
         "(max 60 characters; keep brand, model numbers and key specs; drop SEO keyword stuffing) and "
         "(w) one short line on why a buyer would want it (max 70 characters, a concrete benefit taken "
-        "from the title only). No emojis, do not invent features or specs. Return only a JSON object "
-        f"mapping the same keys to {{\"t\": ..., \"w\": ...}}.\n{json.dumps(items, ensure_ascii=False)}"
+        "from the title only), and (e) the first 3 words of the ORIGINAL title, copied exactly. No emojis, "
+        "do not invent features or specs. Return only a JSON object "
+        f"mapping the same keys to {{\"e\": ..., \"t\": ..., \"w\": ...}}.\n{json.dumps(items, ensure_ascii=False)}"
     )
     body = json.dumps({"contents": [{"parts": [{"text": prompt}]}],
                        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.2}}).encode()
@@ -78,6 +83,9 @@ def _batch(todo, lang, key, db):
         v = result.get(str(i), "")
         t, w = (v.get("t", ""), v.get("w", "")) if isinstance(v, dict) else (v, "")
         t, w = str(t).strip(), str(w).strip()
+        echo = _norm(v.get("e", "")) if isinstance(v, dict) else ""
+        if not echo or not _norm(d.product.title).startswith(echo[:12]):
+            continue   # the model mixed up the items (seen: a wooden cat figurine got a car-cushion title)
         if 3 <= len(t) <= 90:
             d.product.title_local = t if not _FOREIGN.search(t or "") else ""
             db.execute("INSERT OR REPLACE INTO titles VALUES(?,?,?)", (d.product.pid, lang, t))
