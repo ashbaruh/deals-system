@@ -46,7 +46,10 @@ def localize(deals, lang: str, hist: History) -> None:
     key = os.environ.get("GEMINI_API_KEY")
     if not todo or not key:
         return
+    import time
     for i in range(0, len(todo), 25):
+        if i:
+            time.sleep(8)   # free Gemini tier: back-to-back batches hit 429
         _batch(todo[i:i + 25], lang, key, db)
     db.commit()
 
