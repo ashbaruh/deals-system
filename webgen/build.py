@@ -500,8 +500,8 @@ var l=['he','es','en'].indexOf(s)>-1?s:(['he','es'].indexOf(b)>-1?b:'en');locati
     for lang, c in LANGS.items():
         s = c["strings"]
         live = sorted((d for d in archives[lang] if not d.get("expired") and d.get("image")),
-                      key=lambda d: (d.get("day", ""), d["heat"]), reverse=True)[:60]
-        items = []
+                      key=lambda d: (d.get("day", ""), d["heat"]), reverse=True)[:10]   # few pins/day: bulk volume looked like spam to Pinterest
+        items, pin_meta = [], []
         for d in live:
             t = " ".join((d.get("title_local") or d["title"]).split())[:90]
             pct = round(d["discount"] * 100)
@@ -511,6 +511,9 @@ var l=['he','es','en'].indexOf(s)>-1?s:(['he','es'].indexOf(b)>-1?b:'en');locati
             when = format_datetime(_dt.fromisoformat((d.get("day") or date.today().isoformat()) + "T08:00:00").replace(tzinfo=_tz.utc))
             link = f"{BASE}/{lang}/deal/{d['slug']}"
             html_desc = f'<img src="{esc(d["image"])}"><p>{esc(body)}</p>'
+            pin_meta.append({"id": d["slug"].rsplit("-", 1)[-1], "image": d["image"], "title": t,
+                             "now": plain(d["price_usd"], lang), "was": plain(d["median_30d"], lang) if _off(d) else "",
+                             "pct": pct if _off(d) else 0})
             items.append(f"<item><title>{xesc(head)}</title><link>{link}</link><guid isPermaLink=\"true\">{link}</guid>"
                          f"<pubDate>{when}</pubDate><description>{xesc(html_desc)}</description>"
                          f"<enclosure url=\"{xesc(d['image'])}\" type=\"image/jpeg\" length=\"0\"/></item>")
@@ -518,6 +521,7 @@ var l=['he','es','en'].indexOf(s)>-1?s:(['he','es'].indexOf(b)>-1?b:'en');locati
             f'<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>{xesc(c["site_title"])}</title>'
             f'<link>{BASE}/{lang}/</link><description>{xesc(c["meta_description"])}</description><language>{lang}</language>'
             + "".join(items) + "</channel></rss>", encoding="utf-8")
+        (OUT / lang / "pins.json").write_text(json.dumps(pin_meta, ensure_ascii=False), encoding="utf-8")   # webgen.pins renders own images
     (OUT / "_headers").write_text("/*/feed.xml\n  Content-Type: application/rss+xml; charset=utf-8\n  Access-Control-Allow-Origin: *\n/logo.png\n  Access-Control-Allow-Origin: *\n", encoding="utf-8")
     shutil.copy(ROOT / "webgen" / "logo.png", OUT / "logo.png")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
