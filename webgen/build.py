@@ -6,7 +6,7 @@ import json
 import os
 import re
 import shutil
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 from engine.core import DATA, LANGS, ROOT, SETTINGS
@@ -431,12 +431,15 @@ def build():
             else:
                 title = f"{t0} – {plain(d['price_usd'], lang)} | Joom"
                 desc = f"{s['now']} {plain(d['price_usd'], lang)} – Joom. {c['site_tagline']}."
-            schema = {"@context": "https://schema.org", "@type": "Product", "name": d["title"],
-                      "image": d["image"], "offers": {"@type": "Offer",
+            schema = {"@context": "https://schema.org", "@type": "Product", "name": " ".join((d.get("title_local") or d["title"]).split()),
+                      "description": desc, "image": d["image"], "offers": {"@type": "Offer",
+                      "priceValidUntil": (date.today() + timedelta(days=7)).isoformat(),
                       "price": round(d["price_usd"] * c["currency_rate_from_usd"], 2),
                       "priceCurrency": {"₪": "ILS", "€": "EUR", "$": "USD"}[c["currency"]],
                       "availability": "https://schema.org/OutOfStock" if d.get("expired") else "https://schema.org/InStock",
                       "url": BASE + p_path}}
+            if d.get("title_local") and d["title_local"] != d["title"]:
+                schema["alternateName"] = d["title"]   # original name: matches searches in English too
             if d.get("rating"):
                 schema["aggregateRating"] = {"@type": "AggregateRating", "ratingValue": d["rating"],
                                              "reviewCount": max(d.get("orders") or 1, 1)}
