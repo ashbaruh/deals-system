@@ -33,55 +33,6 @@
   "day": "2026-11-23"
  },
  {
-  "pid": "aliexpress:1005013185013665",
-  "store": "aliexpress",
-  "title": "UGREEN CM473 20805 USB 3.0 Hub 4 Port High Speed USB Splitter Expansion Adapter 0.2m Cable for Laptop Computer",
-  "price_usd": 22.69,
-  "old_price_usd": 34.38,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013185013665.html%253Fpdp_npi%253D6%252540dis%252521USD%25252134.38%25252122.69%252521%252521%252521228.29%252521150.67%252521%2525402151fd2c17953039518991062e0f77%25252112000060526318409%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1eab2fa8d11a44808d2ec55b8d4efd4cc.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "רכזת USB 3.0 עם 4 יציאות UGREEN CM473",
-  "commission": 0.0538,
-  "why": "הרחבת חיבורים מהירה למחשב הנייד עם כבל 0.2 מטר",
-  "lang": "he",
-  "median_30d": 34.38,
-  "discount": 0.34,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-12",
-    22.69
-   ],
-   [
-    "2026-11-14",
-    22.72
-   ],
-   [
-    "2026-11-15",
-    22.72
-   ],
-   [
-    "2026-11-16",
-    22.72
-   ],
-   [
-    "2026-11-22",
-    22.69
-   ],
-   [
-    "2026-11-23",
-    22.69
-   ]
-  ],
-  "slug": "ugreen-cm473-20805-usb-3-0-hub-4-port-high-speed-usb-splitte-3185013665",
-  "day": "2026-11-23"
- },
- {
   "pid": "aliexpress:1005013148902429",
   "store": "aliexpress",
   "title": "UGREEN CM665 DisplayPort 1.4 Bidirectional Switch 8K 30Hz DP 2 in 1 Out 1 in 2 Out Selector for Monitor PC",
@@ -1604,6 +1555,55 @@
   "day": "2026-11-23"
  },
  {
+  "pid": "aliexpress:1005007010619110",
+  "store": "aliexpress",
+  "title": "Baseus 30W Car Fast Charger Quick Charge 4.0 3.0 USB Type-C Fast Charging Car Phone Charger For Huawei Xiaomi iPhone 15 14 13 12",
+  "price_usd": 7.67,
+  "old_price_usd": 16.77,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007010619110.html%253Fpdp_npi%253D6%252540dis%252521USD%25252116.77%2525217.67%252521%252521%252521111.36%25252150.97%252521%2525402151fd2c17953134856333996e0f23%25252112000039050932022%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S75fbddc722b04ff7ae2890984644771dZ.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Interior Parts",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "מטען לרכב מהיר Baseus 30W USB Type-C",
+  "commission": 0.0538,
+  "why": "טעינה מהירה בהספק 30W בחיבורי USB ו-Type-C לטלפונים ניידים",
+  "lang": "he",
+  "median_30d": 16.77,
+  "discount": 0.5426,
+  "heat": 70.9,
+  "history": [
+   [
+    "2026-11-18",
+    8.39
+   ],
+   [
+    "2026-11-19",
+    8.39
+   ],
+   [
+    "2026-11-20",
+    7.63
+   ],
+   [
+    "2026-11-21",
+    7.63
+   ],
+   [
+    "2026-11-22",
+    7.67
+   ],
+   [
+    "2026-11-23",
+    7.67
+   ]
+  ],
+  "slug": "baseus-30w-car-fast-charger-quick-charge-4-0-3-0-usb-type-c--7010619110",
+  "day": "2026-11-23"
+ },
+ {
   "pid": "aliexpress:1005007713627856",
   "store": "aliexpress",
   "title": "Redragon K556 RGB LED Backlit Wired 104 Keys Hot-Swap Noise Absorbing Foams Mechanical Gaming Keyboard",
@@ -2734,6 +2734,55 @@
    ]
   ],
   "slug": "rk-royal-kludge-s85-tft-color-screent-mechanical-keyboard-tr-8625896794",
+  "day": "2026-11-23"
+ },
+ {
+  "pid": "aliexpress:1005013185013665",
+  "store": "aliexpress",
+  "title": "UGREEN CM473 20805 USB 3.0 Hub 4 Port High Speed USB Splitter Expansion Adapter 0.2m Cable for Laptop Computer",
+  "price_usd": 22.69,
+  "old_price_usd": 34.38,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013185013665.html%253Fpdp_npi%253D6%252540dis%252521USD%25252134.38%25252122.69%252521%252521%252521228.29%252521150.67%252521%2525402151fd2c17953039518991062e0f77%25252112000060526318409%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1eab2fa8d11a44808d2ec55b8d4efd4cc.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "רכזת USB 3.0 עם 4 יציאות UGREEN CM473",
+  "commission": 0.0538,
+  "why": "הרחבת חיבורים מהירה למחשב הנייד עם כבל 0.2 מטר",
+  "lang": "he",
+  "median_30d": 34.38,
+  "discount": 0.34,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-12",
+    22.69
+   ],
+   [
+    "2026-11-14",
+    22.72
+   ],
+   [
+    "2026-11-15",
+    22.72
+   ],
+   [
+    "2026-11-16",
+    22.72
+   ],
+   [
+    "2026-11-22",
+    22.69
+   ],
+   [
+    "2026-11-23",
+    22.69
+   ]
+  ],
+  "slug": "ugreen-cm473-20805-usb-3-0-hub-4-port-high-speed-usb-splitte-3185013665",
   "day": "2026-11-23"
  },
  {
@@ -4170,55 +4219,6 @@
    ]
   ],
   "slug": "semir-women-down-jacket90-percent-down-fill-solid-everyday-s-3603909623",
-  "day": "2026-11-23"
- },
- {
-  "pid": "aliexpress:1005007010619110",
-  "store": "aliexpress",
-  "title": "Baseus 30W Car Fast Charger Quick Charge 4.0 3.0 USB Type-C Fast Charging Car Phone Charger For Huawei Xiaomi iPhone 15 14 13 12",
-  "price_usd": 7.67,
-  "old_price_usd": 16.77,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007010619110.html%253Fpdp_npi%253D6%252540dis%252521USD%25252116.77%2525217.67%252521%252521%252521111.36%25252150.97%252521%2525402151fd2c17953134856333996e0f23%25252112000039050932022%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S75fbddc722b04ff7ae2890984644771dZ.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Interior Parts",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "מטען לרכב מהיר Baseus 30W USB Type-C",
-  "commission": 0.0538,
-  "why": "טעינה מהירה בהספק 30W בחיבורי USB ו-Type-C לטלפונים ניידים",
-  "lang": "he",
-  "median_30d": 16.77,
-  "discount": 0.5426,
-  "heat": 70.9,
-  "history": [
-   [
-    "2026-11-18",
-    8.39
-   ],
-   [
-    "2026-11-19",
-    8.39
-   ],
-   [
-    "2026-11-20",
-    7.63
-   ],
-   [
-    "2026-11-21",
-    7.63
-   ],
-   [
-    "2026-11-22",
-    7.67
-   ],
-   [
-    "2026-11-23",
-    7.67
-   ]
-  ],
-  "slug": "baseus-30w-car-fast-charger-quick-charge-4-0-3-0-usb-type-c--7010619110",
   "day": "2026-11-23"
  },
  {
