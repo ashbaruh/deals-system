@@ -1,0 +1,11 @@
+# dealim.net
+
+> AliExpress deals whose discount is checked against each product's own 30-day price history. Updated several times a day in Hebrew, Spanish and English.
+
+## Pages
+- [Hebrew deals](https://dealim.net/he/): דילים מאליאקספרס שבאמת ירדו במחיר
+- [Spanish deals](https://dealim.net/es/): ofertas de AliExpress con precio comprobado
+- [English deals](https://dealim.net/en/): AliExpress price drops checked against 30-day history
+- [Audio picks (Hebrew)](https://dealim.net/he/niche/audio.html): DACs, amplifiers and players from official brand stores
+- [How prices are checked](https://dealim.net/he/how.html)
+- [Feeds](https://dealim.net/he/feed.xml), [ES](https://dealim.net/es/feed.xml), [EN](https://dealim.net/en/feed.xml)
