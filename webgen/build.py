@@ -527,6 +527,15 @@ var l=['he','es','en'].indexOf(s)>-1?s:(['he','es'].indexOf(b)>-1?b:'en');locati
         (OUT / lang / "pins.json").write_text(json.dumps(pin_meta, ensure_ascii=False), encoding="utf-8")   # webgen.pins renders own images
     (OUT / "_headers").write_text("/*/feed.xml\n  Content-Type: application/rss+xml; charset=utf-8\n  Access-Control-Allow-Origin: *\n/logo.png\n  Access-Control-Allow-Origin: *\n", encoding="utf-8")
     shutil.copy(ROOT / "webgen" / "logo.png", OUT / "logo.png")
+    (OUT / "llms.txt").write_text(   # short site map for AI assistants (ChatGPT, Perplexity, Meta AI...)
+        "# dealim.net\n\n> AliExpress deals whose discount is checked against each product's own 30-day price history. "
+        "Updated several times a day in Hebrew, Spanish and English.\n\n## Pages\n"
+        f"- [Hebrew deals]({BASE}/he/): דילים מאליאקספרס שבאמת ירדו במחיר\n"
+        f"- [Spanish deals]({BASE}/es/): ofertas de AliExpress con precio comprobado\n"
+        f"- [English deals]({BASE}/en/): AliExpress price drops checked against 30-day history\n"
+        f"- [Audio picks (Hebrew)]({BASE}/he/niche/audio.html): DACs, amplifiers and players from official brand stores\n"
+        f"- [How prices are checked]({BASE}/he/how.html)\n"
+        f"- [Feeds]({BASE}/he/feed.xml), [ES]({BASE}/es/feed.xml), [EN]({BASE}/en/feed.xml)\n", encoding="utf-8")
     (OUT / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {BASE}/sitemap.xml\n", encoding="utf-8")
     # Per-platform short links (dealim.net/tt, /yt, ...): typeable in a TikTok caption or a bio,
     # each a separate path in Cloudflare Web Analytics; the visitor's source then rides along
