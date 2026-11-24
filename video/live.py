@@ -183,8 +183,8 @@ def narration(lang: str, ds: list, sl: list) -> Path | None:
         af = ["-af", "adelay=300|300,apad"]
         if r.returncode == 0 and mp3.exists() and mp3.stat().st_size > 1000:
             ok += 1
-            ln = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(mp3)],
-                                      capture_output=True, text=True).stdout.strip() or 0) + 0.3
+            m_ = re.search(r"Duration: (\d+):(\d+):([\d.]+)", subprocess.run(["ffmpeg", "-i", str(mp3)], capture_output=True, text=True).stderr)
+            ln = (int(m_[1]) * 3600 + int(m_[2]) * 60 + float(m_[3]) if m_ else dur) + 0.3
             if ln > dur - 0.2:                                     # too long for the slide: speed up (max 1.5x)
                 af = ["-af", f"atempo={min(1.5, ln / (dur - 0.2)):.3f},adelay=300|300,apad"]
             src = ["-i", str(mp3)]
@@ -306,7 +306,10 @@ def main() -> int:
     make_music(str(music))
     tt = sum(x[1] for x in sl)
     mp4 = OUT / f"live_{lang}.mp4"
-    nar = narration(lang, ds, sl)
+    try:
+        nar = narration(lang, ds, sl)
+    except Exception as e:                      # never lose the stream because of the voice-over
+        print(f"voice-over failed: {e!r} - music only"); nar = None
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst),
            "-stream_loop", "-1", "-i", str(music)]
     if nar:
