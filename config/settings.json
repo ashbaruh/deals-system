@@ -575,7 +575,23 @@
     "xDuoo",
     "Fosi Audio",
     "Hidizs",
-    "Topping"
+    "Topping",
+    "HiBy",
+    "Moondrop",
+    "Edifier",
+    "Gustard",
+    "DUNU",
+    "Simgot",
+    "Tanchjim",
+    "Kiwi Ears",
+    "Tangzu",
+    "Sabaj",
+    "Loxjie",
+    "Douk Audio",
+    "Nobsound",
+    "Ugoos",
+    "iBasso",
+    "Cayin"
   ],
   "audio_extra_min_discount": 0.15,
   "audio_extra_per_run": 3,
@@ -1122,5 +1138,23 @@
       "store": "BrightAudio Store"
     }
   ],
-  "max_price_usd_tools": 300
+  "max_price_usd_tools": 300,
+  "audiophile_scout_brands": [
+    "HiBy",
+    "Moondrop",
+    "Edifier",
+    "Gustard",
+    "DUNU",
+    "Simgot",
+    "Tanchjim",
+    "Kiwi Ears",
+    "Tangzu",
+    "Sabaj",
+    "Loxjie",
+    "Douk Audio",
+    "Nobsound",
+    "Ugoos",
+    "iBasso",
+    "Cayin"
+  ]
 }
