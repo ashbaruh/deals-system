@@ -27,7 +27,8 @@
     "dollar": 0.069,
     "pets": 0.054,
     "power": 0.023,
-    "dashcam": 0.054
+    "dashcam": 0.054,
+    "watch": 0.054
   },
   "store_commission_override": {
     "banggood": {

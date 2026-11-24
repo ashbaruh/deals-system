@@ -33,7 +33,7 @@ UI = {
            "cats": "Categories", "prev": "Previous", "next": "Next", "none_found": "No deals found. Try another word."},
 }
 ICONS = {"nails": "💅", "coffee": "☕", "fashion": "👗", "audio": "🎧", "home": "🏠", "tech": "📱", "tools": "🔧",
-         "car": "🚗", "dashcam": "📹", "power": "⚡", "pets": "🐾", "sports": "⛺", "kids": "🧸", "shoes": "👟", "appliances": "🔌", "dollar": "💲", "brands": "🏷️"}
+         "car": "🚗", "dashcam": "📹", "watch": "⌚", "power": "⚡", "pets": "🐾", "sports": "⛺", "kids": "🧸", "shoes": "👟", "appliances": "🔌", "dollar": "💲", "brands": "🏷️"}
 
 CSS = """.tgfab{position:fixed;bottom:14px;inset-inline:12px;margin:auto;max-width:560px;z-index:50;display:flex;align-items:center;gap:6px;background:#229ED9;color:#fff;border-radius:999px;box-shadow:0 8px 24px rgba(0,0,0,.25);padding:4px 6px 4px 4px}.tgfab[hidden]{display:none}.tgfab-go{flex:1;color:#fff;text-decoration:none;padding:10px 14px;font-size:15px;display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap}.tgfab-go b{background:#fff;color:#229ED9;border-radius:999px;padding:4px 12px}.tgfab button{background:transparent;border:0;color:#fff;font-size:22px;cursor:pointer;padding:0 10px}
 
