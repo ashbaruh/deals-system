@@ -148,6 +148,61 @@ def index_html(links: list[dict], pfx: str) -> str:
             'Prices can change. <a href="https://dealim.net/en/">All deals</a></footer></body></html>')
 
 
+VOICE = {"en": "en-US-AriaNeural", "es": "es-ES-ElviraNeural"}
+SAY = {
+    "en": dict(intro="Live AliExpress deals. Every price is checked against its own thirty day history. All links are in the description.",
+               deal="Deal number {n}. {name}. Now {price}, that is {off} percent off. Tap link number {n} in the description.",
+               tg="Want more? Join our Telegram channel, new deals every day. The link is at the top of the description.",
+               outro="New deals every day. Join our Telegram channel, link at the top of the description."),
+    "es": dict(intro="Chollos de AliExpress en directo. Cada precio está comparado con sus últimos treinta días. Todos los enlaces están en la descripción.",
+               deal="Chollo número {n}. {name}. Ahora {price}, un {off} por ciento de descuento. Abre el enlace número {n} en la descripción.",
+               tg="¿Quieres más? Únete a nuestro canal de Telegram, chollos nuevos cada día. El enlace está al principio de la descripción.",
+               outro="Chollos nuevos cada día. Únete a nuestro canal de Telegram, enlace al principio de la descripción."),
+}
+
+
+def narration(lang: str, ds: list, sl: list) -> Path | None:
+    """Spoken voice-over (edge-tts, free) fitted to each slide; returns a wav or None if TTS is unavailable."""
+    if os.environ.get("LIVE_VOICE", "1") == "0":
+        return None
+    say, parts, ok = SAY[lang], [], 0
+    for i, (_, dur, _) in enumerate(sl):
+        if i == 0:
+            txt = say["intro"]
+        elif i == len(sl) - 1:
+            txt = say["outro"]
+        else:
+            d = ds[i - 1]
+            txt = say["deal"].format(n=i, name=" ".join(short_name(d).split()[:9]), price=money(d["price_usd"], lang),
+                                     off=round(d["discount"] * 100))
+            if i % 5 == 0:
+                txt += " " + say["tg"]
+        mp3, wav = TMP / f"nar_{lang}_{i}.mp3", TMP / f"nar_{lang}_{i}.wav"
+        r = subprocess.run([sys.executable, "-m", "edge_tts", "--voice", VOICE[lang], "--rate=+8%", "--text", txt,
+                            "--write-media", str(mp3)], capture_output=True, text=True)
+        af = ["-af", "adelay=300|300,apad"]
+        if r.returncode == 0 and mp3.exists() and mp3.stat().st_size > 1000:
+            ok += 1
+            ln = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(mp3)],
+                                      capture_output=True, text=True).stdout.strip() or 0) + 0.3
+            if ln > dur - 0.2:                                     # too long for the slide: speed up (max 1.5x)
+                af = ["-af", f"atempo={min(1.5, ln / (dur - 0.2)):.3f},adelay=300|300,apad"]
+            src = ["-i", str(mp3)]
+        else:
+            src = ["-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo"]
+            af = []
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *src, *af, "-t", f"{dur:.2f}", "-ar", "44100", "-ac", "2", str(wav)], check=True)
+        parts.append(wav)
+    if ok < max(3, len(sl) // 2):
+        print(f"voice-over unavailable ({ok}/{len(sl)} clips) - music only"); return None
+    lst = TMP / f"nar_{lang}_list.txt"
+    lst.write_text("".join(f"file '{p_}'\n" for p_ in parts), encoding="utf-8")
+    out = TMP / f"nar_{lang}.wav"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(out)], check=True)
+    print(f"voice-over: {ok}/{len(sl)} clips", flush=True)
+    return out
+
+
 def main() -> int:
     from playwright.sync_api import sync_playwright
     lang = (sys.argv[1:] or ["en"])[0]
@@ -251,9 +306,17 @@ def main() -> int:
     make_music(str(music))
     tt = sum(x[1] for x in sl)
     mp4 = OUT / f"live_{lang}.mp4"
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst),
-                    "-stream_loop", "-1", "-i", str(music), "-map", "0:v", "-map", "1:a", "-c:v", "copy",
-                    "-c:a", "aac", "-b:a", "160k", "-ar", "44100", "-t", f"{tt:.2f}", "-movflags", "+faststart", str(mp4)], check=True)
+    nar = narration(lang, ds, sl)
+    cmd = ["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst),
+           "-stream_loop", "-1", "-i", str(music)]
+    if nar:
+        cmd += ["-i", str(nar), "-filter_complex",
+                "[1:a]volume=0.28[m];[2:a]volume=1.0[v];[m][v]amix=inputs=2:duration=longest:normalize=0,alimiter=limit=0.95[a]",
+                "-map", "0:v", "-map", "[a]"]
+    else:
+        cmd += ["-map", "0:v", "-map", "1:a"]
+    subprocess.run(cmd + ["-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-ar", "44100", "-t", f"{tt:.2f}",
+                          "-movflags", "+faststart", str(mp4)], check=True)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{INTRO + 2:.1f}", "-i", str(mp4), "-frames:v", "1",
                     str(OUT / f"live_cover_{lang}.png")], check=True)
     print(f"{lang}: {mp4} {tt:.1f}s, {len(ds)} deals", flush=True)
@@ -281,7 +344,9 @@ def main() -> int:
             "es": "\n\n📲 Chollos nuevos cada día en Telegram: https://t.me/ofertas_descuentos_es\n🌐 Todos: https://dealim.net/es/\n\n"
                   "Aviso: enlaces de afiliado. Si compras a través de ellos puedo ganar una pequeña comisión sin coste extra para ti. "
                   "Los precios pueden cambiar."}[lang]
-    (OUT / f"live_description_{lang}.txt").write_text(hdr + "\n".join(lines) + tail, encoding="utf-8")
+    top = {"en": "📲 Join our Telegram for new deals every day: https://t.me/discount_deals_promo\n\n",
+           "es": "📲 Únete a Telegram para chollos nuevos cada día: https://t.me/ofertas_descuentos_es\n\n"}[lang]
+    (OUT / f"live_description_{lang}.txt").write_text(top + hdr + "\n".join(lines) + tail, encoding="utf-8")
     return 0
 
 
