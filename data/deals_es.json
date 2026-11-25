@@ -2787,322 +2787,669 @@
   "day": "2026-11-25"
  },
  {
-  "pid": "joom:670e0ed27c479301fd0e7ba4",
-  "store": "joom",
-  "title": "aespa - [WHIPLASH] 5to Mini Álbum, versión Speed Group",
-  "price_usd": 25.87,
-  "old_price_usd": null,
-  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F670e0ed27c479301fd0e7ba4%3Fcurrency%3DEUR%26utm_productid%3D670e0ed27c479301fd0e7ba4%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTYxNzUxNDcsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY3MGUwZWQyN2M0NzkzMDFmZDBlN2JhNCIsInYiOiI2NzBlMGVkMzdjNDc5MzMwZmQwZTdiYWEiLCJjIjoyMy44fV19.RxTW8G0TIh2qfPpSOXSpfwwT0OgjpUPD1yFVVpAKJP_iEalNeWNnuPejM7qbD-2dq3gZvGuKWypO2BeUOQBeVA%26variant_id%3D670e0ed37c479330fd0e7baa%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-25",
-  "image": "https://img.joomcdn.net/72bb4f8c1c684741eed7945c8c746028b3d10e8c_original.jpeg",
-  "rating": null,
-  "orders": null,
-  "category": "Joom/Electrónica/Vídeo y audio/Auriculares y equipos de audio/Álbumes de música",
-  "niche": "audio",
-  "ships_to": [
-   "ES"
-  ],
-  "title_local": "aespa - WHIPLASH 5to Mini Álbum Versión Speed",
-  "commission": null,
-  "why": "Es la edición del 5to mini álbum versión Speed Group.",
-  "lang": "es",
-  "median_30d": 110.87,
-  "discount": 0.7667,
-  "heat": 86.3,
-  "history": [
-   [
-    "2026-11-13",
-    25.87
-   ],
-   [
-    "2026-11-14",
-    25.87
-   ],
-   [
-    "2026-11-15",
-    25.87
-   ],
-   [
-    "2026-11-16",
-    25.87
-   ],
-   [
-    "2026-11-17",
-    25.87
-   ],
-   [
-    "2026-11-18",
-    110.87
-   ],
-   [
-    "2026-11-19",
-    110.87
-   ],
-   [
-    "2026-11-20",
-    110.87
-   ],
-   [
-    "2026-11-21",
-    110.87
-   ],
-   [
-    "2026-11-22",
-    110.87
-   ],
-   [
-    "2026-11-23",
-    110.87
-   ],
-   [
-    "2026-11-24",
-    110.87
-   ],
-   [
-    "2026-11-25",
-    25.87
-   ]
-  ],
-  "slug": "aespa-whiplash-5to-mini-lbum-versi-n-speed-group-01fd0e7ba4",
-  "day": "2026-11-25"
- },
- {
-  "pid": "aliexpress:1005013635229128",
+  "pid": "aliexpress:1005012589746692",
   "store": "aliexpress",
-  "title": "Full Surround Car Seat Covers for Driver and Passenger Seat, All-Season Universal Cushions for Sedans, SUVs, Pickups and Vans",
-  "price_usd": 32.49,
-  "old_price_usd": 103.25,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013635229128.html%253Fpdp_npi%253D6%252540dis%252521USD%252521103.25%25252132.49%252521%252521%252521686.06%252521215.87%252521%2525402140da8b17954843963144205e0d30%25252112000061709459434%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S474ebb8dfd754b2fba27f1e22e49aa36C.jpg",
+  "title": "2000mAh PS4 Batteries For Sony PS4 Gamepad Dualshock4 V1 Wireless Controller CUH-ZXTIE CUH-ZCTIU PS4 Pro For CUH-ZCT2",
+  "price_usd": 25.78,
+  "old_price_usd": 57.3,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012589746692.html%253Fpdp_npi%253D6%252540dis%252521USD%25252157.30%25252125.78%252521%252521%252521379.75%252521170.89%252521%2525402140d36217955667223085678e0c40%25252112000058758179002%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3195c3aeb4544c02818371a690f06486x.jpg",
   "rating": null,
   "orders": null,
-  "category": "Interior Accessories",
-  "niche": "car",
+  "category": "Accessories & Parts",
+  "niche": "power",
   "ships_to": [],
-  "title_local": "Fundas asientos coche universales envolventes",
-  "commission": 0.0692,
-  "why": "Son aptas para todas las estaciones en sedanes y SUVs.",
+  "title_local": "Batería 2000mAh para Mando PS4 Dualshock4",
+  "commission": 0.061500000000000006,
+  "why": "Mayor autonomía para tus sesiones de juego ininterrumpidas",
   "lang": "es",
-  "median_30d": 103.25,
-  "discount": 0.6853,
-  "heat": 87.8,
+  "median_30d": 57.3,
+  "discount": 0.5501,
+  "heat": 65.9,
   "history": [
    [
+    "2026-11-19",
+    25.0
+   ],
+   [
     "2026-11-20",
-    37.82
+    25.02
    ],
    [
     "2026-11-21",
-    37.82
+    24.98
    ],
    [
     "2026-11-22",
-    32.51
+    25.74
    ],
    [
     "2026-11-23",
-    32.51
-   ],
-   [
-    "2026-11-24",
-    32.49
+    25.74
    ],
    [
     "2026-11-25",
-    32.49
+    25.78
    ]
   ],
-  "slug": "full-surround-car-seat-covers-for-driver-and-passenger-seat--3635229128",
+  "slug": "2000mah-ps4-batteries-for-sony-ps4-gamepad-dualshock4-v1-wir-2589746692",
   "day": "2026-11-25"
  },
  {
-  "pid": "joom:6a79b617b1690d01a5ec0d22",
-  "store": "joom",
-  "title": "Pastel de Huevo Crujiente Bola Anti Estrés Cera que se Quiebra Bola que se Rompe Juguete Blandito Sonido Pop ASMR Satisfactorio Juguetes Anti Estrés para Adultos",
-  "price_usd": 33.7,
-  "old_price_usd": null,
-  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F6a79b617b1690d01a5ec0d22%3Fcurrency%3DEUR%26utm_productid%3D6a79b617b1690d01a5ec0d22%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTYxNzUxNDcsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjZhNzliNjE3YjE2OTBkMDFhNWVjMGQyMiIsInYiOiI2YTc5YjYxN2IxNjkwZGNkYTVlYzBkMmUiLCJjIjozMS4wfV19.7zy7F6Mu7mRpPgtFrg67aIU0lZiAhBlEFv86Ij1C8GyyWIiAjJilhDIOPO83af-CCRG0ihGyHBSmfPc9ivzFuA%26variant_id%3D6a79b617b1690dcda5ec0d2e%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-25",
-  "image": "https://img.joomcdn.net/730561a25a980cafa179727c8f58571487e6ec50_original.jpeg",
+  "pid": "aliexpress:1005012307894037",
+  "store": "aliexpress",
+  "title": "PSP-S110 2400mah 3.6V Battery + LED Charger for Sony PSP2000 PSP3000 PlayStation Portable Gamepad",
+  "price_usd": 30.86,
+  "old_price_usd": 61.72,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012307894037.html%253Fpdp_npi%253D6%252540dis%252521USD%25252161.72%25252130.86%252521%252521%252521408.98%252521204.49%252521%2525402140d36217955666839342696e0c40%25252112000058014821440%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sadf6eedf9a8b4d229771bd65c35e42e7O.jpg",
   "rating": null,
   "orders": null,
-  "category": "Joom/Hobbies y creatividad/Pasatiempos y juguetes para niños/Juguetes originales y divertidos/Juguetes antiestrés",
-  "niche": "kids",
-  "ships_to": [
-   "ES"
-  ],
-  "title_local": "Bola anti estrés pastel de huevo blandito ASMR",
-  "commission": null,
-  "why": "Ofrece sonido pop satisfactorio y cera que se quiebra.",
+  "category": "Accessories & Parts",
+  "niche": "power",
+  "ships_to": [],
+  "title_local": "Batería PSP-S110 2400mAh 3.6V con Cargador LED",
+  "commission": 0.061500000000000006,
+  "why": "Mayor autonomía y carga fácil para tu consola Sony PSP",
   "lang": "es",
-  "median_30d": 110.87,
-  "discount": 0.696,
-  "heat": 89.1,
+  "median_30d": 61.72,
+  "discount": 0.5,
+  "heat": 66.2,
+  "history": [
+   [
+    "2026-11-19",
+    30.81
+   ],
+   [
+    "2026-11-20",
+    30.83
+   ],
+   [
+    "2026-11-21",
+    30.79
+   ],
+   [
+    "2026-11-22",
+    30.79
+   ],
+   [
+    "2026-11-23",
+    30.79
+   ],
+   [
+    "2026-11-24",
+    30.77
+   ],
+   [
+    "2026-11-25",
+    30.86
+   ]
+  ],
+  "slug": "psp-s110-2400mah-3-6v-battery-led-charger-for-sony-psp2000-p-2307894037",
+  "day": "2026-11-25"
+ },
+ {
+  "pid": "aliexpress:1005013669132640",
+  "store": "aliexpress",
+  "title": "Suitable for PS5/PS4/Xbox/Switch universal controller/headphone three-layer stand,ps5 accessories,gaming accessories",
+  "price_usd": 6.22,
+  "old_price_usd": 12.7,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013669132640.html%253Fpdp_npi%253D6%252540dis%252521USD%25252112.70%2525216.22%252521%252521%25252184.17%25252141.24%252521%2525402140d36117955723579816908e0fa6%25252112000061774057043%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd9c3d0d9d0bf45ee98458c6017b46161t.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Portable Audio & Video",
+  "niche": "audio",
+  "ships_to": [],
+  "title_local": "Soporte Universal de Tres Capas para Mandos",
+  "commission": 0.23070000000000002,
+  "why": "Organiza tus mandos y auriculares de PS5, Xbox y Switch",
+  "lang": "es",
+  "median_30d": 12.7,
+  "discount": 0.5102,
+  "heat": 66.6,
+  "history": [
+   [
+    "2026-11-22",
+    6.21
+   ],
+   [
+    "2026-11-23",
+    6.21
+   ],
+   [
+    "2026-11-25",
+    6.22
+   ]
+  ],
+  "slug": "suitable-for-ps5-ps4-xbox-switch-universal-controller-headph-3669132640",
+  "day": "2026-11-25"
+ },
+ {
+  "pid": "aliexpress:1005012891867309",
+  "store": "aliexpress",
+  "title": "In Stock LIP1078 4000mAh 3.65V PS5 Li-ion Battery for Sony PlayStation 5 PS5 DualSense CFI-ZCT1W Wireless Controller with Tools",
+  "price_usd": 31.49,
+  "old_price_usd": 62.99,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012891867309.html%253Fpdp_npi%253D6%252540dis%252521USD%25252162.99%25252131.49%252521%252521%252521417.45%252521208.72%252521%2525402140da8b17955665251807275e0d73%25252112000059639595779%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S799b9b38a67f4f18897b1ee09a39dd7fS.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Accessories & Parts",
+  "niche": "power",
+  "ships_to": [],
+  "title_local": "Batería Li-ion LIP1078 4000mAh para PS5",
+  "commission": 0.061500000000000006,
+  "why": "Reemplazo de batería de 4000mAh para el mando PS5",
+  "lang": "es",
+  "median_30d": 62.99,
+  "discount": 0.5001,
+  "heat": 66.9,
+  "history": [
+   [
+    "2026-11-19",
+    31.45
+   ],
+   [
+    "2026-11-20",
+    31.47
+   ],
+   [
+    "2026-11-22",
+    31.44
+   ],
+   [
+    "2026-11-23",
+    31.44
+   ],
+   [
+    "2026-11-24",
+    31.42
+   ],
+   [
+    "2026-11-25",
+    31.49
+   ]
+  ],
+  "slug": "in-stock-lip1078-4000mah-3-65v-ps5-li-ion-battery-for-sony-p-2891867309",
+  "day": "2026-11-25"
+ },
+ {
+  "pid": "aliexpress:1005013572206161",
+  "store": "aliexpress",
+  "title": "2pcs For Sony PS3 PlayStation 3 Gamepad Sixaxis Series LIP1359 Battery 3.7v 1880mah",
+  "price_usd": 24.54,
+  "old_price_usd": 58.43,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013572206161.html%253Fpdp_npi%253D6%252540dis%252521USD%25252158.43%25252124.54%252521%252521%252521387.20%252521162.62%252521%2525402140da8b17955667440813557e0f61%25252112000061461979711%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0638d55c0357403cbdc02b607df3ea68a.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Accessories & Parts",
+  "niche": "power",
+  "ships_to": [],
+  "title_local": "2 Baterías LIP1359 3.7V 1880mAh para PS3",
+  "commission": 0.061500000000000006,
+  "why": "Pack de dos baterias para tus mandos de PlayStation 3.",
+  "lang": "es",
+  "median_30d": 58.43,
+  "discount": 0.58,
+  "heat": 67.5,
+  "history": [
+   [
+    "2026-11-19",
+    24.51
+   ],
+   [
+    "2026-11-20",
+    24.52
+   ],
+   [
+    "2026-11-21",
+    24.49
+   ],
+   [
+    "2026-11-22",
+    24.49
+   ],
+   [
+    "2026-11-23",
+    24.49
+   ],
+   [
+    "2026-11-24",
+    24.47
+   ],
+   [
+    "2026-11-25",
+    24.54
+   ]
+  ],
+  "slug": "2pcs-for-sony-ps3-playstation-3-gamepad-sixaxis-series-lip13-3572206161",
+  "day": "2026-11-25"
+ },
+ {
+  "pid": "aliexpress:1005012340858366",
+  "store": "aliexpress",
+  "title": "For PSP2000 PSP3000 PSP PlayStation Gamepad Portable Rechargeable Battery 3.6V 1200mAh",
+  "price_usd": 45.47,
+  "old_price_usd": 90.93,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012340858366.html%253Fpdp_npi%253D6%252540dis%252521USD%25252190.93%25252145.47%252521%252521%252521602.58%252521301.29%252521%2525402140f89017955667112153391e1021%25252112000058134914085%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9a0c1075da3c4e95b32e75cf8bd2b16dN.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Accessories & Parts",
+  "niche": "power",
+  "ships_to": [],
+  "title_local": "Bateria PSP2000 PSP3000 3.6V 1200mAh",
+  "commission": 0.061500000000000006,
+  "why": "Mantiene tu consola portatil lista para jugar.",
+  "lang": "es",
+  "median_30d": 90.93,
+  "discount": 0.4999,
+  "heat": 67.9,
+  "history": [
+   [
+    "2026-11-19",
+    45.41
+   ],
+   [
+    "2026-11-20",
+    45.44
+   ],
+   [
+    "2026-11-21",
+    45.38
+   ],
+   [
+    "2026-11-22",
+    45.38
+   ],
+   [
+    "2026-11-23",
+    45.38
+   ],
+   [
+    "2026-11-24",
+    45.35
+   ],
+   [
+    "2026-11-25",
+    45.47
+   ]
+  ],
+  "slug": "for-psp2000-psp3000-psp-playstation-gamepad-portable-recharg-2340858366",
+  "day": "2026-11-25"
+ },
+ {
+  "pid": "aliexpress:1005013517527312",
+  "store": "aliexpress",
+  "title": "For Xbox 360 Wireless Controller 2 Pack Rechargeable Battery Kit with  Charging Station Dock",
+  "price_usd": 40.08,
+  "old_price_usd": 80.16,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013517527312.html%253Fpdp_npi%253D6%252540dis%252521USD%25252180.16%25252140.08%252521%252521%252521531.19%252521265.59%252521%2525402102f1cd17955666669437412e0ed3%25252112000061409782501%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdd60dac7c6a141e6a84aea573b18ea3dj.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Accessories & Parts",
+  "niche": "power",
+  "ships_to": [],
+  "title_local": "Bateria Xbox 360 Inalambrica 2 Pack",
+  "commission": 0.061500000000000006,
+  "why": "Carga dos mandos inalambricos simultaneamente.",
+  "lang": "es",
+  "median_30d": 80.16,
+  "discount": 0.5,
+  "heat": 67.9,
+  "history": [
+   [
+    "2026-11-19",
+    40.02
+   ],
+   [
+    "2026-11-20",
+    40.05
+   ],
+   [
+    "2026-11-21",
+    40.0
+   ],
+   [
+    "2026-11-22",
+    40.0
+   ],
+   [
+    "2026-11-23",
+    40.0
+   ],
+   [
+    "2026-11-25",
+    40.08
+   ]
+  ],
+  "slug": "for-xbox-360-wireless-controller-2-pack-rechargeable-battery-3517527312",
+  "day": "2026-11-25"
+ },
+ {
+  "pid": "aliexpress:1005012438920120",
+  "store": "aliexpress",
+  "title": "New 11.55V 45.62Wh 565774-3S Battery For GPD WIN 3 Win3 Handheld Gaming Laptop GamePad Tablet Battery",
+  "price_usd": 76.54,
+  "old_price_usd": 153.09,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012438920120.html%253Fpdp_npi%253D6%252540dis%252521USD%252521153.09%25252176.54%252521%252521%2525211014.52%252521507.26%252521%2525402140da8b17955667274005766e0d52%25252112000058362247759%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9d3f7c259c60478884b66e4e9c5727d8C.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Accessories & Parts",
+  "niche": "power",
+  "ships_to": [],
+  "title_local": "Bateria GPD WIN 3 11.55V 45.62Wh",
+  "commission": 0.061500000000000006,
+  "why": "Bateria especifica para tu ordenador portatil de juegos.",
+  "lang": "es",
+  "median_30d": 153.09,
+  "discount": 0.5,
+  "heat": 67.9,
+  "history": [
+   [
+    "2026-11-19",
+    76.45
+   ],
+   [
+    "2026-11-20",
+    76.5
+   ],
+   [
+    "2026-11-21",
+    76.4
+   ],
+   [
+    "2026-11-22",
+    76.4
+   ],
+   [
+    "2026-11-23",
+    76.4
+   ],
+   [
+    "2026-11-24",
+    76.35
+   ],
+   [
+    "2026-11-25",
+    76.54
+   ]
+  ],
+  "slug": "new-11-55v-45-62wh-565774-3s-battery-for-gpd-win-3-win3-hand-2438920120",
+  "day": "2026-11-25"
+ },
+ {
+  "pid": "aliexpress:1005013560280035",
+  "store": "aliexpress",
+  "title": "IBasso Jr. Klee Kiseki In Ear 0.78 2Pins 3.5mm and 4.4mm Interface Li-Mg Alloy Diaphragm Stainless Steel HIFI Music Earphones",
+  "price_usd": 80.1,
+  "old_price_usd": 167.71,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013560280035.html%253Fpdp_npi%253D6%252540dis%252521USD%252521167.71%25252180.10%252521%252521%2525211111.37%252521530.79%252521%252540214114e317955725038996425e0e84%25252112000061433815094%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb1e148992b804aa38e469fcf06afe8f4l.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Portable Audio & Video",
+  "niche": "audio",
+  "ships_to": [],
+  "title_local": "Auriculares HIFI iBasso Jr. Klee",
+  "commission": 0.061500000000000006,
+  "why": "Sonido de alta fidelidad",
+  "lang": "es",
+  "median_30d": 167.71,
+  "discount": 0.5224,
+  "heat": 70.1,
   "history": [
    [
     "2026-11-13",
-    110.87
+    80.73
    ],
    [
     "2026-11-14",
-    110.87
-   ],
-   [
-    "2026-11-15",
-    110.87
-   ],
-   [
-    "2026-11-16",
-    110.87
-   ],
-   [
-    "2026-11-17",
-    110.87
-   ],
-   [
-    "2026-11-18",
-    110.87
-   ],
-   [
-    "2026-11-19",
-    110.87
-   ],
-   [
-    "2026-11-20",
-    110.87
-   ],
-   [
-    "2026-11-21",
-    110.87
-   ],
-   [
-    "2026-11-22",
-    110.87
-   ],
-   [
-    "2026-11-23",
-    110.87
-   ],
-   [
-    "2026-11-24",
-    33.7
+    80.73
    ],
    [
     "2026-11-25",
-    33.7
+    80.1
    ]
   ],
-  "slug": "pastel-de-huevo-crujiente-bola-anti-estr-s-cera-que-se-quieb-01a5ec0d22",
+  "slug": "ibasso-jr-klee-kiseki-in-ear-0-78-2pins-3-5mm-and-4-4mm-inte-3560280035",
   "day": "2026-11-25"
  },
  {
-  "pid": "aliexpress:1005013593080095",
+  "pid": "aliexpress:1005012837753688",
   "store": "aliexpress",
-  "title": "Elegant high-neck double zipper pocket 100% wool knitted cardigan women's loose bottom sweater jacket",
-  "price_usd": 56.85,
-  "old_price_usd": 189.5,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013593080095.html%253Fpdp_npi%253D6%252540dis%252521USD%252521189.50%25252156.85%252521%252521%252521189.50%25252156.85%252521%2525402151fd3a17954987625281675e0e14%25252112000061521631555%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb4fba848586d44b3afe8e2227ab3ef1dW.jpg",
+  "title": "Women‘s Vintage Floral Print Shirt Maxi Dress Elegant Collared Long Sleeve A-Line With Belt Flowy Hem Boho Vacation Long Dresses",
+  "price_usd": 20.77,
+  "old_price_usd": 60.46,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012837753688.html%253Fpdp_npi%253D6%252540dis%252521USD%25252160.46%25252120.77%252521%252521%252521400.67%252521137.65%252521%25254021013cc617955676998613983e0dad%25252112000059517314964%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbdd6c76afad0457ea22c7915430a5f22Q.jpg",
   "rating": null,
   "orders": null,
-  "category": "Sweaters&Jumpers",
+  "category": "Dresses",
   "niche": "fashion",
   "ships_to": [],
-  "title_local": "Cárdigan punto lana mujer cuello alto 100% lana",
-  "commission": 0.0692,
-  "why": "Tiene cremallera doble y bolsillos.",
+  "title_local": "Vestido largo vintage con cinturón",
+  "commission": 0.1153,
+  "why": "Estilo elegante y fluido con estampado",
   "lang": "es",
-  "median_30d": 189.5,
-  "discount": 0.7,
-  "heat": 89.3,
+  "median_30d": 60.46,
+  "discount": 0.6565,
+  "heat": 90.2,
   "history": [
-   [
-    "2026-11-24",
-    56.85
-   ],
-   [
-    "2026-11-25",
-    56.85
-   ]
-  ],
-  "slug": "elegant-high-neck-double-zipper-pocket-100-wool-knitted-card-3593080095",
-  "day": "2026-11-25"
- },
- {
-  "pid": "joom:6923f644b51d9f010fcb52ed",
-  "store": "joom",
-  "title": "Alfombras Estilo Retro para Sala de Estar Alfombra Decorativa para Dormitorio de Área Grande Alfombra Lavable en Casa Suave Alfombra de Estudio Forma de Flor Felpudo Antideslizante 80x80CM white",
-  "price_usd": 32.61,
-  "old_price_usd": null,
-  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F6923f644b51d9f010fcb52ed%3Fcurrency%3DEUR%26utm_productid%3D6923f644b51d9f010fcb52ed%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTYxNzUxNDcsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY5MjNmNjQ0YjUxZDlmMDEwZmNiNTJlZCIsInYiOiI2OTIzZjY0NGI1MWQ5ZjgxMGZjYjUyZWYiLCJjIjozMC4wfV19.taJHlQBVU5VVEUIxmlKXjT2iVZozsNCdgqcY7XL8CeJ_Bj0Hax21Q4m_gDWPJjn9wPEJduBb6JoARj08dMdz2A%26variant_id%3D6923f644b51d9f810fcb52ef%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-25",
-  "image": "https://img.joomcdn.net/30eda7f83be9368e894867b33d5bb3c3e113b15d_original.jpeg",
-  "rating": null,
-  "orders": null,
-  "category": "Joom/Productos para el hogar/Textiles para el hogar/Alfombras y moquetas/Tapetes",
-  "niche": "home",
-  "ships_to": [
-   "ES"
-  ],
-  "title_local": "Alfombra Retro Forma de Flor 80x80CM Blanca",
-  "commission": null,
-  "why": "Es lavable en casa y cuenta con diseño antideslizante.",
-  "lang": "es",
-  "median_30d": 116.3,
-  "discount": 0.7196,
-  "heat": 89.5,
-  "history": [
-   [
-    "2026-11-13",
-    116.3
-   ],
-   [
-    "2026-11-14",
-    116.3
-   ],
-   [
-    "2026-11-15",
-    116.3
-   ],
    [
     "2026-11-16",
-    116.3
+    21.3
    ],
    [
     "2026-11-17",
-    116.3
+    21.3
    ],
    [
     "2026-11-18",
-    116.3
+    21.32
    ],
    [
     "2026-11-19",
-    116.3
-   ],
-   [
-    "2026-11-20",
-    116.3
-   ],
-   [
-    "2026-11-21",
-    116.3
-   ],
-   [
-    "2026-11-22",
-    32.61
+    21.3
    ],
    [
     "2026-11-23",
-    32.61
+    20.77
    ],
    [
     "2026-11-24",
-    32.61
+    20.73
    ],
    [
     "2026-11-25",
-    32.61
+    20.77
    ]
   ],
-  "slug": "alfombras-estilo-retro-para-sala-de-estar-alfombra-decorativ-010fcb52ed",
+  "slug": "women-s-vintage-floral-print-shirt-maxi-dress-elegant-collar-2837753688",
+  "day": "2026-11-25"
+ },
+ {
+  "pid": "aliexpress:1005006462122606",
+  "store": "aliexpress",
+  "title": "10X3M/5X6M Outdoor Fish Pond Liner Waterproof Cloth Gardens Pools PVC Membrane Reinforced Landscaping HDPE Pool fish pond liners",
+  "price_usd": 87.26,
+  "old_price_usd": 254.59,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006462122606.html%253Fpdp_npi%253D6%252540dis%252521USD%252521254.59%25252187.26%252521%252521%2525211687.14%252521578.29%252521%2525400b8ded7b17955701312536664e10c5%25252112000037282868279%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8c306689ad924393aef901536465a3bfj.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Garden Supplies",
+  "niche": "tools",
+  "ships_to": [],
+  "title_local": "Revestimiento impermeable para estanques",
+  "commission": 0.1192,
+  "why": "Protección duradera para jardines",
+  "lang": "es",
+  "median_30d": 254.59,
+  "discount": 0.6573,
+  "heat": 90.3,
+  "history": [
+   [
+    "2026-11-20",
+    87.21
+   ],
+   [
+    "2026-11-22",
+    88.83
+   ],
+   [
+    "2026-11-23",
+    87.09
+   ],
+   [
+    "2026-11-24",
+    87.02
+   ],
+   [
+    "2026-11-25",
+    87.26
+   ]
+  ],
+  "slug": "10x3m-5x6m-outdoor-fish-pond-liner-waterproof-cloth-gardens--6462122606",
+  "day": "2026-11-25"
+ },
+ {
+  "pid": "aliexpress:1005013673104117",
+  "store": "aliexpress",
+  "title": "1Pc Suction Cup Slipper Holder, Wall Mount for Bathroom Shower, Available in Black White",
+  "price_usd": 0.82,
+  "old_price_usd": 2.66,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013673104117.html%253Fpdp_npi%253D6%252540dis%252521USD%2525212.66%2525210.82%252521%252521%25252117.66%2525215.47%252521%2525402140f89017955688902372229e0eb6%25252112000061786815379%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S295b7a33a78548398f595010450441bcN.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Home Storage & Organization",
+  "niche": "dollar",
+  "ships_to": [],
+  "title_local": "Soporte de pared para zapatillas",
+  "commission": 0.15380000000000002,
+  "why": "Instalación fácil con ventosa",
+  "lang": "es",
+  "median_30d": 2.66,
+  "discount": 0.6917,
+  "heat": 90.5,
+  "history": [
+   [
+    "2026-11-22",
+    1.65
+   ],
+   [
+    "2026-11-23",
+    1.65
+   ],
+   [
+    "2026-11-24",
+    1.14
+   ],
+   [
+    "2026-11-25",
+    0.82
+   ]
+  ],
+  "slug": "1pc-suction-cup-slipper-holder-wall-mount-for-bathroom-showe-3673104117",
+  "day": "2026-11-25"
+ },
+ {
+  "pid": "aliexpress:1005013647655333",
+  "store": "aliexpress",
+  "title": "Four Season Universal Enclosed Cat Nest, Windproof and Warm, Can Be Carried By Car, Portable for Outdoor Usend Go Out",
+  "price_usd": 9.92,
+  "old_price_usd": 33.05,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013647655333.html%253Fpdp_npi%253D6%252540dis%252521USD%25252133.05%2525219.92%252521%252521%252521219.00%25252165.70%252521%252540212a7b8d17955671060954708e0dbb%25252112000061748117518%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7c1224b08f714229b39d6b53357739e5r.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Pet Products",
+  "niche": "pets",
+  "ships_to": [],
+  "title_local": "Cama para gato universal y cálida",
+  "commission": 0.3461,
+  "why": "Abrigada y portátil para exterior",
+  "lang": "es",
+  "median_30d": 33.05,
+  "discount": 0.6998,
+  "heat": 94.4,
+  "history": [
+   [
+    "2026-11-21",
+    19.79
+   ],
+   [
+    "2026-11-22",
+    19.79
+   ],
+   [
+    "2026-11-23",
+    19.79
+   ],
+   [
+    "2026-11-24",
+    19.79
+   ],
+   [
+    "2026-11-25",
+    9.92
+   ]
+  ],
+  "slug": "four-season-universal-enclosed-cat-nest-windproof-and-warm-c-3647655333",
+  "day": "2026-11-25"
+ },
+ {
+  "pid": "aliexpress:1005013645091027",
+  "store": "aliexpress",
+  "title": "Wooden Waste Bins Bathroom Kitchen Toilet Double Open Trash Can Living Room Toilet Garbage Container Cleaning Tools Waste Bucket",
+  "price_usd": 7.02,
+  "old_price_usd": 23.39,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013645091027.html%253Fpdp_npi%253D6%252540dis%252521USD%25252123.39%2525217.02%252521%252521%252521155.00%25252146.50%252521%2525402140d36117955717579624122e0fa6%25252112000061802020285%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S26fdca23f2e9483d8429cfc48ef2192bd.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Household Merchandises",
+  "niche": "home",
+  "ships_to": [],
+  "title_local": "Papelera doble de madera",
+  "commission": 0.3461,
+  "why": "Para una gestión limpia de residuos",
+  "lang": "es",
+  "median_30d": 23.39,
+  "discount": 0.6999,
+  "heat": 94.4,
+  "history": [
+   [
+    "2026-11-20",
+    14.02
+   ],
+   [
+    "2026-11-21",
+    14.0
+   ],
+   [
+    "2026-11-22",
+    7.0
+   ],
+   [
+    "2026-11-23",
+    7.0
+   ],
+   [
+    "2026-11-24",
+    7.0
+   ],
+   [
+    "2026-11-25",
+    7.02
+   ]
+  ],
+  "slug": "wooden-waste-bins-bathroom-kitchen-toilet-double-open-trash--3645091027",
   "day": "2026-11-25"
  },
  {
@@ -4165,267 +4512,6 @@
    ]
   ],
   "slug": "redragon-m656-gainer-wireless-gaming-mouse-4000-dpi-2-4ghz-g-4885710468",
-  "day": "2026-11-25"
- },
- {
-  "pid": "aliexpress:1005012307894037",
-  "store": "aliexpress",
-  "title": "PSP-S110 2400mah 3.6V Battery + LED Charger for Sony PSP2000 PSP3000 PlayStation Portable Gamepad",
-  "price_usd": 30.77,
-  "old_price_usd": 61.55,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012307894037.html%253Fpdp_npi%253D6%252540dis%252521USD%25252161.55%25252130.77%252521%252521%252521408.98%252521204.49%252521%2525402151fca717954793897062825e0e44%25252112000058014821440%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sadf6eedf9a8b4d229771bd65c35e42e7O.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Accessories & Parts",
-  "niche": "power",
-  "ships_to": [],
-  "title_local": "Batería PSP-S110 2400mAh 3.6V con Cargador LED",
-  "commission": 0.061500000000000006,
-  "why": "Mayor autonomía y carga fácil para tu consola Sony PSP",
-  "lang": "es",
-  "median_30d": 61.55,
-  "discount": 0.5001,
-  "heat": 66.1,
-  "history": [
-   [
-    "2026-11-19",
-    30.81
-   ],
-   [
-    "2026-11-20",
-    30.83
-   ],
-   [
-    "2026-11-21",
-    30.79
-   ],
-   [
-    "2026-11-22",
-    30.79
-   ],
-   [
-    "2026-11-23",
-    30.79
-   ],
-   [
-    "2026-11-24",
-    30.77
-   ],
-   [
-    "2026-11-25",
-    30.77
-   ]
-  ],
-  "slug": "psp-s110-2400mah-3-6v-battery-led-charger-for-sony-psp2000-p-2307894037",
-  "day": "2026-11-25"
- },
- {
-  "pid": "aliexpress:1005012891867309",
-  "store": "aliexpress",
-  "title": "In Stock LIP1078 4000mAh 3.65V PS5 Li-ion Battery for Sony PlayStation 5 PS5 DualSense CFI-ZCT1W Wireless Controller with Tools",
-  "price_usd": 31.42,
-  "old_price_usd": 62.83,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012891867309.html%253Fpdp_npi%253D6%252540dis%252521USD%25252162.83%25252131.42%252521%252521%252521417.45%252521208.72%252521%2525402140d36217954792371506632e0fbc%25252112000059639595779%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S799b9b38a67f4f18897b1ee09a39dd7fS.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Accessories & Parts",
-  "niche": "power",
-  "ships_to": [],
-  "title_local": "Batería Li-ion LIP1078 4000mAh para PS5",
-  "commission": 0.061500000000000006,
-  "why": "Reemplazo de batería de 4000mAh para el mando PS5",
-  "lang": "es",
-  "median_30d": 62.83,
-  "discount": 0.4999,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-19",
-    31.45
-   ],
-   [
-    "2026-11-20",
-    31.47
-   ],
-   [
-    "2026-11-22",
-    31.44
-   ],
-   [
-    "2026-11-23",
-    31.44
-   ],
-   [
-    "2026-11-24",
-    31.42
-   ],
-   [
-    "2026-11-25",
-    31.42
-   ]
-  ],
-  "slug": "in-stock-lip1078-4000mah-3-65v-ps5-li-ion-battery-for-sony-p-2891867309",
-  "day": "2026-11-25"
- },
- {
-  "pid": "aliexpress:1005013572206161",
-  "store": "aliexpress",
-  "title": "2pcs For Sony PS3 PlayStation 3 Gamepad Sixaxis Series LIP1359 Battery 3.7v 1880mah",
-  "price_usd": 24.47,
-  "old_price_usd": 58.27,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013572206161.html%253Fpdp_npi%253D6%252540dis%252521USD%25252158.27%25252124.47%252521%252521%252521387.20%252521162.62%252521%2525402151fd2c17954794546057179e0cef%25252112000061461979711%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S0638d55c0357403cbdc02b607df3ea68a.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Accessories & Parts",
-  "niche": "power",
-  "ships_to": [],
-  "title_local": "2 Baterías LIP1359 3.7V 1880mAh para PS3",
-  "commission": 0.061500000000000006,
-  "why": "Pack de dos baterias para tus mandos de PlayStation 3.",
-  "lang": "es",
-  "median_30d": 58.27,
-  "discount": 0.5801,
-  "heat": 67.4,
-  "history": [
-   [
-    "2026-11-19",
-    24.51
-   ],
-   [
-    "2026-11-20",
-    24.52
-   ],
-   [
-    "2026-11-21",
-    24.49
-   ],
-   [
-    "2026-11-22",
-    24.49
-   ],
-   [
-    "2026-11-23",
-    24.49
-   ],
-   [
-    "2026-11-24",
-    24.47
-   ],
-   [
-    "2026-11-25",
-    24.47
-   ]
-  ],
-  "slug": "2pcs-for-sony-ps3-playstation-3-gamepad-sixaxis-series-lip13-3572206161",
-  "day": "2026-11-25"
- },
- {
-  "pid": "aliexpress:1005012340858366",
-  "store": "aliexpress",
-  "title": "For PSP2000 PSP3000 PSP PlayStation Gamepad Portable Rechargeable Battery 3.6V 1200mAh",
-  "price_usd": 45.35,
-  "old_price_usd": 90.69,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012340858366.html%253Fpdp_npi%253D6%252540dis%252521USD%25252190.69%25252145.35%252521%252521%252521602.58%252521301.29%252521%2525402151fd2c17954794190843923e0cef%25252112000058134914085%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9a0c1075da3c4e95b32e75cf8bd2b16dN.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Accessories & Parts",
-  "niche": "power",
-  "ships_to": [],
-  "title_local": "Bateria PSP2000 PSP3000 3.6V 1200mAh",
-  "commission": 0.061500000000000006,
-  "why": "Mantiene tu consola portatil lista para jugar.",
-  "lang": "es",
-  "median_30d": 90.69,
-  "discount": 0.4999,
-  "heat": 67.9,
-  "history": [
-   [
-    "2026-11-19",
-    45.41
-   ],
-   [
-    "2026-11-20",
-    45.44
-   ],
-   [
-    "2026-11-21",
-    45.38
-   ],
-   [
-    "2026-11-22",
-    45.38
-   ],
-   [
-    "2026-11-23",
-    45.38
-   ],
-   [
-    "2026-11-24",
-    45.35
-   ],
-   [
-    "2026-11-25",
-    45.35
-   ]
-  ],
-  "slug": "for-psp2000-psp3000-psp-playstation-gamepad-portable-recharg-2340858366",
-  "day": "2026-11-25"
- },
- {
-  "pid": "aliexpress:1005012438920120",
-  "store": "aliexpress",
-  "title": "New 11.55V 45.62Wh 565774-3S Battery For GPD WIN 3 Win3 Handheld Gaming Laptop GamePad Tablet Battery",
-  "price_usd": 76.35,
-  "old_price_usd": 152.69,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012438920120.html%253Fpdp_npi%253D6%252540dis%252521USD%252521152.69%25252176.35%252521%252521%2525211014.52%252521507.26%252521%2525402141315917954794406368127e0e37%25252112000058362247759%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S9d3f7c259c60478884b66e4e9c5727d8C.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Accessories & Parts",
-  "niche": "power",
-  "ships_to": [],
-  "title_local": "Bateria GPD WIN 3 11.55V 45.62Wh",
-  "commission": 0.061500000000000006,
-  "why": "Bateria especifica para tu ordenador portatil de juegos.",
-  "lang": "es",
-  "median_30d": 152.69,
-  "discount": 0.5,
-  "heat": 67.9,
-  "history": [
-   [
-    "2026-11-19",
-    76.45
-   ],
-   [
-    "2026-11-20",
-    76.5
-   ],
-   [
-    "2026-11-21",
-    76.4
-   ],
-   [
-    "2026-11-22",
-    76.4
-   ],
-   [
-    "2026-11-23",
-    76.4
-   ],
-   [
-    "2026-11-24",
-    76.35
-   ],
-   [
-    "2026-11-25",
-    76.35
-   ]
-  ],
-  "slug": "new-11-55v-45-62wh-565774-3s-battery-for-gpd-win-3-win3-hand-2438920120",
   "day": "2026-11-25"
  },
  {
@@ -7531,55 +7617,6 @@
    ]
   ],
   "slug": "13s2p-18650-high-power-lithium-battery-pack-48v-10500mah-wit-0621491497",
-  "day": "2026-11-24"
- },
- {
-  "pid": "aliexpress:1005013640492013",
-  "store": "aliexpress",
-  "title": "BXX 360° Swivel Dual Head Retractable Dog Leash  One Hand Control For Medium Large Dogs  2026 New",
-  "price_usd": 7.0,
-  "old_price_usd": 23.33,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013640492013.html%253Fpdp_npi%253D6%252540dis%252521USD%25252123.33%2525217.00%252521%252521%252521155.00%25252146.50%252521%2525402101611117954799768651533e106a%25252112000061743264740%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S937a0b00c49e4b8996b199dd51717345y.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Pet Products",
-  "niche": "pets",
-  "ships_to": [],
-  "title_local": "Correa retráctil BXX para perros medianos y grandes",
-  "commission": 0.3461,
-  "why": "Control con una mano y cabezal giratorio de 360 grados",
-  "lang": "es",
-  "median_30d": 23.33,
-  "discount": 0.7,
-  "heat": 94.4,
-  "history": [
-   [
-    "2026-11-19",
-    14.02
-   ],
-   [
-    "2026-11-20",
-    7.01
-   ],
-   [
-    "2026-11-21",
-    7.0
-   ],
-   [
-    "2026-11-22",
-    7.0
-   ],
-   [
-    "2026-11-23",
-    7.0
-   ],
-   [
-    "2026-11-24",
-    7.0
-   ]
-  ],
-  "slug": "bxx-360-swivel-dual-head-retractable-dog-leash-one-hand-cont-3640492013",
   "day": "2026-11-24"
  },
  {
@@ -11593,129 +11630,6 @@
   "day": "2026-11-23"
  },
  {
-  "pid": "aliexpress:1005012589746692",
-  "store": "aliexpress",
-  "title": "2000mAh PS4 Batteries For Sony PS4 Gamepad Dualshock4 V1 Wireless Controller CUH-ZXTIE CUH-ZCTIU PS4 Pro For CUH-ZCT2",
-  "price_usd": 25.74,
-  "old_price_usd": 57.19,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012589746692.html%253Fpdp_npi%253D6%252540dis%252521USD%25252157.19%25252125.74%252521%252521%252521379.75%252521170.89%252521%2525402102f1cd17953068903126022e0f36%25252112000058758179002%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3195c3aeb4544c02818371a690f06486x.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Accessories & Parts",
-  "niche": "power",
-  "ships_to": [],
-  "title_local": "Batería 2000mAh para Mando PS4 Dualshock4",
-  "commission": 0.061500000000000006,
-  "why": "Mayor autonomía para tus sesiones de juego ininterrumpidas",
-  "lang": "es",
-  "median_30d": 57.19,
-  "discount": 0.5499,
-  "heat": 65.8,
-  "history": [
-   [
-    "2026-11-19",
-    25.0
-   ],
-   [
-    "2026-11-20",
-    25.02
-   ],
-   [
-    "2026-11-21",
-    24.98
-   ],
-   [
-    "2026-11-22",
-    25.74
-   ],
-   [
-    "2026-11-23",
-    25.74
-   ]
-  ],
-  "slug": "2000mah-ps4-batteries-for-sony-ps4-gamepad-dualshock4-v1-wir-2589746692",
-  "day": "2026-11-23"
- },
- {
-  "pid": "aliexpress:1005013669132640",
-  "store": "aliexpress",
-  "title": "Suitable for PS5/PS4/Xbox/Switch universal controller/headphone three-layer stand,ps5 accessories,gaming accessories",
-  "price_usd": 6.21,
-  "old_price_usd": 12.68,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013669132640.html%253Fpdp_npi%253D6%252540dis%252521USD%25252112.68%2525216.21%252521%252521%25252184.17%25252141.24%252521%2525402140d36117953126541432757e0f66%25252112000061774057043%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd9c3d0d9d0bf45ee98458c6017b46161t.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Portable Audio & Video",
-  "niche": "audio",
-  "ships_to": [],
-  "title_local": "Soporte Universal de Tres Capas para Mandos",
-  "commission": 0.23070000000000002,
-  "why": "Organiza tus mandos y auriculares de PS5, Xbox y Switch",
-  "lang": "es",
-  "median_30d": 12.68,
-  "discount": 0.5103,
-  "heat": 66.5,
-  "history": [
-   [
-    "2026-11-22",
-    6.21
-   ],
-   [
-    "2026-11-23",
-    6.21
-   ]
-  ],
-  "slug": "suitable-for-ps5-ps4-xbox-switch-universal-controller-headph-3669132640",
-  "day": "2026-11-23"
- },
- {
-  "pid": "aliexpress:1005013517527312",
-  "store": "aliexpress",
-  "title": "For Xbox 360 Wireless Controller 2 Pack Rechargeable Battery Kit with  Charging Station Dock",
-  "price_usd": 40.0,
-  "old_price_usd": 80.0,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013517527312.html%253Fpdp_npi%253D6%252540dis%252521USD%25252180.00%25252140.00%252521%252521%252521531.19%252521265.59%252521%25254021013cc617953068287116931e0e95%25252112000061409782501%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sdd60dac7c6a141e6a84aea573b18ea3dj.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Accessories & Parts",
-  "niche": "power",
-  "ships_to": [],
-  "title_local": "Bateria Xbox 360 Inalambrica 2 Pack",
-  "commission": 0.061500000000000006,
-  "why": "Carga dos mandos inalambricos simultaneamente.",
-  "lang": "es",
-  "median_30d": 80.0,
-  "discount": 0.5,
-  "heat": 67.9,
-  "history": [
-   [
-    "2026-11-19",
-    40.02
-   ],
-   [
-    "2026-11-20",
-    40.05
-   ],
-   [
-    "2026-11-21",
-    40.0
-   ],
-   [
-    "2026-11-22",
-    40.0
-   ],
-   [
-    "2026-11-23",
-    40.0
-   ]
-  ],
-  "slug": "for-xbox-360-wireless-controller-2-pack-rechargeable-battery-3517527312",
-  "day": "2026-11-23"
- },
- {
   "pid": "aliexpress:1005013422189490",
   "store": "aliexpress",
   "title": "UGREEN 50900 XQD Card Reader USB 3.0 Type C 2 in 1 Aluminum Adapter for Camera Laptop PC",
@@ -15611,6 +15525,51 @@
   "day": "2026-11-22"
  },
  {
+  "pid": "aliexpress:1005005895710498",
+  "store": "aliexpress",
+  "title": "REDRAGON SMD RGB MX Low Profile 5.5 Switch 3Pin Clicky Linear Tactile Silent Mechanical Keyboard Red Black Blue Brown Switche",
+  "price_usd": 6.59,
+  "old_price_usd": 15.95,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005005895710498.html%253Fpdp_npi%253D6%252540dis%252521USD%25252115.95%2525216.59%252521%252521%252521105.78%25252143.75%252521%2525402151fd3a17951312541536540e0d4e%25252112000034752006785%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc4a521f1fb1345f792df3c22ca51355dG.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "REDRAGON Teclado mecanico perfil bajo interruptores MX",
+  "commission": 0.023,
+  "why": "Switches mecánicos de perfil bajo tipo MX.",
+  "lang": "es",
+  "median_30d": 15.95,
+  "discount": 0.5868,
+  "heat": 71.7,
+  "history": [
+   [
+    "2026-11-18",
+    6.75
+   ],
+   [
+    "2026-11-19",
+    6.75
+   ],
+   [
+    "2026-11-20",
+    6.59
+   ],
+   [
+    "2026-11-21",
+    6.59
+   ],
+   [
+    "2026-11-22",
+    6.59
+   ]
+  ],
+  "slug": "redragon-smd-rgb-mx-low-profile-5-5-switch-3pin-clicky-linea-5895710498",
+  "day": "2026-11-22"
+ },
+ {
   "pid": "aliexpress:1005012032232282",
   "store": "aliexpress",
   "title": "SIMGOT EW100 Earphones in-Ear Wired HiFi Monitor Music Headphones 10mm Dual Chamber Dynamic Earbuds High Quality Gaming Headset",
@@ -16018,43 +15977,6 @@
    ]
   ],
   "slug": "soft-winter-warm-seat-cushion-40-45cm-square-office-chair-pa-3650334855",
-  "day": "2026-11-21"
- },
- {
-  "pid": "aliexpress:1005013639942515",
-  "store": "aliexpress",
-  "title": "Vintage Metal Telephone Booth Bird Feeder, Outdoor Hanging Tree Bird Feeder Garden Decoration Wholesale",
-  "price_usd": 6.69,
-  "old_price_usd": 22.29,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013639942515.html%253Fpdp_npi%253D6%252540dis%252521USD%25252122.29%2525216.69%252521%252521%252521148.00%25252144.40%252521%2525402101611117952217513043734e0d94%25252112000061680435372%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc3e2cc80c60b4e6697912ad542ed1072x.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Pet Products",
-  "niche": "pets",
-  "ships_to": [],
-  "title_local": "Comedero para pájaros de metal vintage",
-  "commission": 0.3461,
-  "why": "Colgante para exterior ideal para decorar el jardín",
-  "lang": "es",
-  "median_30d": 22.29,
-  "discount": 0.6999,
-  "heat": 94.4,
-  "history": [
-   [
-    "2026-11-19",
-    9.59
-   ],
-   [
-    "2026-11-20",
-    6.7
-   ],
-   [
-    "2026-11-21",
-    6.69
-   ]
-  ],
-  "slug": "vintage-metal-telephone-booth-bird-feeder-outdoor-hanging-tr-3639942515",
   "day": "2026-11-21"
  },
  {
@@ -18123,55 +18045,6 @@
   "day": "2026-11-19"
  },
  {
-  "pid": "aliexpress:1005013201773287",
-  "store": "aliexpress",
-  "title": "Adjustable Table Saw Depth Gauge 0-60mm with Metric & Inch Scale Aluminum Setting Up Blade Router Bits Height Measuring Gauge",
-  "price_usd": 21.09,
-  "old_price_usd": 58.77,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013201773287.html%253Fpdp_npi%253D6%252540dis%252521USD%25252158.77%25252121.09%252521%252521%252521390.00%252521139.97%252521%25254021013cc017950416414563590e0d0e%25252112000060513439422%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sbaf02bc2a7b04ace8ccc63b3bcfd713cc.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Measurement & Analysis Instruments",
-  "niche": "tools",
-  "ships_to": [],
-  "title_local": "Medidor de profundidad ajustable para sierra 0-60mm",
-  "commission": 0.1,
-  "why": "Medición precisa con escala métrica e imperial.",
-  "lang": "es",
-  "median_30d": 58.77,
-  "discount": 0.6411,
-  "heat": 88.7,
-  "history": [
-   [
-    "2026-11-10",
-    21.08
-   ],
-   [
-    "2026-11-15",
-    21.11
-   ],
-   [
-    "2026-11-16",
-    21.11
-   ],
-   [
-    "2026-11-17",
-    21.09
-   ],
-   [
-    "2026-11-18",
-    21.11
-   ],
-   [
-    "2026-11-19",
-    21.09
-   ]
-  ],
-  "slug": "adjustable-table-saw-depth-gauge-0-60mm-with-metric-inch-sca-3201773287",
-  "day": "2026-11-19"
- },
- {
   "pid": "aliexpress:1005012506707905",
   "store": "aliexpress",
   "title": "2026 New Car Center Control Storage Box PU leather Square Container Cup Holder Pocket Console Pocket Organizer Coin Collector",
@@ -18214,43 +18087,6 @@
    ]
   ],
   "slug": "2026-new-car-center-control-storage-box-pu-leather-square-co-2506707905",
-  "day": "2026-11-19"
- },
- {
-  "pid": "aliexpress:1005005648065344",
-  "store": "aliexpress",
-  "title": "Rhinowalk Bicycle Horizontal Bar Bag 4L Waterproof Bike Triangle Bag Cycling Frame Tube Bag Riding Tool Storage Bike Accessory",
-  "price_usd": 15.46,
-  "old_price_usd": 44.8,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005005648065344.html%253Fpdp_npi%253D6%252540dis%252521USD%25252144.80%25252115.46%252521%252521%252521297.26%252521102.54%252521%252540212a7b8d17950522722016861e0d9a%25252112000033881009295%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3fea3b8bccec4d149eb2c0c8fd32d588j.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Cycling",
-  "niche": "sports",
-  "ships_to": [],
-  "title_local": "Bolsa impermeable Rhinowalk de 4L para cuadro de bicicleta",
-  "commission": 0.15380000000000002,
-  "why": "Almacenamiento impermeable para herramientas",
-  "lang": "es",
-  "median_30d": 44.8,
-  "discount": 0.6549,
-  "heat": 90.1,
-  "history": [
-   [
-    "2026-11-17",
-    15.38
-   ],
-   [
-    "2026-11-18",
-    17.04
-   ],
-   [
-    "2026-11-19",
-    15.46
-   ]
-  ],
-  "slug": "rhinowalk-bicycle-horizontal-bar-bag-4l-waterproof-bike-tria-5648065344",
   "day": "2026-11-19"
  },
  {
@@ -18578,6 +18414,59 @@
   "day": "2026-11-18"
  },
  {
+  "pid": "aliexpress:1005013296194178",
+  "store": "aliexpress",
+  "title": "Auto Rear Cargo Retractable Curtain Conceal your trunk belongings for ZEEKR 8X",
+  "price_usd": 108.58,
+  "old_price_usd": 361.92,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013296194178.html%253Fpdp_npi%253D6%252540dis%252521USD%252521361.92%252521108.58%252521%252521%2525212400.00%252521720.00%252521%2525402151fce817949667290118345e0f33%25252112000060730287354%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa94c9a9820024622b52d8a4f1082ad7cB.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Interior Accessories",
+  "niche": "car",
+  "ships_to": [],
+  "title_local": "Cortina retráctil para maletero de ZEEKR 8X",
+  "commission": 0.0692,
+  "why": "Oculta las pertenencias de tu maletero",
+  "lang": "es",
+  "median_30d": 361.92,
+  "discount": 0.7,
+  "heat": 89.3,
+  "history": [
+   [
+    "2026-11-12",
+    108.43
+   ],
+   [
+    "2026-11-13",
+    108.43
+   ],
+   [
+    "2026-11-14",
+    108.58
+   ],
+   [
+    "2026-11-15",
+    108.58
+   ],
+   [
+    "2026-11-16",
+    108.58
+   ],
+   [
+    "2026-11-17",
+    108.58
+   ],
+   [
+    "2026-11-18",
+    108.58
+   ]
+  ],
+  "slug": "auto-rear-cargo-retractable-curtain-conceal-your-trunk-belon-3296194178",
+  "day": "2026-11-18"
+ },
+ {
   "pid": "joom:6aab97f188c64401d30fd45f",
   "store": "joom",
   "title": "Zapatillas de Felpa de Conejo Lindas para Mujer de Algodón Suela Suave Cálidas para el Hogar de Invierno 40-41 gray",
@@ -18864,6 +18753,80 @@
   "day": "2026-11-15"
  },
  {
+  "pid": "aliexpress:1005013584609337",
+  "store": "aliexpress",
+  "title": "Emmy Reborn Doll Kit 19\",Unfinished Blank Unpainted DIY Doll Supplies with Cloth Body and Eyes,Muñeca Bebé Reborn Collection",
+  "price_usd": 39.81,
+  "old_price_usd": 132.7,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013584609337.html%253Fpdp_npi%253D6%252540dis%252521USD%252521132.70%25252139.81%252521%252521%252521879.96%252521263.99%252521%2525400b8ded7b17946159614461820e10b4%25252112000061531927623%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sec7e1eecff8d4a8a8491af771b78142b1.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Dolls & Accessories",
+  "niche": "kids",
+  "ships_to": [],
+  "title_local": "Kit de muñeca Reborn Emmy 19 pulgadas",
+  "commission": 0.0538,
+  "why": "Incluye cuerpo de tela y ojos para manualidades DIY",
+  "lang": "es",
+  "median_30d": 132.7,
+  "discount": 0.7,
+  "heat": 85.4,
+  "history": [
+   [
+    "2026-11-14",
+    39.81
+   ],
+   [
+    "2026-11-15",
+    39.81
+   ]
+  ],
+  "slug": "emmy-reborn-doll-kit-19-unfinished-blank-unpainted-diy-doll--3584609337",
+  "day": "2026-11-15"
+ },
+ {
+  "pid": "aliexpress:1005008788059596",
+  "store": "aliexpress",
+  "title": "17T Road Bike Bicycle Carbon Fiber Ceramic Rear Derailleur Jockey Pulley Wheel Set For Shimano R5800 5700 4700 4600  Dual 105",
+  "price_usd": 43.2,
+  "old_price_usd": 144.0,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005008788059596.html%253Fpdp_npi%253D6%252540dis%252521USD%252521144.00%25252143.20%252521%252521%252521144.00%25252143.20%252521%2525402140da8b17946220425012624e1020%25252112000046666633146%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S6c088fc60d014c3ea4970be2ecd5501dP.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Cycling",
+  "niche": "sports",
+  "ships_to": [],
+  "title_local": "Rueda polea cambio trasero 17T carbono Shimano",
+  "commission": 0.0538,
+  "why": "Rueda de cambio trasero de carbono y cerámica para Shimano.",
+  "lang": "es",
+  "median_30d": 144.0,
+  "discount": 0.7,
+  "heat": 85.4,
+  "history": [
+   [
+    "2026-11-11",
+    43.2
+   ],
+   [
+    "2026-11-12",
+    43.2
+   ],
+   [
+    "2026-11-13",
+    43.2
+   ],
+   [
+    "2026-11-14",
+    43.2
+   ]
+  ],
+  "slug": "17t-road-bike-bicycle-carbon-fiber-ceramic-rear-derailleur-j-8788059596",
+  "day": "2026-11-14"
+ },
+ {
   "pid": "aliexpress:1005012001550241",
   "store": "aliexpress",
   "title": "Professional Barber Scissors, Japanese VG10 Steel, 6.2 Inches Scissors Blind Hole Design Suitable for High-End Salons",
@@ -19112,39 +19075,6 @@
   "showcase": true,
   "slug": "ventilador-de-extracci-n-de-acero-inoxidable-410-de-220-v-y--01412c38de",
   "day": "2026-11-13"
- },
- {
-  "pid": "aliexpress:1005013166766724",
-  "store": "aliexpress",
-  "title": "Women Bikini Summer Strappy Sexy Cutout Underwire Tassel Reflection Swimwear Retro Swimsuit High Waist Adjustable Beach Swimsuit",
-  "price_usd": 1.2,
-  "old_price_usd": 4.0,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013166766724.html%253Fpdp_npi%253D6%252540dis%252521USD%2525214.00%2525211.20%252521%252521%2525214.00%2525211.20%252521%2525402151fd2c17942730019846860e0d30%25252112000060387543213%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7ffa82da6b57428fb8629d0018d548baA.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Swimwears",
-  "niche": "dollar",
-  "ships_to": [],
-  "title_local": "Bikini mujer verano con aro y flecos",
-  "commission": 0.0692,
-  "why": "Tirantes ajustables y tiro alto.",
-  "lang": "es",
-  "median_30d": 4.0,
-  "discount": 0.7,
-  "heat": 85.1,
-  "history": [
-   [
-    "2026-11-11",
-    1.2
-   ],
-   [
-    "2026-11-12",
-    1.2
-   ]
-  ],
-  "slug": "women-bikini-summer-strappy-sexy-cutout-underwire-tassel-ref-3166766724",
-  "day": "2026-11-12"
  },
  {
   "pid": "aliexpress:1005013478258500",
