@@ -1,84 +1,43 @@
 [
  {
-  "pid": "aliexpress:1005013127030094",
+  "pid": "aliexpress:1005013657517028",
   "store": "aliexpress",
-  "title": "UGREEN 30523 Digital Optical Coaxial to RCA 3.5mm Audio Converter DAC for TV Speaker Amplifier PS4.",
-  "price_usd": 25.39,
-  "old_price_usd": 38.47,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013127030094.html%253Fpdp_npi%253D6%252540dis%252521USD%25252138.47%25252125.39%252521%252521%252521255.60%252521168.70%252521%2525402151fca717954767396656618e0cf9%25252112000060332836219%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sac6fee9434ea41058b7a01544987875cT.jpg",
+  "title": "Pet Chamois Towel for Dogs Cats, Super Absorbent Quick Drying Bath Towel, Portable Bucket Pack",
+  "price_usd": 15.72,
+  "old_price_usd": 49.62,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013657517028.html%253Fpdp_npi%253D6%252540dis%252521USD%25252149.62%25252115.72%252521%252521%252521328.80%252521104.17%252521%2525402140d36117955672020154732e0d9c%25252112000061775379515%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S41f8002b9a02411782d9808784e89169g.jpg",
   "rating": null,
   "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
+  "category": "Pet Products",
+  "niche": "pets",
   "ships_to": [],
-  "title_local": "UGREEN 30523 Conversor Audio DAC",
-  "commission": 0.0538,
-  "why": "Permite conectar tu televisor a altavoces y amplificadores",
+  "title_local": "Toalla de Gamuza para Perros y Gatos",
+  "commission": 0.15380000000000002,
+  "why": "Secado rápido con práctico envase en cubo",
   "lang": "es",
-  "median_30d": 38.47,
-  "discount": 0.34,
-  "heat": 66.8,
+  "median_30d": 49.62,
+  "discount": 0.6832,
+  "heat": 92.8,
   "history": [
    [
-    "2026-11-20",
-    25.44
-   ],
-   [
-    "2026-11-21",
-    25.44
-   ],
-   [
     "2026-11-22",
-    25.4
+    15.69
    ],
    [
     "2026-11-23",
-    25.4
+    15.69
    ],
    [
     "2026-11-24",
-    25.39
+    15.67
    ],
    [
     "2026-11-25",
-    25.39
+    15.72
    ]
   ],
-  "slug": "ugreen-30523-digital-optical-coaxial-to-rca-3-5mm-audio-conv-3127030094",
-  "day": "2026-11-25"
- },
- {
-  "pid": "aliexpress:1005013670221859",
-  "store": "aliexpress",
-  "title": "UGREEN 95511 DOCK USB4 13 in 1 8K 60Hz 4K 240Hz 40Gbps Gigabit Ethernet 140W for Mac Windows",
-  "price_usd": 274.92,
-  "old_price_usd": 416.55,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013670221859.html%253Fpdp_npi%253D6%252540dis%252521USD%252521416.55%252521274.92%252521%252521%2525212767.76%2525211826.72%252521%252540214114e317954771597274263e0ff1%25252112000061823579615%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S13cda5d62e364f9d9c21bf835d102928q.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "UGREEN 95511 Dock USB4 13 en 1 8K 140W",
-  "commission": 0.0538,
-  "why": "Conectividad total 13 en 1 con soporte 8K y carga de 140W",
-  "lang": "es",
-  "median_30d": 416.55,
-  "discount": 0.34,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-24",
-    274.92
-   ],
-   [
-    "2026-11-25",
-    274.92
-   ]
-  ],
-  "slug": "ugreen-95511-dock-usb4-13-in-1-8k-60hz-4k-240hz-40gbps-gigab-3670221859",
+  "slug": "pet-chamois-towel-for-dogs-cats-super-absorbent-quick-drying-3657517028",
   "day": "2026-11-25"
  },
  {
@@ -1593,6 +1552,51 @@
   "day": "2026-11-25"
  },
  {
+  "pid": "aliexpress:1005006904640623",
+  "store": "aliexpress",
+  "title": "Baseus Car Emergency Safety Hammer 3 in 1 U-shaped Seat Belt Cutter Window Breaker Escape with Emergency Lamp Car Accessories",
+  "price_usd": 14.1,
+  "old_price_usd": 32.28,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006904640623.html%253Fpdp_npi%253D6%252540dis%252521USD%25252132.28%25252114.10%252521%252521%252521213.94%25252193.45%252521%2525402140d36217954934736652254e0ce7%25252112000038671191765%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7a50a1b082334c2abe8e639e9f8cb4acN.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Car Wash & Maintenance",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Martillo de Emergencia 3 en 1",
+  "commission": 0.0538,
+  "why": "Cortador de cinturón y rompeventanas para coche.",
+  "lang": "es",
+  "median_30d": 32.28,
+  "discount": 0.5632,
+  "heat": 71.3,
+  "history": [
+   [
+    "2026-11-18",
+    16.09
+   ],
+   [
+    "2026-11-19",
+    16.09
+   ],
+   [
+    "2026-11-20",
+    16.09
+   ],
+   [
+    "2026-11-24",
+    14.1
+   ],
+   [
+    "2026-11-25",
+    14.1
+   ]
+  ],
+  "slug": "baseus-car-emergency-safety-hammer-3-in-1-u-shaped-seat-belt-6904640623",
+  "day": "2026-11-25"
+ },
+ {
   "pid": "aliexpress:1005013655222222",
   "store": "aliexpress",
   "title": "ATTACK SHARK X68HE 8K Wired Gaming Keyboard Magnetic Switch RT 0.01mm Rapid Trigger RGB Hot-Swappable Custom Keyboard",
@@ -1737,6 +1741,47 @@
    ]
   ],
   "slug": "new-attack-shark-x68-he-magnetic-mechanical-gaming-keyboard--3654564965",
+  "day": "2026-11-25"
+ },
+ {
+  "pid": "aliexpress:1005010209625169",
+  "store": "aliexpress",
+  "title": "UGREEN Magnetic Car Phone Holder Strong Magnets 2 IN 1 360° Rotatable Car Mount For Magsafe iPhone 16 15 Pro Samsumg S25 Xiaomi",
+  "price_usd": 10.77,
+  "old_price_usd": 24.8,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010209625169.html%253Fpdp_npi%253D6%252540dis%252521USD%25252124.80%25252110.77%252521%252521%25252124.80%25252110.77%252521%2525402140d36117954932535082660e102c%25252112000051527898070%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scf18cde1fd424668b947addfa5549d2d1.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Soporte Móvil Coche Magnético 360°",
+  "commission": 0.0538,
+  "why": "Rotación de 360 grados para mayor comodidad",
+  "lang": "es",
+  "median_30d": 24.8,
+  "discount": 0.5657,
+  "heat": 71.3,
+  "history": [
+   [
+    "2026-11-22",
+    11.08
+   ],
+   [
+    "2026-11-23",
+    11.08
+   ],
+   [
+    "2026-11-24",
+    10.77
+   ],
+   [
+    "2026-11-25",
+    10.77
+   ]
+  ],
+  "slug": "ugreen-magnetic-car-phone-holder-strong-magnets-2-in-1-360-r-0209625169",
   "day": "2026-11-25"
  },
  {
@@ -2809,133 +2854,6 @@
   "day": "2026-11-25"
  },
  {
-  "pid": "aliexpress:1005013657517028",
-  "store": "aliexpress",
-  "title": "Pet Chamois Towel for Dogs Cats, Super Absorbent Quick Drying Bath Towel, Portable Bucket Pack",
-  "price_usd": 15.72,
-  "old_price_usd": 49.62,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013657517028.html%253Fpdp_npi%253D6%252540dis%252521USD%25252149.62%25252115.72%252521%252521%252521328.80%252521104.17%252521%2525402140d36117955672020154732e0d9c%25252112000061775379515%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S41f8002b9a02411782d9808784e89169g.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Pet Products",
-  "niche": "pets",
-  "ships_to": [],
-  "title_local": "Toalla de Gamuza para Perros y Gatos",
-  "commission": 0.15380000000000002,
-  "why": "Secado rápido con práctico envase en cubo",
-  "lang": "es",
-  "median_30d": 49.62,
-  "discount": 0.6832,
-  "heat": 92.8,
-  "history": [
-   [
-    "2026-11-22",
-    15.69
-   ],
-   [
-    "2026-11-23",
-    15.69
-   ],
-   [
-    "2026-11-24",
-    15.67
-   ],
-   [
-    "2026-11-25",
-    15.72
-   ]
-  ],
-  "slug": "pet-chamois-towel-for-dogs-cats-super-absorbent-quick-drying-3657517028",
-  "day": "2026-11-25"
- },
- {
-  "pid": "aliexpress:1005006904640623",
-  "store": "aliexpress",
-  "title": "Baseus Car Emergency Safety Hammer 3 in 1 U-shaped Seat Belt Cutter Window Breaker Escape with Emergency Lamp Car Accessories",
-  "price_usd": 14.1,
-  "old_price_usd": 32.28,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006904640623.html%253Fpdp_npi%253D6%252540dis%252521USD%25252132.28%25252114.10%252521%252521%252521213.94%25252193.45%252521%2525402140d36217954934736652254e0ce7%25252112000038671191765%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7a50a1b082334c2abe8e639e9f8cb4acN.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Car Wash & Maintenance",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus Martillo de Emergencia 3 en 1",
-  "commission": 0.0538,
-  "why": "Cortador de cinturón y rompeventanas para coche.",
-  "lang": "es",
-  "median_30d": 32.28,
-  "discount": 0.5632,
-  "heat": 71.3,
-  "history": [
-   [
-    "2026-11-18",
-    16.09
-   ],
-   [
-    "2026-11-19",
-    16.09
-   ],
-   [
-    "2026-11-20",
-    16.09
-   ],
-   [
-    "2026-11-24",
-    14.1
-   ],
-   [
-    "2026-11-25",
-    14.1
-   ]
-  ],
-  "slug": "baseus-car-emergency-safety-hammer-3-in-1-u-shaped-seat-belt-6904640623",
-  "day": "2026-11-25"
- },
- {
-  "pid": "aliexpress:1005010209625169",
-  "store": "aliexpress",
-  "title": "UGREEN Magnetic Car Phone Holder Strong Magnets 2 IN 1 360° Rotatable Car Mount For Magsafe iPhone 16 15 Pro Samsumg S25 Xiaomi",
-  "price_usd": 10.77,
-  "old_price_usd": 24.8,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010209625169.html%253Fpdp_npi%253D6%252540dis%252521USD%25252124.80%25252110.77%252521%252521%25252124.80%25252110.77%252521%2525402140d36117954932535082660e102c%25252112000051527898070%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scf18cde1fd424668b947addfa5549d2d1.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Holders & Stands",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "UGREEN Soporte Móvil Coche Magnético 360°",
-  "commission": 0.0538,
-  "why": "Rotación de 360 grados para mayor comodidad",
-  "lang": "es",
-  "median_30d": 24.8,
-  "discount": 0.5657,
-  "heat": 71.3,
-  "history": [
-   [
-    "2026-11-22",
-    11.08
-   ],
-   [
-    "2026-11-23",
-    11.08
-   ],
-   [
-    "2026-11-24",
-    10.77
-   ],
-   [
-    "2026-11-25",
-    10.77
-   ]
-  ],
-  "slug": "ugreen-magnetic-car-phone-holder-strong-magnets-2-in-1-360-r-0209625169",
-  "day": "2026-11-25"
- },
- {
   "pid": "aliexpress:1005012307894037",
   "store": "aliexpress",
   "title": "PSP-S110 2400mah 3.6V Battery + LED Charger for Sony PSP2000 PSP3000 PlayStation Portable Gamepad",
@@ -3141,6 +3059,88 @@
    ]
   ],
   "slug": "ugreen-cm930-75726-4k-webcam-30fps-ai-auto-framing-autofocus-3512372128",
+  "day": "2026-11-25"
+ },
+ {
+  "pid": "aliexpress:1005013127030094",
+  "store": "aliexpress",
+  "title": "UGREEN 30523 Digital Optical Coaxial to RCA 3.5mm Audio Converter DAC for TV Speaker Amplifier PS4.",
+  "price_usd": 25.39,
+  "old_price_usd": 38.47,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013127030094.html%253Fpdp_npi%253D6%252540dis%252521USD%25252138.47%25252125.39%252521%252521%252521255.60%252521168.70%252521%2525402151fca717954767396656618e0cf9%25252112000060332836219%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sac6fee9434ea41058b7a01544987875cT.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN 30523 Conversor Audio DAC",
+  "commission": 0.0538,
+  "why": "Permite conectar tu televisor a altavoces y amplificadores",
+  "lang": "es",
+  "median_30d": 38.47,
+  "discount": 0.34,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-20",
+    25.44
+   ],
+   [
+    "2026-11-21",
+    25.44
+   ],
+   [
+    "2026-11-22",
+    25.4
+   ],
+   [
+    "2026-11-23",
+    25.4
+   ],
+   [
+    "2026-11-24",
+    25.39
+   ],
+   [
+    "2026-11-25",
+    25.39
+   ]
+  ],
+  "slug": "ugreen-30523-digital-optical-coaxial-to-rca-3-5mm-audio-conv-3127030094",
+  "day": "2026-11-25"
+ },
+ {
+  "pid": "aliexpress:1005013670221859",
+  "store": "aliexpress",
+  "title": "UGREEN 95511 DOCK USB4 13 in 1 8K 60Hz 4K 240Hz 40Gbps Gigabit Ethernet 140W for Mac Windows",
+  "price_usd": 274.92,
+  "old_price_usd": 416.55,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013670221859.html%253Fpdp_npi%253D6%252540dis%252521USD%252521416.55%252521274.92%252521%252521%2525212767.76%2525211826.72%252521%252540214114e317954771597274263e0ff1%25252112000061823579615%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S13cda5d62e364f9d9c21bf835d102928q.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN 95511 Dock USB4 13 en 1 8K 140W",
+  "commission": 0.0538,
+  "why": "Conectividad total 13 en 1 con soporte 8K y carga de 140W",
+  "lang": "es",
+  "median_30d": 416.55,
+  "discount": 0.34,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-24",
+    274.92
+   ],
+   [
+    "2026-11-25",
+    274.92
+   ]
+  ],
+  "slug": "ugreen-95511-dock-usb4-13-in-1-8k-60hz-4k-240hz-40gbps-gigab-3670221859",
   "day": "2026-11-25"
  },
  {
@@ -3931,7 +3931,7 @@
   "category": "Dolls & Accessories",
   "niche": "kids",
   "ships_to": [],
-  "title_local": "",
+  "title_local": "Ayana Reborn Girl Doll 60cm Piel 3D",
   "commission": 0.0538,
   "why": "",
   "lang": "es",
@@ -3964,7 +3964,7 @@
   "category": "Tool Parts",
   "niche": "tools",
   "ships_to": [],
-  "title_local": "",
+  "title_local": "Tijeras Pinza Cortadora Cinta SMT",
   "commission": 0.1,
   "why": "",
   "lang": "es",
@@ -4070,7 +4070,7 @@
   "category": "Parkas",
   "niche": "fashion",
   "ships_to": [],
-  "title_local": "",
+  "title_local": "Chaqueta Cuero Invierno Oversize Hombre",
   "commission": 0.0692,
   "why": "",
   "lang": "es",
@@ -5872,7 +5872,7 @@
   "category": "Laptop Parts & Accessories",
   "niche": "brands",
   "ships_to": [],
-  "title_local": "",
+  "title_local": "Capturadora Video UGREEN Dual HDMI 4K",
   "commission": 0.0538,
   "why": "",
   "lang": "es",
@@ -5901,7 +5901,7 @@
   "category": "Interior Accessories",
   "niche": "dollar",
   "ships_to": [],
-  "title_local": "",
+  "title_local": "Funda Asiento Coche Invierno Calida",
   "commission": 0.07690000000000001,
   "why": "",
   "lang": "es",
