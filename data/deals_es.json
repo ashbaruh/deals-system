@@ -1,119 +1,47 @@
 [
  {
-  "pid": "joom:6a28c80822f3e501ee7fb76b",
-  "store": "joom",
-  "title": "Camiseta sin mangas de cuello barco con manga corta para mujer, corte holgado, informal, de verano S blanco",
-  "price_usd": 23.67,
-  "old_price_usd": null,
-  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F6a28c80822f3e501ee7fb76b%3Fcurrency%3DEUR%26utm_productid%3D6a28c80822f3e501ee7fb76b%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTYyNjA5MjQsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjZhMjhjODA4MjJmM2U1MDFlZTdmYjc2YiIsInYiOiI2YTI4YzgwODIyZjNlNTVhZWU3ZmI3NzgiLCJjIjoyMS43OH1dfQ.zvBOyQm3-V639Hh8Uvb0F2MSuCw61mfZqhZy97OvKuokUO89uLowyKcL-gXQ7ugEWT4LD_RnWYrbPuoh3etiog%26variant_id%3D6a28c80822f3e55aee7fb778%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_premium_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-26",
-  "image": "https://img.joomcdn.net/c4db54fe20a704d66402d30fe2f21458eae016d7_original.jpeg",
-  "rating": null,
-  "orders": null,
-  "category": "Joom/Moda femenina/Ropa/Camisetas y tops/Camisetas y mangas largas",
-  "niche": "fashion",
-  "ships_to": [
-   "ES"
-  ],
-  "title_local": "Camiseta holgada de verano con cuello barco para mujer",
-  "commission": null,
-  "why": "Diseno informal y fresco para mujer en color blanco",
-  "lang": "es",
-  "median_30d": 23.67,
-  "discount": 0.0,
-  "heat": 40.0,
-  "history": [],
-  "showcase": true,
-  "slug": "camiseta-sin-mangas-de-cuello-barco-con-manga-corta-para-muj-01ee7fb76b",
-  "day": "2026-11-26"
- },
- {
-  "pid": "aliexpress:1005013370200373",
+  "pid": "aliexpress:1005013641351237",
   "store": "aliexpress",
-  "title": "Amazfit GTS Smart Watch For Men Women 5 ATM Waterproof Sports Tracking Editable Widgets Music Control Refurbishment Machine",
-  "price_usd": 46.34,
-  "old_price_usd": 149.49,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013370200373.html%253Fpdp_npi%253D6%252540dis%252521USD%252521149.49%25252146.34%252521%252521%252521990.00%252521306.90%252521%2525402102f1cd17956603058188530e101e%25252112000060971582831%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S82ba9b46e83943a5a3d32ad8da3f670ff.jpg",
+  "title": "LIGE Military Grade GPS Smart Watch Built-in Dual-band GPS Path Compass 950mAh AMOLED 170+ Sports IP68 Waterproof Smartwatch Men",
+  "price_usd": 39.59,
+  "old_price_usd": 120.41,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013641351237.html%253Fpdp_npi%253D6%252540dis%252521USD%252521120.41%25252139.59%252521%252521%252521797.44%252521262.21%252521%252540214114e317956603513566707e0faf%25252112000061790830578%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se0f2eea02fca4933ba30fb23d19494e5C.jpg",
   "rating": null,
   "orders": null,
   "category": "Smart Electronics",
   "niche": "watch",
   "ships_to": [],
-  "title_local": "Amazfit GTS Reloj Inteligente Sumergible",
+  "title_local": "Lige Smartwatch Militar GPS AMOLED 950mAh",
   "commission": 0.0538,
-  "why": "Resistente al agua con control de musica y deportes",
+  "why": "Navegación GPS precisa y batería duradera",
   "lang": "es",
-  "median_30d": 149.49,
-  "discount": 0.69,
-  "heat": 84.5,
+  "median_30d": 120.41,
+  "discount": 0.6712,
+  "heat": 82.6,
   "history": [
    [
     "2026-11-22",
-    46.22
+    30.15
    ],
    [
     "2026-11-23",
-    46.22
+    30.15
    ],
    [
     "2026-11-24",
-    46.22
-   ],
-   [
-    "2026-11-26",
-    46.34
-   ]
-  ],
-  "slug": "amazfit-gts-smart-watch-for-men-women-5-atm-waterproof-sport-3370200373",
-  "day": "2026-11-26"
- },
- {
-  "pid": "aliexpress:1005013584466773",
-  "store": "aliexpress",
-  "title": "24-in-1 Dog Vitamins and Supplements Multivitamin Chewable for Dog Skin Coat Heart Joint Gut Liver Brain Eyes Immune Support",
-  "price_usd": 21.75,
-  "old_price_usd": 60.4,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013584466773.html%253Fpdp_npi%253D6%252540dis%252521USD%25252160.40%25252121.75%252521%252521%252521399.98%252521143.99%252521%2525402141149b17956532898574791e101d%25252112000061496275066%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc4732e01416e4db894e8e984bdf971e5O.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Pet Products",
-  "niche": "pets",
-  "ships_to": [],
-  "title_local": "Multivitaminico masticable para perros 24 en 1",
-  "commission": 0.11689999999999999,
-  "why": "Apoyo integral para piel, corazon, articulaciones y digestion",
-  "lang": "es",
-  "median_30d": 60.4,
-  "discount": 0.6399,
-  "heat": 88.6,
-  "history": [
-   [
-    "2026-11-20",
-    21.72
-   ],
-   [
-    "2026-11-22",
-    21.69
-   ],
-   [
-    "2026-11-23",
-    21.69
-   ],
-   [
-    "2026-11-24",
-    21.67
+    30.13
    ],
    [
     "2026-11-25",
-    21.73
+    30.13
    ],
    [
     "2026-11-26",
-    21.75
+    39.59
    ]
   ],
-  "slug": "24-in-1-dog-vitamins-and-supplements-multivitamin-chewable-f-3584466773",
+  "slug": "lige-military-grade-gps-smart-watch-built-in-dual-band-gps-p-3641351237",
   "day": "2026-11-26"
  },
  {
@@ -1169,83 +1097,6 @@
   "day": "2026-11-26"
  },
  {
-  "pid": "aliexpress:1005007713627856",
-  "store": "aliexpress",
-  "title": "Redragon K556 RGB LED Backlit Wired 104 Keys Hot-Swap Noise Absorbing Foams Mechanical Gaming Keyboard",
-  "price_usd": 22.5,
-  "old_price_usd": 49.99,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007713627856.html%253Fpdp_npi%253D6%252540dis%252521USD%25252149.99%25252122.50%252521%252521%25252149.99%25252122.50%252521%2525402140f89017956582706857784e0e53%25252112000041943628190%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S662a894fbb0d4f3fa38a63c2808a126db.png",
-  "rating": null,
-  "orders": null,
-  "category": "Computer Peripherals",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Teclado Mecánico Redragon K556 RGB 104 Teclas",
-  "commission": 0.061500000000000006,
-  "why": "Diseño hot-swap con espuma absorción de ruido y RGB",
-  "lang": "es",
-  "median_30d": 36.45,
-  "discount": 0.3826,
-  "heat": 67.7,
-  "history": [
-   [
-    "2026-11-14",
-    50.39
-   ],
-   [
-    "2026-11-15",
-    50.39
-   ],
-   [
-    "2026-11-16",
-    50.39
-   ],
-   [
-    "2026-11-17",
-    50.39
-   ],
-   [
-    "2026-11-18",
-    50.39
-   ],
-   [
-    "2026-11-19",
-    50.39
-   ],
-   [
-    "2026-11-20",
-    22.5
-   ],
-   [
-    "2026-11-21",
-    22.5
-   ],
-   [
-    "2026-11-22",
-    22.5
-   ],
-   [
-    "2026-11-23",
-    22.5
-   ],
-   [
-    "2026-11-24",
-    22.5
-   ],
-   [
-    "2026-11-25",
-    22.5
-   ],
-   [
-    "2026-11-26",
-    22.5
-   ]
-  ],
-  "slug": "redragon-k556-rgb-led-backlit-wired-104-keys-hot-swap-noise--7713627856",
-  "day": "2026-11-26"
- },
- {
   "pid": "aliexpress:1005006232682386",
   "store": "aliexpress",
   "title": "UGREEN Mechanical Keyboard 108 PBT Keycaps Wired Keyboard Red Switch Russian/Korean/EN for Desktop Laptop Windows Mac OS Gaming",
@@ -1976,6 +1827,59 @@
   "day": "2026-11-26"
  },
  {
+  "pid": "aliexpress:1005007010619110",
+  "store": "aliexpress",
+  "title": "Baseus 30W Car Fast Charger Quick Charge 4.0 3.0 USB Type-C Fast Charging Car Phone Charger For Huawei Xiaomi iPhone 15 14 13 12",
+  "price_usd": 6.93,
+  "old_price_usd": 16.82,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007010619110.html%253Fpdp_npi%253D6%252540dis%252521USD%25252116.82%2525216.93%252521%252521%252521111.36%25252145.88%252521%2525402140da8b17956589729002252e0f61%25252112000039050932022%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S75fbddc722b04ff7ae2890984644771dZ.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Interior Parts",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Cargador Coche Baseus 30W Fast Charger",
+  "commission": 0.0538,
+  "why": "Carga rápida de 30W compatible con Quick Charge 4.0 y 3.0",
+  "lang": "es",
+  "median_30d": 16.82,
+  "discount": 0.588,
+  "heat": 71.8,
+  "history": [
+   [
+    "2026-11-18",
+    8.39
+   ],
+   [
+    "2026-11-19",
+    8.39
+   ],
+   [
+    "2026-11-20",
+    7.63
+   ],
+   [
+    "2026-11-21",
+    7.63
+   ],
+   [
+    "2026-11-22",
+    7.67
+   ],
+   [
+    "2026-11-23",
+    7.67
+   ],
+   [
+    "2026-11-26",
+    6.93
+   ]
+  ],
+  "slug": "baseus-30w-car-fast-charger-quick-charge-4-0-3-0-usb-type-c--7010619110",
+  "day": "2026-11-26"
+ },
+ {
   "pid": "aliexpress:1005006589795037",
   "store": "aliexpress",
   "title": "RK ROYAL KLUDGE Mechanical Keyboard Switch 3/5pin Clicky Tactile Linear Silent Blue Brown Red Switches for MX Gaming Keyboard",
@@ -2614,6 +2518,200 @@
    ]
   ],
   "slug": "ugreen-lp1022-magsafe-magnetic-ring-holder-60n-strong-magnet-3678117980",
+  "day": "2026-11-26"
+ },
+ {
+  "pid": "joom:6a28c80822f3e501ee7fb76b",
+  "store": "joom",
+  "title": "Camiseta sin mangas de cuello barco con manga corta para mujer, corte holgado, informal, de verano S blanco",
+  "price_usd": 23.67,
+  "old_price_usd": null,
+  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F6a28c80822f3e501ee7fb76b%3Fcurrency%3DEUR%26utm_productid%3D6a28c80822f3e501ee7fb76b%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTYyNjA5MjQsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjZhMjhjODA4MjJmM2U1MDFlZTdmYjc2YiIsInYiOiI2YTI4YzgwODIyZjNlNTVhZWU3ZmI3NzgiLCJjIjoyMS43OH1dfQ.zvBOyQm3-V639Hh8Uvb0F2MSuCw61mfZqhZy97OvKuokUO89uLowyKcL-gXQ7ugEWT4LD_RnWYrbPuoh3etiog%26variant_id%3D6a28c80822f3e55aee7fb778%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_premium_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-26",
+  "image": "https://img.joomcdn.net/c4db54fe20a704d66402d30fe2f21458eae016d7_original.jpeg",
+  "rating": null,
+  "orders": null,
+  "category": "Joom/Moda femenina/Ropa/Camisetas y tops/Camisetas y mangas largas",
+  "niche": "fashion",
+  "ships_to": [
+   "ES"
+  ],
+  "title_local": "Camiseta holgada de verano con cuello barco para mujer",
+  "commission": null,
+  "why": "Diseno informal y fresco para mujer en color blanco",
+  "lang": "es",
+  "median_30d": 23.67,
+  "discount": 0.0,
+  "heat": 40.0,
+  "history": [],
+  "showcase": true,
+  "slug": "camiseta-sin-mangas-de-cuello-barco-con-manga-corta-para-muj-01ee7fb76b",
+  "day": "2026-11-26"
+ },
+ {
+  "pid": "aliexpress:1005013370200373",
+  "store": "aliexpress",
+  "title": "Amazfit GTS Smart Watch For Men Women 5 ATM Waterproof Sports Tracking Editable Widgets Music Control Refurbishment Machine",
+  "price_usd": 46.34,
+  "old_price_usd": 149.49,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013370200373.html%253Fpdp_npi%253D6%252540dis%252521USD%252521149.49%25252146.34%252521%252521%252521990.00%252521306.90%252521%2525402102f1cd17956603058188530e101e%25252112000060971582831%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S82ba9b46e83943a5a3d32ad8da3f670ff.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Smart Electronics",
+  "niche": "watch",
+  "ships_to": [],
+  "title_local": "Amazfit GTS Reloj Inteligente Sumergible",
+  "commission": 0.0538,
+  "why": "Resistente al agua con control de musica y deportes",
+  "lang": "es",
+  "median_30d": 149.49,
+  "discount": 0.69,
+  "heat": 84.5,
+  "history": [
+   [
+    "2026-11-22",
+    46.22
+   ],
+   [
+    "2026-11-23",
+    46.22
+   ],
+   [
+    "2026-11-24",
+    46.22
+   ],
+   [
+    "2026-11-26",
+    46.34
+   ]
+  ],
+  "slug": "amazfit-gts-smart-watch-for-men-women-5-atm-waterproof-sport-3370200373",
+  "day": "2026-11-26"
+ },
+ {
+  "pid": "aliexpress:1005013584466773",
+  "store": "aliexpress",
+  "title": "24-in-1 Dog Vitamins and Supplements Multivitamin Chewable for Dog Skin Coat Heart Joint Gut Liver Brain Eyes Immune Support",
+  "price_usd": 21.75,
+  "old_price_usd": 60.4,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013584466773.html%253Fpdp_npi%253D6%252540dis%252521USD%25252160.40%25252121.75%252521%252521%252521399.98%252521143.99%252521%2525402141149b17956532898574791e101d%25252112000061496275066%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc4732e01416e4db894e8e984bdf971e5O.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Pet Products",
+  "niche": "pets",
+  "ships_to": [],
+  "title_local": "Multivitaminico masticable para perros 24 en 1",
+  "commission": 0.11689999999999999,
+  "why": "Apoyo integral para piel, corazon, articulaciones y digestion",
+  "lang": "es",
+  "median_30d": 60.4,
+  "discount": 0.6399,
+  "heat": 88.6,
+  "history": [
+   [
+    "2026-11-20",
+    21.72
+   ],
+   [
+    "2026-11-22",
+    21.69
+   ],
+   [
+    "2026-11-23",
+    21.69
+   ],
+   [
+    "2026-11-24",
+    21.67
+   ],
+   [
+    "2026-11-25",
+    21.73
+   ],
+   [
+    "2026-11-26",
+    21.75
+   ]
+  ],
+  "slug": "24-in-1-dog-vitamins-and-supplements-multivitamin-chewable-f-3584466773",
+  "day": "2026-11-26"
+ },
+ {
+  "pid": "aliexpress:1005007713627856",
+  "store": "aliexpress",
+  "title": "Redragon K556 RGB LED Backlit Wired 104 Keys Hot-Swap Noise Absorbing Foams Mechanical Gaming Keyboard",
+  "price_usd": 22.5,
+  "old_price_usd": 49.99,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007713627856.html%253Fpdp_npi%253D6%252540dis%252521USD%25252149.99%25252122.50%252521%252521%25252149.99%25252122.50%252521%2525402140f89017956582706857784e0e53%25252112000041943628190%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S662a894fbb0d4f3fa38a63c2808a126db.png",
+  "rating": null,
+  "orders": null,
+  "category": "Computer Peripherals",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Teclado Mecánico Redragon K556 RGB 104 Teclas",
+  "commission": 0.061500000000000006,
+  "why": "Diseño hot-swap con espuma absorción de ruido y RGB",
+  "lang": "es",
+  "median_30d": 36.45,
+  "discount": 0.3826,
+  "heat": 67.7,
+  "history": [
+   [
+    "2026-11-14",
+    50.39
+   ],
+   [
+    "2026-11-15",
+    50.39
+   ],
+   [
+    "2026-11-16",
+    50.39
+   ],
+   [
+    "2026-11-17",
+    50.39
+   ],
+   [
+    "2026-11-18",
+    50.39
+   ],
+   [
+    "2026-11-19",
+    50.39
+   ],
+   [
+    "2026-11-20",
+    22.5
+   ],
+   [
+    "2026-11-21",
+    22.5
+   ],
+   [
+    "2026-11-22",
+    22.5
+   ],
+   [
+    "2026-11-23",
+    22.5
+   ],
+   [
+    "2026-11-24",
+    22.5
+   ],
+   [
+    "2026-11-25",
+    22.5
+   ],
+   [
+    "2026-11-26",
+    22.5
+   ]
+  ],
+  "slug": "redragon-k556-rgb-led-backlit-wired-104-keys-hot-swap-noise--7713627856",
   "day": "2026-11-26"
  },
  {
@@ -11713,55 +11811,6 @@
   "day": "2026-11-23"
  },
  {
-  "pid": "aliexpress:1005007010619110",
-  "store": "aliexpress",
-  "title": "Baseus 30W Car Fast Charger Quick Charge 4.0 3.0 USB Type-C Fast Charging Car Phone Charger For Huawei Xiaomi iPhone 15 14 13 12",
-  "price_usd": 7.67,
-  "old_price_usd": 16.77,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005007010619110.html%253Fpdp_npi%253D6%252540dis%252521USD%25252116.77%2525217.67%252521%252521%252521111.36%25252150.97%252521%2525402151fd2c17953134856333996e0f23%25252112000039050932022%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S75fbddc722b04ff7ae2890984644771dZ.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Interior Parts",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Cargador Coche Baseus 30W Fast Charger",
-  "commission": 0.0538,
-  "why": "Carga rápida de 30W compatible con Quick Charge 4.0 y 3.0",
-  "lang": "es",
-  "median_30d": 16.77,
-  "discount": 0.5426,
-  "heat": 70.9,
-  "history": [
-   [
-    "2026-11-18",
-    8.39
-   ],
-   [
-    "2026-11-19",
-    8.39
-   ],
-   [
-    "2026-11-20",
-    7.63
-   ],
-   [
-    "2026-11-21",
-    7.63
-   ],
-   [
-    "2026-11-22",
-    7.67
-   ],
-   [
-    "2026-11-23",
-    7.67
-   ]
-  ],
-  "slug": "baseus-30w-car-fast-charger-quick-charge-4-0-3-0-usb-type-c--7010619110",
-  "day": "2026-11-23"
- },
- {
   "pid": "aliexpress:1005011612151674",
   "store": "aliexpress",
   "title": "ATTACK SHARK R85HE Magnetic Axis Gaming Wire Keyboard 8KHz Rate 0.005mm RT Precision Adjustable 5 Layer Soundproof Filling RGB",
@@ -19742,35 +19791,5 @@
   ],
   "slug": "58mm-portafilter-wood-coffee-machine-bottomless-filter-porta-2845752283",
   "day": "2026-11-10"
- },
- {
-  "pid": "aliexpress:1005013028497734",
-  "store": "aliexpress",
-  "title": "1pc Fishing Tackle Storage Box Thickened Multi Functional Special Tool Box Storage Case Bag For Fishing Accessories Angling Gear",
-  "price_usd": 19.63,
-  "old_price_usd": 63.89,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013028497734.html%253Fpdp_npi%253D6%252540dis%252521USD%25252163.89%25252119.63%252521%252521%25252163.89%25252119.63%252521%2525402140d36217947976491941069e0fbc%25252112000060068653354%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S3369fb544a754ac8b5482fadbaa584beP.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Fishing",
-  "niche": "sports",
-  "ships_to": [],
-  "title_local": "Caja de aparejos de pesca multifuncional",
-  "commission": 0.1153,
-  "why": "Diseno engrosado especial para accesorios de pesca.",
-  "lang": "es",
-  "median_30d": 63.89,
-  "discount": 0.6928,
-  "heat": 93.7,
-  "history": [
-   [
-    "2026-11-16",
-    19.63
-   ]
-  ],
-  "slug": "1pc-fishing-tackle-storage-box-thickened-multi-functional-sp-3028497734",
-  "day": "2026-11-16",
-  "expired": true
  }
 ]
