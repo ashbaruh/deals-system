@@ -1,47 +1,84 @@
 [
  {
-  "pid": "aliexpress:1005013641351237",
+  "pid": "aliexpress:1005013127030094",
   "store": "aliexpress",
-  "title": "LIGE Military Grade GPS Smart Watch Built-in Dual-band GPS Path Compass 950mAh AMOLED 170+ Sports IP68 Waterproof Smartwatch Men",
-  "price_usd": 39.59,
-  "old_price_usd": 120.41,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013641351237.html%253Fpdp_npi%253D6%252540dis%252521USD%252521120.41%25252139.59%252521%252521%252521797.44%252521262.21%252521%252540214114e317956603513566707e0faf%25252112000061790830578%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se0f2eea02fca4933ba30fb23d19494e5C.jpg",
+  "title": "UGREEN 30523 Digital Optical Coaxial to RCA 3.5mm Audio Converter DAC for TV Speaker Amplifier PS4.",
+  "price_usd": 25.48,
+  "old_price_usd": 38.6,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013127030094.html%253Fpdp_npi%253D6%252540dis%252521USD%25252138.60%25252125.48%252521%252521%252521255.60%252521168.70%252521%2525402140d33617956495349162772e0c6c%25252112000060332836219%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sac6fee9434ea41058b7a01544987875cT.jpg",
   "rating": null,
   "orders": null,
-  "category": "Smart Electronics",
-  "niche": "watch",
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
   "ships_to": [],
-  "title_local": "LIGE GPS Smartwatch with AMOLED and Dual-band GPS",
+  "title_local": "UGREEN 30523 Optical Coaxial to RCA Audio Converter",
   "commission": 0.0538,
-  "why": "Rugged build with dual-band GPS and a 950mAh battery",
+  "why": "Connects TVs and speakers with digital-to-analog conversion",
   "lang": "en",
-  "median_30d": 120.41,
-  "discount": 0.6712,
-  "heat": 82.6,
+  "median_30d": 38.6,
+  "discount": 0.3399,
+  "heat": 66.8,
   "history": [
    [
+    "2026-11-20",
+    25.44
+   ],
+   [
+    "2026-11-21",
+    25.44
+   ],
+   [
     "2026-11-22",
-    30.15
+    25.4
    ],
    [
     "2026-11-23",
-    30.15
+    25.4
    ],
    [
     "2026-11-24",
-    30.13
+    25.39
    ],
    [
     "2026-11-25",
-    30.13
+    25.39
    ],
    [
     "2026-11-26",
-    39.59
+    25.48
    ]
   ],
-  "slug": "lige-military-grade-gps-smart-watch-built-in-dual-band-gps-p-3641351237",
+  "slug": "ugreen-30523-digital-optical-coaxial-to-rca-3-5mm-audio-conv-3127030094",
+  "day": "2026-11-26"
+ },
+ {
+  "pid": "aliexpress:1005013205342027",
+  "store": "aliexpress",
+  "title": "UGREEN 25052 USB C to 2.5G Ethernet Adapter Type C to RJ45 Gigabit Wired Network Converter",
+  "price_usd": 31.75,
+  "old_price_usd": 48.1,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013205342027.html%253Fpdp_npi%253D6%252540dis%252521USD%25252148.10%25252131.75%252521%252521%252521318.53%252521210.23%252521%2525402151fce817956495762978124e0d86%25252112000060497329036%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf80bf2ea74f84892b1e47b3ddeb97ac51.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN 25052 USB-C to 2.5G Ethernet Adapter",
+  "commission": 0.0538,
+  "why": "Provides fast wired network connection",
+  "lang": "en",
+  "median_30d": 48.1,
+  "discount": 0.3399,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-26",
+    31.75
+   ]
+  ],
+  "slug": "ugreen-25052-usb-c-to-2-5g-ethernet-adapter-type-c-to-rj45-g-3205342027",
   "day": "2026-11-26"
  },
  {
@@ -1724,100 +1761,6 @@
   "day": "2026-11-26"
  },
  {
-  "pid": "aliexpress:1005006904640623",
-  "store": "aliexpress",
-  "title": "Baseus Car Emergency Safety Hammer 3 in 1 U-shaped Seat Belt Cutter Window Breaker Escape with Emergency Lamp Car Accessories",
-  "price_usd": 13.93,
-  "old_price_usd": 32.26,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006904640623.html%253Fpdp_npi%253D6%252540dis%252521USD%25252132.26%25252113.93%252521%252521%252521213.94%25252192.38%252521%2525402151fd3a17956660163597001e1024%25252112000038671191765%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7a50a1b082334c2abe8e639e9f8cb4acN.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Car Wash & Maintenance",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Baseus Car Emergency Safety Hammer 3 in 1",
-  "commission": 0.0538,
-  "why": "Includes seat belt cutter and emergency window breaker",
-  "lang": "en",
-  "median_30d": 32.26,
-  "discount": 0.5682,
-  "heat": 71.4,
-  "history": [
-   [
-    "2026-11-18",
-    16.09
-   ],
-   [
-    "2026-11-19",
-    16.09
-   ],
-   [
-    "2026-11-20",
-    16.09
-   ],
-   [
-    "2026-11-24",
-    14.1
-   ],
-   [
-    "2026-11-25",
-    14.1
-   ],
-   [
-    "2026-11-26",
-    13.93
-   ]
-  ],
-  "slug": "baseus-car-emergency-safety-hammer-3-in-1-u-shaped-seat-belt-6904640623",
-  "day": "2026-11-26"
- },
- {
-  "pid": "aliexpress:1005010209625169",
-  "store": "aliexpress",
-  "title": "UGREEN Magnetic Car Phone Holder Strong Magnets 2 IN 1 360° Rotatable Car Mount For Magsafe iPhone 16 15 Pro Samsumg S25 Xiaomi",
-  "price_usd": 10.65,
-  "old_price_usd": 24.8,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010209625169.html%253Fpdp_npi%253D6%252540dis%252521USD%25252124.80%25252110.65%252521%252521%25252124.80%25252110.65%252521%25254021013cc017956649202492815e0e99%25252112000051527898070%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scf18cde1fd424668b947addfa5549d2d1.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Holders & Stands",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "UGREEN Magnetic Car Phone Holder 2-in-1 Mount",
-  "commission": 0.0538,
-  "why": "Holds phone securely and rotates 360 degrees",
-  "lang": "en",
-  "median_30d": 24.8,
-  "discount": 0.5706,
-  "heat": 71.4,
-  "history": [
-   [
-    "2026-11-22",
-    11.08
-   ],
-   [
-    "2026-11-23",
-    11.08
-   ],
-   [
-    "2026-11-24",
-    10.77
-   ],
-   [
-    "2026-11-25",
-    10.77
-   ],
-   [
-    "2026-11-26",
-    10.65
-   ]
-  ],
-  "slug": "ugreen-magnetic-car-phone-holder-strong-magnets-2-in-1-360-r-0209625169",
-  "day": "2026-11-26"
- },
- {
   "pid": "aliexpress:1005013471655186",
   "store": "aliexpress",
   "title": "ATTACK SHARK R98 HE Carbon Fiber Rapid Trigger Keyboard Magnetic Switch 98 Keys Carbon Fiber Wired 8KHz Magnetic Keyboard With 0.005mm RT Accuracy, Support RT/Snap Tap/DKS/MT/TGL",
@@ -2686,6 +2629,484 @@
   "day": "2026-11-26"
  },
  {
+  "pid": "aliexpress:1005013683450954",
+  "store": "aliexpress",
+  "title": "UGREEN UG505-95579 CAPTURE CARD Dual HDMI 4K 60Hz Dual Screen Video Recorder for PC Live Stream",
+  "price_usd": 144.6,
+  "old_price_usd": 219.09,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013683450954.html%253Fpdp_npi%253D6%252540dis%252521USD%252521219.09%252521144.60%252521%252521%2525211450.92%252521957.61%252521%2525402140d36117956502360023228e0ee3%25252112000061887506559%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se38ac02b4dd54bf8874b75f4645612eav.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN UG505-95579 Dual HDMI 4K Capture Card",
+  "commission": 0.0538,
+  "why": "Dual HDMI 4K 60Hz video recorder for PC live streaming",
+  "lang": "en",
+  "median_30d": 219.09,
+  "discount": 0.34,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-26",
+    144.6
+   ]
+  ],
+  "slug": "ugreen-ug505-95579-capture-card-dual-hdmi-4k-60hz-dual-scree-3683450954",
+  "day": "2026-11-26"
+ },
+ {
+  "pid": "aliexpress:1005013579677608",
+  "store": "aliexpress",
+  "title": "UGREEN HD183 CABLE HDMI 2.1 Optical Fiber 30m 8K 60Hz 4K 240Hz for Monitor TV Projector Cinema",
+  "price_usd": 79.45,
+  "old_price_usd": 120.38,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013579677608.html%253Fpdp_npi%253D6%252540dis%252521USD%252521120.38%25252179.45%252521%252521%252521797.19%252521526.15%252521%252540210152bd17956501993711675e0fce%25252112000061517631934%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sd75109e5456a4d6c9a1ba30de58d605ed.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Laptop Parts & Accessories",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN HD183 HDMI 2.1 Optical Fiber 30m Cable",
+  "commission": 0.0538,
+  "why": "Supports 8K 60Hz and 4K 240Hz for monitors and TVs",
+  "lang": "en",
+  "median_30d": 120.38,
+  "discount": 0.34,
+  "heat": 66.8,
+  "history": [
+   [
+    "2026-11-26",
+    79.45
+   ]
+  ],
+  "slug": "ugreen-hd183-cable-hdmi-2-1-optical-fiber-30m-8k-60hz-4k-240-3579677608",
+  "day": "2026-11-26"
+ },
+ {
+  "pid": "aliexpress:1005009021822344",
+  "store": "aliexpress",
+  "title": "LAUTIE Carnival Mega Spinner Magnetic Coupling Structure Super Flagship Product 2099 Series Limited Edition EDC Toys",
+  "price_usd": 49.9,
+  "old_price_usd": 99.8,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005009021822344.html%253Fpdp_npi%253D6%252540dis%252521USD%25252199.80%25252149.90%252521%252521%25252199.80%25252149.90%252521%2525402140d33617956658477458438e0d31%25252112000047613578513%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7f39419191bb46f0a75fce4e21178711F.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Stress Relief Toy",
+  "niche": "kids",
+  "ships_to": [],
+  "title_local": "LAUTIE Carnival Mega Spinner Magnetic EDC Toy",
+  "commission": 0.0538,
+  "why": "Magnetic coupling structure in a limited edition design",
+  "lang": "en",
+  "median_30d": 329.9,
+  "discount": 0.8487,
+  "heat": 85.4,
+  "history": [
+   [
+    "2026-11-14",
+    329.9
+   ],
+   [
+    "2026-11-15",
+    329.9
+   ],
+   [
+    "2026-11-16",
+    329.9
+   ],
+   [
+    "2026-11-17",
+    329.9
+   ],
+   [
+    "2026-11-18",
+    329.9
+   ],
+   [
+    "2026-11-19",
+    329.9
+   ],
+   [
+    "2026-11-20",
+    329.9
+   ],
+   [
+    "2026-11-21",
+    329.9
+   ],
+   [
+    "2026-11-22",
+    329.9
+   ],
+   [
+    "2026-11-23",
+    329.9
+   ],
+   [
+    "2026-11-24",
+    329.9
+   ],
+   [
+    "2026-11-25",
+    329.9
+   ],
+   [
+    "2026-11-26",
+    49.9
+   ]
+  ],
+  "slug": "lautie-carnival-mega-spinner-magnetic-coupling-structure-sup-9021822344",
+  "day": "2026-11-26"
+ },
+ {
+  "pid": "aliexpress:1005012545138850",
+  "store": "aliexpress",
+  "title": "Portable 5000W 5 Waves Skin Beautifying Beauty Machine With Cooling Handle High Efficiency Professional Skin Care For Salon",
+  "price_usd": 44.28,
+  "old_price_usd": 124.26,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005012545138850.html%253Fpdp_npi%253D6%252540dis%252521USD%252521124.26%25252144.28%252521%252521%252521824.00%252521293.63%252521%2525402151fd2c17956653372972299e0cf2%25252112000058674570356%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sa30cf8e8212640f1aad1bc5bde86da91u.png",
+  "rating": null,
+  "orders": null,
+  "category": "Personal Care Appliances",
+  "niche": "appliances",
+  "ships_to": [],
+  "title_local": "Portable 5000W 5 Waves Skin Beauty Machine",
+  "commission": 0.0538,
+  "why": "5000W power with cooling handle for professional salon care",
+  "lang": "en",
+  "median_30d": 334.01,
+  "discount": 0.8674,
+  "heat": 85.4,
+  "history": [
+   [
+    "2026-11-11",
+    354.98
+   ],
+   [
+    "2026-11-12",
+    355.21
+   ],
+   [
+    "2026-11-13",
+    355.21
+   ],
+   [
+    "2026-11-14",
+    355.21
+   ],
+   [
+    "2026-11-15",
+    355.21
+   ],
+   [
+    "2026-11-16",
+    334.01
+   ],
+   [
+    "2026-11-17",
+    334.01
+   ],
+   [
+    "2026-11-18",
+    334.01
+   ],
+   [
+    "2026-11-19",
+    334.01
+   ],
+   [
+    "2026-11-20",
+    335.91
+   ],
+   [
+    "2026-11-21",
+    335.91
+   ],
+   [
+    "2026-11-22",
+    324.57
+   ],
+   [
+    "2026-11-23",
+    324.57
+   ],
+   [
+    "2026-11-24",
+    325.2
+   ],
+   [
+    "2026-11-25",
+    325.2
+   ],
+   [
+    "2026-11-26",
+    44.28
+   ]
+  ],
+  "slug": "portable-5000w-5-waves-skin-beautifying-beauty-machine-with--2545138850",
+  "day": "2026-11-26"
+ },
+ {
+  "pid": "aliexpress:1005010062450282",
+  "store": "aliexpress",
+  "title": "Open Caiku Huang Caishen Photo Frame Office Station Ornament Twelve Zodiac Gold Key Family Lucky Decoration Ornament",
+  "price_usd": 16.99,
+  "old_price_usd": 44.79,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010062450282.html%253Fpdp_npi%253D6%252540dis%252521USD%25252144.79%25252116.99%252521%252521%252521296.64%252521112.51%252521%252540212a7b8d17956447438521539e0ec3%25252112000050998724425%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se0403a271b9343d4a0730f33b4a04c52z.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Home Decor",
+  "niche": "home",
+  "ships_to": [],
+  "title_local": "Huang Caishen Photo Frame Zodiac Gold Key Ornament",
+  "commission": 0.23070000000000002,
+  "why": "Zodiac gold key design for home and office decoration",
+  "lang": "en",
+  "median_30d": 44.79,
+  "discount": 0.6207,
+  "heat": 86.7,
+  "history": [
+   [
+    "2026-11-25",
+    16.98
+   ],
+   [
+    "2026-11-26",
+    16.99
+   ]
+  ],
+  "slug": "open-caiku-huang-caishen-photo-frame-office-station-ornament-0062450282",
+  "day": "2026-11-26"
+ },
+ {
+  "pid": "aliexpress:1005013629881051",
+  "store": "aliexpress",
+  "title": "Pet Car for seat Cover for Dogs Rear for seat Divider Barrier with Storage Pockets Waterproof Oxford Cloth",
+  "price_usd": 27.46,
+  "old_price_usd": 90.17,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013629881051.html%253Fpdp_npi%253D6%252540dis%252521USD%25252190.17%25252127.46%252521%252521%252521597.12%252521181.84%252521%252540212a7b8d17956570135052227e0ec3%25252112000061749290798%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sc6ac248794914fc39f3cd5be7501c134B.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Interior Accessories",
+  "niche": "car",
+  "ships_to": [],
+  "title_local": "Waterproof Oxford Cloth Dog Car Rear Seat Cover",
+  "commission": 0.0692,
+  "why": "Waterproof oxford cloth protects your car seats",
+  "lang": "en",
+  "median_30d": 90.17,
+  "discount": 0.6955,
+  "heat": 87.2,
+  "history": [
+   [
+    "2026-11-20",
+    24.59
+   ],
+   [
+    "2026-11-21",
+    24.59
+   ],
+   [
+    "2026-11-22",
+    21.36
+   ],
+   [
+    "2026-11-23",
+    21.36
+   ],
+   [
+    "2026-11-24",
+    21.35
+   ],
+   [
+    "2026-11-25",
+    21.35
+   ],
+   [
+    "2026-11-26",
+    27.46
+   ]
+  ],
+  "slug": "pet-car-for-seat-cover-for-dogs-rear-for-seat-divider-barrie-3629881051",
+  "day": "2026-11-26"
+ },
+ {
+  "pid": "aliexpress:1005013592841679",
+  "store": "aliexpress",
+  "title": "Temperament autumn and winter 100% pure wool sweater women's high lapel loose sweater knitted undershirt top",
+  "price_usd": 33.75,
+  "old_price_usd": 112.5,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013592841679.html%253Fpdp_npi%253D6%252540dis%252521USD%252521112.50%25252133.75%252521%252521%252521112.50%25252133.75%252521%2525402141149b17956716768858524e0ee5%25252112000061615592149%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se11cfd43bad24ca291b04a03913733a1N.png",
+  "rating": null,
+  "orders": null,
+  "category": "Sweaters&Jumpers",
+  "niche": "fashion",
+  "ships_to": [],
+  "title_local": "100% Pure Wool Women's High Lapel Loose Sweater",
+  "commission": 0.0692,
+  "why": "Pure wool material for cozy autumn and winter warmth",
+  "lang": "en",
+  "median_30d": 112.5,
+  "discount": 0.7,
+  "heat": 89.3,
+  "history": [
+   [
+    "2026-11-26",
+    33.75
+   ]
+  ],
+  "slug": "temperament-autumn-and-winter-100-pure-wool-sweater-women-s--3592841679",
+  "day": "2026-11-26"
+ },
+ {
+  "pid": "aliexpress:1005013641351237",
+  "store": "aliexpress",
+  "title": "LIGE Military Grade GPS Smart Watch Built-in Dual-band GPS Path Compass 950mAh AMOLED 170+ Sports IP68 Waterproof Smartwatch Men",
+  "price_usd": 39.59,
+  "old_price_usd": 120.41,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013641351237.html%253Fpdp_npi%253D6%252540dis%252521USD%252521120.41%25252139.59%252521%252521%252521797.44%252521262.21%252521%252540214114e317956603513566707e0faf%25252112000061790830578%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se0f2eea02fca4933ba30fb23d19494e5C.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Smart Electronics",
+  "niche": "watch",
+  "ships_to": [],
+  "title_local": "LIGE GPS Smartwatch with AMOLED and Dual-band GPS",
+  "commission": 0.0538,
+  "why": "Rugged build with dual-band GPS and a 950mAh battery",
+  "lang": "en",
+  "median_30d": 120.41,
+  "discount": 0.6712,
+  "heat": 82.6,
+  "history": [
+   [
+    "2026-11-22",
+    30.15
+   ],
+   [
+    "2026-11-23",
+    30.15
+   ],
+   [
+    "2026-11-24",
+    30.13
+   ],
+   [
+    "2026-11-25",
+    30.13
+   ],
+   [
+    "2026-11-26",
+    39.59
+   ]
+  ],
+  "slug": "lige-military-grade-gps-smart-watch-built-in-dual-band-gps-p-3641351237",
+  "day": "2026-11-26"
+ },
+ {
+  "pid": "aliexpress:1005006904640623",
+  "store": "aliexpress",
+  "title": "Baseus Car Emergency Safety Hammer 3 in 1 U-shaped Seat Belt Cutter Window Breaker Escape with Emergency Lamp Car Accessories",
+  "price_usd": 13.93,
+  "old_price_usd": 32.26,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005006904640623.html%253Fpdp_npi%253D6%252540dis%252521USD%25252132.26%25252113.93%252521%252521%252521213.94%25252192.38%252521%2525402151fd3a17956660163597001e1024%25252112000038671191765%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S7a50a1b082334c2abe8e639e9f8cb4acN.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Car Wash & Maintenance",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "Baseus Car Emergency Safety Hammer 3 in 1",
+  "commission": 0.0538,
+  "why": "Includes seat belt cutter and emergency window breaker",
+  "lang": "en",
+  "median_30d": 32.26,
+  "discount": 0.5682,
+  "heat": 71.4,
+  "history": [
+   [
+    "2026-11-18",
+    16.09
+   ],
+   [
+    "2026-11-19",
+    16.09
+   ],
+   [
+    "2026-11-20",
+    16.09
+   ],
+   [
+    "2026-11-24",
+    14.1
+   ],
+   [
+    "2026-11-25",
+    14.1
+   ],
+   [
+    "2026-11-26",
+    13.93
+   ]
+  ],
+  "slug": "baseus-car-emergency-safety-hammer-3-in-1-u-shaped-seat-belt-6904640623",
+  "day": "2026-11-26"
+ },
+ {
+  "pid": "aliexpress:1005010209625169",
+  "store": "aliexpress",
+  "title": "UGREEN Magnetic Car Phone Holder Strong Magnets 2 IN 1 360° Rotatable Car Mount For Magsafe iPhone 16 15 Pro Samsumg S25 Xiaomi",
+  "price_usd": 10.65,
+  "old_price_usd": 24.8,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005010209625169.html%253Fpdp_npi%253D6%252540dis%252521USD%25252124.80%25252110.65%252521%252521%25252124.80%25252110.65%252521%25254021013cc017956649202492815e0e99%25252112000051527898070%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Scf18cde1fd424668b947addfa5549d2d1.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Holders & Stands",
+  "niche": "brands",
+  "ships_to": [],
+  "title_local": "UGREEN Magnetic Car Phone Holder 2-in-1 Mount",
+  "commission": 0.0538,
+  "why": "Holds phone securely and rotates 360 degrees",
+  "lang": "en",
+  "median_30d": 24.8,
+  "discount": 0.5706,
+  "heat": 71.4,
+  "history": [
+   [
+    "2026-11-22",
+    11.08
+   ],
+   [
+    "2026-11-23",
+    11.08
+   ],
+   [
+    "2026-11-24",
+    10.77
+   ],
+   [
+    "2026-11-25",
+    10.77
+   ],
+   [
+    "2026-11-26",
+    10.65
+   ]
+  ],
+  "slug": "ugreen-magnetic-car-phone-holder-strong-magnets-2-in-1-360-r-0209625169",
+  "day": "2026-11-26"
+ },
+ {
   "pid": "aliexpress:1005013683490919",
   "store": "aliexpress",
   "title": "UGREEN UG505-95579 CAPTURE CARD Dual HDMI 4K 60Hz Dual Screen Video Recorder for PC Live Stream",
@@ -3068,35 +3489,6 @@
   "day": "2026-11-26"
  },
  {
-  "pid": "aliexpress:1005013205342027",
-  "store": "aliexpress",
-  "title": "UGREEN 25052 USB C to 2.5G Ethernet Adapter Type C to RJ45 Gigabit Wired Network Converter",
-  "price_usd": 31.75,
-  "old_price_usd": 48.1,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013205342027.html%253Fpdp_npi%253D6%252540dis%252521USD%25252148.10%25252131.75%252521%252521%252521318.53%252521210.23%252521%2525402151fce817956495762978124e0d86%25252112000060497329036%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sf80bf2ea74f84892b1e47b3ddeb97ac51.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "UGREEN 25052 USB-C to 2.5G Ethernet Adapter",
-  "commission": 0.0538,
-  "why": "Provides fast wired network connection",
-  "lang": "en",
-  "median_30d": 48.1,
-  "discount": 0.3399,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-26",
-    31.75
-   ]
-  ],
-  "slug": "ugreen-25052-usb-c-to-2-5g-ethernet-adapter-type-c-to-rj45-g-3205342027",
-  "day": "2026-11-26"
- },
- {
   "pid": "aliexpress:1005013658653540",
   "store": "aliexpress",
   "title": "Luxury Modification Kit For Apple Watch Series12 46mm Silicone Sport Strap+Case Watch For iWatch Series 12 46mm",
@@ -3290,59 +3682,6 @@
    ]
   ],
   "slug": "ugreen-nw167-network-cable-tester-rj45-telephone-line-tracke-3625592986",
-  "day": "2026-11-26"
- },
- {
-  "pid": "aliexpress:1005013127030094",
-  "store": "aliexpress",
-  "title": "UGREEN 30523 Digital Optical Coaxial to RCA 3.5mm Audio Converter DAC for TV Speaker Amplifier PS4.",
-  "price_usd": 25.48,
-  "old_price_usd": 38.6,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013127030094.html%253Fpdp_npi%253D6%252540dis%252521USD%25252138.60%25252125.48%252521%252521%252521255.60%252521168.70%252521%2525402140d33617956495349162772e0c6c%25252112000060332836219%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sac6fee9434ea41058b7a01544987875cT.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "UGREEN 30523 Optical Coaxial to RCA Audio Converter",
-  "commission": 0.0538,
-  "why": "Connects TVs and speakers with digital-to-analog conversion",
-  "lang": "en",
-  "median_30d": 38.6,
-  "discount": 0.3399,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-20",
-    25.44
-   ],
-   [
-    "2026-11-21",
-    25.44
-   ],
-   [
-    "2026-11-22",
-    25.4
-   ],
-   [
-    "2026-11-23",
-    25.4
-   ],
-   [
-    "2026-11-24",
-    25.39
-   ],
-   [
-    "2026-11-25",
-    25.39
-   ],
-   [
-    "2026-11-26",
-    25.48
-   ]
-  ],
-  "slug": "ugreen-30523-digital-optical-coaxial-to-rca-3-5mm-audio-conv-3127030094",
   "day": "2026-11-26"
  },
  {
@@ -14953,104 +15292,6 @@
   "day": "2026-11-22"
  },
  {
-  "pid": "aliexpress:1005013063365287",
-  "store": "aliexpress",
-  "title": "UGREEN 55611 USB C Hub HDMI 2.1 Docking Station 8K 60Hz 4K 240Hz High Refresh Multiport Adapter for Gaming Laptop Monitor",
-  "price_usd": 29.29,
-  "old_price_usd": 44.38,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013063365287.html%253Fpdp_npi%253D6%252540dis%252521USD%25252144.38%25252129.29%252521%252521%252521294.67%252521194.48%252521%2525400b8ded7b17953039745957447e0e71%25252112000060156745186%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S34a4d4a52da84fe0a73e8b5d0b6214f4O.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "UGREEN 55611 USB-C Hub HDMI 2.1 Docking Station 8K",
-  "commission": 0.0538,
-  "why": "Delivers 8K 60Hz and 4K 240Hz high refresh rates",
-  "lang": "en",
-  "median_30d": 44.38,
-  "discount": 0.34,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-12",
-    29.29
-   ],
-   [
-    "2026-11-13",
-    29.29
-   ],
-   [
-    "2026-11-14",
-    29.33
-   ],
-   [
-    "2026-11-15",
-    29.33
-   ],
-   [
-    "2026-11-16",
-    29.33
-   ],
-   [
-    "2026-11-22",
-    29.29
-   ]
-  ],
-  "slug": "ugreen-55611-usb-c-hub-hdmi-2-1-docking-station-8k-60hz-4k-2-3063365287",
-  "day": "2026-11-22"
- },
- {
-  "pid": "aliexpress:1005013378272124",
-  "store": "aliexpress",
-  "title": "UGREEN 25141 HDMI Switch CM693 HDMI 2.1 5 Inputs 1 Output 8K60Hz 40Gbps Button and Remote Control Aluminum Alloy Housing",
-  "price_usd": 73.71,
-  "old_price_usd": 111.69,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013378272124.html%253Fpdp_npi%253D6%252540dis%252521USD%252521111.69%25252173.71%252521%252521%252521741.64%252521489.48%252521%25254021013cc017953046567621805e0fe4%25252112000060939287490%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb27b004b3f64437e9e27276fef197636I.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Laptop Parts & Accessories",
-  "niche": "brands",
-  "ships_to": [],
-  "title_local": "Ugreen 25141 HDMI 2.1 Switch 5 In 1 Out 8K",
-  "commission": 0.0538,
-  "why": "Connect multiple devices with remote control",
-  "lang": "en",
-  "median_30d": 111.69,
-  "discount": 0.34,
-  "heat": 66.8,
-  "history": [
-   [
-    "2026-11-16",
-    73.81
-   ],
-   [
-    "2026-11-17",
-    73.81
-   ],
-   [
-    "2026-11-18",
-    73.81
-   ],
-   [
-    "2026-11-19",
-    73.81
-   ],
-   [
-    "2026-11-20",
-    73.81
-   ],
-   [
-    "2026-11-22",
-    73.71
-   ]
-  ],
-  "slug": "ugreen-25141-hdmi-switch-cm693-hdmi-2-1-5-inputs-1-output-8k-3378272124",
-  "day": "2026-11-22"
- },
- {
   "pid": "aliexpress:1005012726319278",
   "store": "aliexpress",
   "title": "HIENA 3pcs  Professional Hair Clippers for Men, Professional Barber Clippers and Trimmer Set, Mens Cordless Hair Clipper for BarbersProfessional Hair Clippers for Men",
@@ -15391,43 +15632,6 @@
    ]
   ],
   "slug": "custom-car-floor-mats-fit-for-zeekr-7x-2024-2025-2026-2027-2-2647194799",
-  "day": "2026-11-22"
- },
- {
-  "pid": "aliexpress:1005013635605596",
-  "store": "aliexpress",
-  "title": "Outdoor Solar Wall Tree Hanging Dinosaur Lift Solar Night Light Courtyard Garden Decoration Pendant",
-  "price_usd": 5.83,
-  "old_price_usd": 19.43,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013635605596.html%253Fpdp_npi%253D6%252540dis%252521USD%25252119.43%2525215.83%252521%252521%252521129.00%25252138.70%252521%2525402141149b17952126682057182e0d38%25252112000061773780334%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8a63f0ef062b475b92ff3417204f8b6bq.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Home Decor",
-  "niche": "home",
-  "ships_to": [],
-  "title_local": "Outdoor Solar Dinosaur Hanging Night Light",
-  "commission": 0.3461,
-  "why": "Decorate your courtyard or garden with solar power",
-  "lang": "en",
-  "median_30d": 19.43,
-  "discount": 0.6999,
-  "heat": 94.4,
-  "history": [
-   [
-    "2026-11-20",
-    11.67
-   ],
-   [
-    "2026-11-21",
-    5.83
-   ],
-   [
-    "2026-11-22",
-    5.83
-   ]
-  ],
-  "slug": "outdoor-solar-wall-tree-hanging-dinosaur-lift-solar-night-li-3635605596",
   "day": "2026-11-22"
  },
  {
@@ -16665,59 +16869,6 @@
   "day": "2026-11-20"
  },
  {
-  "pid": "aliexpress:1005013005526154",
-  "store": "aliexpress",
-  "title": "100% Wool Solid Color Knit Hat For Women Warm For Autumn And Winter With Ear Protection Windproof Cozy Outdoor Casual Beanie",
-  "price_usd": 17.14,
-  "old_price_usd": 48.98,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013005526154.html%253Fpdp_npi%253D6%252540dis%252521USD%25252148.98%25252117.14%252521%252521%252521325.00%252521113.75%252521%2525402140da8b17950442294508512e104d%25252112000060023426608%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S8e2076fc46ac480397f38f2998b3757az.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Hats & Caps",
-  "niche": "fashion",
-  "ships_to": [],
-  "title_local": "100% Wool Solid Color Knit Hat",
-  "commission": 0.1923,
-  "why": "Provides warm ear protection",
-  "lang": "en",
-  "median_30d": 48.98,
-  "discount": 0.6501,
-  "heat": 89.6,
-  "history": [
-   [
-    "2026-11-10",
-    24.47
-   ],
-   [
-    "2026-11-15",
-    24.51
-   ],
-   [
-    "2026-11-16",
-    24.51
-   ],
-   [
-    "2026-11-17",
-    24.49
-   ],
-   [
-    "2026-11-18",
-    24.51
-   ],
-   [
-    "2026-11-19",
-    17.14
-   ],
-   [
-    "2026-11-20",
-    17.14
-   ]
-  ],
-  "slug": "100-wool-solid-color-knit-hat-for-women-warm-for-autumn-and--3005526154",
-  "day": "2026-11-20"
- },
- {
   "pid": "aliexpress:1005013420186035",
   "store": "aliexpress",
   "title": "Woodworking Electric Circular Saw Track Right Angle Positioning Plate Guide Rail Saw Right Angle Guiding Ruler Match Guide Rail",
@@ -17711,59 +17862,6 @@
   "day": "2026-11-19"
  },
  {
-  "pid": "aliexpress:1005011700088522",
-  "store": "aliexpress",
-  "title": "Car vacuum cleaner TYPE-C rechargeable brushless high-power vacuum cleaner portable handheld dust blower cross-border hot sale",
-  "price_usd": 31.67,
-  "old_price_usd": 105.56,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005011700088522.html%253Fpdp_npi%253D6%252540dis%252521USD%252521105.56%25252131.67%252521%252521%252521700.00%252521210.00%252521%2525402140f89017949644201977185e118c%25252112000056286570446%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S614b1a5e20a447d28a95783fd8707875x.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Car Electronics",
-  "niche": "car",
-  "ships_to": [],
-  "title_local": "Type-C Rechargeable Brushless High-Power Car Vacuum Cleaner",
-  "commission": 0.07690000000000001,
-  "why": "Portable handheld dust blower with high power.",
-  "lang": "en",
-  "median_30d": 105.56,
-  "discount": 0.7,
-  "heat": 91.2,
-  "history": [
-   [
-    "2026-11-12",
-    31.67
-   ],
-   [
-    "2026-11-13",
-    31.67
-   ],
-   [
-    "2026-11-14",
-    31.67
-   ],
-   [
-    "2026-11-16",
-    31.67
-   ],
-   [
-    "2026-11-17",
-    31.65
-   ],
-   [
-    "2026-11-18",
-    31.67
-   ],
-   [
-    "2026-11-19",
-    31.67
-   ]
-  ],
-  "slug": "car-vacuum-cleaner-type-c-rechargeable-brushless-high-power--1700088522",
-  "day": "2026-11-19"
- },
- {
   "pid": "aliexpress:1005009830340870",
   "store": "aliexpress",
   "title": "2025 New Women Winter Snow Boots Warm Waterproof Rubber ZIP Short Plush Casual Shoes",
@@ -18376,47 +18474,6 @@
    ]
   ],
   "slug": "adult-onesie-pajamas-long-jumpsuit-for-adult-baby-snap-crotc-7952335854",
-  "day": "2026-11-14"
- },
- {
-  "pid": "aliexpress:1005013235575746",
-  "store": "aliexpress",
-  "title": "Girls' Suit Spring Sweater Suit Baby Girl Korean Version Zipper Short Jacket Children's Bell Pants Two-piece Set",
-  "price_usd": 30.87,
-  "old_price_usd": 102.89,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013235575746.html%253Fpdp_npi%253D6%252540dis%252521USD%252521102.89%25252130.87%252521%252521%252521683.20%252521204.96%252521%25254021013cc017944405254618894e0ccd%25252112000060604163052%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sb91b6d8ab6b941c0a8b498e39403a76ba.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Children's Clothing",
-  "niche": "kids",
-  "ships_to": [],
-  "title_local": "Girls' Korean Style Zip Jacket and Bell Pants Set",
-  "commission": 0.0692,
-  "why": "Cute two-piece set featuring a zipper jacket and bell pants.",
-  "lang": "en",
-  "median_30d": 102.89,
-  "discount": 0.7,
-  "heat": 89.3,
-  "history": [
-   [
-    "2026-11-11",
-    30.87
-   ],
-   [
-    "2026-11-12",
-    30.87
-   ],
-   [
-    "2026-11-13",
-    30.87
-   ],
-   [
-    "2026-11-14",
-    30.87
-   ]
-  ],
-  "slug": "girls-suit-spring-sweater-suit-baby-girl-korean-version-zipp-3235575746",
   "day": "2026-11-14"
  },
  {
@@ -19357,35 +19414,6 @@
    ]
   ],
   "slug": "1pcs-electric-pepper-grinder-operated-automatic-spice-mill-a-1938952414",
-  "day": "2026-11-10"
- },
- {
-  "pid": "aliexpress:1005003998313675",
-  "store": "aliexpress",
-  "title": "JISULIFE Portable Small Desk Fan Ultra Quiet Table Fan USB Rechargeable  Cooling Fan With 4 Speed Powerful Wind Offices Fan",
-  "price_usd": 14.02,
-  "old_price_usd": 37.98,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005003998313675.html%253Fpdp_npi%253D6%252540dis%252521USD%25252137.98%25252114.02%252521%252521%252521252.02%25252193.05%252521%252540210152bd17942840757496244e0f4a%25252112000031954009644%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S56225facd5834081b3156c296491205ca.jpg",
-  "rating": null,
-  "orders": null,
-  "category": "Household Appliances",
-  "niche": "appliances",
-  "ships_to": [],
-  "title_local": "",
-  "commission": 0.08070000000000001,
-  "why": "",
-  "lang": "en",
-  "median_30d": 37.98,
-  "discount": 0.63,
-  "heat": 83.9,
-  "history": [
-   [
-    "2026-11-10",
-    14.02
-   ]
-  ],
-  "slug": "jisulife-portable-small-desk-fan-ultra-quiet-table-fan-usb-r-3998313675",
   "day": "2026-11-10"
  },
  {
