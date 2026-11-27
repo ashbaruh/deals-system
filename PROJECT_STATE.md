@@ -201,7 +201,7 @@
 
 ## 7. משימות פתוחות לפי עדיפות
 
-1. **רענון מחירי אודיופיל:** 25.11, משימה מתוזמנת. לכלול גם את 16 מותגי האודיו החדשים מתוך `audiophile_scout_brands`, מחנויות רשמיות או מורשות.
+1. **רענון מחירי אודיופיל (כל 3 ימים):** 27.11 נוספו 12 מוצרים (48 סה"כ). **חובה בכל ריצה** — לא רק רענון מחירים: חיפוש לפי מותג (`aliexpress.com/w/wholesale-<brand>.html?sortType=total_tranpro_desc`) לכל `audiophile_scout_brands`, אימות בדף המוצר (`[class*=price--current]`, `[class*=price--original]`, שם חנות). מוסיפים רק: חנות רשמית או מורשה (HiFiGo, Shenzhenaudio, Linsoul, DD-Audio, BrightAudio), הנחה 12%–55% (מעל 55% = מחיר מחירון מנופח), לא אביזרים. ב-27.11 לא נמצאו: Sabaj, Loxjie, Ugoos (אין תוצאות); Gustard ו-Tangzu (הנחה 10%); Douk (71%, מנופח); iBasso (חנות לא מורשית או הנחה מנופחת).
 2. **מעקב חשיפות:**
    - Bing (Search Performance ו-AI Performance).
    - Admitad לפי subid: he_htmag_*, htmag, es_site.
