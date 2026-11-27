@@ -343,6 +343,64 @@ def talia_page(lang: str) -> str:
             f'<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px">{grid}</div>')
 
 
+GUIDE_SLUG = "black-friday-teen-girls"
+GUIDE_UNTIL = "2026-12-01"   # home-page banner shows through Cyber Monday
+GUIDE_GROUPS = [(range(0, 11), {"he": "🧥 מעילים וג'קטים לחורף", "es": "🧥 Abrigos y chaquetas de invierno", "en": "🧥 Winter coats & jackets"}),
+                (range(11, 18), {"he": "👚 חולצות וטופים", "es": "👚 Camisetas y tops", "en": "👚 Tees & tops"}),
+                (range(18, 20), {"he": "🧘‍♀️ ספורט ויוגה", "es": "🧘‍♀️ Deporte y yoga", "en": "🧘‍♀️ Sport & yoga"}),
+                (range(20, 22), {"he": "💍 טבעות ואקססוריז", "es": "💍 Anillos y accesorios", "en": "💍 Rings & accessories"})]
+GUIDE = {
+    "he": {"title": "מתנות בלאק פריידיי לנערות: 22 פריטי אופנה מאליאקספרס במחיר אמיתי",
+           "h1": "🖤 בלאק פריידיי לנערות: 22 פריטי אופנה שהן באמת ירצו – במחיר אמיתי",
+           "meta": "מחפשים מתנה לבלאק פריידיי לנערה בבית? 22 בגדי נערות טרנדיים מאליאקספרס – מעילים, ג'קטים, חולצות וטבעות – עם הנחה של עד 59%, מחירים שנבדקו ידנית.",
+           "lead": "יש לכם נערה בבית ואתם לא בטוחים מה באמת באופנה עכשיו? לא ניחשנו – טליה בחרה בעצמה את 22 הפריטים שהיא הייתה רוצה, ואנחנו בדקנו לכל אחד שהמחיר באמת ירד ולא נופח לקראת בלאק פריידיי. רוב הפריטים בהנחה של 45%–59%, ויש גם פריטים קטנים מתחת ל-10$ שמתאימים כהפתעה.",
+           "tips_h": "💡 לפני שקונים – 4 טיפים להורים",
+           "tips": ["מידות: בגדים מאליאקספרס בדרך כלל קטנים יותר. בדקו את טבלת המידות בסנטימטרים בדף המוצר, ואם יש ספק – מידה אחת מעל.",
+                    "זמן משלוח: מופיע בדף המוצר לפני התשלום. אם זו מתנה לתאריך מסוים, הזמינו עכשיו.",
+                    "המחיר: בדקנו אותו ב-{d}. במבצעים המחיר זז מהר – לחצו על הפריט כדי לראות את המחיר העדכני.",
+                    "שתפו אותה: שלחו לה את הקישור ותנו לה לבחור – ככה אין טעויות בסגנון."],
+           "more": "לכל הארון של טליה ←", "strip": "מתנות בלאק פריידיי לנערות – 22 פריטי אופנה במחיר אמיתי", "strip_cta": "למדריך"},
+    "es": {"title": "Black Friday para chicas adolescentes: 22 prendas de moda de AliExpress a precio real",
+           "h1": "🖤 Black Friday para chicas adolescentes: 22 prendas que de verdad querrán, a precio real",
+           "meta": "¿Buscas un regalo de Black Friday para tu hija adolescente? 22 prendas de moda juvenil de AliExpress – abrigos, chaquetas, tops y anillos – hasta 59% de descuento, precios verificados a mano.",
+           "lead": "¿Tienes una adolescente en casa y no sabes qué está de moda? No adivinamos: Talia eligió las 22 prendas que ella misma querría, y comprobamos que el precio de cada una bajó de verdad y no se infló antes de Black Friday. La mayoría tiene un 45%–59% de descuento, y hay detalles por menos de 10 $ ideales como sorpresa.",
+           "tips_h": "💡 Antes de comprar – 4 consejos para padres",
+           "tips": ["Tallas: la ropa de AliExpress suele ser más pequeña. Revisa la tabla de tallas en centímetros y, si dudas, elige una talla más.",
+                    "Envío: el plazo aparece en la página del producto antes de pagar. Si es un regalo con fecha, pídelo ya.",
+                    "Precio: lo comprobamos el {d}. En rebajas cambia rápido – abre el producto para ver el precio actual.",
+                    "Compártelo con ella: envíale el enlace y deja que elija – así aciertas con el estilo."],
+           "more": "Ver todo el armario de Talia →", "strip": "Black Friday para chicas adolescentes – 22 prendas a precio real", "strip_cta": "Ver la guía"},
+    "en": {"title": "Black Friday gifts for teen girls: 22 trendy AliExpress fashion picks at a real price",
+           "h1": "🖤 Black Friday for teen girls: 22 fashion picks they'll actually want – at a real price",
+           "meta": "Looking for a Black Friday gift for a teen girl? 22 trendy AliExpress fashion finds – coats, jackets, tops and rings – up to 59% off, prices checked by hand.",
+           "lead": "Got a teen girl at home and not sure what's actually in style? We didn't guess – Talia picked the 22 items she'd want herself, and we checked that each price really dropped instead of being inflated before Black Friday. Most are 45%–59% off, and there are small items under $10 that make a great surprise.",
+           "tips_h": "💡 Before you buy – 4 tips for parents",
+           "tips": ["Sizing: AliExpress clothes usually run small. Check the size chart in centimeters on the product page, and size up if unsure.",
+                    "Shipping time: shown on the product page before you pay. If it's a gift for a set date, order now.",
+                    "Price: we checked it on {d}. Sale prices move fast – tap the item to see the current price.",
+                    "Share it with her: send her the link and let her choose – no style mistakes."],
+           "more": "See all of Talia's Closet →", "strip": "Black Friday gifts for teen girls – 22 fashion picks at a real price", "strip_cta": "Read the guide"},
+}
+
+
+def guide_page(lang: str) -> str:
+    G = GUIDE[lang]
+    ps = SETTINGS.get("talia_picks", [])
+    ck = max((x.get("checked", "") for x in ps), default="")
+    d = f"{ck[8:10]}.{ck[5:7]}" if ck else ""
+    full = talia_cards(lang, tag="guide").split('</a>')[:-1]
+    secs = ""
+    for rng, h in GUIDE_GROUPS:
+        cards = "".join(full[i] + "</a>" for i in rng if i < len(full)).replace('class="hcard"', 'class="hcard" style="flex:none"')
+        if cards:
+            secs += f'<h2>{esc(h[lang])}</h2><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px">{cards}</div>'
+    tips = "".join(f"<li>{esc(t.format(d=d))}</li>" for t in G["tips"])
+    return (f'<section class="hero" style="background:linear-gradient(135deg,#111,#a66cff);color:#fff"><h1>{esc(G["h1"])}</h1>'
+            f'<p style="color:inherit;opacity:.95">{esc(G["lead"])}</p></section>'
+            f'{secs}<section style="margin:22px 0;padding:14px 18px;border-radius:14px;background:#f6f0ff"><h2 style="margin-top:0">{esc(G["tips_h"])}</h2><ul>{tips}</ul></section>'
+            f'<p style="text-align:center;font-weight:700"><a href="/{lang}/talia.html">{esc(G["more"])}</a></p>')
+
+
 def row(d: dict) -> str:
     """Wide list row in the style of the big deal communities."""
     lang, s, u = d["lang"], LANGS[d["lang"]]["strings"], UI[d["lang"]]
@@ -459,6 +517,10 @@ def build():
             if ev["start"] <= today <= ev["end"]:
                 strip += f'<div class="event"><div class="wrap"><span>🎯 {esc(t)}</span><a href="/{lang}/event/{ev["key"]}.html">{esc(UI[lang]["cta"])}</a></div></div>'
 
+        if today <= GUIDE_UNTIL and len(SETTINGS.get("talia_picks", [])) >= 4:   # Black Friday guide banner
+            strip += (f'<div class="event" style="background:linear-gradient(90deg,#ff7eb3,#a66cff)"><div class="wrap"><span>🖤 {esc(GUIDE[lang]["strip"])}</span>'
+                      f'<a href="/{lang}/guide/{GUIDE_SLUG}.html">{esc(GUIDE[lang]["strip_cta"])}</a></div></div>')
+
         jm = [d for d in live if d.get("showcase")][:16]
         joom_rail = (f'<h2>🟣 {esc({"es": "Novedades en Joom", "en": "New on Joom", "he": "חדש ב-Joom"}[lang])}</h2>'
                      f'<div class="hotbar"><div class="rail">{"".join(card(d) for d in jm)}</div></div>') if len(jm) >= 4 else ""
@@ -527,7 +589,17 @@ def build():
                                                   T["meta"], talia_page(lang), active="talia",
                                                   og_image=SETTINGS["talia_picks"][0]["img"]), encoding="utf-8")
             urls.append(f"/{lang}/talia.html")
-        how = f'<section class="hero"><h1>{esc(s["how_title"])}</h1><p>{esc(s["how_body"])}</p><p>{esc(s["disclosure"])}</p></section>'
+            G = GUIDE[lang]
+            gp = f"/{lang}/guide/{GUIDE_SLUG}.html"
+            (root / "guide").mkdir(exist_ok=True)
+            schema = {"@context": "https://schema.org", "@type": "Article", "headline": G["h1"], "description": G["meta"],
+                      "datePublished": "2026-11-27", "dateModified": date.today().isoformat(), "inLanguage": lang,
+                      "image": SETTINGS["talia_picks"][0]["img"], "author": {"@type": "Organization", "name": "dealim.net"}}
+            (root / "guide" / f"{GUIDE_SLUG}.html").write_text(page(
+                lang, gp, f"{G['title']} | dealim.net", G["meta"], guide_page(lang), active="talia", schema=schema,
+                og_image=SETTINGS["talia_picks"][0]["img"]), encoding="utf-8")
+            urls.append(gp)
+        how =f'<section class="hero"><h1>{esc(s["how_title"])}</h1><p>{esc(s["how_body"])}</p><p>{esc(s["disclosure"])}</p></section>'
         (root / "how.html").write_text(page(lang, f"/{lang}/how.html", s["how_title"], s["how_body"][:150], how),
                                        encoding="utf-8")
         urls.append(f"/{lang}/how.html")
