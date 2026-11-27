@@ -1127,6 +1127,114 @@
       "list_usd": 152.12,
       "checked": "2026-11-25",
       "store": "BrightAudio Store"
+    },
+    {
+      "id": "1005007855326643",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/S340d3a5721fc4a6baf6965ae4aebf0ccj.jpg",
+      "name": "HiBy R4 Android Hi-Res Music Player",
+      "price_usd": 208.33,
+      "list_usd": 311.25,
+      "checked": "2026-11-27",
+      "store": "HIBY Official Store"
+    },
+    {
+      "id": "1005009812747410",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/S537b82148c0f40cda5ff170ec8d5f0b7D.jpg",
+      "name": "Moondrop Dawn Pro 2 USB DAC/Amp",
+      "price_usd": 50.99,
+      "list_usd": 59.99,
+      "checked": "2026-11-27",
+      "store": "MOONDROP Official Store"
+    },
+    {
+      "id": "1005010139557180",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sfd2f783bd65247ab985b7c2457f6aafbG.jpg",
+      "name": "Moondrop Space Travel 2 Ultra ANC Earbuds",
+      "price_usd": 33.99,
+      "list_usd": 39.99,
+      "checked": "2026-11-27",
+      "store": "MOONDROP Official Store"
+    },
+    {
+      "id": "1005008564373536",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/S0ca7bc57fd334441882d6f1b2a8a4143a.jpg",
+      "name": "Edifier ES60 Portable Bluetooth Speaker",
+      "price_usd": 94.49,
+      "list_usd": 149.99,
+      "checked": "2026-11-27",
+      "store": "Edifier Official Store"
+    },
+    {
+      "id": "1005006968062969",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/S30b6ea455850426aace276074b3aea6cE.jpg",
+      "name": "DUNU x Gizaudio DaVinci 2DD+4BA IEM",
+      "price_usd": 218.99,
+      "list_usd": 299.99,
+      "checked": "2026-11-27",
+      "store": "HiFiGo Store"
+    },
+    {
+      "id": "1005011688328267",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sf2c96bab53f54a18a3b19e64b0f09302f.jpg",
+      "name": "DUNU Titan X Dynamic IEM",
+      "price_usd": 31.99,
+      "list_usd": 39.99,
+      "checked": "2026-11-27",
+      "store": "HiFiGo Store"
+    },
+    {
+      "id": "1005007010116586",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/S4547db67219340bd8fd66c9a9364865da.jpg",
+      "name": "SIMGOT SuperMix 4 Hybrid IEM",
+      "price_usd": 141.36,
+      "list_usd": 169.99,
+      "checked": "2026-11-27",
+      "store": "DD-Audio Store"
+    },
+    {
+      "id": "1005006468336042",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/S00c443e3cfa14fc0a4929e7a122fa782E.jpg",
+      "name": "SIMGOT EA500 LM IEM",
+      "price_usd": 78.11,
+      "list_usd": 101.99,
+      "checked": "2026-11-27",
+      "store": "DD-Audio Store"
+    },
+    {
+      "id": "1005007666369825",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/S8f0adca61839457d8420a1f8b8497b88F.png",
+      "name": "TANCHJIM LUNA Portable USB DAC/Amp",
+      "price_usd": 108.1,
+      "list_usd": 129.99,
+      "checked": "2026-11-27",
+      "store": "BrightAudio Store"
+    },
+    {
+      "id": "1005010804244226",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6f69313001224e228f560c2127bb334cf.jpg",
+      "name": "Kiwi Ears Cadenza II IEM",
+      "price_usd": 37.43,
+      "list_usd": 57.49,
+      "checked": "2026-11-27",
+      "store": "DD-Audio Store"
+    },
+    {
+      "id": "32908878529",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sf349129a1bd04f9ea2b1538e8310d9abj.jpg",
+      "name": "Nobsound NS-10G PRO Mini Stereo Amplifier",
+      "price_usd": 19.13,
+      "list_usd": 32.99,
+      "checked": "2026-11-27",
+      "store": "Nobsound Audio Store"
+    },
+    {
+      "id": "1005010225390226",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/S37532840b49b49e7b22028b861a3ec9c5.jpg",
+      "name": "Cayin RU3 USB DAC/Amp Dongle",
+      "price_usd": 88.06,
+      "list_usd": 119.0,
+      "checked": "2026-11-27",
+      "store": "cayin Official Store"
     }
   ],
   "max_price_usd_tools": 300,
