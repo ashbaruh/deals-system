@@ -213,13 +213,13 @@
 
 **אישור:** ב-27.11 Ash אישר להצטרף לקבוצות, לאשר כללי קבוצה ולפרסם בלי לשאול בכל פעם.
 
-**מצב ב-27.11, 11:00:**
+**מצב ב-27.11, 12:55:**
 
 | מצב | קבוצות |
 |---|---|
-| ✅ פורסם + תגובה עם קישור (9) | ES: Best Aliexpress, Aliexpress Mexico Dudas y Compras (50K), Cupones Ofertas descuentos Todos los dias (21K). EN: Shopping Discounts Offers (49K), Aliexpress products, Aliexpress Big Sale (31K), Ali express products, Ali Express Products (3.7K), Aliexpress Affiliate marketing 1454095598757208 (8.8K) |
-| ⏳ ממתין לאישור מנהל (17). התגובה עם הקישור תתווסף אחרי האישור | EN: THE BARGAIN BIN 1032826214055528 (800K), GOOD GOLLY 837612917680653 (384K), blackfridayad (177K), 296804256287111 (107K), 1985465295015321 (44K), 1040511414605438 (61K), 1189744009506598 (26K), 528235004572113 (24K), coupons.coins (18K). ES: chollocupones (78K), comunidad.aliexpress.peru (50K), ofertasmazon (36K), OFERTAPERU (28K), aliexpressperududas, chinaofertasycupones. HE: alioutlet.sale (20K) |
-| ❌ נדחה / ⚠️ לא ברור | CHOLLOS Y DESCUENTOS נדחה. ofertastopmexico: הדף מחזיר "התוכן לא זמין" |
+| ✅ פורסם + תגובה עם קישור (12) | EN (נוספו 12:15–12:40): aexpresscouponpromocodedeals (1.9K), aexpresspromoandcouponcodeglobal (11K), 2131451090662594 welcome deals trusted (1.3K). ES: Best Aliexpress, Aliexpress Mexico Dudas y Compras (50K), Cupones Ofertas descuentos Todos los dias (21K). EN: Shopping Discounts Offers (49K), Aliexpress products, Aliexpress Big Sale (31K), Ali express products, Ali Express Products (3.7K), Aliexpress Affiliate marketing 1454095598757208 (8.8K) |
+| ⏳ ממתין לאישור מנהל (16, נכון ל-12:35 אף אחד עוד לא אושר; בדיקה מתוזמנת ב-14:37). התגובה עם הקישור תתווסף אחרי האישור | EN: couponsfromchinacom (19K), THE BARGAIN BIN 1032826214055528 (800K), GOOD GOLLY 837612917680653 (384K), blackfridayad (177K), 296804256287111 (107K), 1985465295015321 (44K), 1040511414605438 (61K), 1189744009506598 (26K), 528235004572113 (24K), coupons.coins (18K). ES: chollocupones (78K), comunidad.aliexpress.peru (50K), ofertasmazon (36K), OFERTAPERU (28K), chinaofertasycupones. HE: alioutlet.sale (20K) |
+| ❌ נדחה / ⚠️ לא ברור | CHOLLOS Y DESCUENTOS נדחה. ofertastopmexico ו-aliexpressperududas: הדף מחזיר "התוכן לא זמין" |
 | 🚫 דולג | AliExpress Chile: הכללים אוסרים קידום |
 
 **לקחים:**
@@ -228,11 +228,26 @@
 - יש קבוצות שבהן הפוסטים של Ash נשארים "ממתין" לנצח, ולכן מדלגים עליהן: welcome Deal, COUPONS & PROMO CODES, Group Buy, online shopping group, Aliexpress Online Shopping, Shopping Reviews, Alibaba-AliExpress, 357963973628413.
 - **למדידה:** ב-Admitad ובאתר, ההגעה מהקמפיין נספרת לפי `ref=fb_tweety` (subid1).
 
+## 6ב. הארון של טליה (27.11)
+
+- קטגוריה בשם בתו של Ash: he "הארון של טליה", es "El armario de Talia", en "Talia's Closet". בגדי נערות טרנדיים שטליה בחרה.
+- **כללים קשיחים:** רק השם הפרטי שלה מופיע באתר. אין תמונה שלה ואין גיל. פריטים חושפניים (בגדי גוף, חזיות וכו') לא נכנסים לקטגוריה שלה. 7 פריטים כאלה (23–29) הוסרו מהאתר לגמרי לבקשת Ash.
+- **נתונים:** `config/settings.json` → `talia_picks`, 22 פריטים. לכל פריט: id, img, name_he/es/en, price_usd, list_usd, store, checked. המחירים נבדקו ב-27.11. מקור הנתונים: `/home/claude/talia/raw.jsonl`.
+- **קוד:** `webgen/build.py`: TALIA, talia_cards, talia_rail, talia_page.
+- **מה נבנה:**
+  - דף `/<lang>/talia`
+  - קישור "👗" בתפריט
+  - שורת פריטים בדף הבית ובנישת אופנה
+  - הדף נכלל ב-sitemap
+  - הקישורים הם Admitad עם `subid=<lang>_site_talia`
+- **באוויר מ-27.11 12:55.** הבנייה נעשתה מקומית ונדחפה לאוויר (Cloudflare מפרסם בכל commit).
+- **בהמשך:** לייב בטיקטוק עם טליה, רק כש-Ash יבקש. לרענן מחירים אחרי בלאק פריידיי.
+
 ---
 
 ## 7. משימות פתוחות לפי עדיפות
 
-0. **קמפיין טוויטי בפייסבוק:** לבדוק את 17 הפוסטים הממתינים ולהוסיף תגובה עם קישור לכל פוסט שאושר (ראה 6א). אחרי יומיים לבדוק קליקים עם `fb_tweety`.
+0. **קמפיין טוויטי בפייסבוק:** לבדוק את 16 הפוסטים הממתינים ולהוסיף תגובה עם קישור לכל פוסט שאושר (ראה 6א). אחרי יומיים לבדוק קליקים עם `fb_tweety`.
 
 1. **רענון מחירי אודיופיל (כל 3 ימים):** 27.11 נוספו 12 מוצרים (48 סה"כ). **חובה בכל ריצה** — לא רק רענון מחירים: חיפוש לפי מותג (`aliexpress.com/w/wholesale-<brand>.html?sortType=total_tranpro_desc`) לכל `audiophile_scout_brands`, אימות בדף המוצר (`[class*=price--current]`, `[class*=price--original]`, שם חנות). מוסיפים רק: חנות רשמית או מורשה (HiFiGo, Shenzhenaudio, Linsoul, DD-Audio, BrightAudio), הנחה 12%–55% (מעל 55% = מחיר מחירון מנופח), לא אביזרים. ב-27.11 לא נמצאו: Sabaj, Loxjie, Ugoos (אין תוצאות); Gustard ו-Tangzu (הנחה 10%); Douk (71%, מנופח); iBasso (חנות לא מורשית או הנחה מנופחת).
 2. **מעקב חשיפות:**
