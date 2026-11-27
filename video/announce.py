@@ -20,7 +20,28 @@ TEXT = {
 }
 
 
+def is_live(target: str) -> bool:
+    """Poll the public page until the stream is really on air (max ~2.5 min). No announce otherwise."""
+    import time, urllib.request
+    url = YT if target == "youtube" else "https://decapi.me/twitch/uptime/dealim1"
+    for _ in range(10):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "Accept-Language": "en"})
+            body = urllib.request.urlopen(req, timeout=20).read().decode("utf-8", "ignore")
+            ok = '"isLiveNow":true' in body if target == "youtube" else ("offline" not in body.lower() and "error" not in body.lower())
+            print("live check", target, ok)
+            if ok:
+                return True
+        except Exception as e:
+            print("live check error", e)
+        time.sleep(15)
+    return False
+
+
 def main(target: str) -> None:
+    if not is_live(target):
+        print("NOT LIVE - announcement skipped")
+        return
     tok = os.environ.get("TELEGRAM_BOT_TOKEN")
     for lang, chat in (("he", "@mivtzaim_kuponim"), ("es", "@ofertas_descuentos_es"), ("en", "@discount_deals_promo")):
         if tok:
