@@ -28,7 +28,7 @@ def is_live(target: str) -> bool:
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "Accept-Language": "en"})
             body = urllib.request.urlopen(req, timeout=20).read().decode("utf-8", "ignore")
-            ok = '"isLiveNow":true' in body if target == "youtube" else ("offline" not in body.lower() and "error" not in body.lower())
+            ok = any(k in body for k in ('"isLiveNow":true', 'hlsManifestUrl', '"isLive":true', '"style":"LIVE"')) if target == "youtube" else ("offline" not in body.lower() and "error" not in body.lower())
             print("live check", target, ok)
             if ok:
                 return True
