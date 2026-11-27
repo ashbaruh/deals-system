@@ -241,6 +241,13 @@
   - הדף נכלל ב-sitemap
   - הקישורים הם Admitad עם `subid=<lang>_site_talia`
 - **באוויר מ-27.11 12:55.** הבנייה נעשתה מקומית ונדחפה לאוויר (Cloudflare מפרסם בכל commit).
+- **מדריך בלאק פריידיי (27.11):** כתבה בכתובת `/<lang>/guide/black-friday-teen-girls`, מכוונת להורים לנערות. 22 הפריטים מחולקים ל-4 קבוצות, עם 4 טיפים (מידות, משלוח, מחיר, לשתף אותה) ו-schema מסוג Article. קישורי השותפים עם `subid=<lang>_site_guide`. באנר בדף הבית עד `GUIDE_UNTIL` (2026-12-01). הקוד ב-`webgen/build.py`: GUIDE ו-guide_page.
+- **פרסום בפייסבוק (27.11):**
+  - פוסט בפרופיל של Ash עם קולאז' בעברית ו-`?ref=fb_talia`.
+  - Best Aliexpress: קולאז' בספרדית.
+  - Shopping Discounts Offers ו-Aliexpress Big Sale: נוסח כללי, קולאז' "Black Friday fashion for teen girls", ובתגובה קישור למדריך עם `?ref=fb_bfgirls`.
+  - **כלל:** בקבוצות ציבוריות מפרסמים בלי השם של טליה ובלי "הבת שלי". מערכת הבטיחות חסמה פרסום שהציג אותה בשמה.
+  - הקולאז'ים ב-`/home/claude/promo/talia/`.
 - **בהמשך:** לייב בטיקטוק עם טליה, רק כש-Ash יבקש. לרענן מחירים אחרי בלאק פריידיי.
 
 ---
