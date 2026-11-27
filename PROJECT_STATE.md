@@ -281,3 +281,5 @@
 - **Chrome:** הדפדפן המחובר הוא ה-Chrome של Ash. Facebook, Admitad (store.admitad.com), Cloudflare, Bluesky, htmag, Amazon, Pinterest ו-Bing מחוברים בו.
 - **דפי אלי:** קוראים בעזרת browser_batch (navigate ואז JS). iframes חסומים.
 - **דשבורד חדר הפיקוד:** artifact `fadd4749-2485-4024-a526-9a630dc0c2b0`, הפרויקטים `projects/dealim` ו-`projects/htmag`.
+
+- 27.11 (later): Talia's Closet grew to 45 items (+23: 9 coats, 7 sets/pants, 4 shoes, 3 accessories). GUIDE_GROUPS index ranges 22-31/31-38/38-42/42-45 — new items must be appended in group order. Excluded: sports-bra/yoga sets, backless items, short yoga suit, Juicy Lovers (brand knockoff), Bundle Deals.
