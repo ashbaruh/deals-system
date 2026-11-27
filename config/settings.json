@@ -1543,5 +1543,91 @@
       "store": "Rainbow Jewelry Store",
       "live": true
     }
+  ],
+  "fashion_picks": [
+    {
+      "id": "1005012792347994",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/S615e577d337a45b1ba043304239c857fi.jpg",
+      "name": "Open-back yoga jumpsuit",
+      "name_he": "אוברול יוגה עם גב פתוח",
+      "name_es": "Mono de yoga con espalda abierta",
+      "name_en": "Open-back yoga jumpsuit",
+      "price_usd": 10.51,
+      "list_usd": 25.48,
+      "checked": "2026-11-27",
+      "store": "DYD Sportswear Store"
+    },
+    {
+      "id": "1005010073700486",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/S351a071f20624d96bdf9da86ca630d6dI.jpg",
+      "name": "Sports bra",
+      "name_he": "חזיית ספורט",
+      "name_es": "Sujetador deportivo",
+      "name_en": "Sports bra",
+      "price_usd": 6.52,
+      "list_usd": 15.64,
+      "checked": "2026-11-27",
+      "store": "LemonLAB Store"
+    },
+    {
+      "id": "1005010498948991",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se4817e3f70fc4a5a956f7d6a05552bbag.jpg",
+      "name": "Sports bodysuit",
+      "name_he": "בגד גוף ספורט",
+      "name_es": "Body deportivo",
+      "name_en": "Sports bodysuit",
+      "price_usd": 9.69,
+      "list_usd": 21.64,
+      "checked": "2026-11-27",
+      "store": "Shop1105246508 Store"
+    },
+    {
+      "id": "1005007031595045",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/Saa3c296cdb014b0bbad24731e71e730du.jpg",
+      "name": "Long-sleeve bodysuit",
+      "name_he": "בודיסוט שרוול ארוך",
+      "name_es": "Body de manga larga",
+      "name_en": "Long-sleeve bodysuit",
+      "price_usd": 5.8,
+      "list_usd": 6.58,
+      "checked": "2026-11-27",
+      "store": "BIDIJONES Apparel Store"
+    },
+    {
+      "id": "1005006635984359",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/S97b51d9560f542e09a84dc4ab40569b6Q.jpg",
+      "name": "Strapless bodysuit",
+      "name_he": "בודיסוט סטרפלס",
+      "name_es": "Body palabra de honor",
+      "name_en": "Strapless bodysuit",
+      "price_usd": 4.11,
+      "list_usd": 10.09,
+      "checked": "2026-11-27",
+      "store": "Zwaa Co.,Ltd. Store"
+    },
+    {
+      "id": "1005011738495587",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/S18cfda5b155c4a6da6c33d27f2deaab2P.jpg",
+      "name": "V-neck halter top",
+      "name_he": "חולצת הולטר צווארון V",
+      "name_es": "Top halter cuello en V",
+      "name_en": "V-neck halter top",
+      "price_usd": 4.67,
+      "list_usd": 11.08,
+      "checked": "2026-11-27",
+      "store": "SIM WANG FASHION Store"
+    },
+    {
+      "id": "1005012503366367",
+      "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sdd22f2cfe4aa4503962f08fe0c74e50bL.jpg",
+      "name": "Halter bodysuit",
+      "name_he": "בגד גוף הולטר",
+      "name_es": "Body halter",
+      "name_en": "Halter bodysuit",
+      "price_usd": 6.33,
+      "list_usd": 15.85,
+      "checked": "2026-11-27",
+      "store": "Daily Look Store"
+    }
   ]
 }

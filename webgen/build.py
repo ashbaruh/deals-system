@@ -300,15 +300,15 @@ TALIA = {   # "Talia's Closet": teen fashion hand-picked by Ash's daughter (firs
 }
 
 
-def talia_cards(lang: str, limit: int = 0) -> str:
+def talia_cards(lang: str, limit: int = 0, key: str = "talia_picks", tag: str = "talia") -> str:
     import urllib.parse
-    ps = SETTINGS.get("talia_picks", [])
+    ps = SETTINGS.get(key, [])
     if limit:
         ps = ps[:limit]
     base = SETTINGS.get("affiliate_base", "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/")
     cta = TALIA[lang]["cta"]
     return "".join(
-        f'<a class="hcard" rel="sponsored nofollow" target="_blank" href="{esc(base + "?ulp=" + urllib.parse.quote("https://www.aliexpress.com/item/" + x["id"] + ".html", safe="") + "&subid=" + lang + "_site_talia")}">'
+        f'<a class="hcard" rel="sponsored nofollow" target="_blank" href="{esc(base + "?ulp=" + urllib.parse.quote("https://www.aliexpress.com/item/" + x["id"] + ".html", safe="") + "&subid=" + lang + "_site_" + tag)}">'
         f'<img src="{esc(x["img"])}" alt="{esc((x.get("name_" + lang) or x["name"])[:90])}" loading="lazy" referrerpolicy="no-referrer" width="200" height="200">'
         f'<div class="in"><div class="t">{esc(x.get("name_" + lang) or x["name"])}</div><div class="prices">{_pick_price(x, lang, cta)}</div></div></a>'
         for x in ps)
@@ -321,6 +321,14 @@ def talia_rail(lang: str) -> str:
     more = {"he": "לכל הארון ←", "es": "Ver todo →", "en": "See all →"}[lang]
     return (f'<h2>👗 {esc(T["t"])} <a href="/{lang}/talia.html" style="font-size:.85rem;font-weight:600;margin-inline-start:8px">{more}</a></h2>'
             f'<div class="hotbar"><div class="rail">{talia_cards(lang, 16)}</div></div>')
+
+
+def fashion_picks_rail(lang: str) -> str:
+    """Hand-picked trending outfits (bodysuits, activewear) - general fashion, deliberately NOT under Talia's name."""
+    if len(SETTINGS.get("fashion_picks", [])) < 4:
+        return ""
+    h = {"he": "✨ אאוטפיטים טרנדיים", "es": "✨ Outfits en tendencia", "en": "✨ Trending outfits"}[lang]
+    return f'<h2>{h}</h2><div class="hotbar"><div class="rail">{talia_cards(lang, 0, "fashion_picks", "fashion_picks")}</div></div>'
 
 
 def talia_page(lang: str) -> str:
@@ -464,7 +472,7 @@ def build():
             items = [d for d in ordered if d.get("niche") == key]
             title = f"{n['title']} – {SEO_WORDS[lang][0]} | dealim.net"
             hot_n = [d for d in items if not d.get("expired")][:12]
-            b = f"""{hot_rail(hot_n, lang) if len(hot_n) >= 4 else ''}{picks_rail(lang) if key in ("brands", "audio") else ''}{talia_rail(lang) if key == "fashion" else ''}<div class="layout"><section><h1 style="font-size:1.3rem;margin:22px 0 4px">{ICONS.get(key, '')} {esc(n['title'])}</h1>
+            b = f"""{hot_rail(hot_n, lang) if len(hot_n) >= 4 else ''}{picks_rail(lang) if key in ("brands", "audio") else ''}{talia_rail(lang) if key == "fashion" else ''}{fashion_picks_rail(lang) if key == "fashion" else ''}<div class="layout"><section><h1 style="font-size:1.3rem;margin:22px 0 4px">{ICONS.get(key, '')} {esc(n['title'])}</h1>
 {listing(items[:80], lang)}</section>{sidebar(lang)}</div>"""
             (root / "niche" / f"{key}.html").write_text(
                 page(lang, f"/{lang}/niche/{key}.html", title, f"{n['title']} – {c['meta_description']}", b, active=key),
