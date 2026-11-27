@@ -212,7 +212,7 @@
    - פרסום ממומן לערוץ הספרדי נשקל, רק בכרטיס או PayPal.
 4. **לייב בטיקטוק עם הבת:** ממתינים שתבחר תחום ותחליט אם היא מופיעה מול המצלמה. אחר כך בונים גלריה של כ-200 תמונות מהמבצעים, היא בוחרת, והלייב נבנה מהבחירות שלה.
 5. **Joom:** בדיקה ב-1.12, כולל נישת החיות.
-6. **הלייב היומי:** חזר לפעול מ-27.11 (ה-cron `37 17` ב-Worker מפעיל אותו). לבדוק בריצה הבאה את שורת `live check youtube` בלוג.
+6. **לייבים רק כש-Ash מבקש (27.11).** ה-cron `37 17` ב-Worker עדיין שולח dispatch, אבל `live.yml` מדלג עליו כי חסר `manual=true`. הפעלה ידנית: `gh api repos/ashbaruh/deals-system/actions/workflows/live.yml/dispatches -f ref=main -f 'inputs[lang]=en' -f 'inputs[target]=youtube|twitch' -F 'inputs[stream]=true' -F 'inputs[manual]=true'` (twitch משדר גם ל-Kick).
 7. **`aggregateRating`:** כרגע `reviewCount` מקבל את מספר ההזמנות, שזה לא מספר ביקורות. לשקול להסיר את השדה כדי להימנע מנתונים מטעים.
 8. **WAF:** לחסום python-requests, Keenabl, ElevenLabs ו-Reflect. עדיפות נמוכה.
 

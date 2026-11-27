@@ -14,12 +14,18 @@ on:
         description: "Go live after rendering"
         type: boolean
         default: false
+      manual:
+        description: "Ash asked for this live (the Cloudflare daily cron does not send this, so it is skipped)"
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
   group: live-${{ inputs.target || 'youtube' }}
 jobs:
   live:
+    # 27.11: Ash wants lives only on request, no automatic daily YouTube live
+    if: ${{ inputs.manual }}
     runs-on: ubuntu-latest
     timeout-minutes: 75
     steps:
