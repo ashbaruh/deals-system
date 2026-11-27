@@ -1,6 +1,6 @@
 # PROJECT_STATE — dealim.net (מצב הפרויקט להמשך בשיחה חדשה)
 
-עודכן: 24.11.2026. בעלים: Ash. תשובות אליו: בעברית, קצר, טבלאות, ולכל המלצה זמן + עלות + צעד ראשון.
+עודכן: 27.11.2026. בעלים: Ash. תשובות אליו: בעברית, קצר, טבלאות, ולכל המלצה זמן + עלות + צעד ראשון.
 אין בקובץ הזה סיסמאות, טוקנים או מפתחות. כל הסודות נשמרים ב-GitHub Secrets או ב-Cloudflare, ו-Ash מזין אותם בעצמו.
 
 ---
@@ -199,7 +199,40 @@
 
 ---
 
+## 6א. קמפיין סרטון טוויטי בפייסבוק (בלאק פריידיי, 27.11)
+
+**הנכסים:** סרטון קידום של 18.6 שניות עם החתולה טוויטי, בעברית, ספרדית ואנגלית. הקבצים ב-`/home/claude/promo` (סשן זמני):
+- `tweety_dealim_{he,en}.mp4`
+- גרסאות דחוסות להעלאה (≤3.8MB): `tweety_{he,es,en}_fb.mp4`. הגדרות הדחיסה: crf 27, maxrate 1.4M, aac 96k.
+
+**שיטת הפרסום (דרך החשבון של Ash ב-Chrome):**
+1. הסרטון עולה בגוף הפוסט, עם טקסט שונה בכל קבוצה. בטקסט עצמו אין קישור, כי קישור בגוף הפוסט מגדיל את הסיכוי לדחייה.
+2. הקישור לאתר נכנס כתגובה ראשונה מיד אחרי הפרסום: `https://dealim.net/<lang>/?ref=fb_tweety`.
+3. בין פוסט לפוסט עוברות 3–10 דקות.
+4. המצב של כל פוסט נבדק ב-`/groups/<id>/my_posted_content`, ב-`my_pending_content` וב-`my_declined_content`.
+
+**אישור:** ב-27.11 Ash אישר להצטרף לקבוצות, לאשר כללי קבוצה ולפרסם בלי לשאול בכל פעם.
+
+**מצב ב-27.11, 11:00:**
+
+| מצב | קבוצות |
+|---|---|
+| ✅ פורסם + תגובה עם קישור (9) | ES: Best Aliexpress, Aliexpress Mexico Dudas y Compras (50K), Cupones Ofertas descuentos Todos los dias (21K). EN: Shopping Discounts Offers (49K), Aliexpress products, Aliexpress Big Sale (31K), Ali express products, Ali Express Products (3.7K), Aliexpress Affiliate marketing 1454095598757208 (8.8K) |
+| ⏳ ממתין לאישור מנהל (17). התגובה עם הקישור תתווסף אחרי האישור | EN: THE BARGAIN BIN 1032826214055528 (800K), GOOD GOLLY 837612917680653 (384K), blackfridayad (177K), 296804256287111 (107K), 1985465295015321 (44K), 1040511414605438 (61K), 1189744009506598 (26K), 528235004572113 (24K), coupons.coins (18K). ES: chollocupones (78K), comunidad.aliexpress.peru (50K), ofertasmazon (36K), OFERTAPERU (28K), aliexpressperududas, chinaofertasycupones. HE: alioutlet.sale (20K) |
+| ❌ נדחה / ⚠️ לא ברור | CHOLLOS Y DESCUENTOS נדחה. ofertastopmexico: הדף מחזיר "התוכן לא זמין" |
+| 🚫 דולג | AliExpress Chile: הכללים אוסרים קידום |
+
+**לקחים:**
+- קבוצות גדולות (מעל 20K) כמעט תמיד בודקות משתתף חדש לפני הפוסט הראשון שלו.
+- קבוצות אליאקספרס קטנות-בינוניות מפרסמות מיד.
+- יש קבוצות שבהן הפוסטים של Ash נשארים "ממתין" לנצח, ולכן מדלגים עליהן: welcome Deal, COUPONS & PROMO CODES, Group Buy, online shopping group, Aliexpress Online Shopping, Shopping Reviews, Alibaba-AliExpress, 357963973628413.
+- **למדידה:** ב-Admitad ובאתר, ההגעה מהקמפיין נספרת לפי `ref=fb_tweety` (subid1).
+
+---
+
 ## 7. משימות פתוחות לפי עדיפות
+
+0. **קמפיין טוויטי בפייסבוק:** לבדוק את 17 הפוסטים הממתינים ולהוסיף תגובה עם קישור לכל פוסט שאושר (ראה 6א). אחרי יומיים לבדוק קליקים עם `fb_tweety`.
 
 1. **רענון מחירי אודיופיל (כל 3 ימים):** 27.11 נוספו 12 מוצרים (48 סה"כ). **חובה בכל ריצה** — לא רק רענון מחירים: חיפוש לפי מותג (`aliexpress.com/w/wholesale-<brand>.html?sortType=total_tranpro_desc`) לכל `audiophile_scout_brands`, אימות בדף המוצר (`[class*=price--current]`, `[class*=price--original]`, שם חנות). מוסיפים רק: חנות רשמית או מורשה (HiFiGo, Shenzhenaudio, Linsoul, DD-Audio, BrightAudio), הנחה 12%–55% (מעל 55% = מחיר מחירון מנופח), לא אביזרים. ב-27.11 לא נמצאו: Sabaj, Loxjie, Ugoos (אין תוצאות); Gustard ו-Tangzu (הנחה 10%); Douk (71%, מנופח); iBasso (חנות לא מורשית או הנחה מנופחת).
 2. **מעקב חשיפות:**
