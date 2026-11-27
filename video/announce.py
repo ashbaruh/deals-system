@@ -29,7 +29,7 @@ def is_live(target: str) -> bool:
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "Accept-Language": "en"})
             body = urllib.request.urlopen(req, timeout=20).read().decode("utf-8", "ignore")
             ok = any(k in body for k in ('"isLiveNow":true', 'hlsManifestUrl', '"isLive":true', '"style":"LIVE"')) if target == "youtube" else ("offline" not in body.lower() and "error" not in body.lower())
-            print("live check", target, ok)
+            print("live check", target, ok, "len", len(body), "consent" if "consent.youtube" in body else "", "ytdata" if "ytInitialData" in body else "")
             if ok:
                 return True
         except Exception as e:
