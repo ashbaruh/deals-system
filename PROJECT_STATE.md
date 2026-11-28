@@ -1,6 +1,6 @@
 # PROJECT_STATE — dealim.net (מצב הפרויקט להמשך בשיחה חדשה)
 
-עודכן: 27.11.2026. בעלים: Ash. תשובות אליו: בעברית, קצר, טבלאות, ולכל המלצה זמן + עלות + צעד ראשון.
+עודכן: 28.11.2026. בעלים: Ash. תשובות אליו: בעברית, קצר, טבלאות, ולכל המלצה זמן + עלות + צעד ראשון.
 אין בקובץ הזה סיסמאות, טוקנים או מפתחות. כל הסודות נשמרים ב-GitHub Secrets או ב-Cloudflare, ו-Ash מזין אותם בעצמו.
 
 ---
@@ -30,9 +30,9 @@
 |---|---|---|---|
 | ריפו | GitHub ashbaruh/deals-system | — | האתר נבנה לתיקייה `public/` ונשמר ב-commit לריפו |
 | אירוח האתר | Cloudflare Pages ← `public/` | אחרי כל commit | הדומיין dealim.net נרכש ב-Cloudflare Registrar לשנתיים |
-| מתזמן ראשי | Cloudflare Worker `bitter-block-44f2` (קוד: `cloudflare/scheduler-worker.js`) | cron `5 6,7,9,11,13,15,17,19,21,23 * * *` UTC | שולח workflow_dispatch ל-`run.yml`. מחזיק את הסוד GH_TOKEN |
-| לייב יומי | אותו Worker, cron `37 17 * * *` ← `live.yml` | — | **כבוי**: `live.yml` במצב disabled_manually (ראה סעיף 5). ה-cron עדיין קיים ונכשל בלי נזק |
-| גיבוי | `run.yml` schedule `43 1 * * *` UTC (03:43 בישראל) | פעם בלילה | רק גיבוי אחד. הקודמים הוסרו כי התנגשו בתור |
+| מתזמן ראשי | Cloudflare Worker `bitter-block-44f2` (קוד: `cloudflare/scheduler-worker.js`) | cron `5 7,12,17,22 * * *` UTC = 4 סבבים ביום: 09:05, 14:05, 19:05, 00:05 בישראל (מ-28.11, Ash אישר; קודם 10 ביום) | שולח workflow_dispatch ל-`run.yml`. מחזיק את הסוד GH_TOKEN. כל סבב לוקח 35–110 דקות |
+| לייב | `live.yml`, רק ידנית עם `manual=true` | — | ה-cron `37 17` נמחק מה-Worker ב-28.11. לייבים רק כש-Ash מבקש |
+| גיבוי | `run.yml` schedule `43 1 * * *` UTC | אמור ב-03:43, בפועל GitHub מעכב בשעות (27.11 רץ ב-12:08) | רק גיבוי אחד |
 | סבב דילים | `.github/workflows/run.yml` ← `python -m engine.run` | בכל הפעלה | ראה פירוט מתחת |
 | תמונות לפינטרסט | שלב "Pinterest images" ב-`run.yml` ← `python -m webgen.pins` | אחרי הבנייה | continue-on-error. אם נכשל, הפיד נשאר עם תמונות המוצר |
 | ניתוח תעבורה | Cloudflare Web Analytics, site_tag `2b96eb8e…` | — | מצב lite כבוי מ-23.11, כך שגם מבקרים מאירופה נמדדים |
@@ -301,3 +301,11 @@
 - Bluesky: posting works (155 posts, 5 followers). Email still unverified — Ash must sign in to bsky.app and verify (Chrome not signed in to Bluesky web).
 
 - 28.11: Telegram daily cap lowered to 10 per channel (`max_posts_per_day`), and audio/event extras now count inside the cap (`_daily_left` in run.py/core.py). Measured before: 22–35 posts/day/channel.
+
+## 28.11 — סיכום להמשך בשיחה חדשה
+- **פרסום אוטומטי (מאומת 28.11):** טלגרם עד 10 פוסטים ביום לערוץ, כולל תוספות אודיו/אירועים (`max_posts_per_day: 10`, `_daily_left`). פוסטים רק 08:00–23:00 לפי שעון הקהל (he=ירושלים, es=מדריד, en=ניו יורק). Bluesky: עד 2 בסבב, רק מהאנגלית. לפני השינוי נמדדו 22–35 פוסטים ביום לערוץ ו-7–10 ב-Bluesky.
+- **משימות מתוזמנות של Claude פעילות:** `trig_01Q4xkr3uV5Aa48Ypty2ByYp` רענון אודיופיל (כל 3 ימים, דורש MacBook דלוק), `trig_019BWAJzA5ywcZQ7RzJKXPnL` חדר הפיקוד (20:17 יומי). `trig_01FSnNa7fzrPVCCALA7TdyKq` (בדיקת Admitad 29.11) — כבוי לבקשת Ash.
+- **לייב טליה 28.11:** יוטיוב עבד (YT_STREAM_KEY עודכן ע"י Ash ב-07:14). ב-`live.yml` יש `sleep 150` לפני ffmpeg — "No data" בדקות הראשונות זה תקין. כותרת/תיאור ביוטיוב לא מתעדכנים אוטומטית: יש לעדכן ב-Studio (תיאור לטליה נבנה מ-`data/live_links_t.json`, קישורים dealim.net/t/N).
+- **פייסבוק (סרטון טוויטי EN):** הועלה כקובץ (`promo/tweety_en_fb.mp4`) ל-Black Friday deals (675773572864856) ול-Krazy Deals (krazydealsandsteals) — שניהם ממתינים לאישור. גם ממתינים: Black Friday Steals, finds01, Savvy Shopper. לכל פוסט שאושר להוסיף תגובה `https://dealim.net/en/?ref=fb_tweety`.
+- **תעבורה:** 24 שעות עד 28.11 07:50 — 68 ביקורים (34 מפייסבוק, 25 ישיר, 5 אינסטגרם), עמודי טליה מובילים. 28.11 מחצות עד 07:50 — 3 ביקורים.
+- **מה Ash מעדיף:** לבדוק ולאמת לפני שהוא מחליט; לא לקבוע בדיקות מתוזמנות בלי שביקש.
