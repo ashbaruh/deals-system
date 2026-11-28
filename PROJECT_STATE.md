@@ -176,9 +176,12 @@
   - תיאור, הנחה ומחיר מקורי.
   - מחיר, משלוח לישראל, מיסים וסה"כ.
   - מידה וצבע שנבדקו.
-  - שורת `[url]https://www.amazon.com/dp/ASIN[/url]`.
-  - שורה ריקה בין כל שורה לשורה.
-- **אסור:** תמונות, קישורים מקוצרים, התו "+".
+  - תמונה `[img]https://m.media-amazon.com/images/I/<id>.jpg[/img]` (חובה לפי Ziv).
+  - שורת מחיר: `מחיר: X$ + משלוח לישראל Y$ + מיסי יבוא Z$ = סה"כ T$ עד הבית`.
+  - קישור נקי `https://www.amazon.com/dp/ASIN` בשורה נפרדת.
+  - שורה ריקה בין חלק לחלק.
+- **אסור:** קישורים מקוצרים, קישור נוסף מלבד אמזון.
+- **אימות לפני פרסום:** לקרוא בדף המוצר את "Price / AmazonGlobal Shipping / Estimated Import Charges / Total" ואת `#availability`. מחירי וריאציות משתנים (Levi's Ribcage קפץ מ-59.85 ל-140).
 - **נפסלים:**
   - מוצר שהמשלוח שלו גדול מ-50% מהמחיר.
   - מוצר חשמלי של 110V בלבד.
@@ -188,6 +191,8 @@
 - **הסבבים האחרונים:**
   - 23.11: נושאים 404795–404804.
   - 24.11: נושאים 404812–404821.
+  - 27.11: נושאים 404912–404915.
+  - 28.11: נושאים 404936–404945 (Corsair RX120, CK Bubble Lamb, CK Cali Mini, Levi's Low Slim Boot, Levi's 541, TH פשתן, TH רבע רוכסן, Columbia Arcadia II, Crocs LEGO, Skechers Glide-Step נשים).
 
 **HT Deals (f=110), העמלה של Ash:**
 - **מה מותר:** קישורי Admitad מלאים וגלויים, בשורה נפרדת: `https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=<aliexpress item url encoded>&subid=he_htmag_<niche>`.
