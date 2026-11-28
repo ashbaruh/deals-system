@@ -193,6 +193,7 @@
   - 24.11: נושאים 404812–404821.
   - 27.11: נושאים 404912–404915.
   - 28.11: נושאים 404936–404945 (Corsair RX120, CK Bubble Lamb, CK Cali Mini, Levi's Low Slim Boot, Levi's 541, TH פשתן, TH רבע רוכסן, Columbia Arcadia II, Crocs LEGO, Skechers Glide-Step נשים).
+  - 28.11 ערב (כותרות "בלאק פריידיי"): 404948, 404949, 404951–404953 (HyperX Origins 2 65, Razer DeathAdder V3, Razer Kraken Kitty V2, TH Regular Straight, TH צ׳ינו).
 
 **HT Deals (f=110), העמלה של Ash:**
 - **מה מותר:** קישורי Admitad מלאים וגלויים, בשורה נפרדת: `https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=<aliexpress item url encoded>&subid=he_htmag_<niche>`.
@@ -200,6 +201,7 @@
 - **פוסט סיכום:** רק כש-Ash מחליט.
 - **מכסה:** אין מכסה יומית.
 - **פוסטים אחרונים (23.11):** 404805 (אודיו) ו-404806 (UGREEN ו-Baseus).
+- **28.11:** 404947 (רכזת UGREEN 7-in-2, ₪70.88) ו-404950 (עגינה UGREEN 7-in-1, ₪88.19). מחירים בש"ח כפי שמוצגים ב-he.aliexpress. מתחת ל-₪74 בהזמנת Choice יש משלוח ₪7.49.
 - **מה עובד:** הנושא "בלאק פריידיי" הביא הכי הרבה צפיות (94), ואחריו סיכומים מבוססי מותג. פרסום בערב.
 
 ---
