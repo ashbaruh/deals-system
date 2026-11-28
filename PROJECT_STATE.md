@@ -228,7 +228,11 @@
 - יש קבוצות שבהן הפוסטים של Ash נשארים "ממתין" לנצח, ולכן מדלגים עליהן: welcome Deal, COUPONS & PROMO CODES, Group Buy, online shopping group, Aliexpress Online Shopping, Shopping Reviews, Alibaba-AliExpress, 357963973628413.
 - **למדידה:** ב-Admitad ובאתר, ההגעה מהקמפיין נספרת לפי `ref=fb_tweety` (subid1).
 
+**28.11:** קבצי הסרטון נמחקו (סשן זמני). ההפצה נעשתה בשיתוף ה-reel הקיים (EN: /reel/1574146414756692, ES: /reel/1673378377533433) לקבוצות חדשות, עם טקסט אנושי בלי אימוג'ים, וקישור `?ref=fb_tweety` בתגובה. פורסם + תגובה: Ofertas Exclusivas de AliExpress Mexico, Aliexpress España (497067964646544). ממתין: Black Friday Steals & Hot Deals (221739400799965, 55K), Black Friday Deals, Coupons & Freebies (finds01, 35K), The Savvy Shopper (76K). הוסר אוטומטית: Online Shopping Deals & Coupons (112067756147507). הצטרפתי גם ל-Black Friday deals (675773572864856, 64K) — עוד לא פורסם שם. Krazy Deals ו-ALIEXPRESS MEXICO DUDAS דורשות שאלון השתתפות.
+
 ## 6ב. הארון של טליה (27.11)
+
+- **לייב טליה (28.11):** `live.yml` עם `source=talia` → `LIVE_SOURCE=talia`, קישורים dealim.net/t/N, subid `en_{ytlive|twitch}_talia`. Twitch+Kick עובדים (כותרת [Rerun] Talia's Closet…). YouTube: המפתח ב-`YT_STREAM_KEY` לא תואם ל-Default stream key ב-Studio ("No data") — Ash צריך להדביק מפתח עדכני.
 
 - קטגוריה בשם בתו של Ash: he "הארון של טליה", es "El armario de Talia", en "Talia's Closet". בגדי נערות טרנדיים שטליה בחרה.
 - **כללים קשיחים:** רק השם הפרטי שלה מופיע באתר. אין תמונה שלה ואין גיל. פריטים חושפניים (בגדי גוף, חזיות וכו') לא נכנסים לקטגוריה שלה. 7 פריטים כאלה (23–29) הוסרו מהאתר לגמרי לבקשת Ash.
