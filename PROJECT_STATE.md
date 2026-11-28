@@ -299,3 +299,5 @@
 - Chollometro (joined 24.11 as Ash_Baruh): rules (chollometro.com/reglas, /normas) forbid affiliate/referral links and shortened links. Not usable for dealim/Admitad links. Do not post there.
 - Search Console page indexing (28.11): 1.09K indexed, 2.36K not indexed. "Page with redirect" 950 = old .html deal URLs (site now uses extensionless + canonical) — expected, no action. "Crawled/Discovered - currently not indexed" ~1.2K = normal for a new site.
 - Bluesky: posting works (155 posts, 5 followers). Email still unverified — Ash must sign in to bsky.app and verify (Chrome not signed in to Bluesky web).
+
+- 28.11: Telegram daily cap lowered to 10 per channel (`max_posts_per_day`), and audio/event extras now count inside the cap (`_daily_left` in run.py/core.py). Measured before: 22–35 posts/day/channel.

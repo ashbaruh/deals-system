@@ -565,7 +565,7 @@
   "heat_threshold_fav": 30,
   "site_per_niche_brands": 24,
   "max_price_usd_brands": 600,
-  "max_posts_per_day": 20,
+  "max_posts_per_day": 10,
   "audio_brands": [
     "FiiO",
     "Zidoo",

@@ -647,6 +647,9 @@ def select_deals(products: list[Product], lang: str, hist: History, today: str,
                 print(f"[{lang}] event {ev['key']} extra post: {t[:60]}", flush=True)
             elif site_left > 0:
                 seen.add(key); ev_site.append(d); site_left -= 1
+    # hard daily cap per channel (Ash 28.11: 10 a day), extras included
+    if "_daily_left" in SETTINGS:
+        picked = picked[:max(0, SETTINGS["_daily_left"])]
     chosen = {d.product.pid for d in picked}
     site, on_site = list(ev_site), dict(live_on_site or {})
     fav_extra = SETTINGS.get("site_fav_brands_extra", 60)   # favourites don't compete for the normal per-niche slots

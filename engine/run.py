@@ -342,6 +342,7 @@ def main() -> int:
             done_today = hist.db.execute("SELECT COUNT(*) FROM posted WHERE lang=? AND day=?", (lang, today)).fetchone()[0]
             run_cap = SETTINGS["max_posts_per_run"]
             SETTINGS["max_posts_per_run"] = max(0, min(run_cap, SETTINGS.get("max_posts_per_day", 10) - done_today))
+            SETTINGS["_daily_left"] = max(0, SETTINGS.get("max_posts_per_day", 10) - done_today)
             # GitHub often fires scheduled runs hours late: never post into the audience's night
             from datetime import datetime as _dt
             from zoneinfo import ZoneInfo
@@ -350,10 +351,11 @@ def main() -> int:
             if not (8 <= hour < 23) and not os.environ.get("PUBLISH_ANYTIME"):
                 print(f"[{lang}] local hour {hour}: night, site only", flush=True)
                 SETTINGS["max_posts_per_run"] = 0
-            SETTINGS["_audio_extra_ok"] = (SETTINGS["max_posts_per_run"] > 0 or done_today >= SETTINGS.get("max_posts_per_day", 10)) \
+            SETTINGS["_audio_extra_ok"] = SETTINGS["_daily_left"] > 0 \
                 and (8 <= hour < 23 or bool(os.environ.get("PUBLISH_ANYTIME"))) and not only and not SETTINGS.get("preview_only")
             deals, site_only = select_deals(products, lang, hist, today, posted_today, live_on_site)
             SETTINGS["_audio_extra_ok"] = False
+            SETTINGS.pop("_daily_left", None)
             SETTINGS["max_posts_per_run"] = run_cap
             site_only = site_only + joom_showcase(products, lang, today)
             localize(deals, lang, hist)
