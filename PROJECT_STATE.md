@@ -294,3 +294,8 @@
 - **דשבורד חדר הפיקוד:** artifact `fadd4749-2485-4024-a526-9a630dc0c2b0`, הפרויקטים `projects/dealim` ו-`projects/htmag`.
 
 - 27.11 (later): Talia's Closet grew to 45 items (+23: 9 coats, 7 sets/pants, 4 shoes, 3 accessories). GUIDE_GROUPS index ranges 22-31/31-38/38-42/42-45 — new items must be appended in group order. Excluded: sports-bra/yoga sets, backless items, short yoga suit, Juicy Lovers (brand knockoff), Bundle Deals.
+
+## 28.11 Gmail audit (signups not followed up)
+- Chollometro (joined 24.11 as Ash_Baruh): rules (chollometro.com/reglas, /normas) forbid affiliate/referral links and shortened links. Not usable for dealim/Admitad links. Do not post there.
+- Search Console page indexing (28.11): 1.09K indexed, 2.36K not indexed. "Page with redirect" 950 = old .html deal URLs (site now uses extensionless + canonical) — expected, no action. "Crawled/Discovered - currently not indexed" ~1.2K = normal for a new site.
+- Bluesky: posting works (155 posts, 5 followers). Email still unverified — Ash must sign in to bsky.app and verify (Chrome not signed in to Bluesky web).
