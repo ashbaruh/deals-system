@@ -20,6 +20,20 @@ TEXT = {
 }
 
 
+TALIA = {
+    "youtube": {
+        "he": "🔴 עכשיו בשידור חי ביוטיוב: הארון של טליה – בגדי נערות טרנדיים שטליה בחרה, במחירי אליאקספרס\n▶️ {yt}\n👗 כל הפריטים מהשידור: https://dealim.net/t/",
+        "es": "🔴 EN DIRECTO en YouTube: El armario de Talia – moda juvenil elegida por Talia, a precios de AliExpress\n▶️ {yt}\n👗 Todo lo del directo: https://dealim.net/t/",
+        "en": "🔴 LIVE NOW on YouTube: Talia's Closet – trendy teen fashion picked by Talia, at AliExpress prices\n▶️ {yt}\n👗 Every item from the stream: https://dealim.net/t/",
+    },
+    "twitch": {
+        "he": "🔴 עכשיו בשידור חי: הארון של טליה – בגדי נערות שטליה בחרה\n▶️ https://www.twitch.tv/dealim1\n▶️ https://kick.com/dealim1\n👗 כל הפריטים: https://dealim.net/t/",
+        "es": "🔴 EN DIRECTO: El armario de Talia – moda juvenil elegida por Talia\n▶️ https://www.twitch.tv/dealim1\n▶️ https://kick.com/dealim1\n👗 Todo: https://dealim.net/t/",
+        "en": "🔴 LIVE NOW: Talia's Closet – teen fashion picked by Talia\n▶️ https://www.twitch.tv/dealim1\n▶️ https://kick.com/dealim1\n👗 Every item: https://dealim.net/t/",
+    },
+}
+
+
 def is_live(target: str) -> bool:
     """Poll the public page until the stream is really on air (max ~2.5 min). No announce otherwise."""
     import time, urllib.request
@@ -38,7 +52,8 @@ def is_live(target: str) -> bool:
     return False
 
 
-def main(target: str) -> None:
+def main(target: str, source: str = "") -> None:
+    texts = TALIA if source == "talia" else TEXT
     if not is_live(target):
         print("NOT LIVE - announcement skipped")
         return
@@ -46,18 +61,18 @@ def main(target: str) -> None:
     for lang, chat in (("he", "@mivtzaim_kuponim"), ("es", "@ofertas_descuentos_es"), ("en", "@discount_deals_promo")):
         if tok:
             try:
-                _call(tok, "sendMessage", {"chat_id": chat, "text": TEXT[target][lang].format(yt=YT)})
+                _call(tok, "sendMessage", {"chat_id": chat, "text": texts[target][lang].format(yt=YT)})
                 print("telegram", lang, "ok")
             except Exception as e:
                 print("telegram", lang, e)
     try:
         from engine import bluesky
         link = YT if target == "youtube" else "https://www.twitch.tv/dealim1"
-        t = TEXT[target]["en"].format(yt=YT).split("\n")[0] + " #AliExpress #deals" + (" #gaming" if target == "twitch" else "")
+        t = texts[target]["en"].format(yt=YT).split("\n")[0] + " #AliExpress #deals" + (" #gaming" if target == "twitch" else "")
         print("bluesky", bluesky.post(t, link, "LIVE: real AliExpress price drops", "Every deal from the stream: dealim.net", None))
     except Exception as e:
         print("bluesky", e)
 
 
 if __name__ == "__main__":
-    main(sys.argv[1] if len(sys.argv) > 1 else "youtube")
+    main(sys.argv[1] if len(sys.argv) > 1 else "youtube", sys.argv[2] if len(sys.argv) > 2 else "")

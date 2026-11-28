@@ -88,7 +88,28 @@ def short_name(d) -> str:
     return name if len(name) <= 60 else name[:58].rsplit(" ", 1)[0] + "…"
 
 
+SOURCE = os.environ.get("LIVE_SOURCE", "")         # "talia" = Talia's Closet picks (config talia_picks)
+
+
+def pick_talia(lang: str) -> list[dict]:
+    """Talia's Closet live: her teen-fashion picks, in the order she chose them."""
+    import urllib.parse
+    base = _S.get("affiliate_base", "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/")
+    out = []
+    for x in _S.get("talia_picks", []):
+        if not x.get("live", True) or not x.get("img") or not x.get("list_usd") or x["list_usd"] <= x["price_usd"]:
+            continue
+        ali = "https://www.aliexpress.com/item/" + x["id"] + ".html"
+        out.append({"pid": "talia:" + x["id"], "slug": "talia-" + x["id"], "title": x.get("name_en") or x["name"],
+                    "title_local": x.get("name_" + lang) or x.get("name_en") or x["name"], "image": x["img"],
+                    "price_usd": x["price_usd"], "median_30d": x["list_usd"], "discount": 1 - x["price_usd"] / x["list_usd"],
+                    "url": base + "?ulp=" + urllib.parse.quote(ali, safe=""), "lang": lang, "niche": "talia"})
+    return out[:N_DEALS]
+
+
 def pick(lang: str) -> list[dict]:
+    if SOURCE == "talia":
+        return pick_talia(lang)
     deals = json.loads((ROOT / "data" / f"deals_{lang}.json").read_text(encoding="utf-8"))
     deals = [d for d in deals if not d.get("expired") and d.get("store") != "joom" and d.get("image")
              and 8 <= d["price_usd"] <= 200 and d.get("discount", 0) >= 0.3 and d.get("niche") != "dollar"
@@ -129,7 +150,7 @@ def redirect_html(url: str) -> str:
 
 def index_html(links: list[dict], pfx: str) -> str:
     """dealim.net/<pfx>/ : every deal of the latest stream as a tappable list (stream chats/bios link here)."""
-    title = "Gaming gear deals from the live stream" if pfx == "g" else "Deals from the live stream"
+    title = {"g": "Gaming gear deals from the live stream", "t": "Talia's Closet – picks from the live stream"}.get(pfx, "Deals from the live stream")
     rows = "".join(
         f'<a class="r" href="/{pfx}/{x["n"]}" rel="sponsored nofollow">'
         f'<b class="n">#{x["n"]}</b>'
@@ -207,6 +228,11 @@ def main() -> int:
     from playwright.sync_api import sync_playwright
     lang = (sys.argv[1:] or ["en"])[0]
     t = dict(TXT[lang])
+    if SOURCE == "talia":
+        t.update({"en": dict(live="LIVE · Talia's Closet · teen fashion deals", hook="Talia's Closet 👗", sub="Trendy teen picks chosen by Talia",
+                             was="Store price", cta="More of Talia's picks: dealim.net/en/talia"),
+                  "es": dict(live="EN DIRECTO · El armario de Talia", hook="El armario de Talia 👗", sub="Moda juvenil elegida por Talia",
+                             was="Precio tienda", cta="Más elecciones de Talia: dealim.net/es/talia")}[lang])
     if THEME == "gaming":
         t.update(live="🎮 GAMING GEAR DEALS · AliExpress", hook="Gaming gear price drops",
                  foot="All links in one list: dealim.net/g")
@@ -328,7 +354,7 @@ def main() -> int:
     ldir = ROOT / "public" / LPFX
     ldir.mkdir(parents=True, exist_ok=True)
     for n, d in enumerate(ds, 1):
-        url = click_url(d, "ytlive" if LPFX == "l" else "twitch")
+        url = click_url(d, os.environ.get("LIVE_SRC_TAG") or ("ytlive" if LPFX == "l" else "twitch"))
         links.append({"n": n, "url": url, "slug": d["slug"], "name": short_name(d), "img": d["image"],
                       "price": money(d["price_usd"], lang), "off": f'-{round(d["discount"] * 100)}%'})
         (ldir / f"{n}.html").write_text(redirect_html(url), encoding="utf-8")

@@ -14,6 +14,9 @@ on:
         description: "Go live after rendering"
         type: boolean
         default: false
+      source:
+        description: "deals (all deals / gaming) or talia (Talia's Closet teen fashion)"
+        default: "deals"
       manual:
         description: "Ash asked for this live (the Cloudflare daily cron does not send this, so it is skipped)"
         type: boolean
@@ -21,7 +24,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: live-${{ inputs.target || 'youtube' }}
+  group: live-${{ inputs.target || 'youtube' }}-${{ inputs.source || 'deals' }}
 jobs:
   live:
     # 27.11: Ash wants lives only on request, no automatic daily YouTube live
@@ -41,15 +44,17 @@ jobs:
           python -m playwright install chromium || timeout 300 python -m playwright install --with-deps chromium
       - name: Render
         env:
-          LIVE_THEME: ${{ inputs.target == 'twitch' && 'gaming' || '' }}
-          LIVE_PREFIX: ${{ inputs.target == 'twitch' && 'g' || 'l' }}
-          LIVE_PER: ${{ inputs.target == 'twitch' && '12' || '15' }}
-          LIVE_MIN: ${{ inputs.target == 'twitch' && '20' || '10' }}
+          LIVE_SOURCE: ${{ inputs.source == 'talia' && 'talia' || '' }}
+          LIVE_THEME: ${{ inputs.source != 'talia' && inputs.target == 'twitch' && 'gaming' || '' }}
+          LIVE_PREFIX: ${{ inputs.source == 'talia' && 't' || (inputs.target == 'twitch' && 'g' || 'l') }}
+          LIVE_SRC_TAG: ${{ inputs.target == 'twitch' && 'twitch' || 'ytlive' }}
+          LIVE_PER: ${{ inputs.source != 'talia' && inputs.target == 'twitch' && '12' || '15' }}
+          LIVE_MIN: ${{ inputs.source != 'talia' && inputs.target == 'twitch' && '20' || '10' }}
         run: mkdir -p out && python -m video.live ${{ inputs.lang || 'en' }} && cat out/live_description_${{ inputs.lang || 'en' }}.txt
       - name: Publish short links
         run: |
           git config user.name bot && git config user.email bot@users.noreply.github.com
-          git add -f data/live_links*.json public/l public/g 2>/dev/null || git add -f data/live_links*.json public/l
+          git add -f data/live_links*.json public/l public/g public/t 2>/dev/null || git add -f data/live_links*.json public/l
           git -c user.name=bot -c user.email=bot@users.noreply.github.com commit -qm "Live stream short links" || exit 0
           git push -q || (git fetch -q origin main && git rebase -X theirs origin/main && git push -q)
       - uses: actions/upload-artifact@v4
@@ -83,5 +88,5 @@ jobs:
             OUTS="[f=flv]rtmp://x.rtmp.youtube.com/live2/$YT"; LOOP=0
           fi
           sleep 150   # let Cloudflare publish the short links
-          ( sleep 45; python -m video.announce "$TARGET" ) &
+          ( sleep 45; python -m video.announce "$TARGET" "${{ inputs.source }}" ) &
           ffmpeg -loglevel warning -re -stream_loop $LOOP -i out/live_${{ inputs.lang || 'en' }}.mp4 -map 0 -c copy -tag:v 7 -tag:a 10 -f tee "$OUTS"
