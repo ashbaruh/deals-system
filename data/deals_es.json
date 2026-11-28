@@ -1,31 +1,62 @@
 [
  {
-  "pid": "aliexpress:1005013679194609",
-  "store": "aliexpress",
-  "title": "New T-RX6 Ultra AMOLED Outdoor GPS Smart Watch Compass Health Sleep Monitoring 10ATM Waterproof Men's Sports Smartwatch For Men",
-  "price_usd": 36.85,
-  "old_price_usd": 106.98,
-  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013679194609.html%253Fpdp_npi%253D6%252540dis%252521USD%252521106.98%25252136.85%252521%252521%252521708.96%252521244.22%252521%2525402141315917958330443696096e0fa2%25252112000061871502505%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
-  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1a909ab09f194a8abb102a44ce09289dg.png",
+  "pid": "joom:6971ecfc416e8f011eb7605a",
+  "store": "joom",
+  "title": "Joma Cancha Jr 26 CAJS IN, para Niño zapatillas de fútbol sala amarillas 30 amarillo",
+  "price_usd": 51.09,
+  "old_price_usd": null,
+  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F6971ecfc416e8f011eb7605a%3Fcurrency%3DEUR%26utm_productid%3D6971ecfc416e8f011eb7605a%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTY0MzM5NjgsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY5NzFlY2ZjNDE2ZThmMDExZWI3NjA1YSIsInYiOiI2OTcxZWNmYzQxNmU4ZjBkMWViNzYwNjMiLCJjIjo0Ny4wfV19.gx4ro31cOtloUIHAw9dgS1rS8-cfFG4kApy7VhpK7dSSA9ENQHJeA1Y5egSzSxRLmli9swYDPAiIQc6U7L6agw%26variant_id%3D6971ecfc416e8f0d1eb76063%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_premium_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-28",
+  "image": "https://img.joomcdn.net/67ebb00bc96ae2f7ef98a0eb8e21efede39bbed7_original.jpeg",
   "rating": null,
   "orders": null,
-  "category": "Smart Electronics",
-  "niche": "watch",
-  "ships_to": [],
-  "title_local": "T-RX6 Ultra AMOLED GPS Smartwatch",
-  "commission": 0.0538,
-  "why": "Resistente al agua hasta 10ATM con GPS y AMOLED",
+  "category": "Joom/Deportes y ocio/Deportes de equipo/Fútbol/Zapatos de fútbol",
+  "niche": "sports",
+  "ships_to": [
+   "ES"
+  ],
+  "title_local": "Joma Cancha Jr 26 Zapatillas Fútbol Sala",
+  "commission": null,
+  "why": "Zapatillas de fútbol sala infantiles en color amarillo",
   "lang": "es",
-  "median_30d": 106.98,
-  "discount": 0.6555,
-  "heat": 80.8,
+  "median_30d": 51.09,
+  "discount": 0.0,
+  "heat": 40.0,
+  "history": [],
+  "showcase": true,
+  "slug": "joma-cancha-jr-26-cajs-in-para-ni-o-zapatillas-de-f-tbol-sal-011eb7605a",
+  "day": "2026-11-28"
+ },
+ {
+  "pid": "aliexpress:1005013688522126",
+  "store": "aliexpress",
+  "title": "Winter ice fishing rod, fishing reel, ice hook and ice skimmer combo, outdoor fishing gear set (hook color and style are sent ra",
+  "price_usd": 32.85,
+  "old_price_usd": 93.85,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013688522126.html%253Fpdp_npi%253D6%252540dis%252521USD%25252193.85%25252132.85%252521%252521%252521621.94%252521217.68%252521%2525402151fca717958287314607959e0d67%25252112000061844649836%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D1&i=5&f_id=50003",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/Sca6a0ce2f6e44059a71dc3ef05d78bead.jpg",
+  "rating": null,
+  "orders": null,
+  "category": "Fishing",
+  "niche": "sports",
+  "ships_to": [],
+  "title_local": "Set de pesca en hielo con caña, carrete y accesorios",
+  "commission": 0.11,
+  "why": "Equipo completo para pesca en hielo con caña, carrete y accesorios",
+  "lang": "es",
+  "median_30d": 93.85,
+  "discount": 0.65,
+  "heat": 89.6,
   "history": [
    [
+    "2026-11-25",
+    46.92
+   ],
+   [
     "2026-11-28",
-    36.85
+    32.85
    ]
   ],
-  "slug": "new-t-rx6-ultra-amoled-outdoor-gps-smart-watch-compass-healt-3679194609",
+  "slug": "winter-ice-fishing-rod-fishing-reel-ice-hook-and-ice-skimmer-3688522126",
   "day": "2026-11-28"
  },
  {
@@ -2587,6 +2618,35 @@
   "day": "2026-11-28"
  },
  {
+  "pid": "aliexpress:1005013679194609",
+  "store": "aliexpress",
+  "title": "New T-RX6 Ultra AMOLED Outdoor GPS Smart Watch Compass Health Sleep Monitoring 10ATM Waterproof Men's Sports Smartwatch For Men",
+  "price_usd": 36.85,
+  "old_price_usd": 106.98,
+  "url": "https://rzekl.com/g/1e8d11449413a2dc498e16525dc3e8/?ulp=https%3A%2F%2Fs.click.aliexpress.com%2Fdeep_link.htm%3Faff_short_key%3D_c3s1yQkJ%26dl_target_url%3Dhttps%253A%252F%252Fwww.aliexpress.com%252Fitem%252F1005013679194609.html%253Fpdp_npi%253D6%252540dis%252521USD%252521106.98%25252136.85%252521%252521%252521708.96%252521244.22%252521%2525402141315917958330443696096e0fa2%25252112000061871502505%252521affd%252521%252521%252521%2525211%2525210%252521%26hot_product%3D0&i=5&f_id=50002",
+  "image": "https://ae-pic-a1.aliexpress-media.com/kf/S1a909ab09f194a8abb102a44ce09289dg.png",
+  "rating": null,
+  "orders": null,
+  "category": "Smart Electronics",
+  "niche": "watch",
+  "ships_to": [],
+  "title_local": "T-RX6 Ultra AMOLED GPS Smartwatch",
+  "commission": 0.0538,
+  "why": "Resistente al agua hasta 10ATM con GPS y AMOLED",
+  "lang": "es",
+  "median_30d": 106.98,
+  "discount": 0.6555,
+  "heat": 80.8,
+  "history": [
+   [
+    "2026-11-28",
+    36.85
+   ]
+  ],
+  "slug": "new-t-rx6-ultra-amoled-outdoor-gps-smart-watch-compass-healt-3679194609",
+  "day": "2026-11-28"
+ },
+ {
   "pid": "aliexpress:1005013670296865",
   "store": "aliexpress",
   "title": "Bracelet Strap For Apple Watch Series 12 46mm Soft Silicone Wristband Case For iWatch 46mm Luxury Modifications Accessories",
@@ -3255,33 +3315,6 @@
    ]
   ],
   "slug": "35cm-living-room-decoration-net-celebrity-new-violent-bear-p-8177205204",
-  "day": "2026-11-28"
- },
- {
-  "pid": "joom:6971ecfc416e8f011eb7605a",
-  "store": "joom",
-  "title": "Joma Cancha Jr 26 CAJS IN, para Niño zapatillas de fútbol sala amarillas 30 amarillo",
-  "price_usd": 51.09,
-  "old_price_usd": null,
-  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F6971ecfc416e8f011eb7605a%3Fcurrency%3DEUR%26utm_productid%3D6971ecfc416e8f011eb7605a%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTYzNDc3MDgsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY5NzFlY2ZjNDE2ZThmMDExZWI3NjA1YSIsInYiOiI2OTcxZWNmYzQxNmU4ZjBkMWViNzYwNjMiLCJjIjo0Ny4wfV19.XDr9iWXsczzDm1Fr9ebMOwa0lIS95Fh_00OyXvXg6GggileKFhHnKuL6024aBgm-xay2xNs2pXbDUd_1908GLQ%26variant_id%3D6971ecfc416e8f0d1eb76063%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_premium_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-27",
-  "image": "https://img.joomcdn.net/67ebb00bc96ae2f7ef98a0eb8e21efede39bbed7_original.jpeg",
-  "rating": null,
-  "orders": null,
-  "category": "Joom/Deportes y ocio/Deportes de equipo/Fútbol/Zapatos de fútbol",
-  "niche": "sports",
-  "ships_to": [
-   "ES"
-  ],
-  "title_local": "Joma Cancha Jr 26 Zapatillas Fútbol Sala",
-  "commission": null,
-  "why": "Zapatillas de fútbol sala infantiles en color amarillo",
-  "lang": "es",
-  "median_30d": 51.09,
-  "discount": 0.0,
-  "heat": 40.0,
-  "history": [],
-  "showcase": true,
-  "slug": "joma-cancha-jr-26-cajs-in-para-ni-o-zapatillas-de-f-tbol-sal-011eb7605a",
   "day": "2026-11-28"
  },
  {
@@ -19210,97 +19243,5 @@
   ],
   "slug": "58mm-portafilter-wood-coffee-machine-bottomless-filter-porta-2845752283",
   "day": "2026-11-10"
- },
- {
-  "pid": "joom:681045a1ee70370119c9e58e",
-  "store": "joom",
-  "title": "Zapatos con Luz LED de Carga para Hombres y Mujeres Niños Adultos Patines Patinaje Caminar Ligeros Zapatos de Escape 43 white",
-  "price_usd": 48.91,
-  "old_price_usd": null,
-  "url": "https://xnmik.com/g/k1grq9wd9g13a2dc498ebe0d510ed1/?f_id=24374&ulp=https%3A%2F%2Fwww.joom.com%2Fes%2Fproducts%2F681045a1ee70370119c9e58e%3Fcurrency%3DEUR%26utm_productid%3D681045a1ee70370119c9e58e%26utm_freeze_token%3DeyJraWQiOiJ2MSIsInR5cCI6IkpXVCIsImFsZyI6IkVTMjU2In0.eyJleHAiOjE3OTYzNDc3MDgsInIiOiJFUyIsImMiOiJFVVIiLCJ2Ijp0cnVlLCJwcyI6W3sicCI6IjY4MTA0NWExZWU3MDM3MDExOWM5ZTU4ZSIsInYiOiI2ODEwNDVhMWVlNzAzNzA4MTljOWU1YTAiLCJjIjo0NS4wfV19.YXGx22O7lHIGSeb92e1zRxtJHQ-OD0T4dfG51yg1q-4AOzBnY97BwMStHxFdWH0tnOgU-43mdWaAtVcj_8hVdg%26variant_id%3D681045a1ee70370819c9e5a0%26gsAttrs%3DeyJyZWdpb24iOiJFUyJ9%26country%3DES%26utm_audienceid%3Dadvertising_web_admitad_2d%26utm_feed_id%3D935622805573705349%26utm_feed_date%3D2026-11-27",
-  "image": "https://img.joomcdn.net/4fda137cb0fa1fee3316887033dbdb7ccb1fbcaf_original.jpeg",
-  "rating": null,
-  "orders": null,
-  "category": "Joom/Deportes y ocio/Tipos de deportes/Patinetas y patines/Ruedos luminosas para patines",
-  "niche": "sports",
-  "ships_to": [
-   "ES"
-  ],
-  "title_local": "Zapatos con Luz LED USB y Patines",
-  "commission": null,
-  "why": "Calzado luminoso y versátil para caminar y patinar",
-  "lang": "es",
-  "median_30d": 153.26,
-  "discount": 0.6809,
-  "heat": 87.6,
-  "history": [
-   [
-    "2026-11-13",
-    156.52
-   ],
-   [
-    "2026-11-14",
-    156.52
-   ],
-   [
-    "2026-11-15",
-    156.52
-   ],
-   [
-    "2026-11-16",
-    153.26
-   ],
-   [
-    "2026-11-17",
-    153.26
-   ],
-   [
-    "2026-11-18",
-    153.26
-   ],
-   [
-    "2026-11-19",
-    153.26
-   ],
-   [
-    "2026-11-20",
-    153.26
-   ],
-   [
-    "2026-11-21",
-    153.26
-   ],
-   [
-    "2026-11-22",
-    153.26
-   ],
-   [
-    "2026-11-23",
-    153.26
-   ],
-   [
-    "2026-11-24",
-    153.26
-   ],
-   [
-    "2026-11-25",
-    153.26
-   ],
-   [
-    "2026-11-26",
-    55.43
-   ],
-   [
-    "2026-11-27",
-    48.91
-   ],
-   [
-    "2026-11-28",
-    48.91
-   ]
-  ],
-  "slug": "zapatos-con-luz-led-de-carga-para-hombres-y-mujeres-ni-os-ad-0119c9e58e",
-  "day": "2026-11-28",
-  "expired": true
  }
 ]
